@@ -8,3 +8,4 @@
 - [ ] Migration of Projects Page
 - [ ] Transfer domain to this page
 - [ ] Create Jekyll Template
+- [ ] Create Page for Movie and Book Data (Quantified Self Page)
