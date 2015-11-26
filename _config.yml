@@ -1,0 +1,18 @@
+# site information
+authors: "Jeremy Wong"
+description: "Craft By Zen Official Website"
+github_username: "jermspeaks"
+twitter_username: "jermspeaks"
+email: "jermspeaks@gmail.com"
+
+# Build Settings
+markdown: kramdown
+permalink: /:title/
+exclude: [README.markdown, Makefile]
+timezone: UTC
+encoding: utf-8
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://jermspeaks.github.io"
+gems: []
+sass:
+  sass_dir: _sass

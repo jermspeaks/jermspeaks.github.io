@@ -1,0 +1,22 @@
+{
+  "name": "jermspeaks.github.io",
+  "version": "0.1.0",
+  "description": "Craft By Zen website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jermspeaks/jermspeaks.github.io.git"
+  },
+  "keywords": [
+    "website"
+  ],
+  "author": "Jeremy Wong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jermspeaks/jermspeaks.github.io/issues"
+  },
+  "homepage": "https://github.com/jermspeaks/jermspeaks.github.io#readme"
+}
