@@ -2,7 +2,8 @@
   padding-top: 30px;
 }
 
-.landing-summary {
+.landing-summary,
+.landing-newsletter {
   padding-left: 40px;
   padding-right: 40px;
 }
@@ -29,5 +30,38 @@
 
   &:last-child {
     padding-bottom: 0;
+  }
+}
+
+.landing-newsletter {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.landing-newsletter-form {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-top: 1px solid #d6d2e7;
+  border-bottom: 1px solid #d6d2e7;
+  font-size: 14px;
+  font-family: serif;
+
+  div {
+    flex: 50%;
+  }
+}
+
+.landing-newsletter-desc {
+  font-style: italic;
+}
+
+.landing-newsletter-fields {
+  display: flex;
+  justify-content: space-around;
+
+
+  .landing-newsletter-submit {
+    height: 24px;
   }
 }

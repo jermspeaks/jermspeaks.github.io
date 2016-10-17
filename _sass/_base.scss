@@ -22,6 +22,11 @@ body {
     font-weight: 300;
     color: $text-color;
     background-color: rgb(189, 190, 189);
+    background:
+      radial-gradient(circle at 0% 50%, rgba(153, 153, 51, 0) 9px, #d6d2e7 10px, rgba(153, 153, 51, 0) 11px) 0px 10px,
+      radial-gradient(at 100% 100%,      rgba(153, 153, 51, 0) 9px, #d6d2e7 10px, rgba(153, 153, 51, 0) 11px),
+      #eae8f3;
+    background-size: 20px 20px;
     -webkit-text-size-adjust: 100%;
 }
 
