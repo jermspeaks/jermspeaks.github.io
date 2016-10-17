@@ -1,0 +1,62 @@
+---
+layout: default
+---
+<div class="home">
+  <section>
+    <!-- <svg> -->
+  </section>
+
+  <section>
+    <div class="main-left">
+      <nav class="site-nav">
+        <div class="trigger">
+          {% for page in site.pages %}
+            {% if page.title %}
+            <!-- <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>  -->
+            <!-- TODO add about page back -->
+
+            {% endif %}
+          {% endfor %}
+
+          <a class="page-link" href="/about">About</a>
+        </div>
+      </nav>
+    </div>
+    <div class="main-center">
+
+    </div>
+    <div class="main-right">
+
+    </div>
+  </section>
+
+  <section>
+    <div class="latest-blog">
+
+    </div>
+  </section>
+
+  <section>
+    <div class="newsletter">
+      <form style="border:1px solid #ccc;padding:3px;text-align:center;" action="https://tinyletter.com/jeremywong" method="post" target="popupwindow" onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true">
+        <p>
+          <label for="tlemail">Subscribe to my weekly email newsletter. I will typically write essays, opinions, or deep-dives. </label>
+        </p>
+        <p>
+          <input type="text" style="width:140px" name="email" id="tlemail" placeholder="email address"/>
+        </p>
+        <input type="hidden" value="1" name="embed"/>
+        <input type="submit" value="Subscribe" />
+        <p>
+          <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
+        </p>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <div class="footer">
+      <span>Footer</span>
+    </div>
+  </footer>
+</div>
