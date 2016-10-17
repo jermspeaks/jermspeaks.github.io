@@ -4,6 +4,22 @@ description: "Craft By Zen Official Website"
 github_username: "jermspeaks"
 twitter_username: "jermspeaks"
 email: "jermspeaks@gmail.com"
+github: https://github.com/jermspeaks/jermspeaks.github.io
+# kramdown:
+#   input: GFM
+#   hard_wrap: false
+# gems:
+#   - jekyll-coffeescript
+#   - jekyll-paginate
+# lsi: false
+# safe: true
+# source: [your repo's top level directory]
+# incremental: false
+# highlighter: rouge
+# gist:
+#   noscript: false
+# kramdown:
+#   math_engine: mathjax
 
 # Build Settings
 markdown: kramdown
@@ -13,6 +29,23 @@ timezone: UTC
 encoding: utf-8
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "localhost:4000"
-gems: []
-sass:
-  sass_dir: _sass
+# gems: []
+# sass:
+#   sass_dir: _sass
+gems:
+  - jekyll-assets
+assets:
+  compress:
+    css: false
+    js: false
+  cache: .asset-cache
+  cdn: https://cdn.example.com
+  skip_baseurl_with_cdn: false
+  skip_prefix_with_cdn: false
+  prefix: "/assets"
+  assets:
+    - "*.png"
+    - "bundle.css"
+  digest: true
+  sources:
+    - "_assets/folder"
