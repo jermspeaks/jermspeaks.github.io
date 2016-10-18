@@ -2,13 +2,13 @@
 layout: letter
 ---
 <div class="home">
-  <nav class="letters-nav">
+  <!-- <nav class="letters-nav">
     <ul>
       <li>
         <a href="/">Home</a>
       </li>
     </ul>
-  </nav>
+  </nav> -->
 
   <section>
     <ul>
@@ -16,7 +16,13 @@ layout: letter
         {% if page.categories contains 'letters' %}
           {% if page.title %}
           <li>
-            <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            <div>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </div>
+            <div>
+              <span>Published</span>
+              <span>{{ page.date | date: '%B %d, %Y' }}</span>
+            </div>
           </li>
           {% endif %}
         {% endif %}
