@@ -49,3 +49,8 @@ assets:
   digest: true
   sources:
     - "_assets/folder"
+
+# collections:
+#   letters:
+#     output: true
+#     permalink: /letters/:path/
