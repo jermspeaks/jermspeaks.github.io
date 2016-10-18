@@ -1,4 +1,4 @@
-.contact-list, .social-media-list, .post-list, .letter-list, .blog-list { margin: 0; list-style-type: none; }
+.contact-list, .social-media-list, .post-list, .letter-list, .blog-list, .post-footer-list { margin: 0; list-style-type: none; }
 
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
@@ -487,6 +487,9 @@ td, th { padding: 0; }
 
 .letter-title { font-size: 1.5em; }
 
-.blog-list > li { margin-bottom: 30px; }
+.post-footer-nav { border-top: 2px solid rgba(200, 200, 200, 0.7); }
+
+.blog-list, .post-footer-list { padding-top: 20px; }
+.blog-list > li, .post-footer-list > li { margin-bottom: 30px; }
 
 .blog-title { font-size: 1.5em; }

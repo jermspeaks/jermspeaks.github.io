@@ -1,5 +1,11 @@
-.blog-list {
+.post-footer-nav {
+  border-top: 2px solid rgba(200, 200, 200, .7);
+}
+
+.blog-list,
+.post-footer-list {
   @extend %normalize-list;
+  padding-top: 20px;
 
   > li {
       margin-bottom: $spacing-unit;
