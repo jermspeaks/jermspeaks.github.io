@@ -1,0 +1,32 @@
+---
+layout: post
+---
+<div class="home">
+  <!-- <nav class="letters-nav">
+    <ul>
+      <li>
+        <a href="/">Home</a>
+      </li>
+    </ul>
+  </nav> -->
+
+  <section>
+    <ul>
+      {% for page in site.posts %}
+        {% unless page.categories contains 'letters' %}
+          {% if page.title %}
+          <li>
+            <div>
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </div>
+            <div>
+              <span>Published</span>
+              <span>{{ page.date | date: '%B %d, %Y' }}</span>
+            </div>
+          </li>
+          {% endif %}
+        {% endunless %}
+      {% endfor %}
+  </ul>
+  </section>
+</div>

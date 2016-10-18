@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>vimtutor notes</title>
+  <meta name="description" content="Vim Tutor">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="localhost:4000/vimtutor/">
+  <link rel="alternate" type="application/rss+xml" title="" href="localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <section class="container">
+
+      <header>
+        <h1>Blog</h1>
+      </header>
+
+      <div class="page-content">
+        <div class="wrapper">
+          <h1 id="vim-tutor">Vim Tutor</h1>
+
+<p>Vim tutor is a great guide to get you started with vim.</p>
+
+<h2 id="getting-started">Getting Started</h2>
+
+<p>To start with Vim Tutor, simply type <code class="highlighter-rouge">vimtutor</code> in your terminal.</p>
+
+<p>The tutorial says it should take about 25 to 30 minutes, but because I was also messing around with writing up this post and including their lesson summaries, all trying to use vim, I spend a bit longer with it.</p>
+
+<p>If you’re running low on time, I’d say do each lesson in a 5 to 10 minute window span each day. You’re allowed to take it slow.</p>
+
+<p>I learned it’s about the journey, not about the speed in which it takes for you to pick it up. It’s there where you can start nitpicking on how to do “x” or “y”.</p>
+
+<p>The next following sections are summaries of what vim tutor teaches you. I modified some of the summaries to best fit markdown format.</p>
+
+<h2 id="lesson-1-summary">Lesson 1 Summary</h2>
+
+<ol>
+  <li>The cursor is moved using either the arrow keys or the hjkl keys.</li>
+</ol>
+
+<ul>
+  <li><code class="highlighter-rouge">h</code> (left)</li>
+  <li><code class="highlighter-rouge">j</code> (down)</li>
+  <li><code class="highlighter-rouge">k</code> (up)</li>
+  <li><code class="highlighter-rouge">l</code> (right)</li>
+</ul>
+
+<ol>
+  <li>
+    <p>To start Vim from the shell prompt type: <code class="highlighter-rouge">vim FILENAME &lt;ENTER&gt;</code></p>
+  </li>
+  <li>
+    <p>To exit Vim type: <code class="highlighter-rouge">&lt;ESC&gt;</code> <code class="highlighter-rouge">:q!</code> <code class="highlighter-rouge">&lt;ENTER&gt;</code> to trash all changes.
+  OR type: <code class="highlighter-rouge">&lt;ESC&gt;</code> <code class="highlighter-rouge">:wq</code> <code class="highlighter-rouge">&lt;ENTER&gt;</code> to save the changes.</p>
+  </li>
+  <li>
+    <p>To delete the character at the cursor type: <code class="highlighter-rouge">x</code></p>
+  </li>
+  <li>
+    <p>To insert or append text type:
+  <code class="highlighter-rouge">i</code>   type inserted text   <code class="highlighter-rouge">&lt;ESC&gt;</code>    insert before the cursor
+  <code class="highlighter-rouge">A</code>   type appended text   <code class="highlighter-rouge">&lt;ESC&gt;</code>    append after the line</p>
+  </li>
+</ol>
+
+<p><strong>NOTE</strong>: Pressing <code class="highlighter-rouge">&lt;ESC&gt;</code> will place you in Normal mode or will cancel an unwanted and partially completed command.</p>
+
+<h2 id="lesson-2-summary">Lesson 2 Summary</h2>
+
+<ol>
+  <li>
+    <p>To delete from the cursor up to the next word type: <code class="highlighter-rouge">dw</code></p>
+  </li>
+  <li>
+    <p>To delete from the cursor to the end of a line type: <code class="highlighter-rouge">d$</code></p>
+  </li>
+  <li>
+    <p>To delete a whole line type: <code class="highlighter-rouge">dd</code></p>
+  </li>
+  <li>
+    <p>To repeat a motion prepend it with a number: <code class="highlighter-rouge">2w</code></p>
+  </li>
+  <li>
+    <p>The format for a change command is:</p>
+  </li>
+</ol>
+
+<p><code class="highlighter-rouge">
+  operator [number] motion
+ </code></p>
+
+<p>where:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>- **operator** - is what to do, such as  d  for delete
+- **[number]** - is an optional count to repeat the motion
+- **motion**   - moves over the text to operate on, such as  w (word), (to the end of line), etc.
+</code></pre>
+</div>
+
+<ol>
+  <li>
+    <p>To move to the start of the line use a zero: <code class="highlighter-rouge">0</code></p>
+  </li>
+  <li>
+    <p>Undo &amp; redo actions</p>
+  </li>
+</ol>
+
+<ul>
+  <li>To undo previous actions, type:            <code class="highlighter-rouge">u</code>  (lowercase u)</li>
+  <li>To undo all the changes on a line, type:  <code class="highlighter-rouge">U</code>  (capital U)</li>
+  <li>To undo the undo’s, type:                 <code class="highlighter-rouge">CTRL-R</code></li>
+</ul>
+
+<h2 id="lesson-3-summary">Lesson 3 Summary</h2>
+
+<ol>
+  <li>
+    <p>To put back text that has just been deleted, type <code class="highlighter-rouge">p</code> .  This puts the
+deleted text <strong>AFTER</strong> the cursor (if a line was deleted it will go on the
+line below the cursor).</p>
+  </li>
+  <li>
+    <p>To replace the character under the cursor, type <code class="highlighter-rouge">r</code> and then the
+character you want to have there.</p>
+  </li>
+  <li>
+    <p>The change operator allows you to change from the cursor to where the
+motion takes you. eg. Type <code class="highlighter-rouge">ce</code> to change from the cursor to the end of
+the word, <code class="highlighter-rouge">c$</code> to change to the end of a line.</p>
+  </li>
+  <li>
+    <p>The format for change is:</p>
+  </li>
+</ol>
+
+<p><code class="highlighter-rouge">
+  c [number] motion
+ </code></p>
+
+<h2 id="lesson-4-summary">Lesson 4 Summary</h2>
+
+<ol>
+  <li><code class="highlighter-rouge">CTRL-G</code>  displays your location in the file and the file status.</li>
+</ol>
+
+<ul>
+  <li><code class="highlighter-rouge">G</code>  moves to the end of the file.</li>
+  <li><code class="highlighter-rouge">[number] G</code> moves to that line number.</li>
+  <li><code class="highlighter-rouge">gg</code>  moves to the first line.</li>
+</ul>
+
+<ol>
+  <li>Find command</li>
+</ol>
+
+<ul>
+  <li>Typing <code class="highlighter-rouge">/</code> followed by a phrase searches <strong>FORWARD</strong> for the phrase.</li>
+  <li>Typing <code class="highlighter-rouge">?</code> followed by a phrase searches <strong>BACKWARD</strong> for the phrase.</li>
+  <li>After a search type  n  to find the next occurrence in the same direction</li>
+  <li>or <code class="highlighter-rouge">N</code> to search in the opposite direction.</li>
+  <li><code class="highlighter-rouge">CTRL-O</code> takes you back to older positions, CTRL-I to newer positions.</li>
+</ul>
+
+<ol>
+  <li>
+    <p>Typing <code class="highlighter-rouge">%</code> while the cursor is on a <strong>(</strong> , <strong>)</strong>, <strong>[</strong>, <strong>]</strong>, <strong>{</strong>, or <strong>}</strong> goes to its match.</p>
+  </li>
+  <li>
+    <p>Substitute command</p>
+  </li>
+</ol>
+
+<ul>
+  <li>To substitute new for the first old in a line type <code class="highlighter-rouge">:s/old/new</code></li>
+  <li>To substitute new for all ‘old’s on a line type <code class="highlighter-rouge">:s/old/new/g</code></li>
+  <li>To substitute phrases between two line #’s type <code class="highlighter-rouge">:#,#s/old/new/g</code></li>
+  <li>To substitute all occurrences in the file type <code class="highlighter-rouge">:%s/old/new/g</code></li>
+  <li>To ask for confirmation each time add <strong>c</strong> <code class="highlighter-rouge">:%s/old/new/gc</code></li>
+</ul>
+
+<h2 id="lesson-5-summary">Lesson 5 Summary</h2>
+
+<ol>
+  <li><code class="highlighter-rouge">:!command</code> executes an external command.</li>
+</ol>
+
+<p>Some useful examples are:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>(MS-DOS)</th>
+      <th>(Unix)</th>
+      <th>description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="highlighter-rouge">:!dir</code></td>
+      <td><code class="highlighter-rouge">:!ls</code></td>
+      <td>shows a directory listing</td>
+    </tr>
+    <tr>
+      <td><code class="highlighter-rouge">:!del FILENAME</code></td>
+      <td><code class="highlighter-rouge">:!rm FILENAME</code></td>
+      <td>removes file FILENAME</td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>
+    <p><code class="highlighter-rouge">:w FILENAME</code> writes the current Vim file to disk with name <strong>FILENAME</strong>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">v motion :w FILENAME</code> saves the Visually selected lines in file <strong>FILENAME</strong>.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">:r FILENAME</code> retrieves disk file <strong>FILENAME</strong> and puts it below the cursor position.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">:r !dir</code> reads the output of the dir command and puts it below the cursor position.</p>
+  </li>
+</ol>
+
+<h2 id="lesson-6-summary">Lesson 6 Summary</h2>
+
+<ol>
+  <li>Open a line in insert mode</li>
+</ol>
+
+<ul>
+  <li>Type <code class="highlighter-rouge">o</code> to open a line <strong>BELOW</strong> the cursor and start Insert mode.</li>
+  <li>Type <code class="highlighter-rouge">O</code> to open a line <strong>ABOVE</strong> the cursor.</li>
+</ul>
+
+<ol>
+  <li>Append text</li>
+</ol>
+
+<ul>
+  <li>Type <code class="highlighter-rouge">a</code> to insert text AFTER the cursor.</li>
+  <li>Type <code class="highlighter-rouge">A</code> to insert text after the end of the line.</li>
+</ul>
+
+<ol>
+  <li>
+    <p>The <code class="highlighter-rouge">e</code> command moves to the end of a word.</p>
+  </li>
+  <li>
+    <p>The <code class="highlighter-rouge">y</code> operator yanks (copies) text, <code class="highlighter-rouge">p</code> puts (pastes) it.</p>
+  </li>
+  <li>
+    <p>Typing a capital <code class="highlighter-rouge">R</code> enters Replace mode until <code class="highlighter-rouge">&lt;ESC&gt;</code> is pressed.</p>
+  </li>
+  <li>
+    <p>Typing <code class="highlighter-rouge">:set xxx</code> sets the option <code class="highlighter-rouge">xxx</code>.  Some options are:</p>
+  </li>
+</ol>
+
+<ul>
+  <li><code class="highlighter-rouge">ic</code> <code class="highlighter-rouge">ignorecase</code>       ignore upper/lower case when searching</li>
+  <li><code class="highlighter-rouge">is</code> <code class="highlighter-rouge">incsearch</code>        show partial matches for a search phrase</li>
+  <li><code class="highlighter-rouge">hls</code> <code class="highlighter-rouge">hlsearch</code>        highlight all matching phrases</li>
+</ul>
+
+<p>You can either use the long or the short option name.</p>
+
+<ol>
+  <li>Prepend <code class="highlighter-rouge">no</code> to switch an option off: <code class="highlighter-rouge">:set noic</code></li>
+</ol>
+
+<h2 id="lesson-7-summary">Lesson 7 Summary</h2>
+
+<ol>
+  <li>
+    <p>Type <code class="highlighter-rouge">:help</code> or press <code class="highlighter-rouge">&lt;F1&gt;</code> or <code class="highlighter-rouge">&lt;Help&gt;</code> to open a help window.</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">:help cmd</code> to find help on <strong>cmd</strong>.</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">CTRL-W CTRL-W</code> to jump to another window</p>
+  </li>
+  <li>
+    <p>Type <code class="highlighter-rouge">:q</code> to close the help window</p>
+  </li>
+  <li>
+    <p>Create a vimrc startup script to keep your preferred settings.</p>
+  </li>
+  <li>
+    <p>When typing a <code class="highlighter-rouge">:</code> command, press <code class="highlighter-rouge">CTRL-D</code> to see possible completions. Press <code class="highlighter-rouge">&lt;TAB&gt;</code> to use one completion.</p>
+  </li>
+</ol>
+
+<h2 id="post-tutorial-reflection">Post Tutorial Reflection</h2>
+
+<p>The tutorial got me through the basics, and only scraps the surface of what you can do with vim. One of the things I found useful after going through this tutorial was saying out loud what the command I was using does.</p>
+
+<p>For example, if I was using the <code class="highlighter-rouge">w</code> command, I would say “word”. If I was going to the word, and I was using the <code class="highlighter-rouge">diw</code> command, I would say “delete instance word”. Using words instead of letters helps with getting the commands down. It’s the same technique I used when learning the bash terminal, e.g. with <code class="highlighter-rouge">pwd</code>, I would say in my head, “print working directory”.</p>
+
+<p>I wrote up a much longer post about vim that I will publish soon.</p>
+
+        </div>
+      </div>
+
+      <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading"></h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><a href="mailto:jermspeaks@gmail.com">jermspeaks@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jermspeaks">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">jermspeaks</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jermspeaks">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jermspeaks</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Craft By Zen Official Website</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+
+
+
+<!--     <a href="https://github.com/jermspeaks/jermspeaks.github.io">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a> -->
+
+  </div>
+
+</footer>
+
+
+    </section>
+
+
+
+  </body>
+
+</html>

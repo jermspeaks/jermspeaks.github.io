@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>YDKJS Part 1: Up & Going</title>
+  <meta name="description" content="You Don’t Know JS">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="localhost:4000/you-dont-know-js-1/">
+  <link rel="alternate" type="application/rss+xml" title="" href="localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <section class="container">
+
+      <header>
+        <h1>Blog</h1>
+      </header>
+
+      <div class="page-content">
+        <div class="wrapper">
+          <h1 id="you-dont-know-js">You Don’t Know JS</h1>
+
+<h2 id="pt-1---up--going">Pt. 1 - Up &amp; Going</h2>
+
+<h3 id="reader-note">Reader Note</h3>
+
+<p>I’ve been a Javascript developer for the past year and a half. By reading the “You don’t Know Javascript” series, I’m hoping to hone my vanilla Javascript skills and have a deeper knowledge of the language.</p>
+
+<p>In Up &amp; Going, I’m hoping to review the basics and understand more deeply why the language has the set of tools it has, and perhaps a deeper understanding of why we write Javascript the way we do.</p>
+
+<h3 id="forward-by-jenn-lucashttpjennlukascom">Forward by <a href="http://jennlukas.com/">Jenn Lucas</a></h3>
+
+<ul>
+  <li>Lightbulb moment - the feeling when you got it.
+    <ul>
+      <li>Leading to this moment, you are frustrated</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>When you strive to comprehend your code, you create better work and become better at what you do.</p>
+</blockquote>
+
+<h3 id="preface">Preface</h3>
+
+<blockquote>
+  <p>This You Don’t Know JavaScript book series offers a contrary challenge: learn and deeply understand all of JavaScript, even and especially “The Tough Parts”.</p>
+</blockquote>
+
+<ul>
+  <li>I like this attitude as it focuses on the bits of the language I have to deal with time and time again. It helps me understand the behavior of Javascript without blindly looking at a <strong>TypeError</strong> with a quizzical expression.
+    <ul>
+      <li>i.e. Cut out the buzzwords. Learn the language</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="chapter-1-into-programming">Chapter 1: Into Programming</h3>
+
+<ul>
+  <li>Explains programming at a high level. I may skip large sections of this.</li>
+  <li><em>literal value</em> are values that are itself and are not stored. e.g. in the statement, <code class="highlighter-rouge">y = x + 4;</code>, 4 is a <em>literal value</em>.</li>
+  <li>Expressions are the reference to variables, values, or set of variable(s) and value(s) combined with operators.
+    <ul>
+      <li><em>Assignment expressions</em> assign a variable to another expression</li>
+      <li>I’m reviewing this because these basic building blocks can be fundamentally different. In <strong>Go</strong>, assignments can be completely different</li>
+    </ul>
+  </li>
+  <li>Review later: Javascript compiling in the first two chapters of <em>Scope &amp; Closures</em></li>
+  <li>The <code class="highlighter-rouge">prompt()</code> function opens an alert with an input. You can assign the function with a variable. <code class="highlighter-rouge">age = prompt("What is your age?");</code></li>
+  <li>We take it for granted that specifying the variable in an assignment is typically on the left.
+    <ul>
+      <li>Side tangent: Are there languages that do the opposite?</li>
+    </ul>
+  </li>
+  <li>Some lesser known assignments in JS include
+    <ul>
+      <li>Remainder assignment <code class="highlighter-rouge">x %= y</code></li>
+      <li>Shift assignments <code class="highlighter-rouge">x &lt;&lt;= y</code>
+        <ul>
+          <li>Shift bits left or right by a certain amount. The above example shifts bits to the left.</li>
+        </ul>
+      </li>
+      <li>Bitwise assignments <code class="highlighter-rouge">x &amp;= y</code> or <code class="highlighter-rouge">x = x &amp; y</code>
+        <ul>
+          <li>The above example pertains to bits, using an AND logic.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h4 id="and-logic-table">AND logic table</h4>
+
+<table>
+  <thead>
+    <tr>
+      <th>Bit</th>
+      <th>Bit</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>1</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+  </tbody>
+</table>
+
+<ul>
+  <li>values added to the source code are called <em>literals</em></li>
+  <li><strong>Implicit coersion</strong> is when you’re making a comparison against two different types. The <code class="highlighter-rouge">==</code> operation is ‘loosely equal’ and uses implicit coersion. For this reason, it should be avoided because it can cause unexpected bugs.
+    <ul>
+      <li>More on this later in Chapter 2 of this title &amp; Chapter 4 of <em>Types &amp; Grammar</em></li>
+    </ul>
+  </li>
+  <li>Code comments help other humans understand your code. It’s a communication point.</li>
+</ul>
+
+<blockquote>
+  <p>Comments should explain why, not what. They can optionally explain how if that’s particularly confusing.</p>
+</blockquote>
+
+<ul>
+  <li>Note to self - focus on why, and less on what.</li>
+  <li><em>Static Typing</em> - variables adhere to <em>type enforcement</em></li>
+  <li><em>Dynamic Typing</em> - allows a variable to represent a value regardless of type. Javascript adheres to this.</li>
+  <li><em>State</em> is tracking changes to values as the program runs. In redux, we keep a global state to track the user’s progress through the application.</li>
+  <li>Constants are declared once and don’t change. In ES6, when you declare a constant once, it throws an error if there is an attempt to change it. This is like the static-tying type enforcement.</li>
+  <li>A group of series of statements strung together are called a <em>block</em>. A <em>block</em> is contained within curly brackets. <code class="highlighter-rouge"><span class="p">{</span><span class="w"> </span><span class="err">..</span><span class="w"> </span><span class="p">}</span></code>
+    <ul>
+      <li>In <em>Ruby</em>, there are different ways to show a block. In fact, there are different types of blocks, like your general block, procs, and lambdas.</li>
+    </ul>
+  </li>
+  <li>Conditions throw an error if its expression between the parentheses are not a boolean.</li>
+  <li>“Falsy” values are converted to the boolean <code class="highlighter-rouge">false</code>. “Truthy” values do the opposite. More on this in Chapter 4 of <code class="highlighter-rouge">Types &amp; Grammar</code></li>
+  <li>An <em>iteration</em> occurs each time a block is called.</li>
+</ul>
+
+<blockquote>
+  <p><strong>Warning:</strong> For a variety of historical reasons, programming languages almost always count things in a zero-based fashion, meaning starting with 0 instead of 1. If you’re not familiar with that mode of thinking, it can be quite confusing at first. Take some time to practice counting starting with 0 to become more comfortable with it!</p>
+</blockquote>
+
+<ul>
+  <li>I rarely use <code class="highlighter-rouge">do..while</code> loops. Here’s the syntax.</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">do</span> <span class="p">{</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'How may I help you?'</span><span class="p">);</span>
+  <span class="c1">// Help the customer</span>
+  <span class="nx">numOfCustomers</span> <span class="o">=</span> <span class="nx">numOfCustomers</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
+<span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="nx">numOfCustomer</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">);</span>
+</code></pre>
+</div>
+
+<ul>
+  <li>Like <strong>C</strong>, the Javascript for loop has three clauses.
+    <ol>
+      <li>The initialization clause</li>
+      <li>The conditional clause</li>
+      <li>The update clause</li>
+    </ol>
+  </li>
+  <li>Reusable pieces of code can be gathered into a <em>function</em></li>
+  <li>The <em>lexical scope</em>, or <em>scope</em>, is the programming term to tell us where our variables can be accessed.</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">outer</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+    <span class="kd">function</span> <span class="nx">inner</span><span class="p">()</span> <span class="p">{</span>
+        <span class="kd">var</span> <span class="nx">b</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+
+        <span class="c1">// we can access both `a` and `b` here</span>
+        <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">b</span> <span class="p">);</span>   <span class="c1">// 3</span>
+    <span class="p">}</span>
+
+    <span class="nx">inner</span><span class="p">();</span>
+
+    <span class="c1">// we can only access `a` here</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">a</span> <span class="p">);</span>           <span class="c1">// 1</span>
+<span class="p">}</span>
+
+<span class="nx">outer</span><span class="p">();</span>
+</code></pre>
+</div>
+
+<p>In the example, you can’t call <code class="highlighter-rouge">inner();</code> on the outermost scope. It can only be called within the <code class="highlighter-rouge">outer</code> function scope, as shown.</p>
+
+<ul>
+  <li>More on lexical scope in the first three chapters of <em>Scope &amp; Closures</em></li>
+</ul>
+
+<h3 id="chapter-2-into-javascript">Chapter 2. Into Javascript</h3>
+
+<p><strong>Note:</strong> After reading through the first chapter, I realize I don’t really need to review too much. I’m going to skim this chapter and only note the things that I really think are worthwhile. Otherwise, I will keep notes on this chapter to a minimum.</p>
+
+<ul>
+  <li>No value set type is <code class="highlighter-rouge">undefined</code>.</li>
+  <li>I didn’t know <code class="highlighter-rouge">null</code> is an object type. Weird bug probably will never get fixed.</li>
+</ul>
+
+<blockquote>
+  <p><code class="highlighter-rouge">typeof null</code> is an interesting case, because it errantly returns “object”, when you’d expect it to return “null”.</p>
+</blockquote>
+
+<ul>
+  <li>To learn: Javascript’s <code class="highlighter-rouge">symbols</code>. I’m well aware of <strong>Ruby’s</strong> implementation of symbols like <code class="highlighter-rouge">:symbol_example</code>, which are used in many different contexts like classes. Will elaborate more on this in the ES6 portion.</li>
+  <li>Arrays and functions are subtypes to objects. In my introduction to JS, I assumed “everything is an object”.</li>
+  <li>Built-In Type Methods extend the power of Javascript. These methods are like <code class="highlighter-rouge">String.prototype.toUpperCase</code>.</li>
+  <li><em>Coercion</em> comes in two forms: <em>explicit</em> and <em>implicit</em>
+    <ul>
+      <li><em>explicit</em> is with both types the same.</li>
+      <li><em>implicit</em> is when type conversion can happen.</li>
+    </ul>
+  </li>
+  <li>Coercion is not evil. There are times when you may need to convert types.</li>
+  <li>List of falsy:
+    <ul>
+      <li><code class="highlighter-rouge">""</code> (empty string)</li>
+      <li><code class="highlighter-rouge">0</code>, <code class="highlighter-rouge">-0</code>, <code class="highlighter-rouge">NaN</code></li>
+      <li><code class="highlighter-rouge">null</code>, <code class="highlighter-rouge">undefined</code></li>
+      <li><code class="highlighter-rouge">false</code></li>
+    </ul>
+  </li>
+  <li>Things that can be truthy
+    <ul>
+      <li>non-empty strings</li>
+      <li>non-zero, valid numbers</li>
+      <li><code class="highlighter-rouge">true</code></li>
+      <li>arrays, empty or non-empty</li>
+      <li>objects, empty or non-empty</li>
+      <li>functions</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">==</code> checks for value equality. Coercion allowed.</li>
+  <li><code class="highlighter-rouge">===</code> checks for value and type equality. Coercion not allowed. Also known as <code class="highlighter-rouge">strict equality</code></li>
+</ul>
+
+<p>Some simple rules for equality of when to use <code class="highlighter-rouge">==</code> or <code class="highlighter-rouge">===</code>.</p>
+
+<blockquote>
+  <p>If either value (aka side) in a comparison could be the true or false value, avoid == and use ===.</p>
+</blockquote>
+
+<blockquote>
+  <p>If either value in a comparison could be of these specific values (0, “”, or [] – empty array), avoid == and use ===.</p>
+</blockquote>
+
+<blockquote>
+  <p>In all other cases, you’re safe to use ==. Not only is it safe, but in many cases it simplifies your code in a way that improves readability.</p>
+</blockquote>
+
+<ul>
+  <li>I’ve played it safe with this, but I may revisit using <code class="highlighter-rouge">==</code> more often, if it doesn’t violate the rules. <strong>Important note:</strong> think critically before use.</li>
+</ul>
+
+<blockquote>
+  <p>You might think that two arrays with the same contents would be == equal, but they’re not</p>
+</blockquote>
+
+<ul>
+  <li>This just confuses me. MDN breaks down the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness">“Abstract Equality Comparison Algorithm”</a>.</li>
+  <li>Inequality operators follow implicit coercion</li>
+  <li>When comparing numbers with strings, the strings get coerced into a number. When the string contains non-number characters, it gets converted to <code class="highlighter-rouge">NaN</code> and when comparing with <code class="highlighter-rouge">&lt;</code> or <code class="highlighter-rouge">&gt;</code>, <code class="highlighter-rouge">NaN</code> is neither greater nor less than a value, hence returns <code class="highlighter-rouge">false</code>.</li>
+  <li><em>Hoisting</em> is when a variable is moved to the top of the enclosing scope. (conceptually speaking)</li>
+  <li>Okay to use a function before it is declared as function declarations are hoisted. Generally not good with variables.</li>
+  <li>Use <code class="highlighter-rouge">let</code> for block scoped variables. For example, in an <code class="highlighter-rouge">if</code> block, you declare a variable you only want to be used within that block, use <code class="highlighter-rouge">let</code>.</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+    <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
+
+    <span class="k">if</span> <span class="p">(</span><span class="nx">a</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+        <span class="kd">let</span> <span class="nx">b</span> <span class="o">=</span> <span class="mi">2</span><span class="p">;</span>
+
+        <span class="k">while</span> <span class="p">(</span><span class="nx">b</span> <span class="o">&lt;</span> <span class="mi">5</span><span class="p">)</span> <span class="p">{</span>
+            <span class="kd">let</span> <span class="nx">c</span> <span class="o">=</span> <span class="nx">b</span> <span class="o">*</span> <span class="mi">2</span><span class="p">;</span>
+            <span class="nx">b</span><span class="o">++</span><span class="p">;</span>
+
+            <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="nx">a</span> <span class="o">+</span> <span class="nx">c</span> <span class="p">);</span>
+        <span class="p">}</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">foo</span><span class="p">();</span>
+<span class="c1">// 5 7 9</span>
+</code></pre>
+</div>
+
+<ul>
+  <li><code class="highlighter-rouge">Strict mode</code> was introduced in <strong>ES5</strong>. Noted with <code class="highlighter-rouge">"use strict"</code>.</li>
+  <li>Strict mode disallows implicit auto-global variable declaration from omitting the <code class="highlighter-rouge">var</code>.</li>
+  <li>I feel computer science needs to put unnecessarily long titles to items. <strong>Immediately invoked function expressions (IIFE)</strong> are involved upon declaration.</li>
+</ul>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="kd">function</span> <span class="nx">IIFE</span><span class="p">(){</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="s2">"Hello!"</span> <span class="p">);</span>
+<span class="p">})();</span>
+<span class="c1">// "Hello!"</span>
+</code></pre>
+</div>
+
+<ul>
+  <li>An example use case was with <a href="http://www.highcharts.com/">Highcharts</a> and creating an options object. You can’t always assign a key with a function, so this is one way around it.</li>
+  <li><strong>Closure</strong> is a way to “remember” and continue to access a function’s scope.
+    <ul>
+      <li>I think of this as a way to tweak functions without having to write out more functions.</li>
+      <li>This is least understood by JS developers, and I think I know why. To me, it’s a function generator, although that’s an improper term because Javascript can create a generator function, which is a totally different topic.</li>
+    </ul>
+  </li>
+</ul>
+
+<blockquote>
+  <p>The most common usage of closure in Javascript is the module pattern. Modules let you define private implementation details (variables, functions) that are hidden from the outside world, as well as a public API that is accessible from the outside.</p>
+</blockquote>
+
+<ul>
+  <li>Executing the module as a function creates an instance of that module.</li>
+  <li>The <code class="highlighter-rouge">this</code> operator reference depends on how the function is called. That will determine what <code class="highlighter-rouge">this</code> is. There are four rules of how <code class="highlighter-rouge">this</code> gets set. More on this later in the <code class="highlighter-rouge">this &amp; Object Prototype</code> book.</li>
+  <li>Prototype links allow one object to delegate properties from another object. What this means is a property prototype linked is not attached to that object but to its original object (which could in turn, just be the <strong>proto</strong> property of Object).</li>
+  <li>Do not think of applying prototypes as inheritance. It follows a pattern called “behavior delegation”, delegating one part of an object to another.</li>
+  <li>Bring the old to new with <strong>polyfiling</strong> and <strong>transpiling</strong>.
+    <ul>
+      <li>A “polyfill” is to take a definition of a newer feature and produce a piece of code equivalent to the behavior for older JS environments.
+        <ul>
+          <li>An example is <a href="https://lodash.com/">lodash</a> that has a bunch of features from ES5 and ES6 which some frameworks utilize, like <code class="highlighter-rouge">forEach</code> and <code class="highlighter-rouge">map</code>.</li>
+        </ul>
+      </li>
+      <li>Careful writing your own polyfill as you should adhere closely to the specification.</li>
+      <li>Better yet, use the vetted ones.</li>
+      <li>Transpiling is great for new syntax. It is a tool that converts your code to older coding environments. You can break down the word “transpiling” into transforming + compiling.</li>
+    </ul>
+  </li>
+  <li><code class="highlighter-rouge">arguments</code> can be used functions to determine which arguments were passed in. It is not a reserved word, so you can assign it to a different value. When calling it, it outputs an array.</li>
+  <li>The book series doesn’t cover Non-Javascript, like the DOM API. But you need to be aware of it. DOM API could actually be written by the browsers in <strong>C/C++</strong>.</li>
+  <li>The <code class="highlighter-rouge">document</code> object is a “host object”, a special object that has been implemented by the browser.</li>
+</ul>
+
+<h3 id="chapter-3-into-ydkjs">Chapter 3: Into YDKJS</h3>
+
+<p>This chapter is a preface to the other books. I’ll skip these notes as I’ll be covering this in more detail in those posts.</p>
+
+<p>See you next time!</p>
+
+        </div>
+      </div>
+
+      <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading"></h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><a href="mailto:jermspeaks@gmail.com">jermspeaks@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jermspeaks">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">jermspeaks</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jermspeaks">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jermspeaks</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Craft By Zen Official Website</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+
+
+
+<!--     <a href="https://github.com/jermspeaks/jermspeaks.github.io">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a> -->
+
+  </div>
+
+</footer>
+
+
+    </section>
+
+
+
+  </body>
+
+</html>
