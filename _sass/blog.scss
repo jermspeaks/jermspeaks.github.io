@@ -1,0 +1,11 @@
+.blog-list {
+  @extend %normalize-list;
+
+  > li {
+      margin-bottom: $spacing-unit;
+  }
+}
+
+.blog-title {
+  font-size: 1.5em;
+}

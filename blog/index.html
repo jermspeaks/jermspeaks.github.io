@@ -2,21 +2,13 @@
 layout: post
 ---
 <div class="home">
-  <!-- <nav class="letters-nav">
-    <ul>
-      <li>
-        <a href="/">Home</a>
-      </li>
-    </ul>
-  </nav> -->
-
-  <section>
-    <ul>
+  <section class="writing-collection">
+    <ul class="blog-list">
       {% for page in site.posts %}
         {% unless page.categories contains 'letters' %}
           {% if page.title %}
           <li>
-            <div>
+            <div class="blog-title">
               <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             </div>
             <div>
