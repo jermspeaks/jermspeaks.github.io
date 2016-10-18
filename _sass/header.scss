@@ -6,3 +6,23 @@
     padding-right: 1em;
   }
 }
+
+.cbz-header {
+  background: #333 url("/assets/images/craft-by-zen-banner.jpg");
+  background-size: cover;
+}
+
+.cbz-header-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 300px;
+  color: rgba(20, 20, 20, .85);
+  background: rgba(255, 255, 255, 0.05);
+
+  span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
