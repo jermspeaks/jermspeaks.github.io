@@ -6,7 +6,24 @@
 
     <section class="container">
 
-      {% include header.html %}
+      <header class="header">
+        <div class="header-title">
+          <span>
+            <a class="site-title" href="{{ site.baseurl }}/">Jeremy Wong</a>
+          </span>
+        </div>
+
+        <nav class="landing-nav">
+          <ul>
+            <li>
+              <a href="/letters">Letter Archive</a>
+            </li>
+            <li>
+              <a href="/blog">Blog</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
 
       <div class="landing-content">
         {{ content }}

@@ -1,0 +1,11 @@
+.letter-list {
+  @extend %normalize-list;
+
+  > li {
+      margin-bottom: $spacing-unit;
+  }
+}
+
+.letter-title {
+  font-size: 1.5em;
+}

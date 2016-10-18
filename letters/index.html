@@ -10,13 +10,13 @@ layout: letter
     </ul>
   </nav> -->
 
-  <section>
-    <ul>
+  <section class="letter-collection">
+    <ul class="letter-list">
       {% for page in site.posts %}
         {% if page.categories contains 'letters' %}
           {% if page.title %}
           <li>
-            <div>
+            <div class="letter-title">
               <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
             </div>
             <div>

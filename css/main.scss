@@ -7,6 +7,7 @@
 
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
+$secondary-font-family: "Lucida Bright", Georgia, serif;
 $base-font-size:   16px;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
@@ -43,6 +44,10 @@ $on-laptop:        800px;
     }
 }
 
+%normalize-list {
+  margin: 0;
+  list-style-type: none;
+}
 
 
 // Import partials from `sass_dir` (defaults to `_sass`)
@@ -53,5 +58,6 @@ $on-laptop:        800px;
   "normalize",
   "header",
   "landing",
-  "footer"
+  "footer",
+  "letter"
 ;

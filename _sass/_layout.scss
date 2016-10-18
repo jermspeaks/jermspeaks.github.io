@@ -4,6 +4,14 @@
   margin-left: auto;
   margin-right: auto;
   background-color: white;
+
+  @include media-query(768px) {
+    width: 85%;
+  }
+
+  @include media-query($on-palm) {
+    width: 90%;
+  }
 }
 
 /**
@@ -141,8 +149,7 @@
 
 .contact-list,
 .social-media-list {
-    list-style: none;
-    margin-left: 0;
+  @extend %normalize-list;
 }
 
 .footer-col-wrapper {
@@ -208,12 +215,11 @@
 }
 
 .post-list {
-    margin-left: 0;
-    list-style: none;
+  @extend %normalize-list;
 
-    > li {
-        margin-bottom: $spacing-unit;
-    }
+  > li {
+      margin-bottom: $spacing-unit;
+  }
 }
 
 .post-meta {

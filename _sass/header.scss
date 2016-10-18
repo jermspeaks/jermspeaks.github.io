@@ -1,6 +1,7 @@
 .header {
-  padding-left: 40px;
   padding-top: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
 
   &-title {
     padding-right: 1em;
@@ -16,6 +17,26 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 300px;
+  color: rgba(20, 20, 20, .85);
+  background: rgba(255, 255, 255, 0.05);
+
+  span {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+.letter-header {
+  background: #333 url("/assets/images/bear.jpg");
+  background-size: cover;
+}
+
+.letter-header-text {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 250px;
   color: rgba(20, 20, 20, .85);
   background: rgba(255, 255, 255, 0.05);
 

@@ -1,3 +1,5 @@
+.contact-list, .social-media-list, .post-list, .letter-list { margin: 0; list-style-type: none; }
+
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
@@ -178,6 +180,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .icon > svg path { fill: #828282; }
 
 .container { width: 75%; margin-top: 40px; margin-left: auto; margin-right: auto; background-color: white; }
+@media screen and (max-width: 768px) { .container { width: 85%; } }
+@media screen and (max-width: 600px) { .container { width: 90%; } }
 
 /** Site header */
 .site-header { border-bottom: 1px solid #e8e8e8; min-height: 56px; background-color: #f4f4f4; position: relative; }
@@ -209,8 +213,6 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
-.contact-list, .social-media-list { list-style: none; margin-left: 0; }
-
 .footer-col-wrapper { font-size: 15px; color: #828282; margin-left: -15px; }
 
 .footer-col { float: left; margin-bottom: 15px; padding-left: 15px; }
@@ -229,7 +231,6 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .page-heading { font-size: 20px; }
 
-.post-list { margin-left: 0; list-style: none; }
 .post-list > li { margin-bottom: 30px; }
 
 .post-meta { font-size: 14px; color: #828282; }
@@ -438,7 +439,7 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
-.header { padding-left: 40px; padding-top: 20px; }
+.header { padding-top: 20px; padding-left: 40px; padding-right: 40px; }
 .header-title { padding-right: 1em; }
 
 .cbz-header { background: #333 url("/assets/images/craft-by-zen-banner.jpg"); background-size: cover; }
@@ -446,12 +447,21 @@ td, th { padding: 0; }
 .cbz-header-text { font-size: 48px; font-weight: 700; line-height: 300px; color: rgba(20, 20, 20, 0.85); background: rgba(255, 255, 255, 0.05); }
 .cbz-header-text span { display: block; margin-left: auto; margin-right: auto; text-align: center; }
 
+.letter-header { background: #333 url("/assets/images/bear.jpg"); background-size: cover; }
+
+.letter-header-text { font-size: 48px; font-weight: 700; line-height: 250px; color: rgba(20, 20, 20, 0.85); background: rgba(255, 255, 255, 0.05); }
+.letter-header-text span { display: block; margin-left: auto; margin-right: auto; text-align: center; }
+
+.landing-nav ul { display: flex; justify-content: space-around; margin: 0; list-style-type: none; }
+
 .landing-content { padding-top: 30px; }
 
 .landing-summary, .landing-newsletter { padding-left: 40px; padding-right: 40px; }
 
 .landing-inline { display: flex; flex-wrap: nowrap; margin-bottom: 10px; }
 .landing-inline .landing-paragraph { margin-left: 20px; }
+@media screen and (max-width: 1024px) { .landing-inline .landing-paragraph { margin-top: 20px; margin-left: 0; } }
+@media screen and (max-width: 1024px) { .landing-inline { display: block; } }
 
 .landing-summary-image { flex: 0 0 auto; width: 350px; height: 150px; }
 
@@ -460,10 +470,11 @@ td, th { padding: 0; }
 
 .landing-newsletter { margin-top: 20px; margin-bottom: 20px; }
 
-.landing-newsletter-form { display: flex; padding-top: 10px; padding-bottom: 5px; border-top: 1px solid #d6d2e7; border-bottom: 1px solid #d6d2e7; font-size: 14px; font-family: serif; }
+.landing-newsletter-form { display: flex; padding-top: 10px; padding-bottom: 5px; border-top: 1px solid #d6d2e7; border-bottom: 1px solid #d6d2e7; font-size: 14px; font-family: "Lucida Bright", Georgia, serif; }
 .landing-newsletter-form div { flex: 50%; }
+@media screen and (max-width: 600px) { .landing-newsletter-form { flex-direction: column; } }
 
-.landing-newsletter-desc { font-style: italic; }
+.landing-newsletter-desc { font-size: 12px; }
 
 .landing-newsletter-fields { display: flex; justify-content: space-around; }
 .landing-newsletter-fields .landing-newsletter-submit { height: 24px; }
@@ -471,3 +482,7 @@ td, th { padding: 0; }
 .cbz-footer { width: 75%; padding-bottom: 10px; margin-top: 10px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
 
 .cbz-footer-container { padding-top: 10px; padding-bottom: 10px; border-top: 2px solid rgba(200, 200, 200, 0.7); line-height: 26px; }
+
+.letter-list > li { margin-bottom: 30px; }
+
+.letter-title { font-size: 1.5em; }
