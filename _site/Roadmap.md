@@ -1,0 +1,10 @@
+- [ ] Add a projects page
+  - [ ] Add WebVR Demo Page
+  - [ ] Add FamiliesUSA
+  - [ ] Clinical Trials Visualization
+  - [ ] Remembrance
+  - [ ] Spark - Facebook Light
+- [ ] Fix Favicon
+- [ ] Move craftbyzen.com Domain Over
+- [ ] Add social icons
+- [ ] Add About.me Page
