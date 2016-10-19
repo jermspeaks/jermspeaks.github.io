@@ -14,6 +14,8 @@ navigation:
   url: /resume/
 - text: About
   url: /about/
+- text: Projects
+  url: /projects/
 
 email: "jermspeaks@gmail.com"
 github: https://github.com/jermspeaks/jermspeaks.github.io
