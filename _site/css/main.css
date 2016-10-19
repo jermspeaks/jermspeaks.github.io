@@ -179,7 +179,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .icon > svg { display: inline-block; width: 16px; height: 16px; vertical-align: middle; }
 .icon > svg path { fill: #828282; }
 
-.container { width: 75%; margin-top: 40px; margin-left: auto; margin-right: auto; background-color: white; }
+.container { width: 75%; margin-top: 40px; margin-left: auto; margin-right: auto; background-color: #f4f3f9; }
 @media screen and (max-width: 768px) { .container { width: 85%; } }
 @media screen and (max-width: 600px) { .container { width: 90%; } }
 
@@ -439,7 +439,8 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
-.header { padding-top: 20px; padding-left: 40px; padding-right: 40px; }
+.header, .about-header { padding-top: 20px; padding-left: 40px; padding-right: 40px; }
+
 .header-title { padding-right: 1em; }
 
 .cbz-header { background: #333 url("/assets/images/craft-by-zen-banner.jpg"); background-size: cover; }
@@ -451,6 +452,10 @@ td, th { padding: 0; }
 
 .letter-header-text { font-size: 48px; font-weight: 700; line-height: 250px; color: rgba(20, 20, 20, 0.85); background: rgba(255, 255, 255, 0.05); }
 .letter-header-text span { display: block; margin-left: auto; margin-right: auto; text-align: center; }
+
+.about-name { font-size: 36px; }
+
+.about-title { font-size: 48px; font-weight: bold; }
 
 .landing-nav ul { display: flex; justify-content: space-around; margin: 0; list-style-type: none; }
 
@@ -478,6 +483,8 @@ td, th { padding: 0; }
 
 .landing-newsletter-fields { display: flex; justify-content: space-around; }
 .landing-newsletter-fields .landing-newsletter-submit { height: 24px; }
+
+#splash svg { display: block; margin-left: auto; margin-right: auto; }
 
 .cbz-footer { width: 75%; padding-bottom: 10px; margin-top: 10px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
 

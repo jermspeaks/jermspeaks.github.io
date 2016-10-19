@@ -1,11 +1,12 @@
-.header {
+.header,
+.about-header {
   padding-top: 20px;
   padding-left: 40px;
   padding-right: 40px;
+}
 
-  &-title {
-    padding-right: 1em;
-  }
+.header-title {
+  padding-right: 1em;
 }
 
 .cbz-header {
@@ -46,4 +47,13 @@
     margin-right: auto;
     text-align: center;
   }
+}
+
+.about-name {
+  font-size: 36px;
+}
+
+.about-title {
+  font-size: 48px;
+  font-weight: bold;
 }
