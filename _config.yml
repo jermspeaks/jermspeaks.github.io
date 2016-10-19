@@ -1,9 +1,20 @@
 # site information
 authors: "Jeremy Wong"
-description: "Craft By Zen Official Website"
+description: "Craft By Zen 2015-2016"
 github_username: "jermspeaks"
 twitter_username: "jermspeaks"
 email: "jermspeaks@gmail.com"
+navigation:
+- text: Home
+  url: /
+- text: Letter Archive
+  url: /letters/
+- text: Blog
+  url: /blog/
+- text: Resume
+  url: /resume/
+- text: About
+  url: /about/
 
 # Build Settings
 markdown: kramdown

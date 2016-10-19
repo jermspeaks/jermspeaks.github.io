@@ -27,10 +27,13 @@ function redraw() {
 
   var color = d3.scaleOrdinal(d3.schemeCategory20);
   var container = document.getElementById("home");
+  var windowHeight = window.innerHeight;
+
+  console.log(windowHeight);
 
   // svg attributes
   var w = container.clientWidth;
-  var h = 300;
+  var h = windowHeight >= 700 ? 450 : 300;
   var p = 20;
 
   // Create SVG elements
@@ -68,14 +71,20 @@ function redraw() {
   d3.selectAll("circle").transition(t)
   .attr('r', d => rScale(d.r));
 
-  var text = svg.append("text")
-    .attr("x", w / 2)
-    .attr("y", h / 2)
-    // .attr("dx", "-2em")
-    // .attr("dy", "-1em")
-    .style("text-anchor", "middle")
-    .style("font-size","4em")
-    .text("Craft By Zen");
+  setTimeout(() => {
+    var text = svg.append("text")
+      .attr("fill-opacity", 0)
+      .attr("x", w / 2)
+      .attr("y", h / 2)
+      // .attr("dx", "-2em")
+      // .attr("dy", "-1em")
+      .style("text-anchor", "middle")
+      .style("font-size","4em")
+      .text("Craft By Zen")
+      .transition()
+      .duration(3000)
+      .attr("fill-opacity", 1);
+  }, 2000);
 }
 
 redraw();

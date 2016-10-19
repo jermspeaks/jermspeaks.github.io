@@ -1,5 +1,6 @@
 ---
 layout: landing
+footer: Connect
 ---
 
 <div class="home" id="home">
@@ -16,19 +17,14 @@ layout: landing
   <div id="splash"></div>
 
   <nav class="landing-nav">
-    <ul>
-      <li>
-        <a href="/letters">Letter Archive</a>
-      </li>
-      <li>
-        <a href="/blog">Blog</a>
-      </li>
-      <li>
-        <a href="/resume">Resume</a>
-      </li>
-      <li>
-        <a href="/about">About</a>
-      </li>
+    <ul class="nav-list">
+      {% for link in site.navigation %}
+        {% unless link.text == "Home" %}
+          <li>
+            <a class="nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
+          </li>
+        {% endunless %}
+      {% endfor %}
     </ul>
   </nav>
 
@@ -41,9 +37,9 @@ layout: landing
       target="popupwindow"
     >
       <div class="landing-newsletter-desc">
-        <p>
+        <span>
           <label for="tlemail">Subscribe to my weekly email newsletter. I will typically write essays, opinions, or deep-dives. </label>
-        </p>
+        </span>
       </div>
       <div class="landing-newsletter-fields">
         <p>
