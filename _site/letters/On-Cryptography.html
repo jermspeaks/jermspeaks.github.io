@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>On Cryptography</title>
+  <meta name="description" content="On Cryptography">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="localhost:4000/letters/On-Cryptography.html">
+  <link rel="alternate" type="application/rss+xml" title="" href="localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <section class="container">
+
+      <header class="letter-header">
+        <div class="letter-header-text">
+          <span>The Jear-Bear Letters</span>
+        </div>
+      </header>
+
+      <!-- <header>
+        <h1>The Jear-Bear Letters</h1>
+      </header> -->
+
+      <div class="page-content">
+        <div class="wrapper">
+          <h1 id="on-cryptography">On Cryptography</h1>
+
+<p>I’ve been fascinated by cryptography ever since I was a kid. I remember briefly when my parents got a free subscription to the SF Chronicle and skipping straight to the comics and puzzles. One puzzle in particular, the cryptogram puzzles, got me to take my pen out and try to decode the message. It’s a simple monoalphabetic cipher where one letter maps to another letter, but the letter can never map to itself.</p>
+
+<p>The simplest monoalphabetic cipher is called a Caesar Cipher, where you simply shift the alphabet by a certain amount. If you and the key party you are trying to encrypt the message to knows the shift amount, you can easily decode the message. So if we shifted the alphabet by 10 letters, letting “K” represent “A”, we could decode the word “JUMP” as “TEWZ”. The limitation of the Caesar shift is that there are only 26 configurations, so one could easily go through each letter until they figure out what the encoded message says.</p>
+
+<p>Message Alphabet:     ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+Encoded Alphabet:     KLMNOPQRSTUVWXYZABCDEFGHIJ</p>
+
+<p>A slightly strong encryption is one where each letter maps to another letter in a random order. For example, if you had the word “JEAR BEAR”, it could be substituted as “FIPH DIPH” given the following key map.</p>
+
+<p>Key Map:</p>
+
+<p>F -&gt; J<br />
+I -&gt; E<br />
+P -&gt; A<br />
+H -&gt; R<br />
+D -&gt; B</p>
+
+<p>Both parties would have to agree to a certain key map. The biggest flaw of this monoalphabetic cipher is the frequency to which we use the letters. For example, the letter “E” is the most common letter found in writing versus the letter “Q”. The Arabs back in the 9th century were the first to figure this out and developed this practice we know now as frequency analysis. For the Chronicle’s puzzles, you could tell there were going to to be certain repeated words, like single letter words like “a” and “I” are bound to be in the puzzle, so you can fill those out first. Also, “the” and “and” are two most frequently used three-letter words, so you can start filling those out too, and figure out the message by trial and error. Of course, you could just send the text in one long string, like this, “Afellowofficerlosthislifeinthelineofduty”.</p>
+
+<p>Frequency analysis allows us to break down how often each letter is used and map it to a known frequency index, like looking at all english words and breaking down how often each letter is used, and figure out with high accuracy which letters map to which encrypted letter. Frequency analysis gets stronger the longer the message is. If it helps, you can think of the ratios for frequency analysis with Scrabble letter points. The lower the score, the higher the frequency.</p>
+
+<p>In looking for a stronger encryption, polyalphabetic ciphers were created to make sure letters would be encoded with different letters each time. One form, called the Vigenère cipher, utilizes different monoalphabetic ciphers to encode a message. Each letter would map to a different shifted alphabet based on a key, and the key itself would map to different shifted alphabets. Let’s give an example. If we used the word “KING” as a key, and we wanted to decode the message, “A little boy and his fox,” we would first go to the letter “A” and map it to where “A” is in the shifted alphabet where “K”, from the key “KING”, is the first letter of the alphabet. In this case, it is easy. “A” maps to “K”.</p>
+
+<p>Message Alphabet:     ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+Encoded Alphabet:     KLMNOPQRSTUVWXYZABCDEFGHIJ</p>
+
+<p>The next letter from the text, “L”, would map to the shifted alphabet where “I” is the first letter, where “I” is the next letter in the key, “KING”. In this case, we would encode “L” with “S”.</p>
+
+<p>Message Alphabet:     ABCDEFGHIJKLMNOPQRSTUVWXYZ<br />
+Encoded Alphabet:     IJKLMNOPQRSTUVWXYZABCDEFGH</p>
+
+<p>We continue to encode the next letter with the shifted alphabet starting with “N”, and then the next letter after that with the shifted alphabet starting with “G”, and then we repeat the key and start again with the shifted alphabet starting with “K” for the next letter of the text, and repeat for the entire sequence until the entire message is encoded. In its entirety, the message reads “KTVZDTRHYGNTNPVYPWK”. You will notice that the fourth and fifth letter from the text are the same, “TT”, but in the encoded text, they are different letters, “ZD”. Now each letter does not necessarily map to each letter. For hundreds of years, it appeared that this encryption was impossible to break and was known as “Le Chiffre Indèchiffrable”, French for the indecipherable cipher.</p>
+
+<p>In the mid-1800’s, Charles Babbage was the first person to figure out how to decipher the Vigenère cipher decryption technique without prior knowledge of the key. There had been others who deciphered messages before, but Babbage’s technique ensured repeatability. Babbage never went public with this discovery, and for quite some time, the discovery went to a French codebreaker Friedrich Kasiski, who published a paper on breaking the cipher. What they found was a flaw in the cipher. The flaw in this case is the repeatability of the key. If the shared key is short enough, like “KING”, and if the text is long enough, you’ll start to see repeated patterns. For example, the word “and” could appear in 4 different ways using “KING” as a key. You could look for those exact phrases to piece together where you see repeated instances of the word. By process of elimination, you could look through the text and start to piece together what the key might be. Like in the cryptogram puzzles, you start figuring out what the message of the text. With these and possibly other letters decoded, you can work backwards and figure out what the shifted alphabet was that was used, grab the first letter in that alphabet, and determine what the key could be.</p>
+
+<p>This was a huge blow to people creating encryptions. Suddenly, Le Chiffre Indèchiffrable became vulnerable. Cryptographers up to the early 1920’s were creating encryptions in the variation of the Vigenère cipher. In WWI, the British intercepted German messages and decrypted them with relative “ease”. This was a heavy advantage for the British and Allied forces, and was a major factor in helping them win the war. Come WWII, the Germans had a much more powerful encryption machine that helped power an effort to decrypt its messages.</p>
+
+<p>I watched “The Imitation Game” a few weeks ago, and was fascinated to known how they would depict the Enigma machine, the German encryption machine. The Enigma machine is a mechanized way of encoding and decoding messages utilizing polyalphabetic ciphers. I won’t go over the intricacy of the machine as you could read many articles about it on Wikipedia, watch the film, or read “The Code Book,” where I gathered most of the information about mono- and polyalphabetic ciphers.
+The British set up grounds at Bletchley Park dedicated to decoding German messages during WWII. I want to shift focus of this essay to explore the differences between the movie and reality.</p>
+
+<p>First, I really wanted to know what Alan Turing’s role was in creating “Christopher”. In the film, “Christopher” was the codename for the machine Turing built in order to decode Enigma’s messages. But I couldn’t find out if Turing ever called it “Christopher. In reality, the machines were called bombes, machines that would loop through every combination that would short circuit if the right combination was found. Understanding from some decoded messages that there were common words in almost every message, like “weather” in the first message at 6 in the morning, or “hail hitler” at the end of the message, cryptographers would try to find a chain of encrypted letters that would loop back to itself. The German word for “weather”, “witter”, would be mapped to the first 6 letters of the message. With those letters, and perhaps other common German words known to exist in the text, the cryptographers would try to find specific patterns, or instructions, to give the bombe. There was a great amount of human error that could have happened before telling the bombe what to look for in order to short circuit the machine. Multiple bombes were used in order to test all of their theories. 19 were used in its first year of development.</p>
+
+<p>The bombe itself was a Polish creation when Poland was trying to decipher the Enigma machine during the 1930’s. There’s an entire neglected story there that is understandable the film glossed over. The Polish, paranoid of the growing power of Germany, obtained one of these Enigma machines. It was later smuggled to Bletchley Park, mentioned briefly in the movie’s beginning when Commander Denniston shows Turing the Enigma machine for the first time. Also untold is the story of the Polish mathematician Marian Rejewski and his decade of work trying to find weaknesses within Enigma. The Polish, knowing that their research might help the Allies in breaking Enigma, gave the intelligence to the British. Turing built on top of Rejewski’s work when he started building the bombes. The film poorly looks at the past achievements and puts Turing on a pedestal of being the radical of making a machine that could decode the key. In the film, almost everyone he’s working with doesn’t take his idea serious enough and Turing goes out of his way to convince Churchill to put him in charge. It is true the British funded around £100,000 to help build the bombes, but the drama surrounding the shutdown of these machines were not really mentioned in any literature I could find.</p>
+
+<p>The Germans upgraded the number of combinations possible for their Enigma machine later in the war. More bombes were created in order to cut down the time to find the combinations. Plus, Enigma was not the only machine used to encrypt messages. For example, between Hitler and his main generals, they used an even larger encoding device with much more complexity. The film failed to mention Colossus, the machine that tried to decrypt this machine, that built off of the mechanisms in Turing’s bombes. Some proclaim Colossus was the first programmable computer even though it had to be dismantled after the war.</p>
+
+<p>The film disturbed me in how easily it looked for Turing’s machine to decode the key. Knowing what I know now of what Turing’s machines actually did, the whole plot after of trying to determine what was statistically significant in delivering information after it was obtained did not seem to solely rest upon the cryptographers, in my opinion. It was the film’s opportunity to utilize a Machiavellian perspective of warfare, of which we saw very little of.</p>
+
+<p>All that I’ve said though doesn’t mean I didn’t like the film. I actually thought it was an enjoyable movie with questionable drama, like the marriage subplot between Turing and Kiera Knightley’s character. I really liked how the film portrayed Turing’s eventual downfall after the war and the injustice brought to him because he was gay. But at the same time, I write this because I have a love for cryptography, and I needed to scratch this itchy spot of curiosity.</p>
+
+        </div>
+      </div>
+
+      <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading"></h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col  footer-col-1">
+        <ul class="contact-list">
+          <li><a href="mailto:jermspeaks@gmail.com">jermspeaks@gmail.com</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-2">
+        <ul class="social-media-list">
+          
+          <li>
+            <a href="https://github.com/jermspeaks">
+              <span class="icon  icon--github">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/>
+                </svg>
+              </span>
+
+              <span class="username">jermspeaks</span>
+            </a>
+          </li>
+          
+
+          
+          <li>
+            <a href="https://twitter.com/jermspeaks">
+              <span class="icon  icon--twitter">
+                <svg viewBox="0 0 16 16">
+                  <path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809
+                  c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/>
+                </svg>
+              </span>
+
+              <span class="username">jermspeaks</span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+
+      <div class="footer-col  footer-col-3">
+        <p class="text">Craft By Zen Official Website</p>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="wrapper">
+
+
+
+<!--     <a href="https://github.com/jermspeaks/jermspeaks.github.io">
+      <img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/365986a132ccd6a44c23a9169022c0b5c890c387/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f7265645f6161303030302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png">
+    </a> -->
+
+  </div>
+
+</footer>
+
+
+    </section>
+
+
+
+  </body>
+
+</html>

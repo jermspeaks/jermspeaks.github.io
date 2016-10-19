@@ -15,4 +15,3 @@ This morning, it started raining for what seems like the first time in a very lo
 I’m not going to hail this as, “El Niño is here! Let’s praise nature our drought is over!” One downpour can not make up for years of no downpour. Perhaps I’m being a pessimist because I don’t want to believe in one grand event solving everything, a deus ex machina. I guess this is to say I have optimism from the success of small wins rather than one large miracle. You decide what this rain means.
 
 However, I’ll embrace this event. It’s a good shake up to the monotonous routine and the banalities of everyday life. At least, that’s the feeling I got when I woke up today.  
-tinyletter

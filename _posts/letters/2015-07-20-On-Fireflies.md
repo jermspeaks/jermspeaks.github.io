@@ -3,7 +3,7 @@ layout: letter
 category: letters
 title: On Fireflies
 date: 2015-07-20
-permalink: /:categories/:title.html
+permalink: /:categories/:title-2.html
 ---
 
 # On Fireflies
@@ -16,16 +16,10 @@ I thought back to my roommate’s fake firefly lights hanging in our backyard tr
 
 And yet, I don’t understand how something as simple as a glowing green light could make me feel so happy. It set the setting, and for the rest of that night; they were the entertainment. It was more entertainment than any manufactured, designed, or advertised piece of media humans had developed. It felt pure, and in a way, the path I was taking was this magical journey down the rabbit hole. And appreciating these tiny things are why we live life, right?
 
-> Here come real stars to fill the upper skies,
->
-> And here on earth come emulating flies,
->
-> That though they never equal stars in size,
->
-> (And they were never really stars at heart)
->
-> Achieve at times a very star-like start.
->
-> Only, of course, they can't sustain the part.”
->
+> Here come real stars to fill the upper skies,  
+> And here on earth come emulating flies,  
+> That though they never equal stars in size,  
+> (And they were never really stars at heart)  
+> Achieve at times a very star-like start.  
+> Only, of course, they can't sustain the part.”  
 > ― Robert Frost

@@ -41,4 +41,3 @@ Be the teacher. If you know the skill well enough, you should be able to teach i
 While I’ve recommended this book in the past, it’s a great book to recommend again. “Pragmatic Thinking & Learning. Refactor Your Wetware” by Andy Hunt has more tips about getting out of the rut.
 
 Remember skill acquisition takes time, and you should focus on the journey rather than the destination. Perhaps twenty hours utilizing one of these tips might just be what you need to grow into the master you wish to become.
-tinyletter
