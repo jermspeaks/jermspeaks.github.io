@@ -32,7 +32,7 @@
 
 <p>The Javascript ES2015 spec introduces object destructing. Object destructing used to pass a single object parameter instead of long argument lists to functions. Take the following code example.</p>
 
-<p>Bad Code:</p>
+<p><strong>Bad Code:</strong></p>
 
 <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">enableListFilter</span><span class="p">(</span><span class="nx">option</span><span class="p">,</span> <span class="nx">filterName</span><span class="p">,</span> <span class="nx">filterIndex</span><span class="p">,</span> <span class="nx">activeAccessTypeIndex</span><span class="p">)</span> <span class="p">{</span>
   <span class="c1">// Do Something</span>
@@ -47,14 +47,14 @@ When this is one argument, that’s easy.
 When it gets to 2 or more arguments, this can get difficult since that stretches a developer’s <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2657600/">working memory</a> a la “yet another thing to remember”.
 Here’s an alternative.</p>
 
-<p>Better Code:</p>
+<p><strong>Better Code:</strong></p>
 
 <div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">enableListFilter</span><span class="p">({</span> <span class="nx">option</span><span class="p">,</span> <span class="nx">filterName</span><span class="p">,</span> <span class="nx">filterIndex</span><span class="p">,</span> <span class="nx">activeAccessTypeIndex</span> <span class="p">})</span> <span class="p">{</span>
   <span class="c1">// Do Something</span>
 <span class="p">}</span>
 
 <span class="nx">enableListFilter</span><span class="p">({</span>
-  <span class="na">option</span><span class="p">:</span> <span class="nx">otherOptionVariableName</span><span class="p">,</span>
+  <span class="na">option</span><span class="p">:</span> <span class="nx">option</span><span class="p">,</span>
   <span class="na">filterName</span><span class="p">:</span> <span class="nx">filterName</span><span class="p">,</span>
   <span class="na">filterIndex</span><span class="p">:</span> <span class="nx">filterIndex</span><span class="p">,</span>
   <span class="na">activeAccessTypeIndex</span><span class="p">:</span> <span class="nx">activeAccessTypeIndex</span>
@@ -62,7 +62,7 @@ Here’s an alternative.</p>
 </code></pre>
 </div>
 
-<p>If you want to reducer the number of lines, you can use the object parameter shorthand.
+<p>If you want to reduce the number of lines, you can use the object parameter shorthand.
 Note: A caveat of this approach your argument names must be the same name. 
 In most cases, an explicit approach of writing out object keys is better.</p>
 
