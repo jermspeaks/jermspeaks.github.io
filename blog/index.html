@@ -6,17 +6,19 @@ layout: post
     <ul class="blog-list">
       {% for page in site.posts %}
         {% unless page.categories contains 'letters' %}
-          {% if page.title %}
-          <li>
-            <div class="blog-title">
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            </div>
-            <div>
-              <span>Published</span>
-              <span>{{ page.date | date: '%B %d, %Y' }}</span>
-            </div>
-          </li>
-          {% endif %}
+          {% unless page.draft %}
+            {% if page.title %}
+            <li>
+              <div class="blog-title">
+                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              </div>
+              <div>
+                <span>Published</span>
+                <span>{{ page.date | date: '%B %d, %Y' }}</span>
+              </div>
+            </li>
+            {% endif %}
+          {% endunless %}
         {% endunless %}
       {% endfor %}
   </ul>
