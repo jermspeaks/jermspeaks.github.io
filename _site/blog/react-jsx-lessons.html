@@ -41,7 +41,7 @@ I am taking the perspective of a code review in these following code samples.</p
 
 <p><strong>Proper Indentation helps code reviewers.</strong></p>
 
-<p>Here is a code snippet with terrible indentation. There are other issues here, but let’s focus first on indentation.</p>
+<p>Here is a code snippet with terrible indentation.</p>
 
 <div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-sm-12 col-md-12'</span><span class="nt">&gt;</span>
 <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'product-details-top'</span><span class="nt">&gt;</span>
@@ -153,8 +153,8 @@ On line 5, the <code class="highlighter-rouge">&lt;div&gt;</code> is self closin
 </div>
 
 <p>Last fix I would like to see is to <strong>alphabetize the tag properties</strong>.
-For me, I don’t want to find a property if the list is in any order list.
-This is especially true when the property list is greater than 10.</p>
+I don’t want to find a property if the list is random.
+This is more so when the property list is greater than 10.</p>
 
 <div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-sm-12 col-md-12'</span><span class="nt">&gt;</span>
   <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'product-details-top'</span><span class="nt">&gt;</span>
@@ -187,9 +187,12 @@ This is especially true when the property list is greater than 10.</p>
 </div>
 
 <p>Some of you may notice the two self-closing tags are unnecessary.
-Bootstrap has classes that allow you to skip grid columns, but we don’t need to address that as it may be a developer’s plan to use it.
+As you may or may not be aware, we are using <a href="http://getbootstrap.com/">Bootstrap</a>.
+Bootstrap contains “offset” classes that can be used to replace those first two column <code class="highlighter-rouge">&lt;div&gt;</code>.
+I didn’t address this because the developer may plan to use it.
 It’s more simple for me to note that in my review notes to the developer than to tell them to make those changes.
-It’s up to the developer to add a comment there.</p>
+If that developer chooses to keep it, they can leave a comment as to why it is left that way.</p>
+
 
         </div>
       </div>

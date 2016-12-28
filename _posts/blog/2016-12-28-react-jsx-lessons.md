@@ -19,7 +19,7 @@ Let me elaborate.
 
 **Proper Indentation helps code reviewers.**
 
-Here is a code snippet with terrible indentation. There are other issues here, but let's focus first on indentation.
+Here is a code snippet with terrible indentation. 
 
 ```html
 <div className='col-sm-12 col-md-12'>
@@ -131,8 +131,8 @@ The next two fixes are my own pet peeves. I don't like seeing text without surro
 ```
 
 Last fix I would like to see is to **alphabetize the tag properties**.
-For me, I don't want to find a property if the list is in any order list.
-This is especially true when the property list is greater than 10.
+I don't want to find a property if the list is random.
+This is more so when the property list is greater than 10.
 
 ```html
 <div className='col-sm-12 col-md-12'>
@@ -165,6 +165,9 @@ This is especially true when the property list is greater than 10.
 ```
 
 Some of you may notice the two self-closing tags are unnecessary.
-Bootstrap has classes that allow you to skip grid columns, but we don't need to address that as it may be a developer's plan to use it.
+As you may or may not be aware, we are using [Bootstrap](http://getbootstrap.com/).
+Bootstrap contains "offset" classes that can be used to replace those first two column `<div>`.
+I didn't address this because the developer may plan to use it.
 It's more simple for me to note that in my review notes to the developer than to tell them to make those changes.
-It's up to the developer to add a comment there.
+If that developer chooses to keep it, they can leave a comment as to why it is left that way.
+
