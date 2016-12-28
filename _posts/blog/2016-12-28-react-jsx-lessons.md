@@ -1,7 +1,7 @@
 ---
-layout: post 
+layout: post
 category: blog, post, programming
-title: React JSX Lessons Learned
+title: React JSX Syntax - Code Style
 date: 2016-12-28
 permalink: /blog/:title.html
 ---
@@ -168,4 +168,3 @@ Some of you may notice the two self-closing tags are unnecessary.
 Bootstrap has classes that allow you to skip grid columns, but we don't need to address that as it may be a developer's plan to use it.
 It's more simple for me to note that in my review notes to the developer than to tell them to make those changes.
 It's up to the developer to add a comment there.
-
