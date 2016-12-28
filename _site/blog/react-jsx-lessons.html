@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>React JSX Lessons Learned</title>
+  <meta name="description" content="React JSX Syntax - Code Style">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="localhost:4000/blog/react-jsx-lessons.html">
+  <link rel="alternate" type="application/rss+xml" title="" href="localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <section class="container">
+
+      <header class="cbz-header">
+        <div class="cbz-header-text">
+          <span>Writing</span>
+        </div>
+      </header>
+
+      <div class="page-content">
+        <div class="wrapper">
+          <h1 id="react-jsx-syntax---code-style">React JSX Syntax - Code Style</h1>
+
+<p>After a year working with JSX syntax in React, I’ve learned a few things reviewing my code as well as other developer’s code.
+I am taking the perspective of a code review in these following code samples.</p>
+
+<p>This is my main takeaway:</p>
+
+<blockquote>
+  <p>Code Style increases legibility</p>
+</blockquote>
+
+<p>Let me elaborate.</p>
+
+<p><strong>Proper Indentation helps code reviewers.</strong></p>
+
+<p>Here is a code snippet with terrible indentation. There are other issues here, but let’s focus first on indentation.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-sm-12 col-md-12'</span><span class="nt">&gt;</span>
+<span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'product-details-top'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-4'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-5'</span> <span class="nt">/&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-3 no-pad-right form-group'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'pull-right'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;button</span>
+      <span class="na">className=</span><span class="s">'btn cancel-btn btn btn-default'</span>
+      <span class="na">id=</span><span class="s">'inform-media-product-edit-product-cancel-button-1'</span>
+      <span class="na">type=</span><span class="s">'button'</span>
+      <span class="na">onClick=</span><span class="s">{this.handleBack}</span>
+    <span class="nt">&gt;</span>
+    CANCEL
+    <span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;button</span>
+      <span class="na">className=</span><span class="s">'btn btn-blue btn btn-default'</span>
+      <span class="na">type=</span><span class="s">'submit'</span>
+      <span class="na">id=</span><span class="s">'inform-media-product-edit-product-save-changes-button-1'</span>
+      <span class="na">onClick=</span><span class="s">{this.updateProduct}</span>
+      <span class="na">disabled=</span><span class="s">{this.state.productName.trim()</span> <span class="err">===</span> <span class="err">''}</span>
+    <span class="nt">&gt;</span>
+      SAVE CHANGES
+    <span class="nt">&lt;/button&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+{this.state.confirmModal ? (
+  <span class="nt">&lt;ConfirmationCard</span> <span class="na">page=</span><span class="s">'Product'</span> <span class="na">confirmAction=</span><span class="s">{this.confirmAction}/</span><span class="nt">&gt;</span>
+) : null}
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+</div>
+
+<p>The first two lines have the same indentation, even though the second <code class="highlighter-rouge">&lt;div&gt;</code> is nested in the first one.</p>
+
+<p><strong>Empty tags should be self-closing</strong></p>
+
+<p>Next, there is inconsistent with tags.
+On line 3, the <code class="highlighter-rouge">&lt;div&gt;</code> is empty and has a closing tag.
+On line 5, the <code class="highlighter-rouge">&lt;div&gt;</code> is self closing.</p>
+
+<p>Here’s a snippet of a fixing the indentation and self closing tags.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-sm-12 col-md-12'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'product-details-top'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-4'</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-5'</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-3 no-pad-right form-group'</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'pull-right'</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span>
+          <span class="na">className=</span><span class="s">'btn cancel-btn btn btn-default'</span>
+          <span class="na">id=</span><span class="s">'inform-media-product-edit-product-cancel-button-1'</span>
+          <span class="na">type=</span><span class="s">'button'</span>
+          <span class="na">onClick=</span><span class="s">{this.handleBack}</span>
+        <span class="nt">&gt;</span>
+          CANCEL
+        <span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span>
+          <span class="na">className=</span><span class="s">'btn btn-blue btn btn-default'</span>
+          <span class="na">type=</span><span class="s">'submit'</span>
+          <span class="na">id=</span><span class="s">'inform-media-product-edit-product-save-changes-button-1'</span>
+          <span class="na">onClick=</span><span class="s">{this.updateProduct}</span>
+          <span class="na">disabled=</span><span class="s">{this.state.productName.trim()</span> <span class="err">===</span> <span class="err">''}</span>
+        <span class="nt">&gt;</span>
+          SAVE CHANGES
+        <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+</div>
+
+<p>The next two fixes are my own pet peeves. I don’t like seeing text without surrounding tags.</p>
+
+<p><strong>Surround text with <code class="highlighter-rouge">&lt;span&gt;</code> tags</strong></p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-sm-12 col-md-12'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'product-details-top'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-4'</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-5'</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-3 no-pad-right form-group'</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'pull-right'</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span>
+          <span class="na">className=</span><span class="s">'btn cancel-btn btn btn-default'</span>
+          <span class="na">id=</span><span class="s">'inform-media-product-edit-product-cancel-button-1'</span>
+          <span class="na">type=</span><span class="s">'button'</span>
+          <span class="na">onClick=</span><span class="s">{this.handleBack}</span>
+        <span class="nt">&gt;</span>
+          <span class="nt">&lt;span&gt;</span>CANCEL<span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span>
+          <span class="na">className=</span><span class="s">'btn btn-blue btn btn-default'</span>
+          <span class="na">type=</span><span class="s">'submit'</span>
+          <span class="na">id=</span><span class="s">'inform-media-product-edit-product-save-changes-button-1'</span>
+          <span class="na">onClick=</span><span class="s">{this.updateProduct}</span>
+          <span class="na">disabled=</span><span class="s">{this.state.productName.trim()</span> <span class="err">===</span> <span class="err">''}</span>
+        <span class="nt">&gt;</span>
+          <span class="nt">&lt;span&gt;</span>SAVE CHANGES<span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+</div>
+
+<p>Last fix I would like to see is to <strong>alphabetize the tag properties</strong>.
+For me, I don’t want to find a property if the list is in any order list.
+This is especially true when the property list is greater than 10.</p>
+
+<div class="language-html highlighter-rouge"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-sm-12 col-md-12'</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'product-details-top'</span><span class="nt">&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-4'</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-5'</span> <span class="nt">/&gt;</span>
+    <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'col-md-3 no-pad-right form-group'</span><span class="nt">&gt;</span>
+      <span class="nt">&lt;div</span> <span class="na">className=</span><span class="s">'pull-right'</span><span class="nt">&gt;</span>
+        <span class="nt">&lt;button</span>
+          <span class="na">className=</span><span class="s">'btn cancel-btn btn btn-default'</span>
+          <span class="na">id=</span><span class="s">'inform-media-product-edit-product-cancel-button-1'</span>
+          <span class="na">onClick=</span><span class="s">{this.handleBack}</span>
+          <span class="na">type=</span><span class="s">'button'</span>
+        <span class="nt">&gt;</span>
+          <span class="nt">&lt;span&gt;</span>CANCEL<span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+        <span class="nt">&lt;button</span>
+          <span class="na">className=</span><span class="s">'btn btn-blue btn btn-default'</span>
+          <span class="na">disabled=</span><span class="s">{this.state.productName.trim()</span> <span class="err">===</span> <span class="err">''}</span>
+          <span class="na">id=</span><span class="s">'inform-media-product-edit-product-save-changes-button-1'</span>
+          <span class="na">onClick=</span><span class="s">{this.updateProduct}</span>
+          <span class="na">type=</span><span class="s">'submit'</span>
+        <span class="nt">&gt;</span>
+          <span class="nt">&lt;span&gt;</span>SAVE CHANGES<span class="nt">&lt;/span&gt;</span>
+        <span class="nt">&lt;/button&gt;</span>
+      <span class="nt">&lt;/div&gt;</span>
+    <span class="nt">&lt;/div&gt;</span>
+  <span class="nt">&lt;/div&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre>
+</div>
+
+<p>Some of you may notice the two self-closing tags are unnecessary.
+Bootstrap has classes that allow you to skip grid columns, but we don’t need to address that as it may be a developer’s plan to use it.
+It’s more simple for me to note that in my review notes to the developer than to tell them to make those changes.
+It’s up to the developer to add a comment there.</p>
+
+
+        </div>
+      </div>
+
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<footer class="site-footer">
+
+  <div class="footer-col-wrapper">
+
+    <div class="footer-heading">
+      
+        <nav class="landing-nav">
+          <ul class="nav-list">
+            
+              
+                <li>
+                  <a href="/">Home</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/letters/">Letter Archive</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/blog/">Blog</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/resume/">Resume</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/about/">About</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/projects/">Projects</a>
+                </li>
+              
+            
+          </ul>
+        </nav>
+      
+    </div>
+
+    <div class="footer-social-list">
+  <ul class="social-media-list">
+    <li>
+      <a href="https://github.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-github"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-twitter"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://instagram.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-instagram"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="http://jermspeaks-blog.tumblr.com" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-tumblr"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://medium.com/@jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-medium"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/jeremynwong" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-linkedin"></i>
+        </span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    <div class="footer-email">
+      <a href="mailto:jermspeaks@gmail.com">
+        <button>Send Email</button>
+      </a>
+    </div>
+
+
+    <div class="footer-description">
+      <p class="text">Craft By Zen 2015-2016</p>
+    </div>
+  </div>
+
+</footer>
+
+
+    </section>
+
+
+
+  </body>
+
+</html>
