@@ -4,17 +4,17 @@ layout: post
 <div class="home">
   <section class="writing-collection">
     <ul class="blog-list">
-      {% for page in site.posts %}
-        {% unless page.categories contains 'letters' %}
-          {% unless page.draft %}
-            {% if page.title %}
+      {% for post in site.posts %}
+        {% unless post.categories contains 'letters' %}
+          {% unless post.draft %}
+            {% if post.title %}
             <li>
               <div class="blog-title">
-                <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
               </div>
               <div>
                 <span>Published</span>
-                <span>{{ page.date | date: '%B %d, %Y' }}</span>
+                <span>{{ post.date | date: '%B %d, %Y' }}</span>
               </div>
             </li>
             {% endif %}
