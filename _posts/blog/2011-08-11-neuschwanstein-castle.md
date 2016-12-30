@@ -29,3 +29,6 @@ On my way down, taking an alternate path, I saw these stones stacked that means 
 ![stone stacking](http://68.media.tumblr.com/tumblr_lqttnpqGha1qz81kho5_1280.jpg)
 
 ![after the rain](http://68.media.tumblr.com/tumblr_lqttnpqGha1qz81kho6_1280.jpg)
+
+[Original Post Part 1](http://jermspeaks.com/post/9655834259/welcome-to-neuschwanstein-castle-this-was-day-2)
+[Original Post Part 2](http://jermspeaks.com/post/9656310591/then-i-climb-up-to-the-castle-and-i-see)
