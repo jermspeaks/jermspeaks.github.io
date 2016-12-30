@@ -1,7 +1,7 @@
 ---
 layout: cbz
 category: blog, post
-title: Book Reviews
+title: Book Reviews of Things I've Recently Read
 date: 2013-10-03
 permalink: /blog/:title.html
 ---
