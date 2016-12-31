@@ -42,7 +42,7 @@ I have to admit that I haven’t been as active on my blog, but I’m still upda
 14. Study history of pop music  
 done best by listening to 2 or 3 albums a week
 Well, it’s a win-lose situation. I’ve broadened my spectrum of listening to the history of hip-hop and metal so far. Albums, no. Pop music, I think I get enough of it as it is. Failed.
-15. Tweet everyday with a new vocab word (Probably for articulate)  
+15. Tweet everyday with a new vocab word (Probably for [artwiculate](http://artwiculate.com/))  
 Again, no need for an explanation. I’ll try some other form of this in the future. Thanks to this goal, I have been put in a strange twitter list. Failed.
 16. Write a screenplay for a short film or web-series  
 Ha, I think I actually remember writing this, then regretting it. Failed.
