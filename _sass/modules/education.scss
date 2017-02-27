@@ -1,0 +1,24 @@
+.education {
+  &--title {
+    @include section-title();
+  }
+  &--school {
+    @include outer-container;
+    margin-bottom: $margin-bottom-large;
+  }
+  &--school__left {
+    @include span-columns(3);
+  }
+  &--school__right {
+    @include span-columns(9);
+    margin-right: 0;
+  }
+  &--school__degree,
+  &--school__name {
+    display: block;
+  }
+  &--school__degree {
+    margin-bottom: $margin-bottom-small;
+    font-size: 14px;
+  }
+}

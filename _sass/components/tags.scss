@@ -1,0 +1,16 @@
+/* ============================================
+  Tags
+============================================ */
+@import "paper-button";
+@import "cards";
+
+@mixin tag($font-size, $text-color, $background-color) {
+  @include font-bold($font-size);
+  @include card(1);
+  color: $text-color;
+  background-color: $background-color;
+  display: inline-block;
+  margin: 10px 5px 5px 0;
+  padding: 10px;
+  border-radius: 2px;
+}

@@ -1,0 +1,61 @@
+/* ============================================
+  Toggle Button
+============================================ */
+// Variables
+$toggle-button-grid-step: 4;
+
+$toggle-button-size: $toggle-button-grid-step * 10;
+$toggle-button-height: $toggle-button-grid-step * 4;
+$toggle-button-padding: $toggle-button-grid-step;
+$toggle-button-label: $toggle-button-height + ($toggle-button-padding * 2);
+
+$toggle-button-animation: 0.28s cubic-bezier(0.4,0,.2,1);
+$toggle-button-color-swatch: #009688;
+
+$toggle-button-color-thumb-off: #fafafa;
+
+$toggle-color-track-off: transparentize(black, 0.74);
+
+$toggle-button-color-track-on: transparentize($toggle-button-color-swatch, 0.50);
+
+.toggle-switch {
+  display: inline-block;
+  position: relative;
+  margin-top: 8px;
+  width: ( $toggle-button-size ) + px;
+  height: ( $toggle-button-height ) + px;
+  border-radius: ( $toggle-button-height / 2 ) + px;
+  background: $toggle-color-track-off;
+  transition: background $toggle-button-animation;
+  vertical-align: middle;
+  cursor: pointer;
+  &::before {
+    content: '';
+    position: absolute;
+    top: ( - $toggle-button-padding ) + px;
+    left: ( - $toggle-button-padding ) + px;
+    width: ($toggle-button-label) + px;
+    height: ($toggle-button-label) + px;
+    background: $toggle-button-color-thumb-off;
+    box-shadow: 0 2px ( $toggle-button-height / 2 ) + px rgba(0,0,0,.28);
+    border-radius: 50%;
+    transition: left $toggle-button-animation, background $toggle-button-animation, box-shadow $toggle-button-animation;
+  }
+  &:active::before {
+    box-shadow: 0 2px ( $toggle-button-height / 2 ) + px transparentize(black, .72), 0 0 0 ($toggle-button-size / 2) + px transparentize(#808080, .9);
+  }
+}
+input:checked + .toggle-switch {
+  background: $toggle-button-color-track-on;
+  &::before {
+    left: ( $toggle-button-size - $toggle-button-label + $toggle-button-padding ) + px;
+    background: $toggle-button-color-swatch;
+  }
+  &:active::before {
+    box-shadow: 0 2px ( $toggle-button-height / 2 ) + px transparentize(black, .72), 0 0 0 ($toggle-button-size / 2) + px transparentize($toggle-button-color-swatch, 0.2);
+  }
+}
+
+.toggle-switch-input {
+  display: none !important;
+}

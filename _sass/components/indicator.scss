@@ -1,0 +1,66 @@
+/* ============================================
+  Fonts
+============================================ */
+$indicator-width: 200px;
+$indicator-height: 40px;
+
+$indicator-strip-width: 200px;
+$indicator-strip-height: 5px;
+$indicator-strip-boundless-width: 200px;
+
+$indicator-red: #FF5252;
+$indicator-yellow: #FFEB3B;
+$indicator-green: #4CAF50;
+
+@mixin indicator($width, $height) {
+  width: $width;
+  height: $height;
+  border-radius: 2px;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+.indicator {
+  @include indicator($indicator-width, $indicator-height);
+  .indicator-progress-fill {
+    height: $indicator-height;
+    box-shadow: 1px 0 3px rgba(0,0,0,0.05), 1px 0 2px rgba(0,0,0,0.1);
+  }
+
+  .indicator-value {
+    position: relative;
+    top: -$indicator-height;
+    width: $indicator-width;
+    height: $indicator-height;
+    line-height: $indicator-height;
+    font-weight: 600;
+    text-align: center;
+    vertical-align: middle;
+    span {
+      display: inline-block;
+    }
+  }
+}
+
+.indicator-strip {
+  @include indicator($indicator-strip-width, $indicator-strip-height);
+  .indicator-strip-fill {
+    height: $indicator-strip-height;
+  }
+}
+
+.indicator-boundless-strip {
+  @include indicator($indicator-strip-boundless-width, $indicator-strip-height);
+}
+
+.progress-fill-red {
+  background-color: $indicator-red;
+}
+
+.progress-fill-green {
+  background-color: $indicator-green;
+}
+
+.progress-fill-yellow {
+  background-color: $indicator-yellow;
+}

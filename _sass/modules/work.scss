@@ -1,0 +1,78 @@
+// Work Variables
+$work-indent-length: 20px;
+
+.work {
+  &--title {
+    @include section-title();
+  }
+
+  &--company {
+    @include outer-container;
+    margin-bottom: $margin-bottom-large;
+  }
+
+  &--company:last-child {
+    margin-bottom: 0;
+  }
+
+  &--company__left {
+    @include span-columns(2);
+  }
+
+  &--company__right {
+    @include span-columns(10);
+    margin-right: 0;
+  }
+
+  &--company__duration {
+    font-size: 12px;
+  }
+
+  &--company__name,
+  &--company__title {
+    display: inline-block;
+    margin-bottom: 0.5em;
+  }
+
+  &--projects,
+  &--responsibilities,
+  &--responsibility {
+    margin-left: $work-indent-length;
+  }
+
+  &--responsibilities {
+    list-style-type: disc;
+  }
+
+  &--responsibility {
+    font-size: 11px;
+    font-weight: 300;
+  }
+
+  &--desc__skills {
+    font-size: $small-font-size;
+    color: $gray-dark-1;
+  }
+}
+
+.work--project {
+  margin-bottom: 5px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__title,
+  &__subtitle {
+    font-size: 14px;
+  }
+
+  &-responsibilities {
+    list-style-type: disc;
+  }
+  &-responsibility {
+    margin-left: $work-indent-length;
+    font-size: 11px;
+    font-weight: 300;
+  }
+}

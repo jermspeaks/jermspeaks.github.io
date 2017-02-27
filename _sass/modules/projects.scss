@@ -1,0 +1,32 @@
+.projects {
+  &--title {
+    @include section-title();
+  }
+  &--build {
+    margin-bottom: $margin-bottom-small-50;
+  }
+  &--build__name {
+    display: block;
+  }
+  &--build__skill {
+    display: inline;
+  }
+  &--build__skill + &--build__skill:before {
+    content: "/ ";
+  }
+  &--build__name,
+  &--build__skills {
+    margin-bottom: $margin-bottom-small;
+  }
+  &--build__skills,
+  &--build__website {
+    font-size: 12px;
+  }
+  &--build__website {
+    color: $gray-med;
+
+    &:hover {
+      color: $gray-dark-3;
+    }
+  }
+}

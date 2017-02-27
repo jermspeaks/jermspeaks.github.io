@@ -1,0 +1,24 @@
+.volunteering {
+  &--title {
+    @include section-title();
+  }
+  &--event {
+    margin-bottom: $margin-bottom-small-50;
+  }
+  &--event__left {
+    @include span-columns(2);
+  }
+  &--event__right {
+    @include span-columns(10);
+    margin-right: 0;
+  }
+  &--event__year {
+    font-size: 12px;
+  }
+  &--event__name,
+  &--event__role {
+    display: block;
+    margin-bottom: $margin-bottom-small;
+    font-size: 12px;
+  }
+}
