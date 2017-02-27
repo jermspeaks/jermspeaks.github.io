@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Single Responsibility</title>
+  <meta name="description" content="Single Responsibility">
+
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="localhost:4000/blog/js-single-responsibility.html">
+  <link rel="alternate" type="application/rss+xml" title="" href="localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+
+    <section class="container">
+
+      <header class="cbz-header">
+        <div class="cbz-header-text">
+          <span>Writing</span>
+        </div>
+      </header>
+
+      <div class="page-content">
+        <div class="wrapper">
+          <h1 id="single-responsibility">Single Responsibility</h1>
+
+<p>Single responsibility means one unit of code does one thing.
+It should not be responsibility for many different things.
+In other words, it adheres to “separation of concerns”.</p>
+
+<p>In dynamic languages like Javascript, there’s no typechecking what a function can return.
+So, a function could take any arguments of any type and return any type.</p>
+
+<p>In general, we want to avoid this. Take the following code example.</p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">PLAYER_BEHAVIORS</span> <span class="o">=</span> <span class="p">[{</span>
+  <span class="na">code</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
+  <span class="na">displayName</span><span class="p">:</span> <span class="s1">'Autoplay'</span>
+<span class="p">},</span> <span class="p">{</span>
+  <span class="na">code</span><span class="p">:</span> <span class="mi">1</span><span class="p">,</span>
+  <span class="na">displayName</span><span class="p">:</span> <span class="s1">'Click to play'</span>
+<span class="p">}];</span>
+
+<span class="kd">function</span> <span class="nx">getPlayerBehavior</span><span class="p">(</span><span class="nx">index</span> <span class="o">=</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nx">index</span> <span class="o">!==</span> <span class="o">-</span><span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="nx">playerBehavior</span> <span class="o">=&gt;</span> <span class="nx">playerBehavior</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">index</span><span class="p">).</span><span class="nx">name</span><span class="p">;</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">return</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">playerBehavior</span> <span class="o">=&gt;</span> <span class="nx">playerBehavior</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>Our function, <code class="highlighter-rouge">getPlayerBehavior</code>, takes one input that should be a number
+However, the first <code class="highlighter-rouge">return</code> statement returns a type <code class="highlighter-rouge">String</code>,
+while the second <code class="highlighter-rouge">return</code> returns a type <code class="highlighter-rouge">Array</code>.</p>
+
+<p>This is an example where the function is doing two different things in one
+unit of code. We want to avoid this behavior and evaludate what this function should do.
+Should it pass back the list of behavior names
+or should it find the behavior given the index.</p>
+
+<p>Take the following solution as a guideline.</p>
+
+<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="c1">// Same constant</span>
+<span class="kd">function</span> <span class="nx">getPlayerBehaviors</span><span class="p">()</span> <span class="p">{</span>
+  <span class="k">return</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">playerBehavior</span> <span class="o">=&gt;</span> <span class="nx">playerBehavior</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
+<span class="p">}</span>
+
+<span class="kd">function</span> <span class="nx">findPlayerBehavior</span><span class="p">(</span><span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
+  <span class="k">if</span> <span class="p">(</span><span class="nb">Number</span><span class="p">.</span><span class="nx">isInteger</span><span class="p">(</span><span class="nx">index</span><span class="p">))</span> <span class="p">{</span>
+    <span class="kr">const</span> <span class="nx">playerBehavior</span> <span class="o">=</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="nx">playerBehaviour</span> <span class="o">=&gt;</span> <span class="nx">playerBehaviour</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">index</span><span class="p">);</span>
+    <span class="k">if</span> <span class="p">(</span><span class="nx">playerBehavior</span><span class="p">)</span> <span class="p">{</span>
+      <span class="k">return</span> <span class="nx">playerBehavior</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
+    <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+      <span class="c1">// Could not find player behavior</span>
+      <span class="k">return</span> <span class="s1">''</span><span class="p">;</span>
+    <span class="p">}</span>
+  <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">'index should be type Number:Integer'</span><span class="p">);</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+</code></pre>
+</div>
+
+<p>In this example, we have separated the function into two functions because they are doing two separate things.
+Depending on how we called this function before, we will have to determine
+which function to use before we make the function call.</p>
+
+        </div>
+      </div>
+
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<footer class="site-footer">
+
+  <div class="footer-col-wrapper">
+
+    <div class="footer-heading">
+      
+        <nav class="landing-nav">
+          <ul class="nav-list">
+            
+              
+                <li>
+                  <a href="/">Home</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/letters/">Letter Archive</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/blog/">Blog</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/resume/">Resume</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/about/">About</a>
+                </li>
+              
+            
+              
+                <li>
+                  <a href="/projects/">Projects</a>
+                </li>
+              
+            
+          </ul>
+        </nav>
+      
+    </div>
+
+    <div class="footer-social-list">
+  <ul class="social-media-list">
+    <li>
+      <a href="https://github.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-github"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-twitter"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://instagram.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-instagram"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="http://jermspeaks-blog.tumblr.com" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-tumblr"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://medium.com/@jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-medium"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/jeremynwong" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-linkedin"></i>
+        </span>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+    <div class="footer-email">
+      <a href="mailto:jermspeaks@gmail.com">
+        <button>Send Email</button>
+      </a>
+    </div>
+
+
+    <div class="footer-description">
+      <p class="text">Craft By Zen 2015-2016</p>
+    </div>
+  </div>
+
+</footer>
+
+
+    </section>
+
+
+
+  </body>
+
+</html>
