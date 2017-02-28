@@ -3,8 +3,6 @@
 ---
 @charset "utf-8";
 
-
-
 // Our variables
 $base-font-family: Helvetica, Arial, sans-serif;
 $secondary-font-family: "Lucida Bright", Georgia, serif;
@@ -51,8 +49,9 @@ $on-laptop:        800px;
 
 // @import "bourbon";
 // @import "neat";
-// @import "assets/neat/neat";
-// @import "assets/neat/neat-helpers";
+@import "assets/bourbon/bourbon";
+@import "assets/neat/neat";
+@import "assets/neat/neat-helpers";
 // @import "assets/base/base";
 // @import "assets/refills/refills-custom";
 // @import "assets/normalize";
@@ -67,6 +66,6 @@ $on-laptop:        800px;
   "landing",
   "footer",
   "letter",
-  "blog",
-  "resume"
+  "blog"
 ;
+// "resume"
