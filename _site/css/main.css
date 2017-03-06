@@ -452,7 +452,9 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
-.header, .about-header { padding-top: 20px; padding-left: 40px; padding-right: 40px; }
+.header { padding-top: 20px; padding-left: 40px; padding-right: 40px; }
+
+.about-header { background: #f4f3f9 url("/assets/images/about-header.jpg"); background-size: cover; height: 150px; color: #ffe; }
 
 .header-title { padding-right: 1em; }
 
@@ -501,6 +503,10 @@ td, th { padding: 0; }
 .landing-newsletter-fields .landing-newsletter-submit { height: 24px; }
 
 #splash svg { display: block; margin-left: auto; margin-right: auto; }
+
+.about-article { margin-top: 10px; }
+
+.about-paragraph { margin-top: 10px; margin-bottom: 10px; }
 
 .cbz-footer { width: 75%; padding-bottom: 10px; margin-top: 10px; margin-bottom: 20px; margin-left: auto; margin-right: auto; }
 

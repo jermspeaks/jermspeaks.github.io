@@ -1,8 +1,14 @@
-.header,
-.about-header {
+.header {
   padding-top: 20px;
   padding-left: 40px;
   padding-right: 40px;
+}
+
+.about-header {
+  background: #f4f3f9 url("/assets/images/about-header.jpg");
+  background-size: cover;
+  height: 150px;
+  color: #ffe;
 }
 
 .header-title {
