@@ -465,13 +465,14 @@ td, th { padding: 0; }
 
 .letter-header { background: #aaa url("/assets/images/bear-colored.png"); background-size: cover; height: 220px; }
 
-.letter-header-text { font-size: 48px; font-weight: 700; line-height: 220px; color: rgba(20, 20, 20, 0.85); }
+.letter-header-text { font-size: 48px; font-weight: 700; line-height: 220px; color: rgba(255, 255, 255, 0.85); }
 .letter-header-text span { display: block; margin-right: 20px; text-align: right; }
 
 .about-name { font-size: 36px; }
 
 .about-title { font-size: 48px; font-weight: bold; }
 
+@media (max-width: 600px) { .letter-header-text { line-height: 50px; } }
 .landing-nav, .landing-summary, .landing-newsletter { margin-left: 30px; margin-right: 30px; }
 
 .landing-nav ul { display: flex; justify-content: space-between; margin: 0; list-style-type: none; }

@@ -45,7 +45,8 @@
   font-size: 48px;
   font-weight: 700;
   line-height: 220px;
-  color: rgba(20, 20, 20, .85);
+  // color: rgba(20, 20, 20, .85);
+  color: rgba(255, 255, 255, .85);
   // background: rgba(255, 255, 255, 0.05);
 
   span {
@@ -64,4 +65,10 @@
 .about-title {
   font-size: 48px;
   font-weight: bold;
+}
+
+@media (max-width: 600px) {
+  .letter-header-text {
+    line-height: 50px;
+  }
 }
