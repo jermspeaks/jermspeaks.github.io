@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: The Friend-Date
 date: 2015-05-18
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

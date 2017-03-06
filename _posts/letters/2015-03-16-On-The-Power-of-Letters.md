@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On The Power of Letters
 date: 2015-03-16
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

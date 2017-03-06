@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 2016 Retrospective
 date: 2017-01-03
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

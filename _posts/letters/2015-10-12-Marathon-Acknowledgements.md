@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: Marathon Acknowledgements
 date: 2015-10-12
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

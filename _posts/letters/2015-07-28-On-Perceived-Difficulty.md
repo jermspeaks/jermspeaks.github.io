@@ -3,8 +3,9 @@ layout: letter
 category: letters
 title: On Perceived Difficulty
 date: 2015-07-28
+tags: [season_1, letters]
 permalink: /:categories/:title.html
-published: false
+published: true
 ---
 
 # On Perceived Difficulty

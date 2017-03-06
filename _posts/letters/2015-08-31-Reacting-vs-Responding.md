@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: Reacting vs Responding
 date: 2015-08-31
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
@@ -17,7 +18,7 @@ It’s not enough to identify this problem areas once. Dealing with uncomfortabl
 I absolutely love this story by Maurice Rabb, instructor at Dev Bootcamp, that he shared on Facebook.
 
 > I had an odd experience today. This morning I was hurrying to meet Audrey and Ella in the Loop. I hate paying for downtown parking, so I was doing my usual trick of parking south of 16th St and riding my folding bike north to the Loop. As I was preparing to pull into a small spot, I noticed that there was someone in the driver’s seat of the car in front of the space. I pulled up and asked > the woman, Excuse me, are you leaving?"
-> 
+>
 > Lady: “No.”
 >
 > Me (Seeing that no one was parked ahead of her): “Can you give me a foot?”

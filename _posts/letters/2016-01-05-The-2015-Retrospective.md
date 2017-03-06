@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'The 2015 Retrospective'
 date: 2016-01-05
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

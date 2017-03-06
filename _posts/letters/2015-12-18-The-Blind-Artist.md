@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'The Blind Artist'
 date: 2015-12-18
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

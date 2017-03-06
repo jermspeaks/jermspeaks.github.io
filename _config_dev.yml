@@ -16,7 +16,7 @@ navigation:
   url: /about/
 - text: Projects
   url: /projects/
-
+# paginate: 10
 email: "jermspeaks@gmail.com"
 github: https://github.com/jermspeaks/jermspeaks.github.io
 # kramdown:

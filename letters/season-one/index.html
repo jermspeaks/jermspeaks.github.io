@@ -1,0 +1,39 @@
+---
+layout: letter
+---
+<div class="home">
+  <section>
+    <h1>Series One</h1>
+    <h2>Original Run</h2>
+    <div class="letter-season-intro" id="letter-season-one-intro">
+      <p>
+        <span>Welcome to the first Jer Bear Letter.</span>
+        <span>My aim is to write something meaningful every week which may vary in length.</span>
+        <span>I love story-telling and love to share.</span>
+        <span>I really hope you enjoy it and feedback is much appreciated.</span>
+        <span>If you enjoy this letter, please share it around.</span>
+        <span>Tell people to subscribe to my weekly letters <a href="http://tinyletter.com/jeremywong">here</a>.</span>
+        <span>I promise to post sparingly, like once a week.</span>
+      </p>
+    </div>
+  </section>
+  <section class="letter-collection">
+    <ul class="letter-list">
+      {% for page in site.posts %}
+        {% if page.categories contains 'letters' and page.tags contains 'season_1' %}
+          {% if page.title %}
+          <li>
+            <div class="letter-title">
+              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+            </div>
+            <div>
+              <span>Published</span>
+              <span>{{ page.date | date: '%B %d, %Y' }}</span>
+            </div>
+          </li>
+          {% endif %}
+        {% endif %}
+      {% endfor %}
+    </ul>
+  </section>
+</div>

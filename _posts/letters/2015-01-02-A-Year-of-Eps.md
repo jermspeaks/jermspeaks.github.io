@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On A Year of EPs
 date: 2015-01-02
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

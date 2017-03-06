@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Cryptography
 date: 2015-04-20
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

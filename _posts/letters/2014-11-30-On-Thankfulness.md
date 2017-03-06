@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'Thankfulness: Lessons Learned'
 date: 2014-11-30
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

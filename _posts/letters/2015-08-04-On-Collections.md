@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Collections
 date: 2015-08-04
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Self-Doubt
 date: 2015-11-16
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

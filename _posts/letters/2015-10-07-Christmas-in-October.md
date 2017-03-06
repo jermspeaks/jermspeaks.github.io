@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: Christmas in October
 date: 2015-10-07
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

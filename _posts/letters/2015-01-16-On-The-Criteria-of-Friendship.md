@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On The Criteria of Friendship
 date: 2015-01-16
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

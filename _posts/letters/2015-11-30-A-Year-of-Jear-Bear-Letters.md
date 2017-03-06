@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: A Year of Jear-Bear Letters
 date: 2015-11-30
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

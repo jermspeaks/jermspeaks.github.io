@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'On Obsession'
 date: 2016-03-09
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
@@ -20,4 +21,4 @@ Not wanting to pay for such expensive media, I found my local used records and m
 
 For the next few weeks, I found myself pouring through the collection, either renting some of the films from the library, watching them on Hulu, or binging on the sale from late last month. I found myself collecting films I wouldn’t have watched a few months ago. Silent films? Yes. Foreign Italian films from the neorealist era? Check. I now feel more adept at hearing film director’s names and reciting one of their films.
 
-Tonight, I’m watching Persona from Bergman. 7 minutes in and I know I’m in for a treat. But I must still make time for writing. Writing grounds me not to stray too far away in this little obsessions of mine. The time I spend writing this newsletter has paid back in helping me understand myself better. Today, I feel more confident about writing again. The truth is I felt like I lost my way with writing during the end of January. I sunk myself in film, and now I feel refreshed, ready to talk about some pending items I have in store. In a way, film restored my writing. Watching these directors at the height of their craft really inspires me to lose myself in creativity. So, let us begin another few months of newsletter goodness. I know I’ll enjoy it. 
+Tonight, I’m watching Persona from Bergman. 7 minutes in and I know I’m in for a treat. But I must still make time for writing. Writing grounds me not to stray too far away in this little obsessions of mine. The time I spend writing this newsletter has paid back in helping me understand myself better. Today, I feel more confident about writing again. The truth is I felt like I lost my way with writing during the end of January. I sunk myself in film, and now I feel refreshed, ready to talk about some pending items I have in store. In a way, film restored my writing. Watching these directors at the height of their craft really inspires me to lose myself in creativity. So, let us begin another few months of newsletter goodness. I know I’ll enjoy it.

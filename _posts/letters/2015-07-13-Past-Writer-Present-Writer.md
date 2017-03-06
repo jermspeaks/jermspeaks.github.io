@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: Past Writer, Present Writer
 date: 2015-07-13
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

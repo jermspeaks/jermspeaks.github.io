@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Found Purpose
 date: 2015-06-08
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

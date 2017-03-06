@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Fireflies
 date: 2015-06-15
+tags: [season_1, letters]
 permalink: /:categories/:title-1.html
 ---
 

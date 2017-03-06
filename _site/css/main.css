@@ -510,6 +510,8 @@ td, th { padding: 0; }
 
 .letter-title { font-size: 1.5em; }
 
+.letter-season-intro { font-size: 0.8em; }
+
 .post-footer-nav { border-top: 2px solid rgba(200, 200, 200, 0.7); }
 
 .blog-list, .post-footer-list { padding-top: 20px; }

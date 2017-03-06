@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'Ghosts, Part 2'
 date: 2016-06-03
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

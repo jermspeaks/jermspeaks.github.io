@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Burnout
 date: 2015-07-06
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

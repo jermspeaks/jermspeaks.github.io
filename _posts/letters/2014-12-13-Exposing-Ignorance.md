@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Exposing Ignorance
 date: 2014-12-13
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

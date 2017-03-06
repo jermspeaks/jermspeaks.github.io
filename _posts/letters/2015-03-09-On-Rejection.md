@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Rejection
 date: 2015-03-09
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

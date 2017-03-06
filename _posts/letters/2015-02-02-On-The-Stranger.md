@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On The Stranger
 date: 2015-02-02
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

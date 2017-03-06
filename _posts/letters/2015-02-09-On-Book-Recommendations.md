@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Book Recommendations
 date: 2015-02-09
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

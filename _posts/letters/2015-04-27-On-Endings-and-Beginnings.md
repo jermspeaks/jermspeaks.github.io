@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Endings and Beginnings
 date: 2015-04-27
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

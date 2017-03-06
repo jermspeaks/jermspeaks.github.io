@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: ​Reflections on the Buffet
 date: 2015-06-23
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

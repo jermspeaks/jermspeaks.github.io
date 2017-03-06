@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: The Inner Game of Desert Running
 date: 2015-09-16
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

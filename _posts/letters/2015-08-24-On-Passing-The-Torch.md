@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Passing The Torch
 date: 2015-08-24
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

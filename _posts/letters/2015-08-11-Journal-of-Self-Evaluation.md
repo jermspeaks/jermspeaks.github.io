@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: Journal of Self-Evaluation
 date: 2015-08-11
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

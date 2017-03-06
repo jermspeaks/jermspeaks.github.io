@@ -10,23 +10,22 @@ layout: letter
     </ul>
   </nav> -->
 
-  <section class="letter-collection">
-    <ul class="letter-list">
-      {% for page in site.posts %}
-        {% if page.categories contains 'letters' %}
-          {% if page.title %}
-          <li>
-            <div class="letter-title">
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            </div>
-            <div>
-              <span>Published</span>
-              <span>{{ page.date | date: '%B %d, %Y' }}</span>
-            </div>
-          </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-  </ul>
+  <section>
+    <div class="season season-two">
+      <h1>
+        <a href="./season-two">Series Two</a>
+      </h1>
+      <div class="season-description">
+        <span>Series Topic: Admission Failure</span>
+      </div>
+    </div>
+    <div class="season season-one">
+      <h1>
+        <a href="./season-one">Series One</a>
+      </h1>
+      <div class="season-description">
+        <span>Series Topic: Original Run</span>
+      </div>
+    </div>
   </section>
 </div>

@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Frustration
 date: 2015-06-01
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Audiobooks
 date: 2015-10-19
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

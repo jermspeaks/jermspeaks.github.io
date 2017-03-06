@@ -5,6 +5,7 @@ title: The Negligence Problem
 date: 2017-02-07
 permalink: /:categories/:title.html
 tags: [season_2, letters]
+description: "Where I talk about my failure to act."
 ---
 
 # Admission: Failure
@@ -25,7 +26,6 @@ I broke down when bad became worse. On of the nostril pads came off, so I needed
 
 ## Breaking the Cycle
 
-
 I went online to determine how to schedule an appointment with an optometrist. My hospital website had had online booking. Bingo.
 
 I went in for the appointment and to my surprise, my eyes were the same as they were 4 years ago. By letting myself slip, I failed to see the absurdity of my own bias. All the moments of worry were for nothing. All the times I wondered what if, wasted.  
@@ -33,7 +33,6 @@ I went in for the appointment and to my surprise, my eyes were the same as they 
 ![Not broken glasses](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ed933276-b7eb-426c-bac6-13cd19c3ca0d.jpg)
 
 ## An Introduction
-
 
 We all make mistakes. We all fail to do, or sometimes not do, the important things in life. I want to raise the bar and stop this repetition.
 

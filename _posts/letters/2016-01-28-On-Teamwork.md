@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'On Teamwork'
 date: 2016-01-28
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

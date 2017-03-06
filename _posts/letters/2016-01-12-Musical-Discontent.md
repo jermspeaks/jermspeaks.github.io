@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'Musical Discontent'
 date: 2016-01-12
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

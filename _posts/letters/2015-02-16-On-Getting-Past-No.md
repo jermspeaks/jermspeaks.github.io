@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Getting Past "No"
 date: 2015-02-16
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

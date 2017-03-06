@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On Catalogs
 date: 2016-12-30
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

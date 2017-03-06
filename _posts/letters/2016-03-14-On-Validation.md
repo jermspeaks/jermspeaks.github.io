@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'On Validation'
 date: 2016-03-14
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

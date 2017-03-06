@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: 'On Anxieties, Depression, And Suicide Prevention'
 date: 2015-01-09
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 

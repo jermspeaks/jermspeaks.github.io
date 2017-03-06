@@ -3,6 +3,7 @@ layout: letter
 category: letters
 title: On An Open Dialogue
 date: 2015-03-23
+tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
