@@ -219,8 +219,13 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .footer-title { font-size: 24px; font-weight: bold; text-align: center; }
 
-.contact-list, .social-media-list { display: flex; justify-content: space-around; }
+.contact-list, .social-media-list { display: flex; }
 .contact-list > li, .social-media-list > li { display: inline; }
+
+.contact-list { justify-content: space-around; }
+
+.social-media-list { justify-content: center; }
+.social-media-list > li { margin-left: 5px; margin-right: 5px; }
 
 .footer-col-wrapper { margin-left: auto; margin-right: auto; color: #828282; }
 

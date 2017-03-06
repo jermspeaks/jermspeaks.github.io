@@ -154,10 +154,22 @@
 .social-media-list {
   @extend %normalize-list;
   display: flex;
-  justify-content: space-around;
 
   > li {
     display: inline;
+  }
+}
+
+.contact-list {
+  justify-content: space-around;
+}
+
+.social-media-list {
+  justify-content: center;
+
+  > li {
+    margin-left: 5px;
+    margin-right: 5px;
   }
 }
 
