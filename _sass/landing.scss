@@ -123,25 +123,25 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
 //   margin-right: $spacing-unit;
 // }
 
-// .landing-nav {
-//   ul {
-//     display: flex;
-//     justify-content: space-between;
-//     margin: 0;
-//     list-style-type: none;
-//   }
-//
-//   @include media-query($on-palm) {
-//     ul {
-//       flex-direction: column;
-//     }
-//   }
-// }
+.landing-nav {
+  ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    list-style-type: none;
+  }
 
-// .nav-list-link {
-//   text-transform: uppercase;
-//   font-size: 1.5em;
-// }
+  @include media-query($on-palm) {
+    ul {
+      flex-direction: column;
+    }
+  }
+}
+
+.nav-list-link {
+  text-transform: uppercase;
+  font-size: 1.5em;
+}
 
 // .landing-content {
 //   padding-top: 20px;
