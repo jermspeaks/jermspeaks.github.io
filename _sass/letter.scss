@@ -1,3 +1,6 @@
+$color-base-tri-1: #f0e5e2;
+$color-base-tri-2: #e2f0e5;
+
 .letter-list {
   @extend %normalize-list;
 
@@ -12,4 +15,26 @@
 
 .letter-season-intro {
   font-size: 0.8em;
+}
+
+.letters-blurb {
+  display: flex;
+}
+
+.letters-blurb-image {
+  flex: 0 0 150px;
+  margin-right: 20px;
+}
+
+.letters-middle-title {
+  h2 a {
+    padding-left: 10px;
+    border-left: 4px solid $color-base-tri-1;
+  }
+
+  h4,
+  .season-image,
+  .season-description {
+    margin-left: 14px;
+  }
 }

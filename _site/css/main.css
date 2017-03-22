@@ -552,6 +552,13 @@ td, th { padding: 0; }
 
 .letter-season-intro { font-size: 0.8em; }
 
+.letters-blurb { display: flex; }
+
+.letters-blurb-image { flex: 0 0 150px; margin-right: 20px; }
+
+.letters-middle-title h2 a { padding-left: 10px; border-left: 4px solid #f0e5e2; }
+.letters-middle-title h4, .letters-middle-title .season-image, .letters-middle-title .season-description { margin-left: 14px; }
+
 .post-footer-nav { border-top: 2px solid rgba(200, 200, 200, 0.7); }
 
 .blog-list, .post-footer-list { padding-top: 20px; }
