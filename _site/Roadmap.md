@@ -4,7 +4,7 @@
   - [ ] Clinical Trials Visualization
   - [ ] Remembrance
   - [ ] Spark - Facebook Light
-- [ ] Fix Favicon
+- [x] Fix Favicon
 - [ ] Move craftbyzen.com Domain Over
 - [ ] Add social icons
 - [ ] Add About.me Page

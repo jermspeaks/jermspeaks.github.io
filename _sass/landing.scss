@@ -1,3 +1,13 @@
+$color-base: #e5e2f0;
+$color-base-tri-1: #f0e5e2;
+$color-base-tri-1: #e2f0e5;
+
+.landing-top-bar {
+  width: 100%;
+  height: 10px;
+  background: $color-base-tri-1;
+}
+
 .landing-nav,
 .landing-summary,
 .landing-newsletter {
