@@ -1,0 +1,76 @@
+---
+layout: next-default
+---
+<div class="home" id="home">
+
+  <section class="landing-top">
+    <div class="landing-top-bar"></div>
+  </section>
+
+  <div class="landing-container">
+    <section class="landing-left">
+      <div class="landing-left-top">
+        <a href='/'>
+          <img class="avatar" src="/assets/profile-pic.jpg" width="150" height="150" alt="avatar" />
+        </a>
+      </div>
+
+      <div class="landing-left-bottom">
+        <ul class="landing-nav-list">
+          {% for link in site.navigation %}
+            <li class="landing-nav-list-item">
+              {% if link.text == "Talks" %}
+                <strong>
+                  <span class="landing-nav-list-link--disabled">{{ link.text }}</span>
+                </strong>
+              {% else %}
+                <a class="landing-nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <section class="landing-right">
+      <section class="landing-top-banner">
+        <header class="landing-header">
+          <div class="landing-header-title">
+            <span>
+              <a class="site-title" href="{{ site.baseurl }}/">Jeremy Wong</a>
+            </span>
+          </div>
+        </header>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div class="landing-middle-banner-header">
+          <h2>Interview with <a href="http://www.yerrington.net/" target="_blank">David Yerrington</a></h2>
+          <ul>
+            <li>
+              <a href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/73Eep-data-science-python-guest-jeremy/" target="_blank">
+                <span>Part 1</span>
+              </a>
+            </li>
+            <li>
+              <a href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/poqAP-data-science-python-guest-jeremy-2/" target="_blank">
+                <span>Part 2</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div class="landing-middle-banner-header">
+          <h2>Code Club</h2>
+          <div>
+            <span>During the fall and winter of 2014, I ran an online code club with some of my bootcamp cohort mates.</span>
+            <span>Here's a playlist of those sessions.</span>
+          </div>
+          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLyretLC2LTTr4CKC-i81Orsr1N-X57Pjr" frameborder="0" allowfullscreen></iframe>
+        </div>
+      </section>
+    </section>
+  </div>
+</div>

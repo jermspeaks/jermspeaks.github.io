@@ -4,18 +4,22 @@ description: "© 2015-17 Craft By Zen"
 github_username: "jermspeaks"
 twitter_username: "jermspeaks"
 navigation:
-- text: Home
-  url: /
-- text: Letter Archive
-  url: /letters/
-- text: Blog
-  url: /blog/
-- text: Resume
-  url: /resume/
+# - text: Home
+#   url: /
+# - text: Letter Archive
+#   url: /letters/
+# - text: Blog
+#   url: /blog/
+# - text: Resume
+#   url: /resume/
 - text: About
   url: /about/
-- text: Projects
+- text: Writing
+  url: /writing/
+- text: Codes
   url: /projects/
+- text: Talks
+  url: /talks/
 # paginate: 10
 email: "jermspeaks@gmail.com"
 github: https://github.com/jermspeaks/jermspeaks.github.io

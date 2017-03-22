@@ -15,7 +15,7 @@ navigation:
   url: /resume/
 - text: About
   url: /about/
-- text: Projects
+- text: Codes
   url: /projects/
 
 # Build Settings
