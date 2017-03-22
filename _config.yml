@@ -5,18 +5,22 @@ github_username: "jermspeaks"
 twitter_username: "jermspeaks"
 email: "jermspeaks@gmail.com"
 navigation:
-- text: Home
-  url: /
-- text: Letter Archive
-  url: /letters/
-- text: Blog
-  url: /blog/
-- text: Resume
-  url: /resume/
+# - text: Home
+#   url: /
+# - text: Letter Archive
+#   url: /letters/
+# - text: Blog
+#   url: /blog/
+# - text: Resume
+#   url: /resume/
 - text: About
   url: /about/
+- text: Writing
+  url: /writing/
 - text: Codes
   url: /projects/
+- text: Talks
+  url: /talks/
 
 # Build Settings
 markdown: kramdown
