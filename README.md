@@ -5,10 +5,10 @@
 [New Website](http://jermspeaks.github.io)
 
 ### Goals
-- [ ] Migration of About Me Page
+- [x] Migration of About Me Page
 - [x] Migration of old blog posts to new blog templates
 - [ ] Migration of Resume Page
 - [ ] Migration of Projects Page
-- [ ] Transfer domain to this page
-- [ ] Create Jekyll Template
+- [x] Transfer domain to this page
+- [ ] ~~Create Jekyll Template~~
 - [ ] Create Page for Movie and Book Data (Quantified Self Page)
