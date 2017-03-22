@@ -9,63 +9,125 @@ footer: Connect
     <div class="landing-top-bar"></div>
   </section>
 
-  <section class="landing-left">
-    <p>Pending</p>
-  </section>
-
-  <section class="landing-right">
-    <p>Pending</p>
-  </section>
-
-  <header class="header">
-    <div class="header-title">
-      <span>
-        <a class="site-title" href="{{ site.baseurl }}/">Jeremy Wong</a>
-      </span>
-    </div>
-
-  </header>
-
-  <div id="splash"></div>
-
-  <nav class="landing-nav">
-    <ul class="nav-list">
-      {% for link in site.navigation %}
-        {% unless link.text == "Home" %}
-          <li>
-            <a class="nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
-          </li>
-        {% endunless %}
-      {% endfor %}
-    </ul>
-  </nav>
-
-  <section class="landing-newsletter">
-    <form
-      action="https://tinyletter.com/jeremywong"
-      class="landing-newsletter-form"
-      method="post"
-      onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-      target="popupwindow"
-    >
-      <div class="landing-newsletter-desc">
-        <span>
-          <label for="tlemail">Subscribe to my weekly email newsletter. I will typically write essays, opinions, or deep-dives. </label>
-        </span>
+  <div class="landing-container">
+    <section class="landing-left">
+      <div>
+        <a href='/'>
+          <img class="avatar" src="assets/profile-pic.jpg" width="150" height="150" alt="avatar" />
+        </a>
       </div>
-      <div class="landing-newsletter-fields">
-        <p>
-          <input type="text" style="width:140px" name="email" id="tlemail" placeholder="email address"/>
-        </p>
-        <input type="hidden" value="1" name="embed"/>
-        <input class="landing-newsletter-submit" type="submit" value="Subscribe" />
+      <div>
+        <ul class="landing-nav-list">
+          {% for link in site.navigation %}
+            {% unless link.text == "Home" %}
+              <li class="landing-nav-list-item">
+                <a class="landing-nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
+              </li>
+            {% endunless %}
+          {% endfor %}
+        </ul>
       </div>
-      <!-- <p>
-        <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
-      </p> -->
-    </form>
-  </section>
+    </section>
+
+    <section class="landing-right">
+      <section class="landing-top-banner">
+        <header class="landing-header">
+          <div class="landing-header-title">
+            <span>
+              <a class="site-title" href="{{ site.baseurl }}/">Jeremy Wong</a>
+            </span>
+          </div>
+        </header>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div class="landing-middle-banner-header">
+          <h2 class="landing-middle-banner-title">
+            <a href="/letters/season-two">Newsletter: Series Two</a>
+          </h2>
+          <a href="/letters/season-two">
+            <img class="landing-middle-banner-image" src="/assets/images/admission_title.png" alt="Admission Failure Title Image" width="420">
+          </a>
+        </div>
+
+        <div class="landing-middle-posts">
+          <ul class="letter-list">
+            {% for page in site.posts limit: 5 %}
+              {% if page.categories contains 'letters' and page.tags contains 'season_2' %}
+                {% if page.title %}
+                <li>
+                  <div class="letter-title">
+                    <h4><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
+                  </div>
+                  <div class="letter-publish-date">
+                    <h6><span>Published&nbsp;{{ page.date | date: '%B %d, %Y' }}</span></h6>
+                  </div>
+                  <div class="letter-description">
+                    <h5><span><em>{{ page.description }}</em></span></h5>
+                  </div>
+                </li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+        </ul>
+        </div>
+      </section>
+
+      <section class="landing-bottom-banner landing-newsletter">
+        <form
+          action="https://tinyletter.com/jeremywong"
+          class="landing-newsletter-form"
+          method="post"
+          onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+          target="popupwindow"
+        >
+          <div class="landing-newsletter-desc">
+            <span>
+              <label for="tlemail">Subscribe to my weekly email newsletter. I will typically write essays, opinions, or deep-dives. </label>
+            </span>
+          </div>
+          <div class="landing-newsletter-fields">
+            <p>
+              <input type="text" style="width:140px" name="email" id="tlemail" placeholder="email address"/>
+            </p>
+            <input type="hidden" value="1" name="embed"/>
+            <input class="landing-newsletter-submit" type="submit" value="Subscribe" />
+          </div>
+          <!-- <p>
+            <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
+          </p> -->
+        </form>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div class="landing-middle-banner-header">
+          <h2 class="landing-middle-banner-title">
+            <a href="/letters/season-one">Newsletter: Series One</a>
+          </h2>
+        </div>
+
+        <div class="landing-middle-posts">
+          <ul class="letter-list">
+            {% for page in site.posts limit: 24 %}
+              {% if page.categories contains 'letters' and page.tags contains 'season_1' %}
+                {% if page.title %}
+                <li>
+                  <div class="letter-title">
+                    <h4><a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></h4>
+                  </div>
+                  <div class="letter-publish-date">
+                    <h6><span>Published&nbsp;{{ page.date | date: '%B %d, %Y' }}</span></h6>
+                  </div>
+                  <div class="letter-description">
+                    <h5><span><em>{{ page.description }}</em></span></h5>
+                  </div>
+                </li>
+                {% endif %}
+              {% endif %}
+            {% endfor %}
+        </ul>
+        </div>
+      </section>
+    </section>
+  </div>
 </div>
-
-<script src="https://d3js.org/d3.v4.min.js"></script>
-<script src="{{ "/js/landing.js" | prepend: site.baseurl }}"></script>
