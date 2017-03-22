@@ -516,6 +516,7 @@ td, th { padding: 0; }
 .landing-middle-banner-title { padding-left: 10px; border-left: 4px solid #f0e5e2; }
 
 .landing-middle-banner-image { padding-left: 14px; }
+.landing-middle-banner-image:hover { animation: avatarzomg 0.9s infinite; }
 
 .landing-middle-banner-header { padding-bottom: 20px; }
 

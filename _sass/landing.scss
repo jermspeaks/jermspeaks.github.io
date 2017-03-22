@@ -96,6 +96,10 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
 
 .landing-middle-banner-image {
   padding-left: 14px;
+
+  &:hover {
+    animation: avatarzomg 0.9s infinite;
+  }
 }
 
 .landing-middle-banner-header {
