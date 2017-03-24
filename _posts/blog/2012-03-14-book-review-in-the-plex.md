@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Book Review: In The Plex"
 date: 2012-03-14

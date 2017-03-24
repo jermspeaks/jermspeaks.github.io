@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: Levenshtein Distance Problem
 date: 2014-09-28

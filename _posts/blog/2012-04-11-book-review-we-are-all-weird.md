@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Book Review: We Are All Weird"
 date: 2012-04-11

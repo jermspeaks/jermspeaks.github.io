@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Book Review: How To Be Black"
 date: 2012-03-07

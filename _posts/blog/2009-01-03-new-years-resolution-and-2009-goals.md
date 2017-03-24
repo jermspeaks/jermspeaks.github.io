@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: New Years Resolution and 2009 Goals
 date: 2009-01-03

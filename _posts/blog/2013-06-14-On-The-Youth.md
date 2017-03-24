@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: On the Youth
 date: 2013-02-20

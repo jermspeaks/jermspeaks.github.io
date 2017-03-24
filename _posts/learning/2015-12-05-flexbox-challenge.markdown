@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 title: Flexbox Challenge
 published: false
 categories:

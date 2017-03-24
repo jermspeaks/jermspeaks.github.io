@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Review: Hooktheory"
 date: 2012-06-27

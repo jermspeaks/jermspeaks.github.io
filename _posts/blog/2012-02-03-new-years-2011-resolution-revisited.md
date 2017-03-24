@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: New Years 2011 Resolutions Revisited
 date: 2012-02-03

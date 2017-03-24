@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: 'The DBC Experience: The End'
 date: 2014-08-27

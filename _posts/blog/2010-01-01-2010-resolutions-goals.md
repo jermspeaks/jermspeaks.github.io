@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "2010 Resolutions/Goals"
 date: 2010-01-01

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Book Review: Thinking, Fast and Slow"
 date: 2012-05-09

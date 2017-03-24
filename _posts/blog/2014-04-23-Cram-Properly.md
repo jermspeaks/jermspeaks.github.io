@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: medium, post
 title: Cram Properly
 date: 2014-04-23

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: Best 2012 Book Reads
 date: 2012-12-30

@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: 'Week Two: DBC EXP'
 date: 2014-07-05

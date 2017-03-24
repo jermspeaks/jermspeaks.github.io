@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Book Review: I Am A Pole (And So Can You)"
 date: 2012-05-16

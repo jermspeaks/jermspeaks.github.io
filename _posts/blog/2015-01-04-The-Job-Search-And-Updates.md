@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: The Job Search and Updates
 date: 2015-01-04

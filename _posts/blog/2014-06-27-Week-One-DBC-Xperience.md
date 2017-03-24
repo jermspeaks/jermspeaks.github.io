@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: 'Week One: The DBC Xperience'
 date: 2014-06-27

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "This Year's Goals Revisited"
 date: 2010-12-18

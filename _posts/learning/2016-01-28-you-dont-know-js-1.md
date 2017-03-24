@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 title: "YDKJS Part 1: Up & Going"
 published: true
 categories: javascript

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, programming
 title: React JSX Syntax - Event Handling
 date: 2016-12-30

@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: Be Comfortable Being Uncomfortable
 date: 2014-11-08

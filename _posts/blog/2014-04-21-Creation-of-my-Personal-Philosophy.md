@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: medium, post
 title: Creation of My Personal Philosophy
 date: 2014-04-21

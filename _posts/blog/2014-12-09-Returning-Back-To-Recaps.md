@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: Returning Back to Recaps
 date: 2014-12-09

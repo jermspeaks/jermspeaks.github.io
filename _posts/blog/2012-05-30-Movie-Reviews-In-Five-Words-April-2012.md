@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Movie Reviews in Five Words (April 2012)"
 date: 2012-05-30

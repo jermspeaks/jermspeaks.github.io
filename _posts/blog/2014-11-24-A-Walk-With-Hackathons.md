@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: A Walk With Hackathons
 date: 2014-11-24

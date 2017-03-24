@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: "Movie Review: Harry Potter and the Half Blood Prince"
 date: 2009-07-31

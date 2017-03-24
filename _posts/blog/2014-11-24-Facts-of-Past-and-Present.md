@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: Facts of the Present and Past
 date: 2014-11-24

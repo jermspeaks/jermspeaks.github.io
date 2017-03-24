@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, tumblr
 title: Neuschwanstein Castle
 date: 2011-08-11

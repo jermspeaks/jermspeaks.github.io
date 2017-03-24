@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: next-post
 category: blog, post, programming
 title: Single Responsibility
 date: 2017-01-26

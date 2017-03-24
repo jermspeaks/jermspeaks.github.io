@@ -1,5 +1,5 @@
 ---
-layout: cbz
+layout: next-post
 category: blog, post
 title: Book Reviews of Things I've Recently Read
 date: 2013-10-03
