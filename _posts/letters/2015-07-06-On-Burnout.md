@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: On Burnout
 date: 2015-07-06

@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: On Being True to Yourself
 date: 2015-05-11

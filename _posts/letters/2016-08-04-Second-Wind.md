@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'Second Wind'
 date: 2016-08-04

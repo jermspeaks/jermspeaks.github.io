@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: On Book Recommendations
 date: 2015-02-09

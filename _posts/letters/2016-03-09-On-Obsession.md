@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'On Obsession'
 date: 2016-03-09

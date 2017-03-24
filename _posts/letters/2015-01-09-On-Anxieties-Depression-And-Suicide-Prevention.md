@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'On Anxieties, Depression, And Suicide Prevention'
 date: 2015-01-09

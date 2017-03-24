@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'Thankfulness: Lessons Learned'
 date: 2014-11-30

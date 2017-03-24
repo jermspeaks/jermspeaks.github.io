@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'Musical Discontent'
 date: 2016-01-12

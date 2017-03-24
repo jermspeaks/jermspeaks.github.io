@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: ​Reflections on the Buffet
 date: 2015-06-23

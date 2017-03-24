@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: Reacting vs Responding
 date: 2015-08-31

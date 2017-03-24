@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: Journal of Self-Evaluation
 date: 2015-08-11

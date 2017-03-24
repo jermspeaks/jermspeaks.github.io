@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'The 2015 Retrospective'
 date: 2016-01-05

@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'A Year In Review: 2014'
 date: 2014-12-26

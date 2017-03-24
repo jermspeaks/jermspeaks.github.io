@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: 'Ghosts, Part 1'
 date: 2016-05-23

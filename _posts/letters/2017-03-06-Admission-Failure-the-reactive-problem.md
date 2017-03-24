@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: The Reactive Problem
 date: 2017-03-06

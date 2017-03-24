@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: A Year of Jear-Bear Letters
 date: 2015-11-30

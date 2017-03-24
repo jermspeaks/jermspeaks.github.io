@@ -1,5 +1,5 @@
 ---
-layout: letter
+layout: next-letter
 category: letters
 title: The Bystander Problem
 date: 2017-02-20
