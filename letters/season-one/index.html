@@ -1,39 +1,102 @@
 ---
-layout: letter
+layout: next-default
 ---
-<div class="home">
-  <section>
-    <h1>Series One</h1>
-    <h2>Original Run</h2>
-    <div class="letter-season-intro" id="letter-season-one-intro">
-      <p>
-        <span>Welcome to the first Jer Bear Letter.</span>
-        <span>My aim is to write something meaningful every week which may vary in length.</span>
-        <span>I love story-telling and love to share.</span>
-        <span>I really hope you enjoy it and feedback is much appreciated.</span>
-        <span>If you enjoy this letter, please share it around.</span>
-        <span>Tell people to subscribe to my weekly letters <a href="http://tinyletter.com/jeremywong">here</a>.</span>
-        <span>I promise to post sparingly, like once a week.</span>
-      </p>
-    </div>
+<div class="home" id="home">
+
+  <section class="landing-top">
+    <div class="landing-top-bar"></div>
   </section>
-  <section class="letter-collection">
-    <ul class="letter-list">
-      {% for page in site.posts %}
-        {% if page.categories contains 'letters' and page.tags contains 'season_1' %}
-          {% if page.title %}
-          <li>
-            <div class="letter-title">
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            </div>
-            <div>
-              <span>Published</span>
-              <span>{{ page.date | date: '%B %d, %Y' }}</span>
-            </div>
-          </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
+
+  <div class="landing-container">
+    <section class="landing-left">
+      <div class="landing-left-top">
+        <a href='/'>
+          <img class="avatar" src="/assets/profile-pic.jpg" width="150" height="150" alt="avatar" />
+        </a>
+      </div>
+
+      <div class="landing-left-bottom">
+        <ul class="landing-nav-list">
+          {% for link in site.navigation %}
+            <li class="landing-nav-list-item">
+              {% if link.text == "Writing" %}
+                <strong>
+                  <a class="landing-nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
+                </strong>
+              {% else %}
+                <a class="landing-nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <section class="landing-right">
+      <section class="landing-top-banner">
+        <header class="landing-header">
+          <div class="landing-header-title">
+            <span>
+              <a class="site-title" href="{{ site.baseurl }}/">Newsletter: Season One</a>
+            </span>
+          </div>
+        </header>
+      </section>
+
+      <section class="landing-middle-banner">
+        <article class="letters-blurb">
+          <div class="letters-blurb-image">
+            <img src="/assets/images/bear-colored-regular.png" />
+          </div>
+          <div>
+            <span>Welcome to the first Jear Bear Letter.</span>
+            <span>My aim is to write something meaningful every week which may vary in length.</span>
+            <span>I love story-telling and love to share.</span>
+            <span>I really hope you enjoy it and feedback is much appreciated.</span>
+            <span>If you enjoy this letter, please share it around.</span>
+            <span>Tell people to subscribe to my weekly letters <a href="http://tinyletter.com/jeremywong">here</a>.</span>
+            <span>I promise to post sparingly, like once a week.</span>
+          </div>
+        </article>
+      </section>
+
+      <!-- <section class="landing-middle-banner">
+        <div class="letters-middle-title season season-one">
+          <h2>
+            <a href="./season-two">Series One</a>
+          </h2>
+          <h4>
+            <span>November 2014 - January 2017</span>
+          </h4>
+        </div>
+      </section> -->
+
+      <section class="landing-middle-banner">
+          <ul class="letter-list">
+          {% for page in site.posts %}
+            {% if page.categories contains 'letters' and page.tags contains 'season_1' %}
+              {% if page.title %}
+              <li>
+                <div class="letter-title">
+                  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </div>
+                <div>
+                  <span>Published</span>
+                  <span>{{ page.date | date: '%B %d, %Y' }}</span>
+                </div>
+              </li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div>
+          <a href="/letters/season-two">Next Season</a>
+        </div>
+      </section>
+
+    </section>
+  </div>
 </div>
