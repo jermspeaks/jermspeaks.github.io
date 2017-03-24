@@ -1,51 +1,109 @@
 ---
-layout: letter
+layout: next-default
 ---
-<div class="home">
-  <section>
-    <h1>Series Two</h1>
-    <h1>
-      <img src="/assets/images/admission_title.png" alt="Admission Failure Title Image">
-    </h1>
-    <div class="letter-season-intro" id="letter-season-one-intro">
-      <p>
-        <span>Welcome to the second series of the Jear-Bear letters.</span>
-        <span>For the new readers, this is my weekly newsletter.</span>
-        <span>I used to write short essays of things that interested me</span>
-        <span>with an intention I could read this a year later and remain interested.</span>
-      </p>
-      <p>
-        <span>During months of February and March, I will be writing letters on the theme of <strong>"repeated failure"</strong>.</span>
-        <span>Expect releases on Monday, unless I get too busy and release a Tuesday letter.</span>
-      </p>
-      <p>
-        <span>If you like what you're reading, share this newsletter.</span>
-        <span>You could go as far as sharing it on Facebook, Twitter, or going retro, snail mail!</span>
-        <span>If you're feeling adventurous, subscribe them by entering their email on</span>
-        <span><a href="http://tinyletter.com/jeremywong/">my Tinyletter page.</a></span>
-      </p>
-    </div>
+<div class="home" id="home">
+
+  <section class="landing-top">
+    <div class="landing-top-bar"></div>
   </section>
-  <section class="letter-collection">
-    <ul class="letter-list">
-      {% for page in site.posts %}
-        {% if page.categories contains 'letters' and page.tags contains 'season_2' %}
-          {% if page.title %}
-          <li>
-            <div class="letter-title">
-              <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
-            </div>
-            <div class="letter-publish-date">
-              <span>Published</span>
-              <span>{{ page.date | date: '%B %d, %Y' }}</span>
-            </div>
-            <div class="letter-description">
-              <span><em>{{ page.description }}</em></span>
-            </div>
-          </li>
-          {% endif %}
-        {% endif %}
-      {% endfor %}
-    </ul>
-  </section>
+
+  <div class="landing-container">
+    <section class="landing-left">
+      <div class="landing-left-top">
+        <a href='/'>
+          <img class="avatar" src="/assets/profile-pic.jpg" width="150" height="150" alt="avatar" />
+        </a>
+      </div>
+
+      <div class="landing-left-bottom">
+        <ul class="landing-nav-list">
+          {% for link in site.navigation %}
+            <li class="landing-nav-list-item">
+              {% if link.text == "Writing" %}
+                <strong>
+                  <a class="landing-nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
+                </strong>
+              {% else %}
+                <a class="landing-nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </section>
+
+    <section class="landing-right">
+      <section class="landing-top-banner">
+        <header class="landing-header">
+          <div class="landing-header-title">
+            <span>
+              <a class="site-title" href="{{ site.baseurl }}/">Newsletter: Season Two</a>
+            </span>
+          </div>
+        </header>
+      </section>
+
+      <section class="landing-middle-banner">
+        <article class="letters-blurb">
+          <div class="letters-blurb-image">
+            <img src="/assets/images/bear-colored-regular.png" />
+          </div>
+          <div>
+            <p>
+              <span>Welcome to the second series of the Jear-Bear letters.</span>
+              <span>For the new readers, this is my weekly newsletter.</span>
+              <span>I used to write short essays of things that interested me</span>
+              <span>with an intention I could read this a year later and remain interested.</span>
+            </p>
+            <p>
+              <span>During months of February and March, I will be writing letters on the theme of <strong>"repeated failure"</strong>.</span>
+              <span>Expect releases on Monday, unless I get too busy and release a Tuesday letter.</span>
+            </p>
+            <p>
+              <span>If you like what you're reading, share this newsletter.</span>
+              <span>You could go as far as sharing it on Facebook, Twitter, or going retro, snail mail!</span>
+              <span>If you're feeling adventurous, subscribe them by entering their email on</span>
+              <span><a href="http://tinyletter.com/jeremywong/">my Tinyletter page.</a></span>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div class="letters-middle-title season season-one">
+          <img src="/assets/images/admission_title.png" alt="Admission Failure Title Image">
+        </div>
+      </section>
+
+      <section class="landing-middle-banner">
+        <ul class="letter-list">
+          {% for page in site.posts %}
+            {% if page.categories contains 'letters' and page.tags contains 'season_2' %}
+              {% if page.title %}
+              <li>
+                <div class="letter-title">
+                  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </div>
+                <div class="letter-publish-date">
+                  <span>Published</span>
+                  <span>{{ page.date | date: '%B %d, %Y' }}</span>
+                </div>
+                <div class="letter-description">
+                  <span><em>{{ page.description }}</em></span>
+                </div>
+              </li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div>
+          <a href="/letters/season-two">Next Season</a>
+        </div>
+      </section>
+
+    </section>
+  </div>
 </div>
