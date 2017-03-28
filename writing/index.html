@@ -7,30 +7,9 @@ layout: next-default
     <div class="landing-top-bar"></div>
   </section>
 
-  <div class="landing-container">
-    <section class="landing-left">
-      <div class="landing-left-top">
-        <a href='/'>
-          <img class="avatar" src="/assets/profile-pic.jpg" width="150" height="150" alt="avatar" />
-        </a>
-      </div>
 
-      <div class="landing-left-bottom">
-        <ul class="landing-nav-list">
-          {% for link in site.navigation %}
-            <li class="landing-nav-list-item">
-              {% if link.text == "Writing" %}
-                <strong>
-                  <span class="landing-nav-list-link--disabled">{{ link.text }}</span>
-                </strong>
-              {% else %}
-                <a class="landing-nav-list-link" href="{{ link.url }}">{{ link.text }}</a>
-              {% endif %}
-            </li>
-          {% endfor %}
-        </ul>
-      </div>
-    </section>
+  <div class="landing-container">
+    {% include left-matter.html pageName="Writing" %}
 
     <section class="landing-right">
       <section class="landing-top-banner">
