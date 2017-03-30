@@ -560,7 +560,7 @@ td, th { padding: 0; }
 .landing-newsletter-input input:focus { outline: none; }
 @media screen and (max-width: 600px) { .landing-newsletter-input { margin-right: 0; } }
 
-.landing-newsletter-subscribe button { background-color: #e4457d; border: none; color: #111; display: inline-block; padding: .66em 2.25em; position: relative; text-decoration: none; transition: background-color 0.2s ease-out; }
+.landing-newsletter-subscribe button { background-color: #e4457d; border: none; color: #111; display: inline-block; padding: .66em 2em; position: relative; text-decoration: none; transition: background-color 0.2s ease-out; }
 .landing-newsletter-subscribe button:after { content: ''; display: block; width: 100%; height: 100%; position: absolute; top: 0.125em; left: 0.125em; border-bottom: 0.125em solid; border-right: 0.125em solid; border-color: #e4457d; transition: border-color 0.2s ease-out; }
 .landing-newsletter-subscribe button:active { transform: translate(0.125em, 0.125em); }
 .landing-newsletter-subscribe button:active:after { transform: translate(-0.125em, -0.125em); }
