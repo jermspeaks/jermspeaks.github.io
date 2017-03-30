@@ -25,21 +25,37 @@ navigation:
 projects:
   - name: Zika VR
     description: As part of National Day of Civic Hacking 2016,
-    we formed a team that created a virtual reality prototype
-    to enable the public to better learn about the Zika virus –
-    the nature of the pathogen, its health consequences,
-    potential breeding grounds of Zika infected mosquitos,
-    and effective Zika prevention techniques.
+      we formed a team that created a virtual reality prototype
+      to enable the public to better learn about the Zika virus –
+      the nature of the pathogen, its health consequences,
+      potential breeding grounds of Zika infected mosquitos,
+      and effective Zika prevention techniques.
     project_link: https://jermspeaks.github.io/webvr-demo/?polyfill=1
     image: /assets/images/webvr-demo.png
     url: /projects/zika
+  - name: Pac Man Neurohack Game
+    description: Neurogaming Hackathon 2015 - Pacman Project.
+      Uses your brain waves to control pac man.
+    # project_link: https://github.com/jermspeaks/NGHack-Pacman
+    # image: /assets/images/flitr.jpg
+    # url: /projects/ng-pacman
+  - name: Remembrance
+    description: Remembrance is the final project of Dev Bootcamp Chicago students
+      Simon Gondeck, Francisco Scala, Jeremy Wong and Jonathan Young.
+      It is a web application that enables one to create a memorial
+      for a loved one who has passed on.
+      You can invite friends and family to come together here and share memories,
+      whether they be stories or pictures.
+    project_link: http://remembrance-dbc.herokuapp.com/
+    # image: /assets/images/flitr.jpg
+    # url: /projects/remembrance
   - name: Flitr
     description: Flight is a social networking playground
       where users post their profiles and show their pictures.
       It is the penultimate project with DevBootcamp
     # project_link: https://github.com/simongondeck/flight-social-network
-    image: /assets/images/flitr.jpg
-    url: /projects/flitr
+    # image: /assets/images/flitr.jpg
+    # url: /projects/flitr
 
 # Build Settings
 markdown: kramdown

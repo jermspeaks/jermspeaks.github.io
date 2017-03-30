@@ -1,6 +1,6 @@
 # site information
 authors: "Jeremy Wong"
-description: "© 2015-17 Craft By Zen"
+description: "© 2017 Craft By Zen"
 github_username: "jermspeaks"
 twitter_username: "jermspeaks"
 navigation:
@@ -32,14 +32,29 @@ projects:
     project_link: https://jermspeaks.github.io/webvr-demo/?polyfill=1
     image: /assets/images/webvr-demo.png
     url: /projects/zika
+  - name: Pac Man Neurohack Game
+    description: Neurogaming Hackathon 2015 - Pacman Project.
+      Uses your brain waves to control pac man.
+    # project_link: https://github.com/jermspeaks/NGHack-Pacman
+    # image: /assets/images/flitr.jpg
+    # url: /projects/ng-pacman
+  - name: Remembrance
+    description: Remembrance is the final project of Dev Bootcamp Chicago students
+      Simon Gondeck, Francisco Scala, Jeremy Wong and Jonathan Young.
+      It is a web application that enables one to create a memorial
+      for a loved one who has passed on.
+      You can invite friends and family to come together here and share memories,
+      whether they be stories or pictures.
+    project_link: http://remembrance-dbc.herokuapp.com/
+    # image: /assets/images/flitr.jpg
+    # url: /projects/remembrance
   - name: Flitr
     description: Flight is a social networking playground
       where users post their profiles and show their pictures.
       It is the penultimate project with DevBootcamp
     # project_link: https://github.com/simongondeck/flight-social-network
-    image: /assets/images/flitr.jpg
-    url: /projects/flitr
-
+    # image: /assets/images/flitr.jpg
+    # url: /projects/flitr
 
 # paginate: 10
 email: "jeremy@craftbyzen.com"
