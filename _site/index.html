@@ -469,11 +469,14 @@
             </span>
           </div>
           <div class="landing-newsletter-fields">
-            <p>
-              <input type="text" style="width:140px" name="email" id="tlemail" placeholder="email address"/>
-            </p>
-            <input type="hidden" value="1" name="embed"/>
-            <input class="landing-newsletter-submit" type="submit" value="Subscribe" />
+            <div class="landing-newsletter-input">
+              <input type="text" name="email" id="tlemail" placeholder="email address"/>
+              <input type="hidden" value="1" name="embed"/>
+            </div>
+            <div class="landing-newsletter-subscribe">
+              <input class="landing-newsletter-submit" type="hidden" value="Subscribe" />
+              <button type="submit">Subscribe</button>
+            </div>
           </div>
           <!-- <p>
             <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
