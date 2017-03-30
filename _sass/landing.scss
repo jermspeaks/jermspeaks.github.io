@@ -22,7 +22,7 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
   display: flex;
   margin-top: 30px;
 
-  @include media-query($on-palm) {
+  @include media-query($on-laptop) {
     flex-direction: column;
   }
 }
@@ -40,7 +40,7 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
   margin-left: 10px;
   margin-right: 10px;
 
-  @include media-query($on-palm) {
+  @include media-query($on-laptop) {
     display: flex;
     justify-content: space-between;
   }
@@ -78,7 +78,7 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
   padding-left: $padding-landing-right-sides;
   padding-right: $padding-landing-right-sides;
 
-  @include media-query($on-palm) {
+  @include media-query($on-laptop) {
     flex: 0 0;
     margin-left: 10px;
     margin-right: 10px;
@@ -139,7 +139,7 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
     list-style-type: none;
   }
 
-  @include media-query($on-palm) {
+  @include media-query($on-laptop) {
     ul {
       flex-direction: column;
     }

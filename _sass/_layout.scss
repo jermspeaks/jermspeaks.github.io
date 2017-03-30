@@ -132,7 +132,8 @@
  */
 .site-footer {
   display: flex;
-  @include media-query($on-palm) {
+
+  @include media-query($on-laptop) {
     justify-content: space-between;
     margin-left: 10px;
     margin-right: 10px;
@@ -156,7 +157,7 @@
   margin-right: 10px;
   text-align: right;
 
-  @include media-query($on-palm) {
+  @include media-query($on-laptop) {
     flex: 1 1;
     text-align: left;
   }
@@ -169,7 +170,7 @@
   padding-left: $spacing-unit;
   padding-right: $spacing-unit;
 
-  @include media-query($on-palm) {
+  @include media-query($on-laptop) {
     flex: 1 1;
     padding-left: 10px;
     padding-right: 10px;
