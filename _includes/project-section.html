@@ -1,0 +1,27 @@
+<div class="project-container">
+  <h2 class="landing-middle-banner-title">
+    {% if include.title and include.page %}
+      <a href="{{ include.page }}" target="_blank">
+        <span>{{ include.title }}</span>
+      </a>
+    {% else if include.title %}
+      <span>{{ include.title }}</span>
+    {% else %}
+      <span>Project</span>
+    {% endif %}
+  </h2>
+  <div class="project-body">
+    <h4>
+      {% if include.project_link %}
+      <a href="{{ include.project_link }}" target="_blank">
+        <span>Demo</span>
+      </a>
+      {% endif %}
+    </h4>
+    {% if include.description %}
+    <div class="project-description">
+      <span>{{ include.description }}</span>
+    </div>
+    {% endif %}
+  </div>
+</div>
