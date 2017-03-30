@@ -246,6 +246,11 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
 
   @include media-query($on-palm) {
     margin-right: 0;
+
+    input {
+      font-size: 1em;
+      padding: 10px 0;
+    }
   }
 }
 
@@ -260,7 +265,7 @@ $transition: .2s ease-out;
     border: none;
     color: $text-color;
     display: inline-block;
-    padding: .66em 2em;
+    padding: .66em 1em;
     position: relative;
     text-decoration: none;
     transition: background-color $transition;
