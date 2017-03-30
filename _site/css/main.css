@@ -576,6 +576,10 @@ td, th { padding: 0; }
 
 .letter-title { font-size: 1.5em; }
 
+.letter-left-border { padding-left: 10px; border-left: 4px solid #e2f0e5; }
+
+.letter-metatags { padding-left: 14px; font-size: 0.75em; }
+
 .letter-season-intro { font-size: 0.8em; }
 
 .letters-blurb { display: flex; }

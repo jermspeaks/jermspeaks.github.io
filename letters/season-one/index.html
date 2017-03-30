@@ -9,7 +9,7 @@ layout: next-default
 
   <div class="landing-container">
     {% include left-matter.html pageName="Writing" clickable=true %}
-    
+
     <section class="landing-right">
       <section class="landing-top-banner">
         <header class="landing-header">
@@ -55,10 +55,10 @@ layout: next-default
             {% if page.categories contains 'letters' and page.tags contains 'season_1' %}
               {% if page.title %}
               <li>
-                <div class="letter-title">
+                <div class="letter-title letter-left-border">
                   <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 </div>
-                <div>
+                <div class="letter-metatags">
                   <span>Published</span>
                   <span>{{ page.date | date: '%B %d, %Y' }}</span>
                 </div>
