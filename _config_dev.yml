@@ -32,10 +32,24 @@ projects:
     project_link: https://jermspeaks.github.io/webvr-demo/?polyfill=1
     image: /assets/images/webvr-demo.png
     url: /projects/zika
+  - name: Coral Reef Game
+    description: Board game to teach children about coral reefs.
+      Project from Science Hack Day 2015
+    # project_link: https://github.com/jermspeaks/coral-reef-game
+    # image: /assets/images/flitr.jpg
+    # url: /projects/ng-pacman
   - name: Pac Man Neurohack Game
-    description: Neurogaming Hackathon 2015 - Pacman Project.
-      Uses your brain waves to control pac man.
+    description: Uses your brain waves to control Pacman.
+      Entry to Neurogaming Hackathon 2015.
     # project_link: https://github.com/jermspeaks/NGHack-Pacman
+    # image: /assets/images/flitr.jpg
+    # url: /projects/ng-pacman
+  - name: Under Groundwater Hack
+    description: Underwater groundwater device that allows you to determine
+      where there is groundwater using everyday equipment.
+      Useful for digging for wells in your backyard.
+      Project from Science Hack Day 2014
+    # project_link: https://github.com/jermspeaks/coral-reef-game
     # image: /assets/images/flitr.jpg
     # url: /projects/ng-pacman
   - name: Remembrance
