@@ -2,40 +2,49 @@
 
 <footer class="site-footer">
 
-  <div class="footer-col-wrapper">
+  <footer class="site-footer-left">
+    <span>Made With ❤️</span>
+  </footer>
 
-    <!-- <div class="footer-heading">
-      {% if page.footer %}
-        <div class="footer-title">
-          <span>{{ page.footer }}</span>
-        </div>
-      {% else %}
-        <nav class="landing-nav">
-          <ul class="nav-list">
-            {% for link in site.navigation %}
-              {% unless page.url == link.url %}
-                <li>
-                  <a href="{{ link.url }}">{{ link.text }}</a>
-                </li>
-              {% endunless %}
-            {% endfor %}
-          </ul>
-        </nav>
-      {% endif %}
-    </div> -->
+  <footer class="site-footer-right">
 
-    {% include social.html %}
+    <div class="footer-col-wrapper">
 
-    <!-- <div class="footer-email">
-      <a href="mailto:{{ site.email }}">
-        <button>Send Email</button>
-      </a>
-    </div> -->
+      <!-- <div class="footer-heading">
+        {% if page.footer %}
+          <div class="footer-title">
+            <span>{{ page.footer }}</span>
+          </div>
+        {% else %}
+          <nav class="landing-nav">
+            <ul class="nav-list">
+              {% for link in site.navigation %}
+                {% unless page.url == link.url %}
+                  <li>
+                    <a href="{{ link.url }}">{{ link.text }}</a>
+                  </li>
+                {% endunless %}
+              {% endfor %}
+            </ul>
+          </nav>
+        {% endif %}
+      </div> -->
+
+      <!-- <div class="footer-email">
+        <a href="mailto:{{ site.email }}">
+          <button>Send Email</button>
+        </a>
+      </div> -->
 
 
-    <div class="footer-description">
-      <p class="text">{{ site.description }}</p>
+      <div class="footer-description">
+        <span class="text">{{ site.description }}</span>
+      </div>
     </div>
-  </div>
+
+  </footer>
+
 
 </footer>
+
+<div class="bottom-page-padding"></div>

@@ -21,7 +21,7 @@ navigation:
 - text: Talks
   url: /talks/
 # paginate: 10
-email: "jermspeaks@gmail.com"
+email: "jeremy@craftbyzen.com"
 github: https://github.com/jermspeaks/jermspeaks.github.io
 # kramdown:
 #   input: GFM

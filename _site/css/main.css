@@ -213,11 +213,19 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
   .site-nav .page-link { display: block; padding: 5px 10px; } }
 
 /** Site footer */
-.site-footer { background: #dbdae0; border-top: 1px solid #e8e8e8; padding-top: 10px; padding-bottom: 5px; padding-left: 30px; padding-right: 30px; }
+.site-footer { display: flex; }
+
+.site-footer-left, .site-footer-right { background: #f4f3f5; border-top: 1px solid #e8e8e8; }
+
+.site-footer-left { flex: 0 0 200px; padding-top: 10px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; margin-left: 10px; margin-right: 10px; text-align: right; }
+
+.site-footer-right { flex: 0 1 75%; padding-top: 10px; padding-bottom: 5px; padding-left: 30px; padding-right: 30px; }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
 
 .footer-title { font-size: 24px; font-weight: bold; text-align: center; }
+
+.footer-social-list { margin-top: 10px; }
 
 .contact-list, .social-media-list { display: flex; }
 .contact-list > li, .social-media-list > li { display: inline; }
@@ -243,6 +251,8 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .footer-email { margin-top: 20px; text-align: center; }
 
 .footer-description { text-align: right; }
+
+.bottom-page-padding { width: 100%; height: 1px; padding-bottom: 20px; }
 
 /** Page content */
 .page-content { padding: 30px 0; }
@@ -502,7 +512,7 @@ td, th { padding: 0; }
 .landing-left .avatar { border-radius: 50%; }
 .landing-left .avatar:hover { cursor: pointer; animation: avatarzomg 0.9s infinite; }
 
-.landing-left-bottom { margin-top: 20px; }
+.landing-left-bottom { margin-top: 10px; }
 
 .landing-nav-list { display: flex; flex-direction: column; text-transform: lowercase; list-style-type: none; margin-left: 0; margin-bottom: 0; }
 
