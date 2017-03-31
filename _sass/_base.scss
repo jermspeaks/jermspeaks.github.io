@@ -39,7 +39,7 @@ h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure,
 %vertical-rhythm {
-    margin-bottom: $spacing-unit / 2;
+  margin-bottom: $spacing-unit / 2;
 }
 
 
@@ -137,11 +137,11 @@ code {
     font-size: 15px;
     border: 1px solid $grey-color-light;
     border-radius: 3px;
-    background-color: #eef;
 }
 
 code {
     padding: 1px 5px;
+    // background-color: #eee;
 }
 
 pre {
@@ -149,9 +149,9 @@ pre {
     overflow-x: scroll;
 
     > code {
-        border: 0;
-        padding-right: 0;
-        padding-left: 0;
+      border: 0;
+      padding-right: 0;
+      padding-left: 0;
     }
 }
 
