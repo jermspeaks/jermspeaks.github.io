@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  {% include head-shop.html %}
+
+  <body>
+    <section class="landing-top">
+      <div class="landing-top-bar"></div>
+    </section>
+
+    <div class="landing-container">
+      {% include left-matter.html pageName="Shop" clickable="true" %}
+
+      <section class="landing-right">
+        <div class="product">
+
+          <div class="product-details">
+            <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
+            <div class="product-description">
+              <p>{{ page.name }}</p>
+
+              <p>
+                {{ page.content }}
+              </p>
+
+              <button class="snipcart-add-item"
+                data-item-name="{{ page.name }}"
+                data-item-id="{{ page.sku }}"
+                data-item-image="{{ page.image }}"
+                data-item-url="{{ site.baseurl }}"
+                data-item-price="{{ page.price }}">
+                Buy it for ${{ page.price }}
+              </button>
+            </div>
+          </div>
+
+
+        </div>
+      </section>
+    </div>
+
+    <div class="footer-container">
+      {% include footer.html %}
+    </div>
+
+  </body>
+
+</html>

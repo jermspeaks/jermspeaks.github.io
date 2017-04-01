@@ -1,0 +1,28 @@
+---
+layout: products
+---
+
+<div class="store">
+  <h1>Store</h1>
+
+  <div>
+    <em>
+      <span>You'd think a website that combines Zen and Crafts should be about selling meditation stones made of yarn.</span>
+      <span>Sorry to disappoint. This is my store of miscellany.</span>
+      <span>You are free to browse around and buy what you like.</span>
+    </em>
+  </div>
+
+  <h2>Items For Sale</h2>
+
+  {% for product in site.products %}
+    {% include product.html %}
+  {% endfor %}
+
+  <h2>Sold Out</h2>
+  <div>
+    <em>
+      <span>Nothing yet!</span>
+    </em>
+  </div>
+</div>
