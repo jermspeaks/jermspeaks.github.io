@@ -26,6 +26,9 @@ collections:
   products:
     output: true
 
+# Public API Key
+snipcart_api_key: MTBmZTE2YTMtNGVhZC00ZGNmLWE5NGEtZTMwZmUwYTdlNjcyNjM2MjY2Njc2MzczMjc1NTM3
+
 projects:
   - name: Zika VR
     description: As part of National Day of Civic Hacking 2016,
