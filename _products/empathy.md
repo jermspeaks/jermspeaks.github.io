@@ -2,7 +2,7 @@
 name: Empathy Broadside
 price: 10
 slug: empty-broadside
-sku: HGW
+sku: PRESS002-EMPATHY
 image: /assets/images/empathy-broadside.jpg
 layout: product-details
 permalink: /products/:slug

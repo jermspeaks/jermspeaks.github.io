@@ -2,7 +2,7 @@
 name: The Elephant and the Rider
 price: 5
 slug: elephant-and-the-rider
-sku: HGW
+sku: PRESS001-ELEPHANT
 image: /assets/images/rider-and-elephant.jpg
 layout: product-details
 permalink: /products/:slug
