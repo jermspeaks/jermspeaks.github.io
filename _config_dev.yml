@@ -20,6 +20,15 @@ navigation:
   url: /projects/
 - text: Talks
   url: /talks/
+- text: Shop
+  url: /products/
+
+collections:
+  products:
+    output: true
+
+# Public API Key
+snipcart_api_key: MTBmZTE2YTMtNGVhZC00ZGNmLWE5NGEtZTMwZmUwYTdlNjcyNjM2MjY2Njc2MzczMjc1NTM3
 
 projects:
   - name: Zika VR
