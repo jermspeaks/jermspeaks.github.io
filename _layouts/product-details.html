@@ -14,25 +14,36 @@
         <div class="product">
 
           <div class="product-details">
-            <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
-            <div class="product-description">
-              <p>{{ page.name }}</p>
+            <div class="product-header">
+              <div class="product-header-title">
+                <span>{{ page.name }}</span>
+              </div>
+              <div class="product-header-price">
+                <span>${{ page.price }}</span>
+              </div>
+            </div>
+            <div class="product-image">
+              <img src="{{ page.image }}" alt="{{ page.name }}" class="thumbnail"/>
+            </div>
+          </div>
 
-              <p>
-                {{ page.content }}
-              </p>
-
-              <button class="snipcart-add-item"
+          <div class="product-description">
+            <div class="site-custom-button">
+              <button
+                class="snipcart-add-item"
                 data-item-name="{{ page.name }}"
                 data-item-id="{{ page.sku }}"
                 data-item-image="{{ page.image }}"
                 data-item-url="{{ site.baseurl }}"
                 data-item-price="{{ page.price }}">
-                Buy it for ${{ page.price }}
+                Buy It
               </button>
             </div>
-          </div>
 
+            <div class="product-content">
+              {{ page.content }}
+            </div>
+          </div>
 
         </div>
       </section>

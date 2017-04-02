@@ -256,9 +256,11 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
 
 $offset: .125em;
 $border-width: .125em;
+$text-color: #fff;
 $accent-color: #e4457d;
 $transition: .2s ease-out;
 
+.site-custom-button,
 .landing-newsletter-subscribe {
   button {
     background-color: $accent-color;
