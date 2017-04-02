@@ -214,8 +214,10 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .site-footer-left, .site-footer-right { background: #f4f3f5; border-top: 1px solid #e8e8e8; }
 
-.site-footer-left { flex: 0 0 200px; padding-top: 10px; padding-bottom: 5px; padding-left: 10px; padding-right: 10px; margin-left: 10px; margin-right: 10px; text-align: right; }
+.site-footer-left { flex: 0 0 200px; padding-top: 10px; padding-bottom: 5px; margin-left: 10px; margin-right: 10px; text-align: right; }
 @media screen and (max-width: 800px) { .site-footer-left { flex: 1 1; text-align: left; } }
+
+.site-footer-left-content { padding-left: 10px; padding-right: 10px; }
 
 .site-footer-right { flex: 0 1 75%; padding-top: 10px; padding-bottom: 5px; padding-left: 30px; padding-right: 30px; }
 @media screen and (max-width: 800px) { .site-footer-right { flex: 1 1; padding-left: 10px; padding-right: 10px; margin-left: 10px; margin-right: 10px; border-top: none; } }

@@ -151,8 +151,6 @@
   flex: 0 0 200px;
   padding-top: 10px;
   padding-bottom: 5px;
-  padding-left: 10px;
-  padding-right: 10px;
   margin-left: 10px;
   margin-right: 10px;
   text-align: right;
@@ -163,6 +161,10 @@
   }
 }
 
+.site-footer-left-content {
+  padding-left: 10px;
+  padding-right: 10px;  
+}
 .site-footer-right {
   flex: 0 1 75%;
   padding-top: $spacing-unit / 3;
