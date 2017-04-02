@@ -1,3 +1,5 @@
+// @import "./assets/neat/neat";
+
 $max-width-product-panel: 50%;
 $max-width-product-panel--mobile: 800px;
 
@@ -7,6 +9,36 @@ $max-width-product-panel--mobile: 800px;
   @include media-query($on-laptop) {
     flex-direction: column;
   }
+}
+
+.product-items {
+  @include grid-container;
+  margin-top: 20px;
+}
+
+.product-item {
+  @include grid-column(6);
+  margin-bottom: 20px;
+
+  &:nth-child(2n+1) {
+    margin-left: 0;
+  }
+
+  @include media-query($on-laptop) {
+    @include grid-column(12);
+  }
+}
+
+.product-item-details {
+  .product-image {
+    max-height: 300px;
+    overflow: hidden;
+  }
+}
+
+.product-item-buy {
+  margin-top: 10px;
+  text-align: right;
 }
 
 .product-details {

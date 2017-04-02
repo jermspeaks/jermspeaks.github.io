@@ -3,7 +3,9 @@ layout: products
 ---
 
 <div class="store">
-  <h1>Store</h1>
+  <div class="site-title">
+    <span>Store</span>
+  </div>
 
   <div>
     <em>
@@ -13,16 +15,10 @@ layout: products
     </em>
   </div>
 
-  <h2>Items For Sale</h2>
-
-  {% for product in site.products %}
-    {% include product.html %}
-  {% endfor %}
-
-  <h2>Sold Out</h2>
-  <div>
-    <em>
-      <span>Nothing yet!</span>
-    </em>
+  <div class="product-items">
+    {% for product in site.products %}
+      {% include product.html %}
+    {% endfor %}
   </div>
+
 </div>

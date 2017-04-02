@@ -8,7 +8,7 @@ $width-landing-left: 200px;
 $padding-landing-left-sides: ($width-landing-left - 150px) / 2;
 $padding-landing-left-top: 20px;
 $padding-landing-right-sides: 20px;
-$padding-landing-right-top: $padding-landing-left-top * 1.5;
+$padding-landing-right-top: $padding-landing-left-top * 1;
 
 .landing-top-bar {
   width: 100%;
@@ -35,14 +35,14 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
 .landing-left {
   flex: 0 0 200px;
   padding-top: 20px;
-  padding-left: $padding-landing-left-sides;
-  padding-right: $padding-landing-left-sides;
   margin-left: 10px;
   margin-right: 10px;
 
   @include media-query($on-laptop) {
     display: flex;
     justify-content: space-between;
+    padding-left: $padding-landing-left-sides;
+    padding-right: $padding-landing-left-sides;
   }
 
   .avatar {
@@ -53,6 +53,10 @@ $padding-landing-right-top: $padding-landing-left-top * 1.5;
     cursor: pointer;
     animation: avatarzomg 0.9s infinite;
   }
+}
+
+.landing-left-top {
+  text-align: center;
 }
 
 .landing-left-bottom {

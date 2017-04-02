@@ -1,9 +1,5 @@
 .contact-list, .social-media-list, .post-list, .letter-list, .blog-list, .post-footer-list { margin: 0; list-style-type: none; }
 
-html { box-sizing: border-box; }
-
-*, *::after, *::before { box-sizing: inherit; }
-
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
 /** 1. Set default font family to sans-serif. 2. Prevent iOS and IE text size adjust after device orientation change, without disabling user zoom. */
 html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -webkit-text-size-adjust: 100%; /* 2 */ }
@@ -510,10 +506,12 @@ td, th { padding: 0; }
 
 .landing-left, .landing-right { background: #fff; }
 
-.landing-left { flex: 0 0 200px; padding-top: 20px; padding-left: 25px; padding-right: 25px; margin-left: 10px; margin-right: 10px; }
-@media screen and (max-width: 800px) { .landing-left { display: flex; justify-content: space-between; } }
+.landing-left { flex: 0 0 200px; padding-top: 20px; margin-left: 10px; margin-right: 10px; }
+@media screen and (max-width: 800px) { .landing-left { display: flex; justify-content: space-between; padding-left: 25px; padding-right: 25px; } }
 .landing-left .avatar { border-radius: 50%; }
 .landing-left .avatar:hover { cursor: pointer; animation: avatarzomg 0.9s infinite; }
+
+.landing-left-top { text-align: center; }
 
 .landing-left-bottom { margin-top: 10px; }
 
@@ -521,7 +519,7 @@ td, th { padding: 0; }
 
 .landing-nav-list-item { text-align: center; }
 
-.landing-right { flex: 0 1 75%; padding-top: 30px; padding-left: 20px; padding-right: 20px; }
+.landing-right { flex: 0 1 75%; padding-top: 20px; padding-left: 20px; padding-right: 20px; }
 @media screen and (max-width: 800px) { .landing-right { flex: 0 0; margin-left: 10px; margin-right: 10px; } }
 
 .landing-top-banner { margin-bottom: 10px; }
@@ -600,6 +598,17 @@ td, th { padding: 0; }
 
 .product { display: flex; }
 @media screen and (max-width: 800px) { .product { flex-direction: column; } }
+
+.product-items { margin-top: 20px; }
+.product-items::after { clear: both; content: ""; display: block; }
+
+.product-item { width: calc(50% - 30px); float: left; margin-left: 20px; margin-bottom: 20px; }
+.product-item:nth-child(2n+1) { margin-left: 0; }
+@media screen and (max-width: 800px) { .product-item { width: calc(100% - 40px); float: left; margin-left: 20px; } }
+
+.product-item-details .product-image { max-height: 300px; overflow: hidden; }
+
+.product-item-buy { margin-top: 10px; text-align: right; }
 
 .product-details { display: flex; flex: 0 1 50%; flex-direction: column; max-width: 50%; margin-bottom: 20px; border: 1px solid #e8e8e8; border-radius: 4px; box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05); }
 @media screen and (max-width: 800px) { .product-details { flex: 1 1; max-width: 800px; } }

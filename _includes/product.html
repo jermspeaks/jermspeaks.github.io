@@ -1,19 +1,37 @@
-<div class="product">
+<div class="product-item">
 
-  <a class="product" href="{{ site.baseurl }}{{ product.url }}">
+  <div class="product-item-details">
+    <div class="product-header">
+      <div class="product-header-title">
+        <a class="product-item-link" href="{{ site.baseurl }}{{ product.url }}">
+          <span>{{ product.name }}</span>
+        </a>
+      </div>
+      <div class="product-header-price">
+        <span>${{ product.price }}</span>
+      </div>
+    </div>
+    <div class="product-image">
+      <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail"/>
+    </div>
+  </div>
+
+  <!-- <a class="product-item-link" href="{{ site.baseurl }}{{ product.url }}">
     <img src="{{ product.image }}" alt="{{ product.name }}" class="thumbnail" width="400"/>
     <p>{{ product.name }}</p>
-  </a>
+  </a> -->
 
-  <button
-    class="snipcart-add-item"
-    data-item-name="{{ product.name }}"
-    data-item-id="{{ product.sku }}"
-    data-item-image="{{ product.image }}"
-    data-item-url="{{ site.baseurl }}"
-    data-item-price="{{ product.price }}"
-  >
-    <span>Buy it for ${{ product.price }}</span>
-  </button>
+  <div class="product-item-buy site-custom-button">
+    <button
+      class="snipcart-add-item"
+      data-item-name="{{ product.name }}"
+      data-item-id="{{ product.sku }}"
+      data-item-image="{{ product.image }}"
+      data-item-url="{{ site.baseurl }}"
+      data-item-price="{{ product.price }}"
+    >
+      <span>Buy Now</span>
+    </button>
+  </div>
 
 </div>
