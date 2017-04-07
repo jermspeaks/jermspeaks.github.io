@@ -1,7 +1,7 @@
 ---
 name: Empathy Broadside
 price: 10
-slug: empty-broadside
+slug: empathy-broadside
 sku: PRESS002-EMPATHY
 image: /assets/images/empathy-broadside.jpg
 layout: product-details
