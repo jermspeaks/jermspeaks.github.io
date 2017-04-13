@@ -25,6 +25,8 @@ navigation:
 collections:
   products:
     output: true
+  abouts:
+    output: true
 
 # Public API Key
 snipcart_api_key: MTBmZTE2YTMtNGVhZC00ZGNmLWE5NGEtZTMwZmUwYTdlNjcyNjM2MjY2Njc2MzczMjc1NTM3

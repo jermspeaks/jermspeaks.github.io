@@ -4,14 +4,6 @@ description: "© 2017 Craft By Zen"
 github_username: "jermspeaks"
 twitter_username: "jermspeaks"
 navigation:
-# - text: Home
-#   url: /
-# - text: Letter Archive
-#   url: /letters/
-# - text: Blog
-#   url: /blog/
-# - text: Resume
-#   url: /resume/
 - text: About
   url: /about/
 - text: Writing
@@ -25,6 +17,8 @@ navigation:
 
 collections:
   products:
+    output: true
+  abouts:
     output: true
 
 # Public API Key
