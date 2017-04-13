@@ -219,7 +219,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 
 .site-footer-left-content { padding-left: 10px; padding-right: 10px; }
 
-.site-footer-right { flex: 0 1 75%; padding-top: 10px; padding-bottom: 5px; padding-left: 30px; padding-right: 30px; }
+.site-footer-right { flex: 0 1 75%; padding-top: 10px; padding-bottom: 5px; padding-left: 20px; padding-right: 20px; }
 @media screen and (max-width: 800px) { .site-footer-right { flex: 1 1; padding-left: 10px; padding-right: 10px; margin-left: 10px; margin-right: 10px; border-top: none; } }
 
 .footer-heading { font-size: 18px; margin-bottom: 15px; }
