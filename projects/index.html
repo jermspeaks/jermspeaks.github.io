@@ -1,39 +1,29 @@
 ---
-layout: products
+layout: project-page
 ---
-<div class="projects" id="projects">
 
-  <section class="landing-top">
-    <div class="landing-top-bar"></div>
+<section class="projects-container">
+  <section class="landing-top-banner">
+    <header class="landing-header">
+      <div class="landing-header-link">
+        <span>
+          <a class="site-title" href="{{ site.baseurl }}/">Projects</a>
+        </span>
+      </div>
+    </header>
   </section>
 
-  <div class="landing-container">
-    {% include left-matter.html pageName="Codes" %}
-
-    <section class="landing-right">
-      <section class="landing-top-banner">
-        <header class="landing-header">
-          <div class="landing-header-link">
-            <span>
-              <a class="site-title" href="{{ site.baseurl }}/">Projects</a>
-            </span>
-          </div>
-        </header>
-      </section>
-
-      {% for project in site.projects %}
-        <section class="landing-middle-banner">
-          {%
-            include project-section.html
-            title=project.name
-            project_link=project.project_link
-            description=project.description
-            image=project.image
-            page=project.url
-          %}
-        </section>
-      {% endfor %}
-
+  {% for project in site.projects %}
+    <section class="landing-middle-banner">
+      {%
+        include project-section.html
+        title=project.name
+        project_link=project.project_link
+        description=project.description
+        image=project.image
+        page=project.url
+      %}
     </section>
-  </div>
-</div>
+  {% endfor %}
+
+</section>
