@@ -206,7 +206,7 @@ $padding-landing-right-top: $padding-landing-left-top * 1;
   border-top: 5px solid #d6d2e7;
   border-bottom: 5px solid #d6d2e7;
   font-size: 14px;
-  font-family: $secondary-font-family;
+  // font-family: $secondary-font-family;
 
   @include media-query($on-palm) {
     flex-direction: column;

@@ -126,11 +126,76 @@ table { border-collapse: collapse; border-spacing: 0; }
 
 td, th { padding: 0; }
 
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2017 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Ahmet Altun
+ * License URL: https://www.fontspring.com/licenses/ahmet-altun/webfont
+ *
+ *
+ */
+@font-face { font-family: 'Festivo-LC-Basic-Dots'; src: url("/assets/fonts/festivolowercase_basicdots_macroman/Festivo-LC-Basic-Dots-webfont.woff2") format("woff2"), url("/assets/fonts/festivolowercase_basicdots_macroman/Festivo-LC-Basic-Dots-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2017 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      TipoType
+ * License URL: https://www.fontspring.com/licenses/tipotype/webfont
+ *
+ *
+ */
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_thin_macroman/01-brother1816-thin-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_thin_macroman/01-brother1816-thin-webfont.woff") format("woff"); font-weight: 100; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_thinitalic_macroman/02-brother1816-thin_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_thinitalic_macroman/02-brother1816-thin_italic-webfont.woff") format("woff"); font-weight: 100; font-style: italic; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_light_macroman/03-brother1816-light-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_light_macroman/03-brother1816-light-webfont.woff") format("woff"); font-weight: 200; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_lightitalic_macroman/04-brother1816-light_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_lightitalic_macroman/04-brother1816-light_italic-webfont.woff") format("woff"); font-weight: 200; font-style: italic; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_book_macroman/05-brother1816-book-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_book_macroman/05-brother1816-book-webfont.woff") format("woff"); font-weight: 300; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_bookitalic_macroman/06-brother1816-book_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_bookitalic_macroman/06-brother1816-book_italic-webfont.woff") format("woff"); font-weight: 300; font-style: italic; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_regular_macroman/07-brother1816-regular-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_regular_macroman/07-brother1816-regular-webfont.woff") format("woff"); font-weight: normal; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_italic_macroman/08-brother1816_regular_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_italic_macroman/08-brother1816_regular_italic-webfont.woff") format("woff"); font-weight: normal; font-style: italic; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_medium_macroman/09-brother1816-medium-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_medium_macroman/09-brother1816-medium-webfont.woff") format("woff"); font-weight: 500; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_mediumitalic_macroman/10-brother1816-medium_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_mediumitalic_macroman/10-brother1816-medium_italic-webfont.woff") format("woff"); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_bold_macroman/11-brother1816-bold-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_bold_macroman/11-brother1816-bold-webfont.woff") format("woff"); font-weight: 600; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_bolditalic_macroman/12-brother1816-bold_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_bolditalic_macroman/12-brother1816-bold_italic-webfont.woff") format("woff"); font-weight: 600; font-style: italic; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_extrabold_macroman/13-brother1816-extrabold-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_extrabold_macroman/13-brother1816-extrabold-webfont.woff") format("woff"); font-weight: 700; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_extrabolditalic_macroman/14-brother1816-extrabold_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_extrabolditalic_macroman/14-brother1816-extrabold_italic-webfont.woff") format("woff"); font-weight: 700; font-style: italic; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_black_macroman/15-brother1816-black-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_black_macroman/15-brother1816-black-webfont.woff") format("woff"); font-weight: 800; font-style: normal; }
+@font-face { font-family: 'Brother 1816'; src: url("/assets/fonts/brother-1816/Webfonts/brother1816_blackitalic_macroman/16-brother1816-black_italic-webfont.woff2") format("woff2"), url("/assets/fonts/brother-1816/Webfonts/brother1816_blackitalic_macroman/16-brother1816-black_italic-webfont.woff") format("woff"); font-weight: 800; font-style: italic; }
 /** Reset some basic elements */
 body, h1, h2, h3, h4, h5, h6, p, blockquote, pre, hr, dl, dd, ol, ul, figure { margin: 0; padding: 0; }
 
+h1 { font-family: 'Festivo-LC-Basic-Dots', Arial, sans-serif; font-size: 3em; }
+
 /** Basic styling */
-body { font-family: Helvetica, Arial, sans-serif; font-size: 16px; line-height: 1.5; font-weight: 300; color: #111; background-color: #bdbebd; background: radial-gradient(circle at 0% 50%, rgba(153, 153, 51, 0) 9px, #d6d2e7 10px, rgba(153, 153, 51, 0) 11px) 0px 10px, radial-gradient(at 100% 100%, rgba(153, 153, 51, 0) 9px, #d6d2e7 10px, rgba(153, 153, 51, 0) 11px), #eae8f3; background-size: 20px 20px; -webkit-text-size-adjust: 100%; }
+body { font-family: 'Brother 1816', Arial, sans-serif; font-size: 16px; line-height: 1.5; font-weight: 300; color: #111; background-color: #bdbebd; background: radial-gradient(circle at 0% 50%, rgba(153, 153, 51, 0) 9px, #d6d2e7 10px, rgba(153, 153, 51, 0) 11px) 0px 10px, radial-gradient(at 100% 100%, rgba(153, 153, 51, 0) 9px, #d6d2e7 10px, rgba(153, 153, 51, 0) 11px), #eae8f3; background-size: 20px 20px; -webkit-text-size-adjust: 100%; }
 
 /** Set `margin-bottom` to maintain vertical rhythm */
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight { margin-bottom: 15px; }
@@ -186,7 +251,7 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 /** Site header */
 .site-header { border-bottom: 1px solid #e8e8e8; min-height: 56px; background-color: #f4f4f4; position: relative; }
 
-.site-title { font-size: 36px; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; text-transform: uppercase; }
+.site-title { font-size: 3em; font-family: 'Festivo-LC-Basic-Dots', Arial, sans-serif; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; text-transform: uppercase; }
 .site-title, .site-title:visited { color: #424242; }
 
 .site-frame { float: left; height: 58px; /* equals max image height */ width: 58px; white-space: nowrap; text-align: center; }
@@ -546,7 +611,7 @@ td, th { padding: 0; }
 
 .landing-newsletter { margin-top: 20px; margin-bottom: 20px; }
 
-.landing-newsletter-form { display: flex; flex-direction: column; padding-top: 10px; padding-bottom: 10px; border-top: 5px solid #d6d2e7; border-bottom: 5px solid #d6d2e7; font-size: 14px; font-family: "Lucida Bright", Georgia, serif; }
+.landing-newsletter-form { display: flex; flex-direction: column; padding-top: 10px; padding-bottom: 10px; border-top: 5px solid #d6d2e7; border-bottom: 5px solid #d6d2e7; font-size: 14px; }
 @media screen and (max-width: 600px) { .landing-newsletter-form { flex-direction: column; } }
 
 .landing-newsletter-desc { font-size: 12px; }

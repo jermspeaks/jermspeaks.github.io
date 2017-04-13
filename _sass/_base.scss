@@ -1,5 +1,189 @@
 @import "normalize";
 
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2017 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      Ahmet Altun
+ * License URL: https://www.fontspring.com/licenses/ahmet-altun/webfont
+ *
+ *
+ */
+
+@font-face {
+  font-family: 'Festivo-LC-Basic-Dots';
+  src: url('/assets/fonts/festivolowercase_basicdots_macroman/Festivo-LC-Basic-Dots-webfont.woff2') format('woff2'),
+       url('/assets/fonts/festivolowercase_basicdots_macroman/Festivo-LC-Basic-Dots-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*!
+ * Web Fonts from Fontspring.com
+ *
+ * All OpenType features and all extended glyphs have been removed.
+ * Fully installable fonts can be purchased at http://www.fontspring.com
+ *
+ * The fonts included in this stylesheet are subject to the End User License you purchased
+ * from Fontspring. The fonts are protected under domestic and international trademark and
+ * copyright law. You are prohibited from modifying, reverse engineering, duplicating, or
+ * distributing this font software.
+ *
+ * (c) 2010-2017 Fontspring
+ *
+ *
+ *
+ *
+ * The fonts included are copyrighted by the vendor listed below.
+ *
+ * Vendor:      TipoType
+ * License URL: https://www.fontspring.com/licenses/tipotype/webfont
+ *
+ *
+ */
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_thin_macroman/01-brother1816-thin-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_thin_macroman/01-brother1816-thin-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_thinitalic_macroman/02-brother1816-thin_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_thinitalic_macroman/02-brother1816-thin_italic-webfont.woff') format('woff');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_light_macroman/03-brother1816-light-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_light_macroman/03-brother1816-light-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_lightitalic_macroman/04-brother1816-light_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_lightitalic_macroman/04-brother1816-light_italic-webfont.woff') format('woff');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_book_macroman/05-brother1816-book-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_book_macroman/05-brother1816-book-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_bookitalic_macroman/06-brother1816-book_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_bookitalic_macroman/06-brother1816-book_italic-webfont.woff') format('woff');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_regular_macroman/07-brother1816-regular-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_regular_macroman/07-brother1816-regular-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_italic_macroman/08-brother1816_regular_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_italic_macroman/08-brother1816_regular_italic-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_medium_macroman/09-brother1816-medium-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_medium_macroman/09-brother1816-medium-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_mediumitalic_macroman/10-brother1816-medium_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_mediumitalic_macroman/10-brother1816-medium_italic-webfont.woff') format('woff');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_bold_macroman/11-brother1816-bold-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_bold_macroman/11-brother1816-bold-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_bolditalic_macroman/12-brother1816-bold_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_bolditalic_macroman/12-brother1816-bold_italic-webfont.woff') format('woff');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_extrabold_macroman/13-brother1816-extrabold-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_extrabold_macroman/13-brother1816-extrabold-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_extrabolditalic_macroman/14-brother1816-extrabold_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_extrabolditalic_macroman/14-brother1816-extrabold_italic-webfont.woff') format('woff');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_black_macroman/15-brother1816-black-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_black_macroman/15-brother1816-black-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Brother 1816';
+  src: url('/assets/fonts/brother-1816/Webfonts/brother1816_blackitalic_macroman/16-brother1816-black_italic-webfont.woff2') format('woff2'),
+       url('/assets/fonts/brother-1816/Webfonts/brother1816_blackitalic_macroman/16-brother1816-black_italic-webfont.woff') format('woff');
+  font-weight: 800;
+  font-style: italic;
+}
+
 /**
  * Reset some basic elements
  */
@@ -10,13 +194,16 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
-
+h1 {
+  font-family: 'Festivo-LC-Basic-Dots', Arial, sans-serif;
+  font-size: 3em; // override normalize
+}
 
 /**
  * Basic styling
  */
 body {
-    font-family: $base-font-family;
+    font-family: 'Brother 1816', Arial, sans-serif;
     font-size: $base-font-size;
     line-height: $base-line-height;
     font-weight: 300;
