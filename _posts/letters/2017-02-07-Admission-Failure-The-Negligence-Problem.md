@@ -3,7 +3,7 @@ layout: next-letter
 category: letters
 title: The Negligence Problem
 date: 2017-02-07
-permalink: /:categories/:title.html
+permalink: /:categories/season-two/:title.html
 tags: [season_2, letters]
 description: "Where I talk about my failure to act."
 ---

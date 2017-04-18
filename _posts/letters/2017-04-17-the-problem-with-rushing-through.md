@@ -2,8 +2,8 @@
 layout: next-letter
 category: letters
 title: The Problem of Rushing Through
-date: 2017-04-04
-permalink: /:categories/:title.html
+date: 2017-04-17
+permalink: /:categories/season-two/:title.html
 tags: [season_2, letters]
 description: "Where I talk about my failure to slow down."
 ---

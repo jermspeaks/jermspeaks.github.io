@@ -3,7 +3,7 @@ layout: next-letter
 category: letters
 title: The Reactive Problem
 date: 2017-03-06
-permalink: /:categories/:title.html
+permalink: /:categories/season-two/:title.html
 tags: [season_2, letters]
 description: "Where I talk about my failure to stop reacting."
 ---

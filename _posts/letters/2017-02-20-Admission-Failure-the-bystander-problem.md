@@ -3,7 +3,7 @@ layout: next-letter
 category: letters
 title: The Bystander Problem
 date: 2017-02-20
-permalink: /:categories/:title.html
+permalink: /:categories/season-two/:title.html
 tags: [season_2, letters]
 description: "Where I talk about my failure to speak up."
 ---
