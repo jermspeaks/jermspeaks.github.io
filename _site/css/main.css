@@ -219,7 +219,7 @@ h1, h2, h3, h4, h5, h6 { font-weight: 300; }
 /** Links */
 a { color: #2a7ae2; text-decoration: none; }
 a:visited { color: #1756a9; }
-a:hover { color: #111; text-decoration: underline; }
+a:hover { color: #111; text-decoration: none; -webkit-animation: zomg 3s infinite; -moz-animation: zomg 3s infinite; animation: zomg 3s infinite; }
 
 /** Blockquotes */
 blockquote { color: #828282; border-left: 4px solid #e8e8e8; padding-left: 15px; font-size: 18px; letter-spacing: -1px; font-style: italic; }
@@ -566,6 +566,24 @@ td, th { padding: 0; }
   25% { -webkit-filter: invert(10%) saturate(500%) hue-rotate(180deg); filter: invert(10%) saturate(500%) hue-rotate(180deg); }
   50% { -webkit-filter: invert(10%) saturate(200%) hue-rotate(300deg); filter: invert(10%) saturate(200%) hue-rotate(300deg); }
   75% { -webkit-filter: invert(10%) saturate(500%) hue-rotate(90deg); filter: invert(10%) saturate(500%) hue-rotate(90deg); } }
+@-webkit-keyframes zomg { 0%, 100% { color: #7ccdea; }
+  16% { color: #0074D9; }
+  32% { color: #2ECC40; }
+  48% { color: #FFDC00; }
+  64% { color: #B10DC9; }
+  80% { color: #FF4136; } }
+@-moz-keyframes zomg { 0%, 100% { color: #7ccdea; }
+  16% { color: #0074D9; }
+  32% { color: #2ECC40; }
+  48% { color: #FFDC00; }
+  64% { color: #B10DC9; }
+  80% { color: #FF4136; } }
+@keyframes zomg { 0%, 100% { color: #7ccdea; }
+  16% { color: #0074D9; }
+  32% { color: #2ECC40; }
+  48% { color: #FFDC00; }
+  64% { color: #B10DC9; }
+  80% { color: #FF4136; } }
 .landing-top-bar { width: 100%; height: 10px; position: fixed; top: 0; background: #e2f0e5; }
 
 .landing-container { display: flex; margin-top: 30px; }

@@ -292,7 +292,10 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
+        -webkit-animation: zomg 3s infinite;
+        -moz-animation: zomg 3s infinite;
+        animation: zomg 3s infinite
     }
 }
 
