@@ -1,7 +1,7 @@
 ---
 layout: next-post
 category: blog, post, tumblr
-title: OLDER WOMEN THINKING TWENTY
+title: Older Women Thinking Twenty
 date: 2008-03-08
 permalink: /blog/:title.html
 ---
