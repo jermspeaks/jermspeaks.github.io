@@ -13,7 +13,8 @@ layout: project
     </header>
   </section>
 
-  {% for project in site.projects %}
+  {% assign projects = site.projects | reverse %}
+  {% for project in projects %}
     <section class="landing-middle-banner">
       {%
         include project-section.html
