@@ -1,8 +1,8 @@
 ---
 layout: project-page
-title: Smart Compost
+title: Smart Composter
 permalink: /projects/compost
-name: Smart Compost
+name: Smart Composter
 description: Smart composter using IoT Sensors and the Grow-IoT library.
   Project from Science Hack Day 2016
 # project_link: https://jermspeaks.github.io/webvr-demo/?polyfill=1
