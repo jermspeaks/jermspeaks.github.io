@@ -5,6 +5,7 @@
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
 
+  {% feed_meta %}
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
 
   <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
