@@ -58,6 +58,7 @@ url: "localhost:4000"
 #   sass_dir: _sass
 gems:
   - jekyll-assets
+  - jekyll-feed
 assets:
   compress:
     css: false
