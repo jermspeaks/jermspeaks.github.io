@@ -5,7 +5,7 @@ slug: empathy-broadside
 sku: PRESS002-EMPATHY
 image: /assets/images/empathy-broadside.jpg
 layout: product-details
-permalink: /products/:slug
+permalink: /products/empathy-broadside
 ---
 
 A broadside made on a vandercook proof press.
