@@ -31,7 +31,7 @@ collections:
     output: true
 
 # Public API Key
-snipcart_api_key: MTBmZTE2YTMtNGVhZC00ZGNmLWE5NGEtZTMwZmUwYTdlNjcyNjM2MjY2Njc2MzczMjc1NTM3
+snipcart_api_key: MTkyYjRkODgtYjZhNi00NTc2LWExZmUtNjZhNjZhM2FhOThkNjM2MjY2Njc2MzczMjc1NTM3
 
 # Build Settings
 markdown: kramdown
