@@ -1,0 +1,66 @@
+.jeremy-bottom-center,
+.jeremy-bottom-left,
+.jeremy-bottom-right,
+.jeremy-middle-center,
+.jeremy-middle-left,
+.jeremy-middle-right,
+.jeremy-top-left,
+.jeremy-top-right,
+.jeremy-top-center {
+    background-image: url('/assets/images/sprite-jeremy.png');
+    background-repeat: no-repeat;
+}
+
+.jeremy-middle-center {
+    height: 140px;
+    width: 140px;
+    background-position: 0px 0px;
+}
+
+.jeremy-top-center {
+    height: 140px;
+    width: 140px;
+    background-position: -140px 0px;
+}
+
+.jeremy-top-right {
+    height: 140px;
+    width: 140px;
+    background-position: -280px 0px;
+}
+
+.jeremy-middle-right {
+    height: 140px;
+    width: 140px;
+    background-position: -420px 0px;
+}
+
+.jeremy-bottom-right {
+    height: 140px;
+    width: 140px;
+    background-position: -560px 0px;
+}
+
+.jeremy-bottom-center {
+    height: 140px;
+    width: 140px;
+    background-position: -700px 0px;
+}
+
+.jeremy-bottom-left {
+    height: 140px;
+    width: 140px;
+    background-position: -840px 0px;
+}
+
+.jeremy-middle-left {
+    height: 140px;
+    width: 140px;
+    background-position: -980px 0px;
+}
+
+.jeremy-top-left {
+    height: 140px;
+    width: 140px;
+    background-position: -1120px 0px;
+}
