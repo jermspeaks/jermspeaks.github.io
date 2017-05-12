@@ -4,6 +4,7 @@ category: blog, post, tumblr
 title: America - We Should Just Cut the Pie
 date: 2008-01-20
 permalink: /blog/:title.html
+draft: true
 ---
 
 # America - We Should Just Cut the Pie
@@ -22,4 +23,4 @@ Section New England: Liberal people. Kinda snobby, pushy, and rude bastards. Giv
 
 Section Washington D.C. and surrounding area: Or why there has to be such a big racial discrepancy between these areas, especially D.C. I’ve never been here myself, but I think that there has to be some sort of white-black tensions here. I mean, let’s include parts of the south here that eat Grits. Then they have something in common.  
 
-**Note**: This is a parody, a lampoon of the states. I don’t actually hate any of these places. 
+**Note**: This is a parody, a lampoon of the states. I don’t actually hate any of these places.

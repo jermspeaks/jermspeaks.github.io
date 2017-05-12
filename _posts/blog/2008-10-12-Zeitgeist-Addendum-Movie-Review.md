@@ -4,6 +4,7 @@ category: blog, post, tumblr
 title: "Movie Review: Zeitgeist Addendum"
 date: 2008-10-12
 permalink: /blog/:title.html
+draft: true
 ---
 
 # ZEITGEIST: ADDENDUM

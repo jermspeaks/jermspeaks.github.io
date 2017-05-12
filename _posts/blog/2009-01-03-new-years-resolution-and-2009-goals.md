@@ -4,6 +4,7 @@ category: blog, post, tumblr
 title: New Years Resolution and 2009 Goals
 date: 2009-01-03
 permalink: /blog/:title.html
+draft: true
 ---
 
 # New Years Resolution and 2009 Goals (Actual)

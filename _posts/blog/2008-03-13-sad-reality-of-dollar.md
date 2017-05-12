@@ -4,6 +4,7 @@ category: blog, post, tumblr
 title: The Sad Reality of the Volatile Dollar
 date: 2008-03-13
 permalink: /blog/:title.html
+draft: true
 ---
 
 # The Sad Reality of the Volatile Dollar

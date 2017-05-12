@@ -4,6 +4,7 @@ category: blog, post, tumblr
 title: Procrastination - The Life
 date: 2008-03-04
 permalink: /blog/:title.html
+draft: true
 ---
 
 # Procrastination - The Life

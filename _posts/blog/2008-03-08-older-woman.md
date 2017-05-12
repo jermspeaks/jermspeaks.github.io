@@ -4,6 +4,7 @@ category: blog, post, tumblr
 title: Older Women Thinking Twenty
 date: 2008-03-08
 permalink: /blog/:title.html
+draft: true
 ---
 
 # OLDER WOMEN THINKING TWENTY
