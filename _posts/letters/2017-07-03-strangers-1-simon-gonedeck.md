@@ -124,6 +124,7 @@ Simon got to ask me a few questions at the end.
 
 On Growing Traffic
 [Tribes: We Need You To Lead Us](http://www.goodreads.com/book/show/3828382-tribes)
+Newsletters: don't take unsubscriptions personally
 
 On Writing
 Shitty drafts -- Anne Lammont
