@@ -1,0 +1,59 @@
+---
+layout: next-default
+---
+<div class="home" id="home">
+
+  <section class="landing-top">
+    <div class="landing-top-bar"></div>
+  </section>
+
+  <div class="landing-container">
+    {% include left-matter.html pageName="Writing" clickable=true %}
+
+    <section class="landing-right">
+      <section class="landing-top-banner">
+        <header class="landing-header">
+          <div class="landing-header-title">
+            <span>
+              <a class="site-title" href="{{ site.baseurl }}/">Learning</a>
+            </span>
+          </div>
+        </header>
+      </section>
+
+      <!-- <section class="landing-middle-banner">
+        <div class="landing-middle-banner-header">
+          <h2 class="landing-middle-banner-title">
+            <a href="/blog">Blog</a>
+          </h2>
+          <div>
+            <span>A combination of old and new writing. Mostly tech related.</span>
+          </div>
+        </div>
+      </section> -->
+
+      <section class="landing-middle-banner">
+        <ul class="blog-list">
+          {% for post in site.posts %}
+            {% if post.categories contains 'learning' %}
+              {% unless post.draft %}
+                {% if post.title %}
+                <li>
+                  <div class="blog-title">
+                    <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+                  </div>
+                  <div>
+                    <span>Published</span>
+                    <span>{{ post.date | date: '%B %d, %Y' }}</span>
+                  </div>
+                </li>
+                {% endif %}
+              {% endunless %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+
+    </section>
+  </div>
+</div>

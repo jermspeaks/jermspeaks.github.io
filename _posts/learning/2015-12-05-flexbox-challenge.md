@@ -2,7 +2,7 @@
 layout: next-post
 title: Flexbox Challenge
 published: false
-categories:
+categories: learning
 ---
 
 # Flexbox Challenge

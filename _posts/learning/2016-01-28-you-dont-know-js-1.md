@@ -2,7 +2,8 @@
 layout: next-post
 title: "YDKJS Part 1: Up & Going"
 published: true
-categories: javascript
+categories: learning
+tags: javascript
 ---
 
 # You Don't Know JS
