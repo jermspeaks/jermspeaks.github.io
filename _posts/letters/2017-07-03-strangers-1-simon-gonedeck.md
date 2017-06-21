@@ -108,8 +108,55 @@ than other techniques.
 
 [Invision](https://www.invisionapp.com/)
 
-Writing:
-[MG Web Partner's Blog](http://www.mgwebpartners.com/blog/)
+##### On Writing
+
+I think the benefit of being a first connection is they know more about you.
+Because I've been writing the Jear-Bear letters for the past two years,
+I have some insight on creating a weekly writing habit. 
+Although long time readers will know 2016 was a terrible year for me 
+in weekly writing.
+
+Simon's been one of those long-time readers, so as a follow-up in our conversation,
+he asked some advice about creating a writing habit, and how to get through writer's block.
+One of his goals is to boost [his company's blog](http://www.mgwebpartners.com/blog/)
+by writing more frequently.
+
+And because I understand the context he's talking about, I gave Simon a recommendation,
+although know that I think back on it, I have more than a single recommendation.
+
+1. "Bird by Bird" by Anne Lammont
+That book has been freeing to me. It taught me I can give myself permission to write freely without
+having to worry about making the best piece of writing from the start with the concept of
+"shitty first drafts". There's also much on being successful as a writer, which is to say
+don't expect success. As counter-intuitive as it may be, that piece of advice helped me 
+release what I consider terrible writing to my letter friends. A few of those letters have been
+very well received, like my "Caltrain Suicides" letter and my "Lost Keys" letter
+2. Seth Godin's Blog [INSERT LINK HERE]()
+If we're talking about prolific, it doesn't get as good as Seth Godin's blog, which he has been
+serving for over the past decade. He's the prime example of less is more, which has helped me
+in editing down my own writing much less. 
+3. Peer Reviews
+Earlier on in my letter writing, I decided to open up each letter for critique.
+I reached out on Twitter to see who could be my critique, and a few people helped me.
+I'd send a draft out, and they would give me some helpful criticism.
+I remember Helin gave me some pointers about subheaders, which I didn't initially like,
+but has grown on me.  
+Unfortunately, I stopped because my critiques wouldn't come back before my deadline,
+so I carried along hoping my audience would tell me. Turns out, they don't, so this project
+is to help me out further because I'm working alongside an illustrator.
+While the illustrator's primary job is not to be a critic, it does help to have a second eye.
+Plus, if I'm really stuck on something, I'll drag a friend into it.
+Stephen King wrote in "On Writing" that his wife reads through his novels before he
+releases them.
+
+##### Growth Hacking
+
+Also, Simon asked about Growth Hacking, even though he didn't use those words.
+"How do I grow readership?" I ask myself the same questions. For an individual, it takes years
+to earn credibility. For a company, it takes referrals and tailoring the message to
+potential new clients. And for that, you can be very targeted in your approach.
+
+Taking a page from Seth Godin's book, Tribes...
 
 ### Take-aways
 
