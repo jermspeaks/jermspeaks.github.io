@@ -3,6 +3,7 @@ layout: next-post
 title: Flexbox Challenge
 published: false
 categories: learning
+permalink: /:categories/:title.html
 ---
 
 # Flexbox Challenge

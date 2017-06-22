@@ -4,6 +4,7 @@ title: "YDKJS Part 1: Up & Going"
 published: true
 categories: learning
 tags: javascript
+permalink: /:categories/:title.html
 ---
 
 # You Don't Know JS

@@ -1,4 +1,105 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="localhost:4000/" rel="alternate" type="text/html" /><updated>2017-06-07T03:42:49+00:00</updated><id>localhost:4000/</id><subtitle>© 2017 Craft By Zen</subtitle><entry><title>The Problem of Rushing Through</title><link href="localhost:4000/letters/season-two/the-problem-with-rushing-through.html" rel="alternate" type="text/html" title="The Problem of Rushing Through" /><published>2017-04-17T00:00:00+00:00</published><updated>2017-04-17T00:00:00+00:00</updated><id>localhost:4000/letters/season-two/the-problem-with-rushing-through</id><content type="html" xml:base="localhost:4000/letters/season-two/the-problem-with-rushing-through.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/94ff2d22-e9e3-40a7-958b-ece4b3921ae6.png&quot; alt=&quot;Jear bear letters admission failure 8&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="http://craftbyzen.com/feed.xml" rel="self" type="application/atom+xml" /><link href="http://craftbyzen.com/" rel="alternate" type="text/html" /><updated>2017-06-22T02:56:07+00:00</updated><id>http://craftbyzen.com/</id><subtitle>© 2017 Craft By Zen</subtitle><entry><title>Intro to Webassembly</title><link href="http://craftbyzen.com/learning/webassembly.html" rel="alternate" type="text/html" title="Intro to Webassembly" /><published>2017-06-06T00:00:00+00:00</published><updated>2017-06-06T00:00:00+00:00</updated><id>http://craftbyzen.com/learning/webassembly</id><content type="html" xml:base="http://craftbyzen.com/learning/webassembly.html">&lt;h1 id=&quot;intro-to-webassembly&quot;&gt;Intro to WebAssembly&lt;/h1&gt;
+
+&lt;p&gt;After reading &lt;a href=&quot;https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/&quot;&gt;a lengthy comic&lt;/a&gt; from &lt;a href=&quot;https://code-cartoons.com/&quot;&gt;Lin Clark&lt;/a&gt; about WebAssembly,
+I thought it might be great to do a deep dive with it.
+Thank goodness the folks behind the project have a very nice &lt;em&gt;&lt;a href=&quot;http://webassembly.org/getting-started/developers-guide/&quot;&gt;Getting Started&lt;/a&gt;&lt;/em&gt; tutorial.&lt;/p&gt;
+
+&lt;h2 id=&quot;prerequisites&quot;&gt;Prerequisites&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To compile to WebAssembly, we will at the moment need to compile LLVM from source. The following tools are needed as a prerequisite:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;I’m on OSX. Check the link for above for your prerequisites.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Git&lt;/li&gt;
+  &lt;li&gt;CMake&lt;/li&gt;
+  &lt;li&gt;Xcode&lt;/li&gt;
+  &lt;li&gt;Python (2.7.x)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;compile-emscripten-from-source&quot;&gt;Compile Emscripten from Source&lt;/h2&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Building Emscripten from source is automated via the Emscripten SDK. The required steps are as follows.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;git clone https://github.com/juj/emsdk.git
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;emsdk
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;./emsdk install sdk-incoming-64bit binaryen-master-64bit
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;./emsdk activate sdk-incoming-64bit binaryen-master-64bit
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;After these steps, the installation is complete. To enter an Emscripten compiler environment in the current command line prompt, type&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt; ./emsdk_env.sh
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;This command adds relevant environment variables and directory entries to PATH to set up the current terminal for easy access to the compiler tools.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Note, the installation process will take a while. Go make yourself some tea.&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;To conveniently access the selected &lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;of tools from the &lt;span class=&quot;nb&quot;&gt;command &lt;/span&gt;line,  
+consider adding the following directories to PATH, or call &lt;span class=&quot;s1&quot;&gt;'source  
+./emsdk_env.sh'&lt;/span&gt; to &lt;span class=&quot;k&quot;&gt;do &lt;/span&gt;this &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;you.
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;h3 id=&quot;compile-and-run-a-simple-program&quot;&gt;Compile and run a simple program&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;We now have a full toolchain we can use to compile a simple program to WebAssembly. There are a few remaining caveats, however:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;ul&gt;
+    &lt;li&gt;We have to pass the linker flag &lt;code class=&quot;highlighter-rouge&quot;&gt;-s WASM=1&lt;/code&gt; to &lt;code class=&quot;highlighter-rouge&quot;&gt;emcc&lt;/code&gt; (otherwise by default emcc will emit asm.js).&lt;/li&gt;
+    &lt;li&gt;If we want Emscripten to generate an HTML page that runs our program, in addition to the wasm binary and JavaScript wrapper, we have to specify an output filename with a &lt;code class=&quot;highlighter-rouge&quot;&gt;.html&lt;/code&gt; extension.&lt;/li&gt;
+    &lt;li&gt;Finally, to actually run the program, we cannot simply open the HTML file in a web browser because cross-origin requests are not supported for the file protocol scheme. We have to actually serve the output files over HTTP.&lt;/li&gt;
+    &lt;li&gt;The commands below will create a simple “hello world” program and compile it. The compilation step is highlighted in bold.&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;mkdir hello
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;cd &lt;/span&gt;hello
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'#include &amp;lt;stdio.h&amp;gt;'&lt;/span&gt; &amp;gt; hello.c
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'int main(int argc, char ** argv) {'&lt;/span&gt; &amp;gt;&amp;gt; hello.c
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'printf(&quot;Hello, world!\n&quot;);'&lt;/span&gt; &amp;gt;&amp;gt; hello.c
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;echo&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;'}'&lt;/span&gt; &amp;gt;&amp;gt; hello.c
+&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;emcc hello.c -s &lt;span class=&quot;nv&quot;&gt;WASM&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 -o hello.html
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;To serve the compiled files over HTTP, we can use the emrun web server provided with the Emscripten SDK:&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;emrun --no_browser --port 8080 .
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Once the HTTP server is running, you can open it in your browser. If you see “Hello, world!” printed to the Emscripten console, then congratulations! You’ve successfully compiled to WebAssembly!&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here’s how my logs looked when running the program&lt;/p&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;➜  hello-wasm emcc hello.c -s &lt;span class=&quot;nv&quot;&gt;WASM&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;=&lt;/span&gt;1 -o hello.html
+INFO:root:generating system library: libc.bc... &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;this will be cached &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/Users/Jeremy/.emscripten_cache/asmjs/libc.bc&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;subsequent builds&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+INFO:root: - ok
+INFO:root:generating system library: dlmalloc.bc... &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;this will be cached &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/Users/Jeremy/.emscripten_cache/asmjs/dlmalloc.bc&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;subsequent builds&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+INFO:root: - ok
+INFO:root:generating system library: wasm-libc.bc... &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;this will be cached &lt;span class=&quot;k&quot;&gt;in&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;/Users/Jeremy/.emscripten_cache/asmjs/wasm-libc.bc&quot;&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;for &lt;/span&gt;subsequent builds&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+INFO:root: - ok
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;</content><category term="webassembly" /><summary>Intro to WebAssembly</summary></entry><entry><title>The Problem of Rushing Through</title><link href="http://craftbyzen.com/letters/season-two/the-problem-with-rushing-through.html" rel="alternate" type="text/html" title="The Problem of Rushing Through" /><published>2017-04-17T00:00:00+00:00</published><updated>2017-04-17T00:00:00+00:00</updated><id>http://craftbyzen.com/letters/season-two/the-problem-with-rushing-through</id><content type="html" xml:base="http://craftbyzen.com/letters/season-two/the-problem-with-rushing-through.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/94ff2d22-e9e3-40a7-958b-ece4b3921ae6.png&quot; alt=&quot;Jear bear letters admission failure 8&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-problem-of-rushing-through&quot;&gt;The Problem of Rushing Through&lt;/h1&gt;
 
@@ -18,7 +119,7 @@
 
 &lt;p&gt;Let’s say the solution is as simple as slowing down; be present. This is my invocation to begin. I’m standing firm not to neglect the mind and body’s needs. I will let that guide my present intentions.&lt;/p&gt;
 
-&lt;p&gt;My hope is for my future self to read this. My hope is my future self has slowed down. And if he has, please follow up and tell everyone how you did it. And say Bueller was right.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>The Placement Problem</title><link href="localhost:4000/letters/season-two/the-placement-problem.html" rel="alternate" type="text/html" title="The Placement Problem" /><published>2017-04-04T00:00:00+00:00</published><updated>2017-04-04T00:00:00+00:00</updated><id>localhost:4000/letters/season-two/the-placement-problem</id><content type="html" xml:base="localhost:4000/letters/season-two/the-placement-problem.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/f60b85ea-98ea-469f-9942-d15b84fd12f7.png&quot; alt=&quot;Jear bear letters admission failure 7&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;My hope is for my future self to read this. My hope is my future self has slowed down. And if he has, please follow up and tell everyone how you did it. And say Bueller was right.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>The Placement Problem</title><link href="http://craftbyzen.com/letters/season-two/the-placement-problem.html" rel="alternate" type="text/html" title="The Placement Problem" /><published>2017-04-04T00:00:00+00:00</published><updated>2017-04-04T00:00:00+00:00</updated><id>http://craftbyzen.com/letters/season-two/the-placement-problem</id><content type="html" xml:base="http://craftbyzen.com/letters/season-two/the-placement-problem.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/f60b85ea-98ea-469f-9942-d15b84fd12f7.png&quot; alt=&quot;Jear bear letters admission failure 7&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-placement-problem&quot;&gt;The Placement Problem&lt;/h1&gt;
 
@@ -44,7 +145,7 @@
 
 &lt;h2 id=&quot;addendum&quot;&gt;Addendum&lt;/h2&gt;
 
-&lt;p&gt;I’ll be honest. After drafting this letter, I’m going to give the bowl a try. At least I can cross it off my list if it really doesn’t work. Then it’s back to the drawing board.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>The Loneliness Problem</title><link href="localhost:4000/letters/season-two/the-loneliness-problem.html" rel="alternate" type="text/html" title="The Loneliness Problem" /><published>2017-03-30T00:00:00+00:00</published><updated>2017-03-30T00:00:00+00:00</updated><id>localhost:4000/letters/season-two/the-loneliness-problem</id><content type="html" xml:base="localhost:4000/letters/season-two/the-loneliness-problem.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/e95530cf-ed42-42c6-a8c3-6916b74ab552.png&quot; alt=&quot;Admission Failure 6&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;I’ll be honest. After drafting this letter, I’m going to give the bowl a try. At least I can cross it off my list if it really doesn’t work. Then it’s back to the drawing board.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>The Loneliness Problem</title><link href="http://craftbyzen.com/letters/season-two/the-loneliness-problem.html" rel="alternate" type="text/html" title="The Loneliness Problem" /><published>2017-03-30T00:00:00+00:00</published><updated>2017-03-30T00:00:00+00:00</updated><id>http://craftbyzen.com/letters/season-two/the-loneliness-problem</id><content type="html" xml:base="http://craftbyzen.com/letters/season-two/the-loneliness-problem.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/e95530cf-ed42-42c6-a8c3-6916b74ab552.png&quot; alt=&quot;Admission Failure 6&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-loneliness-problem&quot;&gt;The Loneliness Problem&lt;/h1&gt;
 
@@ -64,7 +165,7 @@
 
 &lt;p&gt;And being alone doesn’t mean one-on-one time with your phone. Quite the opposite. I like to bring a composition notebook and write or draw if I’m in a restaurant. Or people watch. Or talk to the waiter.&lt;/p&gt;
 
-&lt;p&gt;I was on a business trip this past week. There was two days there was no one around to grab dinner with. I’ve used the “alone” mantra to justify eating alone. It was a great experience because I got to talk with a sushi chef and an bar tender about their experiences. Also, there was a lot of people watching. So the big lesson learned is not every activity alone has to be depressive. Look past your ego, suck it up, and enjoy yourself alone.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>Show Your Work - A Manifesto</title><link href="localhost:4000/blog/show-your-work.html" rel="alternate" type="text/html" title="Show Your Work - A Manifesto" /><published>2017-03-30T00:00:00+00:00</published><updated>2017-03-30T00:00:00+00:00</updated><id>localhost:4000/blog/show-your-work</id><content type="html" xml:base="localhost:4000/blog/show-your-work.html">&lt;h1 id=&quot;show-your-work&quot;&gt;Show Your Work&lt;/h1&gt;
+&lt;p&gt;I was on a business trip this past week. There was two days there was no one around to grab dinner with. I’ve used the “alone” mantra to justify eating alone. It was a great experience because I got to talk with a sushi chef and an bar tender about their experiences. Also, there was a lot of people watching. So the big lesson learned is not every activity alone has to be depressive. Look past your ego, suck it up, and enjoy yourself alone.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>Show Your Work - A Manifesto</title><link href="http://craftbyzen.com/blog/show-your-work.html" rel="alternate" type="text/html" title="Show Your Work - A Manifesto" /><published>2017-03-30T00:00:00+00:00</published><updated>2017-03-30T00:00:00+00:00</updated><id>http://craftbyzen.com/blog/show-your-work</id><content type="html" xml:base="http://craftbyzen.com/blog/show-your-work.html">&lt;h1 id=&quot;show-your-work&quot;&gt;Show Your Work&lt;/h1&gt;
 
 &lt;h3 id=&quot;show-your-work-1&quot;&gt;Show your work&lt;/h3&gt;
 &lt;p&gt;If it’s meaningful to you, share it with the world.
@@ -86,7 +187,7 @@ This is not a bad thing. Nature is agnostic to the forces of good and evil.&lt;/
 
 &lt;h2 id=&quot;notes&quot;&gt;Notes&lt;/h2&gt;
 
-&lt;p&gt;The piece of prose is inspired by the book, “&lt;a href=&quot;http://showyourwork.com&quot;&gt;Show Your Work&lt;/a&gt;” by Austin Kleon.&lt;/p&gt;</content><category term="blog, post, work" /><summary>Show Your Work</summary></entry><entry><title>The Problem With the Rider and the Elephant</title><link href="localhost:4000/letters/season-two/Admission-Failure-the-problem-with-the-rider-and-the-elephant.html" rel="alternate" type="text/html" title="The Problem With the Rider and the Elephant" /><published>2017-03-15T00:00:00+00:00</published><updated>2017-03-15T00:00:00+00:00</updated><id>localhost:4000/letters/season-two/Admission-Failure-the-problem-with-the-rider-and-the-elephant</id><content type="html" xml:base="localhost:4000/letters/season-two/Admission-Failure-the-problem-with-the-rider-and-the-elephant.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/17d7d676-0a33-4f67-8091-dfc9478c888d.png&quot; alt=&quot;Admission Failure 5&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The piece of prose is inspired by the book, “&lt;a href=&quot;http://showyourwork.com&quot;&gt;Show Your Work&lt;/a&gt;” by Austin Kleon.&lt;/p&gt;</content><category term="blog, post, work" /><summary>Show Your Work</summary></entry><entry><title>The Problem With the Rider and the Elephant</title><link href="http://craftbyzen.com/letters/season-two/Admission-Failure-the-problem-with-the-rider-and-the-elephant.html" rel="alternate" type="text/html" title="The Problem With the Rider and the Elephant" /><published>2017-03-15T00:00:00+00:00</published><updated>2017-03-15T00:00:00+00:00</updated><id>http://craftbyzen.com/letters/season-two/Admission-Failure-the-problem-with-the-rider-and-the-elephant</id><content type="html" xml:base="http://craftbyzen.com/letters/season-two/Admission-Failure-the-problem-with-the-rider-and-the-elephant.html">&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/17d7d676-0a33-4f67-8091-dfc9478c888d.png&quot; alt=&quot;Admission Failure 5&quot; /&gt;&lt;/p&gt;
 
 &lt;h1 id=&quot;the-problem-with-the-rider-and-the-elephant&quot;&gt;The Problem With the Rider and the Elephant&lt;/h1&gt;
 
@@ -136,7 +237,7 @@ This is not a bad thing. Nature is agnostic to the forces of good and evil.&lt;/
 
 &lt;p&gt;When the rider can notice the elephant’s resistance, the rider’s best option is to roll with it. Now, ask yourself, how can I work with the elephant, and not against it? As the rider, we have the ability to plan ahead and take lessons learned from past failures. Now apply that to your everyday conflicts.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/3e53e436-af9a-4cb7-87b6-188d75e0bfd9.png&quot; alt=&quot;Sample Letter&quot; /&gt;&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>The Reactive Problem</title><link href="localhost:4000/letters/season-two/Admission-Failure-the-reactive-problem.html" rel="alternate" type="text/html" title="The Reactive Problem" /><published>2017-03-06T00:00:00+00:00</published><updated>2017-03-06T00:00:00+00:00</updated><id>localhost:4000/letters/season-two/Admission-Failure-the-reactive-problem</id><content type="html" xml:base="localhost:4000/letters/season-two/Admission-Failure-the-reactive-problem.html">&lt;h1 id=&quot;admission-failure&quot;&gt;Admission Failure&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/3e53e436-af9a-4cb7-87b6-188d75e0bfd9.png&quot; alt=&quot;Sample Letter&quot; /&gt;&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary></summary></entry><entry><title>The Reactive Problem</title><link href="http://craftbyzen.com/letters/season-two/Admission-Failure-the-reactive-problem.html" rel="alternate" type="text/html" title="The Reactive Problem" /><published>2017-03-06T00:00:00+00:00</published><updated>2017-03-06T00:00:00+00:00</updated><id>http://craftbyzen.com/letters/season-two/Admission-Failure-the-reactive-problem</id><content type="html" xml:base="http://craftbyzen.com/letters/season-two/Admission-Failure-the-reactive-problem.html">&lt;h1 id=&quot;admission-failure&quot;&gt;Admission Failure&lt;/h1&gt;
 
 &lt;h2 id=&quot;the-reactive-problem&quot;&gt;The Reactive Problem&lt;/h2&gt;
 
@@ -172,7 +273,7 @@ This is not a bad thing. Nature is agnostic to the forces of good and evil.&lt;/
 
 &lt;p&gt;We’ll explore more next week on anger and the calming down effect.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/828e848b-5dd4-430a-ba2a-3eaebea4bdc5.gif&quot; alt=&quot;Whitest Kids You Know - Abe Lincoln telling John Wilkes Booth to calm down&quot; /&gt;&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary>Admission Failure</summary></entry><entry><title>The Reliance Problem</title><link href="localhost:4000/letters/season-two/Admission-Failure-the-reliance-problem.html" rel="alternate" type="text/html" title="The Reliance Problem" /><published>2017-02-25T00:00:00+00:00</published><updated>2017-02-25T00:00:00+00:00</updated><id>localhost:4000/letters/season-two/Admission-Failure-the-reliance-problem</id><content type="html" xml:base="localhost:4000/letters/season-two/Admission-Failure-the-reliance-problem.html">&lt;h1 id=&quot;admission-failure&quot;&gt;Admission Failure&lt;/h1&gt;
+&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/828e848b-5dd4-430a-ba2a-3eaebea4bdc5.gif&quot; alt=&quot;Whitest Kids You Know - Abe Lincoln telling John Wilkes Booth to calm down&quot; /&gt;&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary>Admission Failure</summary></entry><entry><title>The Reliance Problem</title><link href="http://craftbyzen.com/letters/season-two/Admission-Failure-the-reliance-problem.html" rel="alternate" type="text/html" title="The Reliance Problem" /><published>2017-02-25T00:00:00+00:00</published><updated>2017-02-25T00:00:00+00:00</updated><id>http://craftbyzen.com/letters/season-two/Admission-Failure-the-reliance-problem</id><content type="html" xml:base="http://craftbyzen.com/letters/season-two/Admission-Failure-the-reliance-problem.html">&lt;h1 id=&quot;admission-failure&quot;&gt;Admission Failure&lt;/h1&gt;
 
 &lt;h2 id=&quot;the-reliance-problem&quot;&gt;The Reliance Problem&lt;/h2&gt;
 
@@ -222,48 +323,4 @@ Ghost of Past Jeremy&lt;/p&gt;
 
 &lt;h3 id=&quot;final-thoughts&quot;&gt;Final Thoughts&lt;/h3&gt;
 
-&lt;p&gt;These strategies are guidelines, not a matter of fact. Adopt one or all if you so choose. Or modify them to fit your needs. The world’s too much for a one-size-fits-all approach.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary>Admission Failure</summary></entry><entry><title>The Bystander Problem</title><link href="localhost:4000/letters/season-two/Admission-Failure-the-bystander-problem.html" rel="alternate" type="text/html" title="The Bystander Problem" /><published>2017-02-20T00:00:00+00:00</published><updated>2017-02-20T00:00:00+00:00</updated><id>localhost:4000/letters/season-two/Admission-Failure-the-bystander-problem</id><content type="html" xml:base="localhost:4000/letters/season-two/Admission-Failure-the-bystander-problem.html">&lt;h1 id=&quot;admission-failure&quot;&gt;Admission: Failure&lt;/h1&gt;
-
-&lt;h2 id=&quot;the-bystander-problem&quot;&gt;The Bystander Problem&lt;/h2&gt;
-
-&lt;p&gt;I’ve gotten too cozy on the sidelines. Ive justified my position by lame excuses, like “I wouldn’t know how to help. A moment from middle school stands out.&lt;/p&gt;
-
-&lt;h3 id=&quot;help-to-acquaintances&quot;&gt;Help to Acquaintances&lt;/h3&gt;
-
-&lt;p&gt;On the journey to school, I noticed a group a guys harassing a girl from my school. They were across the street, so I stopped and stood there watching. I was one of many bystanders watching my fellow school-mate get angry at these boys. She was screaming at them to stop teasing and calling her name’s. I could have run across the street and intervened, but I didn’t, thinking one of the other kids would help. They didn’t either. After several minutes of heated escalation, a teacher intervened and had the crowd scramble.&lt;/p&gt;
-
-&lt;h3 id=&quot;help-to-family&quot;&gt;Help to Family&lt;/h3&gt;
-
-&lt;p&gt;These events of “should haves” and “could haves” filled me with regret. The most painful one happened a few months later. One night, as my grandmother was leaving my parent’s house, she fell down on our front porch steps. My parents rushed outside as I watched from the window. They carried her back in the house and my father called emergency services. My grandmother had lost some blood and was loopy.&lt;/p&gt;
-
-&lt;p&gt;During the brief time before the ambulance came, I sat in another room frozen. I didn’t offer to help; I was crying because I thought I was losing my grandmother. During the time leading up to this event, I was going through my first major depressive period.&lt;/p&gt;
-
-&lt;p&gt;The ambulance came and did some initial diagnosis. They determined my grandmother was fine. The EMT took her to the hospital just in case.&lt;/p&gt;
-
-&lt;p&gt;When the chaos subsided, my mom asked me why I didn’t help out. I couldn’t answer her. I couldn’t sleep that night, wondering why I froze up. My belief was I couldn’t bear witness to someone dying. But my grandmother didn’t die that night.&lt;/p&gt;
-
-&lt;p&gt;It was after my depressive period that I could see more clearly the problem. My resolution to any similar situations would be to set aside emotions and focus on the task at hand. People involved in a crisis matter beyond my emotions. And I know that line’s not always clear, but let’s not open that set of moral ambiguities.&lt;/p&gt;
-
-&lt;h3 id=&quot;help-to-strangers&quot;&gt;Help To Strangers&lt;/h3&gt;
-
-&lt;p&gt;Two years ago, I was challenged with a different dilemma. I was with a date walking around at night when we met a beggar. The beggar was younger than us, a woman with disheveled hair and ragged clothes. She was begging for food for her daughter and her.&lt;/p&gt;
-
-&lt;p&gt;The fraud center of my brain began to whirl. My date looked at me to see what I would do. I decided to help this young woman, so we bought her a pizza at the restaurant nearby. As we were waiting, she told us about her money situation, how embarrassing it was to ask for help, and how many people ignored her. She thanked us profusely when the food arrived and we went on our separate ways.&lt;/p&gt;
-
-&lt;h3 id=&quot;takeaways&quot;&gt;Takeaways&lt;/h3&gt;
-
-&lt;p&gt;I’m not going to talk about how to evaluate panhandlers and beggars. That’s its own article. Instead, here are two takeaways.&lt;/p&gt;
-
-&lt;h4 id=&quot;section&quot;&gt;1&lt;/h4&gt;
-
-&lt;p&gt;My college economics professor started each lecture with a simple saying. “Doing nothing is always an option.” At the time, he was explaining financial opportunity costs. I’m translating it to everyday decisions. If you are on the crossroads of sideline and intervention, choosing the sidelines is a choice. It is up to you to determine if it’s the right choice.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/b7cc48a9-814b-4b97-b651-cca69ab1f675.png&quot; alt=&quot;Cartoon at Heaven's Gate&quot; /&gt;&lt;/p&gt;
-
-&lt;h4 id=&quot;section-1&quot;&gt;2&lt;/h4&gt;
-
-&lt;p&gt;I was at the National Civic Day of Hacking event in San Francisco, and the organizer captain, Jesse Biroscak, delivered an outro. To paraphrasing a point I thought was important, “You are the only ones who can help. Look around the room. This is it. There is no one else.” I looked around the room and saw around 30 people.&lt;/p&gt;
-
-&lt;p&gt;“Oh my gosh,” I thought, “he’s right. If I want to see change, I’m going to need to start the campaign.”&lt;/p&gt;
-
-&lt;p&gt;Jesse was talking about projects for the &lt;a href=&quot;http://codeforsanfrancisco.org/&quot;&gt;SF Brigade&lt;/a&gt;. One can easily translate that to everyday situations. See debris in the middle of the road? Call highway patrol. A blind person is judging if they should cross the road? Tell them if the coast is clear. Have the skills to help out a non-profit? If you can make the time, do some pro-bono work.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary>Admission: Failure</summary></entry></feed>
+&lt;p&gt;These strategies are guidelines, not a matter of fact. Adopt one or all if you so choose. Or modify them to fit your needs. The world’s too much for a one-size-fits-all approach.&lt;/p&gt;</content><category term="letters" /><category term="season_2" /><category term="letters" /><summary>Admission Failure</summary></entry></feed>
