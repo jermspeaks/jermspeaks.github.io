@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link type="application/atom+xml" rel="alternate" href="localhost:4000/feed.xml" />
+
+  <title>vim</title>
+  <meta name="description" content="Vim">
+
+  <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
+  <link rel="stylesheet" href="/css/main.css">
+  <link rel="canonical" href="localhost:4000/learning/vim.html">
+  <link rel="alternate" type="application/rss+xml" title="" href="localhost:4000/feed.xml" />
+</head>
+
+
+  <body>
+    <section class="landing-top">
+      <div class="landing-top-bar"></div>
+    </section>
+
+    <div class="landing-container">
+      <section class="landing-left">
+  <div class="landing-left-top">
+    <a href='/'>
+      <img class="avatar" src="/assets/profile-pic.jpg" width="150" height="150" alt="avatar" />
+    </a>
+  </div>
+
+  <div class="landing-left-bottom">
+    <div class="footer-social-list">
+  <ul class="social-media-list">
+    <li>
+      <a href="https://github.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-github"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://twitter.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-twitter"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="mailto:jeremy@craftbyzen.com" target="_blank">
+        <span>
+          <i class="fa fa-envelope"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="/feed.xml">
+        <span>
+          <i class="fa fa-rss"></i>
+        </span>
+      </a>
+    </li>
+    <!-- <li>
+      <a href="https://instagram.com/jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-instagram"></i>
+        </span>
+      </a>
+    </li> -->
+    <!-- <li>
+      <a href="http://jermspeaks-blog.tumblr.com" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-tumblr"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://medium.com/@jermspeaks" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-medium"></i>
+        </span>
+      </a>
+    </li>
+    <li>
+      <a href="https://www.linkedin.com/in/jeremynwong" target="_blank">
+        <span>
+          <i class="fa fa-2x fa-linkedin"></i>
+        </span>
+      </a>
+    </li> -->
+  </ul>
+</div>
+
+    <ul class="landing-nav-list">
+      
+        <li class="landing-nav-list-item">
+          
+            <a class="landing-nav-list-link" href="/about/">About</a>
+          
+        </li>
+      
+        <li class="landing-nav-list-item">
+          
+            
+              <strong>
+                <a class="landing-nav-list-link" href="/writing/">Writing</a>
+              </strong>
+            
+          
+        </li>
+      
+        <li class="landing-nav-list-item">
+          
+            <a class="landing-nav-list-link" href="/projects/">Codes</a>
+          
+        </li>
+      
+        <li class="landing-nav-list-item">
+          
+            <a class="landing-nav-list-link" href="/talks/">Talks</a>
+          
+        </li>
+      
+        <li class="landing-nav-list-item">
+          
+            <a class="landing-nav-list-link" href="/products/">Shop</a>
+          
+        </li>
+      
+    </ul>
+  </div>
+</section>
+
+
+      <section class="landing-right">
+        <h1 id="vim">Vim</h1>
+
+<h2 id="initial-setup">Initial Setup</h2>
+
+<p>I got into vim from a co-worker.
+I thought it’s that clunky text editor in your terminal you must use when you have ssh into the linux server.
+However, I’ve grown to understand vim is much more than a text editor.
+It can also be an IDE.</p>
+
+<p>When I first used vim, it just looked plain an boring.
+The black screen with hard to understand shortcuts.
+There weren’t any line numbers.
+I didn’t even know how to exit the damn program for a good 5 minutes.</p>
+
+<p>Then I started figuring it out slowly.
+Vim has different modes.
+Vim can do macros.
+Vim can find things with the same grep commands.
+And it’s quite expandable with the limitless plugins.
+Vim is an endless rabbithole where you will get sucked in hours just setting it up.
+But it’s your customization.
+And that’s the beauty of vim.</p>
+
+<p>Best advice - configure vim, and for that matter dotfiles, on your own.
+Don’t blindly copy and paste configurations, because you’ll never understand them all.</p>
+
+<h3 id="modal-editing">Modal Editing</h3>
+
+<p>Quoted from Nick Nisi</p>
+
+<blockquote>
+  <p>Change the meaning of the keys in each mode of operation</p>
+</blockquote>
+
+<blockquote>
+  <ul>
+    <li>Normal mode - navigate the structure of the file</li>
+    <li>Insert Mode - editing the file</li>
+    <li>Visual mode - highlighting portions of the file to manipulate at once</li>
+    <li>Ex mode - command mode</li>
+  </ul>
+</blockquote>
+
+<h3 id="line-numbers">Line Numbers</h3>
+
+<p>Where are my line numbers?
+Simply type the following.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>:set number
+</code></pre>
+</div>
+
+<p>To remove the numbers, you can use this command.</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>:set nonumber
+</code></pre>
+</div>
+
+<h2 id="configuration">Configuration</h2>
+
+<p>If you’re sick and tired of setting everything up every time you boot up vim, simply place the configuration in your configuration file.
+You can find the configuration file at this location.
+<code class="highlighter-rouge">~/.vimrc</code></p>
+
+<p>Here’s a truncated version of my general settings.</p>
+
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code>syntax enable     " Enable syntax highlighting
+<span class="k">set</span> tabstop<span class="p">=</span><span class="m">2</span>     " <span class="k">set</span> the <span class="k">tab</span> stop at <span class="m">2</span> spaces
+<span class="k">set</span> shiftwidth<span class="p">=</span><span class="m">2</span>  " <span class="k">set</span> the shift width by <span class="m">2</span> spaces
+<span class="k">set</span> noexpandtab   " <span class="k">do</span> not expand <span class="k">tab</span>
+<span class="k">set</span> <span class="k">number</span>        " show line numbers
+</code></pre>
+</div>
+
+<p>For all of my settings, please view my <a href="https://github.com/jermspeaks/dotfiles">dotfiles</a>.</p>
+
+<h2 id="useful-shortcuts">Useful Shortcuts</h2>
+
+<p>All of the shortcuts can be found on the <a href="http://vim.wikia.com/wiki/Vim_Tips_Wiki">Vim Wiki Website</a></p>
+
+<h3 id="navigation">Navigation</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">h</code> for left</li>
+  <li><code class="highlighter-rouge">l</code> for right</li>
+  <li><code class="highlighter-rouge">j</code> for down</li>
+  <li><code class="highlighter-rouge">k</code> for up</li>
+  <li><code class="highlighter-rouge">gg</code> top of the file</li>
+  <li><code class="highlighter-rouge">H</code> top of the window</li>
+  <li><code class="highlighter-rouge">ctrl + e</code> move window down one line</li>
+  <li><code class="highlighter-rouge">ctrl + y</code> move window up one line</li>
+</ul>
+
+<h3 id="word-manipulation">Word Manipulation</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">w</code> to go forward to the beginning of next word</li>
+  <li><code class="highlighter-rouge">b</code> to go backward to the beginning of previous word</li>
+  <li><code class="highlighter-rouge">e</code> to go forward to the end of the next word</li>
+  <li><code class="highlighter-rouge">dw</code> delete word up to the cursor including space between next word</li>
+  <li><code class="highlighter-rouge">diw</code> delete word on cursor</li>
+</ul>
+
+<h4 id="yanking-words">Yanking Words</h4>
+
+<ul>
+  <li><code class="highlighter-rouge">yiw</code> yank in word</li>
+</ul>
+
+<h3 id="line-manipulation">Line Manipulation</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">0</code> or <code class="highlighter-rouge">^</code> for beginning of line</li>
+  <li><code class="highlighter-rouge">shift + i</code> go to the beginning of line and insert</li>
+  <li><code class="highlighter-rouge">$</code> go to end of line</li>
+  <li><code class="highlighter-rouge">shift + a</code> go to end of line and insert</li>
+  <li><code class="highlighter-rouge">dd</code> for delete line where cursor is on</li>
+</ul>
+
+<h4 id="moving-lines">Moving lines</h4>
+
+<ul>
+  <li><code class="highlighter-rouge">:m &lt;line number&gt;</code> move to after the line number</li>
+  <li><code class="highlighter-rouge">[selected_line_num]m &lt;line_number&gt;</code> moves the line to after the line number</li>
+  <li><code class="highlighter-rouge">[from_line_num,to_line_num]m &lt;line_number&gt;</code> moves the selected lines to after the line number</li>
+</ul>
+
+<h3 id="vim-as-a-language">Vim as a Language</h3>
+
+<p>Operations and thing you want to do the operation to.
+:</p>
+
+<h3 id="editing">Editing</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">u</code> for undo</li>
+</ul>
+
+<p>Many times, you’ll want to know how to copy and paste.</p>
+
+<ul>
+  <li>TODO http://vim.wikia.com/wiki/Mac_OS_X_clipboard_sharing</li>
+</ul>
+
+<h3 id="colon-commands">Colon Commands</h3>
+
+<ul>
+  <li><code class="highlighter-rouge">:help &lt;command&gt;</code> for help on any command</li>
+</ul>
+
+<h2 id="plugins">Plugins</h2>
+
+<p>Vim, like other text editors, has an ecosystem of plugins.</p>
+
+<ul>
+  <li><a href="https://github.com/VundleVim/Vundle.vim">vundle</a> - plugin manager</li>
+  <li><a href="https://github.com/scrooloose/nerdtree">nerdtree</a> - file tree</li>
+  <li><a href="https://github.com/kien/ctrlp.vim">ctrlp</a> - Fuzzy file finder</li>
+  <li><a href="https://github.com/tpope/vim-fugitive">fugitive</a> - git tool</li>
+  <li><a href="https://github.com/scrooloose/syntastic">syntastic</a> - syntax checker/linter</li>
+  <li><a href="https://github.com/plasticboy/vim-markdown">vim-markdown</a> - markdown syntax, matching rules and mappings, and extensions</li>
+</ul>
+
+<h3 id="packages">Packages</h3>
+
+<ul>
+  <li><a href="https://github.com/rstacruz/sparkup">Sparkup</a> - For html tag completion</li>
+</ul>
+
+<h3 id="colorize">Colorize</h3>
+
+<p>I’m currently using Monokai, mainly because it was a default I had with Ruby on sublime.
+I set it up using <a href="https://github.com/sickill/vim-monokai">vim-monokai</a>, which I actually want to go back and figure out how to hook it up with vundle and have it linked to the repo.</p>
+
+<p>I want to figure out how to do this better, so I placed a todo with the wiki from the vim wikia.</p>
+
+<ul>
+  <li>Todo: http://vim.wikia.com/wiki/Turn_on_syntax_coloring_in_Mac_OS_X</li>
+  <li>Todo: talk about <a href="https://github.com/flazz/vim-colorschemes">colorschemes package</a></li>
+</ul>
+
+<p>You can change the color scheme within normal mode. Heres how.</p>
+
+<div class="language-vim highlighter-rouge"><pre class="highlight"><code><span class="p">:</span><span class="k">colorscheme</span> <span class="p">&lt;</span>name<span class="p">&gt;</span>
+<span class="c">" short version</span>
+<span class="p">:</span><span class="k">colo</span> <span class="p">&lt;</span>name<span class="p">&gt;</span>
+<span class="c">" autocomplete</span>
+<span class="p">:</span><span class="k">colo</span> <span class="p">&lt;</span>press <span class="k">tab</span><span class="p">&gt;</span>
+</code></pre>
+</div>
+
+<h2 id="macros">Macros</h2>
+
+<h3 id="repeat-last-change">Repeat last change</h3>
+
+<p><code class="highlighter-rouge">.</code> command repeats the last change made in normal mode.
+It’s like oh my gosh amaze balls.</p>
+
+<ul>
+  <li>TODO http://vim.wikia.com/wiki/Repeat_last_change</li>
+  <li>TODO Show an example</li>
+</ul>
+
+<h3 id="recording">Recording</h3>
+
+<p>q{register}
+(do the things)
+q</p>
+
+<h3 id="registers">Registers</h3>
+
+<p><code class="highlighter-rouge">WIP</code></p>
+
+<h2 id="more-research-to-go-through">More Research to go through</h2>
+
+<ul>
+  <li>http://yannesposito.com/Scratch/en/blog/Vim-as-IDE/</li>
+  <li>coloring vim (as stated above)</li>
+  <li>adding more language support</li>
+  <li>adding line numbers</li>
+  <li>go to top of file (shortcut)</li>
+  <li>go to bottom of file (shortcut)</li>
+  <li>how to find</li>
+  <li>Macros: q command, recording so you don’t repeat yourself</li>
+  <li>Surround.vim</li>
+  <li>mapping escape key to caps lock</li>
+  <li>relative numbering</li>
+  <li>commenting</li>
+  <li>copying and pasting that doesn’t get ruined with crazy indents</li>
+  <li>Snippets</li>
+</ul>
+
+<h2 id="helpful-resources">Helpful Resources</h2>
+
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=5r6yzFEXajQ">vim + tmux</a> - Talk at <a href="http://code.omahamakergroup.org/">OMG!Code</a> given by <a href="http://nicknisi.com/">Nick Nisi</a></li>
+</ul>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5r6yzFEXajQ" frameborder="0" allowfullscreen=""></iframe>
+<ul>
+  <li>vimtutor - type <code class="highlighter-rouge">vimtutor</code> in your terminal. Quick lessons summaries can be found on <a href="./vimtutor.md">this post</a>.</li>
+</ul>
+
+      </section>
+    </div>
+
+    <div class="footer-container">
+      <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+
+<footer class="site-footer">
+
+  <footer class="site-footer-left">
+    <div class="site-footer-left-content">
+      <span>Made With ❤️</span>
+    </div>
+  </footer>
+
+  <footer class="site-footer-right">
+
+    <div class="footer-col-wrapper">
+
+      <!-- <div class="footer-heading">
+        
+          <nav class="landing-nav">
+            <ul class="nav-list">
+              
+                
+                  <li>
+                    <a href="/about/">About</a>
+                  </li>
+                
+              
+                
+                  <li>
+                    <a href="/writing/">Writing</a>
+                  </li>
+                
+              
+                
+                  <li>
+                    <a href="/projects/">Codes</a>
+                  </li>
+                
+              
+                
+                  <li>
+                    <a href="/talks/">Talks</a>
+                  </li>
+                
+              
+                
+                  <li>
+                    <a href="/products/">Shop</a>
+                  </li>
+                
+              
+            </ul>
+          </nav>
+        
+      </div> -->
+
+      <!-- <div class="footer-email">
+        <a href="mailto:jeremy@craftbyzen.com">
+          <button>Send Email</button>
+        </a>
+      </div> -->
+
+
+      <div class="footer-description">
+        <span class="text">© 2017 Craft By Zen</span>
+      </div>
+    </div>
+
+  </footer>
+
+
+</footer>
+
+<div class="bottom-page-padding"></div>
+
+    </div>
+
+  </body>
+
+</html>

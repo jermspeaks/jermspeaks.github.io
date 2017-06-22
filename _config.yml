@@ -45,3 +45,4 @@ gems:
   - jekyll-feed
 sass:
   sass_dir: _sass
+future: false

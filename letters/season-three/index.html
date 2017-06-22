@@ -1,0 +1,90 @@
+---
+layout: next-default
+---
+<div class="home" id="home">
+
+  <section class="landing-top">
+    <div class="landing-top-bar"></div>
+  </section>
+
+  <div class="landing-container">
+    {% include left-matter.html pageName="Writing" clickable=true %}
+
+    <section class="landing-right">
+      <section class="landing-top-banner">
+        <header class="landing-header">
+          <div class="landing-header-title">
+            <span>
+              <a class="site-title" href="{{ site.baseurl }}/">Newsletter: Season Three</a>
+            </span>
+          </div>
+        </header>
+      </section>
+
+      <section class="landing-middle-banner">
+        <article class="letters-blurb">
+          <div class="letters-blurb-image">
+            <img src="/assets/images/bear-colored-regular.png" />
+          </div>
+          <div>
+            <p>
+              <span>Welcome to the third series of the Jear-Bear letters.</span>
+              <span>For the new readers, this is my weekly newsletter.</span>
+              <span>I used to write short essays of things that interested me</span>
+              <span>with an intention I could read this a year later and remain interested.</span>
+            </p>
+            <p>
+              <span>During months of February and March, I will be writing letters on the theme of <strong>"repeated failure"</strong>.</span>
+              <span>Expect releases on Monday, unless I get too busy and release a Tuesday letter.</span>
+            </p>
+            <p>
+              <span>If you like what you're reading, share this newsletter.</span>
+              <span>You could go as far as sharing it on Facebook, Twitter, or going retro, snail mail!</span>
+              <span>If you're feeling adventurous, subscribe them by entering their email on</span>
+              <span><a href="http://tinyletter.com/jeremywong/">my Tinyletter page.</a></span>
+            </p>
+          </div>
+        </article>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div class="letters-middle-title season season-one">
+          <img src="http://via.placeholder.com/350x150" alt="placeholder image">
+        </div>
+      </section>
+
+      <section class="landing-middle-banner">
+        <ul class="letter-list">
+          {% for page in site.posts %}
+            {% if page.categories contains 'letters' and page.tags contains 'season_3' %}
+              {% if page.title %}
+              <li>
+                <div class="letter-title">
+                  <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+                </div>
+                <div class="letter-publish-date">
+                  <span>Published</span>
+                  <span>{{ page.date | date: '%B %d, %Y' }}</span>
+                </div>
+                <div class="letter-description">
+                  <span><em>{{ page.description }}</em></span>
+                </div>
+              </li>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </ul>
+      </section>
+
+      <section class="landing-middle-banner">
+        <div>
+          <a href="/letters/season-two">Last Season</a>
+        </div>
+        <!-- <div>
+          <a href="/letters/season-three">Next Season</a>
+        </div> -->
+      </section>
+
+    </section>
+  </div>
+</div>
