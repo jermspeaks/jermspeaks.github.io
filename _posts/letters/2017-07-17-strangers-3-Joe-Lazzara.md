@@ -1,8 +1,8 @@
 ---
 layout: next-letter
 category: letters
-title: "Seven Degrees of Strangers: First Separation" 
-date: 2017-07-10
+title: "Seven Degrees of Strangers: Third Separation"
+date: 2017-07-17
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "TBA"
@@ -15,7 +15,7 @@ description: "TBA"
 
 Questions:
 
-- How do you know Simon?
+- How do you know Evan?
 
 Introduction
 
@@ -24,14 +24,10 @@ If we're on LinkedIn and see someone is a "Third Connection", what does that mea
 What is the relationship between first and second connections? What's the relationship to the third?
 How does the concept of weak ties from Malcolm Gladwell's book on connections apply here?
 
-## Enter Evan Roar
+## Enter Joe Lazzara
 
-## On Design
+## Butchershop
 
 ## On Connections
 
 ## On Who's Next
-
-## Additional Notes
-
-- Favorite Font? [Din Condensed](https://typekit.com/fonts/din-condensed)
