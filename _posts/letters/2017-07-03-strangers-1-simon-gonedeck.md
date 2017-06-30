@@ -61,9 +61,13 @@ For the old readers, thanks for your patience. I know it's months between the
 last newsletter, and I'm really happy to share the next few weeks with you. 
 And to the new readers, I hope you'll love what you're about to read.
 
-## Simon Gonedeck
+## The First Degree of Separation
 
-Enter Simon. He's a fun guy to talk to. We know each other from DevBootcamp
+...
+
+## Enter Simon
+
+Simon Gonedeck a fun guy to talk to. We know each other from DevBootcamp
 back in 2014. He was my in my cohort, and one of the youngest folks to enter
 the bootcamp. Incidentally, not the youngest.
 
