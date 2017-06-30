@@ -15,9 +15,9 @@ description: "Simon Gonedeck"
 ## Introduction
 
 Welcome to the next installment of the Jear-Bear Letters. After a brief three 
-hiatus, we're back with a new series called **Seven Degrees of Strangers**.
+hiatus, we're back with a new series called Seven Degrees of Strangers.
 
-The title is a play on "*Seven Degrees of Separation*" where you are at most 
+The title is a play on "Seven Degrees of Separation" where you are at most 
 seven links away from knowing any random stranger on Earth. So if I met a 
 stranger on the street, I could trace them to at most seven degrees of 
 separation until I found a connection.
@@ -26,11 +26,12 @@ Over the course of the next 7 weeks, I will write about the conversation I
 have with 7 people, each one degree of separation away. You'll get to hear 
 their stories and experiences, and how I relate to them. At the end of each 
 interview, I will ask the participant to choose the next person for me to 
-interview.
+interview. 
 
-There's no set agenda of topics to talk about. You will notice similar themes as we progress interview after interview. 
+The conversation topic starts with understanding where the person is in life. 
+Then it can go anywhere. I will develop themes as I continue to interview. 
 
-### Why are you doing this project?
+### Why are you doing this project?  
 
 Facebook and LinkedIn capitalize on first, second and third degrees of 
 separation. I wondered who are these people, and can I connect with them on a 
@@ -44,6 +45,21 @@ connection by the end of our conversation.
 I'm also hoping to hone my interviewing skills. At the very least, I love 
 stories and I want strangers to tell me theirs. Quite contrary to the popular 
 advise not to talk to strangers.
+
+### Inspiration
+
+The project is a mix of two projects. The first is Megan Gilbert's blog, "52 
+Cups of Tea". In that blog, she interviews a person a week over tea or coffee 
+in preparation for getting prepared for finding a job in the real world 
+outside of college.
+
+The second is Kio Stark's newsletter and book talking to strangers. In the 
+series, Kio recounts stories she has with starngers in NYC. She keeps 
+reminding me I want to talk with random people and share worldviews.
+
+For the old readers, thanks for your patience. I know it's months between the 
+last newsletter, and I'm really happy to share the next few weeks with you. 
+And to the new readers, I hope you'll love what you're about to read.
 
 ## Simon Gonedeck
 
