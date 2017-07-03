@@ -63,22 +63,19 @@ And to the new readers, I hope you'll love what you're about to read.
 
 ## The First Degree of Separation
 
-...
+To begin this series, I reached out to a astrophysicist I met briefly. I really wanted to hear more about a subject I'm woefully ignorant of. Unfortunately, she was not available, so I went instead with one of my readers. Someone who I've signed up from the very beginning. He's younger than me, but has so much life experience in other aspects.
 
 ## Enter Simon
 
-Simon Gonedeck a fun guy to talk to. We know each other from DevBootcamp
-back in 2014. He was my in my cohort, and one of the youngest folks to enter
-the bootcamp. Incidentally, not the youngest.
+Simon Gonedeck is a Minnesotan. He's an absolute joy to talk to because he's got so much energy and drive. We met at a software bootcamp three years ago in 2014. We were in the same cohort and Simon was one of the younger people to attend. Technically not the youngest.
 
-He recently graduated from University of St. Thomas, living in St. Paul /
-Minneapolis area, working at his consulting firm, MG Web Partners along with
-his twin brother Sevy and friend Johnny, who also went to DevBootcamp.
+We paired programmed a few times and hung out outside of the program. I got Simon to join our final team project where we created a social network for grieving. Simon was a total team player and whooped my ass into gear when we took a break at the gym.
 
-Simon's a lacrosse player, total athlete. Got my ass in gear from HIT when we
-were at the bootcamp. He's recovering from an injury. In our conversation, we 
-talk business. About his firm, MG Web Partners, about dealing with partners, 
-and dealing with the business side.
+After the bootcamp, Simon went back to school at the University of St. Thomas. He graduated earlier this year and is living in the St. Paul / Minneapolis area. Along with his twin brother, Sevy, and his friend, Johnny, they work at their own consulting firm, MG Web Partners. Johnny also went to our same bootcamp.
+
+Simon's a lacrosse player, and what I consider a total athlete. Unfortunately, he was recorvering from an injury when we had the interview. I realize that he's a person to go to for my atheletic questions, so in the future, I'll be reaching out to him more.
+
+During our interview, we talked abotu business and connections, focusing on his previous consulting firm he worked for and his current ventures, MG Web Partners. We also talk about dealing with customers.
 
 Like myself, Simon's got a lot going on in his life. I can learn a lot more by 
 saying "no" more often and taking on fewer things.
