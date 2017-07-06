@@ -31,64 +31,60 @@ interview.
 The conversation topic starts with understanding where the person is in life. 
 Then it can go anywhere. I will develop themes as I continue to interview. 
 
-### Why are you doing this project?  
+### Why are you doing this project?
 
-Facebook and LinkedIn capitalize on first, second and third degrees of 
-separation. I wondered who are these people, and can I connect with them on a 
-personal basis as much as a first degree connection.
+It started with a thought about connections. On LinkedIn, you can see 
+potential new friends who are second or third degrees of separation. I 
+wondered who are these people. How does everyone know each other? If I continue down the path of separations, could I meet someone famous?
 
-I'm hoping to have a deeper understanding about connections. I define a 
-connection as a friend I can hang out with. Throughout the series, we'll find 
-out what connections mean to other people. And hopefully, I'll build a new 
-connection by the end of our conversation.
+Then in May, while I was conceiving the idea for this series, I went to a talk 
+with Bill Burnnett and Dave Evans. They are professors at Stanford who wrote a 
+book called "Designing Your Life". In their talk, they asked everyone to turn 
+to their side, speak with their neighbor, and ask them something you need help 
+with. I introduced myself to my neighbor and asked about a question about 
+appropriative technologies. She had no idea, and once I described what that 
+was, she still didn't know how to help, but she could direct me to someone she 
+knew.
 
-I'm also hoping to hone my interviewing skills. At the very least, I love 
-stories and I want strangers to tell me theirs. Quite contrary to the popular 
-advise not to talk to strangers.
+I pondered about the interaction for a week. It's not an everyday feeling for 
+me to ask for help from strangers. Even though the woman didn't know someone 
+directly, she knew of someone who could get me closer to my answer. This 
+project is my excuse to practice that power of connectedness.
 
-### Inspiration
-
-The project is a mix of two projects. The first is Megan Gilbert's blog, "52 
-Cups of Tea". In that blog, she interviews a person a week over tea or coffee 
-in preparation for getting prepared for finding a job in the real world 
-outside of college.
-
-The second is Kio Stark's newsletter and book talking to strangers. In the 
-series, Kio recounts stories she has with starngers in NYC. She keeps 
-reminding me I want to talk with random people and share worldviews.
-
-For the old readers, thanks for your patience. I know it's months between the 
-last newsletter, and I'm really happy to share the next few weeks with you. 
-And to the new readers, I hope you'll love what you're about to read.
+Throughout the series, we'll find out what connectedness means to other 
+people. And hopefully, I'll build a new connection by the end of our 
+conversation.
 
 ## The First Degree of Separation
 
-To begin this series, I reached out to a astrophysicist I met briefly. I really wanted to hear more about a subject I'm woefully ignorant of. Unfortunately, she was not available, so I went instead with one of my readers. Someone who I've signed up from the very beginning. He's younger than me, but has so much life experience in other aspects.
+To begin this series, I reached out to my friend, Simon Gonedeck. He's an entrepreneur and web developer for his own consulting company, MG Web Partners. Besides catching up with an friend, I wanted to probe him about starting a company. Simon did not disappoint. In our conversation, he went over that and so much more.
 
 ## Enter Simon
 
-Simon Gonedeck is a Minnesotan. He's an absolute joy to talk to because he's got so much energy and drive. We met at a software bootcamp three years ago in 2014. We were in the same cohort and Simon was one of the younger people to attend. Technically not the youngest.
+Simon's a recent grad from the University of St. Thomas with a B.S. in accounting. I met Simon three years ago at a software bootcamp. I got Simon to join my team for the final project where we built a social network for upcoming Memorials. 
 
 We paired programmed a few times and hung out outside of the program. I got Simon to join our final team project where we created a social network for grieving. Simon was a total team player and whooped my ass into gear when we took a break at the gym.
 
-After the bootcamp, Simon went back to school at the University of St. Thomas. He graduated earlier this year and is living in the St. Paul / Minneapolis area. Along with his twin brother, Sevy, and his friend, Johnny, they work at their own consulting firm, MG Web Partners. Johnny also went to our same bootcamp.
-
 Simon's a lacrosse player, and what I consider a total athlete. Unfortunately, he was recorvering from an injury when we had the interview. I realize that he's a person to go to for my atheletic questions, so in the future, I'll be reaching out to him more.
-
-During our interview, we talked abotu business and connections, focusing on his previous consulting firm he worked for and his current ventures, MG Web Partners. We also talk about dealing with customers.
-
-Like myself, Simon's got a lot going on in his life. I can learn a lot more by 
-saying "no" more often and taking on fewer things.
 
 ### MG Web Partners
 
-Simon's a co-founder of the web consulting agency, MG Web Partners.
-Along with his friend Johnny and his twin Sevy, they run a tight operation
-working with local businesses around the area.
+After the bootcamp, Simon went back to school, living in St. Paul, Minnesota. He was working at a web consulting company where he would get pennies from the contracts he was working on. An epiphany came when we was at a yoga class, and they were in need of a website. The class was trying to find a lower quote for the contract, and his friend Johnny and he drafted a counter offer. 
 
-[MG Web Partners Website](http://www.mgwebpartners.com/)
+Out of that contract, [MG Web Partners](http://www.mgwebpartners.com/) was 
+born. Simon brought on board his twin brother, Sevy, and they were in business.
 
-#### How it got started
+*Side note*. Sevy is Simon's identical twin. I met Sevy once, and I swore I was seeing double.
+
+#### Starting Pains
+
+The team tried many ways of reaching out to local businesses around the area.
+
+- Referrals
+- Word of Mouth
+- Social Media
+- Email Marketing
+
 
 Simon started working at an agency creating websites for a substantially low 
 pay for work they could be getting more for if his friends and he went out and 
@@ -203,6 +199,31 @@ I asked Simon what's his the thing he wants people to take away with.
 Over-communicate with clients. It might not always be clear what they want.
 Don't do it over email. Do it over the phone or in-person, if you can.
 
+Like myself, Simon's got a lot going on in his life. I can learn a lot more by 
+saying "no" more often and taking on fewer things.
+
+
 ### Follow-up Questions
 
 Simon got to ask me a few questions at the end.
+
+
+## Side Note
+
+I recorded our conversation, but my recording app cut out a half an hour in, so I can only review our first half of our conversation. Some of this piece is relying from memory.
+
+
+## Addendum
+
+The project is a mix of two projects. The first is Megan Gilbert's blog, "52 
+Cups of Tea". In that blog, she interviews a person a week over tea or coffee 
+in preparation for getting prepared for finding a job in the real world 
+outside of college.
+
+The second is Kio Stark's newsletter and book talking to strangers. In the 
+series, Kio recounts stories she has with starngers in NYC. She keeps 
+reminding me I want to talk with random people and share worldviews.
+
+For the old readers, thanks for your patience. I know it's months between the 
+last newsletter, and I'm really happy to share the next few weeks with you. 
+And to the new readers, I hope you'll love what you're about to read.
