@@ -166,7 +166,7 @@ through his novels before he releases them.
 <a id="shout-out">(1)</a>Shout outs to [Helin](https://twitter.com/helin_s)
 and [Isaac](https://twitter.com/j12coder).
 
-##### Growth Hacking
+#### Growth Hacking
 
 Also, Simon asked about Growth Hacking, even though he didn't use those words.
 "How do I grow readership?" I ask myself the same questions. For an individual,
@@ -187,34 +187,7 @@ Newsletters: don't take un-subscriptions personally.
 
 I asked Simon what's his the thing he wants people to take away with.
 
-Over-communicate with clients. It might not always be clear what they want.
-Don't do it over email. Do it over the phone or in-person, if you can.
+> Over-communicate with clients. It might not always be clear what they want.
+> Don't do it over email. Do it over the phone or in-person, if you can.
 
-Like myself, Simon's got a lot going on in his life. I can learn a lot more by 
-saying "no" more often and taking on fewer things.
-
-
-### Follow-up Questions
-
-Simon got to ask me a few questions at the end.
-
-
-## Side Note
-
-I recorded our conversation, but my recording app cut out a half an hour in, so I can only review our first half of our conversation. Some of this piece is relying from memory.
-
-
-## Addendum
-
-The project is a mix of two projects. The first is Megan Gilbert's blog, "52 
-Cups of Tea". In that blog, she interviews a person a week over tea or coffee 
-in preparation for getting prepared for finding a job in the real world 
-outside of college.
-
-The second is Kio Stark's newsletter and book talking to strangers. In the 
-series, Kio recounts stories she has with starngers in NYC. She keeps 
-reminding me I want to talk with random people and share worldviews.
-
-For the old readers, thanks for your patience. I know it's months between the 
-last newsletter, and I'm really happy to share the next few weeks with you. 
-And to the new readers, I hope you'll love what you're about to read.
+One thing I took away from the conversation is to say "no" more often and take on fewer things.
