@@ -17,19 +17,16 @@ description: "Simon Gonedeck"
 Welcome to the next installment of the Jear-Bear Letters. After a brief three 
 hiatus, we're back with a new series called Seven Degrees of Strangers.
 
-The title is a play on "Seven Degrees of Separation" where you are at most 
-seven links away from knowing any random stranger on Earth. So if I met a 
-stranger on the street, I could trace them to at most seven degrees of 
-separation until I found a connection.
-
 Over the course of the next 7 weeks, I will write about the conversation I 
 have with 7 people, each one degree of separation away. You'll get to hear 
 their stories and experiences, and how I relate to them. At the end of each 
 interview, I will ask the participant to choose the next person for me to 
 interview. 
 
-The conversation topic starts with understanding where the person is in life. 
-Then it can go anywhere. I will develop themes as I continue to interview. 
+The title is a play on "Seven Degrees of Separation" where you are at most 
+seven links away from knowing any random stranger on Earth. So if I met a 
+stranger on the street, I could trace them to at most seven degrees of 
+separation until I found a connection.
 
 ### Why are you doing this project?
 
@@ -50,7 +47,7 @@ knew.
 I pondered about the interaction for a week. It's not an everyday feeling for 
 me to ask for help from strangers. Even though the woman didn't know someone 
 directly, she knew of someone who could get me closer to my answer. This 
-project is my excuse to practice that power of connectedness.
+project is my exercise to practice that power of connectedness.
 
 Throughout the series, we'll find out what connectedness means to other 
 people. And hopefully, I'll build a new connection by the end of our 
@@ -59,10 +56,9 @@ conversation.
 ## The First Degree of Separation
 
 To begin this series, I reached out to my friend, Simon Gonedeck. He's an 
-entrepreneur and web developer for his own consulting company, MG Web 
-Partners. Besides catching up with an friend, I wanted to probe him about 
-starting a company. Simon did not disappoint. In our conversation, he went 
-over that and so much more.
+entrepreneur and web developer for his own consulting company, 
+[MG Web Partners](http://www.mgwebpartners.com/). Besides catching up with an 
+friend, I wanted to probe him about starting a company. Simon did not disappoint. In our conversation, he went over that and so much more.
 
 ## Enter Simon
 
@@ -77,22 +73,30 @@ grieving. Simon was a total team player and whooped my ass into gear when we
 took a break at the gym.
 
 Simon's a lacrosse player, and what I consider a total athlete. Unfortunately, 
-he was recorvering from an injury when we had the interview. I realize that 
-he's a person to go to for my atheletic questions, so in the future, I'll be 
-reaching out to him more.
+at the time we were talking, he was recorvering from an injury when we had the 
+interview. I realize that he's a person to go to for my atheletic questions, 
+so in the future, I'll be reaching out to him more.
 
 ### MG Web Partners
 
-After the bootcamp, Simon went back to school, living in St. Paul, Minnesota. 
-He was working at a web consulting company where he would get pennies from the 
-contracts he was working on. An epiphany came when we was at a yoga class, and 
-they were in need of a website. The class was trying to find a lower quote for 
-the contract, and his friend Johnny and he drafted a counter offer. Out of that contract, [MG Web Partners](http://www.mgwebpartners.com/) was 
-born.
+After the software bootcamp, Simon went back to school, living in St. Paul, 
+Minnesota. He was working at a web consulting company where he would be 
+compensated far less than the contract stipulated. An epiphany came when he 
+was at a yoga class. The studio were in need of a website, but all of the 
+contractors they found were out of their budget. Simon and his friend Johnny 
+and he drafted a reasonable offer, and they got their first contract. 
+[MG Web Partners](http://www.mgwebpartners.com/) was born.
 
-#### Starting Pains
+#### Lessons on Starting a Business
 
-Simon brought on board his twin brother, Sevy, to help out with growing the business. After the first customer, the team needed to find more customers. They drove around the area, going business to business to attract more customers. They sent out an email campaign last June, seen below.
+Before their first contract, Simon and Johnny had little to no knowledge on 
+how to draft one. They looked online to figure out what a contract should say. 
+And contracts weren't the only thing they had to figure out for the business. 
+
+Simon brought on his twin brother, Sevy, to help out with growing the 
+business. One of their challenges the team faced was to find more customers. 
+They drove around the area, going business to business to attract more 
+customers. They sent out an email campaign last June, seen below.
 
 > My partners Johnny Mulvahill, Sevy Gondeck and I have started a web design 
 > and development company called MG Web Partners.
@@ -108,14 +112,17 @@ Simon brought on board his twin brother, Sevy, to help out with growing the busi
 > please forward them my contact information and I promise we’ll take good
 > care of them.
 
-Simon was hesitant to use email marketing and social media. He didn't want people to see his work as spam and bombard people with unnecessary mail. Sevy convinced Simon to reach out and not worry about that. What you write will have no interest to some people, and a lot of interest to a few people. You never know who those people are until you cast a wide net.
-
-#### Lessons a Year Later
+Simon was hesitant to use email marketing and social media because he viewed 
+it as mass spam. He didn't want disinterested people to see his work, and 
+worse, find he was bombarding friends and family with unnecessary mail. Sevy 
+convinced Simon to reach out and not worry about that. What you write will 
+have no interest to some people, and a lot of interest to a few people. You 
+never know who those people are until you cast a wide net.
 
 Listening to Simon talk about his business reminded me how much we learn on the job. When we talked about the details of drafting proposals, Simon talked about the mistakes he previously made. For example, it's better to draw up a proposal that's less stringent and allows for flexibility with the client. And it's better to make the process transparent, so the company uses 
 [Proposify](https://www.proposify.biz/), a website that allows clients to review proposals while also giving the business insight into how their clients are reviewing their proposals.
 
-Reflecting on it a year later, Simon says the best strategy that attracted the most customers was "Word of Mouth". In the business of contracting, referrals matter more. Having previous clients tell potential future clients of their work has been more substantial than other techniques. And with every new client, the business learns they learned something new.
+Upon reflection, Simon says the best strategy that attracted the most customers was "Word of Mouth". In the business of contracting, referrals matter more. Having previous clients tell potential future clients of their work has been more substantial than other techniques. And with every new client, the business learns they learned something new.
 
 And while we're on clients, how do you communicate with them? Simon has found the best way is to make a phone call or face-to-face. Texting and email interactions are easy to evade and do not convey the same tone as his voice.
 
@@ -131,14 +138,17 @@ After our conversation about MG Web Partners, Simon turned the tables and asked 
 
 #### On Writing
 
-Simon asked some advice about creating a writing habit and how to get through writer's block. One of his goals is to boost [his company's blog](http://www.mgwebpartners.com/blog/) by writing more frequently. I had a few recommendations for him.
+Simon asked some advice about creating a writing habit and how to get through 
+writer's block. One of his goals is to boost 
+[his company's blog](http://www.mgwebpartners.com/blog/) by writing more 
+frequently. I had a few recommendations for him.
 
-1. Read "Bird by Bird" by Anne Lammont, or at least the chapter on "Shitty First Drafts".
+1. Read "Bird by Bird" by Anne Lammont, or at least the chapter on "Shitty 
+First Drafts".
 
-That book has been freeing to me. It taught me I can give myself permission to
-write freely without having to worry about making the best piece of writing
-from the start with the concept of "shitty first drafts". There's also much on
-being successful as a writer, which is to say don't expect success. As counter-intuitive as it may be, that piece of advice helped me release what I consider terrible writing to my letter friends. A few of those letters have been very well received, like my "Caltrain Suicides" letter and my "Lost Keys" letter.
+The premise of this chapter is you're not going to write the best you can on the first draft. After hearing that, I felt more free to write. It taught me I can give myself permission towrite freely without having to worry about making the best piece of writing from the start. 
+
+And also, there is much more work in editing than I thought. After a year of writing, I spent more of my time crafting the 
 
 2. Take inspiration from [Seth Godin's Blog](http://sethgodin.typepad.com/) because he updates it every day.
 
@@ -146,9 +156,11 @@ If we're talking about prolific, it doesn't get as good as Seth Godin's blog,
 which he has been serving for over the past decade. He's the prime example of
 less is more, which has helped me in editing down my own writing much less.
 
-3. Find Peers to review your writing
+##### Other pointers
 
-Earlier on in my letter writing, I decided to open up each letter for critique.
+- **Don't expect success.** As counter-intuitive as it may be, that piece of advice helped me release what I consider terrible writing to my letter friends. A few of those letters have been very well received, like my "Caltrain Suicides" letter and my "Lost Keys" letter.
+- **Editing is just as important as writing.**
+- **Find peers to review your writing.** Earlier on in my letter writing, I decided to open up each letter for critique.
 I reached out on Twitter to see who could be my critique, and a few people
 helped me <a href="#shout-out">(1)</a>. I'd send a draft out, and they would give me some helpful criticism.
 
@@ -166,28 +178,9 @@ through his novels before he releases them.
 <a id="shout-out">(1)</a>Shout outs to [Helin](https://twitter.com/helin_s)
 and [Isaac](https://twitter.com/j12coder).
 
-#### Growth Hacking
-
-Also, Simon asked about Growth Hacking, even though he didn't use those words.
-"How do I grow readership?" I ask myself the same questions. For an individual,
-it takes years to earn credibility. For a company, it takes referrals and
-tailoring the message to potential new clients. And for that, you can be very
-targeted in your approach.
-
-Taking a page from Seth Godin's book, Tribes...
-
-On Growing Traffic
-[Tribes: We Need You To Lead Us](http://www.goodreads.com/book/show/3828382-tribes)
-
-Release on schedule.
-
-Newsletters: don't take un-subscriptions personally.
-
 ### Take-aways
 
-I asked Simon what's his the thing he wants people to take away with.
+I asked Simon what's one thing he wants people to take away with.
 
 > Over-communicate with clients. It might not always be clear what they want.
 > Don't do it over email. Do it over the phone or in-person, if you can.
-
-One thing I took away from the conversation is to say "no" more often and take on fewer things.
