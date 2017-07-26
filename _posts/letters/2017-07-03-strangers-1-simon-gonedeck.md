@@ -14,11 +14,11 @@ description: "Simon Gonedeck"
 
 ## Introduction
 
-Welcome to the next installment of the Jear-Bear Letters. After a brief three 
-hiatus, we're back with a new series called Seven Degrees of Strangers.
+Welcome to the next installment of the Jear-Bear Letters. After a brief four 
+month hiatus, we're back with a new series called Seven Degrees of Strangers.
 
 Over the course of the next 7 weeks, I will write about the conversation I 
-have with 7 people, each one degree of separation away. You'll get to hear 
+had with 7 people, each one degree of separation away. You'll get to hear 
 their stories and experiences, and how I relate to them. At the end of each 
 interview, I will ask the participant to choose the next person for me to 
 interview. 
@@ -32,17 +32,16 @@ separation until I found a connection.
 
 It started with a thought about connections. On LinkedIn, you can see 
 potential new friends who are second or third degrees of separation. I 
-wondered who are these people. How does everyone know each other? If I 
+wondered, who are these people? How does everyone know each other? If I 
 continue down the path of separations, could I meet someone famous?
 
 Then in May, while I was conceiving the idea for this series, I went to a talk 
 with Bill Burnnett and Dave Evans. They are professors at Stanford who wrote a 
 book called "Designing Your Life". In their talk, they asked everyone to turn 
 to their side, speak with their neighbor, and ask them something you need help 
-with. I introduced myself to my neighbor and asked about a question about 
-appropriative technologies. She had no idea, and once I described what that 
-was, she still didn't know how to help, but she could direct me to someone she 
-knew.
+with. I turned to my neighbor, we introduced ourselves, and I asked about a 
+question about appropriative technologies. She didn't have any tips, but she 
+knew someone who could direct me to who might.
 
 I pondered about the interaction for a week. It's not an everyday feeling for 
 me to ask for help from strangers. Even though the woman didn't know someone 
@@ -50,8 +49,7 @@ directly, she knew of someone who could get me closer to my answer. This
 project is my exercise to practice that power of connectedness.
 
 Throughout the series, we'll find out what connectedness means to other 
-people. And hopefully, I'll build a new connection by the end of our 
-conversation.
+people. And build a new connection by the end of our conversation.
 
 ## The First Degree of Separation
 

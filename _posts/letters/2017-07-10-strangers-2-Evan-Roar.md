@@ -13,33 +13,28 @@ description: "Evan Roar"
 
 ## Introduction
 
-<!-- How does the concept of weak ties from Malcolm Gladwell's book on
-connections apply here? -->
+Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. 
+This week, I'm talking to Evan Roar, Simon's friend. This is the second 
+installment of my series about connectedness. If you missed the newsletter 
+last week, I encourage you to read it. However, you do not need to read that 
+first to understand this week's newsletter.
 
-## Enter Evan Roar
+## Enter Evan
 
-### How does Evan know Simon?
+The first thing I wanted to know about Evan was how did he know Simon? As Evan recalls, he's known Simon and Sevy, Simon's twin brother, for as long as he can remember. Growing up, Evan's and Simon's families were part of the same culinary club. Evan's older brother is roommates with Simon's older brother. When Evan's family moved to North Carolina when Evan was in third grade, the families kept in touch. If Evan's travelling to Minneapolis, which happens once or twice a year, he's staying with Simon.
 
-Evan is close friends with Simon as long as he can remember. Their families were
-part of the same club. Their siblings went to school with each other. And even
-though Evan's family moved to North Carolina, both families keep in touch.
+For the past year, Evan's been working for Design Dimensions, a design firm specializing in exhibit design for museums. However that's not the only type of work the firm does. But before we dive into his design work, you have to hear how Evan landed this job.
 
-Evan says he goes back to Minnesota once or twice a year.
+## Landing the Job
 
-## Design Dimensions
+As a sophomore or junior at NC state, Evan worked for the student association
+running events for the school. The work was very menial and he could finish it far less than the allotted time. Evan saw some people making posters for upcoming events in the gym. That was his introduction to graphic design.
 
-Design Dimensions is a design firm specializing in exhibition design. Evan works
-there as a designer alongside his boss. He has been there for a year and has
-designed exhibits all over, including [EXAMPLES HERE].
+Evan was studying business development, and he happened to stumble on poster work. With his boss' permission, he helped create some posters. He discovered design as a craft, not just a means to an end. He had an itch to learn more, so he took courses on lynda.com to learn the Adobe Products Suite. Evan continued creating posters for his school's events. By the end of Evan's graduating year, Evan had a nice portfolio.
 
-### How did Evan land a job at Design Dimensions?
+Come post-graduation, when it was time to find a job, Evan submitted his portfolio to Design Dimensions. Evan had just started at an Accounting firm when the design company called him in. He thought it would be worth it as his current role was an internship that may not hire him full-time, so he went for the interview. And it was very convenient the accounting job was four blocks away from the design company.
 
-As a sophomore or junior at NC state, Evan worked as a student ambassador
-running events for the school. Finishing his tasks less than the allotted time, which he said was many hours, he helped doing other tasks. There was a need to create posters, and when he worked on the graphical work, he discovered a propensity to do more.
-
-Slowly, he did more poster work, eventually building a portfolio. He used lynda.com to learn the Adobe Suite. And graphic design was not his major. It was business development. He had stumbled into this field.
-
-Come post-graduation, when it was time to find a job, Evan submitted his portfolio to Design Dimensions. Evan had just started @ an Accounting firm when the design company called him in. He thought it would be worth it as his current role was an internship that may not hire him full-time, so he went for the interview. The design company took a chance with Evan. His boss interviewed him not only on the merits of his portfolio, but also his taste in music and relationship to his college fraternity. His boss went to the same school and was in the sorority with close ties to Evan's fraternity. And being in a small design firm, his boss wanted to make sure she could work well with her future co-worker, one of the requirements was to be able to blast music in close quarters. So even though Evan was not a design student, he got the job.
+Design Dimensions took a chance with Evan. His boss interviewed him not only on the merits of his portfolio, but also his taste in music and relationship to his college fraternity. His boss went to the same school and was in the sorority with close ties to Evan's fraternity. And being in a small design firm, his boss wanted to make sure she could work well with her future co-worker, one of the requirements was to be able to blast music in close quarters. So even though Evan was not a design student, he got the job.
 
 *Footnote* there's a similar story I've read in Jessica Hische's book, "In Progress", in which she describes her desk and workspace she shares with. Designers are selective in who they choose to keep.
 
@@ -56,6 +51,13 @@ Normally, the client comes with the specs and the designer can work with it.
 Occasionally, the client also wants to be the designer and put their two cents into it. It reminds me the first iteration of your work will not be your last.
 Rarely is that the case with freelancing either.
 
+## Takeaways
+
+Evan's one thing he wants everyone to takeaway with is...
+
 ## Additional Notes
 
 - Evan's favorite font: [Din Condensed](https://typekit.com/fonts/din-condensed)
+
+<!-- How does the concept of weak ties from Malcolm Gladwell's book on
+connections apply here? -->
