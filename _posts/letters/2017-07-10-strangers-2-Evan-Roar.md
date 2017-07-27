@@ -23,20 +23,21 @@ first to understand this week's newsletter.
 
 The first thing I wanted to know about Evan was how did he know Simon? As Evan recalls, he's known Simon and Sevy, Simon's twin brother, for as long as he can remember. Growing up, Evan's and Simon's families were part of the same culinary club. Evan's older brother is roommates with Simon's older brother. When Evan's family moved to North Carolina when Evan was in third grade, the families kept in touch. If Evan's travelling to Minneapolis, which happens once or twice a year, he's staying with Simon.
 
-For the past year, Evan's been working for Design Dimensions, a design firm specializing in exhibit design for museums. However that's not the only type of work the firm does. But before we dive into his design work, you have to hear how Evan landed this job.
+Evan resides in Raleigh, North Carolina. He works for Design Dimensions, a design firm specializing in exhibit design for museums. He started this job a year ago and has an unconventional story on how he landed the job.
 
 ## Landing the Job
 
-As a sophomore or junior at NC state, Evan worked for the student association
-running events for the school. The work was very menial and he could finish it far less than the allotted time. Evan saw some people making posters for upcoming events in the gym. That was his introduction to graphic design.
+Evan was a brand ambassador at NC state for the university's recreation center. Evan would setup tables and handout merchandise. Part of being a brand ambassador was adhering to 13 hours of office hours. But for Evan, he didn't need that much time to finish his work. With all of this free time, he noticed peers making posters in the gym promoting upcoming events. That was his introduction to graphic design in the works.
 
-Evan was studying business development, and he happened to stumble on poster work. With his boss' permission, he helped create some posters. He discovered design as a craft, not just a means to an end. He had an itch to learn more, so he took courses on lynda.com to learn the Adobe Products Suite. Evan continued creating posters for his school's events. By the end of Evan's graduating year, Evan had a nice portfolio.
+Evan was studying business marketing, and he happened to stumble into graphic design. With his boss' permission, he helped create some posters. Because Evan wasn't a design student, he would take some of his free time to take courses on Lynda.com to learn the professional software suite. Evan would continue to create posters until he graduated. At that point, he had a nice portfolio.
 
-Come post-graduation, when it was time to find a job, Evan submitted his portfolio to Design Dimensions. Evan had just started at an Accounting firm when the design company called him in. He thought it would be worth it as his current role was an internship that may not hire him full-time, so he went for the interview. And it was very convenient the accounting job was four blocks away from the design company.
+Come post-graduation, when it was time to find a job, Evan applied to both design studios and businesses seeking his skills in Business Marketing. One of those design firms he submitted his portfolio to was Design Dimensions. 
 
-Design Dimensions took a chance with Evan. His boss interviewed him not only on the merits of his portfolio, but also his taste in music and relationship to his college fraternity. His boss went to the same school and was in the sorority with close ties to Evan's fraternity. And being in a small design firm, his boss wanted to make sure she could work well with her future co-worker, one of the requirements was to be able to blast music in close quarters. So even though Evan was not a design student, he got the job.
+Evan got an internship with an tech firm and had started working for a week or two before Design Dimensions called him. He thought it would be worth a shot at the interview since his current role may not hire him full-time. And it was very convenient since his internship was five buildings away from the Design Dimensions.
 
-*Footnote* there's a similar story I've read in Jessica Hische's book, "In Progress", in which she describes her desk and workspace she shares with. Designers are selective in who they choose to keep.
+Evan was the only candidate without a design degree. He meshed well with the firm's lead designer, Betsy, his future boss. She liked Evan's portfolio, and his taste in music. And it helped they both went to the same school where Evan's fraternity had close ties to Betsy's sorority. And Betsy likes to blast music in the design studio, and because whoever she had to work with would be in close quarters to her, the candidate had to mesh well with her. And Evan sure did, so he was hired.
+
+*Footnote* There's a similar story I've read in Jessica Hische's book, "In Progress", in which she describes her desk and workspace she shares with. Designers are selective in who they choose to keep.
 
 ### What have you learned working there?
 
