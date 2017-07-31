@@ -39,9 +39,20 @@ Evan was the only candidate without a design degree. He meshed well with the fir
 
 *Footnote* There's a similar story I've read in Jessica Hische's book, "In Progress", in which she describes her desk and workspace she shares with. Designers are selective in who they choose to keep.
 
-### What have you learned working there?
+### Design Dimensions
 
-The short answer is a lot. One year is a lot to go through many clients. For example, last Monday, Evan could be juggling through 10 clients. His strong point is graphic design.
+There was one thing I wanted to takeaway from Evan: What does it mean to be a professional designer. From Evan's perspective, it sounds like a lot. He could be juggling many clients at once. "People don't like to read long paragraphs", he tells me.
+
+For example, Evan could be working for a Botanical Garden. The job could be to layout a design for explaining photosynthesis. The people coming to these exhibits don't want to read a barage of words when they can see pictures. I thought back to my recent trip to the New York American Heritage Museum, and how illustrative their exhibits of the forrest canapy were. 
+
+Being a designer also means when to restrain. For example, if Evan's doing work for a Town Hall, the Opera House in Sumter, NC, or a small company, he will try to push their brand. But if he's working for an established corporation like IBM, or the RDU Airport, he'll stick within the boundaries of their existing brand.
+
+Restraint also comes to play with dealing with clients. Evan may have clients where everyone involved with giving feedback thinks they're also a graphic designer. Even if he finds himself arguing with a client, and the client is wrong, he has to find a way to come to a comprimise. And that's what pushes you as a designer, he tells me.
+
+When Evan woas working for a "Black History of Wilson" exhibit in Wilson, North Carolina, the clients wanted to pack as much information as possible. However, as Evan tried to tell them, it doesn't tell a story. Evan didn't tell me what the conclusion was, but I can bet you he convinced them to change their copy to be more cohesive as a narrative.
+
+As a designer, sometimes your work can be rewarding. Evan worked on a children's museum in Wilson. The museum was outdated
+
 
 Museums he works with generally comes up with the content and its the designer's job to make it presentable.
 
