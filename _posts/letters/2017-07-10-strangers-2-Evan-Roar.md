@@ -5,7 +5,7 @@ title: "Seven Degrees of Strangers: Second Separation"
 date: 2017-07-10
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
-description: "Evan Roar"
+description: "Evan Roer"
 ---
 <!--
 ![Insert new picture here](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/94ff2d22-e9e3-40a7-958b-ece4b3921ae6.png)
@@ -13,7 +13,7 @@ description: "Evan Roar"
 
 ## Introduction
 
-Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roar, Simon's friend. This is the second installment of my series about connectedness. If you missed the newsletter last week, this series is a set of interviews where I interview a stranger one degree of separation at a time.
+Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roer, Simon's friend. This is the second installment of my series about connectedness. If you missed the newsletter last week, this series is a set of interviews where I interview a stranger one degree of separation at a time.
 
 ## Enter Evan
 
