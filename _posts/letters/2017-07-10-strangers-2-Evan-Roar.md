@@ -13,59 +13,54 @@ description: "Evan Roar"
 
 ## Introduction
 
-Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roar, Simon's friend. This is the second installment of my series about connectedness. If you missed the newsletter last week, I encourage you to read it. However, you do not need to read that first to understand this week's newsletter.
+Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roar, Simon's friend. This is the second installment of my series about connectedness. If you missed the newsletter last week, this series is a set of interviews where I interview a stranger one degree of separation at a time.
 
 ## Enter Evan
 
-The first thing I wanted to know about Evan was how did he know Simon? As Evan recalls, he's known Simon and Sevy, Simon's twin brother, for as long as he can remember. Growing up, Evan's and Simon's families were part of the same culinary club. Evan's older brother is roommates with Simon's older brother. When Evan's family moved to North Carolina when Evan was in third grade, the families kept in touch. If Evan's travelling to Minneapolis, which happens once or twice a year, he's staying with Simon.
+The first thing I wanted to know about Evan was how did he know Simon? As Evan recalls, he's known Simon and Sevy, Simon's twin brother, for as long as he can remember. Growing up, Evan's and Simon's families were part of the same gourmet club. Evan's older brother is roommates with Simon's older brother. Evan's family moved to North Carolina when Evan was in third grade, yet the families kept in touch. If Evan's traveling to Minneapolis, which happens once or twice a year, he's staying with Simon.
 
-Evan resides in Raleigh, North Carolina. He works for Design Dimensions, a design firm specializing in exhibit design for museums. He started this job a year ago and has an unconventional story on how he landed the job.
+Evan resides in Raleigh, North Carolina. He works for Design Dimensions, a design firm specializing in exhibit design for museums. He started this job a year ago and has an unconventional story on how he got there.
 
 ## Landing the Job
 
-Evan was a brand ambassador at NC state for the university's recreation center. Evan would setup tables and handout merchandise. Part of being a brand ambassador was adhering to 13 hours of office hours. But for Evan, he didn't need that much time to finish his work. With all of this free time, he noticed peers making posters in the gym promoting upcoming events. That was his introduction to graphic design in the works.
+Evan was a brand ambassador at North Carolina State University (NC State) for the university's recreation center. That means Evan would prepare the recreation center with school events. The school designates brand ambassadors 13 office hours to do prep work. But as Evan learned, it doesn't take that long to setup tables and handout merchandise. With all of this idle time, he noticed peers making posters in the gym promoting upcoming events.
 
-Evan was studying business marketing, and he happened to stumble into graphic design. With his boss' permission, he helped create some posters. Because Evan wasn't a design student, he would take some of his free time to take courses on Lynda.com to learn the professional software suite. Evan would continue to create posters until he graduated. At that point, he had a nice portfolio.
+Evan wasn't studying graphic design. He was studying business marketing. He wanted to follow a creative itch and make posters. As Evan puts it, he got to see graphic design in the works, and with his boss' permission, he would create posters, take the time to use the school's Lynda.com tutorials to learn graphic design software, and develop a portfolio. By the end of Evan's college career, he had an extensive portfolio.
 
-Come post-graduation, when it was time to find a job, Evan applied to both design studios and businesses seeking his skills in Business Marketing. One of those design firms he submitted his portfolio to was Design Dimensions. 
+After graduating, when it was time to find a job, Evan applied to both design studios and businesses seeking his skills in Business Marketing. One of those design firms he submitted his portfolio to was Design Dimensions.
 
 Evan got an internship with an tech firm and had started working for a week or two before Design Dimensions called him. He thought it would be worth a shot at the interview since his current role may not hire him full-time. And it was very convenient since his internship was five buildings away from the Design Dimensions.
 
-Evan was the only candidate without a design degree. He meshed well with the firm's lead designer, Betsy, his future boss. She liked Evan's portfolio, and his taste in music. And it helped they both went to the same school where Evan's fraternity had close ties to Betsy's sorority. And Betsy likes to blast music in the design studio, and because whoever she had to work with would be in close quarters to her, the candidate had to mesh well with her. And Evan sure did, so he was hired.
-
-*Footnote* There's a similar story I've read in Jessica Hische's book, "In Progress", in which she describes her desk and workspace she shares with. Designers are selective in who they choose to keep.
+Evan was the only candidate without a design degree. He meshed well with the firm's lead designer, Betsy, his future boss. She liked Evan's portfolio, and even more, his tastes and preferences in beer and music. And it helped they both went to the same school where Evan's fraternity had close ties to Betsy's sorority. Betsy likes to blast music in the design studio, and because whoever she had to work with would have to be tolerant of that. The candidate had to mesh well with her. And Evan sure did, so he was hired.
 
 ### Design Dimensions
 
-There was one thing I wanted to takeaway from Evan: What does it mean to be a professional designer. From Evan's perspective, it sounds like a lot. He could be juggling many clients at once. "People don't like to read long paragraphs", he tells me.
+There was one thing I wanted to takeaway from Evan: What does it mean to be a professional designer at Design Dimensions? From Evan's perspective, it sounds like a lot of work. He could be juggling many clients at once. "People don't like to read long paragraphs", he tells me.
 
-For example, Evan could be working for a Botanical Garden. The job could be to layout a design for explaining photosynthesis. The people coming to these exhibits don't want to read a barage of words when they can see pictures. I thought back to my recent trip to the New York American Heritage Museum, and how illustrative their exhibits of the forrest canapy were. 
+For example, Evan could be working for a Botanical Garden. The job could be to layout a design for explaining photosynthesis. Evan's work is to take the given space and design the entire experience. For the botanical garden, Evan knows the exhibitors don't want to read a barrage of words when they can see pictures. I thought back to my recent trip to the American Museum of Natural History in New York. They had a forrest canopy exhibit where there was some text to accompany the massive forrest installation, but it didn't stop me from admiring the size of the trees with all of its intricate details.
 
-Being a designer also means when to restrain. For example, if Evan's doing work for a Town Hall, the Opera House in Sumter, NC, or a small company, he will try to push their brand. But if he's working for an established corporation like IBM, or the RDU Airport, he'll stick within the boundaries of their existing brand.
+#### Restraint
 
-Restraint also comes to play with dealing with clients. Evan may have clients where everyone involved with giving feedback thinks they're also a graphic designer. Even if he finds himself arguing with a client, and the client is wrong, he has to find a way to come to a comprimise. And that's what pushes you as a designer, he tells me.
+Being a designer means knowing when to restrain. For example, if Evan's doing work for a Town Hall, the Opera House in Sumter, NC, or a small companies, he will try to push their brand. But if he's working for an established corporation like IBM, or the Raleigh-Durham International Airport, he'll stick within the boundaries of their existing brand.
 
-When Evan woas working for a "Black History of Wilson" exhibit in Wilson, North Carolina, the clients wanted to pack as much information as possible. However, as Evan tried to tell them, it doesn't tell a story. Evan didn't tell me what the conclusion was, but I can bet you he convinced them to change their copy to be more cohesive as a narrative.
+Restraint also comes to play with dealing with clients. Evan may have clients where his clients want to be the graphic designer as well. The feedback they give sound more like barking orders. If he finds himself arguing with a client, and the client is wrong, he has to find a way to come to a compromise. "And that's what pushes you as a designer", he tells me.
 
-As a designer, sometimes your work can be rewarding. Evan worked on a children's museum in Wilson. The museum was outdated
+#### Clients
 
+In general, the clients come with the content. It's Design Dimension's job to make it presentable. And the clients are super involved from start to finish. When Evan was working for a "Black History of Wilson" exhibit in Wilson, North Carolina, the clients wanted to pack as much information as possible. However, it doesn't tell a story. Clearly the client is wrong, and it's Evan's job to convince them to change their content by selling them on the design idea.
 
-Museums he works with generally comes up with the content and its the designer's job to make it presentable.
+The work can be rewarding. Evan worked on a children's museum in Wilson that taught science. The museum was outdated, a relic from the 80s. The museum's administrator secured the funds to update and upgrade the space. and Evan's team worked with the administrator closely to come to a good design. When it was all said and done, the space was resurrected, brought back to life with updated science. And for the administrator, her reaction was priceless because she put her heart and soul in it.
 
-It's Evan's job to take a given space, like venues, museums, and exhibition spaces, and design the entire experience, from the look and feel, to the overall experience. It's a small office and very long standing over the past few decades. The original founder still comes by even though he is in his late seventies.
+#### Feedback
 
-It's only recently he's been doing more back and forth with the client.
-Normally, the client comes with the specs and the designer can work with it.
-Occasionally, the client also wants to be the designer and put their two cents into it. It reminds me the first iteration of your work will not be your last.
-Rarely is that the case with freelancing either.
+It's only recently Evan's had interactions with the client. Following off of the conversation I had with Simon last week, I wanted to know how Evan deals with feedback and criticism. Evan tells me it pushes you to be better. You have to be able to speak the same language, and rarely does one design iteration is sufficient. As a great designer, you have to be able to let things go. Even if Evan thinks one of his logos looks damn amazing, the client could reject it and have the whole process start over. Evan's learned to let that go.
 
 ## Takeaways
 
-Evan's one thing he wants everyone to takeaway with is...
+Evan's takeaway for you is to make connections in life. Everything's connected in relationship to each other. And to find those and be able to point those out is a really fun thing to do. Put yourself out there. Make connections.
 
-## Additional Notes
+## Random Tidbits
 
+- Out of our interview, I hired Evan to do the letterhead and accompanying illustrations for each piece
+- Evan loves discovering music, new and old. His favorite music festival is Bonnaroo in Tennessee
 - Evan's favorite font: [Din Condensed](https://typekit.com/fonts/din-condensed)
-
-<!-- How does the concept of weak ties from Malcolm Gladwell's book on
-connections apply here? -->
