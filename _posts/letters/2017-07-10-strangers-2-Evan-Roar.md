@@ -13,11 +13,7 @@ description: "Evan Roar"
 
 ## Introduction
 
-Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. 
-This week, I'm talking to Evan Roar, Simon's friend. This is the second 
-installment of my series about connectedness. If you missed the newsletter 
-last week, I encourage you to read it. However, you do not need to read that 
-first to understand this week's newsletter.
+Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roar, Simon's friend. This is the second installment of my series about connectedness. If you missed the newsletter last week, I encourage you to read it. However, you do not need to read that first to understand this week's newsletter.
 
 ## Enter Evan
 
