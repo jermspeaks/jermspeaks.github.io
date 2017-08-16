@@ -7,9 +7,8 @@ permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Evan Roer"
 ---
-<!--
-![Insert new picture here](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/94ff2d22-e9e3-40a7-958b-ece4b3921ae6.png)
--->
+
+<img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true" alt="7 Degrees of Strangers Letterhead" width="600" />
 
 ## Introduction
 

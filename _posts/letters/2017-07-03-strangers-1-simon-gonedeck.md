@@ -8,97 +8,97 @@ tags: [season_3, letters]
 description: "Simon Gonedeck"
 ---
 
-<!--
-![Insert new picture here](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/94ff2d22-e9e3-40a7-958b-ece4b3921ae6.png)
--->
+<img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true" alt="7 Degrees of Strangers Letterhead" width="600" />
 
 ## Introduction
 
-Welcome to the next installment of the Jear-Bear Letters. After a brief four 
+Welcome to the next installment of the Jear-Bear Letters. After a brief four
 month hiatus, we're back with a new series called Seven Degrees of Strangers.
 
-Over the course of the next 7 weeks, I will write about the conversation I 
-had with 7 people, each one degree of separation away. You'll get to hear 
-their stories and experiences, and how I relate to them. At the end of each 
-interview, I will ask the participant to choose the next person for me to 
-interview. 
+Over the course of the next 7 weeks, I will write about the conversation I
+had with 7 people, each one degree of separation away. You'll get to hear
+their stories and experiences, and how I relate to them. At the end of each
+interview, I will ask the participant to choose the next person for me to
+interview.
 
-The title is a play on "Seven Degrees of Separation" where you are at most 
-seven links away from knowing any random stranger on Earth. So if I met a 
-stranger on the street, I could trace them to at most seven degrees of 
+The title is a play on "Seven Degrees of Separation" where you are at most
+seven links away from knowing any random stranger on Earth. So if I met a
+stranger on the street, I could trace them to at most seven degrees of
 separation until I found a connection.
 
 ### Why are you doing this project?
 
-It started with a thought about connections. On LinkedIn, you can see 
-potential new friends who are second or third degrees of separation. I 
-wondered, who are these people? How does everyone know each other? If I 
+It started with a thought about connections. On LinkedIn, you can see
+potential new friends who are second or third degrees of separation. I
+wondered, who are these people? How does everyone know each other? If I
 continue down the path of separations, could I meet someone famous?
 
-Then in May, while I was conceiving the idea for this series, I went to a talk 
-with Bill Burnnett and Dave Evans. They are professors at Stanford who wrote a 
-book called "Designing Your Life". In their talk, they asked everyone to turn 
-to their side, speak with their neighbor, and ask them something you need help 
-with. I turned to my neighbor, we introduced ourselves, and I asked about a 
-question about appropriative technologies. She didn't have any tips, but she 
+Then in May, while I was conceiving the idea for this series, I went to a talk
+with Bill Burnnett and Dave Evans. They are professors at Stanford who wrote a
+book called "Designing Your Life". In their talk, they asked everyone to turn
+to their side, speak with their neighbor, and ask them something you need help
+with. I turned to my neighbor, we introduced ourselves, and I asked about a
+question about appropriative technologies. She didn't have any tips, but she
 knew someone who could direct me to who might.
 
-I pondered about the interaction for a week. It's not an everyday feeling for 
-me to ask for help from strangers. Even though the woman didn't know someone 
-directly, she knew of someone who could get me closer to my answer. This 
+I pondered about the interaction for a week. It's not an everyday feeling for
+me to ask for help from strangers. Even though the woman didn't know someone
+directly, she knew of someone who could get me closer to my answer. This
 project is my exercise to practice that power of connectedness.
 
-Throughout the series, we'll find out what connectedness means to other 
+Throughout the series, we'll find out what connectedness means to other
 people. And build a new connection by the end of our conversation.
 
 ## The First Degree of Separation
 
-To begin this series, I reached out to my friend, Simon Gonedeck. He's an 
-entrepreneur and web developer for his own consulting company, 
-[MG Web Partners](http://www.mgwebpartners.com/). Besides catching up with an 
+To begin this series, I reached out to my friend, Simon Gonedeck. He's an
+entrepreneur and web developer for his own consulting company,
+[MG Web Partners](http://www.mgwebpartners.com/). Besides catching up with an
 friend, I wanted to probe him about starting a company. Simon did not disappoint. In our conversation, he went over that and so much more.
 
 ## Enter Simon
 
-Simon's a recent grad from the University of St. Thomas with a B.S. in 
-accounting. I met Simon three years ago at a software bootcamp. I got Simon to 
-join my team for the final project where we built a social network for 
-upcoming Memorials. 
+Simon's a recent grad from the University of St. Thomas with a B.S. in
+accounting. I met Simon three years ago at a software bootcamp. I got Simon to
+join my team for the final project where we built a social network for
+upcoming Memorials.
 
-We paired programmed a few times and hung out outside of the program. I got 
-Simon to join our final team project where we created a social network for 
-grieving. Simon was a total team player and whooped my ass into gear when we 
+We paired programmed a few times and hung out outside of the program. I got
+Simon to join our final team project where we created a social network for
+grieving. Simon was a total team player and whooped my ass into gear when we
 took a break at the gym.
 
-Simon's a lacrosse player, and what I consider a total athlete. Unfortunately, 
-at the time we were talking, he was recorvering from an injury when we had the 
-interview. I realize that he's a person to go to for my atheletic questions, 
+Simon's a lacrosse player, and what I consider a total athlete. Unfortunately,
+at the time we were talking, he was recorvering from an injury when we had the
+interview. I realize that he's a person to go to for my atheletic questions,
 so in the future, I'll be reaching out to him more.
+
+<img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_DOS_Simon_Graphic.png?raw=true" alt="Simon wearing letterman with head as computer screen" width="600" />
 
 ### MG Web Partners
 
-After the software bootcamp, Simon went back to school, living in St. Paul, 
-Minnesota. He was working at a web consulting company where he would be 
-compensated far less than the contract stipulated. An epiphany came when he 
-was at a yoga class. The studio were in need of a website, but all of the 
-contractors they found were out of their budget. Simon and his friend Johnny 
-and he drafted a reasonable offer, and they got their first contract. 
+After the software bootcamp, Simon went back to school, living in St. Paul,
+Minnesota. He was working at a web consulting company where he would be
+compensated far less than the contract stipulated. An epiphany came when he
+was at a yoga class. The studio were in need of a website, but all of the
+contractors they found were out of their budget. Simon and his friend Johnny
+and he drafted a reasonable offer, and they got their first contract.
 [MG Web Partners](http://www.mgwebpartners.com/) was born.
 
 #### Lessons on Starting a Business
 
-Before their first contract, Simon and Johnny had little to no knowledge on 
-how to draft one. They looked online to figure out what a contract should say. 
-And contracts weren't the only thing they had to figure out for the business. 
+Before their first contract, Simon and Johnny had little to no knowledge on
+how to draft one. They looked online to figure out what a contract should say.
+And contracts weren't the only thing they had to figure out for the business.
 
-Simon brought on his twin brother, Sevy, to help out with growing the 
-business. One of their challenges the team faced was to find more customers. 
-They drove around the area, going business to business to attract more 
+Simon brought on his twin brother, Sevy, to help out with growing the
+business. One of their challenges the team faced was to find more customers.
+They drove around the area, going business to business to attract more
 customers. They sent out an email campaign last June, seen below.
 
-> My partners Johnny Mulvahill, Sevy Gondeck and I have started a web design 
+> My partners Johnny Mulvahill, Sevy Gondeck and I have started a web design
 > and development company called MG Web Partners.
-> We specialize in building businesses remarkable websites that deliver new 
+> We specialize in building businesses remarkable websites that deliver new
 > customers and drive revenue.
 >  
 >  We help three kinds of companies:
@@ -110,14 +110,14 @@ customers. They sent out an email campaign last June, seen below.
 > please forward them my contact information and I promise we’ll take good
 > care of them.
 
-Simon was hesitant to use email marketing and social media because he viewed 
-it as mass spam. He didn't want disinterested people to see his work, and 
-worse, find he was bombarding friends and family with unnecessary mail. Sevy 
-convinced Simon to reach out and not worry about that. What you write will 
-have no interest to some people, and a lot of interest to a few people. You 
+Simon was hesitant to use email marketing and social media because he viewed
+it as mass spam. He didn't want disinterested people to see his work, and
+worse, find he was bombarding friends and family with unnecessary mail. Sevy
+convinced Simon to reach out and not worry about that. What you write will
+have no interest to some people, and a lot of interest to a few people. You
 never know who those people are until you cast a wide net.
 
-Listening to Simon talk about his business reminded me how much we learn on the job. When we talked about the details of drafting proposals, Simon talked about the mistakes he previously made. For example, it's better to draw up a proposal that's less stringent and allows for flexibility with the client. And it's better to make the process transparent, so the company uses 
+Listening to Simon talk about his business reminded me how much we learn on the job. When we talked about the details of drafting proposals, Simon talked about the mistakes he previously made. For example, it's better to draw up a proposal that's less stringent and allows for flexibility with the client. And it's better to make the process transparent, so the company uses
 [Proposify](https://www.proposify.biz/), a website that allows clients to review proposals while also giving the business insight into how their clients are reviewing their proposals.
 
 Upon reflection, Simon says the best strategy that attracted the most customers was "Word of Mouth". In the business of contracting, referrals matter more. Having previous clients tell potential future clients of their work has been more substantial than other techniques. And with every new client, the business learns they learned something new.
@@ -128,7 +128,7 @@ After the customer signs off on the proposal and agrees to the timeline, the tea
 
 #### What's Next?
 
-The team has worked with clients all over the area. All of the team members have graduated college. Sevy will be leaving the company later this summer to join Deloitte. Simon still plans to growing this company, and getting the forumla right before bringing more people on. 
+The team has worked with clients all over the area. All of the team members have graduated college. Sevy will be leaving the company later this summer to join Deloitte. Simon still plans to growing this company, and getting the forumla right before bringing more people on.
 
 ### Questions for me
 
@@ -136,17 +136,17 @@ After our conversation about MG Web Partners, Simon turned the tables and asked 
 
 #### On Writing
 
-Simon asked some advice about creating a writing habit and how to get through 
-writer's block. One of his goals is to boost 
-[his company's blog](http://www.mgwebpartners.com/blog/) by writing more 
+Simon asked some advice about creating a writing habit and how to get through
+writer's block. One of his goals is to boost
+[his company's blog](http://www.mgwebpartners.com/blog/) by writing more
 frequently. I had a few recommendations for him.
 
-1. Read "Bird by Bird" by Anne Lammont, or at least the chapter on "Shitty 
+1. Read "Bird by Bird" by Anne Lammont, or at least the chapter on "Shitty
 First Drafts".
 
-The premise of this chapter is you're not going to write the best you can on the first draft. After hearing that, I felt more free to write. It taught me I can give myself permission towrite freely without having to worry about making the best piece of writing from the start. 
+The premise of this chapter is you're not going to write the best you can on the first draft. After hearing that, I felt more free to write. It taught me I can give myself permission towrite freely without having to worry about making the best piece of writing from the start.
 
-And also, there is much more work in editing than I thought. After a year of writing, I spent more of my time crafting the 
+And also, there is much more work in editing than I thought. After a year of writing, I spent more of my time crafting the
 
 2. Take inspiration from [Seth Godin's Blog](http://sethgodin.typepad.com/) because he updates it every day.
 
