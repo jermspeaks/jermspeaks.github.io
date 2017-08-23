@@ -14,7 +14,7 @@ description: "Mary Alpoliani"
 
 I had absolutely no background on Mary Alpoliani when I asked her to be my next interviewee. Joe was taking longer than I expected to get back to me, but when he did, he didn't disappoint. I called Mary a few days before our interview to schedule the meeting, and immediately, I knew I was going to enjoy our conversation. If you've read Malcolm Gladwell's book, Mary's a prime example of a super-connector.
 
-## Enter Mary
+## Enter Mary Alpoliani
 
 Mary came from humble beginings in Indiana. She grew up on a farm and her food was her family's language. She graduated from ?? and her husband and her worked all over. They've been traveling around all over the US, selling and managing food products.
 
