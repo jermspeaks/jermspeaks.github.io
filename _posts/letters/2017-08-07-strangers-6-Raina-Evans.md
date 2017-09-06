@@ -12,7 +12,9 @@ description: "Raina Evans"
 
 ## Introduction
 
-TBA
+Welcome to the Jear Bear Letter's penultimate letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. And you should check out [old letters from this series on my website](http://www.craftbyzen.com/letters/season-three/). 
+
+This week, I'm presenting a conversation I had with Raina Evans. 
 
 ## Enter Raina Evans
 
@@ -20,4 +22,4 @@ TBA
 
 ## Takeaway message
 
-TBA
+You never know what you're calling is. You should be open to everything.
