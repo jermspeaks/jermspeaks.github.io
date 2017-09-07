@@ -23,15 +23,15 @@ layout: next-default
 
       <section class="landing-middle-banner">
         <div class="letters-middle-title season season-one">
-          <img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true" alt="7 Degrees of Strangers Letterhead" width="600" />
+          <img src="/assets/images/7_Degrees_Of_Strangers_Letterhead.png" alt="7 Degrees of Strangers Letterhead" width="400" />
         </div>
       </section>
 
       <section class="landing-middle-banner">
         <article class="letters-blurb">
-          <div class="letters-blurb-image">
+          <!-- <div class="letters-blurb-image">
             <img src="/assets/images/bear-colored-regular.png" />
-          </div>
+          </div> -->
           <div>
             <p>
               <span>Welcome to the third series of the Jear-Bear letters.</span>
@@ -49,27 +49,13 @@ layout: next-default
               <span>If you're feeling adventurous, subscribe them by entering their email on</span>
               <span><a href="http://tinyletter.com/jeremywong/">my Tinyletter page.</a></span>
             </p>
-            <h2>Addendum</h2>
-
-            <p>The project is a mix of two projects. The first is Megan Gilbert's blog, "52 
-            Cups of Tea". In that blog, she interviews a person a week over tea or coffee 
-            in preparation for getting prepared for finding a job in the real world 
-            outside of college.</p>
-
-            <p>The second is Kio Stark's newsletter and book talking to strangers. In the 
-            series, Kio recounts stories she has with starngers in NYC. She keeps 
-            reminding me I want to talk with random people and share worldviews.</p>
-
-            <p>For the old readers, thanks for your patience. I know it's months between the 
-            last newsletter, and I'm really happy to share the next few weeks with you. 
-            And to the new readers, I hope you'll love what you're about to read.</p>
           </div>
         </article>
       </section>
 
       <section class="landing-middle-banner">
         <ul class="letter-list">
-          {% for page in site.posts %}
+          {% for page in site.posts reversed %}
             {% if page.categories contains 'letters' and page.tags contains 'season_3' %}
               {% if page.title %}
               <li>
@@ -88,6 +74,30 @@ layout: next-default
             {% endif %}
           {% endfor %}
         </ul>
+      </section>
+
+      <section class="landing-middle-banner">
+        <article class="letters-blurb">
+          <!-- <div class="letters-blurb-image">
+            <img src="/assets/images/bear-colored-regular.png" />
+          </div> -->
+          <div>
+            <h2>Addendum</h2>
+
+            <p>The project is a mix of two projects. The first is Megan Gilbert's blog, "52 
+            Cups of Tea". In that blog, she interviews a person a week over tea or coffee 
+            in preparation for getting prepared for finding a job in the real world 
+            outside of college.</p>
+
+            <p>The second is Kio Stark's newsletter and book talking to strangers. In the 
+            series, Kio recounts stories she has with starngers in NYC. She keeps 
+            reminding me I want to talk with random people and share worldviews.</p>
+
+            <p>For the old readers, thanks for your patience. I know it's months between the 
+            last newsletter, and I'm really happy to share the next few weeks with you. 
+            And to the new readers, I hope you'll love what you're about to read.</p>
+          </div>
+        </article>
       </section>
 
       <section class="landing-middle-banner">
