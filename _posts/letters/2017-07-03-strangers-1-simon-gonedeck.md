@@ -182,3 +182,12 @@ I asked Simon what's one thing he wants people to take away with.
 
 > Over-communicate with clients. It might not always be clear what they want.
 > Don't do it over email. Do it over the phone or in-person, if you can.
+
+<section class="landing-middle-banner">
+	<div>
+	  <a href="/letters/season-three/strangers-1-simon-gonedeck.html">Previous Letter</a>
+	</div>
+	<div>
+	  <a href="/letters/season-three/strangers-1-simon-gonedeck.html">Next Season</a>
+	</div>
+</section>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-07T04:48:47+00:00</updated><id>localhost:4000/</id><subtitle>© 2017 Craft By Zen</subtitle><entry><title>Seven Degrees of Strangers: Seventh Separation</title><link href="localhost:4000/letters/season-three/strangers-7-unknown.html" rel="alternate" type="text/html" title="Seven Degrees of Strangers: Seventh Separation" /><published>2017-08-14T00:00:00+00:00</published><updated>2017-08-14T00:00:00+00:00</updated><id>localhost:4000/letters/season-three/strangers-7-unknown</id><content type="html" xml:base="localhost:4000/letters/season-three/strangers-7-unknown.html">&lt;p&gt;&lt;img src=&quot;https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true&quot; alt=&quot;7 Degrees of Strangers Letterhead&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><generator uri="http://jekyllrb.com" version="3.2.1">Jekyll</generator><link href="localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="localhost:4000/" rel="alternate" type="text/html" /><updated>2017-09-07T04:49:26+00:00</updated><id>localhost:4000/</id><subtitle>© 2017 Craft By Zen</subtitle><entry><title>Seven Degrees of Strangers: Seventh Separation</title><link href="localhost:4000/letters/season-three/strangers-7-unknown.html" rel="alternate" type="text/html" title="Seven Degrees of Strangers: Seventh Separation" /><published>2017-08-14T00:00:00+00:00</published><updated>2017-08-14T00:00:00+00:00</updated><id>localhost:4000/letters/season-three/strangers-7-unknown</id><content type="html" xml:base="localhost:4000/letters/season-three/strangers-7-unknown.html">&lt;p&gt;&lt;img src=&quot;https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true&quot; alt=&quot;7 Degrees of Strangers Letterhead&quot; width=&quot;600&quot; /&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;introduction&quot;&gt;Introduction&lt;/h2&gt;
 
@@ -402,7 +402,16 @@ and &lt;a href=&quot;https://twitter.com/j12coder&quot;&gt;Isaac&lt;/a&gt;.&lt;/
 &lt;blockquote&gt;
   &lt;p&gt;Over-communicate with clients. It might not always be clear what they want.
 Don’t do it over email. Do it over the phone or in-person, if you can.&lt;/p&gt;
-&lt;/blockquote&gt;</content><category term="letters" /><category term="season_3" /><category term="letters" /><summary></summary></entry><entry><title>Intro to Webassembly</title><link href="localhost:4000/learning/webassembly.html" rel="alternate" type="text/html" title="Intro to Webassembly" /><published>2017-06-06T00:00:00+00:00</published><updated>2017-06-06T00:00:00+00:00</updated><id>localhost:4000/learning/webassembly</id><content type="html" xml:base="localhost:4000/learning/webassembly.html">&lt;h1 id=&quot;intro-to-webassembly&quot;&gt;Intro to WebAssembly&lt;/h1&gt;
+&lt;/blockquote&gt;
+
+&lt;section class=&quot;landing-middle-banner&quot;&gt;
+	&lt;div&gt;
+	  &lt;a href=&quot;/letters/season-three/strangers-1-simon-gonedeck.html&quot;&gt;Previous Letter&lt;/a&gt;
+	&lt;/div&gt;
+	&lt;div&gt;
+	  &lt;a href=&quot;/letters/season-three/strangers-1-simon-gonedeck.html&quot;&gt;Next Season&lt;/a&gt;
+	&lt;/div&gt;
+&lt;/section&gt;</content><category term="letters" /><category term="season_3" /><category term="letters" /><summary></summary></entry><entry><title>Intro to Webassembly</title><link href="localhost:4000/learning/webassembly.html" rel="alternate" type="text/html" title="Intro to Webassembly" /><published>2017-06-06T00:00:00+00:00</published><updated>2017-06-06T00:00:00+00:00</updated><id>localhost:4000/learning/webassembly</id><content type="html" xml:base="localhost:4000/learning/webassembly.html">&lt;h1 id=&quot;intro-to-webassembly&quot;&gt;Intro to WebAssembly&lt;/h1&gt;
 
 &lt;p&gt;After reading &lt;a href=&quot;https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/&quot;&gt;a lengthy comic&lt;/a&gt; from &lt;a href=&quot;https://code-cartoons.com/&quot;&gt;Lin Clark&lt;/a&gt; about WebAssembly,
 I thought it might be great to do a deep dive with it.

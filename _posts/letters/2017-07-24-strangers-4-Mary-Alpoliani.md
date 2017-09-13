@@ -5,20 +5,22 @@ title: "Seven Degrees of Strangers: Fourth Separation"
 date: 2017-07-24
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
-description: "Mary Alpoliani"
+description: "Mary Aipoalani"
 ---
 
 <img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true" alt="7 Degrees of Strangers Letterhead" width="600" />
 
 ## Introduction
 
-I had absolutely no background on Mary Alpoliani when I asked her to be my next interviewee. Joe was taking longer than I expected to get back to me, but when he did, he didn't disappoint. I called Mary a few days before our interview to schedule the meeting, and immediately, I knew I was going to enjoy our conversation. If you've read Malcolm Gladwell's book, Mary's a prime example of a super-connector.
+Last week, I wrote about my interview with Joe Lazzara, owner of Joe's Butcher and Fish Market. This week, we're reviewing the core of the series. If you haven't followed along with this newsletter series, I'm interviewing strangers one degree of separation at a time to chronicle connections. And there's no one better to talk about connection none other than Mary Aipoalani.
 
-## Enter Mary Alpoliani
+## Enter Mary Aipoalani
 
-Mary came from humble beginings in Indiana. She grew up on a farm and her food was her family's language. She graduated from ?? and her husband and her worked all over. They've been traveling around all over the US, selling and managing food products.
+I had absolutely no background on Mary when I asked her to be my next interviewee. I called her a few days before our interview to schedule the meeting, and immediately, I knew I was going to enjoy our conversation. She had an energy in her voice like she's ready for anything that came her way.
 
-When I was talking with Mary, she was driving her daughter to an appointment.
+Mary came from humble beginings in Indiana. She grew up on a farm and her food was her family’s language. She and her husband travel around all over the US, selling and managing food products. From what I can access, Mary is a busy person yet knows how to find time for people. Case in point, during our conversation, she was driving her daughter to an appointment.
+
+If you’ve read Malcolm Gladwell’s book, Mary’s a prime example of a super-connector.
 
 ## The Game
 
@@ -30,8 +32,12 @@ I asked if she got to get her daughter to do that. Her daughter spoke up and sai
 
 ## Managing Connections
 
+listening
+
 ## Takeaway message
 
 "Stop looking at your glass, get off your ass". Her daughter was listening to the conversation, and told me she couldn't say that last word. Which was very cute.
 
-## On Who's Next
+## Author Notes
+
+I lost half of our conversation. Mary was driving through poor cell service areas, so the call dropped a number of times. For the last portion of the interview, I couldn't record it so I transcribed notes. As my luck would have it, my notes were stolen along with my backpack. I've chosen to omit this conversation because my memory is impartial and to be frank, I can't remember what we talked about.
