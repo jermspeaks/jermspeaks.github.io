@@ -32,8 +32,17 @@ Some therapies can be prolonged for decades. Patients come back, lie on the couc
 
 But Julie's program is different. She relates all of our mental problems with neuropsychology and hormone imbalances.
 
+## Empty Nest Syndrome
+
+Julie's got two children who have moved away. One in LA and another somewhere else. I was very curious how Julie deals with her children moved away. 
+And in turn, how do I resolve my mother's requests and demands now the children have left.
+As Julie explains it to me, "empty nest syndrome" is a fancy term for grief. Now that the children are gone, the mother grieves, and the grieving process isn't an easy road. 
+What can help is to discuss what the role of mother and child are now, and to develop boundaries of where each one lies. The compromise of each party is how we should resolve this mental conflict. 
+
+For Julie, that was to have a conversation with her son in LA about how often they would talk over the phone. It would be how often they would meet up since Julie lives within driving distance to her son. Or it's how much space they needed from each other so Julie wouldn't be suffucating her child. 
+
+And in a way, I wanted to have this conversation with my mother. I asked Julie about this, and by the end of our conversation, I had a task, to reach out to my mother and have this conversation.
+
 ## Takeaway message
 
-
-
-## On Who's Next
+Julie's takeaway is to understand and resolve your childhood trauma. Resolution may come in the form of rewiring your brain.
