@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Fifth Separation"
-date: 2017-07-31
+date: 2017-10-30
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Julie Valenti"

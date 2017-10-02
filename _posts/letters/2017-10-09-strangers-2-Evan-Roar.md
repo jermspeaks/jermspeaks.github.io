@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Second Separation"
-date: 2017-07-10
+date: 2017-10-09
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Evan Roer"

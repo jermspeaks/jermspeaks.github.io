@@ -2,29 +2,30 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: First Separation"
-date: 2017-07-03
+date: 2017-10-02
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
-description: "Simon Gonedeck"
+description: "Simon Gondeck"
 ---
 
-<img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true" alt="7 Degrees of Strangers Letterhead" width="600" />
+<img src="/assets/images/7_Degrees_Of_Strangers_Letterhead.png" alt="7 Degrees of Strangers Letterhead" width="400" />
 
 ## Introduction
 
-Welcome to the next installment of the Jear-Bear Letters. After a brief four
-month hiatus, we're back with a new series called Seven Degrees of Strangers.
-
-Over the course of the next 7 weeks, I will write about the conversation I
-had with 7 people, each one degree of separation away. You'll get to hear
-their stories and experiences, and how I relate to them. At the end of each
-interview, I will ask the participant to choose the next person for me to
-interview.
+Welcome to the next installment of the Jear-Bear Letters. After a half year 
+hiatus, we're back with a new series called "Seven Degrees of Strangers".
 
 The title is a play on "Seven Degrees of Separation" where you are at most
 seven links away from knowing any random stranger on Earth. So if I met a
 stranger on the street, I could trace them to at most seven degrees of
 separation until I found a connection.
+
+Over the course of the next 7 weeks, I will write about the conversation I
+had with 7 people, each one degree of separation away. I've chosen 
+communication as the theme for each conversation, trying to understand what it 
+means to communicate to each other and how can we build connections when we 
+don't know the stranger. You'll get to hear their stories and experiences, and 
+how I relate to them. 
 
 ### Why are you doing this project?
 
@@ -51,7 +52,7 @@ people. And build a new connection by the end of our conversation.
 
 ## The First Degree of Separation
 
-To begin this series, I reached out to my friend, Simon Gonedeck. He's an
+To begin this series, I reached out to my friend, Simon Gondeck. He's an
 entrepreneur and web developer for his own consulting company,
 [MG Web Partners](http://www.mgwebpartners.com/). Besides catching up with an
 friend, I wanted to probe him about starting a company. Simon did not disappoint. In our conversation, he went over that and so much more.
@@ -59,31 +60,28 @@ friend, I wanted to probe him about starting a company. Simon did not disappoint
 ## Enter Simon
 
 Simon's a recent grad from the University of St. Thomas with a B.S. in
-accounting. I met Simon three years ago at a software bootcamp. I got Simon to
-join my team for the final project where we built a social network for
-upcoming Memorials.
+Accounting. I met Simon three years ago at a software bootcamp. At the time, 
+he was on his summer break; he was one of the younger members of our cohort. He clicked with me because I grew up in the Bay Area and he wanted to know if I knew G-Eazy. I didn't, but I know people who knows the rapper, and Simon kept asking more questions about the Bay Area.
 
-We paired programmed a few times and hung out outside of the program. I got
-Simon to join our final team project where we created a social network for
-grieving. Simon was a total team player and whooped my ass into gear when we
-took a break at the gym.
+And I loved Simon's enthusiasm. We paired programmed a few times and hung out 
+outside of the program. I got Simon to join our final team project where we 
+created a social network for grieving. Simon was a total team player and 
+whooped my ass into gear when we took a break at the gym.
 
-Simon's a lacrosse player, and what I consider a total athlete. Unfortunately,
-at the time we were talking, he was recorvering from an injury when we had the
-interview. I realize that he's a person to go to for my atheletic questions,
-so in the future, I'll be reaching out to him more.
+Simon's an athlete and spent his college term playing lacrosse player. 
+Unfortunately, at the time we were talking, he was recovering from an injury 
+when we had the interview. I realize that he's a person to go to for my 
+atheletic questions, so in the future, I'll be reaching out to him more.
 
 <img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_DOS_Simon_Graphic.png?raw=true" alt="Simon wearing letterman with head as computer screen" width="600" />
 
 ### MG Web Partners
 
-After the software bootcamp, Simon went back to school, living in St. Paul,
-Minnesota. He was working at a web consulting company where he would be
-compensated far less than the contract stipulated. An epiphany came when he
-was at a yoga class. The studio were in need of a website, but all of the
-contractors they found were out of their budget. Simon and his friend Johnny
-and he drafted a reasonable offer, and they got their first contract.
-[MG Web Partners](http://www.mgwebpartners.com/) was born.
+After the software bootcamp, Simon returned to school, living in St. Paul,
+Minnesota. He got a part-time job working at a web consulting company. While on the job, he discovered he was compensated far less than the contract stipulated. 
+
+An epiphany came when he was at a yoga class. The studio were in need of a 
+website, but all of the contractors they found were out of their budget. Simon and his friend Johnny and he drafted a reasonable offer, and they got their first contract. [MG Web Partners](http://www.mgwebpartners.com/) was born.
 
 #### Lessons on Starting a Business
 
@@ -101,9 +99,9 @@ customers. They sent out an email campaign last June, seen below.
 > We specialize in building businesses remarkable websites that deliver new
 > customers and drive revenue.
 >  
->  We help three kinds of companies:
->  1. Companies with outdated websites
->  2. Companies with poorly designed websites
+>  We help three kinds of companies:  
+>  1. Companies with outdated websites  
+>  2. Companies with poorly designed websites  
 >  3. Or Companies that just need a new website
 >
 > Most companies fit one of these three scenarios, so if you know of anyone,
@@ -120,7 +118,7 @@ never know who those people are until you cast a wide net.
 Listening to Simon talk about his business reminded me how much we learn on the job. When we talked about the details of drafting proposals, Simon talked about the mistakes he previously made. For example, it's better to draw up a proposal that's less stringent and allows for flexibility with the client. And it's better to make the process transparent, so the company uses
 [Proposify](https://www.proposify.biz/), a website that allows clients to review proposals while also giving the business insight into how their clients are reviewing their proposals.
 
-Upon reflection, Simon says the best strategy that attracted the most customers was "Word of Mouth". In the business of contracting, referrals matter more. Having previous clients tell potential future clients of their work has been more substantial than other techniques. And with every new client, the business learns they learned something new.
+Upon reflection, Simon says the best strategy that attracted the most customers was word of mouth. In the business of contracting, referrals matter more. Having previous clients tell potential future clients of their work has been more substantial than other techniques. And with every new client, the business learns they learned something new.
 
 And while we're on clients, how do you communicate with them? Simon has found the best way is to make a phone call or face-to-face. Texting and email interactions are easy to evade and do not convey the same tone as his voice.
 
@@ -141,40 +139,15 @@ writer's block. One of his goals is to boost
 [his company's blog](http://www.mgwebpartners.com/blog/) by writing more
 frequently. I had a few recommendations for him.
 
-1. Read "Bird by Bird" by Anne Lammont, or at least the chapter on "Shitty
+- **Write a minimum amount every day.** I choose a page a day.
+- **Read "Bird by Bird"** by Anne Lammont, or at least the chapter on "Shitty
 First Drafts".
-
-The premise of this chapter is you're not going to write the best you can on the first draft. After hearing that, I felt more free to write. It taught me I can give myself permission towrite freely without having to worry about making the best piece of writing from the start.
-
-And also, there is much more work in editing than I thought. After a year of writing, I spent more of my time crafting the
-
-2. Take inspiration from [Seth Godin's Blog](http://sethgodin.typepad.com/) because he updates it every day.
-
-If we're talking about prolific, it doesn't get as good as Seth Godin's blog,
-which he has been serving for over the past decade. He's the prime example of
-less is more, which has helped me in editing down my own writing much less.
-
-##### Other pointers
-
+- **Don't be afraid to delete.** This one took me a long time. In fact, while writing this section, I deleted half of my work because it didn't matter.
 - **Don't expect success.** As counter-intuitive as it may be, that piece of advice helped me release what I consider terrible writing to my letter friends. A few of those letters have been very well received, like my "Caltrain Suicides" letter and my "Lost Keys" letter.
-- **Editing is just as important as writing.**
+- **Editing is just as important as writing.** And its corallary: **Polishing takes more time than writing.**
 - **Find peers to review your writing.** Earlier on in my letter writing, I decided to open up each letter for critique.
 I reached out on Twitter to see who could be my critique, and a few people
-helped me <a href="#shout-out">(1)</a>. I'd send a draft out, and they would give me some helpful criticism.
-
-I remember Helin gave me some pointers about sub-headers, which I didn't
-initially like, but has grown on me.  
-
-Unfortunately, I stopped because my critiques wouldn't come back before my
-deadline, so I carried along hoping my audience would tell me. Turns out, they
-don't, so this project is to help me out further because I'm working alongside
-an illustrator. While the illustrator's primary job is not to be a critic, it
-does help to have a second eye. Plus, if I'm really stuck on something, I'll
-drag a friend into it. Stephen King wrote in "On Writing" that his wife reads
-through his novels before he releases them.
-
-<a id="shout-out">(1)</a>Shout outs to [Helin](https://twitter.com/helin_s)
-and [Isaac](https://twitter.com/j12coder).
+helped me. I'd send a draft out, and they would give me some helpful criticism.
 
 ### Take-aways
 
@@ -183,11 +156,21 @@ I asked Simon what's one thing he wants people to take away with.
 > Over-communicate with clients. It might not always be clear what they want.
 > Don't do it over email. Do it over the phone or in-person, if you can.
 
+### Next Week
+
+At the end of each interview, I asked the participant to choose the next person for me to interview. At first, I was loose on criteria, but as I progressed with each interview, I decided to give the participants a question. Who is someone you know you would like to hear an interview from? 
+
+I didn't get to ask Simon this question, yet he knew intuitively I was looking for someone interesting. And he didn't disappoint. Hope that's tease enough for you to continue reading.
+
+### Acknowledgements
+
+I'd like to thank Simon Gondeck for being the very first participant. Without you, I wouldn't have started this journey. I'd also like to thank Evan Roar for illustrating the series' letterhead and an accompanying graphic for this letter. Both of you rock.
+
 <section class="landing-middle-banner">
 	<div>
-	  <a href="/letters/season-three/strangers-1-simon-gonedeck.html">Previous Letter</a>
+	  <a href="/letters/season-two/">Previous Season</a>
 	</div>
 	<div>
-	  <a href="/letters/season-three/strangers-1-simon-gonedeck.html">Next Season</a>
+	  <a href="/letters/season-three/strangers-2-Evan-Roar.html">Next Letter</a>
 	</div>
 </section>
