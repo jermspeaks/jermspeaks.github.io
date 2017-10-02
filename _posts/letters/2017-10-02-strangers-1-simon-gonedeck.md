@@ -126,11 +126,11 @@ After the customer signs off on the proposal and agrees to the timeline, the tea
 
 #### What's Next?
 
-The team has worked with clients all over the area. All of the team members have graduated college. Sevy will be leaving the company later this summer to join Deloitte. Simon still plans to growing this company, and getting the forumla right before bringing more people on.
+The team has worked with clients all over the area. All of the team members have graduated college. Sevy will be leaving the company later this summer to join Deloitte. Simon still plans to growing this company, and getting the formula right before bringing more people on.
 
 ### Questions for me
 
-After our conversation about MG Web Partners, Simon turned the tables and asked me a few questions. The benefit of being a first connection is they already know something about you. And in Simon's case, he's a long time reader of the Jear-Bear letters, so he had some questions around writing and growing an online prescence.
+After our conversation about MG Web Partners, Simon turned the tables and asked me a few questions. The benefit of being a first connection is they already know something about you. And in Simon's case, he's a long time reader of the Jear-Bear letters, so he had some questions around writing and growing an online presence.
 
 #### On Writing
 
@@ -164,7 +164,7 @@ I didn't get to ask Simon this question, yet he knew intuitively I was looking f
 
 ### Acknowledgements
 
-I'd like to thank Simon Gondeck for being the very first participant. Without you, I wouldn't have started this journey. I'd also like to thank Evan Roar for illustrating the series' letterhead and an accompanying graphic for this letter. Both of you rock.
+I'd like to thank Simon Gondeck for being the very first participant. Without you, I wouldn't have started this journey. I'd also like to thank Evan Roer for illustrating the series' letterhead and an accompanying graphic for this letter. Both of you rock.
 
 <section class="landing-middle-banner">
 	<div>
