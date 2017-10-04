@@ -16,11 +16,19 @@ Last week, I wrote about my interview with Joe Lazzara, owner of Joe's Butcher a
 
 ## Enter Mary Aipoalani
 
-I had absolutely no background on Mary when I asked her to be my next interviewee. I called her a few days before our interview to schedule the meeting, and immediately, I knew I was going to enjoy our conversation. She had an energy in her voice like she's ready for anything that came her way.
+I had absolutely no background on Mary when I asked her to be my next interviewee. I called her a few days before our interview to schedule the meeting, and immediately, I knew I was going to enjoy our conversation. She had an energy in her voice like she's ready for anything that came her way. And, her energy sounded like anything was possible. 
+
+Mary met Joe through work. Mary is the VP of Business Development at Renaissance Food Groups and sells their products at Joe's butcher shop. Mary knows the who's who in the food industry, and she spoke to Joe for two hours. She could tell Carmel, Indiana has put a lot of money into their downtown area and Mary has an eye for marketplaces that sell well.
 
 Mary came from humble beginings in Indiana. She grew up on a farm and her food was her family’s language. She and her husband travel around all over the US, selling and managing food products. From what I can access, Mary is a busy person yet knows how to find time for people. Case in point, during our conversation, she was driving her daughter to an appointment.
 
-If you’ve read Malcolm Gladwell’s book, Mary’s a prime example of a super-connector.
+### Storing Contacts
+
+If you’ve read Malcolm Gladwell’s book, "The Tipping Point", Mary’s a prime example of a super-connector. A super connector is someone who is hyper connected to everyone. The average person keeps tabs with about 150 people, also known as the Dunbar number. From our conversation, I believe Mary keeps tabs with so many more people. She's able to do this by her system on how to connect with people. 
+
+Let's take Joe for an example. After Mary finished talking to Joe, she writes down in her phone some additional information about him. She may write, "Joe's Butchershop and Fish Market. Spices and seasoning blends. Carmel, Indiana." The description can inform Mary that Joe knows how to season meat, and if Mary needs help, she can call him. She may also synthesize later other vendors that might want to work with Joe based off the store name. 
+
+Mary thinks about connecting like an entrepreneur. Entrepreneurs work on connecting. They figure out how to utilize people. At the end of chatting, I mentioned I'm open to new opportunities, and Mary started to probe on what I might be interested in. Mary came up with a few names I could collaborate with. That's what she does well, connect people with head hunters, elect them to be advisory board candidates, pair the with a founder. Mary's theory is when the student is ready, they have to find the right teacher. Mary works like a matchmaker and marries them together.
 
 ## My Notes 
 
