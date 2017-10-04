@@ -30,6 +30,45 @@ Let's take Joe for an example. After Mary finished talking to Joe, she writes do
 
 Mary thinks about connecting like an entrepreneur. Entrepreneurs work on connecting. They figure out how to utilize people. At the end of chatting, I mentioned I'm open to new opportunities, and Mary started to probe on what I might be interested in. Mary came up with a few names I could collaborate with. That's what she does well, connect people with head hunters, elect them to be advisory board candidates, pair the with a founder. Mary's theory is when the student is ready, they have to find the right teacher. Mary works like a matchmaker and marries them together.
 
+I'll admit, I'm not the best at keeping notes or tabs on people. I try for a little while until I'm discouraged from making any headway with others. I think a little more pessimistically in trying to get people to do things. But if I reframed my position and thought how Mary would approach it, I'd think I would try to get people together who don't know they need to reach out to each other. If nothing comes out of it, that's that. But for the few times it does, innovation can happen.
+
+### The World is Ripe with Opportunity
+
+Mary sees opportunity. She can't help it. Her family is a group of entrepreneurs. When I asked Mary who I should speak to next, she recommended her brother, Ed Dominion. It was amusing she referred to her brother as D6, the first letter of their last name followed by their birth order. He runs his own company in Portland, Oregon. Mary runs some businesses on the side, like a high performance camera company, starting another venture called Animal Bacon. 
+
+When it comes down to it, Mary's journey reminds me of "The Alchemist". Mary's journey is wandering, yet focused on goals. And at the end of goals, that's not the end of the journey, but the beginning. We talked hypotheticals. Hypothetically, if Mary wanted to go to the White House, she's pretty sure she could go with little to no credentials. That's because she thinks that in her mind.
+
+And she doesn't believe in coincidences. Life is nothing buy coincidences. And that's led to successes. 
+
+Traveling is a great way to make connections. You'll listen better with fewer distractions. 
+
+Dress appropriately. Don't wear sweatpants. Dress up. Why? Because people judge you by your appearance. If you dress in business attire, you will attract business people.
+
+## The Game
+
+With all of this traveling Mary does, she spends a lot of time eating on her own. She doesn't eat alone though. She told me about this game she plays when she's at a restaurant with a bar. She scouts the bar area to see if there are any patrons eating alone. If there is, she'll sit near them. Once the waiter has given he a menu, she looks over to her neighbor's plate and ask him or her, "Oh, that looks good. What are you eating?". Mary's never had a time where the patron has not answered her.
+
+Now the real game has started. After striking this conversation, Mary's intent is to see if she can get her patron to offer her a sample from their plate. To Mary's recollection, every patron has given her food.
+
+I asked if she got to get her daughter to do that. Her daughter spoke up and said she's done it once.
+
+## Managing Connections
+
+listening
+
+## Takeaway message
+
+Take the opportunity to reach out to people. And Mary has a saying to go along with this. "Stop looking at your glass, get off your ass". Her daughter was listening to the conversation, and told me she couldn't say that last word. 
+
+Mary says in the younger community, boys are always on their glass. Yet, it's important to move your ass, whether it be exercise, smiling and making eye contact with other people, or working on body language. That's how she sees life.
+
+## Author Notes
+
+I lost half of our conversation. Mary was driving through poor cell service areas, so the call dropped a number of times. For the last portion of the interview, I couldn't record it so I transcribed notes. As my luck would have it, my notes were stolen along with my backpack. I've chosen to omit this conversation because my memory is impartial and to be frank, I can't remember what we talked about.
+
+
+
+
 ## My Notes 
 
 <!-- Do not use these -->
@@ -198,26 +237,3 @@ Names, names, names
 Fred Madero -> Seminar -> Helped orient him at t table
 
 Black Rock -> Justice Alieto
-
-## The Game
-
-With all of this traveling Mary does, she spends a lot of time eating on her own. She doesn't eat alone though. She told me about this game she plays when she's at a restaurant with a bar. She scouts the bar area to see if there are any patrons eating alone. If there is, she'll sit near them. Once the waiter has given he a menu, she looks over to her neighbor's plate and ask him or her, "Oh, that looks good. What are you eating?". Mary's never had a time where the patron has not answered her.
-
-Now the real game has started. After striking this conversation, Mary's intent is to see if she can get her patron to offer her a sample from their plate. To Mary's recollection, every patron has given her food.
-
-I asked if she got to get her daughter to do that. Her daughter spoke up and said she's done it once.
-
-## Managing Connections
-
-listening
-
-## Takeaway message
-
-Take the opportunity to reach out to people. And Mary has a saying to go along with this. "Stop looking at your glass, get off your ass". Her daughter was listening to the conversation, and told me she couldn't say that last word. 
-
-Mary says in the younger community, boys are always on their glass. Yet, it's important to move your ass, whether it be exercise, smiling and making eye contact with other people, or working on body language. That's how she sees life.
-
-## Author Notes
-
-I lost half of our conversation. Mary was driving through poor cell service areas, so the call dropped a number of times. For the last portion of the interview, I couldn't record it so I transcribed notes. As my luck would have it, my notes were stolen along with my backpack. I've chosen to omit this conversation because my memory is impartial and to be frank, I can't remember what we talked about.
-
