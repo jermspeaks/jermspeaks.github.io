@@ -12,7 +12,7 @@ description: "Evan Roer"
 
 ## Introduction
 
-Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roer, Simon's friend. This is the second installment of my series about connectedness. If you missed the newsletter last week, this series is a set of interviews where I interview a stranger one degree of separation at a time.
+Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roer, Simon's close friend. This is the second installment of my series about connections and communication. If you missed the newsletter last week, I started this new series where I interview a stranger one degree of separation at a time.
 
 ## Enter Evan
 
