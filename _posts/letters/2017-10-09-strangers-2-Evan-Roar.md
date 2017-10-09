@@ -12,25 +12,29 @@ description: "Evan Roer"
 
 ## Introduction
 
-Last week, I talked to Simon Gonedeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roer, Simon's close friend. This is the second installment of my series about connections and communication. If you missed the newsletter last week, I started this new series where I interview a stranger one degree of separation at a time.
+If you missed the newsletter last week, I started a new writing series. I interview a stranger one degree of separation at a time talking about connection and communication. This is the second installment of my series about connections and communication. 
 
-## Enter Evan
+In the last newsletter, I talked to Simon Gondeck, a young Web Developer and Entrepreneur. This week, I'm talking to Evan Roer, Simon's close friend. We talk about how he landed his design job, working for clients, and what Evan's favorite font is.
 
-The first thing I wanted to know about Evan was how did he know Simon? As Evan recalls, he's known Simon and Sevy, Simon's twin brother, for as long as he can remember. Growing up, Evan's and Simon's families were part of the same gourmet club. Evan's older brother is roommates with Simon's older brother. Evan's family moved to North Carolina when Evan was in third grade, yet the families kept in touch. If Evan's traveling to Minneapolis, which happens once or twice a year, he's staying with Simon.
+## Enter Evan Roer
 
-Evan resides in Raleigh, North Carolina. He works for Design Dimension, a design firm specializing in exhibit design for museums. He started this job a year ago and has an unconventional story on how he got there.
+The first thing I wanted to know about Evan was how did he knows Simon? As Evan recalls, he's known Simon and Sevy, Simon's twin brother, for as long as he can remember. Growing up, their families were part of the same gourmet club. Years ago, Evan's family moved to North Carolina. Evan was in third grade, yet the families kept in touch. For example, Evan's older brother is roommates with Simon's older brother. And, if Evan's traveling to Minneapolis, which happens once or twice a year, he's staying with Simon.
+
+Evan resides in Raleigh, North Carolina. He works for [Design Dimension](https://www.designdimension.com/), a design firm specializing in exhibit design for museums. He started this job over a year ago and has an unconventional story on how he got there.
 
 ## Landing the Job
 
-Evan was a brand ambassador at North Carolina State University (NC State) for the university's recreation center. That means Evan would prepare the recreation center with school events. The school designates brand ambassadors 13 office hours to do prep work. But as Evan learned, it doesn't take that long to setup tables and handout merchandise. With all of this idle time, he noticed peers making posters in the gym promoting upcoming events.
+Evan was a brand ambassador at North Carolina State University for the university's recreation center. That means Evan would prepare the recreation center with school events. The school designates brand ambassadors 13 mandatory office hours to do prep work. But as Evan learned, it doesn't take that long to set up tables and handout merchandise. With all of this idle time, he noticed peers making posters in the gym promoting upcoming events.
 
 Evan wasn't studying graphic design. He was studying business marketing. He wanted to follow a creative itch and make posters. As Evan puts it, he got to see graphic design in the works, and with his boss' permission, he would create posters, take the time to use the school's Lynda.com tutorials to learn graphic design software, and develop a portfolio. By the end of Evan's college career, he had an extensive portfolio.
 
 After graduating, when it was time to find a job, Evan applied to both design studios and businesses seeking his skills in Business Marketing. One of those design firms he submitted his portfolio to was Design Dimension.
 
-Evan got an internship with an tech firm and had started working for a week or two before Design Dimension called him. He thought it would be worth a shot at the interview since his current role may not hire him full-time. And it was very convenient since his internship was five buildings away from the Design Dimension.
+Evan got an internship with a tech firm and had started working for a week or two before Design Dimension called him. He thought it would be worth a shot at the interview since his current role may not hire him full-time. And it was very convenient since his internship was five buildings away from the Design Dimension.
 
 Evan was the only candidate without a design degree. He meshed well with the firm's lead designer, Betsy, his future boss. She liked Evan's portfolio, and even more, his tastes and preferences in beer and music. And it helped they both went to the same school where Evan's fraternity had close ties to Betsy's sorority. Betsy likes to blast music in the design studio, and because whoever she had to work with would have to be tolerant of that. The candidate had to mesh well with her. And Evan sure did, so he was hired.
+
+<img src="/assets/images/7_DOS_Evan_Graphic.png" alt="A scale weighing Evan's decision to be an accountant or designer" width="600" />
 
 ### Design Dimension
 
@@ -48,7 +52,7 @@ Restraint also comes to play with dealing with clients. Evan may have clients wh
 
 In general, the clients come with the content. It's Design Dimension's job to make it presentable. And the clients are super involved from start to finish. When Evan was working for a "Black History of Wilson" exhibit in Wilson, North Carolina, the clients wanted to pack as much information as possible. However, it doesn't tell a story. Clearly the client is wrong, and it's Evan's job to convince them to change their content by selling them on the design idea.
 
-The work can be rewarding. Evan worked on a children's museum in Wilson that taught science. The museum was outdated, a relic from the 80s. The museum's administrator secured the funds to update and upgrade the space. and Evan's team worked with the administrator closely to come to a good design. When it was all said and done, the space was resurrected, brought back to life with updated science. And for the administrator, her reaction was priceless because she put her heart and soul in it.
+The work can be rewarding. Evan worked on a [children's museum in Wilson](http://scienceandhistory.org/home) that teaches science and history. Before the design firm came in, the museum was outdated, a relic from the 80s. The museum's administrator secured the funds to update and upgrade the space. and Evan's team worked with the administrator closely to come to a good design. When it was all said and done, the space was resurrected, brought back to life with updated science. And for the administrator, her reaction was priceless because she put her heart and soul in it.
 
 #### Feedback
 

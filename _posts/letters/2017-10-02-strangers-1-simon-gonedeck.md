@@ -73,7 +73,7 @@ Unfortunately, at the time we were talking, he was recovering from an injury
 when we had the interview. I realize that he's a person to go to for my 
 atheletic questions, so in the future, I'll be reaching out to him more.
 
-<img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_DOS_Simon_Graphic.png?raw=true" alt="Simon wearing letterman with head as computer screen" width="600" />
+<img src="/assets/images/7_DOS_Simon_Graphic.png" alt="Simon wearing letterman with head as computer screen" width="600" />
 
 ### MG Web Partners
 
