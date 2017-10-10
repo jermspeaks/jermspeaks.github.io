@@ -86,6 +86,14 @@ And in a way, I wanted to have this conversation with my mother. I asked Julie a
 Julie's takeaway is to understand and resolve your childhood trauma. Resolution may come in the form of rewiring your brain.
 
 
+## Promotion
+
+I read through Julie's book and highly recommend it. (I will be leaving her a review on Amazon.)
+
+I want to giveaway one free copy of Julie's book to one of my readers. To enter, reply to this email and tell me what you think of this series so far. If you read this on my social media links, [subscribe to the newsletter](http://tinyletter.com/jeremywong). New subscribers will be added to the raffle automatically. You have one week to apply. Deadline is November 6th, 2017, 12AM PST. 
+
+And, if I have perked your interests with childhood trauma, please buy Julie's book. It's a fast read, certainly within one flight from San Francisco to St. Louis. It doesn't only help identify the problem, but also offer questions on how to utilize the 20 concepts. [Amazon link]().
+
 <!-- 
 Outline 
 	Introduction
@@ -110,4 +118,100 @@ Outline
 		Anchoring and reactions
 	Takeaways
 		Take a look at our childhood truama
+-->
+
+
+<!-- 
+### Notes
+
+Mary - connect -> confidential
+
+Owns wellness center in Portland
+
+PTSD early childhood 
+
+Sun worshipper, visit San Diego, Hillcrest Area
+
+2 weeks wellness
+
+Just moved recently
+
+Book promotion
+
+Survival = brain
+Advise: Don't move to Portland
+
+Julie's lived there for 23 years. The Summer months == July, August, September. Portland recrod last year: 109 degrees F
+
+Julie feels alive in the sunlight. Active as a sun worship
+
+SAD = seasonal affective disorder. Feel good receptors closes. Out of harms way. For survival.
+
+Nueroscience.
+
+The prefrontal lobe - the brain to be more functional. 18% intelligence vs survival brain
+
+SAFE brain
+
+Experience -> what's a need vs a desire (want)
+- Need = Maslow's Hierarchy of needs
+- Desires linked to dopamine receptors. 
+
+Hormonal recipe -> share
+
+Book writing -> Feeling Good
+
+"Empty Nest Syndrome" is a disguise for grief and loss
+- Grief and loss lead to high oxytocin levels, tied with children leaving the home. 
+- The mother must come to term with adjustments
+- Often tied to "mid-life crisis"
+- For children, the have to understand the mother's adjustments. Evokes miral neurons.
+- We feel this in our body
+
+Make an action plan
+
+Julie has one son in Portland, one son in LA. She must determine her wants. How much texting, visiting, email/phone call? Negotiate the terms.
+
+The book is for therapists and people confused about their childhoods, and it's to help or need help with it
+Confusing because of conflicted attachment.
+
+They are drawn to addiction, escape, PTSD is a reaction of the organism of life being threatened.
+
+Neuroplasticity - healing process. Approached by the 20 concepts. 
+
+Concepts get translated into a methodology. Think / memorize.
+
+Background
+
+Concept
+	What we do in the world
+	What we do different
+	How we do it
+	"Ask yourself these questions"
+
+1. Brain / Body
+2. Attachment
+
+This is part of the process. Process is split in three parts
+
+1. Understand yourself
+2. Recreate yourself
+3. What you can do about it (the "how")
+
+The last concept: "Adult Responsibility is non-negotiable"
+
+Traditional psychotherapy costs a lot more money.
+
+Wisdom & Recovery
+
+Julie is a licensed hypnotherapist.
+
+One big takeaway
+- Understanding + resolving childhood
+- Rewiring
+
+Mentor / Coach to write book -> Angela
+
+Buy her book on Amazon 
+
 -->
