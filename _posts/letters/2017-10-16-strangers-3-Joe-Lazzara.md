@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Third Separation"
-date: 2017-10-16
+date: 2017-10-01
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Joe Lazzara"
@@ -53,6 +53,8 @@ around. Clients were asking Joe to do things that were against his principles, l
 ## Butchershop
 
 Carmel, Indiana is a progressive city and their mayor wanted to build a city center. The mayor asked Joe if he wanted to start a restuarant there. When Joe asked his wife, she objected. She told him they have three children, ages 3, 5, and 7, and he wouldn't be there for them at night. Joe remembered his friend, Mark Zannoni. He was also Italian, and Mark's father owned a butcher shop outside of Chicago. Joe asked his wife about a buthcer shop, and she agreed that would be a better choice.
+
+<img src="/assets/images/7DOS_Joe_Graphic.png" alt="Joe leaves his suit in the closet and wears a butcher's apron" width="600" />
 
 They put about a year of work into opening the shop before it opened. The first year's return was at a loss, but since then, they've been on the up. They're netting a few million a year, and it has become such an integral piece to the community. Joe's been at it for 11 years. You can find the butcher shop and fish market's website at the end of the article.
 
