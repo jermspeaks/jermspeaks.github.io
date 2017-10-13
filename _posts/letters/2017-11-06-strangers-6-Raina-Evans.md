@@ -41,8 +41,6 @@ Licensed the cirriculum to other organizations.
 2007 - possession of cirriculum of "Ready to Rent"
 2010 - gave copyright to Raina's org
 
-
-
 ## Takeaway message
 
 You never know what you're calling is. You should be open to everything.
