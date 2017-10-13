@@ -10,17 +10,26 @@ description: "Joe Lazzara"
 
 <img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/assets/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true" alt="7 Degrees of Strangers Letterhead" width="600" />
 
+## Announcements
+
+Thanks for reading the Jear Bear Letters! Before we begin, I'd just like to say thanks for the support. I really appreciate your continued readership.
+
+If you're a new reader or have missed the past few letters from the new series, "Seven Degrees of Strangers", you can find [the archive on tinyletter](http://tinyletter.com/jeremywong/archive) or check out [the new section on my website](http://www.craftbyzen.com/letters/season-three/).
+
+That's all. Back to the newsletter.
+
 ## Introduction
 
-Welcome to the Jear Bear Letter's third letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. This week, I'm presenting a conversation I had with Joe Lazarra. He runs a butcher shop and fish market in Carmel, Indiana. He also happens to be the previous interviewee, Evan, father's best friend.
+Welcome to the Jear Bear Letter's third letter of the series "Seven Degrees of Strangers". If you've started reading this series, I interview a stranger one degree of separation at a time. This week, I'm presenting a conversation I had with Joe Lazarra. He runs a butcher shop and fish market in Carmel, Indiana. He also happens to be the previous interviewee, Evan, father's best friend.
 
 Joe has walked an unconventional path. We dive into his past work, his butcher shop, and so much more.
 
 ## Enter Joe Lazzara
 
-I wasn't expecting Joe to be a masterful storyteller. If you ever talk to him, he has a very solid sense of self. He started his story by transporting me back over a century ago. His great grandparents grew up in Sicily. Because the number of times Sicilians have been conquered, other Italians call them outsiders. Sicilians have a different dialect and different culture. They value family, culture and food. Especially food.
+I wasn't expecting Joe to be a masterful storyteller. If you ever talk to him, he has a very solid sense of self. He started his story by transporting me back over a century ago. His great grandparents grew up in Sicily. Different invaders have conquered Sicily time and time again. So much so that other Italians call them outsiders. Sicilians have a different dialect and different culture. They value family, culture and food. Especially food.
 
-Joe's grandparents and their brothers sold produce in California and southern Indiana. Joe prefaced their lives and business were riddled with stories of escapades, murders, and running from the KKK. If I ever get to hang out with Joe, I'd love him to tell me some of them. What's important to Joe is the Sicilian heritage followed them to America. 
+Joe's grandparents and their brothers sold produce in California and southern Indiana. 
+Their lives included stories of escapades, murders, and running from the KKK. If I ever get to hang out with Joe, I'd love him to tell me some of them. What's important to Joe is the Sicilian heritage followed them to America. 
 
 Joe's mother learned recipes passed down from the older generation. Joe's aunt taught his mother how to cook, handing them generation to generation. Needless to say, the family bonds over food, like Joe helping make the sauce.
 
@@ -32,16 +41,17 @@ Joe's father didn't make much money. Yet, he valued education and funded all 6 c
 
 In college, Joe met Charlie Roar, Evan's dad. They became dependable friends and fraternity brothers. Today, they remain close. Joe is a godfather to Charlie's daughter. Joe's a part of Charlie's family as they moved from Chicago to Minnesota to North Carolina. When Joe's father passed away, you can bet Charlie was there for him and his family.
 
-Joe studied Quantatative analysis, which during the mid to late
-80's, was the thing to study and get a great job. When Joe graduated, he worked at Indiana Bell. Joe started working ona software project that everntually got sold to General Telephone and Electric, GTE. However, Indiana Bell didn't want to help with maintaining the software. 
+Joe studied Quantatative analysis, which during the mid to late 80's, was the thing to study and get a great job. When Joe graduated, he worked at Indiana Bell on a software project. That project got sold to General Telephone and Electric, GTE. But, Indiana Bell didn't want to help with maintaining the software. 
 
-GTE needed consultants, and Joe along with some other saw this as an opportunity to create their own consulting company, called United Informations Technology. Joe was 23 at the time and moved with the company to Tampa Bay. On weekends he'd invite friends. The job demanded Joe travel all over. With the sales commissions, Joe was making 6 figures. But the company's success didn't last long. The company hired an HR manager to manage pensions as they started growing. They hired someone who, unbeknownst to the rest of the company, took those pensions and bought coke in Florida and sold it in Chicago. One day, the FBI and DEA knock on Joe's door asking about the illegal activity. Joe exits as soon as he can; the company gets dissolved. 
+GTE needed consultants. Joe's co-workers and Joe saw this as an opportunity to create their own consulting company. They formed United Informations Technology. Joe was 23 at the time and moved with the company to Tampa Bay. On weekends he'd invite friends. The job demanded Joe travel all over. With the sales commissions, Joe was making 6 figures. But the company's success didn't last long. The company hired an HR manager to manage pensions as they started growing. But, no one else knew this HR manager would take their pensions and buy coke in Florida and resell it in Chicago. One day, the FBI and DEA knock on Joe's door asking about the illegal activity. Joe exits as soon as he can; the company gets dissolved.
 
-Joe took a position with GTE in Indianapolis selling cellular to wireless carriers. Because of where the market was heading with cellular networks, selling was like shooting fish in a barrel. Year over year, Joe was the top 1% of sales people. He rose the ranks and became a general manager over other sales people. 
+Joe took a position with GTE in Indianapolis selling cellular to wireless carriers. The market was ripe for cellular networks, and selling was like shooting fish in a barrel. Year over year, Joe was the top 1% of sales people. He rose the ranks and became a general manager over other sales people. 
 
-During this period, he got married and has kids. He's in his early 30's, and he's traveling all over the U.S. for his sales job. He got tired of going out to the bars with his guy friends. Instead, he uses this time to explore restaurants, especially those who have gone on to be awarded Michelin stars or become James Beard candidates. Those are prestigious accolades in the food world.
+During this period, he got married and had kids. He's in his early 30's, and he's traveling all over the U.S. for his sales job. He got tired of going out to the bars with his guy friends. Instead, he uses this time to explore restaurants. Today, many of these restaurants have Michelin stars or are James Beard candidates. Those are prestigious accolades in the food world.
 
-For example, in New Orleans, Nellie Brennan of Brennan's restaurant takes Charlie's cousin and Joe to the Commander's Palace to meet Emeril Lagasse before Emeril opened his flagship restaurant and well before he was a Food network celebrity. Joe meets Susan Spicer before she became big at the Bistro at Maison de Ville. Other restaurants thought Joe was a food critic and would invite him at the Chef's table if he called. When they found out he was only a food enthusiast, they laughed and cooked up a storm. His food and wine palette expanded.
+Joe told me a story of how he met Emeril Lagasse before he was famous. He was in New Orleans. Charlie's cousin invites Joe to meet Nellie Brennan, owner of Brennan's restaurant. Nellie brings them to the Commander's Palace to meet the head chef, who turns out to be none other than Emeril. This was right before he opened his flagship restaurant. Well before he was a Food network celebrity. 
+
+Joe meets Susan Spicer before she became big at the Bistro at Maison de Ville. Some of these restaurants catch wind of Joe, thinking he was a food critic. They would invite him at the Chef's table if he called. When they found out he was only a food enthusiast, they laughed and would cooked up a storm. It was during this time Joe's food and wine palette expanded.
 
 GTE gets bought out by Bell Atlantic and forms Verizon. Joe becomes in charge of the telecomm act where he has to negotitate contracts on behalf of Verizon. He has to travel even more. In 1999, Joe quits to join a telecomm start-up in Indiana, First Mile Technology. The company was ahead of other ISPs offering 100 MB ethernet where other companies were offering at most T1 speeds. 
 
