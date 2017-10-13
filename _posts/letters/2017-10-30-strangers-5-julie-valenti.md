@@ -16,9 +16,7 @@ description: "Julie Valenti"
 - How did Mary introduce me to Julie?
  -->
 
-Mary gave me the dilemma of too much choice. 
-
-If you haven't followed along with this newsletter series, I'm interviewing strangers one degree of separation at a time. My last intervee, Mary Aipoalani, gave me too many choices on who to interview next. I was in choice paralysis until I get this text from Mary. "You need to connect with her. I just told her about you."
+If you haven't followed along with this newsletter series, I'm interviewing strangers one degree of separation at a time. My last interviewee, Mary Aipoalani, gave me too many choices on who to interview next. I was in choice paralysis until I get this text from Mary. "You need to connect with her. I just told her about you."
 
 Attached to the text was a VCard, a digital business card that makes it easy to add them to your contacts list. Or at least in theory it's supposed to be easy. I had the complication of incompatible file formats. Android phones hate Apple's VCards attachments. If you ever run into this problem, save the VCard text to a computer and add it to your contacts online. And if you're a iOS or Android developer, please make this integration easier in the future.
 
@@ -47,7 +45,9 @@ Julie works with patients who suffer from PTSD introduced from childhood. Julie'
 - Personal take on book
  -->
 
-Julie grew up in Idaho with an alcoholic father and a ?? mother. When she went to college, she studied psychology. 
+Julie grew up in Idaho. Her mother had an addiction to pain killers, which threw off Julie's upbrining. As she writes in her book, Julie talks about how her mother's dependence to legal drugs created problems at home. When the drugs weren't there, Julie's mother would turn into a different person. Julie became the caretaker for her mother. We call this the victim becoming the rescuer. 
+
+Julie would follow this pattern as an adult. She was in relationships where her partner may have an addiction and she was there to help them. When she went to college, she studied psychology. 
 
 Some therapies can be prolonged for decades. Patients come back, lie on the couch, and talk out their issues to their therapist. Rinse and repeat for years to decades, and it feel like all the therapist is there for is someone who will listen, for a hefty sum.
 
@@ -59,6 +59,8 @@ But Julie's program is different. She relates all of our mental problems with ne
 - Thoughts, emotion, behavior
 - Anchoring and reactions
 -->
+
+
 
 ### Empty Nest Syndrome
 
