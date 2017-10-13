@@ -53,7 +53,7 @@ Joe told me a story of how he met Emeril Lagasse before he was famous. He was in
 
 Joe meets Susan Spicer before she became big at the Bistro at Maison de Ville. Some of these restaurants catch wind of Joe, thinking he was a food critic. They would invite him at the Chef's table if he called. When they found out he was only a food enthusiast, they laughed and would cooked up a storm. It was during this time Joe's food and wine palette expanded.
 
-GTE gets bought out by Bell Atlantic and forms Verizon. Joe becomes in charge of the telecomm act where he has to negotitate contracts on behalf of Verizon. He has to travel even more. In 1999, Joe quits to join a telecomm start-up in Indiana, First Mile Technology. The company was ahead of other ISPs offering 100 MB ethernet where other companies were offering at most T1 speeds. 
+GTE gets bought out by Bell Atlantic and forms Verizon. Joe becomes in charge of the telecomm act where he has to negotitate contracts on behalf of Verizon. He has to travel even more. In 1999, Joe quits to join a telecomm start-up in Indiana, First Mile Technology. The company was ahead of their competitors.
 
 Business was going well. Then 9/11 happened. VC capital dried up. Joe had a tough time getting developers to give the start-up capital upfront because they didn't have the money. Joe left and consulted for a bunch of small companies.
 
