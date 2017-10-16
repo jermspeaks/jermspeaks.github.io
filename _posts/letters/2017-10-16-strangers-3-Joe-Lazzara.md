@@ -35,13 +35,13 @@ Joe's mother learned recipes passed down from the older generation. Joe's aunt t
 
 Joe is youngest of 6 children. There's an 18 year generational gap between his oldest brother and himself. Because of that, his father, his eldest brother, and he are born in different generations. His father was born in the 20s, his brother in the 40s, and Joe in the 60s.
 
-Joe's father didn't make much money. Yet, he valued education and funded all 6 children through college. He knew that going to college is important. He didn't have a large house. He made sure none of his children never paid a dime. Joe's very fortunate and greatful to his father. 
+Joe's father didn't make much money. Yet, he valued education and funded all 6 children through college. He knew that going to college is important. He didn't have a large house. He made sure none of his children never paid a dime. Joe's very fortunate and grateful to his father. 
 
 ## College and Early Career
 
 In college, Joe met Charlie Roar, Evan's dad. They became dependable friends and fraternity brothers. Today, they remain close. Joe is a godfather to Charlie's daughter. Joe's a part of Charlie's family as they moved from Chicago to Minnesota to North Carolina. When Joe's father passed away, you can bet Charlie was there for him and his family.
 
-Joe studied Quantatative analysis, which during the mid to late 80's, was the thing to study and get a great job. When Joe graduated, he worked at Indiana Bell on a software project. That project got sold to General Telephone and Electric, GTE. But, Indiana Bell didn't want to help with maintaining the software. 
+Joe studied Quantitative analysis, which during the mid to late 80's, was the thing to study and get a great job. When Joe graduated, he worked at Indiana Bell on a software project. That project got sold to General Telephone and Electric, GTE. But, Indiana Bell didn't want to help with maintaining the software. 
 
 GTE needed consultants. Joe's co-workers and Joe saw this as an opportunity to create their own consulting company. They formed United Informations Technology. Joe was 23 at the time and moved with the company to Tampa Bay. On weekends he'd invite friends. The job demanded Joe travel all over. With the sales commissions, Joe was making 6 figures. But the company's success didn't last long. The company hired an HR manager to manage pensions as they started growing. But, no one else knew this HR manager would take their pensions and buy coke in Florida and resell it in Chicago. One day, the FBI and DEA knock on Joe's door asking about the illegal activity. Joe exits as soon as he can; the company gets dissolved.
 
@@ -57,17 +57,17 @@ GTE gets bought out by Bell Atlantic and forms Verizon. Joe becomes in charge of
 
 Business was going well. Then 9/11 happened. VC capital dried up. Joe had a tough time getting developers to invest upfront because they didn't have the money. Joe left and consulted for a bunch of small companies.
 
-After that, he consulted for a few years. But Joe grew tired on traveling around. Clients were asking Joe to do things that tested against his principles. For example, they asked him to move phone numbers around, move money around, and lose trails. He sought solice from his brothers and Charlie. They reminded him of wanting to start a restaurant or be in food.
+After that, he consulted for a few years. But Joe grew tired on traveling around. Clients were asking Joe to do things that tested against his principles. For example, they asked him to move phone numbers around, move money around, and lose trails. He sought solace from his brothers and Charlie. They reminded him of wanting to start a restaurant or be in food.
 
 ## Butchershop
 
-Carmel, Indiana is a progressive city and their mayor wanted to build a city center. The mayor asked Joe if he wanted to start a restuarant there. When Joe asked his wife, she objected. She told him they have three children, ages 3, 5, and 7, and he wouldn't be there for them at night. Joe remembered his friend, Mark Zannoni. He was also Italian, and Mark's father owned a butcher shop outside of Chicago. Joe asked his wife about a buthcer shop, and she agreed that would be a better choice.
+Carmel, Indiana is a progressive city and their mayor wanted to build a city center. The mayor asked Joe if he wanted to start a restaurants there. When Joe asked his wife, she objected. She told him they have three children, ages 3, 5, and 7, and he wouldn't be there for them at night. Joe remembered his friend, Mark Zannoni. He was also Italian, and Mark's father owned a butcher shop outside of Chicago. Joe asked his wife about a butcher shop, and she agreed that would be a better choice.
 
 <img src="/assets/images/7DOS_Joe_Graphic.png" alt="Joe leaves his suit in the closet and wears a butcher's apron" width="600" />
 
 They put about a year of work into opening the shop before it opened. The first year's return was at a loss, but since then, they've been on the up. They're netting a few million a year, and it has become such an integral piece to the community. Joe's been at it for 11 years. You can find the butcher shop and fish market's website at the end of the article.
 
-There was an old couple that used to shop at Joe's butchershop weekly. They loved talking to Joe and the staff. One week, Joe noticed the husband stopped coming. The next Saturday, she came in early, right after the opening hour. She walks through the entrance, dressed top-to-bottom with a red dress.
+There was an old couple that used to shop at Joe's butcher shop weekly. They loved talking to Joe and the staff. One week, Joe noticed the husband stopped coming. The next Saturday, she came in early, right after the opening hour. She walks through the entrance, dressed top-to-bottom with a red dress.
 
 Joe asked the lady where her husband. The lady leans over the counter and tells Joe her husband passed away. Joe tells her he's sorry to hear, but the lady stops him. 
 
@@ -79,7 +79,7 @@ Joe tells me it's not about the money. It's all about giving back to the people.
 
 Joe picked the right location, and he owes his success to his background in sales. Without it, he couldn't see a different side of business. One where the customer gives you feedback and where you listen. Joe's mission is to share good karma, because things come back. And he can't see himself doing anything else. 
 
-"I sleep at night. I sleep like a baby, for the most part. Wheras before, I was always concerned about the next sale, or how I was going to get that revenue stream." 
+"I sleep at night. I sleep like a baby, for the most part. Whereas before, I was always concerned about the next sale, or how I was going to get that revenue stream." 
 
 
 ## Takeaways
