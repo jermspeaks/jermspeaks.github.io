@@ -12,7 +12,7 @@ description: "Joe Lazzara"
 
 ## Announcements
 
-Thanks for reading the Jear Bear Letters! Before we begin, I'd just like to say thanks for the support. I really appreciate your continued readership.
+Thanks for reading the Jear Bear Letters! Before we begin, I'd like to say thanks for the support. I really appreciate your continued readership.
 
 If you're a new reader or have missed the past few letters from the new series, "Seven Degrees of Strangers", you can find [the archive on tinyletter](http://tinyletter.com/jeremywong/archive) or check out [the new section on my website](http://www.craftbyzen.com/letters/season-three/).
 
@@ -55,10 +55,9 @@ Joe meets Susan Spicer before she became big at the Bistro at Maison de Ville. S
 
 GTE gets bought out by Bell Atlantic and forms Verizon. Joe becomes in charge of the telecomm act where he has to negotitate contracts on behalf of Verizon. He has to travel even more. In 1999, Joe quits to join a telecomm start-up in Indiana, First Mile Technology. The company was ahead of their competitors.
 
-Business was going well. Then 9/11 happened. VC capital dried up. Joe had a tough time getting developers to give the start-up capital upfront because they didn't have the money. Joe left and consulted for a bunch of small companies.
+Business was going well. Then 9/11 happened. VC capital dried up. Joe had a tough time getting developers to invest upfront because they didn't have the money. Joe left and consulted for a bunch of small companies.
 
-After that, he consulted for a few years. But Joe grew tired on traveling
-around. Clients were asking Joe to do things that were against his principles, like move phone numbers around, move money around, and lose trails. He sought solice from his brothers and Charlie. They reminded him of wanting to start a restaurant or be in food.
+After that, he consulted for a few years. But Joe grew tired on traveling around. Clients were asking Joe to do things that tested against his principles. For example, they asked him to move phone numbers around, move money around, and lose trails. He sought solice from his brothers and Charlie. They reminded him of wanting to start a restaurant or be in food.
 
 ## Butchershop
 
@@ -68,7 +67,7 @@ Carmel, Indiana is a progressive city and their mayor wanted to build a city cen
 
 They put about a year of work into opening the shop before it opened. The first year's return was at a loss, but since then, they've been on the up. They're netting a few million a year, and it has become such an integral piece to the community. Joe's been at it for 11 years. You can find the butcher shop and fish market's website at the end of the article.
 
-There was an old couple that used to shop at Joe's butchershop weekly. They loved talking to Joe and the staff. One week, Joe noticed the husband stopped coming. The next Saturday, she comes in early just after the opening hour and walks through the door dressed top-to-bottom with a red dress.
+There was an old couple that used to shop at Joe's butchershop weekly. They loved talking to Joe and the staff. One week, Joe noticed the husband stopped coming. The next Saturday, she came in early, right after the opening hour. She walks through the entrance, dressed top-to-bottom with a red dress.
 
 Joe asked the lady where her husband. The lady leans over the counter and tells Joe her husband passed away. Joe tells her he's sorry to hear, but the lady stops him. 
 
@@ -76,7 +75,7 @@ Joe asked the lady where her husband. The lady leans over the counter and tells 
 
 Of course, Joe's ready to melt after this. It's situations like this that has taught him he's the caretaker of community trust. He's seen customers have babies who have now grown to become pre-teens. He caters to community member's funerals. 
 
-Joe tells me it's not about the money. It's all about giving back to the people. It's the satisfaction knowing you're delivering the turkey to your customer's home during Thanksgiving. Early on, Joe wanted to franchise the business and build many "Joe's Butchershops". Now, Joe wants to make his shop iconic, like Ann Arbor's Zimmerman's Deli, or San Francisco's Gheridelli's Square. Carmel is an up and coming, affluent city, about an hour or two away from Indianapolis. People from all over the state come to visit the butcher shop.
+Joe tells me it's not about the money. It's all about giving back to the people. It's the satisfaction knowing you are delivering the turkey to your customer's home during Thanksgiving. Early on, Joe wanted to franchise the business and build many "Joe's Butchershops". Now, Joe wants to make his shop iconic, like Ann Arbor's Zimmerman's Deli or San Francisco's Ghirardelli's Square. Carmel is an up and coming, affluent city, about an hour or two away from Indianapolis. People from all over the state come to visit the butcher shop.
 
 Joe picked the right location, and he owes his success to his background in sales. Without it, he couldn't see a different side of business. One where the customer gives you feedback and where you listen. Joe's mission is to share good karma, because things come back. And he can't see himself doing anything else. 
 

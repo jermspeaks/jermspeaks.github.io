@@ -60,6 +60,16 @@ But Julie's program is different. She relates all of our mental problems with ne
 - Anchoring and reactions
 -->
 
+There are two things I'd like to share about Julie's book. They are big takeaways that stuck with me.
+
+1. Thoughts, emotion and behavior
+1. Anchoring and reactions
+
+#### Thoughts, Emotion and Behavior
+
+Our reaction is predicated by three steps. It starts with a thought. 
+
+#### Anchoring and Reactions
 
 
 ### Empty Nest Syndrome
