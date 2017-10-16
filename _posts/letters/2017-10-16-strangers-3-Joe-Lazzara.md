@@ -87,3 +87,5 @@ Joe picked the right location, and he owes his success to his background in sale
 Joe's takeaway makes a wonderful quote. "Love unconditionally, and you will be returned with unconditional joy." Very humbling.
 
 Check out [Joe's Butcher Shop and Fish Market](https://joesbutchershop.com/) if you're in the Carmel, Indiana area. 
+
+Credits to Joe Lazzara for talking to me. Credits to Evan Roer for the illustration and letterhead.
