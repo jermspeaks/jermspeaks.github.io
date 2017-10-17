@@ -1,3 +1,5 @@
+@import "./animations";
+
 $color-base-tri-1: #f0e5e2;
 $color-base-tri-2: #e2f0e5;
 
@@ -47,4 +49,8 @@ $color-base-tri-2: #e2f0e5;
   .season-description {
     margin-left: 14px;
   }
+}
+
+.letters-letterhead:hover {
+  animation: avatarzomg 0.9s infinite;
 }

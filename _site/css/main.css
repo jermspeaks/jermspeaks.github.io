@@ -655,6 +655,36 @@ td, th { padding: 0; }
 
 .cbz-footer-container { padding-top: 10px; padding-bottom: 10px; border-top: 2px solid rgba(200, 200, 200, 0.7); line-height: 26px; }
 
+@-webkit-keyframes avatarzomg { 0%, 100% { -webkit-filter: invert(0) saturate(100%) hue-rotate(0deg); }
+  25% { -webkit-filter: invert(10%) saturate(500%) hue-rotate(180deg); }
+  50% { -webkit-filter: invert(10%) saturate(200%) hue-rotate(300deg); }
+  75% { -webkit-filter: invert(10%) saturate(500%) hue-rotate(90deg); } }
+@-moz-keyframes avatarzomg { 0%, 100% { filter: invert(0) saturate(100%) hue-rotate(0deg); }
+  25% { filter: invert(10%) saturate(500%) hue-rotate(180deg); }
+  50% { filter: invert(10%) saturate(200%) hue-rotate(300deg); }
+  75% { filter: invert(10%) saturate(500%) hue-rotate(90deg); } }
+@keyframes avatarzomg { 0%, 100% { -webkit-filter: invert(0) saturate(100%) hue-rotate(0deg); filter: invert(0) saturate(100%) hue-rotate(0deg); }
+  25% { -webkit-filter: invert(10%) saturate(500%) hue-rotate(180deg); filter: invert(10%) saturate(500%) hue-rotate(180deg); }
+  50% { -webkit-filter: invert(10%) saturate(200%) hue-rotate(300deg); filter: invert(10%) saturate(200%) hue-rotate(300deg); }
+  75% { -webkit-filter: invert(10%) saturate(500%) hue-rotate(90deg); filter: invert(10%) saturate(500%) hue-rotate(90deg); } }
+@-webkit-keyframes zomg { 0%, 100% { color: #7ccdea; }
+  16% { color: #0074D9; }
+  32% { color: #2ECC40; }
+  48% { color: #FFDC00; }
+  64% { color: #B10DC9; }
+  80% { color: #FF4136; } }
+@-moz-keyframes zomg { 0%, 100% { color: #7ccdea; }
+  16% { color: #0074D9; }
+  32% { color: #2ECC40; }
+  48% { color: #FFDC00; }
+  64% { color: #B10DC9; }
+  80% { color: #FF4136; } }
+@keyframes zomg { 0%, 100% { color: #7ccdea; }
+  16% { color: #0074D9; }
+  32% { color: #2ECC40; }
+  48% { color: #FFDC00; }
+  64% { color: #B10DC9; }
+  80% { color: #FF4136; } }
 .letter-list > li { margin-bottom: 30px; }
 
 .letter-title { font-size: 1.5em; }
@@ -671,6 +701,8 @@ td, th { padding: 0; }
 
 .letters-middle-title h2 a { padding-left: 10px; border-left: 4px solid #f0e5e2; }
 .letters-middle-title h4, .letters-middle-title .season-image, .letters-middle-title .season-description { margin-left: 14px; }
+
+.letters-letterhead:hover { animation: avatarzomg 0.9s infinite; }
 
 @-webkit-keyframes avatarzomg { 0%, 100% { -webkit-filter: invert(0) saturate(100%) hue-rotate(0deg); }
   25% { -webkit-filter: invert(10%) saturate(500%) hue-rotate(180deg); }
