@@ -22,6 +22,11 @@
     <div class="project-description">
       <span>{{ include.description }}</span>
     </div>
+    {% endif %}    
+    {% if include.image %}
+    <div>
+      <img class="project-image" src="{{include.image}}" alt="{{include.title}} image" />
+    </div>
     {% endif %}
   </div>
 </div>
