@@ -44,9 +44,9 @@ Mary learned a long time ago the importance of connections. When her father died
 
 And she doesn't believe in coincidences. Life is nothing buy coincidences. And that's led to successes. Action comes first. Things are not handed over to you. She gave me some strategies in optimizing the search for opportunities.
 
-- **Traveling is a great way to make connections.** Traveling is a great way to make connections. You'll listen better with fewer distractions. 
+- **Traveling is a great way to make connections.** You'll listen better with fewer distractions. 
 - **Dress Appropriately.** Don't wear sweatpants. Dress up. Why? Because people judge you by your appearance. If you dress in business attire, you will attract business people.
-- **Be Interested in people.** Ellen Degeneras does it for a living. You can do it for yourself.
+- **Be Interested in people.** Ellen DeGeneres does it for a living. You can do it for yourself.
 - **Record people you meet.** Everyone has a different strategy of this. You can go with Mary's, like I described in the last section. Or you could use Twitter and follow handles. It could be rolex based, if you're into paper. 
 
 ### The Game
@@ -71,7 +71,7 @@ Mary says in the younger community, boys are always on their glass. It is import
 
 #### Side Tangent
 
-Years ago, I visited Budapest and hung out with a friend of a friend. She suprised me by bringing me to the river across from the parliment building during sunset. It was the most magical moment of the trip, and we attempted to open a bottle of wine. We clicked glasses took a sip, and she asked me, "So, Jeremy, what's your story?". The question confused me.
+Years ago, I visited Budapest and hung out with a friend of a friend. She surprised me by bringing me to the river across from the parliament building during sunset. It was the most magical moment of the trip, and we attempted to open a bottle of wine. We clicked glasses took a sip, and she asked me, "So, Jeremy, what's your story?". The question confused me.
 
 "You mean, what do I do?", I asked.
 
