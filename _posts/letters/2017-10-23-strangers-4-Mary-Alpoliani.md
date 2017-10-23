@@ -61,6 +61,8 @@ Mary told this to an Uber driver once. He said, "You inspire me." He is sold on 
 
 Mary's pitched this idea to television producers and they say she could get a TV show deal. It sounds appealing because it acts on our human tendencies to want to connect. And she doesn't do it to flirt with strangers. Mary's more interested in the stories people have to tell. 
 
+<img src="/assets/images/7_DOS_Mary_Graphic.png" alt="Mary's information on a cocktail napkin" />
+
 ### Takeaway message
 
 Take the opportunity to reach out to people. And Mary has a saying to go along with this. "Stop looking at your glass, get off your ass". Her daughter was listening to the conversation, and told me she couldn't say that last word. 
