@@ -34,6 +34,25 @@ In addition to being a sun worshipper, Julie's a mother of two and runs a Wellne
 
 Julie works with patients who suffer from PTSD introduced from childhood. Julie's clinic has been around for over a decade, although Julie has been in practice from much longer. From the years of practice, she wrote a book called "Knowing How: The 20 Concepts to Rewiring Your Brain".
 
+Julie talks about her "hidden agenda". By helping people re-wire their brain, she encourages people to be more alive. If people are more alive, they can become contributors and producers. If people are more alive, they consume less. 
+
+I've heard this phrase somewhere else. Esther Perel was interviewed on the podcast, Design Matters, talking about how couples feel more alive when they first meet than years into the relationship. During a mid-life crisis, a person may talk of the experience as feeling alive again. The bridge between the two states of feeling alive and living without elation is hormones.
+
+### Brain, Hormones and Neuroplasticity
+
+Julie touched on the difference between needs and desires. A desire can be substituted with a want. A need is a necessity to keep living. Psychologists have dubbed the necessity of living as the hierarchy of needs, which are food, shelter, self-actualization. Desires are linked to dopamine receptors. When released, they trigger our reward center.
+
+Our brain can be broken down to the survival portion and our intelligent portion. The intelligent portion is our consciousness, our prefrontal lobe. The survival portion has been called the animal brain, or survival brain. Evolutionary psychologists theorize humans had a point in history where a pre-frontal lobe began to form, yet we share similar tendancies to animals. 
+
+The reward center is linked to our survival brain. Amgdala? (verify). Many human behaviors are linked to how we handle situations. With trauma, we rely on keeping ourselves safe, activiting neurons that lead us to make safe decisions. Hence the safe brain.
+
+There was a myth that your brain is fixed, unable to un-learn the past, after a certain age. However, recent research shows this is not the case. They formed a concept called neuroplasticity. Unlike the fixed concept, neuroplasticity says your brain is able to change by rewiring it. Neurons that wire together fire together. By taking the time to learn or un-learn, the brain will form neuropathways that forms new habits.
+
+Carol Dweck wrote a book about this called Fixed Mindset, Growth Mindset (verify). Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both, where we allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
+
+Julie makes the 
+
+
 ### Adult Responsibility is Non-Negotiable
 
 <!-- 
@@ -227,3 +246,173 @@ Mentor / Coach to write book -> Angela
 Buy her book on Amazon 
 
 -->
+
+## Notes v2
+
+"This is me. Not trying to impress."
+
+Haven't talked to Mary in quite some time -> confidential
+
+Owns a wellness center in Portland Oregon to help people with PTSD from childhood trauma
+
+Developed own approach, wrote a book
+
+Recently: San Diego - Patio of hotel "I'm going to live here"
+
+Pool, beach, Balboa Park to ride her bike
+
+Bringing clinicians on board at wellness center as Julie starts promotion in San Diego. A few Skype sessions
+
+Book promotion.
+
+Creating realities, manifesting them to move from Portland to San Diego after one visit
+
+Hillcrest Area
+
+5 minutes from little Italy, Marina
+10 minutes from the Beach
+
+Excited state: Survival -> calm down to intelligent -> can do anything
+
+Portland for 23 years
+- Outrageous to rent / buy in
+- Freeways and roads can't support people, increase in traffic
+e.g. Seattle, LA, SF
+- Winters last 6 yo 7 months long: Icy, rainy, cloudy. Last winter - not going
+- 3 months of summer
+	- last summer broke records (109)
+Sun worshipper - someone who comes alive with sunlight
+*In Dark* - inside, sleepy, etc
+In these areas, can be diagnosed with SAD - seasonal affective disorder
+In brain, SAD
+
+Feel good receptors close in dark environment
+- Survival brain: go inside
+- Retina to shut down
+- Rest, protection, survival
+- Unevolved survival brain = where most brain activity is in
+
+2 different brand: subconscious vs conscious
+- subconscious: surviving
+- conscious: thinking
+
+In the "cold" vs the "heat" receptors = "safe"
+
+Balance - Needs vs. Desires (dopamine), Reward loop
+- Tech people to manipulate hormonal receptors
+- it's a hidden agenda: to be more alive so we can promote more contributors and producers and less consumers
+
+Grew up in Idaho in a mining town
+After HS, plane outta there
+
+The income household
+
+Euguene, OR: house
+But racist/white bred
+
+Moved to Portland to raise her family, divorce, leave
+
+Empty nest syndrome
+
+Grief & loss - more oxytocin near children (bonding hormone)
+
+Ocytocin receptors close propels loss
+- Most people don't want to feel it (don't want to experience it)
+- displace it for something new / fresh (mid-life crisis)
+"They should call it grief and loss"
+- But it's a nature process
+
+What do the children do?
+Mother has to come to terms of what's happening. 
+She must make adjustments - talk to child of what she's going through. Evoke compassion and empathy
+
+Mirror neurons
+
+Plan - both children see both
+one son in USC. one son in PDX
+
+How often comfortable texting, visiting, phone calls?
+
+"What seems right to you?"
+
+- A couple of weeks
+
+conversation of compromise and negotiation
+- How long? how much?
+- mother has to be understanding of separation
+- making compromise and let go
+
+Book
+for: those who need help and those who want to help
+the author
+conflicted attachments
+moving target parents
+
+mother - addict to amphetamines
+father - avoidance
+children
+neuroscience + PTSD
+
+The 5 part Communication Formula (p. 123 - 124)
+1. Observation
+	"This is what I heard or saw"
+2. Thought
+	"This is what I think"
+3. Feeling
+	"This is how I feel"
+4. Analyze Desires
+	"This is what I want"
+5. Participate
+	"Are you willing"
+	- Open to compromise
+
+React of organism of life theatening -> attachment
+
+Security = good, but not everyone
+Neuroplasticity - rewire & heal/amend
+
+Confliction = **think** what concept will help you
+Confusion, solved by one of the concepts + better hormones -> make a contribution to society
+
+Each concept: info
+- What we do in the world
+- Why we do it based off our hardwiring
+- What we do different
+- How we do it? Ask yourself these questions
+
+First concept is about the Brain & Body
+
+Breakdown the work emotion. [e-motion]. The word contains another word, "motion".
+Emotion is feeling, because we are stimulated and have a body response. "gut response"
+
+Second - Attachment Theory
+
+Broken down in three parts:
+
+- Understand yourself
+- Recreate same dynamics (the brain refuses to do this on its own)
+- Breaking "Bad Habits"
+Knowing how: this is what I do when this happens
+
+The last third of concepts of how to do it
+
+Psychotherapy not very effective. 
+Client helped Julie develop concepts
+
+Creating a program -> Wisdom and Recovery, The 20 concepts
+Wisdom = deep down what you know
+Recovery = release your authentic self
+
+- $1,000s for 1,000 hours of therapy
+- Therapist as attachment figure (rescuer)
+	- Dependent situation
+	- As a parent
+But Julie wants them to re-wire their brains. Can't have the tools normally
+Recovery: create a life, evolve human species, make a contribution to society
+"Opporunities" = wake up (hidden agenda)
+
+"Get over it" -> doesn't work. You must re-wire it
+
+Takeaway: 
+1. Understand yourself and resolve childhood conflicts
+2. Rewire your brain better, be a contributor over a consumer
