@@ -18,9 +18,9 @@ Last week, I wrote about my interview with Joe Lazzara, owner of Joe's Butcher a
 
 I had absolutely no background on Mary when I asked her to be my next interviewee. I called her a few days before our interview to schedule the meeting, and immediately, I knew I was going to enjoy our conversation. She exuded a lot of energy in her voice. It's as if she was ready to take on the world and ready to jump on any opportunity.
 
-Mary met Joe through work. Mary is the VP of Business Development at Renaissance Food Groups and sells their products at Joe's butcher shop. Mary knows the who's who in the food industry. When Mary's work brought her to Carmel, Indiana, she could tell the city's placed a lot of capital building their downtown. She spoke to Joe for two hours about her products, about his shop and life, and the competition he faced. Mary has an eye for marketplaces that sell well, and you can find her company's products in Joe's shop.
+Mary met Joe through work. Mary is the VP of Product Development at Renaissance Food Group. She met Joe on a business trip to Indiana. Although her company does not sell their products at Joe's butcher shop, she struck a great conversation with Joe. Mary knows the who's who in the food industry. When Mary's work brought her to Indiana, and she could tell the city's placed a lot of capital building their downtown. She spoke to Joe for two hours about her products, about his shop and life, and the competition he faced. Mary has an eye for marketplaces that sell well.
 
-Mary came from humble beginings in Indiana. She grew up on a farm and her food was her family’s language. She and her husband travel around all over the US, selling and managing food products. From what I can access, Mary is a busy person. Yet, as I find out, Mary makes time for people. Case in point, during our conversation, she was driving her daughter to an appointment.
+Mary came from humble beginings in Michigan. She grew up on a farm and her food was her family’s language. She and her husband travel around all over the US, selling and managing food products. From what I can access, Mary is a busy person. Yet, as I find out, Mary makes time for people. Case in point, during our conversation, she was driving her daughter to an appointment.
 
 ### Storing Contacts
 
@@ -90,7 +90,7 @@ I lost half of our conversation. Mary was driving through poor cell service area
 
 Connection to Joe
 
-Facilities -> VP of Business Development at Renaissance Food Groups
+Facilities -> VP of Business Development at Renaissance Food Group
 Retail floors
 
 Venture in town (Carmel) -> lots of money downtown
