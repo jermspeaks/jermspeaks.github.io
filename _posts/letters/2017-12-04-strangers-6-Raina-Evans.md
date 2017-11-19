@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Sixth Separation"
-date: 2017-11-06
+date: 2017-12-04
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Raina Evans"
@@ -40,8 +40,6 @@ Licensed the cirriculum to other organizations.
 
 2007 - possession of cirriculum of "Ready to Rent"
 2010 - gave copyright to Raina's org
-
-
 
 ## Takeaway message
 
