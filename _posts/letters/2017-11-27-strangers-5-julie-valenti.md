@@ -16,7 +16,7 @@ description: "Julie Valenti"
 - How did Mary introduce me to Julie?
  -->
 
-If you haven't followed along with this newsletter series, I'm interviewing strangers one degree of separation at a time. My last interviewee, Mary Aipoalani, gave me too many choices on who to interview next. I was in choice paralysis until I get this text from Mary. "You need to connect with her. I just told her about you."
+If you haven't followed along with this newsletter series, I'm interviewing strangers one degree of separation at a time. My last interviewee, Mary Aipoalani, gave me too many choices on who to interview next. I was in choice paralysis until I received this text from Mary. "You need to connect with her. I just told her about you."
 
 Attached to the text was a VCard, a digital business card that makes it easy to add them to your contacts list. Or at least in theory it's supposed to be easy. I had the complication of incompatible file formats. Android phones hate Apple's VCards attachments. If you ever run into this problem, save the VCard text to a computer and add it to your contacts online. And if you're a iOS or Android developer, please make this integration easier in the future.
 
@@ -28,7 +28,9 @@ Attached to the text was a VCard, a digital business card that makes it easy to 
 - Julie's practice (Wellness Center)	
  -->
 
-When I called Julie, she was at her home in San Diego soaking up the sun. She tells me she's a sun worshipper. I had to admit, I didn't understand what that meant. Was she a follower of Ra, the Egyptian Sun God? Was she a repeat attendee to burning man? Nope, she just enjoys the sun. Living in Portland for 23 years, Julie appreciates the sun and tells me she sufferred from SAD - Seasonal Affective Disorder. Julie recently moved to San Diego so she can have all the sun she wants.
+When I called Julie, she was at her home in San Diego soaking up the sun. She tells me she's a sun worshipper. I had to admit, I didn't understand what that meant. Was she a follower of Ra, the Egyptian Sun God? Was she a repeat attendee to burning man? Nope, she just enjoys the sun. Living in Portland for 23 years, Julie appreciates the sun. She tells me she sufferred from SAD - Seasonal Affective Disorder. Julie recently moved to San Diego so she can have all the sun she wants.
+
+Her friend invited her to come out to San Diego, and on her visit, she decided there and then she wanted to move there.
 
 In addition to being a sun worshipper, Julie's a mother of two and runs a Wellness center in Portland, Oregon. She spends half her time working in Portland and half her time living it up in San Diego. And I can't blame her, I'd rather be in the sun as well. She spends some time every two weeks up in Portland to help with logistics for the center, then takes clients remotely.
 
@@ -36,21 +38,21 @@ Julie works with patients who suffer from PTSD introduced from childhood. Julie'
 
 Julie talks about her "hidden agenda". By helping people re-wire their brain, she encourages people to be more alive. If people are more alive, they can become contributors and producers. If people are more alive, they consume less. 
 
-I've heard this phrase somewhere else. Esther Perel was interviewed on the podcast, Design Matters, talking about how couples feel more alive when they first meet than years into the relationship. During a mid-life crisis, a person may talk of the experience as feeling alive again. The bridge between the two states of feeling alive and living without elation is hormones.
+I've heard this phrase somewhere else. Esther Perel was interviewed on the podcast, Design Matters, talking about how couples feel more alive when they first meet than years into the relationship. During a mid-life crisis, a person may talk of the experience as feeling alive again. Hormones are the bridge between feeling alive and living without elation.
 
 ### Brain, Hormones and Neuroplasticity
 
-Julie touched on the difference between needs and desires. A desire can be substituted with a want. A need is a necessity to keep living. Psychologists have dubbed the necessity of living as the hierarchy of needs, which are food, shelter, self-actualization. Desires are linked to dopamine receptors. When released, they trigger our reward center.
+Julie touched on the difference between needs and desires. A desire can be substituted with a want. A need is a necessity to keep living. Necessities such as food and shelter. Desires are linked to dopamine receptors. When released, they trigger our reward center.
 
 Our brain can be broken down to the survival portion and our intelligent portion. The intelligent portion is our consciousness, our prefrontal lobe. The survival portion has been called the animal brain, or survival brain. Evolutionary psychologists theorize humans had a point in history where a pre-frontal lobe began to form, yet we share similar tendancies to animals. 
 
-The reward center is linked to our survival brain. Amgdala? (verify). Many human behaviors are linked to how we handle situations. With trauma, we rely on keeping ourselves safe, activiting neurons that lead us to make safe decisions. Hence the safe brain.
+The reward center is linked to our survival brain, our Amygdala. Many human behaviors are linked to how we handle situations. With trauma, we rely on keeping ourselves safe, activiting neurons that lead us to make safe decisions. Hence the safe brain.
 
 There was a myth that your brain is fixed, unable to un-learn the past, after a certain age. However, recent research shows this is not the case. They formed a concept called neuroplasticity. Unlike the fixed concept, neuroplasticity says your brain is able to change by rewiring it. Neurons that wire together fire together. By taking the time to learn or un-learn, the brain will form neuropathways that forms new habits.
 
 Carol Dweck wrote a book about this called Fixed Mindset, Growth Mindset (verify). Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both, where we allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
 
-Julie makes the 
+Julie makes the ...
 
 
 ### Adult Responsibility is Non-Negotiable
@@ -64,9 +66,9 @@ Julie makes the
 - Personal take on book
  -->
 
-Julie grew up in Idaho. Her mother had an addiction to pain killers, which threw off Julie's upbrining. As she writes in her book, Julie talks about how her mother's dependence to legal drugs created problems at home. When the drugs weren't there, Julie's mother would turn into a different person. Julie became the caretaker for her mother. We call this the victim becoming the rescuer. 
+Julie grew up in Idaho. Her mother had an addiction to pain killers, and her addiction affected how her children were raised. Julie's upbrining and relationship to her mother was toxic. As she writes in her book, Julie talks about how her mother's dependence to legal drugs created problems at home. When the drugs weren't there, Julie's mother would turn into a different person. Julie became the caretaker for her mother. We call this the victim becoming the rescuer. 
 
-Julie would follow this pattern as an adult. She was in relationships where her partner may have an addiction and she was there to help them. When she went to college, she studied psychology. 
+Julie would follow this pattern as an adult. She was in relationships where her partner may have an addiction and she was there to help them. She was playing the rescuer. When she went to college, she studied psychology. 
 
 Some therapies can be prolonged for decades. Patients come back, lie on the couch, and talk out their issues to their therapist. Rinse and repeat for years to decades, and it feel like all the therapist is there for is someone who will listen, for a hefty sum.
 
@@ -79,7 +81,9 @@ But Julie's program is different. She relates all of our mental problems with ne
 - Anchoring and reactions
 -->
 
-There are two things I'd like to share about Julie's book. They are big takeaways that stuck with me.
+I had the change to read Julie's book on a plane ride from San Jose to St. Louis. As I progressed in the book, I realized this is a book I'll be coming back to over and over. In the book, Julie describes her past, explains the reasons for the 20 concepts and how to use them, then goes over each concept in detail with a self-assessment at the end of each concept. The concepts and self-assessments are the result of Julie's work for the past few decades. As I started answering some of the questions, I realized where some of my pitfalls are. I will return to the book over the course of the next few months, slowly working through the self-assessments. 
+
+Julie recommends creating a book circle. If you'd like to participate in such a circle, please let me know and I can set up something circled around this newsletter. In any case, I won't disclose all 20 concepts in this newsletter. That would be cumbersome and repetitive. Plus, I want people to go buy this book. Instead, I'll share the takeaways that stuck with me.
 
 1. Thoughts, emotion and behavior
 1. Anchoring and reactions
