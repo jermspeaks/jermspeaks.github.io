@@ -22,19 +22,41 @@ Attached to the text was a VCard, a digital business card that makes it easy to 
 
 ## Enter Julie Valenti
 
+Julie has a hidden agenda. She helps people re-wire their brain so they can be more alive. If people are more alive, they can become contributes and producers. If people are more alive, they consume less.
+
+Let's step back for a moment. Who is Julie? She's a new resident of San Diego. She moved here because she'd rather soak up the sun than live in a cloudy and low-lit place like Portland, Oregon. She resided in Portland for the past 23 years, and she sufferred from SAD - Seasonal Affective Disorder. When Julie's friend invited her to come out to San Diego months ago, she knew she had to move there. 
+
+Besides being a sun worshipper, Julie's also the owner of Portland's Wisdom and Recovery Wellness Center. She works with patients who suffer from PTSD introduced from childhood. Julie's clinic has been around for over a decade, although Julie has been in practice from much longer. 
+
+Julie is also an author. She wrote a book called "Knowing How: The 20 Concepts to Rewiring Your Brain" based off her practice.
+
+From our conversation, I could tell Julie had a lot of energy. We will dive into motherhood, her work, and her book.
+
+### Empty Nest Syndrome
+
 <!-- 
-- Who is Julie?
-- Sun Worshipper
-- Julie's practice (Wellness Center)	
+- Grief and Neurological Role
+- Relationship with her sons
+- How to talk to my mother
  -->
 
-When I called Julie, she was at her home in San Diego soaking up the sun. She tells me she's a sun worshipper. I had to admit, I didn't understand what that meant. Was she a follower of Ra, the Egyptian Sun God? Was she a repeat attendee to burning man? Nope, she just enjoys the sun. Living in Portland for 23 years, Julie appreciates the sun. She tells me she sufferred from SAD - Seasonal Affective Disorder. Julie recently moved to San Diego so she can have all the sun she wants.
+Julie has two children, and both of them have moved away. One moved to Los Angeles. The other in Portland. At least I believe so, at the time of this writing. One reason Julie did not hesitate to move to San Diego was her youngest son lives nearby, in Los Angeles.
 
-Her friend invited her to come out to San Diego, and on her visit, she decided there and then she wanted to move there.
+I was very curious how Julie dealt with her children moved away. I wanted to know the mother's perspective on empty nest syndrome. As Julie explains it to me, "empty nest syndrome" is a fancy term for grief. Now that the children are gone, the mother grieves, and the grieving process isn't an easy road. 
 
-In addition to being a sun worshipper, Julie's a mother of two and runs a Wellness center in Portland, Oregon. She spends half her time working in Portland and half her time living it up in San Diego. And I can't blame her, I'd rather be in the sun as well. She spends some time every two weeks up in Portland to help with logistics for the center, then takes clients remotely.
+What can help is to discuss what the role of mother and child are now, and to develop boundaries of where each one lies. The compromise of each party is how we should resolve this mental conflict. For Julie, that was to have a conversation with her son in LA about how often they would talk over the phone. It would be how often they would meet up since Julie lives within driving distance to her son. Or it's how much space they needed from each other so Julie wouldn't be suffucating her child.
 
-Julie works with patients who suffer from PTSD introduced from childhood. Julie's clinic has been around for over a decade, although Julie has been in practice from much longer. From the years of practice, she wrote a book called "Knowing How: The 20 Concepts to Rewiring Your Brain".
+I asked Julie about this because I am facing a similar situation with my mother. My sister, the youngest sibling, has left the nest. My mother hasn't been dealing with empty nest symdrome head on. If Julie's right, my mother didn't enter the grieving process. Instead, my mother's had acted in avoidance of the issues. Julie says, grieving requires 
+
+And in a way, I wanted to have this conversation with my mother. I asked Julie about this, and by the end of our conversation, I had a task, to reach out to my mother and have this conversation. I haven't had this conversation with my mother yet. When I initiate that conversation, I'll take Julie's advice and listen to my mother's grief.
+
+### Wisdom and Recovery Wellness Center
+
+Despite some challenges along the way, Julie made it work. She's a mother of two and runs a wellness center in Portland, Oregon. She spends some time every two weeks up in Portland to help with logistics for the center, then takes clients remotely. Living it up, I'd jokingly say. And I can't blame her; I'd rather be in the sun too. 
+
+Julie works with patients who suffer from PTSD introduced from childhood. 
+
+### The Hidden Agenda
 
 Julie talks about her "hidden agenda". By helping people re-wire their brain, she encourages people to be more alive. If people are more alive, they can become contributors and producers. If people are more alive, they consume less. 
 
@@ -50,9 +72,30 @@ The reward center is linked to our survival brain, our Amygdala. Many human beha
 
 There was a myth that your brain is fixed, unable to un-learn the past, after a certain age. However, recent research shows this is not the case. They formed a concept called neuroplasticity. Unlike the fixed concept, neuroplasticity says your brain is able to change by rewiring it. Neurons that wire together fire together. By taking the time to learn or un-learn, the brain will form neuropathways that forms new habits.
 
-Carol Dweck wrote a book about this called Fixed Mindset, Growth Mindset (verify). Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both, where we allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
+Carol Dweck wrote a book about this called "The Growth Mindset". In the book, Dweck describes and differentiates between fixed mindsets and growth mindsets. Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both, where we allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
 
-Julie makes the ...
+### Rewiring Communication
+
+I had the chance to read Julie's book on a plane ride from San Jose to St. Louis. The book is for people with childhood PTSD (post-trumatic stress syndrome) and therapists who work with patients with childhood PTSD. I realize the book isn't only for those readers though. As I progressed in the book, I realized this is a book I'll be coming back to over and over. The reason is there are concepts in the book I currently struggle with, the biggest being communication.
+
+In the book, Julie describes her past, explains the reasons for the 20 concepts and how to use them, then goes over each concept in detail with a self-assessment at the end of each concept. The concepts and self-assessments are the result of Julie's work for the past few decades. As I started answering some of the questions, I realized where some of my pitfalls are. I will return to the book over the course of the next few months, slowly working through the self-assessments. 
+
+Julie makes use of this knowledge and utilizes neuroplasticity to help her patients. The self-assessments help the reader answer questions to help solidify their understanding of how the concept relates to them. Perhaps these are questions they have been avoiding. Many of the concepts have follow-ups on building habits to help them through tough situations. Or unlearning habits that have been ingrained since their childhood. The self-assessment helps the person ask what they are doing in the world, why do they do what they do based off their hardwiring, what they can do different, and how to go about doing different.
+
+Julie recommends creating a book circle. If you'd like to participate in such a circle, please let me know and I can set up something circled around this newsletter. In any case, I won't disclose all 20 concepts in this newsletter. That would be cumbersome and repetitive. Plus, I want people to go buy this book. Instead, I'll share the takeaways that stuck with me.
+
+The 5 part Communication Formula (p. 123 - 124)
+1. Observation
+	"This is what I heard or saw"
+2. Thought
+	"This is what I think"
+3. Feeling
+	"This is how I feel"
+4. Analyze Desires
+	"This is what I want"
+5. Participate
+	"Are you willing"
+	- Open to compromise
 
 
 ### Adult Responsibility is Non-Negotiable
@@ -74,43 +117,6 @@ Some therapies can be prolonged for decades. Patients come back, lie on the couc
 
 But Julie's program is different. She relates all of our mental problems with neuropsychology and hormone imbalances.
 
-### Rewiring Communication
-
-<!-- 
-- Thoughts, emotion, behavior
-- Anchoring and reactions
--->
-
-I had the change to read Julie's book on a plane ride from San Jose to St. Louis. As I progressed in the book, I realized this is a book I'll be coming back to over and over. In the book, Julie describes her past, explains the reasons for the 20 concepts and how to use them, then goes over each concept in detail with a self-assessment at the end of each concept. The concepts and self-assessments are the result of Julie's work for the past few decades. As I started answering some of the questions, I realized where some of my pitfalls are. I will return to the book over the course of the next few months, slowly working through the self-assessments. 
-
-Julie recommends creating a book circle. If you'd like to participate in such a circle, please let me know and I can set up something circled around this newsletter. In any case, I won't disclose all 20 concepts in this newsletter. That would be cumbersome and repetitive. Plus, I want people to go buy this book. Instead, I'll share the takeaways that stuck with me.
-
-1. Thoughts, emotion and behavior
-1. Anchoring and reactions
-
-#### Thoughts, Emotion and Behavior
-
-Our reaction is predicated by three steps. It starts with a thought. 
-
-#### Anchoring and Reactions
-
-
-### Empty Nest Syndrome
-
-<!-- 
-- Grief and Neurological Role
-- Relationship with her sons
-- How to talk to my mother
- -->
-
-Julie's got two children who have moved away. One in LA and another somewhere else. I was very curious how Julie deals with her children moved away. 
-And in turn, how do I resolve my mother's requests and demands now the children have left.
-As Julie explains it to me, "empty nest syndrome" is a fancy term for grief. Now that the children are gone, the mother grieves, and the grieving process isn't an easy road. 
-What can help is to discuss what the role of mother and child are now, and to develop boundaries of where each one lies. The compromise of each party is how we should resolve this mental conflict. 
-
-For Julie, that was to have a conversation with her son in LA about how often they would talk over the phone. It would be how often they would meet up since Julie lives within driving distance to her son. Or it's how much space they needed from each other so Julie wouldn't be suffucating her child. 
-
-And in a way, I wanted to have this conversation with my mother. I asked Julie about this, and by the end of our conversation, I had a task, to reach out to my mother and have this conversation.
 
 ## Takeaway message
 
