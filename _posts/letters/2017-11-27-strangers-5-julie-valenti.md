@@ -22,17 +22,26 @@ Attached to the text was a VCard, a digital business card that makes it easy to 
 
 ## Enter Julie Valenti
 
-Julie has a hidden agenda. She helps people re-wire their brain so they can be more alive. If people are more alive, they can become contributes and producers. If people are more alive, they consume less.
+Julie is alive, energized by the southern California sun. She harnesses that energy and uses it to help people rewire their brains. Rewire metaphorically. Her hidden agenda is by rewiring brains, these people will be more alive. And by being more alive, she hopes people can become contributors and producers in our world. In turn, she hopes people consume less.
 
 Let's step back for a moment. Who is Julie? She's a new resident of San Diego. She moved here because she'd rather soak up the sun than live in a cloudy and low-lit place like Portland, Oregon. She resided in Portland for the past 23 years, and she sufferred from SAD - Seasonal Affective Disorder. When Julie's friend invited her to come out to San Diego months ago, she knew she had to move there. 
 
-Besides being a sun worshipper, Julie's also the owner of Portland's Wisdom and Recovery Wellness Center. She works with patients who suffer from PTSD introduced from childhood. Julie's clinic has been around for over a decade, although Julie has been in practice from much longer. 
+Besides being a sun worshipper, Julie's also the owner of Portland's Wisdom and Recovery Wellness Center. She works with patients who suffer from confusing childhoods. This is post-trumatic stress disorder in childhood. This can be a result from parents who were abusive, who were neglectful, who were emotionally taxing. 
 
-Julie is also an author. She wrote a book called "Knowing How: The 20 Concepts to Rewiring Your Brain" based off her practice.
-
-From our conversation, I could tell Julie had a lot of energy. We will dive into motherhood, her work, and her book.
+Julie's center has been around for over a decade. Julie has been in practice from much longer. Julie is also an author. She wrote a book called "Knowing How: The 20 Concepts to Rewiring Your Brain" based off her practice.
 
 ### Empty Nest Syndrome
+
+Julie cites one of the reasons to move to San Diego was to be closer to her youngest son. Her son was the last child to leave home. He moved to Los Angeles, and Julie wanted to be able to visit.
+
+I asked Julie what was a mother's perspective on empty nest syndrome. Julie explains "empty nest syndrome" is a fancy term for grief. When children are around, the mother produces a bonding hormone, oxytocin. When the children leave the nest, the mother stops producing as much oxytocin. A result of the hormonal change is the same symptoms of grief and loss.
+
+The mother must come to her terms with the life adjustment. When neglected, the result is oftentimes a "mid-life crisis". She withdraws and re-evaluates herself. When recognized, the mother feels it in her body.
+
+The mother must setup boundaries with her children. The child is in a different place with life, independent from the nest. Part of the re-adjustments Julie talks about is developing boundaries
+
+What can help is to discuss what the role of mother and child are now, and to develop boundaries of where each one lies. The compromise of each party is how we should resolve this mental conflict. For Julie, that was to have a conversation with her son in LA about how often they would talk over the phone. It would be how often they would meet up since Julie lives within driving distance to her son. Or it's how much space they needed from each other so Julie wouldn't be suffucating her child.
+
 
 <!-- 
 - Grief and Neurological Role
@@ -40,11 +49,6 @@ From our conversation, I could tell Julie had a lot of energy. We will dive into
 - How to talk to my mother
  -->
 
-Julie has two children, and both of them have moved away. One moved to Los Angeles. The other in Portland. At least I believe so, at the time of this writing. One reason Julie did not hesitate to move to San Diego was her youngest son lives nearby, in Los Angeles.
-
-I was very curious how Julie dealt with her children moved away. I wanted to know the mother's perspective on empty nest syndrome. As Julie explains it to me, "empty nest syndrome" is a fancy term for grief. Now that the children are gone, the mother grieves, and the grieving process isn't an easy road. 
-
-What can help is to discuss what the role of mother and child are now, and to develop boundaries of where each one lies. The compromise of each party is how we should resolve this mental conflict. For Julie, that was to have a conversation with her son in LA about how often they would talk over the phone. It would be how often they would meet up since Julie lives within driving distance to her son. Or it's how much space they needed from each other so Julie wouldn't be suffucating her child.
 
 I asked Julie about this because I am facing a similar situation with my mother. My sister, the youngest sibling, has left the nest. My mother hasn't been dealing with empty nest symdrome head on. If Julie's right, my mother didn't enter the grieving process. Instead, my mother's had acted in avoidance of the issues. Julie says, grieving requires 
 
