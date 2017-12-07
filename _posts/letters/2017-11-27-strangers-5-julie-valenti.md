@@ -44,23 +44,13 @@ I asked Julie about empty nest syndrome for personal reasons. My sister, the you
 
 ### Wisdom and Recovery Wellness Center
 
-Despite some challenges along the way, Julie made it work. She's a mother of two and runs a wellness center in Portland, Oregon. She spends some time every two weeks up in Portland to help with logistics for the center, then takes clients remotely. Living it up, I'd jokingly say. And I can't blame her; I'd rather be in the sun too. 
+Julie works with patients who suffer from PTSD introduced from childhood. She spends some time every two weeks up in Portland to help with logistics for the center, then takes clients remotely. When Julie is on-site, she is also training staff members. 
 
-Julie works with patients who suffer from PTSD introduced from childhood. 
+To be clear, Julie is not practicing traditional psychotherapy. That means, clients do not come in and lay on a couch for an hour every week for the rest of their lives. Julie is a licensed hypnotherapist. She wants her patients to heal and be less dependent of a therapist. Stop going altogether.
 
-### The Hidden Agenda
+#### Neuroplasticity
 
-Julie talks about her "hidden agenda". By helping people re-wire their brain, she encourages people to be more alive. If people are more alive, they can become contributors and producers. If people are more alive, they consume less. 
-
-I've heard this phrase somewhere else. Esther Perel was interviewed on the podcast, Design Matters, talking about how couples feel more alive when they first meet than years into the relationship. During a mid-life crisis, a person may talk of the experience as feeling alive again. Hormones are the bridge between feeling alive and living without elation.
-
-### Brain, Hormones and Neuroplasticity
-
-Julie touched on the difference between needs and desires. A desire can be substituted with a want. A need is a necessity to keep living. Necessities such as food and shelter. Desires are linked to dopamine receptors. When released, they trigger our reward center.
-
-Our brain can be broken down to the survival portion and our intelligent portion. The intelligent portion is our consciousness, our prefrontal lobe. The survival portion has been called the animal brain, or survival brain. Evolutionary psychologists theorize humans had a point in history where a pre-frontal lobe began to form, yet we share similar tendancies to animals. 
-
-The reward center is linked to our survival brain, our Amygdala. Many human behaviors are linked to how we handle situations. With trauma, we rely on keeping ourselves safe, activiting neurons that lead us to make safe decisions. Hence the safe brain.
+Before the concept of neuroplasticity, many therapists belileve
 
 There was a myth that your brain is fixed, unable to un-learn the past, after a certain age. However, recent research shows this is not the case. They formed a concept called neuroplasticity. Unlike the fixed concept, neuroplasticity says your brain is able to change by rewiring it. Neurons that wire together fire together. By taking the time to learn or un-learn, the brain will form neuropathways that forms new habits.
 
