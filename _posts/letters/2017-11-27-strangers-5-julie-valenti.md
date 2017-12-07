@@ -38,21 +38,9 @@ I asked Julie what was a mother's perspective on empty nest syndrome. Julie expl
 
 The mother must come to her terms with the life adjustment. When neglected, the result is oftentimes a "mid-life crisis". She withdraws and re-evaluates herself. When recognized, the mother feels it in her body.
 
-The mother must setup boundaries with her children. The child is in a different place with life, independent from the nest. Part of the re-adjustments Julie talks about is developing boundaries
+The mother must setup boundaries with her children. The child is in a different place with life, independent from the nest. Part of the re-adjustments Julie talks about is developing boundaries with the mother's children. For Julie, she had a conversation with her son in LA about how often they would talk over the phone, how often they would see each other, how much space they needed from each other. Julie wants to make sure she would not suffucate her child.
 
-What can help is to discuss what the role of mother and child are now, and to develop boundaries of where each one lies. The compromise of each party is how we should resolve this mental conflict. For Julie, that was to have a conversation with her son in LA about how often they would talk over the phone. It would be how often they would meet up since Julie lives within driving distance to her son. Or it's how much space they needed from each other so Julie wouldn't be suffucating her child.
-
-
-<!-- 
-- Grief and Neurological Role
-- Relationship with her sons
-- How to talk to my mother
- -->
-
-
-I asked Julie about this because I am facing a similar situation with my mother. My sister, the youngest sibling, has left the nest. My mother hasn't been dealing with empty nest symdrome head on. If Julie's right, my mother didn't enter the grieving process. Instead, my mother's had acted in avoidance of the issues. Julie says, grieving requires 
-
-And in a way, I wanted to have this conversation with my mother. I asked Julie about this, and by the end of our conversation, I had a task, to reach out to my mother and have this conversation. I haven't had this conversation with my mother yet. When I initiate that conversation, I'll take Julie's advice and listen to my mother's grief.
+I asked Julie about empty nest syndrome for personal reasons. My sister, the youngest sibling, has left the nest. My mother hasn't been dealing with empty nest symdrome directly. Armed with a better understanding, I am tasked with having a conversation with my mom about empty nest syndrome and grief.
 
 ### Wisdom and Recovery Wellness Center
 
