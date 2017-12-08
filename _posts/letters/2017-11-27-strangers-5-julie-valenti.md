@@ -50,11 +50,11 @@ To be clear, Julie is not practicing traditional psychotherapy. That means, clie
 
 #### Neuroplasticity
 
-Before the concept of neuroplasticity, many therapists belileve
+"You can't teach a dog new tricks." This is not true. Brains are not fixed after a certain age. Recent research shows neurons that fire together wire together. This concept is called neuroplasticity. By taking the time to learn or un-learn, the brain will form neuropathways that forms new habits.
 
-There was a myth that your brain is fixed, unable to un-learn the past, after a certain age. However, recent research shows this is not the case. They formed a concept called neuroplasticity. Unlike the fixed concept, neuroplasticity says your brain is able to change by rewiring it. Neurons that wire together fire together. By taking the time to learn or un-learn, the brain will form neuropathways that forms new habits.
+Carol Dweck wrote a book about this called "Mindset: The New Psychology of Success". In the book, Dweck describes and differentiates between fixed mindsets and growth mindsets. Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both, where we allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
 
-Carol Dweck wrote a book about this called "The Growth Mindset". In the book, Dweck describes and differentiates between fixed mindsets and growth mindsets. Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both, where we allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
+Julie uses this understanding of neuroplasticity to teach her clients they have the ability to change. She helps people form new habits, or breaks old ones. With practice, the client will be able to re-wire their brains. 
 
 ### Rewiring Communication
 
