@@ -54,68 +54,67 @@ To be clear, Julie is not practicing traditional psychotherapy. That means, clie
 
 Carol Dweck wrote a book about this called "Mindset: The New Psychology of Success". In the book, Dweck describes and differentiates between fixed mindsets and growth mindsets. Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both, where we allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
 
-Julie uses this understanding of neuroplasticity to teach her clients they have the ability to change. She helps people form new habits, or breaks old ones. With practice, the client will be able to re-wire their brains. 
+Julie uses this understanding of neuroplasticity to teach her clients they have the ability to change. With some guidence and practice, the client will be able to re-wire their brains. 
 
 ### Rewiring Communication
 
-I had the chance to read Julie's book on a plane ride from San Jose to St. Louis. The book is for people with childhood PTSD (post-trumatic stress syndrome) and therapists who work with patients with childhood PTSD. I realize the book isn't only for those readers though. As I progressed in the book, I realized this is a book I'll be coming back to over and over. The reason is there are concepts in the book I currently struggle with, the biggest being communication.
+I had the chance to read Julie's book on a plane ride from San Jose to St. Louis. The book is for people with a confusing childhood and therapists. I would make the case the book can also be for people who don't have a confusing childhood. I recognize I strugge with some of the concepts.
 
-In the book, Julie describes her past, explains the reasons for the 20 concepts and how to use them, then goes over each concept in detail with a self-assessment at the end of each concept. The concepts and self-assessments are the result of Julie's work for the past few decades. As I started answering some of the questions, I realized where some of my pitfalls are. I will return to the book over the course of the next few months, slowly working through the self-assessments. 
+The 20 concepts are tools to help arm the reader. Julie write about each concept, goes into examples of how the concept applies, and supplies a self-assessment. The concepts and self-assessments are the result of Julie's work for the past few decades. The self-assessments help the reader answer questions to help solidify their understanding of how the concept relates to them. This sounds like high praise, but I will return to the book over the course of the next few months, slowly working through the self-assessments. 
 
-Julie makes use of this knowledge and utilizes neuroplasticity to help her patients. The self-assessments help the reader answer questions to help solidify their understanding of how the concept relates to them. Perhaps these are questions they have been avoiding. Many of the concepts have follow-ups on building habits to help them through tough situations. Or unlearning habits that have been ingrained since their childhood. The self-assessment helps the person ask what they are doing in the world, why do they do what they do based off their hardwiring, what they can do different, and how to go about doing different.
+Many of the concepts have follow-ups on building habits to help them through tough situations. Or unlearning habits that have been ingrained since their childhood. After reading the book, Julie hopes the reader asks what they are doing in the world, why do they do what they do based off their hardwiring, what they can do different, and how to go about doing different.
 
-Julie recommends creating a book circle. If you'd like to participate in such a circle, please let me know and I can set up something circled around this newsletter. In any case, I won't disclose all 20 concepts in this newsletter. That would be cumbersome and repetitive. Plus, I want people to go buy this book. Instead, I'll share the takeaways that stuck with me.
+I fail to communicate why something is making me angry or overly emotional. One of Julie's concept goes over a 5 part communication formula. Let's enter a sample scenario. Betty is at home, making dinner for her husband James. Betty is eager to talk to James when he gets home. Betty hears James come in and welcomes him home. James has a frustrated look on his face and tells Betty not to talk to him. Betty's confused and frustrated. As mentioned, Betty was expecting James to come home and talk to her. Now that her expectations are thwarted, Betty must face her own thoughts and emotions. Betty has yelled at James in the past for similar behavior before. None of the previous encounters have ended well. Betty takes a breath and reviews the 5 part communication formula.
 
-The 5 part Communication Formula (p. 123 - 124)
 1. Observation
-	"This is what I heard or saw"
-2. Thought
-	"This is what I think"
-3. Feeling
-	"This is how I feel"
-4. Analyze Desires
-	"This is what I want"
-5. Participate
-	"Are you willing"
-	- Open to compromise
 
+Betty takes an objective view of the situation and reviews the events. Betty was making dinner and she noticed her husband came home. He looked frustrated and told Betty not to talk to him.
+
+2. Thoughts
+
+Betty thinks this is rude. Betty thinks this is a form of rejection, and thinks James doesn't love her.
+
+3. Feelings
+
+Betty feels rejected, sad, depressed, confused.
+
+4. Analyze Desires
+
+Betty wants James to talk to her when she comes home.
+
+5. Participate
+
+Now that Betty has followed the first four steps, she can recount that to James when they both have calmed down. 
+
+"James, I'd like to bring up what happened earlier. I was making dinner and noticed you came home. You looked frustrated and told me not to talk to you. I thought this was rude. I thought this was a form of rejection and thought you don't love me. I felt rejected, sad, depressed, confused. When you came home, I wanted to be able to talk to you. I wanted your attention because I've been alone all day. Are you willing to talk to me when you come home?" 
+
+At this point, James could counter with something else. Perhaps he needs time to calm down from his day at work. The important thing is the conversation has started, and each party can reach a point of compromise. Also, James understands Betty's perspective, so he is primed with an answer or counter.
+
+With practice, Betty can get better at communicating with others. She can work through her thoughts and feelings and let others know what she is going through. Betty is a metaphor for people who go through similar situations. Betty is a metaphor for situations I've found myself in.
 
 ### Adult Responsibility is Non-Negotiable
 
-<!-- 
-- Juile's Interest
-- 20 Concepts
-- Understanding myself
-- Victim, Perpetrator, Rescuer Triangle
-- Rewiring the brain
-- Personal take on book
- -->
+Julie grew up in Idaho. Her mother had an addiction to pain killers, and her addiction affected how her children were raised. Julie's upbrining and relationship to her mother was toxic. As she writes in her book, Julie talks about how her mother's dependence to legal drugs created problems at home. When the drugs were there, Julie's mother was fine. But when the drugs weren't, Julie's mother would turn into a different person. Julie thought she had to take care of her mother, and became the caretaker for her mother.
 
-Julie grew up in Idaho. Her mother had an addiction to pain killers, and her addiction affected how her children were raised. Julie's upbrining and relationship to her mother was toxic. As she writes in her book, Julie talks about how her mother's dependence to legal drugs created problems at home. When the drugs weren't there, Julie's mother would turn into a different person. Julie became the caretaker for her mother. We call this the victim becoming the rescuer. 
+Julie would later understand how her actions towards her mother resulted in bad behavior and life choices. For example, Julie was in a relationship where her partner was an addict. Julie played the rescuer to her partner and created a co-dependent dynamic.
 
-Julie would follow this pattern as an adult. She was in relationships where her partner may have an addiction and she was there to help them. She was playing the rescuer. When she went to college, she studied psychology. 
+Later, Julie made decisions to change her behavior. She studied issues in parent-child relationships. She was able to develop a framework to help her re-wire her brain.
 
-Some therapies can be prolonged for decades. Patients come back, lie on the couch, and talk out their issues to their therapist. Rinse and repeat for years to decades, and it feel like all the therapist is there for is someone who will listen, for a hefty sum.
+Julie sees traditional therapy as ineffective. Some therapies can be prolonged for decades. Patients come back, lie on the couch, and talk out their issues to their therapist. Rinse and repeat for years to decades, and it feel like all the therapist is there for is someone who will listen, for a hefty sum. It sounds eerily familiar to the co-dependent dynamic.
 
-But Julie's program is different. She relates all of our mental problems with neuropsychology and hormone imbalances.
+At the end of the book, Julie's last concept is "Adult Responsibility is Non-Negotiable". If faced with a situation you have previously misbehaved or had an inappropriate response to, what do you do now? You take the high road. You act like an adult because you're an adult. This is my personal take on the book - of being able to liberate yourself. It's not an easy road for all. For some, it will take time and practice. But Julie's hope, and my understanding, is if you're not able to take on adult responsibility, it is your duty to get to that point.
 
 
 ## Takeaway message
 
-<!-- 
-- Take a look at our childhood truama
- -->
-
 Julie's takeaway is to understand and resolve your childhood trauma. Resolution may come in the form of rewiring your brain.
-
 
 ## Promotion
 
-I read through Julie's book and highly recommend it. (I will be leaving her a review on Amazon.)
+I read through Julie's book and highly recommend it. I want to giveaway one free copy of Julie's book to one of my readers. To enter, reply to this email and tell me what you think of this series so far. If you read this on my social media links, [subscribe to the newsletter](http://tinyletter.com/jeremywong). New subscribers will be added to the raffle automatically. You have one week to apply. Deadline is December 16th, 2017, 12AM PST.
 
-I want to giveaway one free copy of Julie's book to one of my readers. To enter, reply to this email and tell me what you think of this series so far. If you read this on my social media links, [subscribe to the newsletter](http://tinyletter.com/jeremywong). New subscribers will be added to the raffle automatically. You have one week to apply. Deadline is November 6th, 2017, 12AM PST. 
+Regardless of the contest, if I have perked your interests with childhood trauma, please buy Julie's book. And if you want to work through some of the self-assessments with someone, I'd like to form a small reading group with Julie's book. Email me and let's set up a meetup.
 
-And, if I have perked your interests with childhood trauma, please buy Julie's book. It's a fast read, certainly within one flight from San Francisco to St. Louis. It doesn't only help identify the problem, but also offer questions on how to utilize the 20 concepts. [Amazon link]().
 
 <!-- 
 Outline 
@@ -239,7 +238,7 @@ Buy her book on Amazon
 
 -->
 
-## Notes v2
+<!-- ## Notes v2
 
 "This is me. Not trying to impress."
 
@@ -407,4 +406,4 @@ Recovery: create a life, evolve human species, make a contribution to society
 
 Takeaway: 
 1. Understand yourself and resolve childhood conflicts
-2. Rewire your brain better, be a contributor over a consumer
+2. Rewire your brain better, be a contributor over a consumer -->
