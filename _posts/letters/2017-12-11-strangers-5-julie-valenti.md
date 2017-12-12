@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Fifth Separation"
-date: 2017-11-27
+date: 2017-12-11
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Julie Valenti"
@@ -16,15 +16,15 @@ description: "Julie Valenti"
 - How did Mary introduce me to Julie?
  -->
 
-If this is the first time you are reading this series, welcome. This is a series about communication, connections, and perspectives. I started with a friend I wanted to talk to about life and asked him to recommend me someone he knew I should interview. I followed that chain 4 times. My last interviewee, Mary Aipoalani, gave me too many choices on who to interview next. I was in choice paralysis until I received this text from Mary. "You need to connect with her. I just told her about you."
+If this is the first time you are reading this series, welcome. This is a series about communication, connections, and perspectives. My last interviewee, Mary Aipoalani, gave me too many choices on who to interview next. I was in choice paralysis until I received this text from Mary. "You need to connect with her. I just told her about you."
 
-Attached to the text was a VCard, a digital business card that makes it easy to add them to your contacts list. Or at least in theory it's supposed to be easy. I had the complication of incompatible file formats. Android phones hate Apple's VCards attachments. If you ever run into this problem, save the VCard text to a computer and add it to your contacts online. And if you're a iOS or Android developer, please make this integration easier in the future.
+Attached to the text was a VCard, a digital business card that makes it easy to add them to your contacts list. Or at least in theory it's supposed to be easy. I had the complication of incompatible file formats. Android phones hate Apple's VCards attachments. If you ever run into this problem, save the VCard text to a computer and add it to your contacts online. And if you're a iOS or Android developer, please make this integration easier. Thanks.
 
 ## Enter Julie Valenti
 
-Julie is alive, energized by the southern California sun. She harnesses that energy and uses it to help people rewire their brains. Rewire metaphorically. Her hidden agenda is by rewiring brains, these people will be more alive. And by being more alive, she hopes people can become contributors and producers in our world. In turn, she hopes people consume less.
+Julie is alive, energized by the southern California sun. She harnesses that energy and uses it to help people rewire their brains. Rewire metaphorically. Her hidden agenda is by rewiring brains, people will be more alive. And by being more alive, she hopes people can become contributors and producers in our world. In turn, she hopes people consume less.
 
-Let's step back for a moment. Who is Julie? She's a new resident of San Diego. She moved here because she'd rather soak up the sun than live in a cloudy and low-lit place like Portland, Oregon. She lived in Portland for the past 23 years, and she sufferred from SAD - Seasonal Affective Disorder. When Julie's friend invited her to come out to San Diego months ago, she knew she had to move there. 
+Let's step back for a moment. Who is Julie? She's a new resident of San Diego. She moved here because she'd rather soak up the sun than live in a cloudy and low-lit place like Portland, Oregon. She lived in Portland for the past 23 years. From Portland's dreary weather, she developed SAD - Seasonal Affective Disorder. When Julie's friend invited her to come out to San Diego months ago, she knew she had to move there. 
 
 Besides sun worshipping, Julie is the owner of Portland's Wisdom and Recovery Wellness Center. She works with patients who suffer from confusing childhoods. This is post-traumatic stress disorder in childhood. This is a result of bad parenting. The range varies from parents who were abusive, or neglectful, or emotionally taxing. 
 
@@ -38,9 +38,9 @@ I asked Julie what was a mother's perspective on empty nest syndrome. Julie expl
 
 The mother must come to her terms with the life adjustment. When neglected, the result is oftentimes a "mid-life crisis". She withdraws and re-evaluates herself. When recognized, the mother feels it in her body.
 
-The mother must setup boundaries with her children. The child is in a different place with life, independent from the nest. Part of the re-adjustments Julie talks about is developing boundaries with the children. For Julie, she had a conversation with her son in LA. She asked how often they would talk over the phone, how often they would see each other, how much space they needed from each other. Julie wants to make sure she would not suffucate her child.
+The mother must setup boundaries with her children. The child is in a different place with life, independent from the nest. Part of the re-adjustments Julie talks about is developing boundaries with the children. For Julie, she had a conversation with her son in LA. She asked how often they would talk over the phone, how often they would see each other, how much space they needed from each other. Julie wants to make sure she would not suffocate her child.
 
-I asked Julie about empty nest syndrome for personal reasons. My sister, the youngest sibling, has left the nest. My mother hasn't been dealing with empty nest symdrome head on. Armed with a better understanding, I am tasked with having a conversation with my mom about empty nest syndrome and grief.
+I asked Julie about empty nest syndrome for personal reasons. My sister, the youngest sibling, has left the nest. My mother hasn't been dealing with empty nest syndrome head on. Armed with a better understanding, I am tasked with having a conversation with my mom about empty nest syndrome and grief.
 
 ### Wisdom and Recovery Wellness Center
 
@@ -54,17 +54,19 @@ To be clear, Julie is not practicing traditional psychotherapy. That means, clie
 
 Carol Dweck wrote a book about this called "Mindset: The New Psychology of Success". In the book, Dweck describes and differentiates between fixed mindsets and growth mindsets. Dweck talks of people with fixed mindsets are less prone to take risks and fail. She talks about how people with fixed mindsets shut down after unable to do specific tasks. On the contrary, people with a growth mindset allow for failure and learn from mistakes and try again. In reality, everyone is a little of both. We allow for failure in some aspects of our lives, growth mindset, and we are set in our ways in others, fixed mindset. 
 
-Julie uses this understanding of neuroplasticity to teach her clients they have the ability to change. With some guidence and practice, the client will be able to re-wire their brains. 
+Julie uses this understanding of neuroplasticity to teach her clients they have the ability to change. With some guidance and practice, the client will be able to re-wire their brains. 
 
 ### Rewiring Communication
 
-I had the chance to read Julie's book on a plane ride from San Jose to St. Louis. The book is for people with a confusing childhood and therapists. I would make the case the book can also be for people who don't have a confusing childhood. I recognize I strugge with some of the concepts.
+I had the chance to read Julie's book on a plane ride from San Jose to St. Louis. The book is for people with a confusing childhood and therapists. I would make the case the book can also be for people who don't have a confusing childhood. I recognize I struggle with some of the concepts.
 
 The 20 concepts are tools to help arm the reader. Julie writes about each concept by going into examples of how the concept applies. At the end of the concept, she supplies a self-assessment. The self-assessment asks the reader questions. These questions help solidify their understanding of how the concept relates to them. I have not finished through the self-assessments on my first reading, and will return to them.
 
-Many concepts apply to the reader's efforts in dealing with tough decisions. By giving alternatives to dealing with these situations, the reader can build habits. Or unlearning habits that have been ingrained since their childhood. After reading the book, Julie hopes the reader asks themselves the big questions. What they are doing in the world?Why do they do what they do based off their hardwiring? What they can do different? How to go about doing different?
+Many concepts apply to the reader's efforts in dealing with tough decisions. By giving alternatives to dealing with these situations, the reader can build habits. Or unlearning habits that have been ingrained since their childhood. After reading the book, Julie hopes the reader asks themselves the big questions. What they are doing in the world? Why do they do what they do based off their hardwiring? What they can do different? How to go about doing different?
 
-Betty is at home, making dinner for her husband James. Betty is eager to talk to James when he gets home. Betty hears James come in and welcomes him home. James has a frustrated look on his face and tells Betty not to talk to him. Betty's confused and frustrated. As mentioned, Betty was expecting James to come home and talk to her. Now that her expectations are thwarted, Betty must face her own thoughts and emotions. Betty has yelled at James in the past for similar behavior before. None of the previous encounters have ended well. Betty takes a breath and reviews the 5 part communication formula.
+Betty is at home, making dinner for her husband James. She's had a stressful day when her car broke down. She wants to ask James about buying a new car when he gets home. Betty hears James come in and welcomes him home. James has a frustrated look on his face and tells Betty he can't talk now. James proceeds to the living room, sits down, and turns on the television. 
+
+Betty's confused and frustrated. As mentioned, Betty was expecting James to come home and talk to her. Now that her expectations are thwarted, Betty must face her own thoughts and emotions. Betty has yelled at James in the past for similar behavior before. None of the previous encounters have ended well. Betty takes a breath and reviews the 5 part communication formula.
 
 1. Observation
 
@@ -94,16 +96,15 @@ With practice, Betty can get better at communicating with others. She can work t
 
 ### Adult Responsibility is Non-Negotiable
 
-Julie grew up in Idaho. Her mother had an addiction to pain killers. Her mother's addiction affected how her children. Julie's upbrining and relationship to her mother was toxic. Julie writes how her mother's dependence to legal drugs created problems at home. When the drugs were there, Julie's mother was fine. But when the drugs weren't, Julie's mother would turn into a different person. Julie thought she had to take care of her mother, and became the caretaker for her mother.
+Julie grew up in Idaho. Her mother had an addiction to pain killers. Her mother's addiction affected how her children. Julie's upbringing and relationship to her mother was toxic. Julie writes how her mother's dependence to legal drugs created problems at home. When the drugs were there, Julie's mother was fine. But when the drugs weren't, Julie's mother would turn into a different person. Julie thought she had to take care of her mother, and became the caretaker for her mother.
 
-Julie would later understand how her actions towards her mother resulted in bad behavior and life choices. For example, Julie was in a relationship where her partner was an addict. Julie played the rescuer to her partner and created a co-dependent dynamic.
+It wasn't until much later Julie understood the impact. Her relationship with her mother resulted in bad behavior and life choices. For example, Julie was in a relationship where her partner was an addict. Julie played the rescuer to her partner and created a co-dependent dynamic.
 
-Later, Julie made decisions to change her behavior. She studied issues in parent-child relationships. She was able to develop a framework to help her re-wire her brain.
+Julie made decisions to change her behavior. She studied issues in parent-child relationships. She was able to develop a framework to help her re-wire her brain.
 
-Julie sees traditional therapy as ineffective. Some therapies can be prolonged for decades. Patients come back, lie on the couch, and talk out their issues to their therapist. Rinse and repeat for years to decades, and it feel like all the therapist is there for is someone who will listen, for a hefty sum. It sounds eerily familiar to the co-dependent dynamic.
+Julie sees traditional therapy as ineffective. Some therapies continue for decades without lasting results. Patients come back, lie on the couch, and talk out their issues to their therapist. Rinse and repeat for years to decades. It feels like all the therapist is there for is someone who will listen, for a hefty sum. Sounds eerily familiar to the co-dependent dynamic.
 
-At the end of the book, Julie's last concept is "Adult Responsibility is Non-Negotiable". If faced with a situation you have previously misbehaved or had an inappropriate response to, what do you do now? You take the high road. You act like an adult because you're an adult. This is my personal take on the book - of being able to liberate yourself. It's not an easy road for all. For some, it will take time and practice. But Julie's hope, and my understanding, is if you're not able to take on adult responsibility, it is your duty to get to that point.
-
+At the end of the book, Julie's last concept is "Adult Responsibility is Non-Negotiable". Say there's a situation you have had a tough time dealing with. Like having a conversation with a complete stranger. Or getting angry over things out of your control. What do you do now? You take the high road. You act like an adult because you're an adult. This is my personal take on the book - of being able to liberate yourself. It's not an easy road for all. For some, it will take time and practice. Julie's hope is if you're not able to take on adult responsibility, it is your duty to get to that point.
 
 ## Takeaway message
 
@@ -111,9 +112,10 @@ Julie's takeaway is to understand and resolve your childhood trauma. Resolution 
 
 ## Promotion
 
-I read through Julie's book and highly recommend it. I want to giveaway one free copy of Julie's book to one of my readers. To enter, reply to this email and tell me what you think of this series so far. If you read this on my social media links, [subscribe to the newsletter](http://tinyletter.com/jeremywong). New subscribers will be added to the raffle automatically. You have one week to apply. Deadline is December 16th, 2017, 12AM PST.
+I read through Julie's book and recommend it. I want to giveaway one free copy of Julie's book to one of my readers. To enter, reply to this email and tell me what you think of this series so far. If you read this on my social media links, [subscribe to the newsletter](http://tinyletter.com/jeremywong). New subscribers will be added to the contest. You have one week to apply. Deadline is December 18th, 2017, 12AM PST.
 
-Regardless of the contest, if I have perked your interests with childhood trauma, please buy Julie's book. And if you want to work through some of the self-assessments with someone, I'd like to form a small reading group with Julie's book. Email me and let's set up a meetup.
+If I have perked your interests with childhood trauma, please buy [Julie's book](https://www.amazon.com/Knowing-How-Concepts-Rewire-Brain/dp/0981537685). If you're interested in joining a reading group, let me know. I would love to continue the conversation.
+
 
 
 <!-- 
