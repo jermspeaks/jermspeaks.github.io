@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Sixth Separation"
-date: 2017-12-04
+date: 2017-12-20
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Raina Evans"
