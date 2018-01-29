@@ -12,13 +12,44 @@ description: "Raina Evans"
 
 ## Introduction
 
-Welcome to the Jear Bear Letter's penultimate letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. And you should check out [old letters from this series on my website](http://www.craftbyzen.com/letters/season-three/). 
+<!-- Welcome to the Jear Bear Letter's penultimate letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. And you should check out [old letters from this series on my website](http://www.craftbyzen.com/letters/season-three/). 
 
-This week, I'm presenting a conversation I had with Raina Evans. 
+This week, I'm presenting a conversation I had with Raina Evans.  -->
+
+After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Eans. She's worn many hats. Her latest description is as the owner of Ready to Rent, a program for residential renters. Raina trains the instructors of this program. After speaking to Raina, I only found a glimpsee of how rich her life really is.
+
 
 ## Enter Raina Evans
 
-<!-- These are notes -->
+Raina and Julie's ex-hisband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age. That's how she is connected to Julie.
+
+On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radient. This woman is full of energy, excitied to talk about what she does, what she's accomplished. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
+
+## Ready to Rent
+
+In the early 200's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kepy getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
+
+The board asked Raina three times before she relented. Raina just got married a few months prior and lost her position on the board. The new marrage came with their own children. At the third time, Raina thought this might be a calling.
+
+Raina gave the board one year to try it out. And then it turned to giving it a second year. By the third year, Raina stayed at this position. But the board came back and told Raina they would be cutting the program.
+
+The board chair asked Raina if she might want to run "Ready to Rent" as a private entity. You see, Ready to Rent's cirriculum is one of a kind. There isn't one quite like this. Raina, with the support of the chair, spun this out on her own. To her surprise, the program grew. A lot. Raina took this operation across the US and Canada. She trains instructors to be certified in the program.
+
+By 2010, Raina took the IP from the commission. She's been working at this for a decade and still going strong.
+
+### Memorable Moments
+
+I asked Raina what were some memorable moments she's had training adults. She gave me two stories.
+
+One the big Island of Hawaii, she trained the director 
+
+### Class Evaluations
+
+### Marketing
+
+## Conclusion
+
+<!-- 
 
 Finished having lunch at Black Bear Diner
 
@@ -214,3 +245,5 @@ hosted local tv talk show - interview people - talk show formal
 "Let's talk with Raina"
 
 Degrees of diversity
+
+-->
