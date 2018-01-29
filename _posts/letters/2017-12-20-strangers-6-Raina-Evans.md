@@ -41,13 +41,37 @@ By 2010, Raina took the IP from the commission. She's been working at this for a
 
 I asked Raina what were some memorable moments she's had training adults. She gave me two stories.
 
-One the big Island of Hawaii, she trained the director 
+One the big Island of Hawaii, she trained the mayor of Hawaii county. On the first day of training, Raina teaches a class on how adults learn. After this first day, Raina starts teaching the cirriculum.
+
+The mayor spoke with Raina after the class was over and said, "Now I get it. We've been communicating wrong this whole time. We've been communication with our people and with clients the wrong way. You taught us how adult learners learn."
+
+The course changed the policy on communicating with each other. An eye opening experience for her.
+
+In another memorable moment, Raina came out to teach in Sacramento, CA. During the first week, she taught city and county workers. The second week, she taught a consortium of agencies. Today, about 100 trainers in Sacramento delivers this cirriculum.
+
+The woman who asked Raina to come and teach in Sacramento moved over to another county. She asked Raina to teach people in the county over as well. All in all, Ready to Rent continues to grow through word of mouth. As Raina puts it, "the program markets itself."
 
 ### Class Evaluations
 
+Once you are a licensed instructor with Ready to Rent, one requirement in teaching the course is the students fill out class evaluations. Those evaluations are sent back to Raina. This helps Raina gauge how the students and teachers are doing. One of the questions on this evaluation asks the students how prepared they are in renting. "Can they get housing?". The students always respond with students saying they are ready.
+
+The program is taught in prisons. One inmate wrote that he no longer has to lie on housing apps.
+
+80% of evaluations show they would recommend the course to a friend. Raina often sees the same feedbak. "Everyone needs to take this course".
+
+The evaluations ask how the instructors are doing. This in turn tells Raina how she's doing as a trainer. I was curious about this because I've written about feedback extensively. This is another use case.
+
 ### Marketing
 
+As mentioned on the survey, former students bring "Ready to Rent" up at church, AA meetings, at work. All over.
+
+Raina's neice and boyfriend had a baby shower. The family's mother came out from the other side of Mt. Hood. Essentially the boonies. They may be the only African American family in their town.
+
+The mom was talking about how they send clients to Ready to Rent. She asked Raina if she heard of it, and Raina revealed she's behind it. "You are 'Ready to Rent'?" Raina proves word of mouth is one of the best techniques in marketing. Also, Raina's right. The cirriculum is so good, it does market itself.
+
 ## Conclusion
+
+I've only scratched the surface behind Raina. In the late 80's. Raina had a talk show on local broadcast called "Let's Talk with Raina". Raina was talking about inclusion and diversity. I have a huge interest on teaching diversity to youth and Raina and I could talk for hours about this. In the introduction, I alluded to diversity as one of the selling points I wanted for my next conversation. Raina is African American, but I don't want to lead with that. I didn't want our inherent biases to cloud her merits and experience. I'll defend taking this approach because anyone can have such rich experiences as Raina has.
 
 <!-- 
 
