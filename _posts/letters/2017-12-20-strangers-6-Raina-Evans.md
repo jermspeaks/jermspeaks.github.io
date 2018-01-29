@@ -27,7 +27,7 @@ On the day I spoke to Raina, her daughter and grand kid were just finished havin
 
 ## Ready to Rent
 
-In the early 200's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kepy getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
+In the early 2000's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kepy getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
 
 The board asked Raina three times before she relented. Raina just got married a few months prior and lost her position on the board. The new marrage came with their own children. At the third time, Raina thought this might be a calling.
 
