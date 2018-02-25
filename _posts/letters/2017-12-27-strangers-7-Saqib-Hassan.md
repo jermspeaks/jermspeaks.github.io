@@ -18,7 +18,57 @@ This is my last letter for the series, "Seven Degrees of Strangers". If you have
 
 In this last letter, Raina recommended I talk to Saqib Hassan. Rain's worked with him on bettering her business.
 
-## Enter Saqib Hassan
+## Notes
+
+Knew husband (SW) housing authority
+- Volunteer basketball camp 2006
+Time (Credit Union)
+good friend (Mike, Raina, Tim)
+
+2016 early perscription (bilnd)
+no central vision (45% perifferal)
+
+lebers, recessive trait
+Normal stuff - soccer coaches
+non-profit, socially active
+board of directors
+
+mass transit everywhere (doesn't drive anymore)
+Oregon commission for the blind
+power of attorney - friend (first two months)
+
+Oregon Commission
+- non-staters + mass transit
+social sports, peer-to-peer
+
+March 2015 to January 2016 - waitlist (substantial)
+
+Monday, Thursday orientation
+technology, orientation + movement,
+cooking classes, living with blindness, 4-terms
+
+* Sightless self-defense (jujitsu)
+
+Transportation, tax-supported
+
+* Volunteer - paid stuff
+
+Voting?!
+
+ADA compliance
+
+Blind hiking - James (gorge) <- Fires
+
+Angel's Rest - gorgeous (250 km)
+
+Staff = 20/25
+Admin students ~= 25, now
+
+Don't label -> Website, Comcast
+Skip to content
+JAWS blind
+
+<!-- ## Enter Saqib Hassan
 
 Saqib is a co-founder of TrainingFolks. Training folks helps with training services for businesses. He works with clients them with different aspects training. For example, it may be to update training material after a merger. Or it may be to train people on new... 
 
@@ -58,4 +108,4 @@ I'm glad i was able to talk to everyone along the way in the journey I did. Woul
 
 Thanks to Saqib Hassan. If you're looking for training advice, you can check out his company, [TrainingFolks](http://www.trainingfolks.com). 
 
-He was gratious enough to take the time to talk. Curious enough to humor me for a conversation.
+He was gratious enough to take the time to talk. Curious enough to humor me for a conversation. -->
