@@ -16,14 +16,16 @@ description: "Raina Evans"
 
 This week, I'm presenting a conversation I had with Raina Evans.  -->
 
-After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Evans. She's worn many hats. She is the current owner of Ready to Rent, a program to train residential renters. As the owner of the program, Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
+After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Evans. 
+
+Raina and Julie's ex-husband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age.
+
+Raina's worn many hats. She is the current owner of Ready to Rent, a program to train residential renters. As the owner of the program, Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
 
 
 ## Enter Raina Evans
 
-Raina and Julie's ex-husband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age. That's how she is connected to Julie.
-
-On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radiant. This woman is full of energy, excited to talk about what she does, what she's accomplished. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
+On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radiant. This woman is full of energy, excited to talk about what she does, what she's accomplished. And she adds so much detail through her language and exuberance of how she talks. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
 
 ## Ready to Rent
 
