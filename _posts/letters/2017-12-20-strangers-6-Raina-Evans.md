@@ -16,18 +16,20 @@ description: "Raina Evans"
 
 This week, I'm presenting a conversation I had with Raina Evans.  -->
 
-After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Eans. She's worn many hats. Her latest description is as the owner of Ready to Rent, a program for residential renters. Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
+After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Evans. 
+
+Raina and Julie's ex-husband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age.
+
+Raina's worn many hats. She is the current owner of Ready to Rent, a program to train residential renters. As the owner of the program, Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
 
 
 ## Enter Raina Evans
 
-Raina and Julie's ex-husband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age. That's how she is connected to Julie.
-
-On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radiant. This woman is full of energy, excited to talk about what she does, what she's accomplished. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
+On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radiant. This woman is full of energy, excited to talk about what she does, what she's accomplished. And she adds so much detail through her language and exuberance of how she talks. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
 
 ## Ready to Rent
 
-In the early 2000's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kepy getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
+In the early 2000's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kept getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
 
 The board asked Raina three times before she relented. Raina just got married a few months prior and lost her position on the board. The new marriage came with their own children. At the third time, Raina thought this might be a calling.
 
@@ -79,21 +81,21 @@ Finished having lunch at Black Bear Diner
 
 July training days - online training
 
-Julie - ex-husband (Jonathan) - worked at the same youth organization in the mid to late 90s. Friends through work.
+Julie - ex-husbnad (Jonathan) - worked at the same youth organization in the mid to late 90s. Friends through work.
 
 Their eldest son is the same age as Raina's daughter
 
 Raina left that organization, worked at a couple different organization until she worked on the board of the Portland Housing Center. The organization helps home owners. 
 
-She started managing education classes to help rental housing. Organization wanted Raina to fill the role. Less candidates with social services, more to program management and training.
+She started managing education classes to help rental housing. Organizaion wanted Raina to fill the role. Less candidates with social services, more to program management and training.
 
 Portland Housing Center - ready to rent, the board really liked it. They asked Raina three times before she agreed to lead the class. She gave it a year, which turned to 3 years. At the end fo the 3rd year, the board decided to stop the program. PHC's director told Raina she should run it on her own. This was around the time she just got married.
 
-In 2006, blended family. Took cirriculum to teach other teachers. Cirriculum took two years for the staff and writers to put together.
+In 2006, blended family. Took curriculum to teach other teachers. Curriculum took two years for the staff and writers to put together.
 
-Licensed the cirriculum to other organizations. 
+Licensed the curriculum to other organizations. 
 
-2007 - possession of cirriculum of "Ready to Rent"
+2007 - possession of curriculum of "Ready to Rent"
 2010 - gave copyright to Raina's org
 
 ## Takeaway message
@@ -232,17 +234,17 @@ Prisoners taught this -> evaluation
 Con you get housing now?
 Response: No longer have to lie on housing applications
 
-Feedback & evaluations - original cirriculum
+Feedback & evaluations - original curriculum
 
 through responses, see changes in behavior, and measures effectiveness
 
-As part of teaching the cirriculum, evaluations are sent back to Ready to Rent
+As part of teaching the curriculum, evaluations are sent back to Ready to Rent
 (1) how students are doing
 (2) how instructors are doing
 
 80% of evals - Would you recommend to friend. Answer: "Everyone needs to take this class"
 
-Outreach - word of moutj
+Outreach - word of mouth
 email - staffers (5 ppl)
 last 3 months - call from agencies where it was mentioned in meetings
 e.g. AA, Dept of behavioral health
@@ -250,7 +252,7 @@ e.g. AA, Dept of behavioral health
 Heard from meeting (mentions)
 publicity, client needs for housing
 
-Neice + BF: had 1 year old baby. At the baby shower, their mom from mt. hood (Madras OR) heard about the program ready to rent. Told Raina, you're behind it?!
+Niece + BF: had 1 year old baby. At the baby shower, their mom from mt. hood (Madras OR) heard about the program ready to rent. Told Raina, you're behind it?!
 
 She may be the only African American family in the area. Maybe works in corrections.
 
@@ -262,7 +264,7 @@ Takeaway: you never know what your calling is. Leave yourself open to everything
 
 Next participant: 2 ppl in mind
 
-Diversity Cirriculum - late 80s
+Diversity Curriculum - late 80s
 
 hosted local tv talk show - interview people - talk show formal
 
