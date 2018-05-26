@@ -5,15 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link type="application/atom+xml" rel="alternate" href="http://craftbyzen.com/feed.xml" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="jermspeaks.github.io" />
 
   <title>Intro to Webassembly</title>
   <meta name="description" content="Intro to WebAssembly">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://craftbyzen.com/learning/webassembly.html">
-  <link rel="alternate" type="application/rss+xml" title="" href="http://craftbyzen.com/feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/learning/webassembly.html">
+  <link rel="alternate" type="application/rss+xml" title="jermspeaks.github.io" href="http://localhost:4000/feed.xml" />
 </head>
 
 
@@ -122,6 +122,12 @@
           
         </li>
       
+        <li class="landing-nav-list-item">
+          
+            <a class="landing-nav-list-link" href="/products/">Shop</a>
+          
+        </li>
+      
     </ul>
   </div>
 </section>
@@ -155,20 +161,18 @@ Thank goodness the folks behind the project have a very nice <em><a href="http:/
   <p>Building Emscripten from source is automated via the Emscripten SDK. The required steps are as follows.</p>
 </blockquote>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>git clone https://github.com/juj/emsdk.git
-<span class="gp">$ </span><span class="nb">cd </span>emsdk
-<span class="gp">$ </span>./emsdk install sdk-incoming-64bit binaryen-master-64bit
-<span class="gp">$ </span>./emsdk activate sdk-incoming-64bit binaryen-master-64bit
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>git clone https://github.com/juj/emsdk.git
+<span class="nv">$ </span><span class="nb">cd </span>emsdk
+<span class="nv">$ </span>./emsdk install sdk-incoming-64bit binaryen-master-64bit
+<span class="nv">$ </span>./emsdk activate sdk-incoming-64bit binaryen-master-64bit
+</code></pre></div></div>
 
 <blockquote>
   <p>After these steps, the installation is complete. To enter an Emscripten compiler environment in the current command line prompt, type</p>
 </blockquote>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span><span class="nb">source</span> ./emsdk_env.sh
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span><span class="nb">source</span> ./emsdk_env.sh
+</code></pre></div></div>
 
 <blockquote>
   <p>This command adds relevant environment variables and directory entries to PATH to set up the current terminal for easy access to the compiler tools.</p>
@@ -176,11 +180,10 @@ Thank goodness the folks behind the project have a very nice <em><a href="http:/
 
 <p>Note, the installation process will take a while. Go make yourself some tea.</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>To conveniently access the selected <span class="nb">set </span>of tools from the <span class="nb">command </span>line,  
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>To conveniently access the selected <span class="nb">set </span>of tools from the <span class="nb">command </span>line,  
 consider adding the following directories to PATH, or call <span class="s1">'source  
 ./emsdk_env.sh'</span> to <span class="k">do </span>this <span class="k">for </span>you.
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <h3 id="compile-and-run-a-simple-program">Compile and run a simple program</h3>
 
@@ -197,23 +200,21 @@ consider adding the following directories to PATH, or call <span class="s1">'sou
   </ul>
 </blockquote>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>mkdir hello
-<span class="gp">$ </span><span class="nb">cd </span>hello
-<span class="gp">$ </span><span class="nb">echo</span> <span class="s1">'#include &lt;stdio.h&gt;'</span> &gt; hello.c
-<span class="gp">$ </span><span class="nb">echo</span> <span class="s1">'int main(int argc, char ** argv) {'</span> &gt;&gt; hello.c
-<span class="gp">$ </span><span class="nb">echo</span> <span class="s1">'printf("Hello, world!\n");'</span> &gt;&gt; hello.c
-<span class="gp">$ </span><span class="nb">echo</span> <span class="s1">'}'</span> &gt;&gt; hello.c
-<span class="gp">$ </span>emcc hello.c -s <span class="nv">WASM</span><span class="o">=</span>1 -o hello.html
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>mkdir hello
+<span class="nv">$ </span><span class="nb">cd </span>hello
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'#include &lt;stdio.h&gt;'</span> <span class="o">&gt;</span> hello.c
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'int main(int argc, char ** argv) {'</span> <span class="o">&gt;&gt;</span> hello.c
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'printf("Hello, world!\n");'</span> <span class="o">&gt;&gt;</span> hello.c
+<span class="nv">$ </span><span class="nb">echo</span> <span class="s1">'}'</span> <span class="o">&gt;&gt;</span> hello.c
+<span class="nv">$ </span>emcc hello.c <span class="nt">-s</span> <span class="nv">WASM</span><span class="o">=</span>1 <span class="nt">-o</span> hello.html
+</code></pre></div></div>
 
 <blockquote>
   <p>To serve the compiled files over HTTP, we can use the emrun web server provided with the Emscripten SDK:</p>
 </blockquote>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>emrun --no_browser --port 8080 .
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>emrun <span class="nt">--no_browser</span> <span class="nt">--port</span> 8080 <span class="nb">.</span>
+</code></pre></div></div>
 
 <blockquote>
   <p>Once the HTTP server is running, you can open it in your browser. If you see “Hello, world!” printed to the Emscripten console, then congratulations! You’ve successfully compiled to WebAssembly!</p>
@@ -221,15 +222,14 @@ consider adding the following directories to PATH, or call <span class="s1">'sou
 
 <p>Here’s how my logs looked when running the program</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>➜  hello-wasm emcc hello.c -s <span class="nv">WASM</span><span class="o">=</span>1 -o hello.html
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>➜  hello-wasm emcc hello.c <span class="nt">-s</span> <span class="nv">WASM</span><span class="o">=</span>1 <span class="nt">-o</span> hello.html
 INFO:root:generating system library: libc.bc... <span class="o">(</span>this will be cached <span class="k">in</span> <span class="s2">"/Users/Jeremy/.emscripten_cache/asmjs/libc.bc"</span> <span class="k">for </span>subsequent builds<span class="o">)</span>
 INFO:root: - ok
 INFO:root:generating system library: dlmalloc.bc... <span class="o">(</span>this will be cached <span class="k">in</span> <span class="s2">"/Users/Jeremy/.emscripten_cache/asmjs/dlmalloc.bc"</span> <span class="k">for </span>subsequent builds<span class="o">)</span>
 INFO:root: - ok
 INFO:root:generating system library: wasm-libc.bc... <span class="o">(</span>this will be cached <span class="k">in</span> <span class="s2">"/Users/Jeremy/.emscripten_cache/asmjs/wasm-libc.bc"</span> <span class="k">for </span>subsequent builds<span class="o">)</span>
 INFO:root: - ok
-</code></pre>
-</div>
+</code></pre></div></div>
 
       </section>
     </div>
@@ -275,6 +275,12 @@ INFO:root: - ok
                 
                   <li>
                     <a href="/talks/">Talks</a>
+                  </li>
+                
+              
+                
+                  <li>
+                    <a href="/products/">Shop</a>
                   </li>
                 
               

@@ -254,6 +254,9 @@ pre > code { border: 0; padding-right: 0; padding-left: 0; }
 .site-title { font-size: 3em; font-family: 'Festivo-LC-Basic-Dots', Arial, sans-serif; line-height: 56px; letter-spacing: -1px; margin-bottom: 0; text-transform: uppercase; }
 .site-title, .site-title:visited { color: #424242; }
 
+a.site-title-link { color: #424242; }
+a.site-title-link:visited { color: #424242; }
+
 .site-frame { float: left; height: 58px; /* equals max image height */ width: 58px; white-space: nowrap; text-align: center; }
 .site-frame__link:hover { text-decoration: none; }
 

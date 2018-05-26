@@ -16,24 +16,24 @@ description: "Raina Evans"
 
 This week, I'm presenting a conversation I had with Raina Evans.  -->
 
-After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Eans. She's worn many hats. Her latest description is as the owner of Ready to Rent, a program for residential renters. Raina trains the instructors of this program. After speaking to Raina, I only found a glimpsee of how rich her life really is.
+After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Eans. She's worn many hats. Her latest description is as the owner of Ready to Rent, a program for residential renters. Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
 
 
 ## Enter Raina Evans
 
-Raina and Julie's ex-hisband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age. That's how she is connected to Julie.
+Raina and Julie's ex-husband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age. That's how she is connected to Julie.
 
-On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radient. This woman is full of energy, excitied to talk about what she does, what she's accomplished. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
+On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radiant. This woman is full of energy, excited to talk about what she does, what she's accomplished. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
 
 ## Ready to Rent
 
 In the early 2000's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kepy getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
 
-The board asked Raina three times before she relented. Raina just got married a few months prior and lost her position on the board. The new marrage came with their own children. At the third time, Raina thought this might be a calling.
+The board asked Raina three times before she relented. Raina just got married a few months prior and lost her position on the board. The new marriage came with their own children. At the third time, Raina thought this might be a calling.
 
 Raina gave the board one year to try it out. And then it turned to giving it a second year. By the third year, Raina stayed at this position. But the board came back and told Raina they would be cutting the program.
 
-The board chair asked Raina if she might want to run "Ready to Rent" as a private entity. You see, Ready to Rent's cirriculum is one of a kind. There isn't one quite like this. Raina, with the support of the chair, spun this out on her own. To her surprise, the program grew. A lot. Raina took this operation across the US and Canada. She trains instructors to be certified in the program.
+The board chair asked Raina if she might want to run "Ready to Rent" as a private entity. You see, Ready to Rent's curriculum is one of a kind. There isn't one quite like this. Raina, with the support of the chair, spun this out on her own. To her surprise, the program grew. A lot. Raina took this operation across the US and Canada. She trains instructors to be certified in the program.
 
 By 2010, Raina took the IP from the commission. She's been working at this for a decade and still going strong.
 
@@ -41,13 +41,13 @@ By 2010, Raina took the IP from the commission. She's been working at this for a
 
 I asked Raina what were some memorable moments she's had training adults. She gave me two stories.
 
-One the big Island of Hawaii, she trained the mayor of Hawaii county. On the first day of training, Raina teaches a class on how adults learn. After this first day, Raina starts teaching the cirriculum.
+One the big Island of Hawaii, she trained the mayor of Hawaii county. On the first day of training, Raina teaches a class on how adults learn. After this first day, Raina starts teaching the curriculum.
 
 The mayor spoke with Raina after the class was over and said, "Now I get it. We've been communicating wrong this whole time. We've been communication with our people and with clients the wrong way. You taught us how adult learners learn."
 
 The course changed the policy on communicating with each other. An eye opening experience for her.
 
-In another memorable moment, Raina came out to teach in Sacramento, CA. During the first week, she taught city and county workers. The second week, she taught a consortium of agencies. Today, about 100 trainers in Sacramento delivers this cirriculum.
+In another memorable moment, Raina came out to teach in Sacramento, CA. During the first week, she taught city and county workers. The second week, she taught a consortium of agencies. Today, about 100 trainers in Sacramento delivers this curriculum.
 
 The woman who asked Raina to come and teach in Sacramento moved over to another county. She asked Raina to teach people in the county over as well. All in all, Ready to Rent continues to grow through word of mouth. As Raina puts it, "the program markets itself."
 
@@ -57,7 +57,7 @@ Once you are a licensed instructor with Ready to Rent, one requirement in teachi
 
 The program is taught in prisons. One inmate wrote that he no longer has to lie on housing apps.
 
-80% of evaluations show they would recommend the course to a friend. Raina often sees the same feedbak. "Everyone needs to take this course".
+80% of evaluations show they would recommend the course to a friend. Raina often sees the same feedback. "Everyone needs to take this course".
 
 The evaluations ask how the instructors are doing. This in turn tells Raina how she's doing as a trainer. I was curious about this because I've written about feedback extensively. This is another use case.
 
@@ -65,9 +65,9 @@ The evaluations ask how the instructors are doing. This in turn tells Raina how 
 
 As mentioned on the survey, former students bring "Ready to Rent" up at church, AA meetings, at work. All over.
 
-Raina's neice and boyfriend had a baby shower. The family's mother came out from the other side of Mt. Hood. Essentially the boonies. They may be the only African American family in their town.
+Raina's niece and boyfriend had a baby shower. The family's mother came out from the other side of Mt. Hood. Essentially the boonies. They may be the only African American family in their town.
 
-The mom was talking about how they send clients to Ready to Rent. She asked Raina if she heard of it, and Raina revealed she's behind it. "You are 'Ready to Rent'?" Raina proves word of mouth is one of the best techniques in marketing. Also, Raina's right. The cirriculum is so good, it does market itself.
+The mom was talking about how they send clients to Ready to Rent. She asked Raina if she heard of it, and Raina revealed she's behind it. "You are 'Ready to Rent'?" Raina proves word of mouth is one of the best techniques in marketing. Also, Raina's right. The curriculum is so good, it does market itself.
 
 ## Conclusion
 
@@ -79,13 +79,13 @@ Finished having lunch at Black Bear Diner
 
 July training days - online training
 
-Julie - ex-husbnad (Jonathan) - worked aat the same youth organization in the mid to late 90s. Friends through work.
+Julie - ex-husband (Jonathan) - worked at the same youth organization in the mid to late 90s. Friends through work.
 
 Their eldest son is the same age as Raina's daughter
 
 Raina left that organization, worked at a couple different organization until she worked on the board of the Portland Housing Center. The organization helps home owners. 
 
-She started managing education classes to help rental housing. Organizaion wanted Raina to fill the role. Less candidates with social services, more to program management and training.
+She started managing education classes to help rental housing. Organization wanted Raina to fill the role. Less candidates with social services, more to program management and training.
 
 Portland Housing Center - ready to rent, the board really liked it. They asked Raina three times before she agreed to lead the class. She gave it a year, which turned to 3 years. At the end fo the 3rd year, the board decided to stop the program. PHC's director told Raina she should run it on her own. This was around the time she just got married.
 
