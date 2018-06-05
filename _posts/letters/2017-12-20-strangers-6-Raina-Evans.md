@@ -27,6 +27,7 @@ Raina's worn many hats. She is the current owner of Ready to Rent, a program to 
 
 On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radiant. This woman is full of energy, excited to talk about what she does, what she's accomplished. And she adds so much detail through her language and exuberance of how she talks. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
 
+
 ## Ready to Rent
 
 In the early 2000's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kept getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
