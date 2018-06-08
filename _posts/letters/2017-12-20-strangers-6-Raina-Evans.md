@@ -12,26 +12,32 @@ description: "Raina Evans"
 
 ## Introduction
 
-<!-- Welcome to the Jear Bear Letter's penultimate letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. And you should check out [old letters from this series on my website](http://www.craftbyzen.com/letters/season-three/). 
+<!-- 
+Welcome to the Jear Bear Letter's penultimate letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. And you should check out [old letters from this series on my website](http://www.craftbyzen.com/letters/season-three/). 
+
+Sorry it's taken so long to get to this letter. There have been a number of life hiccups, like finding and starting a new job. Sometimes, life gets in the way and you have to drop some things. But now I'm picking it back up to present two last letters.
 
 This week, I'm presenting a conversation I had with Raina Evans.  -->
 
-After speaking with Julie, I asked for someone diverse. I recognize I cannot get varied perspectives if I only speak with White America. Enter Raina Evans. 
+After speaking with Julie, I asked for someone diverse, with a varied background. I recognize I cannot get varied perspectives if I only speak with a narrow demographic of America. Enter Raina Evans. 
 
 Raina and Julie's ex-husband used to work for a youth organization in the mid to late 90s. Her daughter and Julie's oldest son used to play together and were the same age.
 
-Raina's worn many hats. She is the current owner of Ready to Rent, a program to train residential renters. As the owner of the program, Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
-
+After each interview, I realize I want to continue the conversation. Each person I've spoken to for this newsletter have more stories to tell. Many more than could ever fit in a one hour time slot or 300 page biography. And, as I truncated an hour-long interview for you, dear reader, I have no doubt I could write so much more.
 
 ## Enter Raina Evans
 
-On the day I spoke to Raina, her daughter and grand kid were just finished having lunch at Black Bear Cafe. And Raina was radiant. This woman is full of energy, excited to talk about what she does, what she's accomplished. And she adds so much detail through her language and exuberance of how she talks. It really showed in our conversation as she mentioned her brunch. I knew this was going to be an interesting conversation.
+On the day I spoke to Raina, she had finished a nice brunch with her daughter and grandchild at Black Bear Cafe. Raina was radiant. This woman was full of energy, excited to talk about what she does and what she's accomplished. 
+
+Raina's worn many hats. She is the current owner of Ready to Rent, a program to train residential renters. As the owner of the program, Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
+
+She adds so much detail through her language and exuberance of how she talks. It really showed in our conversation in the tiniest details, like her mention of how her brunch went. I knew this was going to be an interesting conversation.
 
 ## Ready to Rent
 
-In the early 2000's, Raina was on the Portland housing board commission. The organization ran a training program for first time renters. Dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kept getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
+In the early 2000's, Raina was on the *Portland housing board commission* [TODO CHECK THIS ORGANIZATION NAME]. The organization ran a training program for first time renters. The program was dubbed "Ready to Rent". In 2006, the board wanted someone to run this program. They asked around, but couldn't find someone with the right skill set. They kept getting candidates with social work backgrounds, rather than management and marketing backgrounds. 
 
-The board asked Raina three times before she relented. Raina just got married a few months prior and lost her position on the board. The new marriage came with their own children. At the third time, Raina thought this might be a calling.
+The board started a training program for first time renters called "Ready to Rent". Back in 2006, finding no one to run this program, they asked Raina. Raina had the right background for the role, marketing and management, and the board was finding themselves running thin interviewing people from soail work backgrounds. The first time the board asked her, Raina refused. They came back a few days later and asked again. And again, she refused. On the third try, Raina relented. She just got married a few months prior and lost her position on the board. The new marriage came with their own children. Raina thought this was the third time, and perhaps this might be her calling. 
 
 Raina gave the board one year to try it out. And then it turned to giving it a second year. By the third year, Raina stayed at this position. But the board came back and told Raina they would be cutting the program.
 
