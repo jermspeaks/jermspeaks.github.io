@@ -37,6 +37,14 @@
     }
 }
 
+a.site-title-link {
+  color: $grey-color-dark;
+
+  &:visited {
+    color: $grey-color-dark;
+  }
+}
+
 .site-frame {
     float: left;
     height: 58px;

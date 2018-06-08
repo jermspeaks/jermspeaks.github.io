@@ -5,15 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link type="application/atom+xml" rel="alternate" href="http://craftbyzen.com/feed.xml" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="jermspeaks.github.io" />
 
   <title>Single Responsibility</title>
   <meta name="description" content="Single Responsibility">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://craftbyzen.com/blog/js-single-responsibility.html">
-  <link rel="alternate" type="application/rss+xml" title="" href="http://craftbyzen.com/feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/blog/js-single-responsibility.html">
+  <link rel="alternate" type="application/rss+xml" title="jermspeaks.github.io" href="http://localhost:4000/feed.xml" />
 </head>
 
 
@@ -122,6 +122,12 @@
           
         </li>
       
+        <li class="landing-nav-list-item">
+          
+            <a class="landing-nav-list-link" href="/products/">Shop</a>
+          
+        </li>
+      
     </ul>
   </div>
 </section>
@@ -139,7 +145,7 @@ So, a function could take any arguments of any type and return any type.</p>
 
 <p>In general, we want to avoid this. Take the following code example.</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kr">const</span> <span class="nx">PLAYER_BEHAVIORS</span> <span class="o">=</span> <span class="p">[{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">const</span> <span class="nx">PLAYER_BEHAVIORS</span> <span class="o">=</span> <span class="p">[{</span>
   <span class="na">code</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span>
   <span class="na">displayName</span><span class="p">:</span> <span class="s1">'Autoplay'</span>
 <span class="p">},</span> <span class="p">{</span>
@@ -154,8 +160,7 @@ So, a function could take any arguments of any type and return any type.</p>
     <span class="k">return</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">playerBehavior</span> <span class="o">=&gt;</span> <span class="nx">playerBehavior</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Our function, <code class="highlighter-rouge">getPlayerBehavior</code>, takes one input that should be a number
 However, the first <code class="highlighter-rouge">return</code> statement returns a type <code class="highlighter-rouge">String</code>,
@@ -168,14 +173,14 @@ or should it find the behavior given the index.</p>
 
 <p>Take the following solution as a guideline.</p>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="c1">// Same constant</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">// Same constant</span>
 <span class="kd">function</span> <span class="nx">getPlayerBehaviors</span><span class="p">()</span> <span class="p">{</span>
   <span class="k">return</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">map</span><span class="p">(</span><span class="nx">playerBehavior</span> <span class="o">=&gt;</span> <span class="nx">playerBehavior</span><span class="p">.</span><span class="nx">name</span><span class="p">);</span>
 <span class="p">}</span>
 
 <span class="kd">function</span> <span class="nx">findPlayerBehavior</span><span class="p">(</span><span class="nx">index</span><span class="p">)</span> <span class="p">{</span>
   <span class="k">if</span> <span class="p">(</span><span class="nb">Number</span><span class="p">.</span><span class="nx">isInteger</span><span class="p">(</span><span class="nx">index</span><span class="p">))</span> <span class="p">{</span>
-    <span class="kr">const</span> <span class="nx">playerBehavior</span> <span class="o">=</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="nx">playerBehaviour</span> <span class="o">=&gt;</span> <span class="nx">playerBehaviour</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">index</span><span class="p">);</span>
+    <span class="kd">const</span> <span class="nx">playerBehavior</span> <span class="o">=</span> <span class="nx">PLAYER_BEHAVIORS</span><span class="p">.</span><span class="nx">find</span><span class="p">(</span><span class="nx">playerBehaviour</span> <span class="o">=&gt;</span> <span class="nx">playerBehaviour</span><span class="p">.</span><span class="nx">id</span> <span class="o">===</span> <span class="nx">index</span><span class="p">);</span>
     <span class="k">if</span> <span class="p">(</span><span class="nx">playerBehavior</span><span class="p">)</span> <span class="p">{</span>
       <span class="k">return</span> <span class="nx">playerBehavior</span><span class="p">.</span><span class="nx">name</span><span class="p">;</span>
     <span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
@@ -186,8 +191,7 @@ or should it find the behavior given the index.</p>
     <span class="k">throw</span> <span class="k">new</span> <span class="nb">Error</span><span class="p">(</span><span class="s1">'index should be type Number:Integer'</span><span class="p">);</span>
   <span class="p">}</span>
 <span class="p">}</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>In this example, we have separated the function into two functions because they are doing two separate things.
 Depending on how we called this function before, we will have to determine
@@ -237,6 +241,12 @@ which function to use before we make the function call.</p>
                 
                   <li>
                     <a href="/talks/">Talks</a>
+                  </li>
+                
+              
+                
+                  <li>
+                    <a href="/products/">Shop</a>
                   </li>
                 
               

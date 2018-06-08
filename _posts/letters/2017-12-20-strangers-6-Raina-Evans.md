@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Sixth Separation"
-date: 2017-12-20
+date: 2018-05-28
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Raina Evans"
@@ -32,6 +32,7 @@ On the day I spoke to Raina, she had finished a nice brunch with her daughter an
 Raina's worn many hats. She is the current owner of Ready to Rent, a program to train residential renters. As the owner of the program, Raina trains the instructors of this program. After speaking to Raina, I only found a glimpse of how rich her life really is.
 
 She adds so much detail through her language and exuberance of how she talks. It really showed in our conversation in the tiniest details, like her mention of how her brunch went. I knew this was going to be an interesting conversation.
+
 
 ## Ready to Rent
 

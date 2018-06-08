@@ -2,7 +2,7 @@
 layout: next-letter
 category: letters
 title: "Seven Degrees of Strangers: Seventh Separation"
-date: 2017-12-27
+date: 2018-05-29
 permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 description: "Saqib Hassan"

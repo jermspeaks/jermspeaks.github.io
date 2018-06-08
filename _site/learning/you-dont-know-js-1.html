@@ -5,15 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link type="application/atom+xml" rel="alternate" href="http://craftbyzen.com/feed.xml" />
+  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="jermspeaks.github.io" />
 
   <title>YDKJS Part 1: Up & Going</title>
   <meta name="description" content="You Don’t Know JS">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://craftbyzen.com/learning/you-dont-know-js-1.html">
-  <link rel="alternate" type="application/rss+xml" title="" href="http://craftbyzen.com/feed.xml" />
+  <link rel="canonical" href="http://localhost:4000/learning/you-dont-know-js-1.html">
+  <link rel="alternate" type="application/rss+xml" title="jermspeaks.github.io" href="http://localhost:4000/feed.xml" />
 </head>
 
 
@@ -122,6 +122,12 @@
           
         </li>
       
+        <li class="landing-nav-list-item">
+          
+            <a class="landing-nav-list-link" href="/products/">Shop</a>
+          
+        </li>
+      
     </ul>
   </div>
 </section>
@@ -138,7 +144,7 @@
 
 <p>In Up &amp; Going, I’m hoping to review the basics and understand more deeply why the language has the set of tools it has, and perhaps a deeper understanding of why we write Javascript the way we do.</p>
 
-<h3 id="forward-by-jenn-lucashttpjennlukascom">Forward by <a href="http://jennlukas.com/">Jenn Lucas</a></h3>
+<h3 id="forward-by-jenn-lucas">Forward by <a href="http://jennlukas.com/">Jenn Lucas</a></h3>
 
 <ul>
   <li>Lightbulb moment - the feeling when you got it.
@@ -255,7 +261,7 @@
   <li><em>Dynamic Typing</em> - allows a variable to represent a value regardless of type. Javascript adheres to this.</li>
   <li><em>State</em> is tracking changes to values as the program runs. In redux, we keep a global state to track the user’s progress through the application.</li>
   <li>Constants are declared once and don’t change. In ES6, when you declare a constant once, it throws an error if there is an attempt to change it. This is like the static-tying type enforcement.</li>
-  <li>A group of series of statements strung together are called a <em>block</em>. A <em>block</em> is contained within curly brackets. <code class="highlighter-rouge"><span class="p">{</span><span class="w"> </span><span class="err">..</span><span class="w"> </span><span class="p">}</span></code>
+  <li>A group of series of statements strung together are called a <em>block</em>. A <em>block</em> is contained within curly brackets. <code class="highlighter-rouge">{ .. }</code>
     <ul>
       <li>In <em>Ruby</em>, there are different ways to show a block. In fact, there are different types of blocks, like your general block, procs, and lambdas.</li>
     </ul>
@@ -273,13 +279,12 @@
   <li>I rarely use <code class="highlighter-rouge">do..while</code> loops. Here’s the syntax.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="k">do</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">do</span> <span class="p">{</span>
   <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'How may I help you?'</span><span class="p">);</span>
   <span class="c1">// Help the customer</span>
   <span class="nx">numOfCustomers</span> <span class="o">=</span> <span class="nx">numOfCustomers</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
 <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="nx">numOfCustomer</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">);</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>Like <strong>C</strong>, the Javascript for loop has three clauses.
@@ -293,7 +298,7 @@
   <li>The <em>lexical scope</em>, or <em>scope</em>, is the programming term to tell us where our variables can be accessed.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">outer</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">outer</span><span class="p">()</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
     <span class="kd">function</span> <span class="nx">inner</span><span class="p">()</span> <span class="p">{</span>
@@ -310,8 +315,7 @@
 <span class="p">}</span>
 
 <span class="nx">outer</span><span class="p">();</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>In the example, you can’t call <code class="highlighter-rouge">inner();</code> on the outermost scope. It can only be called within the <code class="highlighter-rouge">outer</code> function scope, as shown.</p>
 
@@ -396,7 +400,7 @@
   <li>Use <code class="highlighter-rouge">let</code> for block scoped variables. For example, in an <code class="highlighter-rouge">if</code> block, you declare a variable you only want to be used within that block, use <code class="highlighter-rouge">let</code>.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
     <span class="kd">var</span> <span class="nx">a</span> <span class="o">=</span> <span class="mi">1</span><span class="p">;</span>
 
     <span class="k">if</span> <span class="p">(</span><span class="nx">a</span> <span class="o">&gt;=</span> <span class="mi">1</span><span class="p">)</span> <span class="p">{</span>
@@ -413,8 +417,7 @@
 
 <span class="nx">foo</span><span class="p">();</span>
 <span class="c1">// 5 7 9</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li><code class="highlighter-rouge">Strict mode</code> was introduced in <strong>ES5</strong>. Noted with <code class="highlighter-rouge">"use strict"</code>.</li>
@@ -422,12 +425,11 @@
   <li>I feel computer science needs to put unnecessarily long titles to items. <strong>Immediately invoked function expressions (IIFE)</strong> are involved upon declaration.</li>
 </ul>
 
-<div class="language-js highlighter-rouge"><pre class="highlight"><code><span class="p">(</span><span class="kd">function</span> <span class="nx">IIFE</span><span class="p">(){</span>
+<div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="kd">function</span> <span class="nx">IIFE</span><span class="p">(){</span>
     <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="s2">"Hello!"</span> <span class="p">);</span>
 <span class="p">})();</span>
 <span class="c1">// "Hello!"</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <ul>
   <li>An example use case was with <a href="http://www.highcharts.com/">Highcharts</a> and creating an options object. You can’t always assign a key with a function, so this is one way around it.</li>
@@ -515,6 +517,12 @@
                 
                   <li>
                     <a href="/talks/">Talks</a>
+                  </li>
+                
+              
+                
+                  <li>
+                    <a href="/products/">Shop</a>
                   </li>
                 
               
