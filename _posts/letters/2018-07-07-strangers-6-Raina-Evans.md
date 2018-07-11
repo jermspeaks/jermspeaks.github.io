@@ -74,6 +74,10 @@ There's also freeform text where the students can give back general feedback. Ra
 
 To circle back to the viral effect, 80% of evaluations show they would recommend the course to a friend. Raina often sees the same feedback. "Everyone needs to take this course". Former students bring "Ready to Rent" up at church, AA meetings, at work. All over.
 
+## Takeaway
+
+Raina's takeaway message was "you never know what your calling is. Leave yourself open to everything".
+
 ## Conclusion
 
 After each interview, I realize I want to continue the conversation. Each person I've spoken to for this newsletter have more stories to tell. Many more than could ever fit in a one hour time slot or 300 page biography. And, as I truncated an hour-long interview for you, dear reader, I have no doubt I could write so much more.
