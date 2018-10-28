@@ -42,7 +42,7 @@ timezone: UTC
 encoding: utf-8
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://craftbyzen.com"
-gems:
+plugins:
   - jekyll-feed
 sass:
   sass_dir: _sass
