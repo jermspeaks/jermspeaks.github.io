@@ -5,7 +5,7 @@ permalink: /projects/no-slouching-sloths
 name: No Slouching Sloths
 description: A PSA developed as a project from Science Hack Day 2018
 project_link: http://jermspeaks.github.io/projects/no-slouching-sloths
-image: /assets/images/gigo.png
+image: /assets/images/sloths-first-draft.jpg
 url: /no-slouching-sloths
 created_date: 2017-10-15
 ---
