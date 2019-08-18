@@ -22,6 +22,8 @@ navigation:
   url: /projects/
 - text: Talks
   url: /talks/
+- text: Logs
+  url: /log/
 
 collections:
   products:
