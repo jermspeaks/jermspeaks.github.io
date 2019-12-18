@@ -9,7 +9,8 @@ created_date: 2019-12-05
 
 # Holiday Card Charity Drive 2019
 
-<iframe width="560" height="315" src="https://www.youtube.com/watch?v=tOXmg5mGpGQ" frameborder="0" allowfullscreen></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com/embed/tOXmg5mGpGQ" frameborder="0" allowfullscreen></iframe>
+
 
 Happy holidays! I’m in a jolly mood and would like to present to you my annual holiday card charity drive. This year, the card will be drawn by my AxiDraw robot, then painted over in lovely colors. In return, I have one ask. Can you share some love to people who are less fortunate than you?
 
