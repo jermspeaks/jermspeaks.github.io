@@ -43,7 +43,7 @@ exclude: [README.markdown, Makefile]
 timezone: UTC
 encoding: utf-8
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://craftbyzen.com"
+url: "https://craftbyzen.com"
 plugins:
   - jekyll-feed
 sass:
