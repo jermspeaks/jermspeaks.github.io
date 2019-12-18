@@ -5,15 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jeremy Wong" />
+  <link type="application/atom+xml" rel="alternate" href="http://craftbyzen.com/feed.xml" title="Jeremy Wong" />
 
   <title>YDKJS Part 1: Up & Going</title>
   <meta name="description" content="You Don’t Know JS">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/learning/you-dont-know-js-1.html">
-  <link rel="alternate" type="application/rss+xml" title="Jeremy Wong" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="http://craftbyzen.com/learning/you-dont-know-js-1.html">
+  <link rel="alternate" type="application/rss+xml" title="Jeremy Wong" href="http://craftbyzen.com/feed.xml" />
 </head>
 
 
@@ -124,12 +124,6 @@
       
         <li class="landing-nav-list-item">
           
-            <a class="landing-nav-list-link" href="/products/">Shop</a>
-          
-        </li>
-      
-        <li class="landing-nav-list-item">
-          
             <a class="landing-nav-list-link" href="/log/">Logs</a>
           
         </li>
@@ -182,7 +176,7 @@
 
 <ul>
   <li>Explains programming at a high level. I may skip large sections of this.</li>
-  <li><em>literal value</em> are values that are itself and are not stored. e.g. in the statement, <code class="highlighter-rouge">y = x + 4;</code>, 4 is a <em>literal value</em>.</li>
+  <li><em>literal value</em> are values that are itself and are not stored. e.g. in the statement, <code class="language-plaintext highlighter-rouge">y = x + 4;</code>, 4 is a <em>literal value</em>.</li>
   <li>Expressions are the reference to variables, values, or set of variable(s) and value(s) combined with operators.
     <ul>
       <li><em>Assignment expressions</em> assign a variable to another expression</li>
@@ -190,7 +184,7 @@
     </ul>
   </li>
   <li>Review later: Javascript compiling in the first two chapters of <em>Scope &amp; Closures</em></li>
-  <li>The <code class="highlighter-rouge">prompt()</code> function opens an alert with an input. You can assign the function with a variable. <code class="highlighter-rouge">age = prompt("What is your age?");</code></li>
+  <li>The <code class="language-plaintext highlighter-rouge">prompt()</code> function opens an alert with an input. You can assign the function with a variable. <code class="language-plaintext highlighter-rouge">age = prompt("What is your age?");</code></li>
   <li>We take it for granted that specifying the variable in an assignment is typically on the left.
     <ul>
       <li>Side tangent: Are there languages that do the opposite?</li>
@@ -198,13 +192,13 @@
   </li>
   <li>Some lesser known assignments in JS include
     <ul>
-      <li>Remainder assignment <code class="highlighter-rouge">x %= y</code></li>
-      <li>Shift assignments <code class="highlighter-rouge">x &lt;&lt;= y</code>
+      <li>Remainder assignment <code class="language-plaintext highlighter-rouge">x %= y</code></li>
+      <li>Shift assignments <code class="language-plaintext highlighter-rouge">x &lt;&lt;= y</code>
         <ul>
           <li>Shift bits left or right by a certain amount. The above example shifts bits to the left.</li>
         </ul>
       </li>
-      <li>Bitwise assignments <code class="highlighter-rouge">x &amp;= y</code> or <code class="highlighter-rouge">x = x &amp; y</code>
+      <li>Bitwise assignments <code class="language-plaintext highlighter-rouge">x &amp;= y</code> or <code class="language-plaintext highlighter-rouge">x = x &amp; y</code>
         <ul>
           <li>The above example pertains to bits, using an AND logic.</li>
         </ul>
@@ -249,7 +243,7 @@
 
 <ul>
   <li>values added to the source code are called <em>literals</em></li>
-  <li><strong>Implicit coersion</strong> is when you’re making a comparison against two different types. The <code class="highlighter-rouge">==</code> operation is ‘loosely equal’ and uses implicit coersion. For this reason, it should be avoided because it can cause unexpected bugs.
+  <li><strong>Implicit coersion</strong> is when you’re making a comparison against two different types. The <code class="language-plaintext highlighter-rouge">==</code> operation is ‘loosely equal’ and uses implicit coersion. For this reason, it should be avoided because it can cause unexpected bugs.
     <ul>
       <li>More on this later in Chapter 2 of this title &amp; Chapter 4 of <em>Types &amp; Grammar</em></li>
     </ul>
@@ -267,13 +261,13 @@
   <li><em>Dynamic Typing</em> - allows a variable to represent a value regardless of type. Javascript adheres to this.</li>
   <li><em>State</em> is tracking changes to values as the program runs. In redux, we keep a global state to track the user’s progress through the application.</li>
   <li>Constants are declared once and don’t change. In ES6, when you declare a constant once, it throws an error if there is an attempt to change it. This is like the static-tying type enforcement.</li>
-  <li>A group of series of statements strung together are called a <em>block</em>. A <em>block</em> is contained within curly brackets. <code class="highlighter-rouge">{ .. }</code>
+  <li>A group of series of statements strung together are called a <em>block</em>. A <em>block</em> is contained within curly brackets. <code class="language-plaintext highlighter-rouge">{ .. }</code>
     <ul>
       <li>In <em>Ruby</em>, there are different ways to show a block. In fact, there are different types of blocks, like your general block, procs, and lambdas.</li>
     </ul>
   </li>
   <li>Conditions throw an error if its expression between the parentheses are not a boolean.</li>
-  <li>“Falsy” values are converted to the boolean <code class="highlighter-rouge">false</code>. “Truthy” values do the opposite. More on this in Chapter 4 of <code class="highlighter-rouge">Types &amp; Grammar</code></li>
+  <li>“Falsy” values are converted to the boolean <code class="language-plaintext highlighter-rouge">false</code>. “Truthy” values do the opposite. More on this in Chapter 4 of <code class="language-plaintext highlighter-rouge">Types &amp; Grammar</code></li>
   <li>An <em>iteration</em> occurs each time a block is called.</li>
 </ul>
 
@@ -282,11 +276,11 @@
 </blockquote>
 
 <ul>
-  <li>I rarely use <code class="highlighter-rouge">do..while</code> loops. Here’s the syntax.</li>
+  <li>I rarely use <code class="language-plaintext highlighter-rouge">do..while</code> loops. Here’s the syntax.</li>
 </ul>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">do</span> <span class="p">{</span>
-  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="s1">'How may I help you?'</span><span class="p">);</span>
+  <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span><span class="dl">'</span><span class="s1">How may I help you?</span><span class="dl">'</span><span class="p">);</span>
   <span class="c1">// Help the customer</span>
   <span class="nx">numOfCustomers</span> <span class="o">=</span> <span class="nx">numOfCustomers</span> <span class="o">-</span> <span class="mi">1</span><span class="p">;</span>
 <span class="p">}</span> <span class="k">while</span> <span class="p">(</span><span class="nx">numOfCustomer</span> <span class="o">&gt;</span> <span class="mi">0</span><span class="p">);</span>
@@ -323,7 +317,7 @@
 <span class="nx">outer</span><span class="p">();</span>
 </code></pre></div></div>
 
-<p>In the example, you can’t call <code class="highlighter-rouge">inner();</code> on the outermost scope. It can only be called within the <code class="highlighter-rouge">outer</code> function scope, as shown.</p>
+<p>In the example, you can’t call <code class="language-plaintext highlighter-rouge">inner();</code> on the outermost scope. It can only be called within the <code class="language-plaintext highlighter-rouge">outer</code> function scope, as shown.</p>
 
 <ul>
   <li>More on lexical scope in the first three chapters of <em>Scope &amp; Closures</em></li>
@@ -334,18 +328,18 @@
 <p><strong>Note:</strong> After reading through the first chapter, I realize I don’t really need to review too much. I’m going to skim this chapter and only note the things that I really think are worthwhile. Otherwise, I will keep notes on this chapter to a minimum.</p>
 
 <ul>
-  <li>No value set type is <code class="highlighter-rouge">undefined</code>.</li>
-  <li>I didn’t know <code class="highlighter-rouge">null</code> is an object type. Weird bug probably will never get fixed.</li>
+  <li>No value set type is <code class="language-plaintext highlighter-rouge">undefined</code>.</li>
+  <li>I didn’t know <code class="language-plaintext highlighter-rouge">null</code> is an object type. Weird bug probably will never get fixed.</li>
 </ul>
 
 <blockquote>
-  <p><code class="highlighter-rouge">typeof null</code> is an interesting case, because it errantly returns “object”, when you’d expect it to return “null”.</p>
+  <p><code class="language-plaintext highlighter-rouge">typeof null</code> is an interesting case, because it errantly returns “object”, when you’d expect it to return “null”.</p>
 </blockquote>
 
 <ul>
-  <li>To learn: Javascript’s <code class="highlighter-rouge">symbols</code>. I’m well aware of <strong>Ruby’s</strong> implementation of symbols like <code class="highlighter-rouge">:symbol_example</code>, which are used in many different contexts like classes. Will elaborate more on this in the ES6 portion.</li>
+  <li>To learn: Javascript’s <code class="language-plaintext highlighter-rouge">symbols</code>. I’m well aware of <strong>Ruby’s</strong> implementation of symbols like <code class="language-plaintext highlighter-rouge">:symbol_example</code>, which are used in many different contexts like classes. Will elaborate more on this in the ES6 portion.</li>
   <li>Arrays and functions are subtypes to objects. In my introduction to JS, I assumed “everything is an object”.</li>
-  <li>Built-In Type Methods extend the power of Javascript. These methods are like <code class="highlighter-rouge">String.prototype.toUpperCase</code>.</li>
+  <li>Built-In Type Methods extend the power of Javascript. These methods are like <code class="language-plaintext highlighter-rouge">String.prototype.toUpperCase</code>.</li>
   <li><em>Coercion</em> comes in two forms: <em>explicit</em> and <em>implicit</em>
     <ul>
       <li><em>explicit</em> is with both types the same.</li>
@@ -355,27 +349,27 @@
   <li>Coercion is not evil. There are times when you may need to convert types.</li>
   <li>List of falsy:
     <ul>
-      <li><code class="highlighter-rouge">""</code> (empty string)</li>
-      <li><code class="highlighter-rouge">0</code>, <code class="highlighter-rouge">-0</code>, <code class="highlighter-rouge">NaN</code></li>
-      <li><code class="highlighter-rouge">null</code>, <code class="highlighter-rouge">undefined</code></li>
-      <li><code class="highlighter-rouge">false</code></li>
+      <li><code class="language-plaintext highlighter-rouge">""</code> (empty string)</li>
+      <li><code class="language-plaintext highlighter-rouge">0</code>, <code class="language-plaintext highlighter-rouge">-0</code>, <code class="language-plaintext highlighter-rouge">NaN</code></li>
+      <li><code class="language-plaintext highlighter-rouge">null</code>, <code class="language-plaintext highlighter-rouge">undefined</code></li>
+      <li><code class="language-plaintext highlighter-rouge">false</code></li>
     </ul>
   </li>
   <li>Things that can be truthy
     <ul>
       <li>non-empty strings</li>
       <li>non-zero, valid numbers</li>
-      <li><code class="highlighter-rouge">true</code></li>
+      <li><code class="language-plaintext highlighter-rouge">true</code></li>
       <li>arrays, empty or non-empty</li>
       <li>objects, empty or non-empty</li>
       <li>functions</li>
     </ul>
   </li>
-  <li><code class="highlighter-rouge">==</code> checks for value equality. Coercion allowed.</li>
-  <li><code class="highlighter-rouge">===</code> checks for value and type equality. Coercion not allowed. Also known as <code class="highlighter-rouge">strict equality</code></li>
+  <li><code class="language-plaintext highlighter-rouge">==</code> checks for value equality. Coercion allowed.</li>
+  <li><code class="language-plaintext highlighter-rouge">===</code> checks for value and type equality. Coercion not allowed. Also known as <code class="language-plaintext highlighter-rouge">strict equality</code></li>
 </ul>
 
-<p>Some simple rules for equality of when to use <code class="highlighter-rouge">==</code> or <code class="highlighter-rouge">===</code>.</p>
+<p>Some simple rules for equality of when to use <code class="language-plaintext highlighter-rouge">==</code> or <code class="language-plaintext highlighter-rouge">===</code>.</p>
 
 <blockquote>
   <p>If either value (aka side) in a comparison could be the true or false value, avoid == and use ===.</p>
@@ -390,7 +384,7 @@
 </blockquote>
 
 <ul>
-  <li>I’ve played it safe with this, but I may revisit using <code class="highlighter-rouge">==</code> more often, if it doesn’t violate the rules. <strong>Important note:</strong> think critically before use.</li>
+  <li>I’ve played it safe with this, but I may revisit using <code class="language-plaintext highlighter-rouge">==</code> more often, if it doesn’t violate the rules. <strong>Important note:</strong> think critically before use.</li>
 </ul>
 
 <blockquote>
@@ -400,10 +394,10 @@
 <ul>
   <li>This just confuses me. MDN breaks down the <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Equality_comparisons_and_sameness">“Abstract Equality Comparison Algorithm”</a>.</li>
   <li>Inequality operators follow implicit coercion</li>
-  <li>When comparing numbers with strings, the strings get coerced into a number. When the string contains non-number characters, it gets converted to <code class="highlighter-rouge">NaN</code> and when comparing with <code class="highlighter-rouge">&lt;</code> or <code class="highlighter-rouge">&gt;</code>, <code class="highlighter-rouge">NaN</code> is neither greater nor less than a value, hence returns <code class="highlighter-rouge">false</code>.</li>
+  <li>When comparing numbers with strings, the strings get coerced into a number. When the string contains non-number characters, it gets converted to <code class="language-plaintext highlighter-rouge">NaN</code> and when comparing with <code class="language-plaintext highlighter-rouge">&lt;</code> or <code class="language-plaintext highlighter-rouge">&gt;</code>, <code class="language-plaintext highlighter-rouge">NaN</code> is neither greater nor less than a value, hence returns <code class="language-plaintext highlighter-rouge">false</code>.</li>
   <li><em>Hoisting</em> is when a variable is moved to the top of the enclosing scope. (conceptually speaking)</li>
   <li>Okay to use a function before it is declared as function declarations are hoisted. Generally not good with variables.</li>
-  <li>Use <code class="highlighter-rouge">let</code> for block scoped variables. For example, in an <code class="highlighter-rouge">if</code> block, you declare a variable you only want to be used within that block, use <code class="highlighter-rouge">let</code>.</li>
+  <li>Use <code class="language-plaintext highlighter-rouge">let</code> for block scoped variables. For example, in an <code class="language-plaintext highlighter-rouge">if</code> block, you declare a variable you only want to be used within that block, use <code class="language-plaintext highlighter-rouge">let</code>.</li>
 </ul>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">function</span> <span class="nx">foo</span><span class="p">()</span> <span class="p">{</span>
@@ -426,13 +420,13 @@
 </code></pre></div></div>
 
 <ul>
-  <li><code class="highlighter-rouge">Strict mode</code> was introduced in <strong>ES5</strong>. Noted with <code class="highlighter-rouge">"use strict"</code>.</li>
-  <li>Strict mode disallows implicit auto-global variable declaration from omitting the <code class="highlighter-rouge">var</code>.</li>
+  <li><code class="language-plaintext highlighter-rouge">Strict mode</code> was introduced in <strong>ES5</strong>. Noted with <code class="language-plaintext highlighter-rouge">"use strict"</code>.</li>
+  <li>Strict mode disallows implicit auto-global variable declaration from omitting the <code class="language-plaintext highlighter-rouge">var</code>.</li>
   <li>I feel computer science needs to put unnecessarily long titles to items. <strong>Immediately invoked function expressions (IIFE)</strong> are involved upon declaration.</li>
 </ul>
 
 <div class="language-js highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">(</span><span class="kd">function</span> <span class="nx">IIFE</span><span class="p">(){</span>
-    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="s2">"Hello!"</span> <span class="p">);</span>
+    <span class="nx">console</span><span class="p">.</span><span class="nx">log</span><span class="p">(</span> <span class="dl">"</span><span class="s2">Hello!</span><span class="dl">"</span> <span class="p">);</span>
 <span class="p">})();</span>
 <span class="c1">// "Hello!"</span>
 </code></pre></div></div>
@@ -453,14 +447,14 @@
 
 <ul>
   <li>Executing the module as a function creates an instance of that module.</li>
-  <li>The <code class="highlighter-rouge">this</code> operator reference depends on how the function is called. That will determine what <code class="highlighter-rouge">this</code> is. There are four rules of how <code class="highlighter-rouge">this</code> gets set. More on this later in the <code class="highlighter-rouge">this &amp; Object Prototype</code> book.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">this</code> operator reference depends on how the function is called. That will determine what <code class="language-plaintext highlighter-rouge">this</code> is. There are four rules of how <code class="language-plaintext highlighter-rouge">this</code> gets set. More on this later in the <code class="language-plaintext highlighter-rouge">this &amp; Object Prototype</code> book.</li>
   <li>Prototype links allow one object to delegate properties from another object. What this means is a property prototype linked is not attached to that object but to its original object (which could in turn, just be the <strong>proto</strong> property of Object).</li>
   <li>Do not think of applying prototypes as inheritance. It follows a pattern called “behavior delegation”, delegating one part of an object to another.</li>
   <li>Bring the old to new with <strong>polyfiling</strong> and <strong>transpiling</strong>.
     <ul>
       <li>A “polyfill” is to take a definition of a newer feature and produce a piece of code equivalent to the behavior for older JS environments.
         <ul>
-          <li>An example is <a href="https://lodash.com/">lodash</a> that has a bunch of features from ES5 and ES6 which some frameworks utilize, like <code class="highlighter-rouge">forEach</code> and <code class="highlighter-rouge">map</code>.</li>
+          <li>An example is <a href="https://lodash.com/">lodash</a> that has a bunch of features from ES5 and ES6 which some frameworks utilize, like <code class="language-plaintext highlighter-rouge">forEach</code> and <code class="language-plaintext highlighter-rouge">map</code>.</li>
         </ul>
       </li>
       <li>Careful writing your own polyfill as you should adhere closely to the specification.</li>
@@ -468,9 +462,9 @@
       <li>Transpiling is great for new syntax. It is a tool that converts your code to older coding environments. You can break down the word “transpiling” into transforming + compiling.</li>
     </ul>
   </li>
-  <li><code class="highlighter-rouge">arguments</code> can be used functions to determine which arguments were passed in. It is not a reserved word, so you can assign it to a different value. When calling it, it outputs an array.</li>
+  <li><code class="language-plaintext highlighter-rouge">arguments</code> can be used functions to determine which arguments were passed in. It is not a reserved word, so you can assign it to a different value. When calling it, it outputs an array.</li>
   <li>The book series doesn’t cover Non-Javascript, like the DOM API. But you need to be aware of it. DOM API could actually be written by the browsers in <strong>C/C++</strong>.</li>
-  <li>The <code class="highlighter-rouge">document</code> object is a “host object”, a special object that has been implemented by the browser.</li>
+  <li>The <code class="language-plaintext highlighter-rouge">document</code> object is a “host object”, a special object that has been implemented by the browser.</li>
 </ul>
 
 <h3 id="chapter-3-into-ydkjs">Chapter 3: Into YDKJS</h3>
@@ -523,12 +517,6 @@
                 
                   <li>
                     <a href="/talks/">Talks</a>
-                  </li>
-                
-              
-                
-                  <li>
-                    <a href="/products/">Shop</a>
                   </li>
                 
               
