@@ -20,9 +20,9 @@ Here’s how it works. Choose a project you’d like to fund. Once you’ve made
 
 The deadline is December 20th, 2019.
 
-Donation link: https://www.globalgiving.org/search/
+[Donation link](https://www.globalgiving.org/search/)
 
-When you’re done donating, here’s a link to the Google Form: https://forms.gle/EVVDkwKCE6nXoJ2d8
+When you’re done donating, here’s [a link to the Google Form](https://forms.gle/EVVDkwKCE6nXoJ2d8)
 
 Happy Holidays,  
 Jeremy Wong
