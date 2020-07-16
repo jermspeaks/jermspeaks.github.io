@@ -5,15 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jeremy Wong" />
+  <link type="application/atom+xml" rel="alternate" href="https://craftbyzen.com/feed.xml" title="Jeremy Wong" />
 
   <title>Levenshtein Distance Problem</title>
   <meta name="description" content="LEVENSHTEIN DISTANCE PROBLEM">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/Levenshtein-Distance-Problem.html">
-  <link rel="alternate" type="application/rss+xml" title="Jeremy Wong" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="https://craftbyzen.com/blog/Levenshtein-Distance-Problem.html">
+  <link rel="alternate" type="application/rss+xml" title="Jeremy Wong" href="https://craftbyzen.com/feed.xml" />
 </head>
 
 
@@ -124,12 +124,6 @@
       
         <li class="landing-nav-list-item">
           
-            <a class="landing-nav-list-link" href="/products/">Shop</a>
-          
-        </li>
-      
-        <li class="landing-nav-list-item">
-          
             <a class="landing-nav-list-link" href="/log/">Logs</a>
           
         </li>
@@ -161,7 +155,7 @@
 <span class="k">end</span>
 </code></pre></div></div>
 
-<p>We traverse this matrix starting at <code class="highlighter-rouge">[1]</code> <code class="highlighter-rouge">[1]</code> (one square diagonal of the top left square), and move to our right until we get to the end of the matrix. Then we continue to the next row and go back to 1 (matrix <code class="highlighter-rouge">[2]</code> <code class="highlighter-rouge">[1]</code>). We place a conditional in our code. If the letters we are comparing are the same, then there is no cost penalty and we take the same value as the diagonal on the square’s top left. However, if it is different, we take the minimum cost to each of our modification choices.</p>
+<p>We traverse this matrix starting at <code class="language-plaintext highlighter-rouge">[1]</code> <code class="language-plaintext highlighter-rouge">[1]</code> (one square diagonal of the top left square), and move to our right until we get to the end of the matrix. Then we continue to the next row and go back to 1 (matrix <code class="language-plaintext highlighter-rouge">[2]</code> <code class="language-plaintext highlighter-rouge">[1]</code>). We place a conditional in our code. If the letters we are comparing are the same, then there is no cost penalty and we take the same value as the diagonal on the square’s top left. However, if it is different, we take the minimum cost to each of our modification choices.</p>
 
 <ul>
   <li><strong>Insertion:</strong> When we insert a letter in our first string, that shifts our word column, so we take the same value as to the square to its top, plus 1 for an additional modification cost.</li>
@@ -236,12 +230,6 @@
               
                 
                   <li>
-                    <a href="/products/">Shop</a>
-                  </li>
-                
-              
-                
-                  <li>
                     <a href="/log/">Logs</a>
                   </li>
                 
@@ -259,7 +247,7 @@
 
 
       <div class="footer-description">
-        <span class="text">© 2017 Craft By Zen</span>
+        <span class="text">© 2019 Craft By Zen</span>
       </div>
     </div>
 

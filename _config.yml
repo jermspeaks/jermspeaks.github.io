@@ -1,6 +1,6 @@
 # site information
 authors: "Jeremy Wong"
-description: "© 2017 Craft By Zen"
+description: "© 2019 Craft By Zen"
 title: "Jeremy Wong"
 github_username: "jermspeaks"
 twitter_username: "jermspeaks"
@@ -43,7 +43,7 @@ exclude: [README.markdown, Makefile]
 timezone: UTC
 encoding: utf-8
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://craftbyzen.com"
+url: "https://craftbyzen.com"
 plugins:
   - jekyll-feed
 sass:

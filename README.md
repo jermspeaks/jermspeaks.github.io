@@ -1,7 +1,7 @@
 # Website for Craft By Zen
 ## All Website Data Pertaining to Craft by Zen
 
-[Website](http://craftbyzen.com)
+[Website](https://craftbyzen.com)
 
 ### Goals
 - [x] Migration of About Me Page

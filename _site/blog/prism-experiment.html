@@ -5,15 +5,15 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Jeremy Wong" />
+  <link type="application/atom+xml" rel="alternate" href="https://craftbyzen.com/feed.xml" title="Jeremy Wong" />
 
   <title>Code Highlight Test</title>
   <meta name="description" content="So guyswhats up">
 
   <link rel="shortcut icon" type="image/x-icon" href="/assets/favicon.png">
   <link rel="stylesheet" href="/css/main.css">
-  <link rel="canonical" href="http://localhost:4000/blog/prism-experiment.html">
-  <link rel="alternate" type="application/rss+xml" title="Jeremy Wong" href="http://localhost:4000/feed.xml" />
+  <link rel="canonical" href="https://craftbyzen.com/blog/prism-experiment.html">
+  <link rel="alternate" type="application/rss+xml" title="Jeremy Wong" href="https://craftbyzen.com/feed.xml" />
 </head>
 
 
@@ -124,12 +124,6 @@
       
         <li class="landing-nav-list-item">
           
-            <a class="landing-nav-list-link" href="/products/">Shop</a>
-          
-        </li>
-      
-        <li class="landing-nav-list-item">
-          
             <a class="landing-nav-list-link" href="/log/">Logs</a>
           
         </li>
@@ -140,7 +134,7 @@
 
 
       <section class="landing-right">
-        <div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>So guys
+        <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>So guys
 whats up
 </code></pre></div></div>
 
@@ -151,7 +145,7 @@ sample javascript from xui
 <span class="kd">var</span> <span class="kc">undefined</span><span class="p">,</span>
     <span class="nx">xui</span><span class="p">,</span>
     <span class="nb">window</span>     <span class="o">=</span> <span class="k">this</span><span class="p">,</span>
-    <span class="nx">string</span>     <span class="o">=</span> <span class="k">new</span> <span class="nb">String</span><span class="p">(</span><span class="s1">'string'</span><span class="p">),</span>
+    <span class="nx">string</span>     <span class="o">=</span> <span class="k">new</span> <span class="nb">String</span><span class="p">(</span><span class="dl">'</span><span class="s1">string</span><span class="dl">'</span><span class="p">),</span>
     <span class="nb">document</span>   <span class="o">=</span> <span class="nb">window</span><span class="p">.</span><span class="nb">document</span><span class="p">,</span>
     <span class="nx">simpleExpr</span> <span class="o">=</span> <span class="sr">/^#</span><span class="se">?([\w</span><span class="sr">-</span><span class="se">]</span><span class="sr">+</span><span class="se">)</span><span class="sr">$/</span><span class="p">,</span>
     <span class="nx">idExpr</span>     <span class="o">=</span> <span class="sr">/^#/</span><span class="p">,</span>
@@ -177,9 +171,9 @@ sample javascript from xui
 <span class="nt">&lt;body</span> <span class="na">bgcolor=</span><span class="s">"#FFFFFF"</span> <span class="na">text=</span><span class="s">"#000000"</span> <span class="na">link=</span><span class="s">"#0000CC"</span><span class="nt">&gt;</span>
 <span class="nt">&lt;script </span><span class="na">language=</span><span class="s">"javascript"</span> <span class="na">type=</span><span class="s">"text/javascript"</span><span class="nt">&gt;</span>
       <span class="kd">function</span> <span class="nx">changeHeight</span><span class="p">(</span><span class="nx">h</span><span class="p">)</span> <span class="p">{</span>
-        <span class="kd">var</span> <span class="nx">tds</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="s2">"td"</span><span class="p">);</span>
+        <span class="kd">var</span> <span class="nx">tds</span> <span class="o">=</span> <span class="nb">document</span><span class="p">.</span><span class="nx">getElementsByTagName</span><span class="p">(</span><span class="dl">"</span><span class="s2">td</span><span class="dl">"</span><span class="p">);</span>
         <span class="k">for</span><span class="p">(</span><span class="kd">var</span> <span class="nx">i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="nx">i</span> <span class="o">&lt;</span> <span class="nx">tds</span><span class="p">.</span><span class="nx">length</span><span class="p">;</span> <span class="nx">i</span><span class="o">++</span><span class="p">)</span> <span class="p">{</span>
-          <span class="nx">tds</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">setAttribute</span><span class="p">(</span><span class="s2">"height"</span><span class="p">,</span> <span class="nx">h</span> <span class="o">+</span> <span class="s2">"px"</span><span class="p">);</span>
+          <span class="nx">tds</span><span class="p">[</span><span class="nx">i</span><span class="p">].</span><span class="nx">setAttribute</span><span class="p">(</span><span class="dl">"</span><span class="s2">height</span><span class="dl">"</span><span class="p">,</span> <span class="nx">h</span> <span class="o">+</span> <span class="dl">"</span><span class="s2">px</span><span class="dl">"</span><span class="p">);</span>
       <span class="p">}}</span>
 <span class="nt">&lt;/script&gt;</span>
 <span class="nt">&lt;h1&gt;</span>abc<span class="nt">&lt;/h1&gt;</span>
@@ -274,7 +268,7 @@ sample javascript from xui
 <span class="n">main</span> <span class="o">=</span> <span class="n">hakyll</span> <span class="o">$</span> <span class="kr">do</span>
 
     <span class="n">route</span>   <span class="s">"css/*"</span> <span class="o">$</span> <span class="n">setExtension</span> <span class="s">"css"</span>
-    <span class="n">compile</span> <span class="s">"css/*"</span> <span class="o">$</span> <span class="n">byExtension</span> <span class="p">(</span><span class="ne">error</span> <span class="s">"Not a (S)CSS file"</span><span class="p">)</span>
+    <span class="n">compile</span> <span class="s">"css/*"</span> <span class="o">$</span> <span class="n">byExtension</span> <span class="p">(</span><span class="n">error</span> <span class="s">"Not a (S)CSS file"</span><span class="p">)</span>
         <span class="p">[</span> <span class="p">(</span><span class="s">".css"</span><span class="p">,</span>  <span class="n">compressCssCompiler</span><span class="p">)</span>
         <span class="p">,</span> <span class="p">(</span><span class="s">".scss"</span><span class="p">,</span> <span class="n">sass</span><span class="p">)</span>
         <span class="p">]</span>
@@ -312,12 +306,12 @@ sample javascript from xui
         <span class="c">#conform_link "$CONF_DIR/shell/zshenv" ".zshenv"</span>
         crontab <span class="nt">-l</span> <span class="o">&gt;</span> <span class="nv">$ROOT_DIR</span>/tmp/crontab-conflict-arch
         <span class="nb">cd</span> <span class="nv">$ROOT_DIR</span>/<span class="nv">$CONF_DIR</span>/cron
-        <span class="k">if</span> <span class="o">[[</span> <span class="s2">"</span><span class="k">$(</span>diff ~/tmp/crontab-conflict-arch crontab-current-arch<span class="k">)</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">""</span>
+        <span class="k">if</span> <span class="o">[[</span> <span class="s2">"</span><span class="si">$(</span>diff ~/tmp/crontab-conflict-arch crontab-current-arch<span class="si">)</span><span class="s2">"</span> <span class="o">==</span> <span class="s2">""</span>
             <span class="o">]]</span><span class="p">;</span>
             <span class="k">then</span> <span class="c"># no difference with current backup</span>
                 logger <span class="s2">"</span><span class="nv">$LOG_PREFIX</span><span class="s2">: crontab live settings match stored "</span><span class="se">\</span>
                     <span class="s2">"settings; no restore required"</span>
-                rm ~/tmp/crontab-conflict-arch
+                <span class="nb">rm</span> ~/tmp/crontab-conflict-arch
             <span class="k">else</span> <span class="c"># current crontab settings in file do not match live settings</span>
                 crontab <span class="nv">$ROOT_DIR</span>/<span class="nv">$CONF_DIR</span>/cron/crontab-current-arch
                 logger <span class="s2">"</span><span class="nv">$LOG_PREFIX</span><span class="s2">: crontab stored settings conflict with "</span><span class="se">\</span>
@@ -327,8 +321,8 @@ sample javascript from xui
     <span class="p">;;</span>
 </code></pre></div></div>
 
-<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c"># test python (sample from offlineimap)</span>
-
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1"># test python (sample from offlineimap)
+</span>
 <span class="k">class</span> <span class="nc">ExitNotifyThread</span><span class="p">(</span><span class="n">Thread</span><span class="p">):</span>
     <span class="s">"""This class is designed to alert a "monitor" to the fact that a thread has
     exited and to provide for the ability for it to find out why."""</span>
@@ -336,8 +330,8 @@ sample javascript from xui
         <span class="k">global</span> <span class="n">exitthreads</span><span class="p">,</span> <span class="n">profiledir</span>
         <span class="bp">self</span><span class="o">.</span><span class="n">threadid</span> <span class="o">=</span> <span class="n">thread</span><span class="o">.</span><span class="n">get_ident</span><span class="p">()</span>
         <span class="k">try</span><span class="p">:</span>
-            <span class="k">if</span> <span class="ow">not</span> <span class="n">profiledir</span><span class="p">:</span>          <span class="c"># normal case</span>
-                <span class="n">Thread</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
+            <span class="k">if</span> <span class="ow">not</span> <span class="n">profiledir</span><span class="p">:</span>          <span class="c1"># normal case
+</span>                <span class="n">Thread</span><span class="o">.</span><span class="n">run</span><span class="p">(</span><span class="bp">self</span><span class="p">)</span>
             <span class="k">else</span><span class="p">:</span>
                 <span class="k">try</span><span class="p">:</span>
                     <span class="kn">import</span> <span class="nn">cProfile</span> <span class="k">as</span> <span class="n">profile</span>
@@ -402,12 +396,12 @@ sample javascript from xui
 <span class="c1"># Time-stamp: &lt;2002/04/06, 13:12:13 (EST), maverick, csvformat.pl&gt;</span>
 <span class="c1"># Two pass CSV file to table formatter</span>
 
-<span class="nv">$delim</span> <span class="o">=</span> <span class="nv">$#ARGV</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="p">?</span> <span class="nv">$ARGV</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">:</span> <span class="s">','</span><span class="p">;</span>
-<span class="k">print</span> <span class="bp">STDERR</span> <span class="s">"Split pattern: $delim\n"</span><span class="p">;</span>
+<span class="nv">$delim</span> <span class="o">=</span> <span class="nv">$#ARGV</span> <span class="o">&gt;=</span> <span class="mi">1</span> <span class="p">?</span> <span class="nv">$ARGV</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="p">:</span> <span class="p">'</span><span class="s1">,</span><span class="p">';</span>
+<span class="k">print</span> <span class="bp">STDERR</span> <span class="p">"</span><span class="s2">Split pattern: </span><span class="si">$delim</span><span class="se">\n</span><span class="p">";</span>
 
 <span class="c1"># first pass</span>
-<span class="nb">open</span> <span class="nv">F</span><span class="p">,</span> <span class="s">"&lt;$ARGV[0]"</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">;</span>
-<span class="k">while</span><span class="p">(</span><span class="sr">&lt;F&gt;</span><span class="p">)</span>
+<span class="nb">open</span> <span class="nv">F</span><span class="p">,</span> <span class="p">"</span><span class="s2">&lt;</span><span class="si">$ARGV</span><span class="s2">[0]</span><span class="p">"</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">;</span>
+<span class="k">while</span><span class="p">(</span><span class="o">&lt;</span><span class="nv">F</span><span class="o">&gt;</span><span class="p">)</span>
 <span class="p">{</span>
   <span class="nb">chomp</span><span class="p">;</span>
   <span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
@@ -416,18 +410,18 @@ sample javascript from xui
 <span class="p">}</span>
 <span class="nb">close</span> <span class="nv">F</span><span class="p">;</span>
 
-<span class="k">print</span> <span class="bp">STDERR</span> <span class="s">'Field width:   '</span><span class="p">,</span> <span class="nb">join</span><span class="p">(</span><span class="s">', '</span><span class="p">,</span> <span class="nv">@max</span><span class="p">),</span> <span class="s">"\n"</span><span class="p">;</span>
-<span class="k">print</span> <span class="bp">STDERR</span> <span class="nb">join</span><span class="p">(</span><span class="s">' '</span><span class="p">,</span> <span class="nb">map</span> <span class="p">{</span><span class="s">'-'</span> <span class="nv">x</span> <span class="nv">$_</span><span class="p">}</span> <span class="nv">@max</span><span class="p">);</span>
+<span class="k">print</span> <span class="bp">STDERR</span> <span class="p">'</span><span class="s1">Field width:   </span><span class="p">',</span> <span class="nb">join</span><span class="p">('</span><span class="s1">, </span><span class="p">',</span> <span class="nv">@max</span><span class="p">),</span> <span class="p">"</span><span class="se">\n</span><span class="p">";</span>
+<span class="k">print</span> <span class="bp">STDERR</span> <span class="nb">join</span><span class="p">('</span><span class="s1"> </span><span class="p">',</span> <span class="nb">map</span> <span class="p">{'</span><span class="s1">-</span><span class="p">'</span> <span class="nv">x</span> <span class="nv">$_</span><span class="p">}</span> <span class="nv">@max</span><span class="p">);</span>
 
 <span class="c1"># second pass</span>
-<span class="nb">open</span> <span class="nv">F</span><span class="p">,</span> <span class="s">"&lt;$ARGV[0]"</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">;</span>
-<span class="k">while</span><span class="p">(</span><span class="sr">&lt;F&gt;</span><span class="p">)</span>
+<span class="nb">open</span> <span class="nv">F</span><span class="p">,</span> <span class="p">"</span><span class="s2">&lt;</span><span class="si">$ARGV</span><span class="s2">[0]</span><span class="p">"</span> <span class="ow">or</span> <span class="nb">die</span><span class="p">;</span>
+<span class="k">while</span><span class="p">(</span><span class="o">&lt;</span><span class="nv">F</span><span class="o">&gt;</span><span class="p">)</span>
   <span class="p">{</span>
   <span class="nb">chomp</span><span class="p">;</span>
   <span class="nv">$i</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
-  <span class="nb">map</span> <span class="p">{</span> <span class="nb">printf</span><span class="p">(</span><span class="s">"%-$max[$_-&gt;[1]]s "</span><span class="p">,</span> <span class="nv">$_</span><span class="o">-&gt;</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="p">}</span>
+  <span class="nb">map</span> <span class="p">{</span> <span class="nb">printf</span><span class="p">("</span><span class="s2">%-</span><span class="si">$max</span><span class="s2">[</span><span class="si">$_</span><span class="s2">-&gt;[1]]s </span><span class="p">",</span> <span class="nv">$_</span><span class="o">-&gt;</span><span class="p">[</span><span class="mi">0</span><span class="p">])</span> <span class="p">}</span>
     <span class="p">(</span><span class="nb">map</span> <span class="p">{[</span><span class="nv">$_</span><span class="p">,</span> <span class="nv">$i</span><span class="o">++</span><span class="p">]}</span> <span class="nb">split</span><span class="p">(</span><span class="nv">$delim</span><span class="p">));</span>
-  <span class="k">print</span> <span class="s">"\n"</span><span class="p">;</span>
+  <span class="k">print</span> <span class="p">"</span><span class="se">\n</span><span class="p">";</span>
 <span class="p">}</span>
 <span class="nb">close</span> <span class="nv">F</span><span class="p">;</span>
 </code></pre></div></div>
@@ -441,12 +435,12 @@ sample javascript from xui
    * let's test generics
    * @param args the command line arguments
    */</span>
-  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="n">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
+  <span class="kd">public</span> <span class="kd">static</span> <span class="kt">void</span> <span class="nf">main</span><span class="o">(</span><span class="nc">String</span><span class="o">[]</span> <span class="n">args</span><span class="o">)</span> <span class="o">{</span>
     <span class="c1">// get a map of environment variables</span>
-    <span class="n">Map</span><span class="o">&lt;</span><span class="n">String</span><span class="o">,</span> <span class="n">String</span><span class="o">&gt;</span> <span class="n">env</span> <span class="o">=</span> <span class="n">System</span><span class="o">.</span><span class="na">getenv</span><span class="o">();</span>
+    <span class="nc">Map</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">,</span> <span class="nc">String</span><span class="o">&gt;</span> <span class="n">env</span> <span class="o">=</span> <span class="nc">System</span><span class="o">.</span><span class="na">getenv</span><span class="o">();</span>
     <span class="c1">// build a sorted set out of the keys and iterate</span>
-    <span class="k">for</span><span class="o">(</span><span class="n">String</span> <span class="nl">k:</span> <span class="k">new</span> <span class="n">TreeSet</span><span class="o">&lt;</span><span class="n">String</span><span class="o">&gt;(</span><span class="n">env</span><span class="o">.</span><span class="na">keySet</span><span class="o">()))</span> <span class="o">{</span>
-      <span class="n">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">"%s = %s\n"</span><span class="o">,</span> <span class="n">k</span><span class="o">,</span> <span class="n">env</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">k</span><span class="o">));</span>
+    <span class="k">for</span><span class="o">(</span><span class="nc">String</span> <span class="nl">k:</span> <span class="k">new</span> <span class="nc">TreeSet</span><span class="o">&lt;</span><span class="nc">String</span><span class="o">&gt;(</span><span class="n">env</span><span class="o">.</span><span class="na">keySet</span><span class="o">()))</span> <span class="o">{</span>
+      <span class="nc">System</span><span class="o">.</span><span class="na">out</span><span class="o">.</span><span class="na">printf</span><span class="o">(</span><span class="s">"%s = %s\n"</span><span class="o">,</span> <span class="n">k</span><span class="o">,</span> <span class="n">env</span><span class="o">.</span><span class="na">get</span><span class="o">(</span><span class="n">k</span><span class="o">));</span>
     <span class="o">}</span>
   <span class="o">}</span>    
 <span class="o">}</span>
@@ -456,8 +450,8 @@ sample javascript from xui
 #include &lt;windows.h&gt;
 </span>
 <span class="kt">int</span> <span class="nf">main</span><span class="p">(</span><span class="kt">int</span> <span class="n">argc</span><span class="p">,</span> <span class="kt">char</span> <span class="o">**</span><span class="n">argv</span><span class="p">)</span> <span class="p">{</span>
-  <span class="kt">int</span> <span class="n">speed</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">speed1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">speed2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">// 1-20
-</span>  <span class="n">printf</span><span class="p">(</span><span class="s">"Set Mouse Speed by Maverick</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
+  <span class="kt">int</span> <span class="n">speed</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">speed1</span> <span class="o">=</span> <span class="mi">0</span><span class="p">,</span> <span class="n">speed2</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="c1">// 1-20</span>
+  <span class="n">printf</span><span class="p">(</span><span class="s">"Set Mouse Speed by Maverick</span><span class="se">\n</span><span class="s">"</span><span class="p">);</span>
 
   <span class="n">SystemParametersInfo</span><span class="p">(</span><span class="n">SPI_GETMOUSESPEED</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">speed</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
   <span class="n">printf</span><span class="p">(</span><span class="s">"Current speed: %2d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">speed</span><span class="p">);</span>
@@ -466,13 +460,13 @@ sample javascript from xui
   <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&gt;=</span> <span class="mi">2</span><span class="p">)</span> <span class="n">sscanf</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">1</span><span class="p">],</span> <span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">speed1</span><span class="p">);</span>
   <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">&gt;=</span> <span class="mi">3</span><span class="p">)</span> <span class="n">sscanf</span><span class="p">(</span><span class="n">argv</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="s">"%d"</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">speed2</span><span class="p">);</span>
 
-  <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// set speed to first value
-</span>    <span class="n">speed</span> <span class="o">=</span> <span class="n">speed1</span><span class="p">;</span>
-  <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">speed</span> <span class="o">==</span> <span class="n">speed1</span> <span class="o">||</span> <span class="n">speed</span> <span class="o">==</span> <span class="n">speed2</span><span class="p">)</span> <span class="c1">// alternate
-</span>    <span class="n">speed</span> <span class="o">=</span> <span class="n">speed1</span> <span class="o">+</span> <span class="n">speed2</span> <span class="o">-</span> <span class="n">speed</span><span class="p">;</span>
+  <span class="k">if</span> <span class="p">(</span><span class="n">argc</span> <span class="o">==</span> <span class="mi">2</span><span class="p">)</span> <span class="c1">// set speed to first value</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">speed1</span><span class="p">;</span>
+  <span class="k">else</span> <span class="k">if</span> <span class="p">(</span><span class="n">speed</span> <span class="o">==</span> <span class="n">speed1</span> <span class="o">||</span> <span class="n">speed</span> <span class="o">==</span> <span class="n">speed2</span><span class="p">)</span> <span class="c1">// alternate</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">speed1</span> <span class="o">+</span> <span class="n">speed2</span> <span class="o">-</span> <span class="n">speed</span><span class="p">;</span>
   <span class="k">else</span>
-    <span class="n">speed</span> <span class="o">=</span> <span class="n">speed1</span><span class="p">;</span>  <span class="c1">// start with first value
-</span>
+    <span class="n">speed</span> <span class="o">=</span> <span class="n">speed1</span><span class="p">;</span>  <span class="c1">// start with first value</span>
+
   <span class="n">SystemParametersInfo</span><span class="p">(</span><span class="n">SPI_SETMOUSESPEED</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span>  <span class="n">speed</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
   <span class="n">SystemParametersInfo</span><span class="p">(</span><span class="n">SPI_GETMOUSESPEED</span><span class="p">,</span> <span class="mi">0</span><span class="p">,</span> <span class="o">&amp;</span><span class="n">speed</span><span class="p">,</span> <span class="mi">0</span><span class="p">);</span>
   <span class="n">printf</span><span class="p">(</span><span class="s">"New speed:     %2d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">speed</span><span class="p">);</span>
@@ -529,12 +523,6 @@ sample javascript from xui
               
                 
                   <li>
-                    <a href="/products/">Shop</a>
-                  </li>
-                
-              
-                
-                  <li>
                     <a href="/log/">Logs</a>
                   </li>
                 
@@ -552,7 +540,7 @@ sample javascript from xui
 
 
       <div class="footer-description">
-        <span class="text">© 2017 Craft By Zen</span>
+        <span class="text">© 2019 Craft By Zen</span>
       </div>
     </div>
 
