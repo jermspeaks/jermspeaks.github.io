@@ -9,8 +9,6 @@ heroImage: ""
 postType: "blog"
 ---
 
-# BE COMFORTABLE BEING UNCOMFORTABLE
-
 ![Coffee sign](https://static1.squarespace.com/static/512515d2e4b08a76159c79b3/t/5418fde3e4b0fa4ecac21fe1/1410924022610/2014-09-14+12.26.19.jpg?format=2500w)
 
 > Yes, coffee does solve everything. Even uncomfortable anxiety

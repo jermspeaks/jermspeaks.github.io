@@ -43,10 +43,10 @@ const posts = (await getCollection("blog"))
             posts.map((post) => (
               <li>
                 <FormattedDate date={post.data.pubDate} />
-                {`#${post.data.postType}`}&nbsp;
+                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+                &nbsp;{`#${post.data.postType}`}
                 {/** Array.isArray(post.data.tags) &&
 								post.data.tags.map((tag) => `#${tag}`).join(" ") */}
-                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
               </li>
             ))
           }

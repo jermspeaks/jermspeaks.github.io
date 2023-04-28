@@ -6,6 +6,9 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 
+const series = (await getCollection("series")).sort(
+  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
+);
 const lastPost = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
@@ -35,7 +38,66 @@ const lastProject = (await getCollection("project")).sort(
         >
       </h2>
     </main>
-    <!-- <section class="landing-bottom-banner landing-newsletter">
+
+    <hr />
+
+    <article>
+      <h3>Newsletter Series</h3>
+
+      A weekly, longform essay that mainly focuses on lessons I've learned. I
+      try to write something I find meaningful, whether it's exposing your
+      ignorance, staying true to yourself or being resilient. In a world of
+      tweet-sized advice and short comments on a non-sensical Facebook post,
+      there's not enough time to process and distill what we're actually
+      thinking. These letters are to slow down, lean in and really try to form
+      more coherent thoughts than writing that instant gratification post on my
+      choice of social networking site.
+
+      <section>
+        <ul>
+          {
+            series.map((s) => (
+              <li>
+                <div>
+                  <a href={`/series/${s.slug}/`}>{s.data.title}</a>
+                  <div>
+                    <FormattedDate date={s.data.createdDate} />
+                    &nbsp;to&nbsp;
+                    <FormattedDate date={s.data.endDate} />
+                  </div>
+                  {s.data.heroImage && (
+                    <img width={240} src={s.data.heroImage} alt="" />
+                  )}
+                </div>
+                <div>{s.data.description}</div>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </article>
+
+    <article class="latest">
+      <div>
+        <h2>Latest Post</h2>
+        <li>
+          <FormattedDate date={lastPost.data.pubDate} />
+          {`#${lastPost.data.postType}`}&nbsp;
+          <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
+        </li>
+      </div>
+      <div>
+        <h2>Latest Project</h2>
+        <li>
+          <FormattedDate date={lastProject.data.createdDate} />
+          <a href={`/blog/${lastProject.slug}/`}>{lastProject.data.title}</a>
+        </li>
+      </div>
+    </article>
+
+    <hr />
+
+    <article>
       <form
         action="https://tinyletter.com/jeremywong"
         class="landing-newsletter-form"
@@ -73,30 +135,13 @@ const lastProject = (await getCollection("project")).sort(
           </div>
         </div>
         <p>
-            <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
-          </p>
+          <a href="https://tinyletter.com" target="_blank"
+            >powered by TinyLetter</a
+          >
+        </p>
       </form>
-    </section> -->
+    </article>
 
-    <div class="latest">
-      <div>
-        <h2>Latest Post</h2>
-        <li>
-          <FormattedDate date={lastPost.data.pubDate} />
-          {`#${lastPost.data.postType}`}&nbsp;
-          <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
-        </li>
-      </div>
-      <div>
-        <h2>Latest Project</h2>
-        <li>
-          <FormattedDate date={lastProject.data.createdDate} />
-          <a href={`/blog/${lastProject.slug}/`}>{lastProject.data.title}</a>
-        </li>
-      </div>
-    </div>
-
-    <!-- <div class="series"></div> -->
     <Footer />
     <style>
       main h1 {
@@ -113,9 +158,44 @@ const lastProject = (await getCollection("project")).sort(
       }
       .latest {
         display: flex;
-        justify-content: center;
+        justify-content: left;
         gap: 2rem;
         margin: 2rem 0;
+      }
+      ul {
+        list-style-type: none;
+        padding: unset;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+      }
+      ul li {
+        display: flex;
+      }
+      ul li div:first-child {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 350px;
+      }
+      ul li :global(time) {
+        flex: auto;
+        font-style: italic;
+        color: #595959;
+      }
+      ul li a:visited {
+        color: #8e32dc;
+      }
+      .card {
+        /* Add shadows to create the "card" effect */
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #c6cfda;
+        padding: 1rem;
+      }
+
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
       }
     </style>
   </body>

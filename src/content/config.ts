@@ -53,4 +53,22 @@ const project = defineCollection({
   }),
 });
 
-export const collections = { blog, project, log };
+const series = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    description: z.string(),
+    // Transform string to Date object
+    createdDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    endDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    heroImage: z.string().optional(),
+    tag: z.string(),
+  }),
+});
+
+export const collections = { blog, project, log, series };
