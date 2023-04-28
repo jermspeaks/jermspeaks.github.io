@@ -8,8 +8,9 @@
 
 ## Tasks
 
-- [ ] Links on the About page missing
-- [ ] Update CI on Netlify
+- [x] Links on the About page missing
+- [x] Update CI on Netlify
+- [x] Protect `main` branch
 - [ ] Add Library / Anti-library
 - [ ] Add simple analytics
 - [ ] Make components out of resume
