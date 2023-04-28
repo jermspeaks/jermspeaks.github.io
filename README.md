@@ -2,54 +2,12 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ba48845b-90cf-4096-a2a5-816539b2e5a6/deploy-status)](https://app.netlify.com/sites/jermspeaks/deploys)
 
-## All Website Data Pertaining to Craft by Zen
+- [Website](https://craftbyzen.com)
 
-[Website](https://craftbyzen.com)
+## Tech Stack
 
-## Tasks
-
-- [ ] Links on the About page missing
-- [ ] Update CI on Netlify
-- [ ] Add Library / Anti-library
-- [ ] Add simple analytics
-- [ ] Make components out of resume
-- [ ] Add [tailwind for updaing CSS](https://straffesites.com/en/blog/integrate-prettier-astro-tailwindcss)
-- [ ] Add a set of buttons to filter the posts
-- [ ] Add Fruit Fly Paper on the media page
-- [ ] Button Down for newsletter? Instead of Substack? - https://buttondown.email/
-- [ ] For "Writing", change the dates to "Time Since" (e.g. 2 days ago)
-- [ ] Add an interactive React component
-- [ ] Add an interactive Svelte component
-- [ ] Updated Logs for movies between 2019 through 2021
-- [ ] Group specific blog posts into series: Season 1, Season 2, Season 3, Learning Modules, etc. See "learning" folder, then remove it
-- [ ] Migrate other learning items to the main blog: http://jermspeaks.github.io/continued-learning/
-
-### Legacy Tasks
-
-- [x] Add a projects page
-  - [x] Add WebVR Demo Page
-  - [x] Add FamiliesUSA
-  - [ ] Clinical Trials Visualization
-  - [x] Remembrance
-  - [x] Spark - Facebook Light
-- [x] Fix Favicon
-- [x] Move craftbyzen.com Domain Over
-- [x] Add social icons
-- [x] Add About.me Page
-- [x] Migration of About Me Page
-- [x] Migration of old blog posts to new blog templates
-- [ ] Create a new Resume Page (web appropriate, not for print)
-- [x] Migration of Projects Page
-- [x] Transfer domain to this page
-- [ ] Create Page for Movie and Book Data (Quantified Self Page)
-- [ ] Hookup Google Analytics
-- [ ] Add personalized font (non-generic from type foundry)
-- [ ] Create sections on the index page for the different projects and sites on my page
-
-#### Abandoned Goals
-
-- ~~Migration of Resume Page~~
-- ~~Create Jekyll Template~~
+- Astro, Github Pages, MDX, and Netlify
+- Previously used Jekyll, Sass, and Bourbon, and Neat
 
 ## Deployment
 

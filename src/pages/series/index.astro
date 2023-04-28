@@ -1,0 +1,95 @@
+---
+import BaseHead from "../../components/BaseHead.astro";
+import Header from "../../components/Header.astro";
+import Footer from "../../components/Footer.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+
+const series = (await getCollection("series")).sort(
+  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
+);
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      ul {
+        list-style-type: none;
+        padding: unset;
+        display: flex;
+        gap: 3rem;
+        flex-direction: column;
+      }
+      ul li {
+        display: flex;
+      }
+      ul li div:first-child {
+        display: flex;
+        flex-direction: column;
+        flex: 0 0 350px;
+      }
+      ul li :global(time) {
+        flex: auto;
+        font-style: italic;
+        color: #595959;
+      }
+      ul li a:visited {
+        color: #8e32dc;
+      }
+      .card {
+        /* Add shadows to create the "card" effect */
+        box-sizing: border-box;
+        border-radius: 5px;
+        border: 1px solid #c6cfda;
+        padding: 1rem;
+      }
+
+      /* On mouse-over, add a deeper shadow */
+      .card:hover {
+        box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body>
+    <Header />
+    <main>
+      <h2>Newsletter Series</h2>
+
+      A weekly, longform essay that mainly focuses on lessons I've learned. I
+      try to write something I find meaningful, whether it's exposing your
+      ignorance, staying true to yourself or being resilient. In a world of
+      tweet-sized advice and short comments on a non-sensical Facebook post,
+      there's not enough time to process and distill what we're actually
+      thinking. These letters are to slow down, lean in and really try to form
+      more coherent thoughts than writing that instant gratification post on my
+      choice of social networking site.
+
+      <section>
+        <ul>
+          {
+            series.map((s) => (
+              <li>
+                <div>
+                  <a href={`/series/${s.slug}/`}>{s.data.title}</a>
+                  <div>
+                    <FormattedDate date={s.data.createdDate} />
+                    &nbsp;to&nbsp;
+                    <FormattedDate date={s.data.endDate} />
+                  </div>
+                  {s.data.heroImage && (
+                    <img width={240} src={s.data.heroImage} alt="" />
+                  )}
+                </div>
+                <div>{s.data.description}</div>
+              </li>
+            ))
+          }
+        </ul>
+      </section>
+    </main>
+    <Footer />
+  </body>
+</html>
