@@ -82,7 +82,6 @@ const lastProject = (await getCollection("project")).sort(
         <h2>Latest Post</h2>
         <li>
           <FormattedDate date={lastPost.data.pubDate} />
-          {`#${lastPost.data.postType}`}&nbsp;
           <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
         </li>
       </div>
