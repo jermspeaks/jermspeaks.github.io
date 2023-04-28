@@ -9,8 +9,6 @@ heroImage: ""
 postType: "blog"
 ---
 
-# Book Review: The Commitment
-
 ![The Commitment book cover](http://68.media.tumblr.com/tumblr_lznp1q47Op1qz81kho1_400.jpg)
 
 This week’s book: “The Commitment: Love, Sex, Marriage, and My Family” by Dan Savage. I started reading this book earlier last year, got half way, and put it down. Then last month, I finally pulled myself together to finish the book. At first, I thought it was all about Mr. Savage’s journey through the hurdles of getting married (as he is gay, and wants a same-sex marriage). However, I was surprised to hear a lot of other opinions from popular media to politics (and in particular, the GOP’s candidate, Rick Santorum, and his views on gay marriage).
