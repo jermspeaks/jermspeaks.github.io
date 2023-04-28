@@ -1,0 +1,122 @@
+---
+import { getCollection } from "astro:content";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import Header from "../components/Header.astro";
+
+const lastPost = (await getCollection("blog"))
+  .filter((post) => !post.data.draft)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
+const lastProject = (await getCollection("project")).sort(
+  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
+)[0];
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <body>
+    <Header title={SITE_TITLE} />
+    <main>
+      <h1>
+        <strong>Jeremy</strong> makes essays and mini projects about programming,
+        data, and crafting.
+      </h1>
+      <h2>Developer, former Biomedical engineering, and home cook</h2>
+      <h2>
+        Currently leading application development at <a
+          href="https://clearlabs.com/"
+          target="_blank">Clear Labs</a
+        >
+      </h2>
+    </main>
+    <!-- <section class="landing-bottom-banner landing-newsletter">
+      <form
+        action="https://tinyletter.com/jeremywong"
+        class="landing-newsletter-form"
+        method="post"
+        onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+        target="popupwindow"
+      >
+        <div class="landing-newsletter-desc">
+          <span>
+            <label for="tlemail">
+              <span
+                >Subscribe to my newsletter where I write longform essays</span
+              >
+              <span>that mainly focuses on lessons I've learned.</span>
+            </label>
+          </span>
+        </div>
+        <div class="landing-newsletter-fields">
+          <div class="landing-newsletter-input">
+            <input
+              type="text"
+              name="email"
+              id="tlemail"
+              placeholder="email address"
+            />
+            <input type="hidden" value="1" name="embed" />
+          </div>
+          <div class="landing-newsletter-subscribe">
+            <input
+              class="landing-newsletter-submit"
+              type="hidden"
+              value="Subscribe"
+            />
+            <button type="submit">Subscribe</button>
+          </div>
+        </div>
+        <p>
+            <a href="https://tinyletter.com" target="_blank">powered by TinyLetter</a>
+          </p>
+      </form>
+    </section> -->
+
+    <div class="latest">
+      <div>
+        <h2>Latest Post</h2>
+        <li>
+          <FormattedDate date={lastPost.data.pubDate} />
+          {`#${lastPost.data.postType}`}&nbsp;
+          <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
+        </li>
+      </div>
+      <div>
+        <h2>Latest Project</h2>
+        <li>
+          <FormattedDate date={lastProject.data.createdDate} />
+          <a href={`/blog/${lastProject.slug}/`}>{lastProject.data.title}</a>
+        </li>
+      </div>
+    </div>
+
+    <!-- <div class="series"></div> -->
+    <Footer />
+    <style>
+      main h1 {
+        font-size: 3rem;
+        line-height: 3.5rem;
+        font-weight: normal;
+        margin-bottom: 1rem;
+      }
+      main h2 {
+        font-size: 2rem;
+        line-height: 2.4rem;
+        font-weight: 100;
+        margin: 1rem 0;
+      }
+      .latest {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        margin: 2rem 0;
+      }
+    </style>
+  </body>
+</html>

@@ -1,0 +1,67 @@
+---
+import Layout from "../layouts/BlogPost.astro";
+---
+
+<Layout
+  title="Media"
+  description=""
+  pubDate={new Date("November 25, 2015")}
+  updatedDate={new Date("November 25, 2015")}
+  heroImage=""
+  postType="media"
+>
+  <section class="landing-right">
+    <section class="landing-top-banner">
+      <header class="landing-header">
+        <h2>Talks</h2>
+      </header>
+    </section>
+
+    <section class="landing-middle-banner">
+      <div class="landing-middle-banner-header">
+        <h3>
+          Interview with <a href="http://www.yerrington.net/" target="_blank"
+            >David Yerrington</a
+          >
+        </h3>
+        <ul>
+          <li>
+            <a
+              href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/73Eep-data-science-python-guest-jeremy/"
+              target="_blank"
+            >
+              <span>Part 1</span>
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/poqAP-data-science-python-guest-jeremy-2/"
+              target="_blank"
+            >
+              <span>Part 2</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="landing-middle-banner">
+      <div class="landing-middle-banner-header">
+        <h3>Code Club</h3>
+        <div>
+          <span
+            >During the fall and winter of 2014, I ran an online code club with
+            some of my bootcamp cohort mates.</span
+          >
+          <span>Here's a playlist of those sessions.</span>
+        </div>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/videoseries?list=PLyretLC2LTTr4CKC-i81Orsr1N-X57Pjr"
+          frameborder="0"
+          allowfullscreen></iframe>
+      </div>
+    </section>
+  </section>
+</Layout>
