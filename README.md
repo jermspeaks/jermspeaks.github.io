@@ -11,6 +11,7 @@
 - [x] Links on the About page missing
 - [x] Update CI on Netlify
 - [x] Protect `main` branch
+- [ ] Verify Dependabot settings on Github
 - [ ] Add Library / Anti-library
 - [ ] Add simple analytics
 - [ ] Make components out of resume
