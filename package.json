@@ -1,25 +1,20 @@
 {
-  "name": "jermspeaks.github.io",
-  "version": "0.1.0",
-  "description": "Craft By Zen website",
-  "main": "index.js",
+  "name": "craftbyzen",
+  "type": "module",
+  "version": "0.0.1",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "deploy": "netlify deploy --build --prod"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/jermspeaks/jermspeaks.github.io.git"
-  },
-  "keywords": [
-    "website"
-  ],
-  "author": "Jeremy Wong",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/jermspeaks/jermspeaks.github.io/issues"
-  },
-  "homepage": "https://github.com/jermspeaks/jermspeaks.github.io#readme",
   "dependencies": {
-    "normalize.css": "^3.0.3"
+    "@astrojs/mdx": "^0.19.0",
+    "@astrojs/netlify": "^2.2.2",
+    "@astrojs/rss": "^2.3.2",
+    "@astrojs/sitemap": "^1.2.2",
+    "astro": "^2.3.1"
   }
 }

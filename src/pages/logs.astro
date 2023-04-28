@@ -1,0 +1,41 @@
+---
+import Layout from "../layouts/BlogPost.astro";
+---
+
+<Layout
+  title="Logs"
+  description="Lorem ipsum dolor sit amet"
+  pubDate={new Date("January 1, 2019")}
+  updatedDate={new Date("April 27 2022")}
+  heroImage=""
+  postType="logs"
+>
+  <section class="landing-middle-banner">
+    <article class="letters-blurb">
+      <div>
+        <span
+          >Yearly lists of books read, films and television series watched,
+          podcasts listened to and theater/music performances attended.</span
+        >
+      </div>
+    </article>
+    <ol>
+      <li><a href="/log/2018">2018</a></li>
+    </ol>
+  </section>
+</Layout>
+<style>
+  header {
+    margin: 0em 0 2em;
+  }
+  h2 {
+    margin: 0.5em 0;
+  }
+  ol {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    gap: 0.5rem;
+    list-style: none;
+  }
+</style>
