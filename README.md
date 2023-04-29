@@ -1,6 +1,7 @@
 # Website for Craft By Zen
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/ba48845b-90cf-4096-a2a5-816539b2e5a6/deploy-status)](https://app.netlify.com/sites/jermspeaks/deploys)
+![Github Pages Build](https://github.com/jermspeaks/jermspeaks.github.io/actions/workflows/astro.yml/badge.svg)
 
 - [Website](https://craftbyzen.com)
 
@@ -8,14 +9,6 @@
 
 - Astro, Github Pages, MDX, and Netlify
 - Previously used Jekyll, Sass, and Bourbon, and Neat
-
-## Deployment
-
-If you have the netlify CLI installed, you can run the following command to deploy the site:
-
-```sh
-netlify deploy --build --prod
-```
 
 ## 🧞 Commands
 
@@ -30,6 +23,10 @@ All commands are run from the root of the project, from a terminal:
 | `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
 | `npm run astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
+## Deployment
 
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+If you have the netlify CLI installed, you can run the following command to deploy the site:
+
+```sh
+netlify deploy --build --prod
+```

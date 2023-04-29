@@ -196,6 +196,14 @@ const lastProject = (await getCollection("project")).sort(
       .card:hover {
         box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
       }
+      @media screen and (max-width: 550px) {
+        ul li {
+          flex-direction: column;
+        }
+        ul li div:first-child {
+          flex: auto;
+        }
+      }
     </style>
   </body>
 </html>

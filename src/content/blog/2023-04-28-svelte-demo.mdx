@@ -1,0 +1,45 @@
+---
+title: "Svelte and Astro Demo"
+description: "Using MDX with Astro to render a Svelte component"
+pubDate: "2023-04-28"
+heroImage: ""
+draft: false
+postType: "blog"
+---
+
+In Astro, there's this concept of islands. You have a few options on making your page interactive.
+From the [Astro docs](https://docs.astro.build/en/core-concepts/framework-components/#using-framework-components),
+these are your options.
+
+```astro
+---
+// Example: hydrating framework components in the browser.
+import DemoApp from "../../components/DemoApp.svelte";
+---
+
+<!-- This component's JS will begin importing when the page loads -->
+<DemoApp client:load />
+
+<!-- This component's JS will not be sent to the client until
+the user scrolls down and the component is visible on the page -->
+<DemoApp client:visible />
+
+<!-- This component won't render on the server, but will render on the client when the page loads -->
+<DemoApp client:only="svelte" />
+```
+
+I'll go ahead and try each of these and see what happens.
+
+import DemoApp from "../../components/DemoApp.svelte";
+
+## Example using client:load
+
+<DemoApp client:load />
+
+## Example using client:visible
+
+<DemoApp client:visible />
+
+## Example using client:only
+
+<DemoApp client:only="svelte" />
