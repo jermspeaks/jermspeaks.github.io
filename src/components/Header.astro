@@ -7,7 +7,7 @@ import { SITE_TITLE } from "../consts";
   <h2>
     <a href="/">{SITE_TITLE}</a>
   </h2>
-  <nav>
+  <nav class="desktop-menu">
     <!-- <HeaderLink href="/">Home</HeaderLink> -->
     <HeaderLink href="/blog">Writing</HeaderLink>
     <HeaderLink href="/project">Projects</HeaderLink>
@@ -16,6 +16,49 @@ import { SITE_TITLE } from "../consts";
     <HeaderLink href="/log">Logs</HeaderLink>
     <HeaderLink href="/about">About</HeaderLink>
   </nav>
+  <div class="mobile-menu">
+    <button aria-label="open menu" data-nav-button>
+      <svg
+        width="24"
+        height="20"
+        viewBox="0 0 24 24"
+        fill="var(--color-gray-600)"
+      >
+        <rect y="9" width="24" height="4" rx="2"></rect>
+        <>
+          <rect width="24" height="4" rx="2"></rect>
+          <rect y="18" width="24" height="4" rx="2"></rect>
+        </>
+      </svg>
+    </button>
+    <div class="full-page-menu mobile-menu-closed" data-nav-menu>
+      <button aria-label="open menu" data-nav-button>
+        <svg width="21" height="21" fill="var(--color-gray-600)"
+          ><rect
+            x="4.136"
+            y="0.6"
+            width="23"
+            height="5"
+            rx="2"
+            transform="rotate(45 4.136 .6)"></rect><rect
+            x="0.601"
+            y="16.864"
+            width="23"
+            height="5"
+            rx="2"
+            transform="rotate(-45 .6 16.864)"></rect></svg
+        >
+      </button>
+      <nav>
+        <HeaderLink href="/blog">Writing</HeaderLink>
+        <HeaderLink href="/project">Projects</HeaderLink>
+        <HeaderLink href="/press">Press</HeaderLink>
+        <HeaderLink href="/library">Library</HeaderLink>
+        <HeaderLink href="/log">Logs</HeaderLink>
+        <HeaderLink href="/about">About</HeaderLink>
+      </nav>
+    </div>
+  </div>
 </header>
 <style>
   header {
@@ -35,9 +78,87 @@ import { SITE_TITLE } from "../consts";
     opacity: 0.5;
   }
 
+  .mobile-menu {
+    display: none;
+  }
+
   @media screen and (max-width: 550px) {
-    header {
+    nav.desktop-menu {
+      display: none;
+    }
+    .mobile-menu {
+      display: block;
+    }
+
+    .mobile-menu button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      display: flex;
+      justify-items: center;
+      padding: 4px;
+    }
+
+    .mobile-menu-closed {
+      display: none;
+    }
+    .mobile-menu-open {
+      position: absolute;
+      z-index: 20;
+      right: 0px;
+      top: 0px;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
       flex-direction: column;
+      background: #f6f5f1;
+      -webkit-box-align: start;
+      align-items: start;
+      transition: all 0.3s ease-in-out 0s;
+      padding-top: 1rem;
+    }
+    .mobile-menu-open button {
+      border: none;
+      background: none;
+      cursor: pointer;
+      display: flex;
+      justify-items: center;
+      padding: 4px;
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+    }
+    .mobile-menu-open nav {
+      display: flex;
+      flex-direction: column;
+      gap: 2rem;
+      align-items: center;
+      width: 100%;
+      margin-top: 2rem;
+      font-size: 1.6rem;
     }
   }
 </style>
+
+<script>
+  // Find our component DOM on the page.
+  const buttons = document.querySelectorAll("[data-nav-button]");
+  const fullPageMenus = document.querySelectorAll("[data-nav-menu]");
+
+  // Add event listeners to fire confetti when a button is clicked.
+  buttons.forEach((button) => {
+    button.addEventListener("click", () => {
+      console.log("fullPageMenus", fullPageMenus);
+      if (fullPageMenus[0]) {
+        const fullPageMenu = fullPageMenus[0];
+        if (fullPageMenu.classList.contains("mobile-menu-open")) {
+          fullPageMenu.classList.remove("mobile-menu-open");
+          fullPageMenu.classList.add("mobile-menu-closed");
+        } else {
+          fullPageMenu.classList.remove("mobile-menu-closed");
+          fullPageMenu.classList.add("mobile-menu-open");
+        }
+      }
+    });
+  });
+</script>
