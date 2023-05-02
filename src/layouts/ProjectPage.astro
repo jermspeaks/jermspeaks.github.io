@@ -14,26 +14,13 @@ const { title, description, createdDate } = Astro.props;
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
-    <style>
-      .title {
-        font-size: 2em;
-        margin: 0.25em 0 0;
-      }
-      hr {
-        border-top: 1px solid #ddd;
-        margin: 1rem 0;
-      }
-      .last-updated-on {
-        font-style: italic;
-      }
-    </style>
   </head>
 
   <BaseBody>
     <Header />
     <main>
       <article class="prose lg:prose-xl">
-        <FormattedDate date={createdDate} />
+        <FormattedDate class="italic text-slate-600" date={createdDate} />
         <slot />
       </article>
     </main>

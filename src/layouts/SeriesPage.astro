@@ -6,7 +6,7 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 
-type Props = CollectionEntry<"project">["data"];
+type Props = CollectionEntry<"series">["data"];
 
 const { title, description, createdDate, endDate } = Astro.props;
 ---
@@ -14,29 +14,14 @@ const { title, description, createdDate, endDate } = Astro.props;
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
-    <style>
-      .title {
-        font-size: 2em;
-        margin: 0.25em 0 0;
-      }
-      hr {
-        border-top: 1px solid #ddd;
-        margin: 1rem 0;
-      }
-      .last-updated-on {
-        font-style: italic;
-      }
-    </style>
   </head>
 
   <BaseBody>
     <Header />
     <main>
       <article class="prose lg:prose-xl">
-        <h1 class="title">{title}</h1>
         <FormattedDate date={createdDate} /> to
         <FormattedDate date={endDate} />
-        <hr />
         <slot />
       </article>
     </main>

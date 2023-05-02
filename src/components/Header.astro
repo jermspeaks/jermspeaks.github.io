@@ -3,11 +3,13 @@ import { SITE_TITLE } from "../consts";
 import HeaderLink from "./HeaderLink.astro";
 ---
 
-<header>
-  <h2 class="text-xl font-bold">
+<header class="mb-8 flex justify-between align-middle">
+  <h2
+    class="text-xl font-bold mb-8 text-black no-underline hover:text-gray-600"
+  >
     <a href="/">{SITE_TITLE}</a>
   </h2>
-  <nav class="desktop-menu flex gap-3">
+  <nav class="hidden md:flex md:gap-3 md:mb-8">
     <!-- <HeaderLink href="/">Home</HeaderLink> -->
     <HeaderLink href="/blog">Writing</HeaderLink>
     <HeaderLink href="/project">Projects</HeaderLink>
@@ -16,14 +18,13 @@ import HeaderLink from "./HeaderLink.astro";
     <HeaderLink href="/log">Logs</HeaderLink>
     <HeaderLink href="/about">About</HeaderLink>
   </nav>
-  <div class="mobile-menu">
-    <button aria-label="open menu" data-nav-button>
-      <svg
-        width="24"
-        height="20"
-        viewBox="0 0 24 24"
-        fill="var(--color-gray-600)"
-      >
+  <div class="md:hidden">
+    <button
+      aria-label="open menu"
+      data-nav-button
+      class="border-none bg-none cursor-pointer flex justify-center p-1 text-black hover:text-gray-600"
+    >
+      <svg width="24" height="20" viewBox="0 0 24 24">
         <rect y="9" width="24" height="4" rx="2"></rect>
         <>
           <rect width="24" height="4" rx="2"></rect>
@@ -49,7 +50,7 @@ import HeaderLink from "./HeaderLink.astro";
             transform="rotate(-45 .6 16.864)"></rect></svg
         >
       </button>
-      <nav>
+      <nav class="flex flex-col gap-8 items-center w-full mt-8 text-2xl">
         <HeaderLink href="/blog">Writing</HeaderLink>
         <HeaderLink href="/project">Projects</HeaderLink>
         <HeaderLink href="/press">Press</HeaderLink>
@@ -61,35 +62,7 @@ import HeaderLink from "./HeaderLink.astro";
   </div>
 </header>
 <style>
-  header {
-    margin: 0em 0 2em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  h2 {
-    margin: 0.5em 0;
-  }
-  h2 a {
-    color: black;
-    text-decoration: none;
-  }
-  h2 a:hover {
-    opacity: 0.5;
-  }
-
-  .mobile-menu {
-    display: none;
-  }
-
-  @media screen and (max-width: 800px) {
-    nav.desktop-menu {
-      display: none;
-    }
-    .mobile-menu {
-      display: block;
-    }
-
+  @media screen and (max-width: 768px) {
     .mobile-menu button {
       border: none;
       background: none;
@@ -127,15 +100,6 @@ import HeaderLink from "./HeaderLink.astro";
       position: absolute;
       top: 1rem;
       right: 1rem;
-    }
-    .mobile-menu-open nav {
-      display: flex;
-      flex-direction: column;
-      gap: 2rem;
-      align-items: center;
-      width: 100%;
-      margin-top: 2rem;
-      font-size: var(--font-size-3);
     }
   }
 </style>

@@ -35,7 +35,8 @@ const lastProject = (await getCollection("project")).sort(
         Developer, former Biomedical engineering, and home cook
       </h2>
       <h2 class="mb-5 text-2xl font-thin">
-        Currently leading application development at <a class="text-orange-500 hover:text-orange-300"
+        Currently leading application development at <a
+          class="text-orange-500 hover:text-orange-300"
           href="https://clearlabs.com/"
           target="_blank">Clear Labs</a
         >
@@ -58,13 +59,13 @@ const lastProject = (await getCollection("project")).sort(
         </p>
 
         <section>
-          <ul class="pl-0">
+          <ul class="pl-0 flex flex-col gap-12 list-none">
             {
               series.map((s) => (
-                <li>
-                  <div>
+                <li class="flex flex-col md:flex-row">
+                  <div class="flex flex-col flex-auto md:flex-grow-0 md:flex-shrink-0 md:flex-[350px]">
                     <a href={`/series/${s.slug}/`}>{s.data.title}</a>
-                    <div>
+                    <div class="flex-auto italic text-slate-600">
                       <FormattedDate date={s.data.createdDate} />
                       &nbsp;to&nbsp;
                       <FormattedDate date={s.data.endDate} />
@@ -110,36 +111,32 @@ const lastProject = (await getCollection("project")).sort(
           onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
           target="popupwindow"
         >
-          <div class="landing-newsletter-desc">
-            <span>
-              <label for="tlemail">
-                <span
-                  >Subscribe to my newsletter where I write longform essays</span
-                >
-                <span>that mainly focuses on lessons I've learned.</span>
-              </label>
-            </span>
+          <div>
+            <label for="tlemail">
+              Subscribe to my newsletter! I write longform essays that mainly
+              focuses on lessons I've learned.
+            </label>
           </div>
-          <div class="landing-newsletter-fields">
-            <div class="landing-newsletter-input">
+          <div class="flex gap-4">
+            <div>
               <input
                 type="text"
                 name="email"
                 id="tlemail"
+                class="py-2 px-4"
                 placeholder="email address"
               />
               <input type="hidden" value="1" name="embed" />
             </div>
-            <div class="landing-newsletter-subscribe">
-              <input
-                class="landing-newsletter-submit"
-                type="hidden"
-                value="Subscribe"
-              />
-              <button type="submit">Subscribe</button>
+            <div>
+              <input class="sr-only" type="hidden" value="Subscribe" />
+              <button
+                class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
+                type="submit">Subscribe</button
+              >
             </div>
           </div>
-          <p>
+          <p class="text-sm">
             <a href="https://tinyletter.com" target="_blank"
               >powered by TinyLetter</a
             >
@@ -149,45 +146,5 @@ const lastProject = (await getCollection("project")).sort(
     </main>
 
     <Footer />
-    <style>
-      .latest {
-        display: flex;
-        justify-content: left;
-        gap: 2rem;
-        margin: 2rem 0;
-      }
-      ul {
-        list-style-type: none;
-        padding: unset;
-        display: flex;
-        gap: 3rem;
-        flex-direction: column;
-      }
-      ul li {
-        display: flex;
-      }
-      ul li div:first-child {
-        display: flex;
-        flex-direction: column;
-        flex: 0 0 350px;
-      }
-      ul li :global(time) {
-        flex: auto;
-        font-style: italic;
-        color: #595959;
-      }
-      ul li a:visited {
-        color: #8e32dc;
-      }
-
-      @media screen and (max-width: 800px) {
-        ul li {
-          flex-direction: column;
-        }
-        ul li div:first-child {
-          flex: auto;
-        }
-      }
-    </style>
   </BaseBody>
 </html>

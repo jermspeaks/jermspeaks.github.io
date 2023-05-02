@@ -63,8 +63,6 @@ At first, Astro gives you the css from the [Bear Blog](https://github.com/Herman
 
 I knew I wanted to use Tailwind in a full project. Previously, I've only used it for tiny pet projects. I went full in immersion. At first, my global styles were being modified by the `base.css` injected styles from Tailwind. I put too much effort in trying to modify them when I realized, "I started from a base project, and I don't need these base style files". That's when I stopped caring about my blog's styling conventions and migrated over to Tailwind's conventions.
 
-One thing that confused my initially was using Tailwind's
-
 Sometimes, it's hard to break hard habits. The mantra of "Convention over configuration", as heralded by Ruby on Rails", was echoing in the back of my mind. While I am not fully migrated over to Tailwind yet, I plan to.
 
 ### Conclusion

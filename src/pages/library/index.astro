@@ -17,62 +17,36 @@ const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      ul {
-        display: flex;
-        flex-wrap: wrap;
-        list-style-type: none;
-        padding: unset;
-        gap: 1rem;
-      }
-      ul li {
-        flex: 0 0 200px;
-        display: flex;
-        flex-direction: column;
-        border: 1px solid #c6cfda;
-        border-radius: 5px;
-        box-sizing: border-box;
-      }
-      ul li :global(time) {
-        font-style: italic;
-        color: #595959;
-      }
-      ul li:hover {
-        background: #f4f7f9;
-      }
-      ul li a:visited {
-        color: #8e32dc;
-      }
-      ul li .content {
-        padding-top: 0.75em;
-        padding-bottom: 0.75em;
-        padding-left: 1em;
-        padding-right: 1em;
-        border-top: 1px solid #ffffff40;
-      }
-    </style>
   </head>
   <BaseBody>
     <Header />
     <main>
       <h2 class="text-2xl mb-5">Library</h2>
       <section>
-        <ul>
+        <ul class="flex flex-wrap list-none p-0 gap-4">
           {
             library.map((book) => (
-              <li>
-                <a href={book.data.link} target="_blank">
+              <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border">
+                <a
+                  class="visited:text-purple-600"
+                  href={book.data.link}
+                  target="_blank"
+                >
                   <img src={book.data.heroImage} width="200" />
                 </a>
-                <div class="content">
+                <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
                   <div>{book.data.title}</div>
                   <div>{book.data.author}</div>
-                  <FormattedDate date={book.data.dateConsumed} />
+                  <FormattedDate
+                    class="italic text-slate-600"
+                    date={book.data.dateConsumed}
+                  />
                   {posts.findIndex(
                     (post) => post.data.title === book.data.review
                   ) > -1 && (
                     <div>
                       <a
+                        class="visited:text-purple-600"
                         href={`/blog/${
                           posts[
                             posts.findIndex(
