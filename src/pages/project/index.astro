@@ -20,14 +20,14 @@ const projects = (await getCollection("project")).sort(
   <BaseBody>
     <Header />
     <main>
-      <h2 class="text-2xl mb-5">Projects</h2>
+      <h2 class="text-2xl mb-5 dark:text-white">Projects</h2>
       <section>
         <ul class="list-none p-0">
           {
             projects.map((project) => (
-              <li class="flex">
+              <li class="flex dark:text-white">
                 <FormattedDate
-                  class="flex-grow-0 flex-shrink-0 flex-[130px] italic text-slate-600"
+                  class="flex-grow-0 flex-shrink-0 flex-[130px] italic text-slate-600 dark:text-slate-600"
                   date={project.data.createdDate}
                 />
                 {/** Array.isArray(project.data.tags) &&

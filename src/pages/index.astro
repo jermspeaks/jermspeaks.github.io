@@ -26,8 +26,8 @@ const lastProject = (await getCollection("project")).sort(
 
   <BaseBody>
     <Header title={SITE_TITLE} />
-    <main>
-      <h1 class="mt-12 mb-6 text-6xl">
+    <main class="dark:text-white">
+      <h1 class="mt-12 mb-6 text-6xl ">
         <strong>Jeremy</strong> makes essays and mini projects about programming,
         data, and crafting.
       </h1>
@@ -44,7 +44,7 @@ const lastProject = (await getCollection("project")).sort(
 
       <hr class="mt-10 mb-10" />
 
-      <article class="prose lg:prose-xl">
+      <article class="prose lg:prose-xl dark:prose-invert">
         <h2>Newsletter Series</h2>
 
         <p>
@@ -65,7 +65,7 @@ const lastProject = (await getCollection("project")).sort(
                 <li class="flex flex-col md:flex-row">
                   <div class="flex flex-col flex-auto md:flex-grow-0 md:flex-shrink-0 md:flex-[350px]">
                     <a href={`/series/${s.slug}/`}>{s.data.title}</a>
-                    <div class="flex-auto italic text-slate-600">
+                    <div class="flex-auto italic text-slate-600 dark:text-slate-300">
                       <FormattedDate date={s.data.createdDate} />
                       &nbsp;to&nbsp;
                       <FormattedDate date={s.data.endDate} />
@@ -103,7 +103,7 @@ const lastProject = (await getCollection("project")).sort(
 
       <hr class="mt-5 mb-5" />
 
-      <article class="prose lg:prose-xl">
+      <article class="prose lg:prose-xl dark:prose-invert">
         <form
           action="https://tinyletter.com/jeremywong"
           class="landing-newsletter-form"
