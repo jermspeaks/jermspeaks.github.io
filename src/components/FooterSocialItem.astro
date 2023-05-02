@@ -1,0 +1,11 @@
+---
+export interface Props {
+  link: string;
+}
+
+const { link } = Astro.props;
+---
+
+<li class="hover:text-orange-400">
+  <a href={link} target="_blank"><slot /></a>
+</li>

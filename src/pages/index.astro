@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
@@ -23,138 +24,132 @@ const lastProject = (await getCollection("project")).sort(
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
 
-  <body>
+  <BaseBody>
     <Header title={SITE_TITLE} />
     <main>
-      <h1>
+      <h1 class="mt-12 mb-6 text-6xl">
         <strong>Jeremy</strong> makes essays and mini projects about programming,
         data, and crafting.
       </h1>
-      <h2>Developer, former Biomedical engineering, and home cook</h2>
-      <h2>
-        Currently leading application development at <a
+      <h2 class="mb-2 text-2xl font-thin">
+        Developer, former Biomedical engineering, and home cook
+      </h2>
+      <h2 class="mb-5 text-2xl font-thin">
+        Currently leading application development at <a class="text-orange-500 hover:text-orange-300"
           href="https://clearlabs.com/"
           target="_blank">Clear Labs</a
         >
       </h2>
-    </main>
 
-    <hr />
+      <hr class="mt-10 mb-10" />
 
-    <article>
-      <h3>Newsletter Series</h3>
+      <article class="prose lg:prose-xl">
+        <h2>Newsletter Series</h2>
 
-      A weekly, longform essay that mainly focuses on lessons I've learned. I
-      try to write something I find meaningful, whether it's exposing your
-      ignorance, staying true to yourself or being resilient. In a world of
-      tweet-sized advice and short comments on a non-sensical Facebook post,
-      there's not enough time to process and distill what we're actually
-      thinking. These letters are to slow down, lean in and really try to form
-      more coherent thoughts than writing that instant gratification post on my
-      choice of social networking site.
-
-      <section>
-        <ul>
-          {
-            series.map((s) => (
-              <li>
-                <div>
-                  <a href={`/series/${s.slug}/`}>{s.data.title}</a>
-                  <div>
-                    <FormattedDate date={s.data.createdDate} />
-                    &nbsp;to&nbsp;
-                    <FormattedDate date={s.data.endDate} />
-                  </div>
-                  {s.data.heroImage && (
-                    <img width={240} src={s.data.heroImage} alt="" />
-                  )}
-                </div>
-                <div>{s.data.description}</div>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
-    </article>
-
-    <article class="latest">
-      <div>
-        <h2>Latest Post</h2>
-        <li>
-          <FormattedDate date={lastPost.data.pubDate} />
-          <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
-        </li>
-      </div>
-      <div>
-        <h2>Latest Project</h2>
-        <li>
-          <FormattedDate date={lastProject.data.createdDate} />
-          <a href={`/blog/${lastProject.slug}/`}>{lastProject.data.title}</a>
-        </li>
-      </div>
-    </article>
-
-    <hr />
-
-    <article>
-      <form
-        action="https://tinyletter.com/jeremywong"
-        class="landing-newsletter-form"
-        method="post"
-        onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
-        target="popupwindow"
-      >
-        <div class="landing-newsletter-desc">
-          <span>
-            <label for="tlemail">
-              <span
-                >Subscribe to my newsletter where I write longform essays</span
-              >
-              <span>that mainly focuses on lessons I've learned.</span>
-            </label>
-          </span>
-        </div>
-        <div class="landing-newsletter-fields">
-          <div class="landing-newsletter-input">
-            <input
-              type="text"
-              name="email"
-              id="tlemail"
-              placeholder="email address"
-            />
-            <input type="hidden" value="1" name="embed" />
-          </div>
-          <div class="landing-newsletter-subscribe">
-            <input
-              class="landing-newsletter-submit"
-              type="hidden"
-              value="Subscribe"
-            />
-            <button type="submit">Subscribe</button>
-          </div>
-        </div>
         <p>
-          <a href="https://tinyletter.com" target="_blank"
-            >powered by TinyLetter</a
-          >
+          A weekly, longform essay that mainly focuses on lessons I've learned.
+          I try to write something I find meaningful, whether it's exposing your
+          ignorance, staying true to yourself or being resilient. In a world of
+          tweet-sized advice and short comments on a non-sensical Facebook post,
+          there's not enough time to process and distill what we're actually
+          thinking. These letters are to slow down, lean in and really try to
+          form more coherent thoughts than writing that instant gratification
+          post on my choice of social networking site.
         </p>
-      </form>
-    </article>
+
+        <section>
+          <ul class="pl-0">
+            {
+              series.map((s) => (
+                <li>
+                  <div>
+                    <a href={`/series/${s.slug}/`}>{s.data.title}</a>
+                    <div>
+                      <FormattedDate date={s.data.createdDate} />
+                      &nbsp;to&nbsp;
+                      <FormattedDate date={s.data.endDate} />
+                    </div>
+                    {s.data.heroImage && (
+                      <img width={240} src={s.data.heroImage} alt="" />
+                    )}
+                  </div>
+                  <div>{s.data.description}</div>
+                </li>
+              ))
+            }
+          </ul>
+        </section>
+      </article>
+
+      <article class="flex justify-start gap-5 mt-2 mb-2">
+        <div>
+          <h2 class="text-2xl">Latest Post</h2>
+          <li>
+            <FormattedDate date={lastPost.data.pubDate} />
+            <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
+          </li>
+        </div>
+        <div>
+          <h2 class="text-2xl">Latest Project</h2>
+          <li>
+            <FormattedDate date={lastProject.data.createdDate} />
+            <a href={`/project/${lastProject.slug}/`}
+              >{lastProject.data.title}</a
+            >
+          </li>
+        </div>
+      </article>
+
+      <hr class="mt-5 mb-5" />
+
+      <article class="prose lg:prose-xl">
+        <form
+          action="https://tinyletter.com/jeremywong"
+          class="landing-newsletter-form"
+          method="post"
+          onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+          target="popupwindow"
+        >
+          <div class="landing-newsletter-desc">
+            <span>
+              <label for="tlemail">
+                <span
+                  >Subscribe to my newsletter where I write longform essays</span
+                >
+                <span>that mainly focuses on lessons I've learned.</span>
+              </label>
+            </span>
+          </div>
+          <div class="landing-newsletter-fields">
+            <div class="landing-newsletter-input">
+              <input
+                type="text"
+                name="email"
+                id="tlemail"
+                placeholder="email address"
+              />
+              <input type="hidden" value="1" name="embed" />
+            </div>
+            <div class="landing-newsletter-subscribe">
+              <input
+                class="landing-newsletter-submit"
+                type="hidden"
+                value="Subscribe"
+              />
+              <button type="submit">Subscribe</button>
+            </div>
+          </div>
+          <p>
+            <a href="https://tinyletter.com" target="_blank"
+              >powered by TinyLetter</a
+            >
+          </p>
+        </form>
+      </article>
+    </main>
 
     <Footer />
     <style>
-      main h1 {
-        font-size: 3rem;
-        line-height: 3.5rem;
-        font-weight: normal;
-        margin-bottom: 1rem;
-      }
-      main h2 {
-        font-size: 2rem;
-        line-height: 2.4rem;
-        font-weight: 100;
-        margin: 1rem 0;
-      }
       .latest {
         display: flex;
         justify-content: left;
@@ -184,19 +179,8 @@ const lastProject = (await getCollection("project")).sort(
       ul li a:visited {
         color: #8e32dc;
       }
-      .card {
-        /* Add shadows to create the "card" effect */
-        box-sizing: border-box;
-        border-radius: 5px;
-        border: 1px solid #c6cfda;
-        padding: 1rem;
-      }
 
-      /* On mouse-over, add a deeper shadow */
-      .card:hover {
-        box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
-      }
-      @media screen and (max-width: 550px) {
+      @media screen and (max-width: 800px) {
         ul li {
           flex-direction: column;
         }
@@ -205,5 +189,5 @@ const lastProject = (await getCollection("project")).sort(
         }
       }
     </style>
-  </body>
+  </BaseBody>
 </html>

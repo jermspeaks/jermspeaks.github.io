@@ -10,11 +10,9 @@ permalink: /:categories/season-two/:title.html
 tags: [season_2, letters]
 ---
 
-# Admission Failure
+> Part of the series, "Admission Failure"
 
-## The Reactive Problem
-
-### The Reaction Dilemma
+## The Reaction Dilemma
 
 I made a $400 mistake. I arrived at JFK 6:30 in the morning ready to go home. I punched in my confirmation code in the kiosk, but my ticket wouldn’t print. I pulled up the itinerary email. The flight was marked with tomorrow’s date. I made the mistake of buying the wrong ticket.
 
@@ -28,7 +26,7 @@ I was reacting to my situation without thinking about the long-term consequences
 
 ![Control / Out of Control](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ed57a81a-68b6-42ec-88db-223b6a770e6e.jpg)
 
-### Busy Mind
+## Busy Mind
 
 Growing up, I remember watching “The Price is Right”. Each contestant on the game show must make decisions within a short time frame.
 

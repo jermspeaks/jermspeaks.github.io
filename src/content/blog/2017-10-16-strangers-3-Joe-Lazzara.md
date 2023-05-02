@@ -10,7 +10,7 @@ permalink: /:categories/season-three/:title.html
 tags: [season_3, letters]
 ---
 
-<img src="https://github.com/jermspeaks/jermspeaks.github.io/blob/master/images/7_Degrees_Of_Strangers_Letterhead.png?raw=true" alt="7 Degrees of Strangers Letterhead" width="600" />
+![7 Degrees of Strangers Letterhead](/images/7_Degrees_Of_Strangers_Letterhead.png)
 
 ## Announcements
 

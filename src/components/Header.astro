@@ -1,13 +1,13 @@
 ---
-import HeaderLink from "./HeaderLink.astro";
 import { SITE_TITLE } from "../consts";
+import HeaderLink from "./HeaderLink.astro";
 ---
 
 <header>
-  <h2>
+  <h2 class="text-xl font-bold">
     <a href="/">{SITE_TITLE}</a>
   </h2>
-  <nav class="desktop-menu">
+  <nav class="desktop-menu flex gap-3">
     <!-- <HeaderLink href="/">Home</HeaderLink> -->
     <HeaderLink href="/blog">Writing</HeaderLink>
     <HeaderLink href="/project">Projects</HeaderLink>
@@ -82,7 +82,7 @@ import { SITE_TITLE } from "../consts";
     display: none;
   }
 
-  @media screen and (max-width: 550px) {
+  @media screen and (max-width: 800px) {
     nav.desktop-menu {
       display: none;
     }
@@ -113,7 +113,7 @@ import { SITE_TITLE } from "../consts";
       flex-direction: column;
       background: #f6f5f1;
       -webkit-box-align: start;
-      align-items: start;
+      align-items: flex-start;
       transition: all 0.3s ease-in-out 0s;
       padding-top: 1rem;
     }
@@ -135,7 +135,7 @@ import { SITE_TITLE } from "../consts";
       align-items: center;
       width: 100%;
       margin-top: 2rem;
-      font-size: 1.6rem;
+      font-size: var(--font-size-3);
     }
   }
 </style>
