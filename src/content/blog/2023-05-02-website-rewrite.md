@@ -53,7 +53,7 @@ After the blog posts migrated over, I quickly threw myself into the other pages 
 
 The website was using Netlify, and while I personally would've preferred Vercel, it was a good choice. I setup some Github actions to continue to push to Github Pages as well. Netlify's migration was a pain, because the configuration and its cache were set to build to Jekyll's configuration. Migrating it over to Astro took some finagling to get the settings just right. I spent a good evening scratching my head until I found the correct environment variable to set it to.
 
-### A Side Note about Git
+#### A Side Note about Git
 
 I created my old blog back in 2014, and I was still using `master` branch as the main branch. With this migration, I moved it over to `main`. For configuration reasons, it was having trouble moving over in my CI pipeline the first two or three builds. So please remember to check your settings.
 
