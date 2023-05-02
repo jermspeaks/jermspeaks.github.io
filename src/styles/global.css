@@ -27,7 +27,6 @@
  *
  *
  */
-
 @font-face {
   font-family: "Brother 1816";
   src: url("/fonts/brother-1816/Webfonts/brother1816_thin_macroman/01-brother1816-thin-webfont.woff2")
@@ -188,65 +187,49 @@
   font-style: italic;
 }
 
+/**
+ * 0.063 = 1px
+ * 0.375 = 6px
+ * 0.625 = 10px
+ * 1 = 16px
+ * 1.25 = 20px
+ * @see: https://www.madebymike.com.au/writing/using-css-variables/
+ */
+:root {
+  --color-header: #222;
+  --color-link: #3273dc;
+  --color-code-bg: #f2f2f2;
+  --color-page-bg: #f6f5f1;
+  --color-content: #444;
+  --color-blockquote-border: #999;
+  --color-blockquote-content: #222;
+
+  /* scale for 1.2 */
+  --font-size-1: 1rem;
+  --font-size-2: 1.2rem;
+  --font-size-3: 1.44rem;
+  --font-size-4: 1.728rem;
+  --font-size-5: 2.074rem;
+  --font-size-6: 2.488rem;
+}
+
+@media screen and (min-width: 800px) {
+  :root {
+    /* scale for 1.33 */
+    --font-size-1: 1rem;
+    --font-size-2: 1.333rem;
+    --font-size-3: 1.777rem;
+    --font-size-4: 2.369rem;
+    --font-size-5: 3.157rem;
+    --font-size-6: 4.209rem;
+  }
+}
+
 body {
+  background-color: var(--color-page-bg);
   font-family: "Brother 1816", Verdana, sans-serif;
-  margin: auto;
-  padding: 20px;
-  max-width: 1100px;
-  text-align: left;
-  background-color: #F6F5F1;
-  word-wrap: break-word;
   overflow-wrap: break-word;
-  line-height: 1.5;
-  color: #444;
-}
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-b {
-  color: #222;
-}
-a {
-  color: #3273dc;
-}
-nav a {
-  margin-right: 10px;
-}
-textarea {
-  width: 100%;
-  font-size: 16px;
-}
-input {
-  font-size: 16px;
-}
-content {
-  line-height: 1.6;
-}
-table {
-  width: 100%;
-}
-img {
-  max-width: 100%;
-  height: auto;
-}
-code {
-  padding: 2px 5px;
-  background-color: #f2f2f2;
-}
-pre {
-  padding: 1rem;
-}
-pre > code {
-  all: unset;
-}
-blockquote {
-  border: 1px solid #999;
-  color: #222;
-  padding: 2px 0px 2px 20px;
-  margin: 0px;
-  font-style: italic;
+  padding: 1.25rem;
+  text-align: left;
+  word-wrap: break-word;
 }

@@ -108,12 +108,12 @@
   }
 
   .board > input {
-    font-size: 1.4em;
+    font-size: var(--font-size-3);
     grid-column: 1/3;
   }
 
   h2 {
-    font-size: 2em;
+    font-size: var(--font-size-5);
     font-weight: 200;
     user-select: none;
     margin: 0 0 0.5em 0;

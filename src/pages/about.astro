@@ -11,7 +11,7 @@ import HeaderLink from "../components/HeaderLink.astro";
   heroImage="/profile-pic.png"
   postType="About"
 >
-  <ol>
+  <ul class="flex gap-8">
     <li>
       <HeaderLink href="https://twitter.com/jermspeaks" target="_blank">
         Twitter
@@ -33,7 +33,7 @@ import HeaderLink from "../components/HeaderLink.astro";
     <li>
       <HeaderLink href="/rss.xml" target="_blank">RSS</HeaderLink>
     </li>
-  </ol>
+  </ul>
   <p>
     Instead of giving one “About Me” blurb, I’m going to give the “About Me”
     description for different instances. If you’re looking for where I am on the
@@ -107,11 +107,11 @@ import HeaderLink from "../components/HeaderLink.astro";
   <p>
     This website is built with <a href="https://astro.build/" target="_blank"
       >Astro</a
-    >, <a href="https://pages.github.com/" target="_blank">Github Pages</a>, and <a
-      href="https://www.netlify.com/"
-      target="_blank">Netlify</a
-    >. The previous site was built using Jekyll, Sass, Bourbon, Neat, and
-    Netlify.
+    >, <a href="https://tailwindcss.com/" target="_blank">Tailwind</a>, <a
+      href="https://pages.github.com/"
+      target="_blank">Github Pages</a
+    >, and <a href="https://www.netlify.com/" target="_blank">Netlify</a>. The
+    previous site was built using Jekyll, Sass, Bourbon, Neat, and Netlify.
   </p>
   <p>
     The domain is registered with <a
@@ -140,14 +140,5 @@ import HeaderLink from "../components/HeaderLink.astro";
   }
   h2 {
     margin: 0.5em 0;
-  }
-  ol {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 0.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
   }
 </style>
