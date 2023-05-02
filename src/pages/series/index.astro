@@ -16,43 +16,6 @@ const series = (await getCollection("series")).sort(
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      ul {
-        list-style-type: none;
-        padding: unset;
-        display: flex;
-        gap: 3rem;
-        flex-direction: column;
-      }
-      ul li {
-        display: flex;
-      }
-      ul li div:first-child {
-        display: flex;
-        flex-direction: column;
-        flex: 0 0 350px;
-      }
-      ul li :global(time) {
-        flex: auto;
-        font-style: italic;
-        color: #595959;
-      }
-      ul li a:visited {
-        color: #8e32dc;
-      }
-      .card {
-        /* Add shadows to create the "card" effect */
-        box-sizing: border-box;
-        border-radius: 5px;
-        border: 1px solid #c6cfda;
-        padding: 1rem;
-      }
-
-      /* On mouse-over, add a deeper shadow */
-      .card:hover {
-        box-shadow: 0 0.6rem 1.6rem rgba(0, 0, 0, 0.1);
-      }
-    </style>
   </head>
   <BaseBody>
     <Header />
@@ -74,13 +37,18 @@ const series = (await getCollection("series")).sort(
         </p>
 
         <section>
-          <ul>
+          <ul class="list-none p-0 flex flex-col gap-12">
             {
               series.map((s) => (
-                <li>
-                  <div>
-                    <a href={`/series/${s.slug}/`}>{s.data.title}</a>
-                    <div>
+                <li class="flex">
+                  <div class="flex flex-col flex-shrink-0 flex-grow-0 flex-[350px]">
+                    <a
+                      class="visited:text-purple-600"
+                      href={`/series/${s.slug}/`}
+                    >
+                      {s.data.title}
+                    </a>
+                    <div class="italic text-slate-600">
                       <FormattedDate date={s.data.createdDate} />
                       &nbsp;to&nbsp;
                       <FormattedDate date={s.data.endDate} />
@@ -99,6 +67,4 @@ const series = (await getCollection("series")).sort(
     </main>
     <Footer />
   </BaseBody>
-
-
 </html>

@@ -322,7 +322,7 @@ import Layout from "../layouts/BlogPost.astro";
     </ul>
   </article>
 
-  <div class="bottom-items outer-container main-right">
+  <div class="flex flex-row justify-between align-top my-2">
     <article class="stack">
       <h3>Active Stack</h3>
       <div class="stack--container">
@@ -398,29 +398,3 @@ import Layout from "../layouts/BlogPost.astro";
     </article>
   </div>
 </Layout>
-<footer></footer>
-
-<style>
-  header {
-    margin: 0em 0 2em;
-  }
-  h2 {
-    margin: 0.5em 0;
-  }
-  ol {
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    gap: 0.5rem;
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  .bottom-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: top;
-    margin: 0.5em 0;
-  }
-</style>

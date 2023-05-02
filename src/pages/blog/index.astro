@@ -16,35 +16,23 @@ const posts = (await getCollection("blog"))
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      ul {
-        list-style-type: none;
-        padding: unset;
-      }
-      ul li {
-        display: flex;
-      }
-      ul li :global(time) {
-        flex: 0 0 130px;
-        font-style: italic;
-        color: #595959;
-      }
-      ul li a:visited {
-        color: #8e32dc;
-      }
-    </style>
   </head>
   <BaseBody>
     <Header />
     <main>
       <h2 class="text-2xl mb-5">Writing</h2>
       <section>
-        <ul>
+        <ul class="list-none p-0">
           {
             posts.map((post) => (
-              <li>
-                <FormattedDate date={post.data.pubDate} />
-                <a href={`/blog/${post.slug}/`}>{post.data.title}</a>
+              <li class="flex">
+                <FormattedDate
+                  class="flex-shrink-0 flex-grow-0 flex-[130px] italic text-slate-600"
+                  date={post.data.pubDate}
+                />
+                <a class="visited:text-purple-600" href={`/blog/${post.slug}/`}>
+                  {post.data.title}
+                </a>
                 &nbsp;{`#${post.data.postType}`}
                 {/** Array.isArray(post.data.tags) &&
 								post.data.tags.map((tag) => `#${tag}`).join(" ") */}
