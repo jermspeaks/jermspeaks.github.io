@@ -5,11 +5,11 @@ import HeaderLink from "./HeaderLink.astro";
 
 <header class="mb-8 flex justify-between align-middle">
   <h2
-    class="text-xl font-bold mb-8 text-black no-underline hover:text-gray-600"
+    class="text-xl font-bold mb-8 text-black no-underline hover:text-gray-600 dark:text-white"
   >
     <a href="/">{SITE_TITLE}</a>
   </h2>
-  <nav class="hidden md:flex md:gap-3 md:mb-8">
+  <nav class="hidden md:flex md:gap-3 md:mb-8 dark:text-white">
     <!-- <HeaderLink href="/">Home</HeaderLink> -->
     <HeaderLink href="/blog">Writing</HeaderLink>
     <HeaderLink href="/project">Projects</HeaderLink>
@@ -24,7 +24,7 @@ import HeaderLink from "./HeaderLink.astro";
       data-nav-button
       class="border-none bg-none cursor-pointer flex justify-center p-1 text-black hover:text-gray-600"
     >
-      <svg width="24" height="20" viewBox="0 0 24 24">
+      <svg width="24" height="20" viewBox="0 0 24 24" class="dark:fill-white">
         <rect y="9" width="24" height="4" rx="2"></rect>
         <>
           <rect width="24" height="4" rx="2"></rect>
@@ -32,9 +32,9 @@ import HeaderLink from "./HeaderLink.astro";
         </>
       </svg>
     </button>
-    <div class="full-page-menu mobile-menu-closed" data-nav-menu>
+    <div class="full-page-menu mobile-menu-closed bg-yellow-50 dark:bg-slate-900" data-nav-menu>
       <button aria-label="open menu" data-nav-button>
-        <svg width="21" height="21" fill="var(--color-gray-600)"
+        <svg width="21" height="21" class="dark:fill-white"
           ><rect
             x="4.136"
             y="0.6"
@@ -50,7 +50,9 @@ import HeaderLink from "./HeaderLink.astro";
             transform="rotate(-45 .6 16.864)"></rect></svg
         >
       </button>
-      <nav class="flex flex-col gap-8 items-center w-full mt-8 text-2xl">
+      <nav
+        class="flex flex-col gap-8 items-center w-full mt-8 text-2xl dark:bg-slate-800 dark:text-white"
+      >
         <HeaderLink href="/blog">Writing</HeaderLink>
         <HeaderLink href="/project">Projects</HeaderLink>
         <HeaderLink href="/press">Press</HeaderLink>
@@ -84,7 +86,6 @@ import HeaderLink from "./HeaderLink.astro";
       height: 100vh;
       display: flex;
       flex-direction: column;
-      background: #f6f5f1;
       -webkit-box-align: start;
       align-items: flex-start;
       transition: all 0.3s ease-in-out 0s;

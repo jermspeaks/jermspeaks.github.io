@@ -21,10 +21,10 @@ const series = (await getCollection("series")).sort(
     <Header />
     <main>
       <header>
-        <h2 class="text-2xl mb-5">Newsletter Series</h2>
+        <h2 class="text-2xl mb-5 dark:text-white">Newsletter Series</h2>
       </header>
 
-      <article class="prose lg:prose-xl ml-auto mr-auto">
+      <article class="prose lg:prose-xl dark:prose-invert ml-auto mr-auto">
         <p>
           A weekly, longform essay that mainly focuses on lessons I've learned.
           I try to write something I find meaningful, whether it's exposing your
@@ -48,7 +48,7 @@ const series = (await getCollection("series")).sort(
                     >
                       {s.data.title}
                     </a>
-                    <div class="italic text-slate-600">
+                    <div class="italic text-slate-600 dark:text-slate-300">
                       <FormattedDate date={s.data.createdDate} />
                       &nbsp;to&nbsp;
                       <FormattedDate date={s.data.endDate} />

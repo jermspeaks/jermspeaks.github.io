@@ -19,7 +19,7 @@ const { title, description, createdDate } = Astro.props;
   <BaseBody>
     <Header />
     <main>
-      <article class="prose lg:prose-xl">
+      <article class="prose lg:prose-xl dark:prose-invert">
         <FormattedDate class="italic text-slate-600" date={createdDate} />
         <slot />
       </article>

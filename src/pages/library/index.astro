@@ -21,12 +21,12 @@ const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
   <BaseBody>
     <Header />
     <main>
-      <h2 class="text-2xl mb-5">Library</h2>
+      <h2 class="text-2xl mb-5 dark:text-white">Library</h2>
       <section>
         <ul class="flex flex-wrap list-none p-0 gap-4">
           {
             library.map((book) => (
-              <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border">
+              <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
                 <a
                   class="visited:text-purple-600"
                   href={book.data.link}
@@ -38,7 +38,7 @@ const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
                   <div>{book.data.title}</div>
                   <div>{book.data.author}</div>
                   <FormattedDate
-                    class="italic text-slate-600"
+                    class="italic text-slate-600 dark:text-slate-300"
                     date={book.data.dateConsumed}
                   />
                   {posts.findIndex(
