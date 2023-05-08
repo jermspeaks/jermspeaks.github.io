@@ -9,8 +9,6 @@ heroImage: ""
 postType: "blog"
 ---
 
-# Book Review: The Robber Bride
-
 ![The Robber Bride book cover](http://68.media.tumblr.com/tumblr_m2x5jjba4X1qz81kho1_400.jpg)
 
 This week’s book review is of a much older book. While holding off to read “Oryx and Crake,” I read “The Robber Bride” by Margaret Atwood. The story follows three women who are friends and share a common foe from their past. The story has been split between these three women putting their perspectives on how they had to deal with a supposed friend, Zenia.
