@@ -9,8 +9,6 @@ heroImage: ""
 postType: "blog"
 ---
 
-# Book Review: Boomerang: Travels in the New Third World
-
 ![Boomerang book cover](http://68.media.tumblr.com/tumblr_m0dj4s2Xd51qz81kho1_400.jpg)
 
 This week’s book review: “Boomerang: Travels in the New Third World” by Michael Lewis. Though I definitely liked “The Big Short” better, this book is a great companion piece to the financial crisis over in Europe. There’s some great insight on why the monetary departments aren’t working well in Iceland, Greece, Germany, Ireland and California.

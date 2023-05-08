@@ -9,8 +9,6 @@ heroImage: ""
 postType: "blog"
 ---
 
-# Book Review: In The Plex
-
 ![In The Plex book cover](http://68.media.tumblr.com/tumblr_m01fu2QoBe1qz81kho1_500.jpg)
 
 This week’s book review: “In The Plex: How Google Thinks, Works, and Shapes Our Lives” by Steven Levy.
