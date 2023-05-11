@@ -5,6 +5,8 @@ import BaseBody from "../../components/BaseBody.astro";
 import BaseHead from "../../components/BaseHead.astro";
 import Footer from "../../components/Footer.astro";
 import Header from "../../components/Header.astro";
+import ProseArticle from "../../components/ProseArticle.astro";
+import TitleHeading from "../../components/TitleHeading.astro";
 
 const logs = (await getCollection("log")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
@@ -19,24 +21,24 @@ const logs = (await getCollection("log")).sort(
   <BaseBody>
     <Header />
     <main>
-      <h1 class="text-3xl mt-1 mb-1">Logs by Year</h1>
+      <TitleHeading>Logs by Year</TitleHeading>
       <article class="ml-auto mr-auto">
-        <section class="prose lg:prose-xl dark:prose-invert">
+        <ProseArticle>
           <p>
             These are logs of consumed media from the past few years. (Updates
             in Progress).
           </p>
           <p>I've been logging media consumption since 2010.</p>
-        </section>
-        <ul class="prose lg:prose-xl dark:prose-invert">
-          {
-            logs.map((log) => (
-              <li>
-                <a href={`/log/${log.slug}/`}>{log.data.title}</a>
-              </li>
-            ))
-          }
-        </ul>
+          <ul>
+            {
+              logs.map((log) => (
+                <li>
+                  <a href={`/log/${log.slug}/`}>{log.data.title}</a>
+                </li>
+              ))
+            }
+          </ul>
+        </ProseArticle>
       </article>
     </main>
     <Footer />

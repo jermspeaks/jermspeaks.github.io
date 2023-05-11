@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/About.astro";
 import NavigationLinks from "../components/NavigationLinks.astro";
+import ProseArticle from "../components/ProseArticle.astro";
 ---
 
 <Layout
@@ -18,8 +19,7 @@ import NavigationLinks from "../components/NavigationLinks.astro";
       { link: "/resume", text: "Resume" },
     ]}
   />
-  <div class="prose lg:prose-xl dark:prose-invert">
-    <hr />
+  <ProseArticle>
     <h1><strong>Jeremy Wong</strong></h1>
     <section>
       <div>
@@ -369,5 +369,5 @@ import NavigationLinks from "../components/NavigationLinks.astro";
         </ul>
       </article>
     </div>
-  </div>
+  </ProseArticle>
 </Layout>

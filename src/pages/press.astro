@@ -1,11 +1,12 @@
 ---
-import { getCollection } from "astro:content";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
+import ProseArticle from "../components/ProseArticle.astro";
+import TitleHeading from "../components/TitleHeading.astro";
 ---
 
 <html lang="en">
@@ -15,16 +16,9 @@ import Header from "../components/Header.astro";
   <BaseBody>
     <Header />
     <main>
-      <h1 class="text-3xl mb-5">Press</h1>
-      <section class="mt-8 prose lg:prose-xl dark:prose-invert">
-        <FormattedDate date={new Date("November 25, 2015")} />
-        <div class="italic">
-          Last updated on{" "}
-          <FormattedDate date={new Date("November 25, 2015")} />
-        </div>
-
+      <TitleHeading>Press</TitleHeading>
+      <ProseArticle>
         <h2 class="my-8">Talks</h2>
-
         <section>
           <h3>
             Interview with <a href="http://www.yerrington.net/" target="_blank"
@@ -67,7 +61,11 @@ import Header from "../components/Header.astro";
             frameborder="0"
             allowfullscreen></iframe>
         </section>
-      </section>
+        <div class="italic">
+          Last updated on{" "}
+          <FormattedDate date={new Date("November 25, 2015")} />
+        </div>
+      </ProseArticle>
     </main>
     <Footer />
   </BaseBody>

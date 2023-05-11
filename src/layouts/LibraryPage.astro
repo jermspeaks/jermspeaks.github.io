@@ -5,6 +5,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import NavigationLinks from "../components/NavigationLinks.astro";
+import TitleHeading from "../components/TitleHeading.astro";
 ---
 
 <!DOCTYPE html>
@@ -15,9 +16,9 @@ import NavigationLinks from "../components/NavigationLinks.astro";
   <BaseBody>
     <Header />
     <main>
-      <h2 class="text-3xl mb-5 dark:text-white">
+      <TitleHeading>
         <a href="/library">Library</a>
-      </h2>
+      </TitleHeading>
       <NavigationLinks
         navigationItems={[
           { link: "/library/books", text: "Books" },
