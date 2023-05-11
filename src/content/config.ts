@@ -95,4 +95,18 @@ const lindy = defineCollection({
   }),
 });
 
-export const collections = { blog, project, log, series, library, lindy };
+const resume = defineCollection({
+  schema: z.object({
+    title: z.string(),
+  }),
+});
+
+export const collections = {
+  blog,
+  library,
+  lindy,
+  log,
+  project,
+  resume,
+  series,
+};
