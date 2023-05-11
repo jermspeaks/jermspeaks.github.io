@@ -2,8 +2,8 @@
 import { getCollection } from "astro:content";
 import LibraryPage from "../../../layouts/LibraryPage.astro";
 
-const lindyLibrary = (await getCollection("lindy")).sort(
-  (a, b) => b.data.title - a.data.title
+const lindyLibrary = (await getCollection("lindy")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
 );
 ---
 

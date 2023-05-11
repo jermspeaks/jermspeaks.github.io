@@ -13,6 +13,7 @@ const resumeItems = (await getCollection("resume")).sort((a, b) => {
   }
   return 0;
 });
+import ProseArticle from "../components/ProseArticle.astro";
 ---
 
 <Layout
@@ -30,7 +31,7 @@ const resumeItems = (await getCollection("resume")).sort((a, b) => {
       { link: "/resume", text: "Resume" },
     ]}
   />
-  <div class="prose lg:prose-xl dark:prose-invert">
+  <ProseArticle>
     <h1><strong>Jeremy Wong</strong></h1>
     {resumeItems.map((resume) => <ResumeContent {...resume} />)}
 
@@ -111,5 +112,5 @@ const resumeItems = (await getCollection("resume")).sort((a, b) => {
         </ul>
       </article>
     </div>
-  </div>
+  </ProseArticle>
 </Layout>

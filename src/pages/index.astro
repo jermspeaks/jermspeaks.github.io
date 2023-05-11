@@ -6,6 +6,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
+import ProseArticle from "../components/ProseArticle.astro";
 
 const series = (await getCollection("series")).sort(
   (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
@@ -27,7 +28,7 @@ const lastProject = (await getCollection("project")).sort(
   <BaseBody>
     <Header title={SITE_TITLE} />
     <main class="dark:text-white">
-      <h1 class="mt-12 mb-6 text-6xl ">
+      <h1 class="mt-12 mb-6 text-6xl">
         <strong>Jeremy</strong> makes essays and mini projects about programming,
         data, and crafting.
       </h1>
@@ -44,7 +45,7 @@ const lastProject = (await getCollection("project")).sort(
 
       <hr class="mt-10 mb-10" />
 
-      <article class="prose lg:prose-xl dark:prose-invert">
+      <ProseArticle>
         <h2>Newsletter Series</h2>
 
         <p>
@@ -80,7 +81,7 @@ const lastProject = (await getCollection("project")).sort(
             }
           </ul>
         </section>
-      </article>
+      </ProseArticle>
 
       <article class="flex justify-start gap-5 mt-2 mb-2">
         <div>
@@ -103,7 +104,7 @@ const lastProject = (await getCollection("project")).sort(
 
       <hr class="mt-5 mb-5" />
 
-      <article class="prose lg:prose-xl dark:prose-invert">
+      <ProseArticle>
         <form
           action="https://tinyletter.com/jeremywong"
           class="landing-newsletter-form"
@@ -142,7 +143,7 @@ const lastProject = (await getCollection("project")).sort(
             >
           </p>
         </form>
-      </article>
+      </ProseArticle>
     </main>
 
     <Footer />

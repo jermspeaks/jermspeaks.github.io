@@ -2,6 +2,7 @@
 import AboutLayout from "../layouts/About.astro";
 import HeaderLink from "../components/HeaderLink.astro";
 import NavigationLinks from "../components/NavigationLinks.astro";
+import ProseArticle from "../components/ProseArticle.astro";
 ---
 
 <AboutLayout
@@ -26,7 +27,7 @@ import NavigationLinks from "../components/NavigationLinks.astro";
       { link: "/resume", text: "Resume" },
     ]}
   />
-  <section class="prose lg:prose-xl dark:prose-invert">
+  <ProseArticle>
     <p>
       Instead of giving one “About Me” blurb, I’m going to give the “About Me”
       description for different instances. If you’re looking for where I am on
@@ -127,9 +128,8 @@ import NavigationLinks from "../components/NavigationLinks.astro";
         target="_blank">Check it out</a
       >.
     </p>
-  </section>
-  <section class="mt-8 prose lg:prose-xl dark:prose-invert">
-    <h2 class="">Contact Me</h2>
+
+    <h3>Contact Me</h2>
     <ul class="flex gap-8">
       <li>
         <HeaderLink href="https://twitter.com/jermspeaks" target="_blank">
@@ -150,5 +150,5 @@ import NavigationLinks from "../components/NavigationLinks.astro";
         <HeaderLink href="/rss.xml" target="_blank">RSS</HeaderLink>
       </li>
     </ul>
-  </section>
+  </ProseArticle>
 </AboutLayout>
