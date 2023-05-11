@@ -19,16 +19,16 @@ const logs = (await getCollection("log")).sort(
   <BaseBody>
     <Header />
     <main>
-      <h1 class="text-3xl mt-1 mb-1">Logs by Year</h1>
-      <article class="ml-auto mr-auto">
-        <section class="prose lg:prose-xl dark:prose-invert">
+      <h1 class="text-3xl mb-8 dark:text-white">Logs by Year</h1>
+      <section class="prose lg:prose-xl dark:prose-invert">
+        <article class="text-lg mt-6 dark:text-slate-300 font-serif">
           <p>
             These are logs of consumed media from the past few years. (Updates
             in Progress).
           </p>
           <p>I've been logging media consumption since 2010.</p>
-        </section>
-        <ul class="prose lg:prose-xl dark:prose-invert">
+        </article>
+        <ul>
           {
             logs.map((log) => (
               <li>
@@ -37,7 +37,7 @@ const logs = (await getCollection("log")).sort(
             ))
           }
         </ul>
-      </article>
+      </section>
     </main>
     <Footer />
   </BaseBody>
