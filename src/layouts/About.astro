@@ -19,20 +19,11 @@ const { title, description, updatedDate } = Astro.props;
   <BaseBody>
     <Header />
     <main>
-      <section class="ml-auto mr-auto dark:text-white">
-        <h1 class="text-3xl mb-8">{title}</h1>
+      <TitleHeading>{title}</TitleHeading>
+      <section class="ml-auto mr-auto dark:text-slate">
         <slot name="navigation" />
         <slot name="image" />
         <div class="mt-8"></div>
-      </section>
-      <section class="ml-auto mr-auto dark:text-slate-300">
-        <div>
-          <TitleHeading>{title}</TitleHeading>
-          <slot name="navigation" />
-          <slot name="image" />
-          <div class="mt-8"></div>
-        </div>
-
         <slot />
         {
           updatedDate && (
