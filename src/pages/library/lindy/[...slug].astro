@@ -1,0 +1,21 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import LibraryPost from '../../../layouts/LibraryPost.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('lindy');
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'lindy'>;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<LibraryPost {...post.data}>
+	<h1>{post.data.title}</h1>
+	<Content />
+</LibraryPost>
