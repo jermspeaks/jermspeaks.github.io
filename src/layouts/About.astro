@@ -9,7 +9,7 @@ import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate } = Astro.props;
+const { title, description, updatedDate } = Astro.props;
 ---
 
 <html lang="en">
@@ -19,7 +19,13 @@ const { title, description, pubDate, updatedDate } = Astro.props;
   <BaseBody>
     <Header />
     <main>
-      <article class="ml-auto mr-auto">
+      <section class="ml-auto mr-auto dark:text-white">
+        <h1 class="text-3xl mb-8">{title}</h1>
+        <slot name="navigation" />
+        <slot name="image" />
+        <div class="mt-8"></div>
+      </section>
+      <section class="ml-auto mr-auto dark:text-slate-300">
         <div>
           <TitleHeading>{title}</TitleHeading>
           <slot name="navigation" />
@@ -35,7 +41,7 @@ const { title, description, pubDate, updatedDate } = Astro.props;
             </div>
           )
         }
-      </article>
+      </section>
     </main>
     <Footer />
   </BaseBody>
