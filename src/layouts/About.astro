@@ -8,20 +8,22 @@ import FormattedDate from "../components/FormattedDate.astro";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, pubDate, updatedDate } = Astro.props;
 ---
 
 <html lang="en">
   <head>
     <BaseHead title={title} description={description} />
   </head>
-
   <BaseBody>
     <Header />
     <main>
-      <article class="prose lg:prose-xl dark:prose-invert ml-auto mr-auto">
+      <article class="ml-auto mr-auto">
         <div>
-          <h1 class="text-4xl mt-1 mb-1">{title}</h1>
+          <h1 class="text-3xl mt-1 mb-1">{title}</h1>
+          <slot name="navigation" />
+          <slot name="image" />
+          <div class="mt-8" />
           <FormattedDate date={pubDate} />
           {
             updatedDate && (
@@ -31,7 +33,7 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
             )
           }
         </div>
-        {heroImage && <img width={420} height={420} src={heroImage} alt="" />}
+
         <slot />
       </article>
     </main>

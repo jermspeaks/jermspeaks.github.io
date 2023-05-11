@@ -17,14 +17,14 @@ const pathname = new URL(Astro.request.url).pathname;
       <li>
         {pathname === item.link ? (
           <a
-            class="text-gray-500  dark:text-white  border-blue-500 border-solid border-b-2"
+            class="text-gray-700  dark:text-white  border-blue-800 dark:border-blue-500 border-solid border-b-2"
             href={item.link}
           >
-            {item.text}
+            <strong>{item.text}</strong>
           </a>
         ) : (
           <a
-            class="text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-400"
+            class="text-gray-700 hover:text-gray-900 dark:text-white dark:hover:text-gray-400"
             href={item.link}
           >
             {item.text}

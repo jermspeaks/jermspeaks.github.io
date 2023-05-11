@@ -1,67 +1,74 @@
 ---
-import Layout from "../layouts/BlogPost.astro";
+import { getCollection } from "astro:content";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
+import BaseBody from "../components/BaseBody.astro";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import Header from "../components/Header.astro";
 ---
 
-<Layout
-  title="Press"
-  description=""
-  pubDate={new Date("November 25, 2015")}
-  updatedDate={new Date("November 25, 2015")}
-  heroImage=""
-  postType="media"
->
-  <section class="landing-right">
-    <section class="landing-top-banner">
-      <header class="landing-header">
-        <h2 class="text-2xl mb-5">Talks</h2>
-      </header>
-    </section>
-
-    <section class="landing-middle-banner">
-      <div class="landing-middle-banner-header">
-        <h3>
-          Interview with <a href="http://www.yerrington.net/" target="_blank"
-            >David Yerrington</a
-          >
-        </h3>
-        <ul>
-          <li>
-            <a
-              href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/73Eep-data-science-python-guest-jeremy/"
-              target="_blank"
-            >
-              <span>Part 1</span>
-            </a>
-          </li>
-          <li>
-            <a
-              href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/poqAP-data-science-python-guest-jeremy-2/"
-              target="_blank"
-            >
-              <span>Part 2</span>
-            </a>
-          </li>
-        </ul>
-      </div>
-    </section>
-
-    <section class="landing-middle-banner">
-      <div class="landing-middle-banner-header">
-        <h3>Code Club</h3>
-        <div>
-          <span
-            >During the fall and winter of 2014, I ran an online code club with
-            some of my bootcamp cohort mates.</span
-          >
-          <span>Here's a playlist of those sessions.</span>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+  <BaseBody>
+    <Header />
+    <main>
+      <h1 class="text-3xl mb-5">Press</h1>
+      <section class="mt-8 prose lg:prose-xl dark:prose-invert">
+        <FormattedDate date={new Date("November 25, 2015")} />
+        <div class="italic">
+          Last updated on{" "}
+          <FormattedDate date={new Date("November 25, 2015")} />
         </div>
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/videoseries?list=PLyretLC2LTTr4CKC-i81Orsr1N-X57Pjr"
-          frameborder="0"
-          allowfullscreen></iframe>
-      </div>
-    </section>
-  </section>
-</Layout>
+
+        <h2 class="my-8">Talks</h2>
+
+        <section>
+          <h3>
+            Interview with <a href="http://www.yerrington.net/" target="_blank"
+              >David Yerrington</a
+            >
+          </h3>
+          <ul>
+            <li>
+              <a
+                href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/73Eep-data-science-python-guest-jeremy/"
+                target="_blank"
+              >
+                <span>Part 1</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/poqAP-data-science-python-guest-jeremy-2/"
+                target="_blank"
+              >
+                <span>Part 2</span>
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section>
+          <h3>Code Club</h3>
+          <div>
+            <p>
+              During the fall and winter of 2014, I ran an online code club with
+              some of my bootcamp cohort mates.
+            </p>
+            <p>Here's a playlist of those sessions.</p>
+          </div>
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/videoseries?list=PLyretLC2LTTr4CKC-i81Orsr1N-X57Pjr"
+            frameborder="0"
+            allowfullscreen></iframe>
+        </section>
+      </section>
+    </main>
+    <Footer />
+  </BaseBody>
+</html>
