@@ -1,0 +1,36 @@
+---
+interface Link {
+  link: string;
+  text: string;
+}
+export interface Props {
+  navigationItems: Link[];
+}
+
+const { navigationItems = [] } = Astro.props;
+const pathname = new URL(Astro.request.url).pathname;
+---
+
+<ul class="flex gap-4 list-none m-0 p-0">
+  {
+    navigationItems.map((item) => (
+      <li>
+        {pathname === item.link ? (
+          <a
+            class="text-gray-500  dark:text-white  border-blue-500 border-solid border-b-2"
+            href={item.link}
+          >
+            {item.text}
+          </a>
+        ) : (
+          <a
+            class="text-gray-500 hover:text-gray-900 dark:text-white dark:hover:text-gray-400"
+            href={item.link}
+          >
+            {item.text}
+          </a>
+        )}
+      </li>
+    ))
+  }
+</ul>
