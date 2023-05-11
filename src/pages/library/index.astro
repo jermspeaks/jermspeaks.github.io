@@ -1,71 +1,99 @@
 ---
 import { getCollection } from "astro:content";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
-import BaseBody from "../../components/BaseBody.astro";
-import BaseHead from "../../components/BaseHead.astro";
-import Footer from "../../components/Footer.astro";
 import FormattedDate from "../../components/FormattedDate.astro";
-import Header from "../../components/Header.astro";
+import LibraryPage from "../../layouts/LibraryPage.astro";
 
-const library = (await getCollection("library")).sort(
-  (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
-);
+const TOTAL_NUMBER_OF_ITEMS = 5;
+const library = (await getCollection("library"))
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .slice(0, TOTAL_NUMBER_OF_ITEMS);
 const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
+const libraryReviews = library.map((book) => {
+  const postIndex = posts.findIndex(
+    (post) => post.data.title === book.data.review
+  );
+  if (postIndex > -1) {
+    return posts[postIndex];
+  } else {
+    return null;
+  }
+});
+const lindyLibrary = (await getCollection("lindy"))
+  .sort((a, b) => b.data.title - a.data.title)
+  .slice(0, TOTAL_NUMBER_OF_ITEMS);
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <BaseBody>
-    <Header />
-    <main>
-      <h2 class="text-2xl mb-5 dark:text-white">Library</h2>
-      <section>
-        <ul class="flex flex-wrap list-none p-0 gap-4">
-          {
-            library.map((book) => (
-              <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
-                <a
-                  class="visited:text-purple-600"
-                  href={book.data.link}
-                  target="_blank"
-                >
-                  <img src={book.data.heroImage} width="200" />
-                </a>
-                <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
-                  <div>{book.data.title}</div>
-                  <div>{book.data.author}</div>
-                  <FormattedDate
-                    class="italic text-slate-600 dark:text-slate-300"
-                    date={book.data.dateConsumed}
-                  />
-                  {posts.findIndex(
-                    (post) => post.data.title === book.data.review
-                  ) > -1 && (
-                    <div>
-                      <a
-                        class="visited:text-purple-600"
-                        href={`/blog/${
-                          posts[
-                            posts.findIndex(
-                              (post) => post.data.title === book.data.review
-                            )
-                          ].slug
-                        }`}
-                      >
-                        Review
-                      </a>
-                    </div>
-                  )}
+<LibraryPage>
+  <article class="text-lg mt-6 dark:text-slate-400 font-serif">
+    <p>
+      Welcome to my library. I love collecting different kinds of media. The
+      things that have resonated I'll shelve in my library.
+    </p>
+    <p>
+      I've split up my library into different sections. Films that have
+      influenced me. Books that have changed my perspective. An anti-library of
+      books that I should read. And a collection of evergreen content that stand
+      the test of time, in the Lindy Library (see <a
+        href="https://en.wikipedia.org/wiki/Lindy_effect"
+        target="_blank"
+        class="hover:text-purple-500"
+        title="Wikipedia Article on the Lindy Effect"
+        noreferrer>Lindy Effect</a
+      >).
+    </p>
+  </article>
+  <section class="mt-8">
+    <h3 class="text-xl mb-5 dark:text-white">
+      <a href="/library/books">Latest Books</a>
+    </h3>
+    <ul class="flex flex-wrap list-none p-0 gap-4">
+      {
+        library.map((book, bookIndex) => (
+          <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
+            <a
+              class="visited:text-purple-600"
+              href={book.data.link}
+              target="_blank"
+            >
+              <img src={book.data.heroImage} width="200" />
+            </a>
+            <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
+              <div>{book.data.title}</div>
+              <div>{book.data.author}</div>
+              <FormattedDate
+                class="italic text-slate-600 dark:text-slate-300"
+                date={book.data.dateConsumed}
+              />
+              {libraryReviews[bookIndex] && (
+                <div>
+                  <a
+                    class="visited:text-purple-600"
+                    href={`/blog/${libraryReviews[bookIndex].slug}`}
+                  >
+                    Review
+                  </a>
                 </div>
-              </li>
-            ))
-          }
-        </ul>
-      </section>
-    </main>
-    <Footer />
-  </BaseBody>
-</html>
+              )}
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+  <section>
+    <h3 class="text-xl mt-8 mb-5 dark:text-white">
+      A Peek in the <a href="/library/lindy">Lindy Library</a>
+    </h3>
+    <ul class="flex flex-col list-none p-0 gap-1">
+      {
+        lindyLibrary.map((lindyItem) => (
+          <li class="flex rounded-sm box-border p-4 bg-slate-100 dark:bg-slate-800 dark:text-white">
+            <a href={`/library/lindy/${lindyItem.slug}`}>
+              {lindyItem.data.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</LibraryPage>

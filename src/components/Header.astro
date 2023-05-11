@@ -113,7 +113,6 @@ import HeaderLink from "./HeaderLink.astro";
   // Add event listeners to fire confetti when a button is clicked.
   buttons.forEach((button) => {
     button.addEventListener("click", () => {
-      console.log("fullPageMenus", fullPageMenus);
       if (fullPageMenus[0]) {
         const fullPageMenu = fullPageMenus[0];
         if (fullPageMenu.classList.contains("mobile-menu-open")) {

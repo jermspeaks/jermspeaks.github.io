@@ -86,4 +86,13 @@ const library = defineCollection({
   }),
 });
 
-export const collections = { blog, project, log, series, library };
+const lindy = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    author: z.string(),
+    heroImage: z.string().optional(),
+    link: z.string(),
+  }),
+});
+
+export const collections = { blog, project, log, series, library, lindy };
