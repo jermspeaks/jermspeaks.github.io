@@ -19,7 +19,7 @@ const libraryReviews = library.map((book) => {
   }
 });
 const lindyLibrary = (await getCollection("lindy"))
-  .sort((a, b) => b.data.title - a.data.title)
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
   .slice(0, TOTAL_NUMBER_OF_ITEMS);
 ---
 

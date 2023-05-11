@@ -4,3 +4,4 @@
 # 3. A bot must protect its own existence as long as such protection does not conflict with the First or Second Law.
 User-agent: *
 Disallow: /resume/
+Sitemap: https://craftbyzen.com/sitemap-index.xml
