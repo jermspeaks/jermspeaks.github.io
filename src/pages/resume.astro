@@ -2,20 +2,8 @@
 import { getCollection } from "astro:content";
 import Layout from "../layouts/About.astro";
 import NavigationLinks from "../components/NavigationLinks.astro";
-import ResumeContent from "../components/ResumeContent.astro";
-
-const resumeItems = (await getCollection("resume")).sort((a, b) => {
-  if (a.data.title < b.data.title) {
-    return -1;
-  }
-  if (a.data.title > b.data.title) {
-    return 1;
-  }
-  return 0;
-});
 import ProseArticle from "../components/ProseArticle.astro";
 import ResumeContent from "../components/ResumeContent.astro";
-import ProseArticle from "../components/ProseArticle.astro";
 
 const resumeItems = (await getCollection("resume")).sort((a, b) =>
   a.data.title.localeCompare(b.data.title)
