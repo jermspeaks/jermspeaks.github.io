@@ -1,3 +1,20 @@
 [build]
   command = "npm run build"
   publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "16" 
+  ## as of 2.3.3, Astro uses Node v16
+
+[[headers]]
+  ## https://answers.netlify.com/t/content-type-header-not-working-in-netlify-toml/7718
+  for = "/*"
+  [headers.values]
+    X-Frame-Options = "DENY"
+    X-XSS-Protection = "1; mode=block"
+    Cache-Control = "public, max-age=31536000" 
+    # cache just over 1 hour for webpagetest to be happy
+    X-Content-Type-Options = "nosniff"
+    ## Content-Security-Policy = "default-src 'self'; script-src 'nonce-jermspeaks'; img-src *"
+    # in loving memory. http://xclacksoverhead.org/home/about
+    X-Clacks-Overhead = "GNU Terry Pratchett"
