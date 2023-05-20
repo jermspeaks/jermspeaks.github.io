@@ -47,7 +47,7 @@ Measure voltage across INNER pair
 
 Depth:
 
-```math
+```latex
 z = a / 2
 ```
 
@@ -55,7 +55,7 @@ z = a / 2
 
 Resistivity:
 
-```math
+```latex
 ρ = 2 π a V/I
 ```
 
