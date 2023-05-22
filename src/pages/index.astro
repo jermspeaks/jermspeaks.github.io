@@ -4,8 +4,8 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
+import ProjectListItem from "../components/ProjectListItem.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import WritingListItem from "../components/WritingListItem.astro";
 
@@ -36,7 +36,7 @@ const lastProjects = (await getCollection("project"))
       </h2>
       <h2 class="mb-5 text-2xl font-thin">
         Currently leading application development at <a
-          class="text-orange-500 hover:text-orange-300"
+          class="text-orange-700 hover:text-orange-300 dark:text-orange-500"
           href="https://clearlabs.com/"
           target="_blank">Clear Labs</a
         >
@@ -68,39 +68,38 @@ const lastProjects = (await getCollection("project"))
       <hr class="mt-10 mb-10" />
 
       <div class="flex">
-        <ProseArticle>
-          <h2>
-            <a
-              href="/blog"
-              class="hover:text-slate-800 dark:hover:text-slate-300"
-              >Recent Writing</a
-            >
-          </h2>
-          <ul>
-            {latestPosts.map((post) => <WritingListItem post={post} />)}
-          </ul>
-        </ProseArticle>
-        <ProseArticle>
-          <h2>
-            <a
-              href="/project"
-              class="hover:text-slate-800 dark:hover:text-slate-300"
-              >Recent Projects</a
-            >
-          </h2>
-          <ul>
-            {
-              lastProjects.map((lastProject) => (
-                <li>
-                  <FormattedDate date={lastProject.data.createdDate} />
-                  <a href={`/project/${lastProject.slug}/`}>
-                    {lastProject.data.title}
-                  </a>
-                </li>
-              ))
-            }
-          </ul>
-        </ProseArticle>
+        <div class="flex-[50%]">
+          <ProseArticle>
+            <h2>
+              <a
+                href="/blog"
+                class="hover:text-slate-800 dark:hover:text-slate-300"
+                >Recent Writing</a
+              >
+            </h2>
+            <ul>
+              {latestPosts.map((post) => <WritingListItem post={post} />)}
+            </ul>
+          </ProseArticle>
+        </div>
+        <div class="flex-[50%]">
+          <ProseArticle>
+            <h2>
+              <a
+                href="/project"
+                class="hover:text-slate-800 dark:hover:text-slate-300"
+                >Recent Projects</a
+              >
+            </h2>
+            <ul>
+              {
+                lastProjects.map((project) => (
+                  <ProjectListItem project={project} />
+                ))
+              }
+            </ul>
+          </ProseArticle>
+        </div>
       </div>
 
       <hr class="mt-5 mb-5" />

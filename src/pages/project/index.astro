@@ -7,6 +7,7 @@ import Footer from "../../components/Footer.astro";
 import FormattedDate from "../../components/FormattedDate.astro";
 import Header from "../../components/Header.astro";
 import TitleHeading from "../../components/TitleHeading.astro";
+import ProjectListItem from "../../components/ProjectListItem.astro";
 
 const projects = (await getCollection("project")).sort(
   (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
@@ -24,24 +25,7 @@ const projects = (await getCollection("project")).sort(
       <TitleHeading>Projects</TitleHeading>
       <section>
         <ul class="list-none p-0">
-          {
-            projects.map((project) => (
-              <li class="flex dark:text-white">
-                <FormattedDate
-                  class="flex-grow-0 flex-shrink-0 flex-[130px] italic text-slate-600 dark:text-slate-600"
-                  date={project.data.createdDate}
-                />
-                {/** Array.isArray(project.data.tags) &&
-								project.data.tags.map((tag) => `#${tag}`).join(" ") */}
-                <a
-                  class="visited:text-purple-600"
-                  href={`/project/${project.slug}/`}
-                >
-                  {project.data.title}
-                </a>
-              </li>
-            ))
-          }
+          {projects.map((project) => <ProjectListItem project={project} />)}
         </ul>
       </section>
     </main>
