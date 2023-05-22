@@ -67,7 +67,7 @@ const lastProjects = (await getCollection("project"))
 
       <hr class="mt-10 mb-10" />
 
-      <div class="flex">
+      <div class="flex flex-col md:flex-row">
         <div class="flex-[50%]">
           <ProseArticle>
             <h2>
@@ -132,7 +132,7 @@ const lastProjects = (await getCollection("project"))
             <div>
               <input class="sr-only" type="hidden" value="Subscribe" />
               <button
-                class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
+                class="bg-yellow-700 hover:bg-yellow-700 dark:bg-yellow-300 text-white dark:text-black font-bold py-2 px-4 rounded"
                 type="submit">Subscribe</button
               >
             </div>
