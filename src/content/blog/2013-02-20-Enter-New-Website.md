@@ -9,9 +9,7 @@ heroImage: ""
 postType: "archive"
 ---
 
-
-
-## ON STARTING
+## On Starting
 
 I'm finally on a new platform and have full control of my content on
 Squarespace. Shortly, I'm going to register a new domain for this website and
