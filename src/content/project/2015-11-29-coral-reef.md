@@ -1,5 +1,5 @@
 ---
-title: Coral Reef
+title: Save The Coral Reef
 permalink: /projects/coral-reef
 name: Coral Reef Game
 description: Board game to teach children about coral reefs.
@@ -10,7 +10,7 @@ createdDate: "2015-11-29"
 url: /coral-reef-game
 ---
 
-# Save The Coral Reef
+
 
 A Science Hack Day SF 2015 hack.
 

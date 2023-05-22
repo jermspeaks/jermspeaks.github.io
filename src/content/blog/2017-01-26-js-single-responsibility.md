@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# Single Responsibility
+
 
 Single responsibility means one unit of code does one thing.
 It should not be responsibility for many different things.

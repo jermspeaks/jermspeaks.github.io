@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# LEVENSHTEIN DISTANCE PROBLEM  
+
 
 ![Levenshtein Distance Matrix](http://www.levenshtein.net/images/levenshtein_meilenstein_matrix.gif)
 

@@ -6,7 +6,7 @@ pubDate: "2012-02-29"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![The Commitment book cover](http://68.media.tumblr.com/tumblr_lznp1q47Op1qz81kho1_400.jpg)

@@ -11,7 +11,7 @@ permalink: /:categories/:title.html
 ---
 
 
-# On Conversation
+
 
 ## The Short Version
 

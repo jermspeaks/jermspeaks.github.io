@@ -6,11 +6,11 @@ pubDate: "2012-05-06"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 
-# ON BEING WRONG
+
 
 ## The Error of Arrogance
 

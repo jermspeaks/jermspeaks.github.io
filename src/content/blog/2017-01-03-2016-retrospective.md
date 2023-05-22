@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# 2016 Retrospective
+
 
 I left 2015 with optimism. I leave 2016 with mixed feelings. I slowed down my steam for writing. I ramped up with watching classic and contemporary films. We lost some world-changing people. Of course, this is inevitable.
 

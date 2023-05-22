@@ -10,10 +10,6 @@ tags: [season_2, letters]
 description: "Where I talk about my failure to speak up."
 ---
 
-# Admission: Failure
-
-## The Bystander Problem
-
 I've gotten too cozy on the sidelines. Ive justified my position by lame excuses, like "I wouldn't know how to help. A moment from middle school stands out.
 
 ### Help to Acquaintances
@@ -54,4 +50,4 @@ I was at the National Civic Day of Hacking event in San Francisco, and the organ
 
 "Oh my gosh," I thought, "he's right. If I want to see change, I'm going to need to start the campaign."
 
-Jesse was talking about projects for the [SF Brigade](http://codeforsanfrancisco.org/). One can easily translate that to everyday situations. See debris in the middle of the road? Call highway patrol. A blind person is judging if they should cross the road? Tell them if the coast is clear. Have the skills to help out a non-profit? If you can make the time, do some pro-bono work.  
+Jesse was talking about projects for the [SF Brigade](http://codeforsanfrancisco.org/). One can easily translate that to everyday situations. See debris in the middle of the road? Call highway patrol. A blind person is judging if they should cross the road? Tell them if the coast is clear. Have the skills to help out a non-profit? If you can make the time, do some pro-bono work.

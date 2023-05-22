@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Found Purpose
+
 
 I’ve found the answer I’ve been looking for. I already found the answer years ago, but I’ve got to dig it up every now and again. The question: What’s the meaning of life? The answer: It’s different for everyone, so you’ve got to figure it out. This time, I’m revisiting it in a different context. I’m reading “Not Fade Away: A Short Life Well Lived” by Peter Barton & Laurence Shames and I’ve been tying it with conversations I’ve had with my roommates about a recent death of a former co-worker. In “Not Fade Away”, Peter, who had terminal cancer, writes about coming to terms with his impending death and trying to help everyone’s struggle with their eventual end. In this short excerpt, Peter is suffering through the side-effects of chemotherapy, and he’s complaining to his wife.
 

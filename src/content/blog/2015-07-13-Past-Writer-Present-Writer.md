@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Past Writer, Present Writer
+
 
 With over half a year of writing these letters, I am taking the time to review the differences in my writing between the past and present. I haven’t noticed a difference in writing quality, to my dismay, but I’ve learned something much more valuable. I’ve learned the value of editing. Before, I thought editing was a cumbersome and not necessary. “Shouldn’t everyone understand my stream of consciousness?” It turns out, no, the reader cannot. When I went back to re-read my writing, I realized I couldn’t read it. I had to think of the context in which I wrote it in to determine what I was trying to say.
 

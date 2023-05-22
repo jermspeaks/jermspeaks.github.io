@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Teamwork
+
 
 Tonight was the end of my dodgeball season. Here’s a quick list of lessons learned. Some lessons translate to business. Some translate to personal progress.
 

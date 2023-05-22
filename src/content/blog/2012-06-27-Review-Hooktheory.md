@@ -6,10 +6,10 @@ pubDate: "2012-06-27"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# Review: [Hooktheory](https://www.hooktheory.com/)
+[Hooktheory](https://www.hooktheory.com/)
 
 At first, I was a bit hesitant about this website because when I try to learn music theory by myself, there’s a lot of unnecessary for most practical musicians.
 Their book of music theory for pop music is a great primer for many beginners and intermediate musicians.

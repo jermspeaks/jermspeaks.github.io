@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Musical Discontent
+
 
 Everybody gets critiqued. Great composers like Beethoven have been critiqued. In this review of Beethoven’s Ninth Symphony, the London Symphony picked up this quote from a Rhode Island newspaper.
 

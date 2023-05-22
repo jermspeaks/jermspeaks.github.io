@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Obituaries
+
 
 "Thats morbid," everyone responded when I tell them I've been reading the New York Times collection of obituaries. I disagree. I read an obituary a day to test a practice I read about from Austin Kleon from his book, "Show Your Work.” Mr. Kleon states it simulates the feeling about being hit with a life altering event. My expectation was I would be grounded in the reality, being reminded of my inevitable death if I read them. This is to simulate the feeling that you know your end will come some day without having to go through a life altering event. At least, that's the theory.
 

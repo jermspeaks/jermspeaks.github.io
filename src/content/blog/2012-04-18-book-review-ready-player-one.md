@@ -6,7 +6,7 @@ pubDate: "2012-04-18"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![Ready Player One book cover](http://68.media.tumblr.com/tumblr_m2ahw4TjVX1qz81kho1_250.jpg)

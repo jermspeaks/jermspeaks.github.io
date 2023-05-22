@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# A Year In Review: 2014
+
 
 I used to do “A Year in Review" back at my old blog. The last one I posted was back in 2011, and it was more of a chore than anything else, re-posting pictures I thought were cool from each month. In a way, I’ve gone away from posting on Tumblr, which is about posting pictures and re-posting other people’s work.
 

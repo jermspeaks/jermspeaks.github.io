@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Ghosts, Part 1
+
 
 I went on a ghost tour in downtown Charleston where the tour guide told us real ghost stories. His stories were enlivened because we would bear witness to the sighting locations.
 

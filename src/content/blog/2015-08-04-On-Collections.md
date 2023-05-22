@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Collections
+
 
 The Solano Stroll in Berkeley is an annual event where the entire stretch of Solano Street is closed. Local businesses and residents would participate in turning the street into a street festival. The firefighter departments of Berkeley and Albany would come with a fire truck where kids could sit in the driver seat and understand what it could feel like to be the firefighter driver. Restaurants would bring out their grills and serve some street food. Clothing stores would try to give discounts for their end of season sales.
 

@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# The 2015 Retrospective
+
 
 ## The Event List
 

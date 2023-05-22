@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# WEEK 2: DBC EXP
+
 
 ![Fireworks from Rooftop in Chicago](https://static1.squarespace.com/static/512515d2e4b08a76159c79b3/t/53b80303e4b00ce9a7c416eb/1404568330028/fireworks?format=2500w)
 

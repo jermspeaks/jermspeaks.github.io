@@ -2,15 +2,14 @@
 title: Medicaremojo
 permalink: /projects/medicaremojo
 name: Medicaremojo
-description: An app using IBM Watson to make a better way of sorting through Medicare documentation.
+description:
+  An app using IBM Watson to make a better way of sorting through Medicare documentation.
   Project part of IBM Watson's 2016 Hackathon challenge.
 project_link: http://www.medicaremojo.com/
 createdDate: "2016-04-02"
 # image: /images/flitr.jpg
 # url: /coral-reef-game
 ---
-
-# Medicaremojo
 
 I wrote a backend for an application that utilizes IBM Watson to pick out topics from an article extractor. I ingested a medicare document to see if it could find the keywords.
 
@@ -36,14 +35,14 @@ We'll provide transparency and clarity for the consumer. We'll be launching in S
 We're [hacking away](https://devpost.com/software/medicaremojo-hieqj8) using IBM Watson APIs on thousands of documents. And when we say "we", we mean:
 
 - Benay Dara-Abrams (benayda)
-Working in intersection of Cognitive Computing, Data Science, and Digital - Health & Wellness
+  Working in intersection of Cognitive Computing, Data Science, and Digital - Health & Wellness
 - Faustine Huynh (fnhuynh)
-UX Designer and Researcher
+  UX Designer and Researcher
 - Jeremy Wong (jermspeaks)
-Front-end Engineer @Inform, Runner, Writer: http://t.co/FrbTIvWqGP
+  Front-end Engineer @Inform, Runner, Writer: http://t.co/FrbTIvWqGP
 - Jonathan Tsay (JonTsay)
-"life has really come together around User Experience design"
+  "life has really come together around User Experience design"
 - JuLee Burdekin (theship)
-product design, webdev, data wrangling, and anything else that's needed on a - project
+  product design, webdev, data wrangling, and anything else that's needed on a - project
 - Alec Dara-Abrams (adaongithub)
-consultant
+  consultant

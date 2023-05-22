@@ -6,11 +6,11 @@ pubDate: "2008-03-08"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
 
-# OLDER WOMEN THINKING TWENTY
+
 
 I hate to face the facts dead on, but I must in order to inform the masses, or few, on something that’s so challenging to our society. I’m talking of course about the female dress code trends. There are two tough spots I want to hit: the “little girl whore section of the mall” and the “Older woman/ Mothers trying to be hip like they’re twenty.”
 

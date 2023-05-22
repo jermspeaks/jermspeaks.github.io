@@ -10,6 +10,6 @@ postType: "blog"
 draft: true
 ---
 
-# React JSX Syntax - Event Handling
+
 
 ### Event Handling with Denoted Custom Private Methods

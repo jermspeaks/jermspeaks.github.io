@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Obsession
+
 
 I repeat the same pattern every few months. I’ll stop being productive on personal projects. I’ll replace it with an obsession, and it takes over my life for the next few weeks. It’s great if the obsession promotes healthy living, like marathon training or yoga. But this past month, it was an obsession with film.
 

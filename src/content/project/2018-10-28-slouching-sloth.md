@@ -9,7 +9,7 @@ url: /no-slouching-sloths
 createdDate: "2017-10-15"
 ---
 
-# No Slouching Sloths
+
 
 [Science Hack Day SF 2018 Project](http://sf.sciencehackday.org/hacks-2018/#hack_5)
 

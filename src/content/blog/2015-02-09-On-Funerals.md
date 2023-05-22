@@ -10,7 +10,6 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Funerals
 This past Friday, I went to a funeral for my dad’s uncle, my great uncle. Still mulling some thoughts about his recent passing, I want to share some insight on the funeral service and celebration of life.
 
 ## We are still living after we are dead.

@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On The Criteria of Friendship
+
 
 > “We are the sum of all people we have ever met; you change the tribe and the tribe changes you.”
 >

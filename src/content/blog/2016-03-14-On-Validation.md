@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Validation
+
 
 In my quest in developing my data visualization skills, I’m finding validation to be a common interdisciplinary concept. For example, in music, you validate hitting the right notes, keeping beat, and listening to your pitch. In engineering problems, you validate theoretical calculations with empirical data. In business, you validate the business needs with return of investment calculations and customer satisfaction with surveys or field studies. In relationships, we’re validating our perception of the other person. Along the way, when we forget to validate our performance, assumptions, or perceptions, we falter. We play a terrible piano recital. We cause downstream problems in the production line. We take a loss in next quarter’s revenue. We begin to distance ourselves from who we love.
 

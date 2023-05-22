@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# THE DBC EXPERIENCE: THE END  
+
 
 ![The DBC Chalkboard in Chicago](https://static1.squarespace.com/static/512515d2e4b08a76159c79b3/t/53fdeebce4b09a083b63b10c/1409150655539/DBC-board?format=2500w)
 

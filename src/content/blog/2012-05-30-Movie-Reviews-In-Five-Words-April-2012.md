@@ -6,10 +6,10 @@ pubDate: "2012-05-30"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# Movie Reviews in Five Words (April 2012)
+
 
 Instead of doing a book review this week, I thought of doing something different. I’ve watched way too many films over the last few years and have started writing down every movie I’ve watched since January 2010. Here’s a quick review that’s five words long for each movie I’ve watched back during the month of April 2012.
 

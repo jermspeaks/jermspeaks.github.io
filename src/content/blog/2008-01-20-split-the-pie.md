@@ -7,7 +7,7 @@ permalink: /blog/:title.html
 draft: true
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 Here’s an interesting thought. What if America were to be split into a few sections rather than be a whole country. Who would this benefit?

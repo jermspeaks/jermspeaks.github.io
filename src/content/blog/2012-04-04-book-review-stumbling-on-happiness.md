@@ -6,7 +6,7 @@ pubDate: "2012-04-04"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![Stumbling on Happiness book cover](http://68.media.tumblr.com/tumblr_m1h8q5pEzZ1qz81kho1_250.jpg)

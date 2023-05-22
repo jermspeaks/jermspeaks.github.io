@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# Creation of My Personal Philosophy
+
 
 ## What is my personal philosophy?
 

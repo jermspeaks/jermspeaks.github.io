@@ -6,10 +6,10 @@ pubDate: "2013-10-03"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# BOOK REVIEWS OF THINGS I'VE RECENTLY READ
+
 
 Every so often, I read too many books in a short amount of time. I thought it would be beneficial for folks to hear me out and see what they think of the books I've read.
 

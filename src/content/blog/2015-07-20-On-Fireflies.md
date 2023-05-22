@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title-2.html
 ---
 
-# On Fireflies
+
 
 Before I went to Iowa, fireflies were meaningless to me. Early last spring, my roommate bought a string of solar green LED lights and hung them on a tree. At night, they would glow in and out, simulating the fireflies lights. Living in Northern California for most of my life, it was easy for me to overlook this as a cheap gimmick. When my roommate installed them, I had a hard time finding the emotional pull they had for my roommate.
 

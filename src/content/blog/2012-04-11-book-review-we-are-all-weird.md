@@ -6,7 +6,7 @@ pubDate: "2012-04-11"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![We Are All Weird book cover](http://68.media.tumblr.com/tumblr_m1tlcryXHn1qz81kho1_500.jpg)

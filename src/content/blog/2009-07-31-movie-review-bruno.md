@@ -1,16 +1,14 @@
 ---
 category: blog, post, tumblr
-title: "Movie Review: Bruno"
+title: "Movie Review: Brüno"
 date: 2009-07-31
 pubDate: "2009-07-31"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
-
-# Movie Review: Brüno
 
 ![Bruno movie poster](https://upload.wikimedia.org/wikipedia/en/d/de/Bruno_poster.jpg)
 

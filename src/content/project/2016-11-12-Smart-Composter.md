@@ -10,7 +10,7 @@ description: Smart composter using IoT Sensors and the Grow-IoT library.
 createdDate: "2016-11-12"
 ---
 
-# Smart Compost
+
 
 At the 2016 Science Hack Day in San Francisco, I teamed up with [Jake Hartnell](http://commongarden.org/) who has built modules for his gardening open source start-up.
 I thought it might be fun to take those components and build a smart composter.

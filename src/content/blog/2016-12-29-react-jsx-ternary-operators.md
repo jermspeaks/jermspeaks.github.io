@@ -10,7 +10,7 @@ postType: "blog"
 draft: true
 ---
 
-# React JSX Styling - Ternary Operators
+
 
 [Ternary Operators](https://developer.mozilla.org/en-US/doc    s/Web/JavaScript/Reference/Operators/Conditional_Operator) are ubiquitous in React JSX Syntax.
 

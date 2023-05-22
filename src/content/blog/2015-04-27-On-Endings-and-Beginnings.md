@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Endings and Beginnings
+
 
 When Tech TV when bankrupt in 2004, Leo Laporte and the crew of the cable network were out of jobs. Some were offered to work for G4TV, who took over Tech TV's assets, while others were laid off. The team who worked for this channel had immense creative control over the content of the channel and didn’t try to dumb down for their audience. With Tech TV’s end, Mr. Laporte was a bit lost, confused, and unsure what to do next. Although he picked up a radio gig a few weeks prior, he had a lot more free time. He invited a bunch of his ex-co-workers to a roundtable discussion at a bar where he recorded their conversation. He put up the conversation online for his fans. The fans loved it so much, they wanted to hear more episodes. Mr. Laporte decided to try to make it into a weekly show, eventually called This Week in Tech (or TWiT). Very quickly, the operations cost were starting to cut into Mr. Laporte’s expenses, so he asked for donations. The fans donated money and Mr. Laporte was allowed to pay for staff like editors and web masters. Eventually, TWiT became a business, creating high quality “netcasts” he thought people would listen to. Using the same tactic he had at Tech TV, not allowing the content to be dumbed down for the general masses, the shows had a niche following. For example, there’s Security Now, a netcast tailored for security professionals, cohosted by Steve Gibson.
 

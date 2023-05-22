@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Second Wind
+
 
 People who run marathons are sadistic. The feet wear down after a dozen or two dozen miles. Full recovery takes a days. Mental capacity gets beat up. Hunger sets in. To say at the very least, this was my state on Sunday. And I’m saying I’m sadistic.
 

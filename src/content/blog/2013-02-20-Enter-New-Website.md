@@ -6,10 +6,10 @@ pubDate: "2013-02-20"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# ENTER NEW WEBSITE  
+
 
 ## ON STARTING
 

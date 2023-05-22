@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# The Friend-Date
+
 
 “How come it’s easier to make friends as a kid than it is as an adult?” asked several acquaintances of mine.
 

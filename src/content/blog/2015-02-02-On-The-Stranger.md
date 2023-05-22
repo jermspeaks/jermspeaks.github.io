@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On The Stranger
+
 
 When I was a student at Cal Poly, I met this stranger in a park. She was a tall Russian American with a thick accent and probably in her early to mid-20’s. She was this lively character who was full of life. I initially thought she was part of Cal Poly's QL+ club's barbecue meet-up because she was hanging around with some of the club members I recognized (QL+ stands for quality of life plus, which focuses on bettering the lives of veterans , providing engineering solutions. Cal Poly has a dedicated space for this organization and I highly recommend you check it out). It took me over 30 minutes of talking and hanging out with her to realize she wasn't a student at all. She was a vagabond.
 

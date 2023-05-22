@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# The Inner Game of Desert Running
+
 
 On the fourth day of my trail running adventure last week, I was a torn mess. My left calf was aching, my joints were abused, my willpower depleted. And yet, I continued, with the sun beating down at 104 degree Fahrenheit weather. I rab on the golf concourse in the middle of Death Valley, possible the lowest point of the world. The concourse was covered with salt, reflecting the sun's radiant light and adding an extra source of irritation.
 

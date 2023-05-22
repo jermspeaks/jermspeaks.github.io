@@ -6,10 +6,10 @@ pubDate: "2013-02-20"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# ON THE YOUTH
+
 
 > Bliss was it in that dawn to be alive,
 >

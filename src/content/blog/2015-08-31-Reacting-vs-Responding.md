@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Reacting vs. Responding
+
 
 I came across this sentence when I was reading through the book, “40 Days of Dating”. “I think whatever you do, just make sure you’re responding and not reacting. It’s easy to get comfortable. Take your time, please.” Timothy Goodman, graphic designer and one half of the “40 Days of Dating” project, was responding to a fan of the project on Facebook, and he decided to give the fan some advice about failed relationships. He is trying to tell this fan to be more mindful in her relationships by sliding back into an abusive relationship. Reacting is allowing the emotions to come out. Responding is allowing the mind to analyze the consequences of what those emotions will produce. “I don’t want to be one of those people who just gets sucked back into a relationship because it’s more comfortable than having to start over,” says the fan.
 

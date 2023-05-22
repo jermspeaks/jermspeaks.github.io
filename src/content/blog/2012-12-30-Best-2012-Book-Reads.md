@@ -6,10 +6,10 @@ pubDate: "2012-12-30"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# Best 2012 Book Reads
+
 
 ### [Ender’s Game](http://www.goodreads.com/book/show/375802.Ender_s_Game)
 *by Orson Scott Card*

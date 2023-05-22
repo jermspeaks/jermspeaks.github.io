@@ -12,9 +12,8 @@ tags: [season_2, letters]
 
 ![Jear bear letters admission failure 8](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/94ff2d22-e9e3-40a7-958b-ece4b3921ae6.png)
 
-# The Problem of Rushing Through
-
-> "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.” — Ferris Bueller’s Day Off
+> "Life moves pretty fast. If you don't stop and look around once in a while, you could miss it.”  
+> — Ferris Bueller’s Day Off
 
 A thought crossed my mind. "Am I rushing to die?" I had this thought before. I used to brush it off. The Ferris Bueller quote encapsulates the essence of life, to open up to live. "Am I missing life?"
 

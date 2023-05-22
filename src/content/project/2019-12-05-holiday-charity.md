@@ -7,7 +7,6 @@ createdDate: "2019-12-05"
 
 <iframe width="420" height="315" src="https://www.youtube.com/embed/tOXmg5mGpGQ" frameborder="0" allowfullscreen></iframe>
 
-
 Happy holidays! I’m in a jolly mood and would like to present to you my annual holiday card charity drive. This year, the card will be drawn by my AxiDraw robot, then painted over in lovely colors. In return, I have one ask. Can you share some love to people who are less fortunate than you?
 
 This year, I’m choosing GivingGlobal as my charity fund. They are a crowdfunding community connecting donors with non-profits. From giving the gift of education to disaster relief for communities hit hard, donors can choose from thousands of projects on GivingGlobal’s platform to fund. Plus, on CharityNavigator, they have a near perfect score when it comes to financial, accountability and transparency rating.

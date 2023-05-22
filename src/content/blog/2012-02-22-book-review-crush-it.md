@@ -6,7 +6,7 @@ pubDate: "2012-02-22"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![Crush It book cover](http://68.media.tumblr.com/tumblr_lznoq2txWp1qz81kho1_500.jpg)

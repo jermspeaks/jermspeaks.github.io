@@ -6,7 +6,7 @@ pubDate: "2012-05-09"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![Thinking, Fast and Slow book cover](http://68.media.tumblr.com/tumblr_m3n16d8nEM1qz81kho1_400.jpg)

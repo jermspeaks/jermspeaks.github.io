@@ -1,16 +1,14 @@
 ---
 category: blog, post, tumblr
-title: New Years Resolution and 2009 Goals
+title: New Years Resolution and 2009 Goals (Actual)
 date: 2009-01-03
 pubDate: "2009-01-03"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
-
-# New Years Resolution and 2009 Goals (Actual)
 
 1. No soda for the year
 2. 52 weeks of reading or at least 300 pages each week

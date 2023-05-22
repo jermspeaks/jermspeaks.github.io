@@ -12,7 +12,7 @@ heroImage: ""
 postType: "learning"
 ---
 
-# You Don't Know JS
+
 
 ## Pt. 1 - Up & Going
 

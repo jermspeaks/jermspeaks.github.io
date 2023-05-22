@@ -12,7 +12,7 @@ tags: [season_2, letters]
 
 ![Admission Failure 6](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/e95530cf-ed42-42c6-a8c3-6916b74ab552.png)
 
-# The Loneliness Problem
+
 
 My bestie has a romanticized version of my life where I am a perky, social butterfly always engaging in social activities. This isn’t true. I spend most days alone when I'm outside of work. I tend to keep my personal life in solidarity.
 

@@ -6,11 +6,11 @@ pubDate: "2008-03-04"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
 
-# Procrastination - The Life
+
 
 Everyone has done it before. Procrastinate. Before writing that sentence, I procrastinate on thinking of what to say because I was busy watching LOST. Anyways, I’m more attentive now, writing on a topic that I really can’t stop doing. Here’s the scoop about my procrastination that is indifferent than anyone else: I procrastinate whenever there’s the opportunity to procrastinate. It’s true that I will spend some time of my life thinking of the activity or chore I need to do, but that time does eventually turn into work… after the deadline starts approaching. (Or may have already passed)
 

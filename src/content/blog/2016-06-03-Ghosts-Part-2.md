@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Ghosts, Part 2
+
 
 ## Bride Never Be
 

@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Thankfulness: Lessons Learned
+
 
 For the past few years, I have often neglected people close to me in the pursuit of my own endeavors. For example, my family rarely gets to see or hear from me, maybe once a month. It takes the occasional gatherings, such as this past Thanksgiving holiday, to really spend some quality time with them. I know I should make an effort to be around them often, or at least call, but I’ll make up some excuse or forget to do it entirely. I’m not a thoughtless person; I think of it in hindsight, but I am at fault. You don’t even want to hear about how I’ve neglected friends.
 

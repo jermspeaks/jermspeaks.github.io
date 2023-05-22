@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Catalogs
+
 
 My parents used to leave me at the public library for an hour. It was there I stared at a poster hung in the children’s section, showing what each hundred numbers meant. This was my introduction to the Dewey Decimal system. I was in awe at how every topic in life, the universe, and everything could fit within these 10 category brackets. But alas, they don't. That was revealed when I asked, “Why are there books on suicide near language learning books?”. Much later, I discovered the field of library science, and I realized librarians curated non-fiction books to fit between 000 to 999.
 

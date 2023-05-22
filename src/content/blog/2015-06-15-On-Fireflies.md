@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title-1.html
 ---
 
-# On Fireflies
+
 
 Fireflies are the signs of summer. They are this bright glow of hope. They seem to say, "winter has past, you can come out now". Their green ominous glow like magic as you walk down the road. At least, this is what I would tell you if I hadn’t grown up in California. As a Californian, I can tell you there were no fireflies, no glimmer signaling the start of summer. When I read about fireflies in grade school, I would wonder what was so special about them. They were the mythical unicorns of my childhood.
 

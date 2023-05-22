@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Discomfort
+
 
 When I pick up a new piece of music, I break it down into sizable chunks. What kind of structure does it have and can I break it down into something simple like an ‘ABACA' pattern? If it does, I would learn that ‘A’ part first. Are there complicated rhythms or strange fingerings? Break it down even further. I only start playing when the piece is in manageable chunks.
 
