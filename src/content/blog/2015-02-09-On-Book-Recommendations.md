@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Book Recommendations
+
 
 This week, a friend asked me, "Will you find me a good but not crazy or preachy "learn to like yourself more" book please??” I gifted some books and followed up with a lengthy email for why I selected those books. I decided to blog about it and share my recommendations.
 

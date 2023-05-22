@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# ​Reflections on the Buffet
+
 
 Last night, I celebrated Father’s Day by taking my father out to the restaurant of his choice. He decided to go to Tomei’s, a Japanese/Chinese open buffet serving a wide spread of options. I don’t typically eat at places like this because I know they will be packed, the quality of food will be subpar, and I come out stuffed because I don’t have a gauge of how much food I actually ate. But being a good son, I obliged to take him out there.
 

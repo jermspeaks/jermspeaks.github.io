@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Getting Past "No"
+
 > “You never know how strong you are, until being strong is your only choice.” >
 >
 > — Bob Marley

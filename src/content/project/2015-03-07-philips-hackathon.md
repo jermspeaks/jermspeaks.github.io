@@ -1,5 +1,5 @@
 ---
-title: Philips HealthSuite Hackathon
+title: Philips HealthSuite Digital Platform Hackathon
 permalink: /projects/philips-healthsuite
 name: Philips HealthSuite Hackathon
 description: Healthcare application to help geriatrics.
@@ -10,8 +10,6 @@ createdDate: "2015-03-07"
 # image: /images/flitr.jpg
 url: /coral-reef-game
 ---
-
-# Philips HealthSuite Digital Platform Hackathon
 
 As part of the Philips HealthSuite Digital Platform Hackathon, I created a dashboard for my team for an app for geriatrics.
 The goal was to combine the patient dashboard with his physician and primary care taker.

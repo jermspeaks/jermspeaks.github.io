@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Anxieties, Depression, And Suicide Prevention
+
 
 Dear Best Friend,
 

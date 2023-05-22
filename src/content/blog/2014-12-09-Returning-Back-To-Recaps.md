@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# RETURNING BACK TO RECAPS  
+
 
 I really miss having a weekly post where I consolidate the week's Internet findings. This is, perhaps, another way for me to get back into things now that I do a lot more writing.
 

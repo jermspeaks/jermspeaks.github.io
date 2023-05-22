@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# Object Deconstruction in Javascript
+
 
 ## Writing cleaner Javascript
 

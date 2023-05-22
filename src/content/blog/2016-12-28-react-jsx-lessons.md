@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# React JSX Syntax - Code Style
+
 
 After a year working with JSX syntax in React, I've learned a few things reviewing my code as well as other developer's code.
 I am taking the perspective of a code review in these following code samples.

@@ -6,10 +6,10 @@ pubDate: "2011-08-11"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# Neuschwanstein Castle
+
 
 Welcome to Neuschwanstein Castle. This was Day 2 of my travels, and I had read my tour brochure at the last minute. I had meant to do another tour, but I saw a group of people that were going to Neuschwanstein Castle, and I decided, fuck it. I’m going.
 

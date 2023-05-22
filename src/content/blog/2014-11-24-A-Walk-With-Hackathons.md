@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# A WALK WITH HACKATHONS
+
 
 At my last coding club, I was asked by one of the members that I should write about my experience on going to hackathons. It peaked my interests that there are those out there who have never been to one, so here’s some of my limited experience attending them. I joined my first hackathon two months ago and haven’t really thought hard about what is it that I love about them. They’re fun! You get to work with other people, sometimes people you don’t know. You will get to bond with teammates and work on something that interests you all. You get to work with people of different working styles. You get to hack away at something exciting, and perhaps new. The winners aren’t the ones to gain something from the hackathons. It’s also a great networking event.
 

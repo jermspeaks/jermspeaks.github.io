@@ -6,11 +6,11 @@ pubDate: "2008-03-05"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
 
-# Immaturity in Guys
+
 
 Well, I’m never going to run out of topics with all of these issues abundant in the world. Look, there’s one thing I must say about men and immaturity. If the guy hasn’t matured yet, don’t count him to change anytime soon because he still wants to play and his playtime has no bounds.
 

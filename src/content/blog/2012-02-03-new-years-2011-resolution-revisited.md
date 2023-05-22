@@ -6,10 +6,10 @@ pubDate: "2012-02-03"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# New Years 2011 Resolutions Revisited
+
 
 Every year, I share my resolutions in order to help me keep myself on track. Sometimes, goals just aren’t refined enough to do, and sometimes goals are just too hard to do. Here they are, and let’s see which ones I’ve failed.
 

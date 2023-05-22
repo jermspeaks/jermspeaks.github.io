@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On The Power of Letters
+
 
 My friend, Miss Keegan, is the bravest person I know. She’s my best friend and someone I truly care about, sometimes even more than family. Two years ago, she wrote me a very long letter. It took her months of writing and re-writing to ultimately tell me she was transgender. Deep down, she was asking for acceptance. She was also worried that if she sent this letter, there would be a slim chance that I wasn’t going to accept her for who she is. Despite being risk-averse, she took that leap of faith, risking our friendship. When I received the letter, I took some time to really read it, then called her. I told her I accepted her for who she is and there would be no way in hell I was going to react negatively.
 

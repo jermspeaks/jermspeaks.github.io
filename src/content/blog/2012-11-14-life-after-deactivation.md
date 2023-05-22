@@ -6,10 +6,10 @@ pubDate: "2010-11-14"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# Life after Deactivation
+
 
 I’ve deactivated my Facebook Account indefinitely. If someone wants to be a Facebook friend of mine, I’ll gladly be, if you tell me beforehand so I can reactivate it. Deactivation is a quick cheat that doesn’t apparently work well though. I’ve recently made a new splash page using [about.me](https://about.me/jeremywong). I attached my deactivated Facebook account and still, my status updates still were up there, albeit I never really update it.
 

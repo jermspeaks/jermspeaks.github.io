@@ -6,10 +6,10 @@ pubDate: "2012-05-02"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# Book Review: Cradle to Cradle
+
 
 ![cradle to cradle book cover](http://68.media.tumblr.com/tumblr_m39ym2JUA81qz81kho1_250.gif)
 

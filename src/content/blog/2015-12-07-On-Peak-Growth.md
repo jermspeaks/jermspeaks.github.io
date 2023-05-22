@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Peak Growth
+
 
 Have you ever felt like you’ve stalled in improving your skills? You reach 20,000 miles driving your car, and you think, “yeah, there’s nothing more I can do to improve my driving skills.” You feel comfortable clocking in at work, mindlessly going through the actions because you’ve done this work a thousand times before, and there’s absolutely nothing that will shock you. I’m not critiquing the boredom one could face droning through work. I’m making an observation that you don’t even notice when you’ve reached a peak in growth.
 

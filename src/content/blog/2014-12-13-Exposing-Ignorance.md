@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Exposing Ignorance
+
 
 At a former job, I was faced with a dilemma on a project I was leading; I didn’t know what I was doing. I felt like an imposter and didn’t feel I belonged with the other engineers. Psychologists coincidentally call it imposter syndrome, and it affected my work performance. I knew what the end product was supposed to look like, but after many failed starts, I was losing hope I could finish this project. Instead of asking for help, I mocked a plan and tried to go with that. By the end of the week, my boss came up to me to see what kind of progress I was making. I told her everything was going well when really, I had a hard time conceiving a solution. I talked her away by telling her I was working on process A, B, and C, but really I had no idea what I was doing. The excuses I made felt like plausible deniability if it came up in my performance review.
 

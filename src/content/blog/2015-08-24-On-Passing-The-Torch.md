@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Passing The Torch
+
 
 Last October, Carlos Bueno gave a lightning talk called "Science Education: Refactoring Computer Science.” In that talk, he talked about writing “Lauren Ipsum” and how it was easier to teach children about recursion than binary numbers. Recursion is the event when a function calls itself, creating a new stack. Binary numbers are a base two number system, primarily used by computers by way of electrical signals between relays and switches. Recursion is easier to explain to children because the concept of stacks are a lot easier to comprehend than the abstract world of counting by base two. As adults, it feels like it is easier to learn the binary number system because the idea of counting is relatively easy. When Bueno explained this to us, I was pleasantly surprised and it started me thinking about how we can teach the next generation about other ideas.
 

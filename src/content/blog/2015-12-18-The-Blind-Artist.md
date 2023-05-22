@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# The Blind Artist
+
 
 A few years ago, Radiolab ran an episode called "Finding Emilie”. Emilie Gossiaux and her boyfriend, Alan, were art students in New York City and the story chronicles Emilie's fatal accident and recovery, where her mother and Alan almost pulled the plug when all hope seemed lost for finding Emilie.
 

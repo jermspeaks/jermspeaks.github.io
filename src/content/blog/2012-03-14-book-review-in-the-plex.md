@@ -6,7 +6,7 @@ pubDate: "2012-03-14"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![In The Plex book cover](http://68.media.tumblr.com/tumblr_m01fu2QoBe1qz81kho1_500.jpg)

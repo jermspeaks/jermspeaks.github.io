@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Rejection
+
 
 ## Losing The Soccer Game
 

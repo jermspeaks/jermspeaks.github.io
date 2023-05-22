@@ -6,10 +6,10 @@ pubDate: "2010-01-01"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# 2010 Resolutions/Goals
+
 
 Last year, I failed miserably with my goals. So this year, /i will try and succeed with at least half of my goals. Here we go.
 

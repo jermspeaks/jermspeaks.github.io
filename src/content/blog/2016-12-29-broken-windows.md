@@ -1,6 +1,6 @@
 ---
 category: blog, post, programming
-title: Broken Windows
+title: Broken Windows - Software Entropy Revisited
 date: 2016-12-29
 pubDate: "2016-12-29"
 permalink: /blog/:title.html
@@ -9,8 +9,6 @@ heroImage: ""
 postType: "blog"
 draft: true
 ---
-
-# Software Entropy Revisited
 
 In one chapter from [The Pragmatic Programmer](https://pragprog.com/the-pragmatic-programmer/extracts/software-entropy), they have a chapter dedicated to Software Entropy.
 In it, the author explains...

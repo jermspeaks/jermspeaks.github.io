@@ -6,7 +6,7 @@ pubDate: "2012-03-28"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![Life of Pi book cover](http://68.media.tumblr.com/tumblr_m0r7hos7yA1qz81kho1_400.png)

@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Generations
+
 
 Beyond the pagoda decorated with oriental lanterns and stone lions, is a center of Asian-American culture and identity. A common immigrant experience is to make the new home feel less foreign. For the Chinese and other Asian immigrants, that space is Chinatown.
 

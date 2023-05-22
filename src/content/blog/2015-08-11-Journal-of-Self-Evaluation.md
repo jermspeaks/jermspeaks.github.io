@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Journal of Self-Evaluation
+
 
 I’ve been journaling more four years, one entry a day. I’ve skipped a few days here or there, but I go back and fill them in. The entries capture my daily mood, or current obsession, or the thing that’s been worrying me. Sometimes, I go back to some old entries and reflect upon myself of where I was a year ago, two years ago, or perhaps just last week. That window is a primary source of information, and not jumbled by my own bias of how I want to reconstruct the past. I’ve surprised myself many times before when I read these entries because I’ve reconstructed my memories of how I’ve felt, like we all do, glamorizing the pleasurable moments and hiding from our darkness.
 

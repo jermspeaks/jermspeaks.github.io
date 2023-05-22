@@ -6,11 +6,11 @@ pubDate: "2009-07-31"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
 
-# Movie Review: Sunshine Cleaning
+
 
 ![Sunshine Cleaning movie poster](https://upload.wikimedia.org/wikipedia/en/a/a5/Sunshine_cleaning.jpg)
 

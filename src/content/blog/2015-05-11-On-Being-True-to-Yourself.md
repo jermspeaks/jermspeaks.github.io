@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Being True to Yourself
+
 
 I had a profound thought to myself this past weekend while watching the new Avengers movie. There were a series of scenes in which the superheroes were shown what they were most afraid of. In the middle of watching this, I had an nasty thought that came back, one that should've been settled years ago. It was the thought of living to the fullest and being able to express myself fully, something I struggle with on a consistent basis and it came back to haunt me sitting there in the theater.
 

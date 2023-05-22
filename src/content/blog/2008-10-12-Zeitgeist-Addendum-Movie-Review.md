@@ -6,11 +6,11 @@ pubDate: "2008-10-12"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
 
-# ZEITGEIST: ADDENDUM
+
 
 *Warning: the film is about two hours long.*
 

@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On An Open Dialogue
+
 
 On International Women’s Day, my former hack-mate from Science Hack Day tweeted out female scientists [that are inspiring to her](https://twitter.com/mikamckinnon/status/574660147215097857). You can read her full article here. In that spirit, I wanted to talk about meeting someone who inspired me.
 

@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# LEVENSHTEIN DISTANCE PROBLEM  
+
 
 ![Levenshtein Distance Matrix](http://www.levenshtein.net/images/levenshtein_meilenstein_matrix.gif)
 
@@ -45,7 +45,7 @@ My coding club looked at this algorithm with no prior knowledge of this problem 
 
 ---
 
-### RESOURCES:
+### Resources
 
 Levenshtein distance implementation in different programming languages
 

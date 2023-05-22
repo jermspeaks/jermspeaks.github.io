@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Cryptography
+
 
 I’ve been fascinated by cryptography ever since I was a kid. I remember briefly when my parents got a free subscription to the SF Chronicle and skipping straight to the comics and puzzles. One puzzle in particular, the cryptogram puzzles, got me to take my pen out and try to decode the message. It's a simple monoalphabetic cipher where one letter maps to another letter, but the letter can never map to itself.
 

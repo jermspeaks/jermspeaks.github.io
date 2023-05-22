@@ -1,5 +1,5 @@
 ---
-title: Groundwater Hack
+title: Low-Cost Groundwater Detection
 permalink: /projects/groundwater-hack
 name: Groundwater Hack
 description: Underwater groundwater device that allows you to determine
@@ -11,8 +11,6 @@ project_link: https://github.com/groundwaterhack/groundwaterhack.github.io
 # image: /images/flitr.jpg
 # url: /projects/ng-pacman
 ---
-
-# Low-Cost Groundwater Detection
 
 ## Project Details
 
@@ -71,7 +69,7 @@ As distance `a` increases, the depth of signal increases
 ![Groundwater prototype](/images/groundwater-goal.png)
 
 - Low-cost groundwater detection is necessary to measure groundwater usage on a wide scale!
-- The Arduino was chosen to use for data logging purposes  
+- The Arduino was chosen to use for data logging purposes
 
 ## Collaborators
 

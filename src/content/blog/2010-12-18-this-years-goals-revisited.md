@@ -6,10 +6,10 @@ pubDate: "2010-12-18"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# This Year's Goals Revisited
+
 
 As you may know, every year I’ve been releasing a yearly goal list. Last year, I went too far and tried to reach a whooping goal of 22 goals. Some of them were a mistake. Some of them were just a reminder of what I should keep in mind. I’m going to go over each one and tell you which ones failed and which ones actually succeeded.
 

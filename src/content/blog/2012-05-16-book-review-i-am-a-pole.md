@@ -6,7 +6,7 @@ pubDate: "2012-05-16"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![I Am A Pole And So Can You book cover](http://68.media.tumblr.com/tumblr_m3zkxfLnkS1qz81kho1_500.jpg)

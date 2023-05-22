@@ -12,7 +12,7 @@ description: "Where I talk about my failure to compromise between emotion and ra
 
 ![Admission Failure 5](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/17d7d676-0a33-4f67-8091-dfc9478c888d.png)
 
-# The Problem With the Rider and the Elephant
+
 
 ## Intro
 

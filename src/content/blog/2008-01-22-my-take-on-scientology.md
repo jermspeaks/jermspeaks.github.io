@@ -7,7 +7,7 @@ permalink: /blog/:title.html
 draft: true
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 With all of this hype about nothing, er, I mean Scientology, the MSM (Main Stream Media) puts up a rabble about pretty much jargon. But Scientologists want attention, mostly because they’re made up of celebrity leaders, i.e. Tom Cruise. Other seem to join this lost cause. Let me explain to you why this is just nothing you should pay attention to.

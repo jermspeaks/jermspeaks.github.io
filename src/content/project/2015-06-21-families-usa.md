@@ -1,5 +1,5 @@
 ---
-title: Families USA
+title: "Families USA: Medicaid Expansion Waivers in the States"
 permalink: /projects/families-usa
 name: "Families USA: Medicaid Expansion Waivers in the States"
 description: An interactive map for Families USA.
@@ -8,7 +8,7 @@ project_link: http://familiesusa.org/medicaid-expansion-waivers-states
 createdDate: "2015-06-21"
 ---
 
-# Families USA: Medicaid Expansion Waivers in the States
+
 
 I implemented an Angular app to make an interactive map using d3 and a wrapper on top called datamaps.
 

@@ -6,10 +6,10 @@ pubDate: "2012-05-23"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
-# Book Review: My Stroke of Insight
+
 
 ![My Stroke of Insight book cover](http://68.media.tumblr.com/tumblr_m4d0yvu1G71qz81kho1_400.jpg)
 

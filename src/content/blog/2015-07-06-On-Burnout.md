@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Burnout
+
 
 I've been experiencing heavy burnout over the past few weeks. I didn't spare myself much time besides work, scheduled play, travel, and sleep. I've even deferred to eating out rather than cooking. The lifestyle, quite an unsustainable one, started to take a toll on my health. I took a run through Big Basin last weekend and was almost wiped out. I looked in the mirror at my pecks two days ago and saw sagging breasts and a round, bulging stomach. It was a pitiful sight since I use one visual metric as an indicator if I'm healthy, that of looking good naked. Some of those armpit wrinkles had their own wrinkles.
 

@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Caltrain Suicides
+
 
 <table class="image">
   <caption align="bottom">Originally from SFGate. Photo: Courtesy / Lauren Colman</caption>

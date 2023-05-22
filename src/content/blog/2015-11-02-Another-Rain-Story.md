@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Another Rain Story
+
 
 For nearly three months, there has been talk about when the rain will come in California. We have started to treat El Niño as the second coming of Christ where nature will save us all. I know those conversations are in the context of the drought, but taking a step back, they sound spiritual, as if nature is our savior. And yet, we don’t know this to be the case. We’re unable to predict the future, especially since nature tends to work in mysterious ways. We call our models predictive because they’re just that, a prediction.
 

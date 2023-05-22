@@ -6,7 +6,7 @@ pubDate: "2012-03-07"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 ---
 
 ![How To Be Black book cover](http://68.media.tumblr.com/tumblr_lznp8flhcJ1qz81kho1_500.jpg)

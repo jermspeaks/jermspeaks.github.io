@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Audiobooks
+
 
 I was turned on to audiobooks by accident. I had a free half hour of commuting and didn’t want to waste it staring out the window or listening to the same people on podcasts. I was commuting to and from school at the time, and I kept hearing the same Audible ads on TWiT, a weekly podcast about tech. I decided to give the free subscription a try on Audible and give an audiobook a chance. While the first book I read didn’t change my life, I understood the medium a lot better. I could commute and listen to an audiobook and be excited to continue a story I had left off the day before. It’s a lot like a TV show, and the format is different than what you would find on a podcast, e.g. interviews, round table discussions, and reporter segments.
 

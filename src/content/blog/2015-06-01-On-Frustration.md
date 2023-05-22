@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# On Frustration
+
 
 I wrote two separate pieces that I thought would become this week’s letter, but I scrapped them before I was finished. Each of these pieces devolved into a rant about what was going wrong with a painful decision point I had at the beginning of the week. This frustration became my creative rut. It’s a series of second guesses given by a very harsh, inner voice.
 

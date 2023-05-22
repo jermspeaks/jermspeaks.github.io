@@ -9,7 +9,7 @@ heroImage: ""
 postType: "blog"
 ---
 
-# THE JOB SEARCH AND UPDATES
+
 
 A few months ago, I emailed my cohort from Dev Bootcamp about my recent success on landing a job. I wanted to post that letter after fellow DBC grad, [@StephanieChou92](https://twitter.com/StephanieChou92), posted her success story to her cohort. Also, I have a few updates since this letter that I wanted to add now that I've helped a few of my other cohort mates.
 

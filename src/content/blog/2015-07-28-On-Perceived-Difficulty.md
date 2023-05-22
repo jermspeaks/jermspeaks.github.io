@@ -11,7 +11,7 @@ permalink: /:categories/:title.html
 published: true
 ---
 
-# On Perceived Difficulty
+
 
 At a recent meet-up I attended, I was introduced to the concept of perceived distance. Perceived distance is the mind’s perception of how far you have traveled while absolute distance is the distance actually traveled. Obstacles could increase the perceived distance, like road blocks, traffic, rough terrain, and changes in elevation. At the meet-up, the speaker used the example of bicycling on the same lane as fast driving cars. Here in Silicon Valley, we have expressways connecting different cities where cars could drive easily 50 to 60 mph (that’s roughly 80 to 96 km/h for you non-Americans). When a bike has to share that same road, the biker will perceived the distance to be longer because of the stress of getting hit by a car.
 

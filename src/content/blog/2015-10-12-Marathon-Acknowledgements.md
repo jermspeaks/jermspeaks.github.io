@@ -10,7 +10,7 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-# Marathon Acknowledgements
+
 
 This past Saturday, I finished my first marathon. To add difficulty to my challenge, it was a trail run marathon. I didn’t realize this detail when I registered. But coming in faster than expected blew me away. I’d like to acknowledge the people that helped me and try to point out it wasn’t a journey done on my own.
 

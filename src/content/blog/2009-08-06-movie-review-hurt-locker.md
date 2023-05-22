@@ -6,11 +6,11 @@ pubDate: "2009-08-06"
 permalink: /blog/:title.html
 description: ""
 heroImage: ""
-postType: "blog"
+postType: "archive"
 draft: true
 ---
 
-# Movie Review: The Hurt Locker
+
 
 ![the hurt locker movie poster](https://upload.wikimedia.org/wikipedia/en/6/6c/HLposterUSA2.jpg)
 
