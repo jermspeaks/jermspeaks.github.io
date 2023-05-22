@@ -4,19 +4,18 @@ import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
+import ProjectListItem from "../components/ProjectListItem.astro";
 import ProseArticle from "../components/ProseArticle.astro";
+import WritingListItem from "../components/WritingListItem.astro";
 
-const series = (await getCollection("series")).sort(
-  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
-);
-const lastPost = (await getCollection("blog"))
+const latestPosts = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
-const lastProject = (await getCollection("project")).sort(
-  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
-)[0];
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+const lastProjects = (await getCollection("project"))
+  .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
+  .slice(0, 5);
 ---
 
 <!DOCTYPE html>
@@ -37,7 +36,7 @@ const lastProject = (await getCollection("project")).sort(
       </h2>
       <h2 class="mb-5 text-2xl font-thin">
         Currently leading application development at <a
-          class="text-orange-500 hover:text-orange-300"
+          class="text-orange-700 hover:text-orange-300 dark:text-orange-500"
           href="https://clearlabs.com/"
           target="_blank">Clear Labs</a
         >
@@ -46,7 +45,13 @@ const lastProject = (await getCollection("project")).sort(
       <hr class="mt-10 mb-10" />
 
       <ProseArticle>
-        <h2>Newsletter Series</h2>
+        <h2>
+          <a
+            href="/series"
+            class="hover:text-slate-800 dark:hover:text-slate-300"
+            >Newsletter Series</a
+          >
+        </h2>
 
         <p>
           A weekly, longform essay that mainly focuses on lessons I've learned.
@@ -58,49 +63,44 @@ const lastProject = (await getCollection("project")).sort(
           form more coherent thoughts than writing that instant gratification
           post on my choice of social networking site.
         </p>
-
-        <section>
-          <ul class="pl-0 flex flex-col gap-12 list-none">
-            {
-              series.map((s) => (
-                <li class="flex flex-col md:flex-row">
-                  <div class="flex flex-col flex-auto md:flex-grow-0 md:flex-shrink-0 md:flex-[350px]">
-                    <a href={`/series/${s.slug}/`}>{s.data.title}</a>
-                    <div class="flex-auto italic text-slate-600 dark:text-slate-300">
-                      <FormattedDate date={s.data.createdDate} />
-                      &nbsp;to&nbsp;
-                      <FormattedDate date={s.data.endDate} />
-                    </div>
-                    {s.data.heroImage && (
-                      <img width={240} src={s.data.heroImage} alt="" />
-                    )}
-                  </div>
-                  <div>{s.data.description}</div>
-                </li>
-              ))
-            }
-          </ul>
-        </section>
       </ProseArticle>
 
-      <article class="flex justify-start gap-5 mt-2 mb-2">
-        <div>
-          <h2 class="text-2xl">Latest Post</h2>
-          <li>
-            <FormattedDate date={lastPost.data.pubDate} />
-            <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
-          </li>
+      <hr class="mt-10 mb-10" />
+
+      <div class="flex flex-col md:flex-row">
+        <div class="flex-[50%]">
+          <ProseArticle>
+            <h2>
+              <a
+                href="/blog"
+                class="hover:text-slate-800 dark:hover:text-slate-300"
+                >Recent Writing</a
+              >
+            </h2>
+            <ul>
+              {latestPosts.map((post) => <WritingListItem post={post} />)}
+            </ul>
+          </ProseArticle>
         </div>
-        <div>
-          <h2 class="text-2xl">Latest Project</h2>
-          <li>
-            <FormattedDate date={lastProject.data.createdDate} />
-            <a href={`/project/${lastProject.slug}/`}
-              >{lastProject.data.title}</a
-            >
-          </li>
+        <div class="flex-[50%]">
+          <ProseArticle>
+            <h2>
+              <a
+                href="/project"
+                class="hover:text-slate-800 dark:hover:text-slate-300"
+                >Recent Projects</a
+              >
+            </h2>
+            <ul>
+              {
+                lastProjects.map((project) => (
+                  <ProjectListItem project={project} />
+                ))
+              }
+            </ul>
+          </ProseArticle>
         </div>
-      </article>
+      </div>
 
       <hr class="mt-5 mb-5" />
 
@@ -132,7 +132,7 @@ const lastProject = (await getCollection("project")).sort(
             <div>
               <input class="sr-only" type="hidden" value="Subscribe" />
               <button
-                class="bg-yellow-500 hover:bg-yellow-700 text-white font-bold py-2 px-4 rounded"
+                class="bg-yellow-700 hover:bg-yellow-700 dark:bg-yellow-300 text-white dark:text-black font-bold py-2 px-4 rounded"
                 type="submit">Subscribe</button
               >
             </div>

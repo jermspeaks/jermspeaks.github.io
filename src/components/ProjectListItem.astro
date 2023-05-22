@@ -1,0 +1,26 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "./FormattedDate.astro";
+
+export interface Props {
+  project: CollectionEntry<"project">;
+}
+
+const { project } = Astro.props;
+---
+
+<li class="dark:text-white my-8">
+  <a
+    class="my-4 text-xl hover:underline visited:text-purple-600 dark:visited:text-purple-300"
+    href={`/project/${project.slug}/`}
+  >
+    {project.data.title}
+  </a>
+  <p class="text-slate-800 dark:text-slate-300"><i>{project.data.description}</i></p>
+  <div class="flex gap-4">
+    <FormattedDate
+      class="italic text-slate-600 dark:text-slate-300"
+      date={project.data.createdDate}
+    />
+  </div>
+</li>
