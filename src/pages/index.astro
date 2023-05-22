@@ -7,16 +7,15 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 import ProseArticle from "../components/ProseArticle.astro";
+import WritingListItem from "../components/WritingListItem.astro";
 
-const series = (await getCollection("series")).sort(
-  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
-);
-const lastPost = (await getCollection("blog"))
+const latestPosts = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())[0];
-const lastProject = (await getCollection("project")).sort(
-  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
-)[0];
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 5);
+const lastProjects = (await getCollection("project"))
+  .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
+  .slice(0, 5);
 ---
 
 <!DOCTYPE html>
@@ -46,7 +45,13 @@ const lastProject = (await getCollection("project")).sort(
       <hr class="mt-10 mb-10" />
 
       <ProseArticle>
-        <h2>Newsletter Series</h2>
+        <h2>
+          <a
+            href="/series"
+            class="hover:text-slate-800 dark:hover:text-slate-300"
+            >Newsletter Series</a
+          >
+        </h2>
 
         <p>
           A weekly, longform essay that mainly focuses on lessons I've learned.
@@ -58,49 +63,45 @@ const lastProject = (await getCollection("project")).sort(
           form more coherent thoughts than writing that instant gratification
           post on my choice of social networking site.
         </p>
+      </ProseArticle>
 
-        <section>
-          <ul class="pl-0 flex flex-col gap-12 list-none">
+      <hr class="mt-10 mb-10" />
+
+      <div class="flex">
+        <ProseArticle>
+          <h2>
+            <a
+              href="/blog"
+              class="hover:text-slate-800 dark:hover:text-slate-300"
+              >Recent Writing</a
+            >
+          </h2>
+          <ul>
+            {latestPosts.map((post) => <WritingListItem post={post} />)}
+          </ul>
+        </ProseArticle>
+        <ProseArticle>
+          <h2>
+            <a
+              href="/project"
+              class="hover:text-slate-800 dark:hover:text-slate-300"
+              >Recent Projects</a
+            >
+          </h2>
+          <ul>
             {
-              series.map((s) => (
-                <li class="flex flex-col md:flex-row">
-                  <div class="flex flex-col flex-auto md:flex-grow-0 md:flex-shrink-0 md:flex-[350px]">
-                    <a href={`/series/${s.slug}/`}>{s.data.title}</a>
-                    <div class="flex-auto italic text-slate-600 dark:text-slate-300">
-                      <FormattedDate date={s.data.createdDate} />
-                      &nbsp;to&nbsp;
-                      <FormattedDate date={s.data.endDate} />
-                    </div>
-                    {s.data.heroImage && (
-                      <img width={240} src={s.data.heroImage} alt="" />
-                    )}
-                  </div>
-                  <div>{s.data.description}</div>
+              lastProjects.map((lastProject) => (
+                <li>
+                  <FormattedDate date={lastProject.data.createdDate} />
+                  <a href={`/project/${lastProject.slug}/`}>
+                    {lastProject.data.title}
+                  </a>
                 </li>
               ))
             }
           </ul>
-        </section>
-      </ProseArticle>
-
-      <article class="flex justify-start gap-5 mt-2 mb-2">
-        <div>
-          <h2 class="text-2xl">Latest Post</h2>
-          <li>
-            <FormattedDate date={lastPost.data.pubDate} />
-            <a href={`/blog/${lastPost.slug}/`}>{lastPost.data.title}</a>
-          </li>
-        </div>
-        <div>
-          <h2 class="text-2xl">Latest Project</h2>
-          <li>
-            <FormattedDate date={lastProject.data.createdDate} />
-            <a href={`/project/${lastProject.slug}/`}
-              >{lastProject.data.title}</a
-            >
-          </li>
-        </div>
-      </article>
+        </ProseArticle>
+      </div>
 
       <hr class="mt-5 mb-5" />
 
