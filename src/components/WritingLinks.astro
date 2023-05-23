@@ -30,7 +30,7 @@ const defaultLinks = [
   },
 ];
 const { items = defaultLinks } = Astro.props;
-const pathname = new URL(Astro.request.url).pathname;
+const { pathname } = Astro.url;
 ---
 
 <ul class="flex gap-4 list-none m-0 p-0">
