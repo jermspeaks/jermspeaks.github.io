@@ -1,6 +1,6 @@
 ---
 import { CollectionEntry, getCollection } from 'astro:content';
-import LibraryPost from '../../../layouts/LibraryPost.astro';
+import BookLibraryPost from '../../../layouts/BookLibraryPost.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('library');
@@ -15,7 +15,6 @@ const post = Astro.props;
 const { Content } = await post.render();
 ---
 
-<LibraryPost {...post.data}>
-	<h1>{post.data.title}</h1>
+<BookLibraryPost {...post.data}>
 	<Content />
-</LibraryPost>
+</BookLibraryPost>

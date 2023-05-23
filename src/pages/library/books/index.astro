@@ -1,6 +1,5 @@
 ---
 import { getCollection } from "astro:content";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../../../consts";
 import FormattedDate from "../../../components/FormattedDate.astro";
 import LibraryPage from "../../../layouts/LibraryPage.astro";
 
@@ -15,7 +14,7 @@ const libraryReviews = library.map((book) => {
   if (postIndex > -1) {
     return posts[postIndex];
   } else {
-    return null;
+    return { slug: null };
   }
 });
 ---
@@ -40,7 +39,7 @@ const libraryReviews = library.map((book) => {
                 class="italic text-slate-600 dark:text-slate-300"
                 date={book.data.dateConsumed}
               />
-              {libraryReviews[bookIndex] && (
+              {libraryReviews?.[bookIndex]?.slug && (
                 <div>
                   <a
                     class="visited:text-purple-600"

@@ -1,8 +1,8 @@
 ---
-import AboutLayout from "../layouts/About.astro";
-import HeaderLink from "../components/HeaderLink.astro";
-import NavigationLinks from "../components/NavigationLinks.astro";
-import ProseArticle from "../components/ProseArticle.astro";
+import AboutLayout from "../../layouts/About.astro";
+import HeaderLink from "../../components/HeaderLink.astro";
+import NavigationLinks from "../../components/NavigationLinks.astro";
+import ProseArticle from "../../components/ProseArticle.astro";
 ---
 
 <AboutLayout
@@ -24,7 +24,7 @@ import ProseArticle from "../components/ProseArticle.astro";
     slot="navigation"
     navigationItems={[
       { link: "/about", text: "About Me" },
-      { link: "/resume", text: "Resume" },
+      { link: "/about/resume", text: "Resume" },
     ]}
   />
   <ProseArticle>

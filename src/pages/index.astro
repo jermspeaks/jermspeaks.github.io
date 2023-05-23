@@ -9,13 +9,21 @@ import ProjectListItem from "../components/ProjectListItem.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import WritingListItem from "../components/WritingListItem.astro";
 
+const MAX_ITEMS = 5;
+
 const latestPosts = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 5);
+  .slice(0, MAX_ITEMS);
 const lastProjects = (await getCollection("project"))
   .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
-  .slice(0, 5);
+  .slice(0, MAX_ITEMS);
+const latestBooks = (await getCollection("library"))
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .slice(0, MAX_ITEMS);
+const latestFilms = (await getCollection("filmLibrary"))
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .slice(0, MAX_ITEMS);
 ---
 
 <!DOCTYPE html>
@@ -32,10 +40,8 @@ const lastProjects = (await getCollection("project"))
         data, and crafting.
       </h1>
       <h2 class="mb-2 text-2xl font-thin">
-        Developer, former Biomedical engineering, and home cook
-      </h2>
-      <h2 class="mb-5 text-2xl font-thin">
-        Currently leading application development at <a
+        Maker, Home Cook, Book and Film Nerd. Currently leading application development
+        at <a
           class="text-orange-700 hover:text-orange-300 dark:text-orange-500"
           href="https://clearlabs.com/"
           target="_blank">Clear Labs</a
@@ -77,6 +83,50 @@ const lastProjects = (await getCollection("project"))
             </ul>
           </ProseArticle>
         </div>
+      </div>
+
+      <hr class="mt-5 mb-5" />
+
+      <div class="flex flex-col">
+        <ProseArticle>
+          <h2>
+            <a href="/library/books">Latest Books</a>
+          </h2>
+          <ul class="flex flex-wrap list-none p-0 gap-2">
+            {
+              latestBooks.map((book) => (
+                <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
+                  <a href={`/library/books/${book.slug}`}>
+                    <img src={book.data.heroImage} width="100" height="150" />
+                  </a>
+                </li>
+              ))
+            }
+          </ul>
+        </ProseArticle>
+        <ProseArticle>
+          <h2>
+            <a href="/library/films">Latest Films</a>
+          </h2>
+          <ul class="flex flex-wrap list-none p-0 gap-2">
+            {
+              latestFilms.map((film) => (
+                <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
+                  {film.data.heroImage && (
+                    <a href={`/library/films/${film.slug}`}>
+                      <img
+                        width="100"
+                        height="150"
+                        src={film.data.heroImage}
+                        alt=""
+                      />
+                    </a>
+                  )}
+                </li>
+              ))
+            }
+          </ul>
+        </ProseArticle>
       </div>
 
       <hr class="mt-5 mb-5" />
