@@ -44,29 +44,6 @@ const lastProjects = (await getCollection("project"))
 
       <hr class="mt-10 mb-10" />
 
-      <ProseArticle>
-        <h2>
-          <a
-            href="/series"
-            class="hover:text-slate-800 dark:hover:text-slate-300"
-            >Newsletter Series</a
-          >
-        </h2>
-
-        <p>
-          A weekly, longform essay that mainly focuses on lessons I've learned.
-          I try to write something I find meaningful, whether it's exposing your
-          ignorance, staying true to yourself or being resilient. In a world of
-          tweet-sized advice and short comments on a non-sensical Facebook post,
-          there's not enough time to process and distill what we're actually
-          thinking. These letters are to slow down, lean in and really try to
-          form more coherent thoughts than writing that instant gratification
-          post on my choice of social networking site.
-        </p>
-      </ProseArticle>
-
-      <hr class="mt-10 mb-10" />
-
       <div class="flex flex-col md:flex-row">
         <div class="flex-[50%]">
           <ProseArticle>
@@ -105,6 +82,25 @@ const lastProjects = (await getCollection("project"))
       <hr class="mt-5 mb-5" />
 
       <ProseArticle>
+        <h2>
+          <a
+            href="/series"
+            class="hover:text-slate-800 dark:hover:text-slate-300"
+            >Newsletter Series</a
+          >
+        </h2>
+
+        <p>
+          A weekly, longform essay that mainly focuses on lessons I've learned.
+          I try to write something I find meaningful, whether it's exposing your
+          ignorance, staying true to yourself or being resilient. In a world of
+          tweet-sized advice and short comments on a non-sensical Facebook post,
+          there's not enough time to process and distill what we're actually
+          thinking. These letters are to slow down, lean in and really try to
+          form more coherent thoughts than writing that instant gratification
+          post on my choice of social networking site.
+        </p>
+
         <form
           action="https://tinyletter.com/jeremywong"
           class="landing-newsletter-form"
@@ -114,8 +110,9 @@ const lastProjects = (await getCollection("project"))
         >
           <div>
             <label for="tlemail">
-              Subscribe to my newsletter! I write longform essays that mainly
-              focuses on lessons I've learned.
+              If what you read resonates with you, please <strong
+                >subscribe</strong
+              >!
             </label>
           </div>
           <div class="flex gap-4">
