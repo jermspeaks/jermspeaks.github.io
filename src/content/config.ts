@@ -86,6 +86,21 @@ const library = defineCollection({
   }),
 });
 
+const filmLibrary = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    director: z.string(),
+    releaseYear: z.string().or(z.number()).or(z.date().transform((val) => new Date(val))),
+    // Transform string to Date object
+    dateConsumed: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    heroImage: z.string().optional(),
+    link: z.string(),
+  }),
+});
+
 const lindy = defineCollection({
   schema: z.object({
     title: z.string(),
@@ -103,6 +118,7 @@ const resume = defineCollection({
 
 export const collections = {
   blog,
+  filmLibrary,
   library,
   lindy,
   log,

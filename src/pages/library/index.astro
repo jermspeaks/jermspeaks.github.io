@@ -7,6 +7,9 @@ const TOTAL_NUMBER_OF_ITEMS = 5;
 const library = (await getCollection("library"))
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
   .slice(0, TOTAL_NUMBER_OF_ITEMS);
+const filmLibrary = (await getCollection("filmLibrary"))
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .slice(0, TOTAL_NUMBER_OF_ITEMS);
 const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
 const libraryReviews = library.map((book) => {
   const postIndex = posts.findIndex(
@@ -15,7 +18,7 @@ const libraryReviews = library.map((book) => {
   if (postIndex > -1) {
     return posts[postIndex];
   } else {
-    return null;
+    return { slug: null };
   }
 });
 const lindyLibrary = (await getCollection("lindy"))
@@ -38,7 +41,7 @@ const lindyLibrary = (await getCollection("lindy"))
         target="_blank"
         class="hover:text-purple-500"
         title="Wikipedia Article on the Lindy Effect"
-        noreferrer>Lindy Effect</a
+        rel="noreferrer">Lindy Effect</a
       >).
     </p>
   </article>
@@ -64,7 +67,7 @@ const lindyLibrary = (await getCollection("lindy"))
                 class="italic text-slate-600 dark:text-slate-300"
                 date={book.data.dateConsumed}
               />
-              {libraryReviews[bookIndex] && (
+              {libraryReviews?.[bookIndex]?.slug && (
                 <div>
                   <a
                     class="visited:text-purple-600"
@@ -74,6 +77,37 @@ const lindyLibrary = (await getCollection("lindy"))
                   </a>
                 </div>
               )}
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+  <section>
+    <h3 class="text-xl mt-8 mb-5 dark:text-white">
+      <a href="/library/films">Latest Films</a>
+    </h3>
+    <ul class="flex flex-wrap list-none p-0 gap-4">
+      {
+        filmLibrary.map((film) => (
+          <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
+            {film.data.heroImage && (
+              <a href={`/library/films/${film.slug}`}>
+                <img
+                  width={200}
+                  height={300}
+                  src={film.data.heroImage}
+                  alt=""
+                />
+              </a>
+            )}
+            <div class="py-4 mt-2">
+              <div>Released: {film.data.releaseYear}</div>
+              <div>dir. {film.data.director}</div>
+              <div class="italic text-slate-600 dark:text-slate-300">
+                First Watched:
+                <FormattedDate date={film.data.dateConsumed} />
+              </div>
             </div>
           </li>
         ))

@@ -1,0 +1,38 @@
+---
+import { SITE_DESCRIPTION } from "../consts";
+import BaseBody from "../components/BaseBody.astro";
+import BaseHead from "../components/BaseHead.astro";
+import Footer from "../components/Footer.astro";
+import FormattedDate from "../components/FormattedDate.astro";
+import Header from "../components/Header.astro";
+import ProseArticle from "../components/ProseArticle.astro";
+import type { CollectionEntry } from "astro:content";
+
+type Props = CollectionEntry<"library">["data"];
+
+const { title, heroImage, dateConsumed } = Astro.props;
+---
+
+<html lang="en">
+  <head>
+    <BaseHead title={title} description={SITE_DESCRIPTION} />
+  </head>
+
+  <BaseBody>
+    <Header />
+    <main>
+      <ProseArticle>
+        <h1>{title}</h1>
+        {heroImage && <img width={230} height={345} src={heroImage} alt="" />}
+        <div class="py-4 border-b-2 border-solid border-gray-300 mt-2">
+          <div class="italic text-slate-600 dark:text-slate-300">
+            First Read:
+            <FormattedDate date={dateConsumed} />
+          </div>
+        </div>
+        <slot />
+      </ProseArticle>
+    </main>
+    <Footer />
+  </BaseBody>
+</html>
