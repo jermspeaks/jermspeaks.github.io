@@ -20,22 +20,58 @@ import TitleHeading from "../components/TitleHeading.astro";
       <ProseArticle>
         <h2 class="my-8">Talks</h2>
         <section>
-          <h3>
-            Interview with <a href="http://www.yerrington.net/" target="_blank"
-              >David Yerrington</a
-            >
-          </h3>
           <ul>
             <li>
-              <a
+              <FormattedDate
+                class="italic pe-4"
+                date={new Date("2019-01-15")}
+              />
+              Hackbright: "System Design and Scalability". <a
+                href="https://docs.google.com/presentation/d/1_RHXq_Eq8YU3nl51TcWvsWhYkGHDS9WORWaOmLWygS0/edit#slide=id.p"
+                >Presentation</a
+              >
+            </li>
+            <li>
+              <FormattedDate
+                class="italic pe-4"
+                date={new Date("2017-12-12")}
+              />
+              Hackbright: "React 2.0 Workshop". <a
+                href="https://docs.google.com/presentation/d/1HkLNSlvYIOQUarNPUjV8vmerjVCSj9M2uFknI71Wkfw/edit?usp=sharing"
+                >Presetation</a
+              >, <a href="https://github.com/jermspeaks/hackbright-react-2"
+                >Repo</a
+              >
+            </li>
+            <li>
+              <FormattedDate
+                class="italic pe-4"
+                date={new Date("2017-11-02")}
+              />
+              DevBootcamp: "Hands-on React Lunch and Learn".
+            </li>
+            <li>
+              <time
+                datetime={new Date("2015-11-24").toISOString()}
+                class="italic pe-4"
+              >
+                {
+                  new Date("2015-11-24").toLocaleDateString("en-us", {
+                    year: "numeric",
+                    month: "short",
+                    day: "numeric",
+                  })
+                }
+              </time>
+              Interview with <a
+                href="http://www.yerrington.net/"
+                target="_blank">David Yerrington</a
+              >: <a
                 href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/73Eep-data-science-python-guest-jeremy/"
                 target="_blank"
               >
                 <span>Part 1</span>
-              </a>
-            </li>
-            <li>
-              <a
+              </a>, <a
                 href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/poqAP-data-science-python-guest-jeremy-2/"
                 target="_blank"
               >
@@ -44,7 +80,6 @@ import TitleHeading from "../components/TitleHeading.astro";
             </li>
           </ul>
         </section>
-
         <section>
           <h3>Code Club</h3>
           <div>
@@ -60,10 +95,33 @@ import TitleHeading from "../components/TitleHeading.astro";
             src="https://www.youtube.com/embed/videoseries?list=PLyretLC2LTTr4CKC-i81Orsr1N-X57Pjr"
             allowfullscreen></iframe>
         </section>
-        <div class="italic">
-          Last updated on{" "}
-          <FormattedDate date={new Date("November 25, 2015")} />
-        </div>
+        <section>
+          <h3>Papers</h3>
+          <ul>
+            <li>
+              <div>
+                <a href="https://pubmed.ncbi.nlm.nih.gov/25740935/">
+                  Drosophila Muller F elements maintain a distinct set of
+                  genomic properties over 40 million years of evolution
+                </a>
+              </div>
+              <div>G3: Genes | Genomes | Genetics</div>
+              <FormattedDate class="italic" date={new Date("Mar 4, 2015")} />
+              <div class="italic">
+                The Muller F element (4.2 Mb, ~80 protein-coding genes) is an
+                unusual autosome of Drosophila melanogaster; it is mostly
+                heterochromatic with a low recombination rate. To investigate
+                how these properties impact the evolution of repeats and genes,
+                we manually improved the sequence and annotated the genes on the
+                D. erecta, D. mojavensis, and D. grimshawi F elements and
+                euchromatic domains from the Muller D element.
+              </div>
+              <div>
+                doi: 10.1534/g3.114.015966. PMID: 25740935; PMCID: PMC4426361.
+              </div>
+            </li>
+          </ul>
+        </section>
       </ProseArticle>
     </main>
     <Footer />
