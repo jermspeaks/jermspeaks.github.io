@@ -1,7 +1,7 @@
 ---
 title: Styled Components
 published: false
-draft: true
+draft: false
 categories: learning
 tags: ["react", "styled components"]
 permalink: /:categories/:title.html
@@ -40,4 +40,4 @@ const App = (props) => (
 );
 ```
 
-In this example...
+In this example component practices [CSS-in-JS](https://hackernoon.com/all-you-need-to-know-about-css-in-js-984a72d48ebc), meaning CSS is within the JS files. Specifically, the code uses [styled-components](https://www.styled-components.com/). There are some [useful tips and tricks](https://github.com/styled-components/styled-components/blob/master/docs/tips-and-tricks.md) worth checking out.
