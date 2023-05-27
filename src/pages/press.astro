@@ -22,9 +22,9 @@ import TitleHeading from "../components/TitleHeading.astro";
         <section>
           <ul>
             <li>
-              <div class="flex">
+              <div class="flex flex-col md:flex-row">
                 <FormattedDate
-                  class="italic pe-4 flex-shrink-0 flex-grow-0 flex-[150px]"
+                  class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
                   date={new Date("2019-01-15")}
                 />
                 Hackbright: "System Design and Scalability". <a
@@ -34,33 +34,35 @@ import TitleHeading from "../components/TitleHeading.astro";
               </div>
             </li>
             <li>
-              <div class="flex">
+              <div class="flex flex-col md:flex-row">
                 <FormattedDate
-                  class="italic pe-4 flex-shrink-0 flex-grow-0 flex-[150px]"
+                  class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
                   date={new Date("2017-12-12")}
                 />
-                Hackbright: "React 2.0 Workshop". <a
-                  href="https://docs.google.com/presentation/d/1HkLNSlvYIOQUarNPUjV8vmerjVCSj9M2uFknI71Wkfw/edit?usp=sharing"
-                  >Presetation</a
-                >, <a href="https://github.com/jermspeaks/hackbright-react-2"
-                  >Repo</a
-                >
+                <div>
+                  Hackbright: "React 2.0 Workshop". <a
+                    href="https://docs.google.com/presentation/d/1HkLNSlvYIOQUarNPUjV8vmerjVCSj9M2uFknI71Wkfw/edit?usp=sharing"
+                    >Presetation</a
+                  >, <a href="https://github.com/jermspeaks/hackbright-react-2"
+                    >Repo</a
+                  >
+                </div>
               </div>
             </li>
             <li>
-              <div class="flex">
+              <div class="flex flex-col md:flex-row">
                 <FormattedDate
-                  class="italic pe-4 flex-shrink-0 flex-grow-0 flex-[150px]"
+                  class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
                   date={new Date("2017-11-02")}
                 />
                 DevBootcamp: "Hands-on React Lunch and Learn".
               </div>
             </li>
             <li>
-              <div class="flex">
+              <div class="flex flex-col md:flex-row">
                 <time
                   datetime={new Date("2015-11-24").toISOString()}
-                  class="italic pe-4 flex-shrink-0 flex-grow-0 flex-[150px]"
+                  class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
                 >
                   {
                     new Date("2015-11-24").toLocaleDateString("en-us", {
@@ -70,20 +72,22 @@ import TitleHeading from "../components/TitleHeading.astro";
                     })
                   }
                 </time>
-                Interview with <a
-                  href="http://www.yerrington.net/"
-                  target="_blank">David Yerrington</a
-                >: <a
-                  href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/73Eep-data-science-python-guest-jeremy/"
-                  target="_blank"
-                >
-                  <span>Part 1</span>
-                </a>, <a
-                  href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/poqAP-data-science-python-guest-jeremy-2/"
-                  target="_blank"
-                >
-                  <span>Part 2</span>
-                </a>
+                <div>
+                  Interview with <a
+                    href="http://www.yerrington.net/"
+                    target="_blank">David Yerrington</a
+                  >: <a
+                    href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/73Eep-data-science-python-guest-jeremy/"
+                    target="_blank"
+                  >
+                    <span>Part 1</span>
+                  </a>, <a
+                    href="https://www.liveedu.tv/dyerrington/lmDno-data-science-python-data-structures/poqAP-data-science-python-guest-jeremy-2/"
+                    target="_blank"
+                  >
+                    <span>Part 2</span>
+                  </a>
+                </div>
               </div>
             </li>
           </ul>
@@ -98,8 +102,8 @@ import TitleHeading from "../components/TitleHeading.astro";
             <p>Here's a playlist of those sessions.</p>
           </div>
           <iframe
-            width="560"
-            height="315"
+            width="355"
+            height="200"
             src="https://www.youtube.com/embed/videoseries?list=PLyretLC2LTTr4CKC-i81Orsr1N-X57Pjr"
             allowfullscreen></iframe>
         </section>
