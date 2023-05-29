@@ -3,3 +3,4 @@
 
 export const SITE_TITLE = "Craft By Zen";
 export const SITE_DESCRIPTION = "Jeremy's personal website";
+export const SITE_RSS_DESCRIPTION = "Craft By Zen RSS Feed";
