@@ -44,4 +44,4 @@ I know it’s difficult to admit to yourself that you can be wrong, but we are a
 They may vary in length, and the topics will be very random.
 I really don’t care if anyone really likes them, I write for myself and it really helps me parse out my thought process.
 
-[Original Post](http://jermspeaks.com/post/22524617458/jerm-speaks-out-on-being-wrong)
+[Original Post](https://jermspeaks.com/post/22524617458/jerm-speaks-out-on-being-wrong)

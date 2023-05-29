@@ -22,8 +22,8 @@ Back in October, Emilie had an art exhibit at the StoreFrontLab in San Francisco
 
 The sauce stained the bowl, placing a permanent mark that says, “someone ate spaghetti in me". The permanent markings of the spaghetti stains reminds Emilie of her childhood. Taking a part of this experience forced me to think of the creativity of blind artists trying to represent what matters to them in a medium besides visuals. The feel of the bowl was raw and unfinished, much like the texture of stone. You can hear the spaghetti splash around as you dig into it. You can smell the generic Preggo sauce and all of its familiarity, even after the local season of tomatoes were on their way out.
 
-![Emilie at her art show serving spaghetti](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/51b12477-8937-4b5c-91ff-1c5242e9d6cf.jpg)
+![Emilie at her art show serving spaghetti](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/51b12477-8937-4b5c-91ff-1c5242e9d6cf.jpg)
 
 The meal was frustrating. The fork was oddly shaped, and you could twirl the spaghetti with ease. And I imagine that's the point. Stripped of your sense of sight, what are you left with? I’ll say it again, frustration. Yet, it exposes me another point of reflection about other's experiences that I would otherwise not have experienced on my own. It showed me another layer of appreciating art, that it can expand beyond the visual aesthetic.
 
-Radiolab Episode: "[Finding Emilie](http://www.radiolab.org/story/110206-finding-emilie/)".
+Radiolab Episode: "[Finding Emilie](https://www.radiolab.org/story/110206-finding-emilie/)".

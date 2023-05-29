@@ -14,7 +14,7 @@ permalink: /:categories/:title.html
 
 ## Lessons taken from Nerina Pallot’s Year of EPs
 
-![Nerina Pallot Live](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/39f32af5-cf33-40bc-9f32-0ec5c34dcb5f.jpg)
+![Nerina Pallot Live](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/39f32af5-cf33-40bc-9f32-0ec5c34dcb5f.jpg)
 
 For every month of 2014, Nerina Pallot has released an EP. Each EP contains five new songs. Nerina is a British musician whose past works include her own releases as well as writing and producing songs for Kylie Minogue and Diana Vickers. I've had her new music on repeat and it excites me she took on such a challenge. It’s a huge commitment to release something every month, trying to break free of that creative struggle we all face. We begin to create something, begin crafting, grow bored, and move on to a different project. In her explanation video, she says she has started more albums than finishing them for this reason. Out of my own fears of reaching a plateau stage of my skills and projects, I want to examine where one stalls with creative work, what it means to make a commitment, and what kind of sacrifices and risks there are.
 
@@ -24,7 +24,7 @@ For every month of 2014, Nerina Pallot has released an EP. Each EP contains five
 
 Nerina has met her goal every month. I bought at her EPs every month and have been following her progress along the way by listening to her music,  checking her twitter page and reading her newsletters. Her hope with the project is it will help her grow as an artist. In her past, she has started a song, works on it, can’t come to call it complete, and gets excited about another song while leaving her current one in limbo. It’s a curse of perfection, and I can relate in my writing when I leave something written for weeks untouched and realize I don’t want to write on this topic anymore. For example, last week’s letter on a year in review started as an excellent idea until I started writing it. I grew to hate it after realizing I’m just copying others’ year in review. I re-wrote it on the day I was to release it and now it’s relatively acceptable, but by far not my favorite letter.
 
-![Album cover for Winter Rooms](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/7da126ed-4591-494f-a8d0-dabb53f690b8.jpg)
+![Album cover for Winter Rooms](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/7da126ed-4591-494f-a8d0-dabb53f690b8.jpg)
 
 > When you feel like you’ve learned whatever there is to learn from what you’re doing, it’s time to change course and find something new to learn so that you can move forward. You can’t be content with mastery; you have to push yourself to become a student again. ‘Anyone who isn’t embarrassed of who they were last year probably isn’t learning enough,’ writes author Alain de Botton.
 >

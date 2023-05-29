@@ -31,6 +31,6 @@ Dev Bootcamp, the reason I went to Chicago in the first place, tries to push you
 
 ![Body's different zones](https://static1.squarespace.com/static/512515d2e4b08a76159c79b3/t/545f0990e4b047a3e782310a/1415514513135/?format=1000w)
 
-> Source: [Seth Sandler](http://sethsandler.com/productivity/3-zones/)
+> Source: [Seth Sandler](https://sethsandler.com/productivity/3-zones/)
 
 I borrowed this picture from Seth Sandler's blog post which shows where the learning zone is. I love this description because I use it in all other activities non-work related as well, like learning how to improve my communication skills. Given your environment, figure out how to find the sweet learning zone. It's different for every person, so you're going to have to experiment. Remember to enjoy this process, because if you find it useful, you'll want to apply it everywhere too.

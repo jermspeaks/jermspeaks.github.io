@@ -20,4 +20,4 @@ A movie I suggest to you all instead is a movie that came out last year, starrin
 
 It’s a lighter dark comedy to the real profession the movie talks about and pokes fun of the fact we are afraid of death.
 
-[Original Post](http://jermspeaks.com/post/153483266/sunshine-cleaning-a-more-optimistic-review-a)
+[Original Post](https://jermspeaks.com/post/153483266/sunshine-cleaning-a-more-optimistic-review-a)

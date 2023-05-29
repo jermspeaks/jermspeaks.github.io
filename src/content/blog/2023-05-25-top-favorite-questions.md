@@ -30,4 +30,4 @@ What are your favorite problems? Feel free to email them to me 😄.
 ### Related Articles
 
 - [Tiago Forte's 12 Favorite Problems](https://fortelabs.com/blog/12-favorite-problems-how-to-spark-genius-with-the-power-of-open-questions/)
-- The inspiration for these favorite problems come from Gian-Carlo Rota's talk, [Ten Things I Wish I Had Been Taught](http://www.ams.org/notices/199701/comm-rota.pdf)
+- The inspiration for these favorite problems come from Gian-Carlo Rota's talk, [Ten Things I Wish I Had Been Taught](https://www.ams.org/notices/199701/comm-rota.pdf)

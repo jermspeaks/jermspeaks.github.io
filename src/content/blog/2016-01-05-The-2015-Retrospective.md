@@ -55,4 +55,4 @@ I gave myself this goal 6 years ago, and I accomplished my first novel in 2012. 
 ## Errata
 Enjoy this picture I took somewhere between Northern Arizona and Southern Utah.
 
-![field between N. Arizona and S. Utah](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/dfd350f2-0f17-4956-b4f7-e5182290dcfd.jpg)
+![field between N. Arizona and S. Utah](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/dfd350f2-0f17-4956-b4f7-e5182290dcfd.jpg)

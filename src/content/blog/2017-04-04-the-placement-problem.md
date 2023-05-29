@@ -10,7 +10,7 @@ permalink: /:categories/season-two/:title.html
 tags: [season_2, letters]
 ---
 
-![Jear bear letters admission failure 7](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/f60b85ea-98ea-469f-9942-d15b84fd12f7.png)
+![Jear bear letters admission failure 7](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/f60b85ea-98ea-469f-9942-d15b84fd12f7.png)
 
 
 

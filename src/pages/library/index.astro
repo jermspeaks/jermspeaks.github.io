@@ -58,7 +58,11 @@ const lindyLibrary = (await getCollection("lindy"))
               href={book.data.link}
               target="_blank"
             >
-              <img src={book.data.heroImage} width="200" />
+              <img
+                src={book.data.heroImage}
+                width="200"
+                alt={book.data.heroImageAlt}
+              />
             </a>
             <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
               <div>{book.data.title}</div>
@@ -92,12 +96,12 @@ const lindyLibrary = (await getCollection("lindy"))
         filmLibrary.map((film) => (
           <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
             {film.data.heroImage && (
-              <a href={`/library/films/${film.slug}`}>
+              <a href={`/library/films/${film.slug}`} title={film.data.title}>
                 <img
                   width={200}
                   height={300}
                   src={film.data.heroImage}
-                  alt=""
+                  alt={film.data.heroImageAlt}
                 />
               </a>
             )}
@@ -122,7 +126,7 @@ const lindyLibrary = (await getCollection("lindy"))
       {
         lindyLibrary.map((lindyItem) => (
           <li class="flex rounded-sm box-border p-4 bg-slate-100 dark:bg-slate-800 dark:text-white">
-            <a href={`/library/lindy/${lindyItem.slug}`}>
+            <a href={`/library/lindy/${lindyItem.slug}`} title={lindyItem.data.title}>
               {lindyItem.data.title}
             </a>
           </li>

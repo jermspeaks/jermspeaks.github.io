@@ -34,6 +34,6 @@ This is not a bad thing. Nature is agnostic to the forces of good and evil.
 
 ## Notes
 
-The piece of prose is inspired by the book, "[Show Your Work](http://showyourwork.com)" by Austin Kleon.
+The piece of prose is inspired by the book, "[Show Your Work](https://showyourwork.com)" by Austin Kleon.
 
 ![Book cover for Show Your Work](https://books.google.com/books/publisher/content?id=fM0kAgAAQBAJ&pg=PP1&img=1&zoom=3&hl=en&bul=1&sig=ACfU3U3vOVsH-AwtL3QgoLUE-FHJPgmdjA&w=1280)

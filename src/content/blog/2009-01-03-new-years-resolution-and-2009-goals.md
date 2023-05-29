@@ -22,4 +22,4 @@ draft: true
 10. Grasp the essence of a foreign language (Get the fundamentals down)
 11. Podcast reviews every week (And if this becomes easier to do, more than once a week)
 
-[Original Post](http://jermspeaks.com/post/68228651/new-years-resolution-and-2009-goals-actual)
+[Original Post](https://jermspeaks.com/post/68228651/new-years-resolution-and-2009-goals-actual)

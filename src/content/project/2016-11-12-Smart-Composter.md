@@ -12,7 +12,7 @@ createdDate: "2016-11-12"
 
 
 
-At the 2016 Science Hack Day in San Francisco, I teamed up with [Jake Hartnell](http://commongarden.org/) who has built modules for his gardening open source start-up.
+At the 2016 Science Hack Day in San Francisco, I teamed up with [Jake Hartnell](https://commongarden.org/) who has built modules for his gardening open source start-up.
 I thought it might be fun to take those components and build a smart composter.
 
 ## Things you will need

@@ -18,4 +18,4 @@ Don’t get me wrong, this isn’t the straw that broke the camel’s back. This
 
 Also: I might as well use Tumblr also as a writing journal or some sort from now on. I’ve been posting random things lately, and it’s just not fulfilling as a writer.
 
-[Original Post](http://jermspeaks.com/post/1579060498/life-after-deactivation)
+[Original Post](https://jermspeaks.com/post/1579060498/life-after-deactivation)

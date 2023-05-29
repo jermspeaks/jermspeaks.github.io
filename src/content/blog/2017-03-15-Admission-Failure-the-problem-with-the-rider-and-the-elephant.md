@@ -10,7 +10,7 @@ tags: [season_2, letters]
 description: "Where I talk about my failure to compromise between emotion and rationality."
 ---
 
-![Admission Failure 5](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/17d7d676-0a33-4f67-8091-dfc9478c888d.png)
+![Admission Failure 5](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/17d7d676-0a33-4f67-8091-dfc9478c888d.png)
 
 
 
@@ -60,4 +60,4 @@ The rider holds the reins of the elephant, but the elephant overpowers the rider
 
 When the rider can notice the elephant's resistance, the rider's best option is to roll with it. Now, ask yourself, how can I work with the elephant, and not against it? As the rider, we have the ability to plan ahead and take lessons learned from past failures. Now apply that to your everyday conflicts.
 
-![Sample Letter](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/3e53e436-af9a-4cb7-87b6-188d75e0bfd9.png)
+![Sample Letter](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/3e53e436-af9a-4cb7-87b6-188d75e0bfd9.png)

@@ -10,7 +10,7 @@ permalink: /:categories/season-two/:title.html
 tags: [season_2, letters]
 ---
 
-![Admission Failure 6](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/e95530cf-ed42-42c6-a8c3-6916b74ab552.png)
+![Admission Failure 6](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/e95530cf-ed42-42c6-a8c3-6916b74ab552.png)
 
 
 

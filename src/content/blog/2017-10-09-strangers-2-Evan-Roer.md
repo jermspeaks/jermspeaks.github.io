@@ -56,7 +56,7 @@ Restraint also comes to play with dealing with clients. Evan may have clients wh
 
 In general, the clients come with the content. It’s Design Dimension’s job to make it presentable. And the clients are super involved from start to finish. When Evan was working for a “Black History of Wilson” exhibit in Wilson, North Carolina, the clients wanted to pack as much information as possible. But, it doesn’t tell a story. The client is wrong, and it’s Evan’s job to convince them to change their content by selling them on the design idea.
 
-The work can be rewarding. Evan worked on a [children's museum in Wilson](http://scienceandhistory.org/home) that teaches science and history. Before the design firm came in, the museum was outdated, a relic from the 80s. The museum's administrator secured the funds to update and upgrade the space. and Evan's team worked with the administrator to come to a good design. When it was all said and done, this space was resurrected, brought back to life with updated science. And for the administrator, her reaction was priceless because she put her heart and soul in it.
+The work can be rewarding. Evan worked on a [children's museum in Wilson](https://scienceandhistory.org/home) that teaches science and history. Before the design firm came in, the museum was outdated, a relic from the 80s. The museum's administrator secured the funds to update and upgrade the space. and Evan's team worked with the administrator to come to a good design. When it was all said and done, this space was resurrected, brought back to life with updated science. And for the administrator, her reaction was priceless because she put her heart and soul in it.
 
 #### Feedback
 

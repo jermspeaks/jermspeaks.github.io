@@ -16,7 +16,7 @@ tags: [season_3, letters]
 
 Hello letter friends,
 
-This is my last letter for the series, "Seven Degrees of Strangers". If you haven't followed the journey, you can check it out on [my website](http://www.craftbyzen.com/letters/season-three/). I've written about 6 different people I talked to one degree of separation apart. 
+This is my last letter for the series, "Seven Degrees of Strangers". If you haven't followed the journey, you can check it out on [my website](https://www.craftbyzen.com/letters/season-three/). I've written about 6 different people I talked to one degree of separation apart. 
 
 For those of you who may have noticed an error, the phrase is six degrees of separation, not seven. I would like to say I did that on purpose. I didn't. I could have lied and said this is to close the loop. To be frank, I was deluded by my title, I thought this would be a great experiment.
 

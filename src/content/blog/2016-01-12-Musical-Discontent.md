@@ -45,10 +45,10 @@ If you though Beethoven’s criticism was bad, wait to you hear what this critic
 
 Holy christ! If you give Bruckner’s Symphony No. 7 a listen, you wouldn’t think malice towards to composer who wrote this music. You’d probably shake his hand. Allowing time to pass, we see this critic for who he really is, a hater. It doesn’t matter which century you live in, these haters exist.  The critic didn’t recognize the Romantic styling of that century. The sweeping melodies. The dramatic accents and motifs carried over by Beethoven. To Bruckner’s credit, he composed two more symphonies, the ninth unfinished, as well as a smaller pieces for another decade. Like Beethoven, Bruckner is still played today.
 
-![Anton Bruckner](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ca4e0afb-2824-497f-9991-582e55aec1c9.jpg)
+![Anton Bruckner](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ca4e0afb-2824-497f-9991-582e55aec1c9.jpg)
 
 > A picture of Anton Bruckner
 
 As a side note, you may have already realized it. These two pieces were admired by Hitler. This was not intentional, and I would have missed this reference if it was not for Wikipedia. So, to leave this on a high note, Wikipedia says the adagio from Bruckner’s Symphony No. 7 was played on the official radio announcement of the German defeat at Stalingrad on the 31st of January, 1943. Karma, I guess.
 
-Lastly, if you want a kick of more bad criticism, I would like to refer you to a book entitled “[Lexicon of Music Invective: Critical Assaults on Composers Since Beethoven's Time.](http://www.amazon.com/Lexicon-Musical-Invective-Composers-Beethovens/dp/039332009X)” It gave me inspiration to write about critics and how terrible wrong they can be after reading them again a century or two later.
+Lastly, if you want a kick of more bad criticism, I would like to refer you to a book entitled “[Lexicon of Music Invective: Critical Assaults on Composers Since Beethoven's Time.](https://www.amazon.com/Lexicon-Musical-Invective-Composers-Beethovens/dp/039332009X)” It gave me inspiration to write about critics and how terrible wrong they can be after reading them again a century or two later.

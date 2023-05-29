@@ -87,7 +87,7 @@ In the event there are no coral on the board, your team loses.
 ## Teammates
 
 - [Jeremy Wong](https://craftbyzen.com/)
-- [HongPhuc Dang](http://fossasia.org/)
+- [HongPhuc Dang](https://fossasia.org/)
 - [Jessica Carilli](https://www.umb.edu/jessica_carilli)
-- [Michelle Chang](http://www.michellech.com/)
+- [Michelle Chang](https://www.michellech.com/)
 - [Rolf Widenfelt](https://twitter.com/rolfmobile99)

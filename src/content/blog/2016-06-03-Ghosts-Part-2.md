@@ -51,8 +51,8 @@ Then, the guide tells us something unbelievable.
 The tour guide holds up his iPad and shows a side by side comparison of Edgar Allan Poe as a sailor and much later after becoming famous.
 
 
-![Edgar Allan Poe in the Navy](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/dd0de441-0c98-4453-b654-964bc265adb1.jpg)
-![Edgar Allan Poe later life](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/6f886c7c-f75c-43f8-95d9-65be56d50ad8.jpg)
+![Edgar Allan Poe in the Navy](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/dd0de441-0c98-4453-b654-964bc265adb1.jpg)
+![Edgar Allan Poe later life](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/6f886c7c-f75c-43f8-95d9-65be56d50ad8.jpg)
 
 We left that spot and continued the tour, but I was left wondering if the legend is true. I did an Internet search last week with very inconclusive results. I don’t think the truth matters though. It got me to think about fabricating reason to the supernatural, and how it tells a compelling story. If the truth were uncovered, I think the story would be mundane and boring. At least this way, we can put a reason to Edgar Allan Poe’s grim face.
 
