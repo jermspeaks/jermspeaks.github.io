@@ -2,11 +2,12 @@
 export interface Props {
   link: string;
   title?: string;
+  rel?: string;
 }
 
-const { link, title } = Astro.props;
+const { link, title, rel } = Astro.props;
 ---
 
 <li class="hover:text-orange-400 dark:text-white">
-  <a href={link} target="_blank" title={title}><slot /></a>
+  <a href={link} target="_blank" title={title} rel={rel}><slot /></a>
 </li>
