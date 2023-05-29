@@ -40,8 +40,8 @@ const latestFilms = (await getCollection("filmLibrary"))
         data, and crafting.
       </h1>
       <h2 class="mb-2 text-2xl font-thin">
-        Maker, Home Cook, Book and Film Nerd. Currently leading application development
-        at <a
+        Maker, Home Cook, Book and Film Nerd. Currently leading application
+        development at <a
           class="text-orange-700 hover:text-orange-300 dark:text-orange-500"
           href="https://clearlabs.com/"
           target="_blank">Clear Labs</a
@@ -97,7 +97,12 @@ const latestFilms = (await getCollection("filmLibrary"))
               latestBooks.map((book) => (
                 <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
                   <a href={`/library/books/${book.slug}`} title={book.data.title}>
-                    <img src={book.data.heroImage} width="100" height="150" />
+                    <img
+                      src={book.data.heroImage}
+                      width="100"
+                      height="150"
+                      alt={book.data.heroImageAlt}
+                    />
                   </a>
                 </li>
               ))
@@ -118,7 +123,7 @@ const latestFilms = (await getCollection("filmLibrary"))
                         width="100"
                         height="150"
                         src={film.data.heroImage}
-                        alt=""
+                        alt={film.data.heroImageAlt}
                       />
                     </a>
                   )}
