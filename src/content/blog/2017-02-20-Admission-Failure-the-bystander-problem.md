@@ -42,7 +42,7 @@ I'm not going to talk about how to evaluate panhandlers and beggars. That's its 
 
 My college economics professor started each lecture with a simple saying. "Doing nothing is always an option." At the time, he was explaining financial opportunity costs. I'm translating it to everyday decisions. If you are on the crossroads of sideline and intervention, choosing the sidelines is a choice. It is up to you to determine if it's the right choice.
 
-![Cartoon at Heaven's Gate](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/b7cc48a9-814b-4b97-b651-cca69ab1f675.png)
+![Cartoon at Heaven's Gate](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/b7cc48a9-814b-4b97-b651-cca69ab1f675.png)
 
 #### 2
 
@@ -50,4 +50,4 @@ I was at the National Civic Day of Hacking event in San Francisco, and the organ
 
 "Oh my gosh," I thought, "he's right. If I want to see change, I'm going to need to start the campaign."
 
-Jesse was talking about projects for the [SF Brigade](http://codeforsanfrancisco.org/). One can easily translate that to everyday situations. See debris in the middle of the road? Call highway patrol. A blind person is judging if they should cross the road? Tell them if the coast is clear. Have the skills to help out a non-profit? If you can make the time, do some pro-bono work.
+Jesse was talking about projects for the [SF Brigade](https://codeforsanfrancisco.org/). One can easily translate that to everyday situations. See debris in the middle of the road? Call highway patrol. A blind person is judging if they should cross the road? Tell them if the coast is clear. Have the skills to help out a non-profit? If you can make the time, do some pro-bono work.

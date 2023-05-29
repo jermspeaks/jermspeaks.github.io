@@ -5,13 +5,13 @@ name: Garbage In Garbage Out
 description:
   Data exploration of inflows and outflows of city trash to other cities. Data from the US Commodities Survey from 2012.
   Project from Science Hack Day 2017
-project_link: http://jermspeaks.github.io/garbage-in-garbage-out/
+project_link: https://jermspeaks.github.io/garbage-in-garbage-out/
 image: /images/gigo.png
 url: /garbage-in-garbage-out
 createdDate: "2017-10-15"
 ---
 
-[Science Hack Day SF 2017 Project](http://sf.sciencehackday.org/hacks-2017/#hack_10)
+[Science Hack Day SF 2017 Project](https://sf.sciencehackday.org/hacks-2017/#hack_10)
 
 ## Introduction
 
@@ -29,9 +29,9 @@ This was a hackathon project for Science Hack Day San Francisco in 2017. If youâ
 
 ## Demos
 
-Here's the static visualization from Circos. [Circos Raw Data](http://mkweb.bcgsc.ca/tableviewer/).
+Here's the static visualization from Circos. [Circos Raw Data](https://mkweb.bcgsc.ca/tableviewer/).
 
-You can [check out the website for the interactive visualization](http://jermspeaks.github.io/garbage-in-garbage-out/).
+You can [check out the website for the interactive visualization](https://jermspeaks.github.io/garbage-in-garbage-out/).
 
 <img src="/images/gigo.png" alt="map with data overlayed of trash inflows and outflows given city"/>
 
@@ -43,5 +43,5 @@ You can [check out the website for the interactive visualization](http://jermspe
 - [Jeremy Wong](github.com/jermspeaks)
 - [Joke Durnez](twitter.com/JokeDurnez)
 - [Karina van Schaardenburg](twitter.com/kvanscha)
-- [Liz Pasekal](http://www.lizpasekal.com/)
+- [Liz Pasekal](https://www.lizpasekal.com/)
 - [Michael Bonfiglio](twitter.com/michaelbonbon)

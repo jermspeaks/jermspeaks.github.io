@@ -21,7 +21,7 @@ Let’s keep this a bit informal. I’m thankful for a year of newsletters, than
 
 Since last year, I’ve sent 45 letters. That tells me I’ve missed 8 letters. Back in October, I announced I would  cut back on my load of work by publishing an essay once every other week. However, I want to challenge myself in the month of December to bring to you all original essays once a week again.
 
-![Challenge Accepted](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/7a8aadbe-6a95-457d-8066-6e59f10e3ad5.png)
+![Challenge Accepted](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/7a8aadbe-6a95-457d-8066-6e59f10e3ad5.png)
 
 When I started, I had six subscribers. Today, as of November 29th at 8:15pm, it's 36. The thing I love about these letters is I get to share it with all of you. Yes, I’m pandering, but it’s also the truth. I get this thrill that rushes through me when I hit send, and subsequently hit, “Yes, send it now” because Tinyletter wants to make sure I don’t send a bad message to you folks. It’s saved me on two separate occasions.
 

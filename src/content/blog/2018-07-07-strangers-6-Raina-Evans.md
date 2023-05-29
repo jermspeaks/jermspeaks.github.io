@@ -15,7 +15,7 @@ tags: [season_3, letters]
 ## Introduction
 
 <!-- 
-Welcome to the Jear Bear Letter's penultimate letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. And you should check out [old letters from this series on my website](http://www.craftbyzen.com/letters/season-three/). 
+Welcome to the Jear Bear Letter's penultimate letter of the series "Seven Degrees of Strangers". If you've just started reading this series, I interview a stranger one degree of separation at a time. And you should check out [old letters from this series on my website](https://www.craftbyzen.com/letters/season-three/). 
 
 Sorry it's taken so long to get to this letter. There have been a number of life hiccups, like finding and starting a new job. Sometimes, life gets in the way and you have to drop some things. But now I'm picking it back up to present two last letters.
 

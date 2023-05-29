@@ -46,4 +46,4 @@ I’m signed up for the next test in April. I missed the deadline in August.
 **[Failed]** Cook at least one new recipe every week (Or an accumulation of over 50 new recipes), with documentation  
 I didn’t document them, but I did cook many different recipes. Probably not 50 new ones though.
 
-[Original Post](http://jermspeaks.com/post/16981708654/new-years-2011-resolution-revisited)
+[Original Post](https://jermspeaks.com/post/16981708654/new-years-2011-resolution-revisited)

@@ -5,6 +5,7 @@ releaseYear: 1985
 dateConsumed: "2023-04-14"
 heroImage: "https://a.ltrbxd.com/resized/sm/upload/js/2l/27/zl/2rZ2nkS3mmynrz264jfzJ7rd46p-0-230-0-345-crop.jpg?v=7ca9df8c0b"
 link: "https://www.justwatch.com/us/movie/a-room-with-a-view"
+heroImageAlt: "A Room With A View"
 ---
 
 ## Review

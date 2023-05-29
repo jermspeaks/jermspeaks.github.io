@@ -3,6 +3,7 @@ title: "A Field Guide to Happiness: What I Learned in Bhutan about Living, Lovin
 author: "Linda Leaming"
 dateConsumed: "2023-05-23"
 heroImage: "https://images-na.ssl-images-amazon.com/images/I/51q7AU2zLzL._SL600_.jpg"
+heroImageAlt: "Book cover for Field Guide to Happiness"
 review: ""
 link: "https://amzn.to/3Oxe3gx"
 ---

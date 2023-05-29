@@ -24,7 +24,7 @@ That was four years ago. Today, I wonder what prompted me to make such a mistake
 
 I was reacting to my situation without thinking about the long-term consequences. This feeling goes by many names, like fire-fighting, and if you are surrounded by this behavior, you are likely to adopt this frantic role. The behavior is anchored by the perception of time. "There’s not enough time to think” could be the slogan. And in this slip of time, I’m out of control.
 
-![Control / Out of Control](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ed57a81a-68b6-42ec-88db-223b6a770e6e.jpg)
+![Control / Out of Control](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ed57a81a-68b6-42ec-88db-223b6a770e6e.jpg)
 
 ## Busy Mind
 
@@ -44,4 +44,4 @@ The recurring solution I’ve found to all of these decisions is to bench the de
 
 We'll explore more next week on anger and the calming down effect.
 
-![Whitest Kids You Know - Abe Lincoln telling John Wilkes Booth to calm down](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/828e848b-5dd4-430a-ba2a-3eaebea4bdc5.gif)
+![Whitest Kids You Know - Abe Lincoln telling John Wilkes Booth to calm down](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/828e848b-5dd4-430a-ba2a-3eaebea4bdc5.gif)

@@ -3,7 +3,7 @@ title: No Slouching Sloths
 permalink: /projects/no-slouching-sloths
 name: No Slouching Sloths
 description: A PSA developed as a project from Science Hack Day 2018
-project_link: http://jermspeaks.github.io/projects/no-slouching-sloths
+project_link: https://jermspeaks.github.io/projects/no-slouching-sloths
 image: /images/sloths-first-draft.jpg
 url: /no-slouching-sloths
 createdDate: "2017-10-15"
@@ -11,7 +11,7 @@ createdDate: "2017-10-15"
 
 
 
-[Science Hack Day SF 2018 Project](http://sf.sciencehackday.org/hacks-2018/#hack_5)
+[Science Hack Day SF 2018 Project](https://sf.sciencehackday.org/hacks-2018/#hack_5)
 
 ## Phone Use and Chronic Neck Pain PSA
 

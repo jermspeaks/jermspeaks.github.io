@@ -8,9 +8,9 @@ description: Remembrance is the final project of Dev Bootcamp Chicago students
   for a loved one who has passed on.
   You can invite friends and family to come together here and share memories,
   whether they be stories or pictures.
-project_link: http://remembrance-dbc.herokuapp.com/
+project_link: https://remembrance-dbc.herokuapp.com/
 # image: /images/remembrance.png
-url: http://remembrance-dbc.herokuapp.com/
+url: https://remembrance-dbc.herokuapp.com/
 createdDate: "2014-08-10"
 ---
 

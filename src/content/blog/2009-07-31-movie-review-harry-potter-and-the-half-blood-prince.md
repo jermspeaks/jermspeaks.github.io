@@ -24,4 +24,4 @@ To say the worst, I spent over ten bucks on this movie ticket, and it wasn’t e
 
 I won’t spoil it for everyone, so I’ll just say, don’t waste your money on the Harry Potter franchise this time. It’s just not worth it. Wait for “The Deathly Hallows” Part I and II. Or maybe wait for them both to come out. I don’t want to be disappointed next time, if I give it a next time.
 
-[Original Post](http://jermspeaks.com/post/153475321/harry-pothead-and-the-halfly-executed-movie-rant)
+[Original Post](https://jermspeaks.com/post/153475321/harry-pothead-and-the-halfly-executed-movie-rant)

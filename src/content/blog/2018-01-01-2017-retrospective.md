@@ -27,4 +27,4 @@ So as I take the time this year to reflect on my list of accomplishments, I also
 - I attended too many talks and lectures to count, ranging from group biases to the history of women in the Black Panther movement.
 - Attended the "Papers We Love" conference and got to meet some developers I always wanted to talk to
 
-Links to previous years: [2016](http://jermspeaks.github.io/letters/2016-retrospective.html), [2015](http://jermspeaks.github.io/letters/The-2015-Retrospective.html), [2014](http://jermspeaks.github.io/letters/A-Year-In-Review.html)
+Links to previous years: [2016](https://jermspeaks.github.io/letters/2016-retrospective.html), [2015](https://jermspeaks.github.io/letters/The-2015-Retrospective.html), [2014](https://jermspeaks.github.io/letters/A-Year-In-Review.html)

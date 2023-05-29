@@ -23,4 +23,4 @@ But what’s cool is that you can create separate harmony and melody with their 
 For being in Beta, it’s worth a check out.
 They also have over 1,300 songs archived in this format, though most of the songs aren’t the complete songs, just so you are aware.
 
-[Original Post](http://jermspeaks.com/post/26007870944/review-hooktheory-at-first-i-was-a-bit-hesitant)
+[Original Post](https://jermspeaks.com/post/26007870944/review-hooktheory-at-first-i-was-a-bit-hesitant)

@@ -168,7 +168,7 @@ This is more so when the property list is greater than 10.
 ```
 
 Some of you may notice the two self-closing tags are unnecessary.
-As you may or may not be aware, we are using [Bootstrap](http://getbootstrap.com/).
+As you may or may not be aware, we are using [Bootstrap](https://getbootstrap.com/).
 Bootstrap contains "offset" classes that can be used to replace those first two column `<div>`.
 I didn't address this because the developer may plan to use it.
 It's more simple for me to note that in my review notes to the developer than to tell them to make those changes.

@@ -4,7 +4,7 @@ permalink: /projects/families-usa
 name: "Families USA: Medicaid Expansion Waivers in the States"
 description: An interactive map for Families USA.
   Implemented the map using angular and d3
-project_link: http://familiesusa.org/medicaid-expansion-waivers-states
+project_link: https://familiesusa.org/medicaid-expansion-waivers-states
 createdDate: "2015-06-21"
 ---
 
@@ -12,7 +12,7 @@ createdDate: "2015-06-21"
 
 I implemented an Angular app to make an interactive map using d3 and a wrapper on top called datamaps.
 
-[Page](http://familiesusa.org/medicaid-expansion-waivers-states) |
+[Page](https://familiesusa.org/medicaid-expansion-waivers-states) |
 [Github Project Page](https://github.com/caxy4/familes-usa-medicaid)
 
 

@@ -29,8 +29,8 @@ To free me from the past, I must recognize the ups and downs of the year. Hence,
 - The rest of the year was spent learning the history of film. Kicked off by watching the 15 hour documentary, “The Story of Film”. Final tally: 129 films. This has been the highest the past decade. Large contrast to last year being the lowest in a decade.
 - Continued to go to talks, topics ranging from Time Travel 101 to Gut Bacteria
 - Add North and South Carolina to list of states visited. Total Count: 33.
-- I started a papers reading club at work, inspired by “[Papers We Love](http://paperswelove.org/)"
+- I started a papers reading club at work, inspired by “[Papers We Love](https://paperswelove.org/)"
 - Along with many, I helped raise over $1,000 for charity:water this holiday season
 - Sent over 120 holiday cards
 
-Links to previous years: [2015](http://jermspeaks.github.io/letters/The-2015-Retrospective.html), [2014](http://jermspeaks.github.io/letters/A-Year-In-Review.html)
+Links to previous years: [2015](https://jermspeaks.github.io/letters/The-2015-Retrospective.html), [2014](https://jermspeaks.github.io/letters/A-Year-In-Review.html)

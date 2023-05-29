@@ -56,7 +56,7 @@ Contrary to your good intentions, you can’t change someone. You can give them 
 
 For a really close friend of mine, she’s distanced herself and it’s really hard to get a hold of her. Every time I try to reach out to her, she pulls back two steps. And it’s gotten to the point where I have considered ceasing my efforts to reach out and wait for her to respond. It is time to learn that I just can’t wait for her since she’s not willing to make the same investment for me.
 
-![Black eyed peas gif](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/cfb77c21-af8c-4f88-9f3b-3dd1e6ea0867.gif)
+![Black eyed peas gif](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/cfb77c21-af8c-4f88-9f3b-3dd1e6ea0867.gif)
 
 Yes, I have the Black Eyed Peas stuck in my head. So will you.
 
@@ -104,6 +104,6 @@ The benefits are enormous. Perhaps though, you don’t want to have a huge group
 
 I’m the type of person who wants enough friends around me to tell me I’m a bit crazy. I don’t care for the zillion of friends. What I care about are friends who are there for me. There isn’t much to this world more than living it with good friends.
 
-[1] If you’re interested in learning more about network marketing and multi-level marketing, listen to this episode of This American Life. http://www.thisamericanlife.org/radio-archives/episode/543/wake-up-now
+[1] If you’re interested in learning more about network marketing and multi-level marketing, listen to this episode of This American Life. https://www.thisamericanlife.org/radio-archives/episode/543/wake-up-now
 
 [2] I can’t help recommending this book if you’re in your twenty-somethings. It has a lot of great advice for young people who are in this transitionary phase of being a college student to being a working adult.

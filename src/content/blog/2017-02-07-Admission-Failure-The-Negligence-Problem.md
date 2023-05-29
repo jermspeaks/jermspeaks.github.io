@@ -12,7 +12,7 @@ description: "Where I talk about my failure to act."
 
 My glasses were falling apart. I owned them for 4 years and couldn’t persuade myself to get a new pair. To obtain a new pair, I'd need a new prescription. And being sensitive about my eyesight and didn't want to face the prospect of the optometrist diagnosing me a stronger prescription.
 
-![Broken Glasses](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/9a41b8ab-a59d-4f86-8454-973e375cc8c0.jpg)
+![Broken Glasses](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/9a41b8ab-a59d-4f86-8454-973e375cc8c0.jpg)
 
 So I did the insensible. I neglected to replace the pair of glasses. And I had no excuse. I had health insurance. There was a hurdle in my mind I couldn't jump over.
 
@@ -28,7 +28,7 @@ I went online to determine how to schedule an appointment with an optometrist. M
 
 I went in for the appointment and to my surprise, my eyes were the same as they were 4 years ago. By letting myself slip, I failed to see the absurdity of my own bias. All the moments of worry were for nothing. All the times I wondered what if, wasted.
 
-![Not broken glasses](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ed933276-b7eb-426c-bac6-13cd19c3ca0d.jpg)
+![Not broken glasses](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/ed933276-b7eb-426c-bac6-13cd19c3ca0d.jpg)
 
 ## An Introduction
 

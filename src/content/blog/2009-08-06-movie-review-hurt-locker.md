@@ -16,4 +16,4 @@ draft: true
 
 I loved this movie. It’s realistic, it’s suspenseful, and it toys around with bombs. Come on, what’s better than to watch a bomb disarmament group disarming bombs on the brink of blowing up. The movie toys with life and death and deals with real emotional impact of living the war life in Iraq.
 
-[Original Post](http://jermspeaks.com/post/157567058/the-hurt-locker-i-loved-this-movie-its)
+[Original Post](https://jermspeaks.com/post/157567058/the-hurt-locker-i-loved-this-movie-its)

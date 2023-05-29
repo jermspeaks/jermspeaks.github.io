@@ -72,7 +72,7 @@ Here's an excerpt of what I sent my sister.
 >
 > — Robert Greene
 
-[Link to the article from where the quote came from.](http://fourhourworkweek.com/2012/11/12/the-magic-of-apprenticeship-a-how-to-guide/)
+[Link to the article from where the quote came from.](https://fourhourworkweek.com/2012/11/12/the-magic-of-apprenticeship-a-how-to-guide/)
 
 How does it apply to you? Well, first off, it's the foundation steps in learning
 anything. You start to realize your potential in learning a topic of your

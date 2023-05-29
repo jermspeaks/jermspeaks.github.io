@@ -24,15 +24,15 @@ permalink: /:categories/:title.html
 
 ## Crossing the River Styx
 
-Around 5pm this past Monday, [Caltrain hit a car that was stopped on the tracks](http://www.sfgate.com/bayarea/article/Caltrain-strikes-occupied-car-near-Menlo-Park-6097385.php). Tragically, a female driver who remained in this car during the collision died. This and subsequent trains were stalled for hours as the police and train operators ran through, sadly, a very common procedure. As if that wasn’t enough, a few hours later that night, there was another fatality. Caltrain had hit a pedestrian.
+Around 5pm this past Monday, [Caltrain hit a car that was stopped on the tracks](https://www.sfgate.com/bayarea/article/Caltrain-strikes-occupied-car-near-Menlo-Park-6097385.php). Tragically, a female driver who remained in this car during the collision died. This and subsequent trains were stalled for hours as the police and train operators ran through, sadly, a very common procedure. As if that wasn’t enough, a few hours later that night, there was another fatality. Caltrain had hit a pedestrian.
 
-I was rather deterred from writing about these fatalities [the last time it happened a month ago](http://www.mercurynews.com/bay-area-news/ci_27295791/person-struck-by-train-millbrae). It seemed a bit morbid to write about because of their recency. But because they seem to happen at least once a month, I think it’s time to re-think the way we think about these events.
+I was rather deterred from writing about these fatalities [the last time it happened a month ago](https://www.mercurynews.com/bay-area-news/ci_27295791/person-struck-by-train-millbrae). It seemed a bit morbid to write about because of their recency. But because they seem to happen at least once a month, I think it’s time to re-think the way we think about these events.
 
 I wrote an essay earlier last month about [my personal journey through anxiety, depression, and suicidal thoughts](/letters/On-Anxieties-Depression-And-Suicide-Prevention.html). I feel like I can relate a little to the mindset of what may be running through the mind of a person who is on the train tracks, crossing the river styx from life to death. While life may be in a cloud of uncertainty for the suicidal person, knowing there is certainty of death from a head-on train collision could be solace. There’s no claim that either of these two incidents were successful suicide attempts, but I’ll still take this as an opportunity to think about suicide prevention.
 
 > “In the last five years, there has been an average of 14 fatalities a year on the Caltrain right of way. Of these, 90 percent were caused by suicide.”
 >
-> — [Official Caltrain PR](http://www.caltrain.com/about/news/Caltrain_Launches_Suicide-Prevention_Page_3525.html)
+> — [Official Caltrain PR](https://www.caltrain.com/about/news/Caltrain_Launches_Suicide-Prevention_Page_3525.html)
 
 ## An Invocation For Awareness
 
@@ -46,7 +46,7 @@ With mental disorders, depression, and people on the verge of suicide on the min
 
 National Suicide Prevention Hotline: (800) 273–8255
 
-[National Suicide Prevention Website](http://www.suicidepreventionlifeline.org/)
+[National Suicide Prevention Website](https://www.suicidepreventionlifeline.org/)
 
 ## Update: 3/20/2015
 
@@ -62,7 +62,7 @@ Caltrain has come out with a response to the recent suicides. You can read it [h
 
 ## Update: 5/20/2015
 
-[KQED wrote an article about suicide prevention on Caltrain Tracks](http://ww2.kqed.org/news/2015/05/20/stopping-suicide-on-the-caltrain-tracks).
+[KQED wrote an article about suicide prevention on Caltrain Tracks](https://ww2.kqed.org/news/2015/05/20/stopping-suicide-on-the-caltrain-tracks).
 
 > Stephanie Weisner runs Wellness and Recovery Services at StarVista, a San Mateo County nonprofit. Weisner credits Caltrain with sending its employees into the community to participate on boards and committees focused on suicide intervention.
 >

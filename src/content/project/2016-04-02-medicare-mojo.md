@@ -5,7 +5,7 @@ name: Medicaremojo
 description:
   An app using IBM Watson to make a better way of sorting through Medicare documentation.
   Project part of IBM Watson's 2016 Hackathon challenge.
-project_link: http://www.medicaremojo.com/
+project_link: https://www.medicaremojo.com/
 createdDate: "2016-04-02"
 # image: /images/flitr.jpg
 # url: /coral-reef-game
@@ -39,7 +39,7 @@ We're [hacking away](https://devpost.com/software/medicaremojo-hieqj8) using IBM
 - Faustine Huynh (fnhuynh)
   UX Designer and Researcher
 - Jeremy Wong (jermspeaks)
-  Front-end Engineer @Inform, Runner, Writer: http://t.co/FrbTIvWqGP
+  Front-end Engineer @Inform, Runner, Writer: https://t.co/FrbTIvWqGP
 - Jonathan Tsay (JonTsay)
   "life has really come together around User Experience design"
 - JuLee Burdekin (theship)
