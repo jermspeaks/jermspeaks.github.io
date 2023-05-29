@@ -11,7 +11,7 @@ postType: "blog"
 
 
 
-![Levenshtein Distance Matrix](http://www.levenshtein.net/images/levenshtein_meilenstein_matrix.gif)
+![Levenshtein Distance Matrix](https://www.levenshtein.net/images/levenshtein_meilenstein_matrix.gif)
 
 > Levenshtein Distance Matrix
 

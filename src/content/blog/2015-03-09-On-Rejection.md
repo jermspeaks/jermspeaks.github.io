@@ -16,7 +16,7 @@ permalink: /:categories/:title.html
 
 There’s this story I heard where parents convinced a pee-wee soccer referee not to count points for their kids’ game. This pee-wee soccer game would have no winners or losers and the parents wouldn’t have to worry that their kids would be devastated if they lost. However, what I believe that does is the kid will lose out on essential character building. As Calvin’s dad says in the comic strip, "Calvin and Hobbes", everything not worth doing is an experience to build character. This trait goes by other words, perseverance and grit, and it’s one of the most important life lessons. Things may not go our way, but we have the choice to continue to push on or fail to recover. The reassuring thing about the pee-wee soccer match was the referee noticed the kids were keeping track of the score in their heads, so at the end of the game, they knew who won and who lost.
 
-![Calvin and Hobbes - building character](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/15bf159d-43ee-4d26-8791-958f7fe5b21f.png)
+![Calvin and Hobbes - building character](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/15bf159d-43ee-4d26-8791-958f7fe5b21f.png)
 
 ## Trading Spaces
 

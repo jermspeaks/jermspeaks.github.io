@@ -14,7 +14,7 @@ postType: "archive"
 As you may know, every year I’ve been releasing a yearly goal list. Last year, I went too far and tried to reach a whooping goal of 22 goals. Some of them were a mistake. Some of them were just a reminder of what I should keep in mind. I’m going to go over each one and tell you which ones failed and which ones actually succeeded.
 
 1. Retain some other English accent  
-Yup, failed this one. But I have a good reference point if I actually want to do this one. I was watching [Rocketboom](http://www.rocketboom.com/signup.php), and they [interviewed](http://www.rocketboom.com/signup.php) [Amy Stoller](http://www.stollersystem.com/), which motivates me to get a coach or deconstruct dialects by myself.
+Yup, failed this one. But I have a good reference point if I actually want to do this one. I was watching [Rocketboom](https://www.rocketboom.com/signup.php), and they [interviewed](https://www.rocketboom.com/signup.php) [Amy Stoller](https://www.stollersystem.com/), which motivates me to get a coach or deconstruct dialects by myself.
 2. Take an Art or Photography class  
 Strange this one goes on my list with no explanation. I’ve taken an art class before, so this shouldn’t really be a goal. I think the take-away goal here is that I should learn more of art or photography techniques. Failed this one, if we talk only about this year.
 3. Participate in a Marathon and train for it  
@@ -45,7 +45,7 @@ I have to admit that I haven’t been as active on my blog, but I’m still upda
 14. Study history of pop music  
 done best by listening to 2 or 3 albums a week
 Well, it’s a win-lose situation. I’ve broadened my spectrum of listening to the history of hip-hop and metal so far. Albums, no. Pop music, I think I get enough of it as it is. Failed.
-15. Tweet everyday with a new vocab word (Probably for [artwiculate](http://artwiculate.com/))  
+15. Tweet everyday with a new vocab word (Probably for [artwiculate](https://artwiculate.com/))  
 Again, no need for an explanation. I’ll try some other form of this in the future. Thanks to this goal, I have been put in a strange twitter list. Failed.
 16. Write a screenplay for a short film or web-series  
 Ha, I think I actually remember writing this, then regretting it. Failed.
@@ -72,4 +72,4 @@ Yup, passed this one. I forgot this was even a goal.
 I guess this year has taught me there’s not enough days to do everything I want. Plus, with reading more, I’ve discovered something in myself; I need to diversify myself and gain some sort of creative engine again. This new idea of mine really comes from this [blog post](https://elizabethonline.com/blog-stay-out-of-school/2016/9/30/you-cannot-sing-if-you-cannot-cook) I read from [Elizabeth King](https://elizabethonline.com/blog-stay-out-of-school/). It’s going to be a theme for next year, as I wrap up this blog post.
 Happy holidays, and keep checking for holiday updates.
 
-[Original Post](http://jermspeaks.com/post/2358270380/2010goalsrevisited)
+[Original Post](https://jermspeaks.com/post/2358270380/2010goalsrevisited)

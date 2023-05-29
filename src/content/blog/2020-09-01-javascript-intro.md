@@ -42,7 +42,7 @@ The history is, Brendan Eich created Mocha which became LiveScript, and later Ja
 
 It's important to note that Brendan Eich's "JavaScript" is not the same JavaScript that is a dialect of ECMAScript. He built the core language which was renamed to ECMAScript, which differs from the JavaScript which browser-vendors implement nowadays.
 
-- [Wikipedia Reference](http://en.wikipedia.org/wiki/ECMAScript)
+- [Wikipedia Reference](https://en.wikipedia.org/wiki/ECMAScript)
 - [Reference from StackOverflow](https://stackoverflow.com/questions/4269150/what-is-ecmascript)
 
 ### ES2015 / ES6
@@ -596,9 +596,9 @@ And here we write a generator function that will return our data:
 
 ```js
 function* getData() {
-  var entry1 = yield request("http://some_api/item1");
+  var entry1 = yield request("https://some_api/item1");
   var data1 = JSON.parse(entry1);
-  var entry2 = yield request("http://some_api/item2");
+  var entry2 = yield request("https://some_api/item2");
   var data2 = JSON.parse(entry2);
 }
 ```
@@ -633,9 +633,9 @@ By augmenting our Generator with Promises, we have a clear way of propagating er
 
 ```js
 iterateGenerator(function* getData() {
-  var entry1 = yield request("http://some_api/item1");
+  var entry1 = yield request("https://some_api/item1");
   var data1 = JSON.parse(entry1);
-  var entry2 = yield request("http://some_api/item2");
+  var entry2 = yield request("https://some_api/item2");
   var data2 = JSON.parse(entry2);
 });
 ```

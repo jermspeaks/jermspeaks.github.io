@@ -108,7 +108,7 @@ From this scope, I'm taking a stab at formulating questions I would ask if I was
 - What would you check if a website is slow?
 - What is a load balancer? What are some examples of solutions?
 - Explain long-polling. *Follow-up*: explain web-sockets.
-[pubnub explanation](http://stackoverflow.com/questions/10028770/in-what-situations-would-ajax-long-short-polling-be-preferred-over-html5-websock)
+[pubnub explanation](https://stackoverflow.com/questions/10028770/in-what-situations-would-ajax-long-short-polling-be-preferred-over-html5-websock)
 - Explain WebRTC
 - Explain Server Sent Events
 - What is HTTP 1.1 and what is HTTP 2?
@@ -127,7 +127,7 @@ From this scope, I'm taking a stab at formulating questions I would ask if I was
 - How does the model, controller, and view interact with each other in Django?
 How about in Rails? How about in any front-end framework?
 - Have you heard of variations on the MVC model, like MVVM or MVP?
-[stackoverflow](http://stackoverflow.com/questions/141912/alternatives-to-the-mvc)
+[stackoverflow](https://stackoverflow.com/questions/141912/alternatives-to-the-mvc)
 - What are some examples of frameworks with MVC on the back-end?
 What are some examples of having MVC or MVC-like frameworks on the front-end?
 What are the pros and cons of having MVC all on the back-end?
@@ -182,7 +182,7 @@ What are the pros and cons of having MVC all on the back-end?
 - If you were to query through a database given a complex query through an REST API call, what HTTP verb would you use?
 - Why would you use a PUT call?
 - Do you know what the [Open API Initiative](https://www.openapis.org/) is? *This one is to throw the person off*
-[Swagger](http://swagger.io/) plug
+[Swagger](https://swagger.io/) plug
 - Why use placeholders in SQL queries? (Answer: defense against SQL Injections)
 Better Question: What is a placeholder and why would you use them in SQL queries?
 

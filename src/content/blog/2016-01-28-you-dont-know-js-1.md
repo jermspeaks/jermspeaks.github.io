@@ -22,7 +22,7 @@ I've been a Javascript developer for the past year and a half. By reading the "Y
 
 In Up & Going, I'm hoping to review the basics and understand more deeply why the language has the set of tools it has, and perhaps a deeper understanding of why we write Javascript the way we do.
 
-### Forward by [Jenn Lucas](http://jennlukas.com/)
+### Forward by [Jenn Lucas](https://jennlukas.com/)
 
 * Lightbulb moment - the feeling when you got it.
   * Leading to this moment, you are frustrated
@@ -206,7 +206,7 @@ foo();
 // "Hello!"
 ```
 
-* An example use case was with [Highcharts](http://www.highcharts.com/) and creating an options object. You can't always assign a key with a function, so this is one way around it.
+* An example use case was with [Highcharts](https://www.highcharts.com/) and creating an options object. You can't always assign a key with a function, so this is one way around it.
 * **Closure** is a way to "remember" and continue to access a function's scope.
   * I think of this as a way to tweak functions without having to write out more functions.
   * This is least understood by JS developers, and I think I know why. To me, it's a function generator, although that's an improper term because Javascript can create a generator function, which is a totally different topic.

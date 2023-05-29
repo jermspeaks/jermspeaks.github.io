@@ -81,6 +81,7 @@ const library = defineCollection({
       .or(z.date())
       .transform((val) => new Date(val)),
     heroImage: z.string().optional(),
+    heroImageAlt: z.string().default("book cover"),
     review: z.string(),
     link: z.string(),
   }),
@@ -90,13 +91,17 @@ const filmLibrary = defineCollection({
   schema: z.object({
     title: z.string(),
     director: z.string(),
-    releaseYear: z.string().or(z.number()).or(z.date().transform((val) => new Date(val))),
+    releaseYear: z
+      .string()
+      .or(z.number())
+      .or(z.date().transform((val) => new Date(val))),
     // Transform string to Date object
     dateConsumed: z
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
     heroImage: z.string().optional(),
+    heroImageAlt: z.string().default("Film Poster"),
     link: z.string(),
   }),
 });

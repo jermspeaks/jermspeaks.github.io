@@ -56,7 +56,7 @@ people. And build a new connection by the end of our conversation.
 
 To begin this series, I reached out to my friend, Simon Gondeck. He's an
 entrepreneur and web developer for his own consulting company,
-[MG Web Partners](http://www.mgwebpartners.com/). Besides catching up with an
+[MG Web Partners](https://www.mgwebpartners.com/). Besides catching up with an
 friend, I wanted to probe him about starting a company. Simon did not disappoint. In our conversation, he went over that and so much more.
 
 ## Enter Simon
@@ -83,7 +83,7 @@ After the software bootcamp, Simon returned to school, living in St. Paul,
 Minnesota. He got a part-time job working at a web consulting company. While on the job, he discovered he was compensated far less than the contract stipulated. 
 
 An epiphany came when he was at a yoga class. The studio were in need of a 
-website, but all of the contractors they found were out of their budget. Simon and his friend Johnny and he drafted a reasonable offer, and they got their first contract. [MG Web Partners](http://www.mgwebpartners.com/) was born.
+website, but all of the contractors they found were out of their budget. Simon and his friend Johnny and he drafted a reasonable offer, and they got their first contract. [MG Web Partners](https://www.mgwebpartners.com/) was born.
 
 #### Lessons on Starting a Business
 
@@ -138,7 +138,7 @@ After our conversation about MG Web Partners, Simon turned the tables and asked 
 
 Simon asked some advice about creating a writing habit and how to get through
 writer's block. One of his goals is to boost
-[his company's blog](http://www.mgwebpartners.com/blog/) by writing more
+[his company's blog](https://www.mgwebpartners.com/blog/) by writing more
 frequently. I had a few recommendations for him.
 
 - **Write a minimum amount every day.** I choose a page a day.

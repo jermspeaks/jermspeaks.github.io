@@ -12,7 +12,7 @@ published: true
 title: Brace Expansion
 ---
 
-From http://wiki.bash-hackers.org/syntax/expansion/brace
+From https://wiki.bash-hackers.org/syntax/expansion/brace
 
 ```bash
 {string1,string2,...,stringN}
@@ -161,13 +161,13 @@ In this example, ''wget'' is used to download documentation that is split over s
 ''wget'' won't see your braces. It will see **6 different URLs** to download.
 
 ```bash
-wget http://docs.example.com/documentation/slides_part{1,2,3,4,5,6}.html
+wget https://docs.example.com/documentation/slides_part{1,2,3,4,5,6}.html
 ```
 
 Of course it's possible, and even easier, to do that with a sequence:
 
 ```bash
-wget http://docs.example.com/documentation/slides_part{1..6}.html
+wget https://docs.example.com/documentation/slides_part{1..6}.html
 ```
 
 ### Generate a subdirectory structure

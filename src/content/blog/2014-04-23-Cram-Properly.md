@@ -19,7 +19,7 @@ You can break down the process of sensory input and memory in this linear fashio
 
 ![Memory Flow Diagram](https://cdn-images-1.medium.com/max/1600/1*JH4ITyFMRAwtkYLIvQE_tg.png)
 
-> Memory Process, Taken from [this website](http://mrmanpr.blogspot.com/2010/04/memory-and-nostalgia.html)
+> Memory Process, Taken from [this website](https://mrmanpr.blogspot.com/2010/04/memory-and-nostalgia.html)
 
 With encoding, we’re looking at the things that we’ve decided to turn into a memory. This has a high importance because this will determine if we retain information or not. If we don’t encode it correctly, we will screw our efforts in learning something. This encoding method is constrained by working memory, which is 7 +/- 2 chunks. This means in our attention span, we’re only going to be juggling only this many chunks at a time. We can think of our attention span as RAM. Chunks here does not mean 7 characters and can take many forms that we can manipulate. For example, one chunk can be a phone number, it can be a word or a phrase, it can be a pneumonic.
 

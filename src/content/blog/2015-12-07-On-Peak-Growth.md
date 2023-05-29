@@ -14,7 +14,7 @@ permalink: /:categories/:title.html
 
 Have you ever felt like you’ve stalled in improving your skills? You reach 20,000 miles driving your car, and you think, “yeah, there’s nothing more I can do to improve my driving skills.” You feel comfortable clocking in at work, mindlessly going through the actions because you’ve done this work a thousand times before, and there’s absolutely nothing that will shock you. I’m not critiquing the boredom one could face droning through work. I’m making an observation that you don’t even notice when you’ve reached a peak in growth.
 
-![graph of peak growth](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/438cb12f-3677-4dde-b4e2-8a058ce9e840.jpg)
+![graph of peak growth](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/438cb12f-3677-4dde-b4e2-8a058ce9e840.jpg)
 
 ## At First, How Much
 

@@ -24,7 +24,7 @@ I know I’ve written about this before, but I love revisiting this concept of s
 
 In hindsight, prep work may have helped with these pieces. However, I recognize if I put too much time in prepping a piece, like making outlines or brainstorming ideas, the less I would actually want to write about that topic. I start drafts because I know they would at least give me a prototype of what the piece could be. In Robin Sloan’s last newsletter, “Primes”, in late March, he showed a screenshot of all the drafts that he had for that piece. His Gmail inbox, shown below, has at least 20 ideas for the drafts or things he wanted to share, but didn’t make the cut. When I saw that, I was amazed that I’m not the only one who has a troubled time sticking to one topic. The drafts aren’t all bad news or failed starts. They also have some idea that I cannot yet figure out, and when I do, it will be addressed in a later letter.
 
-![Robin Sloan on Primes newsletter drafts](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/50cd28c4-9d6d-4bee-b9b1-28d5a530d603.png)
+![Robin Sloan on Primes newsletter drafts](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/50cd28c4-9d6d-4bee-b9b1-28d5a530d603.png)
 
 I write all of my letters in Evernote which has this feature to look at past revisions of a note. If I ever wanted to, I can re-read a draft and see all of my deleted sentences and paragraphs. All of this data is saved upon future investigation on the topic.
 

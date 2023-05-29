@@ -33,7 +33,7 @@ const logs = (await getCollection("log")).sort(
             {
               logs.map((log) => (
                 <li>
-                  <a href={`/log/${log.slug}/`}>{log.data.title}</a>
+                  <a href={`/log/${log.slug}/`} title={log.data.title}>{log.data.title}</a>
                 </li>
               ))
             }

@@ -25,4 +25,4 @@ So what was good about the movie? Umm… That’s left for someone else to think
 
 Bottom line: Did it make me laugh? Yes, but it didn’t leave me feeling like I should watch it again. If you’re into gay sex and naked people, as well as toilet humor, this is your movie. I’m not a fourteen-year-old kid, and I don’t think I’ll ever enjoy this humor again.
 
-[Original Post](http://jermspeaks.com/post/153469705/my-review-rant-on-bruno-not-worth-my-time)
+[Original Post](https://jermspeaks.com/post/153469705/my-review-rant-on-bruno-not-worth-my-time)

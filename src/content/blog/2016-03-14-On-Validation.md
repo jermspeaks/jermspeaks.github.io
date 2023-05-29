@@ -35,6 +35,6 @@ Abstraction validation is testing the translation between domain terms and visua
 Idiom validation is testing the right tool for the right job.
 Algorithm validation is benchmarking the algorithms and determining if they’re performant.
 1. The production line example is loosely taken from the three ways described in the book,
-"[The Phoenix Project](http://itrevolution.com/books/phoenix-project-devops-book/)",
+"[The Phoenix Project](https://itrevolution.com/books/phoenix-project-devops-book/)",
 which describes software and dev-ops as a production line.
 It’s worth a read if you’re in software and you’re having issues in your team’s pipeline.

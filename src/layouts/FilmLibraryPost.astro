@@ -10,7 +10,8 @@ import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"filmLibrary">["data"];
 
-const { title, heroImage, releaseYear, director, dateConsumed } = Astro.props;
+const { title, heroImage, releaseYear, director, dateConsumed, heroImageAlt } =
+  Astro.props;
 ---
 
 <html lang="en">
@@ -23,7 +24,11 @@ const { title, heroImage, releaseYear, director, dateConsumed } = Astro.props;
     <main>
       <ProseArticle>
         <h1>{title}</h1>
-        {heroImage && <img width={230} height={345} src={heroImage} alt="" />}
+        {
+          heroImage && (
+            <img alt={heroImageAlt} height={345} src={heroImage} width={230} />
+          )
+        }
         <div class="py-4 border-b-2 border-solid border-gray-300 mt-2">
           <div>
             Released: {releaseYear}

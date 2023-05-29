@@ -14,7 +14,7 @@ postType: "learning"
 
 After reading [a lengthy comic](https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/) from [Lin Clark](https://code-cartoons.com/) about WebAssembly,
 I thought it might be great to do a deep dive with it.
-Thank goodness the folks behind the project have a very nice _[Getting Started](http://webassembly.org/getting-started/developers-guide/)_ tutorial.
+Thank goodness the folks behind the project have a very nice _[Getting Started](https://webassembly.org/getting-started/developers-guide/)_ tutorial.
 
 ## Prerequisites
 

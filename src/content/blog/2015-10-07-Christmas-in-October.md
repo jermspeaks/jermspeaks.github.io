@@ -20,11 +20,11 @@ Teagan grew up with them. She told me her parents got all six siblings and her t
 
 Teagan and I decided to mock the generic format of the Christmas Card. The card had individual pictures of each roommate in the background followed by a center picture of everyone together. The generic heading, “Merry Christmas”, curved it’s way in on the bottom. I was glad our roommates participated in our absurd card, and I printed enough for each roommate to distribute 6 copies of the card. When I gave it to my family, there had a hoot. I remember they laughed so hard, and I wanted to cherish that moment. However, I was disappointed I didn’t have more to give.
 
-![Year 1 of Christmas Cards](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/44536f33-950b-4c61-a26c-397a5bf9b923.jpg)
+![Year 1 of Christmas Cards](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/44536f33-950b-4c61-a26c-397a5bf9b923.jpg)
 
 The next year, I wanted to continue this gift. I decided this should be a running tradition. I created another card of just myself. On it, there are three panels. In the first panel, I dressed up like Santa Claus, the next panel, I was taking off the costume, and the third panel, I made a “ta-da” pose. Laughing at it for a minute, I thought this would be perfect. With the disappointment of having only 6 cards to distribute last year, I preemptively ordered a hundred copies. To my dismay, only 30 people replied, leaving me with 70 unusable Christmas Cards. But, I shouldn’t say it wasn’t worth it because those who were sent the card gave me their gratitude.
 
-![Year 2 of Christmas Cards](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/9594a1fc-a162-454b-9540-93f12022458a.jpg)
+![Year 2 of Christmas Cards](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/9594a1fc-a162-454b-9540-93f12022458a.jpg)
 
 Instead of keeping to the same format year after year, the following year, I went all out. Recognizing I probably wouldn't need to send too many out, I sent out invitations telling everyone I would send pictures of us together on the postcard. By making this simple change, my number of recipients grew by over two-fold. This time, everyone was elated when they received my card and saw their own face on it. I learned personalization is key to making a better Christmas Card with greater emotional weight.
 
@@ -40,7 +40,7 @@ I started water coloring this year, and think it would be really neat to do a fe
 
 Last year, I learned hand writing 140 letters may result in minor forearm muscle cramps. Instead of hand writing, I wanted some way of showing I wrote the letter with meaningful though. Enter a typewriter. I’m using an Olivetti Praxis 48, an electric typewriter from the late 1960’s. Some of the relic’s buttons don’t function. I’m looking at you, letter z, 2 and shift key! I’ve chosen to use plain dot matrix printer paper with the side perforations. These two items pair well as it shows a world we’ve left behind.
 
-![Olivetti Typewriter](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/0452a8d3-b840-4e88-a851-e95b9b9a1db7.jpg)
+![Olivetti Typewriter](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/0452a8d3-b840-4e88-a851-e95b9b9a1db7.jpg)
 
 Now I know I could send this all digitally. But, there’s something about the physical medium that changes the perception of a gift. An email can whiz by you without a moment’s notice. A physical card is something you must take the time and look at. Instead of that 6 second email interaction, you may take up to a few minutes looking at my Christmas Card. Some websites have caught on to this, such as Reddit Gifts or Metafilter’s CD swap.
 

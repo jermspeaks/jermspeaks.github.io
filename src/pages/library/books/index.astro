@@ -30,7 +30,11 @@ const libraryReviews = library.map((book) => {
               href={book.data.link}
               target="_blank"
             >
-              <img src={book.data.heroImage} width="200" />
+              <img
+                alt={book.data.heroImageAlt}
+                src={book.data.heroImage}
+                width="200"
+              />
             </a>
             <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
               <div>{book.data.title}</div>

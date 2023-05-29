@@ -42,13 +42,13 @@ When I say I want to help you, I mean I want to be where you are. I can be the b
 
 Next time we see each other, I’ll give you a huge hug. Hell, here’s a virtual hug.
 
-![Virtual Hug](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/b1fd6d10-6194-442d-ae22-7e58b7f18dd1.png)
+![Virtual Hug](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/b1fd6d10-6194-442d-ae22-7e58b7f18dd1.png)
 
 That felt good, right?
 
 I can’t help but recommend these two posts: Depression Part 1, Depression part 2. Allie Brosh of Hyperbole and a Half wrote these two stories about her ongoing struggle with depression. I found myself relating to them, both laughing and crying.
 
-![Hyperbole and a Half on Depression](http://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/847f58a1-67a8-4932-8da6-0d9ea6dc86e7.png)
+![Hyperbole and a Half on Depression](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/847f58a1-67a8-4932-8da6-0d9ea6dc86e7.png)
 
 It takes a serious dark tone and tries to vocalize how a depressive person feels. This panel above hit home because I imagined if I tried to tell my mother when I was depressed that I just wanted to be dead, she would bereave and I couldn’t live myself. In an interview with NPR, she opens up about her suicide attempt on the radio, something she didn’t tell in detail to her husband. She breaks down a little, and I feel its gravity and weight. I wept. Hearing that, I could relate with my own experiences, and that really hit deep. Maybe it may hit deep with you.
 
