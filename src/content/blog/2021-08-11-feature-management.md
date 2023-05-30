@@ -2,7 +2,7 @@
 title: Feature Management
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["react"]
 date: 2021-08-11
 description: ""

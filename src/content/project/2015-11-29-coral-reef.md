@@ -6,11 +6,8 @@ description: Board game to teach children about coral reefs.
   Project from Science Hack Day 2015
 # project_link: https://github.com/jermspeaks/coral-reef-game
 createdDate: "2015-11-29"
-# image: /images/flitr.jpg
 url: /coral-reef-game
 ---
-
-
 
 A Science Hack Day SF 2015 hack.
 
@@ -31,9 +28,9 @@ This cooperative board game is to help kids understand what impacts coral reefs 
 
 ### Game Details
 
-* The game is for 1 to 4 players.
-* The game is intended for ages 7 and up.
-* It takes 5 minutes to play one round.
+- The game is for 1 to 4 players.
+- The game is intended for ages 7 and up.
+- It takes 5 minutes to play one round.
 
 ## Gameplay
 

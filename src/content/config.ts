@@ -1,80 +1,88 @@
 import { defineCollection, z } from "astro:content";
+import { rssSchema } from "@astrojs/rss";
 
 const blog = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
-    title: z.string(),
+    author: z.string().default("Jeremy Wong"),
+    categories: z.array(z.string()).optional(),
+    commentsUrl: z.string().optional(),
+    customData: z.string().optional(),
     description: z.string(),
+    draft: z.boolean().optional(),
+    heroImage: z.string().optional(),
+    postType: z.string(),
     // Transform string to Date object
     pubDate: z
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    tags: z.array(z.string()).optional(),
+    title: z.string(),
     updatedDate: z
       .string()
       .optional()
       .transform((str) => (str ? new Date(str) : undefined)),
-    draft: z.boolean().optional(),
-    heroImage: z.string().optional(),
-    postType: z.string(),
-    tags: z.array(z.string()).optional(),
   }),
 });
 
 const log = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
-    title: z.string(),
     description: z.string(),
+    draft: z.boolean().optional(),
+    heroImage: z.string().optional(),
+    postType: z.string(),
     // Transform string to Date object
     pubDate: z
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    title: z.string(),
     updatedDate: z
       .string()
       .optional()
       .transform((str) => (str ? new Date(str) : undefined)),
-    draft: z.boolean().optional(),
-    heroImage: z.string().optional(),
-    postType: z.string(),
   }),
 });
 
 const project = defineCollection({
   schema: z.object({
-    title: z.string(),
-    description: z.string(),
     // Transform string to Date object
     createdDate: z
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    description: z.string(),
+    title: z.string(),
   }),
 });
 
 const series = defineCollection({
   schema: z.object({
-    title: z.string(),
-    description: z.string(),
     // Transform string to Date object
     createdDate: z
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    description: z.string(),
     endDate: z
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
     heroImage: z.string().optional(),
     tag: z.string(),
+    title: z.string(),
   }),
 });
 
-const library = defineCollection({
+const book = defineCollection({
   schema: z.object({
-    title: z.string(),
-    author: z.string(),
+    author: z.string().default("Jeremy Wong"),
+    bookAuthor: z.string(),
+    categories: z.array(z.string()).optional(),
+    customData: z.string().optional(),
+    description: z.string().optional(),
     // Transform string to Date object
     dateConsumed: z
       .string()
@@ -82,36 +90,40 @@ const library = defineCollection({
       .transform((val) => new Date(val)),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().default("book cover"),
-    review: z.string(),
     link: z.string(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    title: z.string(),
   }),
 });
 
 const filmLibrary = defineCollection({
   schema: z.object({
-    title: z.string(),
-    director: z.string(),
-    releaseYear: z
-      .string()
-      .or(z.number())
-      .or(z.date().transform((val) => new Date(val))),
     // Transform string to Date object
     dateConsumed: z
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    director: z.string(),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().default("Film Poster"),
     link: z.string(),
+    releaseYear: z
+      .string()
+      .or(z.number())
+      .or(z.date().transform((val) => new Date(val))),
+    title: z.string(),
   }),
 });
 
 const lindy = defineCollection({
   schema: z.object({
-    title: z.string(),
     author: z.string(),
     heroImage: z.string().optional(),
     link: z.string(),
+    title: z.string(),
   }),
 });
 
@@ -123,8 +135,8 @@ const resume = defineCollection({
 
 export const collections = {
   blog,
+  book,
   filmLibrary,
-  library,
   lindy,
   log,
   project,

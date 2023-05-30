@@ -10,8 +10,6 @@ tags: [season_1, letters]
 permalink: /:categories/:title.html
 ---
 
-
-
 This week, a friend asked me, "Will you find me a good but not crazy or preachy "learn to like yourself more" book please??” I gifted some books and followed up with a lengthy email for why I selected those books. I decided to blog about it and share my recommendations.
 
 **['Thanks for the Feedback: The Science and Art of Receiving Feedback Well' - Douglas Stone](https://www.amazon.com/Thanks-Feedback-Science-Receiving-Well/dp/0670014664/ref=pd_sim_b_6?ie=UTF8&refRID=0WK0K543NSV3AR94RVG2)**
@@ -42,7 +40,6 @@ My cousin shared her TED talk, and I ended up buying and reading her book. Dr. J
 
 A fairly short book about building relationships in the long run. This was recommended by my roommate and many people on the Internet. Most relationships break down because of communication, specifically each partner does not know how to speak or listen to each other's love languages. When you learn about each one, you can start to notice your past relationships and see where things started to break down. Dr. Chapman has been in his field for over two decades counseling marriages when he wrote this book, and it's a culmination of distilling into 5 simple points of how couples speak to each other. Ignore the fact he's religious because there's practical value here, and he tries to be fairly secular.
 
-
 **['Mindset: The New Psychology of Success' - Carol Dweck](https://www.amazon.com/Mindset-How-Fulfil-Your-Potential-ebook/dp/B000FCKPHG/)**
 
 At a school development meeting at my job at the Prep School, this book was highly praised. Dr. Dweck is a researcher at Stanford who studied kids and success, and came up with the concepts of growth mindset and fixed mindset. I took two days to sit down and read this book, and came to thinking differently about my own learning and career. I learned to ask questions and not to put up walls when I find something difficult to do. Most of the claims Dr. Dweck makes is based on her studies she's run for over two decades.
@@ -69,7 +66,7 @@ It was a toss-up between this book and the Dr. Meg Jay book. This is a very acti
 
 Kio Stark is a professor at NYU's ITP program (Interactive Telecommunications Program), a writer, and a graduate student dropout. Before I even heard of ITP, I heard about this project from Kickstarter. I was a week too late to back the project, but I really wanted to be included. I signed up on the mailing list to be told when this book is going to come out. I wasn't disappointed. This is a book about a series of interviews with accomplished people who did not decide to go to graduate school and let their careers guide them through figuring out what they wanted to do. Mrs. Stark also talks about her own experiences, and then gives a great follow-up companion on how to start learning things on your own that don't require graduate school. Definitely a good read if you're thinking about going down the graduate school route.
 
-*Side Note: I went to New York last year to check out ITP because I was thinking about applying.*
+_Side Note: I went to New York last year to check out ITP because I was thinking about applying._
 
 **[The Miracle of Mindfulness' by Thich Nhat Hanh](https://www.amazon.com/Miracle-Mindfulness-Introduction-Practice-Meditation-ebook/dp/B009U9S6VM/)**
 
@@ -91,7 +88,7 @@ This book was a lot shorter than I imagined. It's about a scientist who studies 
 
 As I mentioned, this was my second choice. I think this book is great in its research on habits and the author's journey changing one of his habits that resulted in weight loss. But don't take his weight loss story as motivation to read this book. It's more about the power good habits can bring to your life and how bad habits are hard to unlearn. However, by the end of the book, Duhigg breaks down habit formation in easy steps and you can follow it too. There's also this great infographic about the steps online.
 
-### Honorable Mentions:
+### Honorable Mentions
 
 You'll often find [Dale Carnegie's "How to Win Friends and Influence People"](https://www.amazon.com/How-Win-Friends-Influence-People-ebook/dp/B003WEAI4E/) on many people's list of top self-help books. Published in the '30s, Carnegie tells some simple ways to talk and interact with people. It tells you to be kind and listen to others. To me, it was a bunch of common sense, but at the same time, it's worth a quick flip through. If you actually read the book, you'll hear about Carnegie's fascination with Lincoln and a ton of parables to back what he's saying.
 

@@ -2,7 +2,7 @@
 title: Browsers - An Introduction
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["audit", "checklist"]
 date: 2020-08-31
 description: "A short introductary guide to Browsers, written for incoming interns at Clear Labs"

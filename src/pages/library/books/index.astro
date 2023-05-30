@@ -3,32 +3,21 @@ import { getCollection } from "astro:content";
 import FormattedDate from "../../../components/FormattedDate.astro";
 import LibraryPage from "../../../layouts/LibraryPage.astro";
 
-const library = (await getCollection("library")).sort(
+const bookLibrary = (await getCollection("book")).sort(
   (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
 );
 const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
-const libraryReviews = library.map((book) => {
-  const postIndex = posts.findIndex(
-    (post) => post.data.title === book.data.review
-  );
-  if (postIndex > -1) {
-    return posts[postIndex];
-  } else {
-    return { slug: null };
-  }
-});
 ---
 
 <LibraryPage>
   <section>
     <ul class="flex flex-wrap list-none mt-8 p-0 gap-4">
       {
-        library.map((book, bookIndex) => (
+        bookLibrary.map((book) => (
           <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
             <a
               class="visited:text-purple-600"
-              href={book.data.link}
-              target="_blank"
+              href={`/library/books/${book.slug}`}
             >
               <img
                 alt={book.data.heroImageAlt}
@@ -38,21 +27,11 @@ const libraryReviews = library.map((book) => {
             </a>
             <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
               <div>{book.data.title}</div>
-              <div>{book.data.author}</div>
+              <div>{book.data.bookAuthor}</div>
               <FormattedDate
                 class="italic text-slate-600 dark:text-slate-300"
                 date={book.data.dateConsumed}
               />
-              {libraryReviews?.[bookIndex]?.slug && (
-                <div>
-                  <a
-                    class="visited:text-purple-600"
-                    href={`/blog/${libraryReviews[bookIndex].slug}`}
-                  >
-                    Review
-                  </a>
-                </div>
-              )}
             </div>
           </li>
         ))

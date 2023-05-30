@@ -2,7 +2,7 @@
 title: Intro to Webassembly
 published: true
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["webassembly"]
 permalink: /:categories/:title.html
 date: 2017-06-06

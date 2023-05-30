@@ -2,7 +2,7 @@
 title: React Unit Testing Notes
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["react", "testing"]
 date: 2019-08-19
 description: ""

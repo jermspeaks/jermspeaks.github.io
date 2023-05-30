@@ -9,8 +9,6 @@ heroImage: ""
 postType: "archive"
 ---
 
-
-
 Every so often, I read too many books in a short amount of time. I thought it would be beneficial for folks to hear me out and see what they think of the books I've read.
 
 **The Cuckoo's Calling, by Robert Galbraith**
