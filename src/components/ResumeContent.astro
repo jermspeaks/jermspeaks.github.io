@@ -3,13 +3,15 @@ import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"resume">;
 
-const { data, render } = Astro.props;
+const { data, render, headingLevel = 2 } = Astro.props;
 const { Content } = await render();
 ---
 
 <section>
-  <h2>
-    {data.title}
-  </h2>
+  {headingLevel === 1 && <h1>{data.title}</h1>}
+  {headingLevel === 2 && <h2>{data.title}</h2>}
+  {headingLevel === 3 && <h3>{data.title}</h3>}
+  {headingLevel === 4 && <h4>{data.title}</h4>}
+
   <article><Content /></article>
 </section>
