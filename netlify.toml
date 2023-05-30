@@ -5,6 +5,8 @@
 [build.environment]
   NODE_VERSION = "16" 
   ## as of 2.3.3, Astro uses Node v16
+  ## Set the Timezone as PST
+  TZ = "UTC-8:00"
 
 [[headers]]
   ## https://answers.netlify.com/t/content-type-header-not-working-in-netlify-toml/7718

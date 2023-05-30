@@ -110,6 +110,10 @@ const filmLibrary = defineCollection({
     heroImage: z.string().optional(),
     heroImageAlt: z.string().default("Film Poster"),
     link: z.string(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
     releaseYear: z
       .string()
       .or(z.number())
