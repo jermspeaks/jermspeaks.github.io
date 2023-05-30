@@ -2,7 +2,7 @@
 title: "Build a Realtime Chat App with Remix and Supabase"
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["supabase", "remix", "react"]
 date: 2023-02-08
 description: "From an egghead course, notes about building a realtime chat app with remix and supabase"

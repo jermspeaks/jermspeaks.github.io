@@ -2,7 +2,7 @@
 title: Team Contribution Guide
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["contribution", "support", "dev"]
 date: 2019-08-29
 description: ""

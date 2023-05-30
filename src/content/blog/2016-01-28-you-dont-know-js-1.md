@@ -2,7 +2,7 @@
 title: "YDKJS Part 1: Up & Going"
 published: true
 draft: false
-categories: learning
+categories: ["learning"]
 tags: [javascript]
 permalink: /:categories/:title.html
 date: 2016-01-28

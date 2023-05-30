@@ -2,7 +2,7 @@
 title: Javascript - An Introduction
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["audit", "checklist"]
 date: 2020-09-01
 description: "A short introductary guide to Javascript, written for incoming interns at Clear Labs"

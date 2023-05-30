@@ -8,12 +8,9 @@ project_link: https://familiesusa.org/medicaid-expansion-waivers-states
 createdDate: "2015-06-21"
 ---
 
-
-
 I implemented an Angular app to make an interactive map using d3 and a wrapper on top called datamaps.
 
 [Page](https://familiesusa.org/medicaid-expansion-waivers-states) |
 [Github Project Page](https://github.com/caxy4/familes-usa-medicaid)
-
 
 ![Screenshot of medicare interactive map](/images/families-medicare.png)

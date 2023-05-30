@@ -30,7 +30,7 @@ Patience is definitely a virtue, and in this case, I let my peers tell me what I
 Then I take that advice and really look into what I’ve done and see the mistake.
 I take a note when I can of these mistakes (I write in a journal every day, so personal life note-taking has been a side hobby of mine).
 
-I read this book by Daniel Kahneman called “Thinking, Fast and Slow” which delved into this topic even further.
+I read this book by Daniel Kahneman called “[Thinking, Fast and Slow](/library/books/2012-05-09-thinking-fast-slow)” which delved into this topic even further.
 The Ted Talk he gave about memory and experience gives you a primer for what I’m talking about.
 Basically, many concepts in his book reaffirms why I do such things, as lie to myself that I’m right on a topic or a behavior.
 My faster thinking side (not actually literal) takes over the thought process of that “right action” and goes with it instead of questioning it.

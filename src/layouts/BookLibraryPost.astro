@@ -8,9 +8,9 @@ import Header from "../components/Header.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import type { CollectionEntry } from "astro:content";
 
-type Props = CollectionEntry<"library">["data"];
+type Props = CollectionEntry<"book">["data"];
 
-const { title, heroImage, dateConsumed, heroImageAlt } = Astro.props;
+const { title, heroImage, dateConsumed, heroImageAlt, link } = Astro.props;
 ---
 
 <html lang="en">
@@ -33,6 +33,13 @@ const { title, heroImage, dateConsumed, heroImageAlt } = Astro.props;
             First Read:
             <FormattedDate date={dateConsumed} />
           </div>
+          <a
+            class="italic text-slate-600 dark:text-slate-300"
+            href={link}
+            rel="external"
+          >
+            Affiliate Link
+          </a>
         </div>
         <slot />
       </ProseArticle>

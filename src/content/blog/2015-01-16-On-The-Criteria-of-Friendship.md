@@ -32,7 +32,7 @@ It seems the patterns of bad friendships are major flaws in personalities. For e
 
 Last week, I shared a animated video dubbed by a lecture from Brene Brown. She mentions that a sympathizer will try to help someone by beginning with the words, “Well, at least you’re not…” They don’t really help anyone and try to mitigate the situation at hand than to get to the root cause. Because of this trait, it’s hard to really understand if this friend will feel for you or feel with you.
 
-A frenemy is an enemy disguised as a friend. Kelly Williams Brown writes in her book, “Adulting", about the different types of frenemies.
+A frenemy is an enemy disguised as a friend. Kelly Williams Brown writes in her book, "[Adulting](/library/books/2015-02-09-adulting)", about the different types of frenemies.
 
 > The Seven Dwarfs of frienemies:
 >

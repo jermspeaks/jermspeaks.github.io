@@ -2,7 +2,7 @@
 title: "Notes: Deno"
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["node", "deno"]
 date: 2022-03-01
 description: ""

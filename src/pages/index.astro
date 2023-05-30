@@ -18,7 +18,7 @@ const latestPosts = (await getCollection("blog"))
 const lastProjects = (await getCollection("project"))
   .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
   .slice(0, MAX_ITEMS);
-const latestBooks = (await getCollection("library"))
+const latestBooks = (await getCollection("book"))
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
   .slice(0, MAX_ITEMS);
 const latestFilms = (await getCollection("filmLibrary"))

@@ -39,6 +39,7 @@ but now I understand the driving force behind that, and the science they use to 
 - Kern and Burns - This is a collection of interviews from design entrepreneurs. It opened my eyes to design in the workplace and how companies are shaped from it.
 
 Top Films I’ve Seen This Year:
+
 - 12 Years a Slave
 - The Wind Rises
 - Chef

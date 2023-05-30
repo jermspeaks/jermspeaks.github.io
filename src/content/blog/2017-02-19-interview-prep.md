@@ -1,5 +1,5 @@
 ---
-categories: learning
+categories: ["learning"]
 date: 2017-02-19
 description: ""
 draft: false

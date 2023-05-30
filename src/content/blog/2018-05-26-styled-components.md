@@ -2,7 +2,7 @@
 title: Styled Components
 published: false
 draft: false
-categories: learning
+categories: ["learning"]
 tags: ["react", "styled components"]
 permalink: /:categories/:title.html
 date: 2018-05-26

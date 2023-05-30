@@ -9,13 +9,11 @@ url: /no-slouching-sloths
 createdDate: "2017-10-15"
 ---
 
-
-
 [Science Hack Day SF 2018 Project](https://sf.sciencehackday.org/hacks-2018/#hack_5)
 
 ## Phone Use and Chronic Neck Pain PSA
 
-*Goal:* Create a fun way to make people aware of phone use and chronic neck pain
+_Goal:_ Create a fun way to make people aware of phone use and chronic neck pain
 
 ### Ideation Phase
 
@@ -32,5 +30,5 @@ createdDate: "2017-10-15"
 ## Credits
 
 Ideation and Illustrations - Jeremy Wong
-Graphic Design Consulting - Lee McGirr 
+Graphic Design Consulting - Lee McGirr
 Help From - Riccardo Guidi
