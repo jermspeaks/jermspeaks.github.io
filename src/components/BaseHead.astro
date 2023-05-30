@@ -23,6 +23,8 @@ const {
   twitterHandle = "@jermspeaks",
   publishedDate = defaultDate,
 } = Astro.props;
+
+const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
 ---
 
 <!-- Global Metadata -->
@@ -68,5 +70,5 @@ const {
 <script
   async
   src="https://analytics.umami.is/script.js"
-  data-website-id="7fc08fb9-d8cf-4c24-a705-7fb158690fdb"
+  data-website-id={umamiTrackingCode}
 ></script>
