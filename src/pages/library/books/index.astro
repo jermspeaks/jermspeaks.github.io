@@ -6,7 +6,6 @@ import LibraryPage from "../../../layouts/LibraryPage.astro";
 const bookLibrary = (await getCollection("book")).sort(
   (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
 );
-const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
 ---
 
 <LibraryPage>

@@ -99,6 +99,29 @@ const book = defineCollection({
   }),
 });
 
+const antiLibrary = defineCollection({
+  schema: z.object({
+    author: z.string().default("Jeremy Wong"),
+    bookAuthor: z.string(),
+    categories: z.array(z.string()).optional(),
+    customData: z.string().optional(),
+    description: z.string().optional(),
+    // Transform string to Date object
+    dateAdded: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    heroImage: z.string().optional(),
+    heroImageAlt: z.string().default("book cover"),
+    link: z.string(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    title: z.string(),
+  }),
+});
+
 const filmLibrary = defineCollection({
   schema: z.object({
     // Transform string to Date object
@@ -138,6 +161,7 @@ const resume = defineCollection({
 });
 
 export const collections = {
+  antiLibrary,
   blog,
   book,
   filmLibrary,

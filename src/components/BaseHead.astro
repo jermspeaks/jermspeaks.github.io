@@ -13,7 +13,7 @@ export interface Props {
 }
 
 const canonicalURL = new URL(Astro.url.pathname, Astro.site);
-const defaultDate = new Date().toISOString()
+const defaultDate = new Date().toISOString();
 
 const {
   author = "Jeremy Wong",
@@ -21,8 +21,10 @@ const {
   image = "/placeholder-social.png",
   title,
   twitterHandle = "@jermspeaks",
-	publishedDate = defaultDate,
+  publishedDate = defaultDate,
 } = Astro.props;
+
+const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
 ---
 
 <!-- Global Metadata -->
@@ -50,7 +52,10 @@ const {
 <meta property="og:image:alt" content="Craft By Zen Hero Image" />
 
 <!-- Articles -->
-<meta property="article:published_time" content={new Date(publishedDate).toISOString()} />
+<meta
+  property="article:published_time"
+  content={new Date(publishedDate).toISOString()}
+/>
 <meta property="article:author" content={author} />
 
 <!-- Twitter -->
@@ -60,3 +65,10 @@ const {
 <meta property="twitter:description" content={description} />
 <meta property="twitter:image" content={new URL(image, Astro.url)} />
 <meta property="twitter:site" content={twitterHandle} />
+
+<!-- Umami (Analytics) -->
+<script
+  async
+  src="https://analytics.umami.is/script.js"
+  data-website-id={umamiTrackingCode}
+></script>
