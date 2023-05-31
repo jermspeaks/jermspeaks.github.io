@@ -1,0 +1,27 @@
+---
+import { getCollection } from "astro:content";
+import Layout from "../../layouts/About.astro";
+import NavigationLinks from "../../components/NavigationLinks.astro";
+import ProseArticle from "../../components/ProseArticle.astro";
+import NowContent from "../../components/NowContent.astro";
+
+const nowItems = await getCollection("now");
+---
+
+<Layout title="Now" description="">
+  <NavigationLinks
+    slot="navigation"
+    navigationItems={[
+      { link: "/about", text: "About Me" },
+      { link: "/about/resume", text: "Resume" },
+      { link: "/about/now", text: "Now" },
+    ]}
+  />
+  <ProseArticle class="prose-h2:my-0">
+    <p>
+      Things that I am thinking about now. Sporatic updates about life, things
+      I'm thinking about and exploring.
+    </p>
+    {nowItems.map((resume) => <NowContent {...resume} />)}
+  </ProseArticle>
+</Layout>

@@ -5,8 +5,8 @@ import NavigationLinks from "../../components/NavigationLinks.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 import ResumeContent from "../../components/ResumeContent.astro";
 
-const resumeItems = (await getCollection("resume")).sort((a, b) =>
-  a.data.title.localeCompare(b.data.title)
+const resumeItems = (await getCollection("resume")).sort(
+  (a, b) => a.order > b.order
 );
 ---
 
@@ -23,88 +23,19 @@ const resumeItems = (await getCollection("resume")).sort((a, b) =>
     navigationItems={[
       { link: "/about", text: "About Me" },
       { link: "/about/resume", text: "Resume" },
+      { link: "/about/now", text: "Now" },
     ]}
   />
   <ProseArticle>
     <h1><strong>Jeremy Wong</strong></h1>
-    {resumeItems.map((resume) => <ResumeContent {...resume} />)}
+    {resumeItems.slice(0, 4).map((resume) => <ResumeContent {...resume} />)}
 
-    <div class="flex flex-row justify-between align-top my-2">
-      <article class="stack">
-        <h3>Active Stack</h3>
-        <div class="stack--container">
-          <ul class="stack--list">
-            <li>React</li>
-            <li>Node</li>
-            <li>Supabase</li>
-            <li>Vercel</li>
-            <li>Github Actions</li>
-            <li>Jest</li>
-            <li>Cypress</li>
-          </ul>
-        </div>
-      </article>
-
-      <article class="projects">
-        <h3>Featured Projects</h3>
-        <div class="projects--build">
-          <span class="projects--build__name"
-            ><strong>Coral Reef Game</strong></span
-          >&nbsp;<span class="projects--build__website"
-            ><a href="https://goo.gl/k3N98x" target="blank">goo.gl/k3N98x</a
-            ></span
-          >
-          <ul class="projects--build__skills">
-            <li class="projects--build__skill">
-              <span class="projects--build__skill-name">Game Development</span>
-            </li>
-            <li class="projects--build__skill">
-              <span class="projects--build__skill-name">Environmentalism</span>
-            </li>
-          </ul>
-        </div>
-        <div class="projects--build">
-          <span class="projects--build__name"><strong>Remembrance</strong></span
-          >&nbsp;<span class="projects--build__website"
-            ><a href="https://goo.gl/TMWJyV" target="blank">goo.gl/TMWJyV</a
-            ></span
-          >
-          <ul class="projects--build__skills">
-            <li class="projects--build__skill">
-              <span class="projects--build__skill-name">Social Spaces</span>
-            </li>
-            <li class="projects--build__skill">
-              <span class="projects--build__skill-name">Rails</span>
-            </li>
-            <li class="projects--build__skill">
-              <span class="projects--build__skill-name">Team Work</span>
-            </li>
-          </ul>
-        </div>
-      </article>
-
-      <article>
-        <h3>Code / Links</h3>
-        <ul>
-          <li>
-            <a href="mailto:jeremy@craftbyzen.com" target="_blank">Email</a>
-          </li>
-          <li>
-            <a href="https://craftbyzen.com/" target="_blank">Craft By Zen</a>
-          </li>
-          <li>
-            <a href="https://github.com/jermspeaks" target="_blank">Github</a>
-          </li>
-          <li>
-            <a href="https://codepen.io/jermspeaks/" target="_blank">Codepen</a>
-          </li>
-          <li>
-            <a href="https://www.linkedin.com/in/jeremynwong" target="_blank"
-              >LinkedIn</a
-            >
-          </li>
-        </ul>
-      </article>
+    <div class="flex flex-col md:flex-row justify-between align-top my-2">
+      {
+        resumeItems
+          .slice(4)
+          .map((resume) => <ResumeContent headingLevel={3} {...resume} />)
+      }
     </div>
   </ProseArticle>
 </Layout>

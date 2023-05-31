@@ -160,6 +160,17 @@ const resume = defineCollection({
   }),
 });
 
+const now = defineCollection({
+  schema: z.object({
+    title: z.string(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    draft: z.boolean().optional(),
+  }),
+});
+
 export const collections = {
   antiLibrary,
   blog,
@@ -167,6 +178,7 @@ export const collections = {
   filmLibrary,
   lindy,
   log,
+  now,
   project,
   resume,
   series,

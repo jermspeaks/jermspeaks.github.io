@@ -1,5 +1,6 @@
 ---
 title: Education
+order: 3
 ---
 
 - **🚌 2014 - 2014**

@@ -1,15 +1,17 @@
 ---
 title: Profile
+order: 2
 ---
 
 - _2018-current_  
   **Clear Labs** Senior Lead Application Engineer
 
+  - Experienced team manager engineering empathy with team members, relaying communication with all stakeholders, and reviewing code quality
+  - Conducted kaizen and other continuous improvement meetings including brown bags with team members to promote knowledge sharing
+
   - **Clear Dx WGS** _Our comprehensive whole genome sequencing (WGS) platform accelerates detection of infectious disease outbreaks and helps inform the action required to manage public outbreaks._
 
-    - TBD (updates in progress)
-
-    **Clear Safety** _We leverage next-generation sequencing (NGS) to completely reinvent the way that food is tested and analyzed before it’s consumed by millions of people each day._
+  - **Clear Safety** _We leverage next-generation sequencing (NGS) to completely reinvent the way that food is tested and analyzed before it’s consumed by millions of people each day._
 
     - TBD (updates in progress)
 
@@ -26,6 +28,7 @@ title: Profile
 
 - _2014-Current_  
   **Freelancing**
+
   - **[Craft By Zen](https://craftbyzen.com)**
     - Developed and wrote for my personal website and blog.
   - **MedicareMojo**

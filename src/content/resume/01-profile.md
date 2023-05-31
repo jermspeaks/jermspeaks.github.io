@@ -1,5 +1,6 @@
 ---
 title: Profile
+order: 1
 ---
 
 I am a former medical device engineer turned software engineer, developing skills in front-end development. Acquired skills in build tools, quick prototyping, new frameworks and cross-browser testing.
