@@ -9,11 +9,19 @@ order: 2
   - Experienced team manager engineering empathy with team members, relaying communication with all stakeholders, and reviewing code quality
   - Conducted kaizen and other continuous improvement meetings including brown bags with team members to promote knowledge sharing
 
-  - **Clear Dx WGS** _Our comprehensive whole genome sequencing (WGS) platform accelerates detection of infectious disease outbreaks and helps inform the action required to manage public outbreaks._
+  - **Clear Dx WGS**
 
-  - **Clear Safety** _We leverage next-generation sequencing (NGS) to completely reinvent the way that food is tested and analyzed before it’s consumed by millions of people each day._
+    - Built on top of the Clear Safety product to launch a new product, Clear Dx WGS, a comprehensive WGS (Whole Genome Sequencing) platform to accelerate detection of infectious disease outbreaks
+    - Ran accessibility fixes and reports to ensure compliance with WCAG 2.1 AA
+    - Patched security fixes through use of Content Security Policy (CSP) and other security headers
+    - Earned a certification in ISO 13485:2016 (QMS)
+    - Stack: Same as Clear Safety
 
-    - TBD (updates in progress)
+  - **Clear Safety**
+    - Joined the team as a application developer role, architecting, designing, and developing the Web Application for Clear Safety, a product for food safety testing using NGS (next-generation sequencing)
+    - Managed continuous, quarterly releases including features like smart scheduling, data visualization, and data analysis
+    - Assisted in designing and implementing a full design system, modular to create hi-fi screens and quality user experiences for developers
+    - Stack: React, Redux, Styled-Components, d3, Docker, Nginx, GCP, Jest, Cypress, Workbox, Storybook
 
 - _2014-2018_  
   **Inform** Senior Front-end Engineer
