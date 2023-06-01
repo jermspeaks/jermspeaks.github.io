@@ -8,14 +8,16 @@ export interface Props {
 }
 
 const { navigationItems = [] } = Astro.props;
-const pathname = new URL(Astro.request.url).pathname;
+const { pathname } = new URL(Astro.request.url);
+const isActive = (href) =>
+  href === pathname || href === pathname.replace(/^(\/\w*)\/?.*/, "$1");
 ---
 
 <ul class="flex gap-4 list-none m-0 p-0">
   {
     navigationItems.map((item) => (
       <li>
-        {pathname === item.link ? (
+        {isActive(item.link) ? (
           <a
             class="text-gray-700  dark:text-white  border-blue-800 dark:border-blue-500 border-solid border-b-2"
             href={item.link}

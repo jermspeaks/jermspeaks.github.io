@@ -11,33 +11,45 @@ const defaultLinks = [
   {
     href: "/blog",
     text: "All",
+    exact: true,
   },
   {
     href: "/blog/newsletter",
     text: "Newsletter",
+    exact: false,
   },
   {
     href: "/blog/essay",
     text: "Essay",
+    exact: false,
   },
   {
     href: "/blog/learning",
     text: "Learning",
+    exact: false,
   },
   {
     href: "/blog/archive",
     text: "Archive",
+    exact: false,
   },
 ];
 const { items = defaultLinks } = Astro.props;
 const { pathname } = Astro.url;
+const isActive = (href, exact) => {
+  if (exact) {
+    return href === pathname;
+  }
+
+  return href === pathname || href === pathname.replace(/^(\/\w*)\/?.*/, "$1");
+};
 ---
 
 <ul class="flex flex-wrap md:flex-nowrap gap-4 list-none m-0 p-0">
   {
     items.map((item) => (
       <li>
-        {pathname === item.href ? (
+        {isActive(item.href, item.exact) ? (
           <a
             class="text-gray-700 dark:text-white dark:border-blue-500 border-solid border-b-2"
             href={item.href}
