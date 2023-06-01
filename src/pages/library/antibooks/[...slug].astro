@@ -17,5 +17,6 @@ const { Content } = await post.render();
 
 <LibraryPost {...post.data}>
   <h1>{post.data.title}</h1>
+  <a href={post.data.link}>Purchase Link</a>
   <Content />
 </LibraryPost>

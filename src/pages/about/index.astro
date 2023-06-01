@@ -1,5 +1,6 @@
 ---
 import AboutLayout from "../../layouts/About.astro";
+import aboutLinks from "../../utils/aboutLinks";
 import HeaderLink from "../../components/HeaderLink.astro";
 import NavigationLinks from "../../components/NavigationLinks.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
@@ -20,14 +21,7 @@ import ProseArticle from "../../components/ProseArticle.astro";
     slot="image"
     class="mt-8"
   />
-  <NavigationLinks
-    slot="navigation"
-    navigationItems={[
-      { link: "/about", text: "About Me" },
-      { link: "/about/resume", text: "Resume" },
-      { link: "/about/now", text: "Now" },
-    ]}
-  />
+  <NavigationLinks slot="navigation" items={aboutLinks} />
   <ProseArticle>
     <p>
       Instead of giving one “About Me” blurb, I’m going to give the “About Me”
@@ -130,7 +124,7 @@ import ProseArticle from "../../components/ProseArticle.astro";
       >.
     </p>
 
-    <h3>Contact Me</h2>
+    <h3>Contact Me</h3>
     <ul class="flex gap-8">
       <li>
         <HeaderLink href="https://twitter.com/jermspeaks" target="_blank">

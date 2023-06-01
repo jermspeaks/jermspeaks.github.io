@@ -1,31 +1,38 @@
 ---
 interface Link {
-  link: string;
+  href: string;
   text: string;
+  exact?: boolean;
 }
 export interface Props {
-  navigationItems: Link[];
+  items: Link[];
 }
 
-const { navigationItems = [] } = Astro.props;
-const pathname = new URL(Astro.request.url).pathname;
+const { items = [] } = Astro.props;
+const { pathname } = new URL(Astro.request.url);
+const isActive = (href, exact) => {
+  if (exact) {
+    return href === pathname;
+  }
+  return href === pathname || href === pathname.replace(/^(\/\w*)\/?.*/, "$1");
+};
 ---
 
-<ul class="flex gap-4 list-none m-0 p-0">
+<ul class="flex flex-wrap md:flex-nowrap gap-4 list-none m-0 p-0">
   {
-    navigationItems.map((item) => (
+    items.map((item) => (
       <li>
-        {pathname === item.link ? (
+        {isActive(item.href, item.exact) ? (
           <a
             class="text-gray-700  dark:text-white  border-blue-800 dark:border-blue-500 border-solid border-b-2"
-            href={item.link}
+            href={item.href}
           >
             <strong>{item.text}</strong>
           </a>
         ) : (
           <a
             class="text-gray-700 hover:text-gray-900 dark:text-white dark:hover:text-gray-400"
-            href={item.link}
+            href={item.href}
           >
             {item.text}
           </a>
