@@ -11,10 +11,16 @@ export interface Props {
 const { items = [] } = Astro.props;
 const { pathname } = Astro.url;
 const isActive = (href, exact) => {
-  if (exact) {
-    return href === pathname;
+  let finalPathname = pathname;
+  // if pathname ends with /, remove it
+  if (pathname.endsWith("/")) {
+    finalPathname = pathname.slice(0, -1);
   }
-  return href === pathname || href === pathname.replace(/^(\/\w*)\/?.*/, "$1");
+
+  if (exact) {
+    return href === finalPathname;
+  }
+  return href === finalPathname || href === finalPathname.replace(/^(\/\w*)\/?.*/, "$1");
 };
 ---
 
