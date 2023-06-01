@@ -9,7 +9,7 @@ export interface Props {
 }
 
 const { items = [] } = Astro.props;
-const { pathname } = new URL(Astro.request.url);
+const { pathname } = Astro.url;
 const isActive = (href, exact) => {
   if (exact) {
     return href === pathname;
