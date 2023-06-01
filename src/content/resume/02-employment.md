@@ -21,7 +21,8 @@ order: 2
     - Joined the team as a application developer role, architecting, designing, and developing the Web Application for Clear Safety, a product for food safety testing using NGS (next-generation sequencing)
     - Managed continuous, quarterly releases including features like smart scheduling, data visualization, and data analysis
     - Assisted in designing and implementing a full design system, modular to create hi-fi screens and quality user experiences for developers
-    - Stack: React, Redux, Styled-Components, d3, Docker, Nginx, GCP, Jest, Cypress, Workbox, Storybook
+    - Led Scrum ceremonies including sprint planning, backlog grooming, and retrospectives
+    - Stack: React, Redux, Styled-Components, d3, Docker, Nginx, GCP, Jest, Cypress, Workbox, Storybook, Kubernetes
 
 - _2014-2018_  
   **Inform** Senior Front-end Engineer

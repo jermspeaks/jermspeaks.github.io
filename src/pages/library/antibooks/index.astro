@@ -5,7 +5,7 @@ import LibraryPage from "../../../layouts/LibraryPage.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
 const antiLibrary = (await getCollection("antiLibrary")).sort(
-  (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
+  (a, b) => b.data.dateAdded.valueOf() - a.data.dateAdded.valueOf()
 );
 ---
 
@@ -18,8 +18,8 @@ const antiLibrary = (await getCollection("antiLibrary")).sort(
       excellent piece about it called
       <a
         href="https://www.themarginalian.org/2015/03/24/umberto-eco-antilibrary/"
-        >Umberto Eco’s Antilibrary: Why Unread Books Are More Valuable to Our
-        Lives than Read Ones</a
+        >Umberto Eco's Antilibrary: Why Unread Books Are More Valuable to
+        Our Lives than Read Ones</a
       >. While it sounds wasteful to have unread books, think of it like a pike
       of books you would gladly pick up when you find time to read. The Japanese
       call this Tsudonku.
