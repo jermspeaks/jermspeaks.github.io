@@ -1,5 +1,5 @@
 import { defineCollection, z } from "astro:content";
-import { rssSchema } from "@astrojs/rss";
+// import { rssSchema } from "@astrojs/rss";
 
 const blog = defineCollection({
   // Type-check frontmatter using a schema
@@ -156,6 +156,7 @@ const lindy = defineCollection({
 
 const resume = defineCollection({
   schema: z.object({
+    order: z.number(),
     title: z.string(),
   }),
 });

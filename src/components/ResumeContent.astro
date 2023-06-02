@@ -1,7 +1,11 @@
 ---
 import type { CollectionEntry } from "astro:content";
 
-type Props = CollectionEntry<"resume">;
+type CollectionProps = CollectionEntry<"resume">;
+type ExtendProps = {
+  headingLevel: Number;
+};
+type Props = CollectionProps & ExtendProps;
 
 const { data, render, headingLevel = 2 } = Astro.props;
 const { Content } = await render();

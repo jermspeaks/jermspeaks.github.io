@@ -22,12 +22,12 @@ const resumeItems = (await getCollection("resume")).sort(
   <NavigationLinks slot="navigation" items={aboutLinks} />
   <ProseArticle>
     <h1><strong>Jeremy Wong</strong></h1>
-    {resumeItems.slice(0, 4).map((resume) => <ResumeContent {...resume} />)}
+    {resumeItems.slice(0, 5).map((resume) => <ResumeContent {...resume} />)}
 
     <div class="flex flex-col md:flex-row justify-between align-top my-2">
       {
         resumeItems
-          .slice(4)
+          .slice(5)
           .map((resume) => <ResumeContent headingLevel={3} {...resume} />)
       }
     </div>

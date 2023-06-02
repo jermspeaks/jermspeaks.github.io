@@ -35,11 +35,9 @@ order: 2
   - **Insights** _Dashboard for publishers to understand their content using Reverb's services_
     - Developed dashboard for Insights using Angular with customized data visualizations using d3
 
-- _2014-Current_  
+- _2014-2017_  
   **Freelancing**
 
-  - **[Craft By Zen](https://craftbyzen.com)**
-    - Developed and wrote for my personal website and blog.
   - **MedicareMojo**
     - Incorporated IBM Watson NLC services for Q&A app for medicare information
   - **FamiliesUSA**
