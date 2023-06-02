@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: My Take on Scientology
 date: 2008-01-22
 pubDate: "2008-01-22"
-permalink: /blog/:title.html
+
 draft: true
 description: ""
 heroImage: ""

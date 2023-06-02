@@ -7,7 +7,7 @@ pubDate: "2015-11-02"
 heroImage: ""
 postType: "newsletter"
 tags: [season_1, letters]
-permalink: /:categories/:title.html
+
 ---
 
 

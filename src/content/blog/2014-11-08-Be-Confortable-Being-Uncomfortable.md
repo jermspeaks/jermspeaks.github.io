@@ -3,7 +3,7 @@ category: blog, post
 title: Be Comfortable Being Uncomfortable
 date: 2014-11-08
 pubDate: "2014-11-08"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

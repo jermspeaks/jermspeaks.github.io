@@ -3,7 +3,7 @@ category: blog, post
 title: The Job Search and Updates
 date: 2015-01-04
 pubDate: "2015-01-04"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

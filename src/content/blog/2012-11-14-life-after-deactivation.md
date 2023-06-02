@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: Life after Deactivation
 date: 2010-11-14
 pubDate: "2010-11-14"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

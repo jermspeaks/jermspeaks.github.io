@@ -4,7 +4,7 @@ published: true
 draft: false
 categories: ["learning"]
 tags: ["webassembly"]
-permalink: /:categories/:title.html
+
 date: 2017-06-06
 description: ""
 pubDate: "2017-06-06"

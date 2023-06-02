@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: On Being Wrong
 date: 2012-05-06
 pubDate: "2012-05-06"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

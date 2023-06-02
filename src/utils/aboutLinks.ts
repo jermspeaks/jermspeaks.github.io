@@ -8,6 +8,7 @@ const defaultLinks: Link[] = [
   { href: "/about", text: "About Me", exact: true },
   { href: "/about/resume", text: "Resume", exact: false },
   { href: "/about/now", text: "Now", exact: false },
+  { href: "/about/press", text: "Press", exact: false },
 ];
 
 export default defaultLinks;

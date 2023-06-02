@@ -3,7 +3,7 @@ title: Flexbox Challenge
 published: false
 draft: true
 categories: ["learning"]
-permalink: /:categories/:title.html
+
 date: 2015-12-05
 description: ""
 pubDate: "2015-12-05"

@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: Neuschwanstein Castle
 date: 2011-08-11
 pubDate: "2011-08-11"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

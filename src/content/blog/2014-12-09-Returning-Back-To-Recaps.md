@@ -3,7 +3,7 @@ category: blog, post
 title: Returning Back to Recaps
 date: 2014-12-09
 pubDate: "2014-12-09"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

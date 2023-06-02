@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: Super Tuesday - The World Is Watching Upon The Elections
 date: 2008-02-05
 pubDate: "2008-02-05"
-permalink: /blog/:title.html
+
 draft: true
 description: ""
 heroImage: ""

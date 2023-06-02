@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: "Review: Hooktheory"
 date: 2012-06-27
 pubDate: "2012-06-27"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

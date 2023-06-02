@@ -4,7 +4,7 @@ date: 2017-02-19
 description: ""
 draft: false
 heroImage: ""
-permalink: /:categories/:title.html
+
 postType: "learning"
 pubDate: "2017-02-19"
 published: true

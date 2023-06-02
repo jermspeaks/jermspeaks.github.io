@@ -3,7 +3,7 @@ category: blog, post
 title: A Walk With Hackathons
 date: 2014-11-24
 pubDate: "2014-11-24"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

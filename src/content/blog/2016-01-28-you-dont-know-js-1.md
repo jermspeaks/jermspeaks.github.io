@@ -4,7 +4,7 @@ published: true
 draft: false
 categories: ["learning"]
 tags: [javascript]
-permalink: /:categories/:title.html
+
 date: 2016-01-28
 description: ""
 pubDate: "2016-01-28"

@@ -3,7 +3,7 @@ category: blog, post
 title: Enter New Website
 date: 2013-02-20
 pubDate: "2013-02-20"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

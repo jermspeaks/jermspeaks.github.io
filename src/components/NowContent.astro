@@ -1,9 +1,9 @@
 ---
 import type { CollectionEntry } from "astro:content";
 
-type Props = CollectionEntry<"resume">;
+type Props = CollectionEntry<"now">;
 
-const { data, render, headingLevel = 2 } = Astro.props;
+const { data, render } = Astro.props;
 const { Content } = await render();
 ---
 

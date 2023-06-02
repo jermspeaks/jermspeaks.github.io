@@ -4,7 +4,7 @@ date: 2017-07-15
 description: ""
 draft: false
 heroImage: ""
-permalink: /:categories/:title.html
+
 postType: "learning"
 pubDate: "2017-07-15"
 tags: ["bash", "shell"]
