@@ -10,7 +10,7 @@ export interface Props {
 
 const { items = [] } = Astro.props;
 const { pathname } = Astro.url;
-const isActive = (href, exact) => {
+const isActive = (href: string, exact?: boolean): boolean => {
   let finalPathname = pathname;
   // if pathname ends with /, remove it
   if (pathname.endsWith("/")) {
