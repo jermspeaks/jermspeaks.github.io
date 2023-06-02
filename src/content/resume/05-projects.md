@@ -5,19 +5,20 @@ order: 5
 
 - [Craft By Zen](https://craftbyzen.com) Redesign
 
-  - Redesign of my personal website
-  - Added new features using remark and rehype plugins, added a RSS feed and Sitemap, and optimized for SEO
+  - Redesigned my website from a clean slate
+  - Migrated content from different websites to a single source
+  - Added new features using remark and rehype plugins, added an RSS feed and Sitemap, and optimized for SEO
   - Build on top of Astro, Tailwind, Svelte, and Netlify
 
 - [Clear Components](https://github.com/jermspeaks/clear-component-library)
 
   - A work hackathon project to create a component library for the company's design system.
-  - Build on top of React, Storybook, Styled Components, Vercel, and Github Actions
+  - Build on top of React, Storybook, Styled Components, Vercel, and GitHub Actions
 
 - [Garbage In Garbage Out](https://jermspeaks.github.io/garbage-in-garbage-out/)
 
   - Data exploration of inflows and outflows of city trash to other cities. Data from the US Commodities Survey from 2012.
-  - Built on top of d3
+  - The website is built using d3
 
 - [Smart Composter](https://github.com/JakeHartnell/grow-elements)
 
@@ -26,12 +27,12 @@ order: 5
 
 - Trance HD
 
-  - An AR experience for kids to create digital stories they can share with each other using a common collection of game assets
+  - An AR experience for kids to create digital stories they can share using a common collection of game assets
   - Build on top of Unity, Vuforia, and C#
 
 - [Zika VR](https://zika-vr.github.io/)
 
-  - As part of National Day of Civic Hacking, I helped with a team that created a virtual reality prototype to enable the public to better learn about the Zika virus
+  - As part of National Day of Civic Hacking, I helped a team create a virtual reality prototype to enable the public to better learn about the Zika virus
   - Build on top of A-Frame and React
 
 - [Medicaremojo](https://github.com/medicaremojo/ibmhack)
@@ -42,11 +43,11 @@ order: 5
 - Pacman with OpenBCI
 
   - Uses your brain waves to control Pacman.
-  - Build on top of Javascript, Websockets, Go, and OpenBCI
+  - Build on top of Javascript, WebSockets, Go, and OpenBCI
   - My team's entry to the Neurogaming Hackathon.
 
 - [Remembrance](goo.gl/TMWJyV)
 
-  - Remembrance is my final project of Dev Bootcamp Chicago.
+  - Remembrance is my final project for Dev Bootcamp Chicago.
   - The app enables one to create a memorial for a loved one who has passed on. You can invite friends and family to come together here and share memories, whether they be stories or pictures.
-  - The web application built on Rails, Postgres, and Heroku.
+  - The web application is built on Rails, Postgres, and Heroku.
