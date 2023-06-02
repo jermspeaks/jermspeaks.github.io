@@ -15,14 +15,14 @@ order: 2
     - Ran accessibility fixes and reports to ensure compliance with WCAG 2.1 AA
     - Patched application with security policies and headers
     - Earned certification in ISO 13485:2016 (QMS)
-    - Stack: Same as Clear Safety
+    - Tech Stack: Same as Clear Safety
 
   - **Clear Safety**
     - Joined the team in an application developer role, architecting, designing, and developing the Web Application for Clear Safety, a product for food safety testing using NGS (next-generation sequencing)
     - Managed continuous, quarterly releases including features like smart scheduling, data visualization, and data analysis
     - Assisted in designing and implementing a full design system, modular to create hi-fi screens and quality user experiences for developers
     - Led Scrum ceremonies including sprint planning, backlog grooming, and retrospectives
-    - Stack: React, Redux, Styled-Components, d3, Docker, Nginx, GCP, Jest, Cypress, Workbox, Storybook, Kubernetes
+    - Tech Stack: React, Redux, Styled-Components, d3, Docker, Nginx, GCP, Jest, Cypress, Workbox, Storybook, Kubernetes
 
 - _2014-2018_  
   **Inform** Senior Front-end Engineer
@@ -30,16 +30,16 @@ order: 2
   - **Digital Media Exchange** _Dashboard for customers and internal employees for all of Inform's Services_
     - Joined my team in a lead front-end role reviewing design and interactions and developing the UI infrastructure in React
     - Facilitated usability testing to determine weak points of the application to improve in the next development cycle
+    - Tech Stack: React, Redux, d3, Node.js, Express Docker, Rancher, AWS
   - **WordPress Plugin**
     - Developed Inform's WordPress plugin for customers to embed videos without leaving the WordPress environment
   - **Insights** _Dashboard for publishers to understand their content using Reverb's services_
     - Developed dashboard for Insights using Angular with customized data visualizations using d3
+    - Tech Stack: Angular, d3, Node.js, Express, AWS
 
-- _2014-2017_  
+- _2014-current_  
   **Freelancing**
 
-  - **MedicareMojo**
-    - Incorporated IBM Watson NLC services for Q&A app for Medicare information
   - **FamiliesUSA**
     - Developed a choropleth map with interactivity for learning about new Medicare changes
 
