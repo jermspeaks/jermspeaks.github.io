@@ -154,6 +154,13 @@ const lindy = defineCollection({
   }),
 });
 
+const about = defineCollection({
+  schema: z.object({
+    order: z.number(),
+    title: z.string(),
+  }),
+});
+
 const resume = defineCollection({
   schema: z.object({
     order: z.number(),
@@ -173,6 +180,7 @@ const now = defineCollection({
 });
 
 export const collections = {
+  about,
   antiLibrary,
   blog,
   book,

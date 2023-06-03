@@ -3,7 +3,7 @@ category: blog, post, programming
 title: React JSX Syntax - Code Style
 date: 2016-12-28
 pubDate: "2016-12-28"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

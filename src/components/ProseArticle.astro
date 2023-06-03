@@ -1,4 +1,6 @@
 ---
+import type { HTMLAttributes } from "astro/types";
+
 type Props = HTMLAttributes<"article">;
 
 const { class: className } = Astro.props;
@@ -6,7 +8,7 @@ const { class: className } = Astro.props;
 
 <article
   class:list={[
-    "prose lg:prose-xl dark:prose-invert prose-headings:flex prose-headings:items-center prose-headings:gap-4 prose-img:mt-0 prose-img:mb-0",
+    "prose lg:prose-xl dark:prose-invert prose-headings:flex prose-headings:items-center prose-headings:gap-4 prose-img:mt-0 prose-img:mb-0 mx-auto",
     className,
   ]}
 >

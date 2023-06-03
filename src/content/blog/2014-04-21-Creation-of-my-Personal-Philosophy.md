@@ -3,7 +3,7 @@ category: medium, post
 title: Creation of My Personal Philosophy
 date: 2014-04-21
 pubDate: "2014-04-21"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

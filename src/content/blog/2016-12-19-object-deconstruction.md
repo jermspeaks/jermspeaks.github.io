@@ -3,7 +3,7 @@ category: blog, post
 title: Object Deconstruction in Javascript
 date: 2016-12-19
 pubDate: "2016-12-19"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

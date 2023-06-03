@@ -1,13 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
-import BaseBody from "../../components/BaseBody.astro";
-import BaseHead from "../../components/BaseHead.astro";
-import Footer from "../../components/Footer.astro";
-import Header from "../../components/Header.astro";
-import NavigationLinks from "../../components/NavigationLinks.astro";
-import TitleHeading from "../../components/TitleHeading.astro";
-import writingLinks from "../../utils/writingLinks.ts";
+import WritingLayout from "../../layouts/Writing.astro";
 import WritingListItem from "../../components/WritingListItem.astro";
 
 const posts = (await getCollection("blog"))
@@ -15,22 +8,8 @@ const posts = (await getCollection("blog"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-  </head>
-  <BaseBody>
-    <Header />
-    <main>
-      <TitleHeading>Writing</TitleHeading>
-      <NavigationLinks items={writingLinks} />
-      <section>
-        <ul class="list-none p-0">
-          {posts.map((post) => <WritingListItem post={post} />)}
-        </ul>
-      </section>
-    </main>
-    <Footer />
-  </BaseBody>
-</html>
+<WritingLayout>
+  <ul class="list-none p-0">
+    {posts.map((post) => <WritingListItem post={post} />)}
+  </ul>
+</WritingLayout>

@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import aboutLinks from "../../utils/aboutLinks";
-import Layout from "../../layouts/About.astro";
+import AboutLayout from "../../layouts/About.astro";
 import NavigationLinks from "../../components/NavigationLinks.astro";
 import NowContent from "../../components/NowContent.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
@@ -9,7 +9,7 @@ import ProseArticle from "../../components/ProseArticle.astro";
 const nowItems = await getCollection("now");
 ---
 
-<Layout title="About Me" description="">
+<AboutLayout title="About Me" description="">
   <NavigationLinks
     slot="navigation"
     items={aboutLinks}
@@ -21,4 +21,4 @@ const nowItems = await getCollection("now");
     </p>
     {nowItems.map((resume) => <NowContent {...resume} />)}
   </ProseArticle>
-</Layout>
+</AboutLayout>

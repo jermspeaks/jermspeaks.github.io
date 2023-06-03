@@ -3,7 +3,7 @@ category: blog, post
 title: 'Week Two: DBC EXP'
 date: 2014-07-05
 pubDate: "2014-07-05"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

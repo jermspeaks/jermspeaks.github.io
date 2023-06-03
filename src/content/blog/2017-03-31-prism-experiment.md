@@ -3,7 +3,7 @@ category: blog, post, work
 title: Code Highlight Test
 date: 2017-03-31
 pubDate: "2017-03-31"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

@@ -3,7 +3,7 @@ category: blog, post, programming
 title: Single Responsibility
 date: 2017-01-26
 pubDate: "2017-01-26"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

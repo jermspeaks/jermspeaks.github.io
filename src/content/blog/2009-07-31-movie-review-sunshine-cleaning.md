@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: "Movie Review: Sunshine Cleaning"
 date: 2009-07-31
 pubDate: "2009-07-31"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

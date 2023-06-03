@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: America - We Should Just Cut the Pie
 date: 2008-01-20
 pubDate: "2008-01-20"
-permalink: /blog/:title.html
+
 draft: true
 description: ""
 heroImage: ""

@@ -3,7 +3,7 @@ category: blog, post
 title: Book Reviews of Things I've Recently Read
 date: 2013-10-03
 pubDate: "2013-10-03"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

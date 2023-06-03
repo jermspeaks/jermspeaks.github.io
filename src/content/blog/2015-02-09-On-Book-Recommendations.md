@@ -7,7 +7,7 @@ pubDate: "2015-02-09"
 heroImage: ""
 postType: "newsletter"
 tags: [season_1, letters]
-permalink: /:categories/:title.html
+
 ---
 
 This week, a friend asked me, "Will you find me a good but not crazy or preachy "learn to like yourself more" book please??” I gifted some books and followed up with a lengthy email for why I selected those books. I decided to blog about it and share my recommendations.

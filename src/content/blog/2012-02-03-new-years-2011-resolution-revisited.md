@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: New Years 2011 Resolutions Revisited
 date: 2012-02-03
 pubDate: "2012-02-03"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

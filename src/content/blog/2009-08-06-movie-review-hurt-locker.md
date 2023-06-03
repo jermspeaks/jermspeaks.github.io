@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: "Movie Review: The Hurt Locker"
 date: 2009-08-06
 pubDate: "2009-08-06"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: Immaturity in Guys
 date: 2008-03-05
 pubDate: "2008-03-05"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

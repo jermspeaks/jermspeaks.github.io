@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: "2010 Resolutions/Goals"
 date: 2010-01-01
 pubDate: "2010-01-01"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: Procrastination - The Life
 date: 2008-03-04
 pubDate: "2008-03-04"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "archive"

@@ -3,7 +3,7 @@ category: blog, post, work, annual
 title: 2017 Retrospective
 date: 2018-01-01
 pubDate: "2018-01-01"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

@@ -3,7 +3,7 @@ category: blog, post, tumblr
 title: There’s a Time and a Place for Everything
 date: 2008-01-15
 pubDate: "2008-01-15"
-permalink: /blog/:title.html
+
 draft: true
 description: ""
 heroImage: ""

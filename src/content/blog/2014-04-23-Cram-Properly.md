@@ -3,7 +3,7 @@ category: medium, post
 title: Cram Properly
 date: 2014-04-23
 pubDate: "2014-04-23"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

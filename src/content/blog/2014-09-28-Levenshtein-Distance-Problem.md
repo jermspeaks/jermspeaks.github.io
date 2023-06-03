@@ -3,7 +3,7 @@ category: blog, post
 title: Levenshtein Distance Problem
 date: 2014-09-28
 pubDate: "2014-09-28"
-permalink: /blog/:title.html
+
 description: ""
 heroImage: ""
 postType: "blog"

@@ -4,7 +4,7 @@ published: false
 draft: false
 categories: ["learning"]
 tags: ["react", "styled components"]
-permalink: /:categories/:title.html
+
 date: 2018-05-26
 description: ""
 pubDate: "2018-05-26"
