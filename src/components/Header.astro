@@ -1,5 +1,6 @@
 ---
 import { SITE_TITLE } from "../consts";
+import AlgoliaSearch from "./AlgoliaSearch.astro";
 import HeaderLink from "./HeaderLink.astro";
 ---
 
@@ -9,7 +10,8 @@ import HeaderLink from "./HeaderLink.astro";
   >
     <a href="/">{SITE_TITLE}</a>
   </h2>
-  <nav class="hidden md:flex md:gap-3 md:mb-8 dark:text-white">
+  <nav class="hidden md:flex md:gap-3 md:items-center md:mb-8 dark:text-white">
+    <AlgoliaSearch />
     <!-- <HeaderLink href="/">Home</HeaderLink> -->
     <HeaderLink href="/blog">Writing</HeaderLink>
     <HeaderLink href="/project">Projects</HeaderLink>

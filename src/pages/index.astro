@@ -87,12 +87,12 @@ const latestFilms = (await getCollection("filmLibrary"))
 
       <hr class="mt-5 mb-5" />
 
-      <div class="flex flex-col">
-        <ProseArticle>
-          <h2>
+      <div class="flex flex-col max-w-[65ch] lg:max-w-[80ch] mx-auto">
+        <div>
+          <h3 class="text-3xl font-medium underline">
             <a href="/library/books">Latest Books</a>
-          </h2>
-          <ul class="flex flex-wrap list-none p-0 gap-2">
+          </h3>
+          <ul class="flex flex-wrap list-none p-0 gap-2 mt-8 mb-8">
             {
               latestBooks.map((book) => (
                 <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
@@ -111,12 +111,12 @@ const latestFilms = (await getCollection("filmLibrary"))
               ))
             }
           </ul>
-        </ProseArticle>
-        <ProseArticle>
-          <h2>
+        </div>
+        <div>
+          <h3 class="text-3xl font-medium underline">
             <a href="/library/films">Latest Films</a>
-          </h2>
-          <ul class="flex flex-wrap list-none p-0 gap-2">
+          </h3>
+          <ul class="flex flex-wrap list-none p-0 gap-2 mt-8 mb-8">
             {
               latestFilms.map((film) => (
                 <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
@@ -137,19 +137,19 @@ const latestFilms = (await getCollection("filmLibrary"))
               ))
             }
           </ul>
-        </ProseArticle>
+        </div>
       </div>
 
       <hr class="mt-5 mb-5" />
 
       <ProseArticle>
-        <h2>
+        <h3>
           <a
             href="/series"
             class="hover:text-slate-800 dark:hover:text-slate-300"
             >Newsletter Series</a
           >
-        </h2>
+        </h3>
 
         <p>
           A weekly, longform essay that mainly focuses on lessons I've learned.
@@ -176,13 +176,13 @@ const latestFilms = (await getCollection("filmLibrary"))
               >!
             </label>
           </div>
-          <div class="flex gap-4">
+          <div class="flex flex-col md:flex-row gap-4">
             <div>
               <input
                 type="text"
                 name="email"
                 id="tlemail"
-                class="py-2 px-4"
+                class="py-1 px-2 md:py-2 md:px-4"
                 placeholder="email address"
               />
               <input type="hidden" value="1" name="embed" />
