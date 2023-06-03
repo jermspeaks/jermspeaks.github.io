@@ -9,7 +9,7 @@ import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"log">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
+const { title, description, updatedDate, heroImage } = Astro.props;
 ---
 
 <html lang="en">
@@ -22,7 +22,6 @@ const { title, description, pubDate, updatedDate, heroImage } = Astro.props;
     <main>
       <ProseArticle>
         {heroImage && <img width={720} height={360} src={heroImage} alt="" />}
-        <FormattedDate date={pubDate} />
         {
           updatedDate && (
             <div class="italic dark:text-slate-300">

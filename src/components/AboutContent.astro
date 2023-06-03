@@ -1,0 +1,14 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+type Props = CollectionEntry<"about">;
+
+const { data, render } = Astro.props;
+const { Content } = await render();
+---
+
+<section>
+  <h2>{data.title}</h2>
+
+  <article><Content /></article>
+</section>

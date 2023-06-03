@@ -1,7 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import aboutLinks from "../../utils/aboutLinks";
-import Layout from "../../layouts/About.astro";
+import AboutLayout from "../../layouts/About.astro";
 import NavigationLinks from "../../components/NavigationLinks.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 import ResumeContent from "../../components/ResumeContent.astro";
@@ -11,13 +11,10 @@ const resumeItems = (await getCollection("resume")).sort(
 );
 ---
 
-<Layout
+<AboutLayout
   title="About Me"
   description="Latest Resume"
-  pubDate={new Date("November 25, 2015")}
   updatedDate={new Date("June 2, 2023")}
-  heroImage=""
-  postType="resume"
 >
   <NavigationLinks slot="navigation" items={aboutLinks} />
   <ProseArticle>
@@ -32,4 +29,4 @@ const resumeItems = (await getCollection("resume")).sort(
       }
     </div>
   </ProseArticle>
-</Layout>
+</AboutLayout>

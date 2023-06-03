@@ -21,11 +21,13 @@ const { title, description, updatedDate } = Astro.props;
   </head>
   <BaseBody>
     <Header />
-    <main>
+    <main class="max-w-[65ch] mx-auto">
       <TitleHeading>{title}</TitleHeading>
       <section class="ml-auto mr-auto dark:text-slate">
         <slot name="navigation" />
-        <slot name="image" />
+        <section class="mt-8">
+          <slot name="image" />
+        </section>
         <div class="mt-8"></div>
         <slot />
         {

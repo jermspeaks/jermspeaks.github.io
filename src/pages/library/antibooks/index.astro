@@ -18,8 +18,8 @@ const antiLibrary = (await getCollection("antiLibrary")).sort(
       excellent piece about it called
       <a
         href="https://www.themarginalian.org/2015/03/24/umberto-eco-antilibrary/"
-        >Umberto Eco's Antilibrary: Why Unread Books Are More Valuable to
-        Our Lives than Read Ones</a
+        >Umberto Eco's Antilibrary: Why Unread Books Are More Valuable to Our
+        Lives than Read Ones</a
       >. While it sounds wasteful to have unread books, think of it like a pike
       of books you would gladly pick up when you find time to read. The Japanese
       call this Tsudonku.
@@ -38,15 +38,15 @@ const antiLibrary = (await getCollection("antiLibrary")).sort(
       studied or experienced (it's the job of their competitors to do that), but
       it would be nice if they did.
     </blockquote>
-    <h2 class="text-2xl mt-8 dark:text-white">My Anti-library Collection</h2>
   </ProseArticle>
+  <h2 class="text-2xl mt-8 dark:text-white">My Anti-library Collection</h2>
   <section>
     <ul class="flex flex-wrap list-none mt-8 p-0 gap-4">
       {
         antiLibrary.map((entry) => (
           <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
             <a
-              class="visited:text-purple-600"
+              class="visited:text-[#f25042]"
               href={`/library/antibooks/${entry.slug}`}
             >
               <img

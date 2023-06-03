@@ -20,26 +20,26 @@ const logs = (await getCollection("log")).sort(
   </head>
   <BaseBody>
     <Header />
-    <main>
+    <main class="max-w-[65ch] mx-auto">
       <TitleHeading>Logs by Year</TitleHeading>
-      <article class="ml-auto mr-auto">
-        <ProseArticle>
-          <p>
-            These are logs of consumed media from the past few years. (Updates
-            in Progress).
-          </p>
-          <p>I've been logging media consumption since 2010.</p>
-          <ul>
-            {
-              logs.map((log) => (
-                <li>
-                  <a href={`/log/${log.slug}/`} title={log.data.title}>{log.data.title}</a>
-                </li>
-              ))
-            }
-          </ul>
-        </ProseArticle>
-      </article>
+      <ProseArticle>
+        <p>
+          These are logs of consumed media from the past few years. (Updates in
+          Progress).
+        </p>
+        <p>I've been logging media consumption since 2010.</p>
+        <ul>
+          {
+            logs.map((log) => (
+              <li>
+                <a href={`/log/${log.slug}/`} title={log.data.title}>
+                  {log.data.title}
+                </a>
+              </li>
+            ))
+          }
+        </ul>
+      </ProseArticle>
     </main>
     <Footer />
   </BaseBody>

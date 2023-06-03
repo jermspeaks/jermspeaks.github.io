@@ -4,9 +4,15 @@ import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
-import libraryLinks from "../utils/libraryLinks";
 import NavigationLinks from "../components/NavigationLinks.astro";
 import TitleHeading from "../components/TitleHeading.astro";
+import writingLinks from "../utils/writingLinks";
+
+type Props = {
+  title?: string;
+};
+
+const { title = "Writing" } = Astro.props;
 ---
 
 <!DOCTYPE html>
@@ -16,12 +22,12 @@ import TitleHeading from "../components/TitleHeading.astro";
   </head>
   <BaseBody>
     <Header />
-    <main class="max-w-[120ch] mx-auto">
-      <TitleHeading>
-        <a href="/library">Library</a>
-      </TitleHeading>
-      <NavigationLinks items={libraryLinks} />
-      <slot />
+    <main class="max-w-[65ch] mx-auto">
+      <TitleHeading>{title}</TitleHeading>
+      <NavigationLinks items={writingLinks} />
+      <section>
+        <slot />
+      </section>
     </main>
     <Footer />
   </BaseBody>

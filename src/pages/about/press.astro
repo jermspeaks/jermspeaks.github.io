@@ -1,12 +1,12 @@
 ---
 import aboutLinks from "../../utils/aboutLinks";
-import Layout from "../../layouts/About.astro";
+import AboutLayout from "../../layouts/About.astro";
 import NavigationLinks from "../../components/NavigationLinks.astro";
 import FormattedDate from "../../components/FormattedDate.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 ---
 
-<Layout title="About Me" description="">
+<AboutLayout title="About Me" description="">
   <NavigationLinks slot="navigation" items={aboutLinks} />
   <ProseArticle>
     <h2 class="my-8">Talks</h2>
@@ -15,19 +15,21 @@ import ProseArticle from "../../components/ProseArticle.astro";
         <li>
           <div class="flex flex-col md:flex-row">
             <FormattedDate
-              class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
+              class="italic pe-4 flex-shrink-0 flex-grow-0 md:basis-[150px]"
               date={new Date("2019-01-15")}
             />
-            Hackbright: "System Design and Scalability".&nbsp;<a
-              href="https://docs.google.com/presentation/d/1_RHXq_Eq8YU3nl51TcWvsWhYkGHDS9WORWaOmLWygS0/edit#slide=id.p"
-              >Presentation</a
-            >
+            <div>
+              Hackbright: "System Design and Scalability" <a
+                href="https://docs.google.com/presentation/d/1_RHXq_Eq8YU3nl51TcWvsWhYkGHDS9WORWaOmLWygS0/edit#slide=id.p"
+                >Presentation</a
+              >
+            </div>
           </div>
         </li>
         <li>
           <div class="flex flex-col md:flex-row">
             <FormattedDate
-              class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
+              class="italic pe-4 flex-shrink-0 flex-grow-0 md:basis-[150px]"
               date={new Date("2017-12-12")}
             />
             <div>
@@ -43,17 +45,17 @@ import ProseArticle from "../../components/ProseArticle.astro";
         <li>
           <div class="flex flex-col md:flex-row">
             <FormattedDate
-              class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
+              class="italic pe-4 flex-shrink-0 flex-grow-0 md:basis-[150px]"
               date={new Date("2017-11-02")}
             />
-            DevBootcamp: "Hands-on React Lunch and Learn".
+            <div>DevBootcamp: "Hands-on React Lunch and Learn".</div>
           </div>
         </li>
         <li>
           <div class="flex flex-col md:flex-row">
             <time
               datetime={new Date("2015-11-24").toISOString()}
-              class="italic pe-4 flex-shrink-0 flex-grow-0 md:flex-[150px]"
+              class="italic pe-4 flex-shrink-0 flex-grow-0 md:basis-[150px]"
             >
               {
                 new Date("2015-11-24").toLocaleDateString("en-us", {
@@ -126,4 +128,4 @@ import ProseArticle from "../../components/ProseArticle.astro";
       </ul>
     </section>
   </ProseArticle>
-</Layout>
+</AboutLayout>
