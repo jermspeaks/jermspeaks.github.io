@@ -1,5 +1,4 @@
 ---
-category: letters
 title: 'Musical Discontent'
 date: 2016-01-12
 description: ""

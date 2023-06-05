@@ -1,5 +1,5 @@
 ---
-category: blog, post
+tags: ["blog", "post"]
 title: Facts of the Present and Past
 date: 2014-11-24
 pubDate: "2014-11-24"

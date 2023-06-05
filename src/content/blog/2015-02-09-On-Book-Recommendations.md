@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Book Recommendations
 date: 2015-02-09
 description: ""

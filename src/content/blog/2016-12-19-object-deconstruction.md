@@ -1,5 +1,5 @@
 ---
-category: blog, post
+tags: ["blog", "post"]
 title: Object Deconstruction in Javascript
 date: 2016-12-19
 pubDate: "2016-12-19"

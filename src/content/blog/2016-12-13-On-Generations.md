@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Generations
 date: 2016-12-13
 description: ""

@@ -1,5 +1,4 @@
 ---
-category: blog
 date: 2023-05-02
 description: "Migrating from Jekyll to Astro"
 draft: false

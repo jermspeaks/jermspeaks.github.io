@@ -1,5 +1,5 @@
 ---
-category: blog, post, tumblr
+tags: ["blog", "post", "tumblr"]
 title: My Take on Scientology
 date: 2008-01-22
 pubDate: "2008-01-22"

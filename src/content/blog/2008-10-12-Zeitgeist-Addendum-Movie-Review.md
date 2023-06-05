@@ -1,5 +1,5 @@
 ---
-category: blog, post, tumblr
+tags: ["blog", "post", "tumblr"]
 title: "Movie Review: Zeitgeist Addendum"
 date: 2008-10-12
 pubDate: "2008-10-12"

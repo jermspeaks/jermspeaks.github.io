@@ -1,5 +1,4 @@
 ---
-category: letters
 title: 'The 2015 Retrospective'
 date: 2016-01-05
 description: ""

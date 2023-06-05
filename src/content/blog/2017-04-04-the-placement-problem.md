@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Placement Problem
 date: 2017-04-04
 description: "Where I talk about my failure to find my belongings."

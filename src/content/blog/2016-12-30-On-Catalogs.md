@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Catalogs
 date: 2016-12-30
 description: ""

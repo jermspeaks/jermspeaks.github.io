@@ -1,5 +1,4 @@
 ---
-category: letters
 title: 'On Validation'
 date: 2016-03-14
 description: ""

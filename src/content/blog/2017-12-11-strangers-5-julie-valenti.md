@@ -1,5 +1,4 @@
 ---
-category: letters
 title: "Seven Degrees of Strangers: Fifth Separation"
 date: 2017-12-11
 description: "Julie Valenti"

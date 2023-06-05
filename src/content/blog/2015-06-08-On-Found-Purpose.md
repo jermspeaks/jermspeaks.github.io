@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Found Purpose
 date: 2015-06-08
 description: ""

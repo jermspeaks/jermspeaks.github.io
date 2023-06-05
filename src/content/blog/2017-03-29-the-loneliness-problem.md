@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Loneliness Problem
 date: 2017-03-30
 description: "Where I talk about my failure to be alone."

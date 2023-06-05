@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Rejection
 date: 2015-03-09
 description: ""

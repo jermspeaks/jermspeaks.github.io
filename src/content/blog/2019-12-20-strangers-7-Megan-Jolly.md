@@ -1,5 +1,4 @@
 ---
-category: letters
 title: "Seven Degrees of Strangers: Seventh Separation"
 date: 2018-07-14
 description: "Megan Jolly"

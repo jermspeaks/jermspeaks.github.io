@@ -1,5 +1,4 @@
 ---
-category: blog
 date: 2023-05-25
 description: "An exercise where I lay out my favorite questions. These questions are long-term problems without easy answers."
 draft: false

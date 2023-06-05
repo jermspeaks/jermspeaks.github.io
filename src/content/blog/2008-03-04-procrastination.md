@@ -1,5 +1,5 @@
 ---
-category: blog, post, tumblr
+tags: ["blog", "post", "tumblr"]
 title: Procrastination - The Life
 date: 2008-03-04
 pubDate: "2008-03-04"

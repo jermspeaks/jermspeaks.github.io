@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Collections
 date: 2015-08-04
 description: ""

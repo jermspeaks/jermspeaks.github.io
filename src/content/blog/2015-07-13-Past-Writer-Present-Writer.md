@@ -1,5 +1,4 @@
 ---
-category: letters
 title: Past Writer, Present Writer
 date: 2015-07-13
 description: ""

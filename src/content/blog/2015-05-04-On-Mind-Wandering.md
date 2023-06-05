@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Mind Wandering
 date: 2015-05-04
 description: ""

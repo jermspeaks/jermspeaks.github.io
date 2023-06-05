@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Problem of Rushing Through
 date: 2017-04-17
 description: "Where I talk about my failure to slow down."

@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Passing The Torch
 date: 2015-08-24
 description: ""

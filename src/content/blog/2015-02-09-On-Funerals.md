@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Funerals
 date: 2015-02-09
 description: ""

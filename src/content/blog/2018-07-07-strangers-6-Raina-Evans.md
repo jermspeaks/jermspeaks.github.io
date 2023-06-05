@@ -1,5 +1,4 @@
 ---
-category: letters
 title: "Seven Degrees of Strangers: Sixth Separation"
 date: 2018-07-07
 description: "Raina Evans"

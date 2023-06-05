@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Reactive Problem
 date: 2017-03-06
 description: "Where I talk about my failure to stop reacting."

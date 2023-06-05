@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Burnout
 date: 2015-07-06
 description: ""

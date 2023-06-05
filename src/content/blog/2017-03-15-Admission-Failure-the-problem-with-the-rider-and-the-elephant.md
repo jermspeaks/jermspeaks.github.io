@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Problem With the Rider and the Elephant
 date: 2017-03-15
 pubDate: "2017-03-15"
