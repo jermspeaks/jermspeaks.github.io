@@ -14,3 +14,11 @@ const { class: className } = Astro.props;
 >
   <slot />
 </article>
+<style lang="css" is:global>
+  .heading-link {
+    @apply hidden md:inline relative;
+  }
+  .heading-link svg {
+    @apply absolute top-1 lg:top-3 -left-8;
+  }
+</style>
