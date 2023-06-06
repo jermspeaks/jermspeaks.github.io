@@ -3,14 +3,11 @@ tags: ["blog", "post", "tumblr"]
 title: "Movie Review: Harry Potter and the Half Blood Prince"
 date: 2009-07-31
 pubDate: "2009-07-31"
-
 description: ""
 heroImage: ""
 postType: "archive"
 draft: true
 ---
-
-
 
 ![Harry Potter and the Half Blood Prince movie poster](https://upload.wikimedia.org/wikipedia/en/3/3f/Harry_Potter_and_the_Half-Blood_Prince_poster.jpg)
 

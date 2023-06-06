@@ -2,6 +2,7 @@
 bookAuthor: "Dan Savage"
 dateConsumed: "2012-02-29"
 heroImage: "https://68.media.tumblr.com/tumblr_lznp1q47Op1qz81kho1_400.jpg"
+heroImageAlt: "Book cover image for The Commitment"
 link: "https://amzn.to/41QkPSg"
 pubDate: "2012-02-29"
 title: "The Commitment: Love, Sex, Marriage, and My Family"
