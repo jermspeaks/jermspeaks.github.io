@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Discomfort
 date: 2014-12-06
 description: ""

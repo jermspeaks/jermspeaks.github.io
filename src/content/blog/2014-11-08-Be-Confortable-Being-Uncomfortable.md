@@ -1,5 +1,5 @@
 ---
-category: blog, post
+tags: ["blog", "post"]
 title: Be Comfortable Being Uncomfortable
 date: 2014-11-08
 pubDate: "2014-11-08"

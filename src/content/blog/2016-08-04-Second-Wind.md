@@ -1,5 +1,4 @@
 ---
-category: letters
 title: 'Second Wind'
 date: 2016-08-04
 description: ""

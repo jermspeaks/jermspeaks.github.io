@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Getting Past "No"
 date: 2015-02-16
 description: ""

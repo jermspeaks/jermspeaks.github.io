@@ -1,5 +1,4 @@
 ---
-category: blog
 date: 2023-05-06
 description: "Annual Review for Age 32"
 draft: false

@@ -1,5 +1,5 @@
 ---
-category: blog, post, tumblr
+tags: ["blog", "post", "tumblr"]
 title: Older Women Thinking Twenty
 date: 2008-03-08
 pubDate: "2008-03-08"

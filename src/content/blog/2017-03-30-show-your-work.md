@@ -1,5 +1,5 @@
 ---
-category: blog, post, work
+tags: ["blog", "post", "work"]
 title: Show Your Work - A Manifesto
 date: 2017-03-30
 pubDate: "2017-03-30"

@@ -1,5 +1,4 @@
 ---
-category: letters
 title: Marathon Acknowledgements
 date: 2015-10-12
 description: ""

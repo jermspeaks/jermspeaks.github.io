@@ -1,5 +1,4 @@
 ---
-category: letters
 title: "Seven Degrees of Strangers: Fourth Separation"
 date: 2017-10-23
 description: "Mary Aipoalani"

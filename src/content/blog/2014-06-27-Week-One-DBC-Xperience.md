@@ -1,5 +1,5 @@
 ---
-category: blog, post
+tags: ["blog", "post"]
 title: 'Week One: The DBC Xperience'
 date: 2014-06-27
 pubDate: "2014-06-27"

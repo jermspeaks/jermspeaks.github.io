@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Obituaries
 date: 2015-09-23
 description: ""

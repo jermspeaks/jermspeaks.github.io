@@ -1,5 +1,4 @@
 ---
-category: letters
 title: Christmas in October
 date: 2015-10-07
 description: ""

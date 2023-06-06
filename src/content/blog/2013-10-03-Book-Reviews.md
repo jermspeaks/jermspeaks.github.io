@@ -1,5 +1,5 @@
 ---
-category: blog, post
+tags: ["blog", "post"]
 title: Book Reviews of Things I've Recently Read
 date: 2013-10-03
 pubDate: "2013-10-03"

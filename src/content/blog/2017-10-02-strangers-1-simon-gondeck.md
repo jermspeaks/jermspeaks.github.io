@@ -1,5 +1,4 @@
 ---
-category: letters
 title: "Seven Degrees of Strangers: First Separation"
 date: 2017-10-02
 description: "Simon Gondeck"

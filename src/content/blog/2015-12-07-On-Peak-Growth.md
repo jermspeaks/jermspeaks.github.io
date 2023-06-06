@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Peak Growth
 date: 2015-12-07
 description: ""

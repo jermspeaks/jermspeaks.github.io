@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Negligence Problem
 date: 2017-02-07
 pubDate: "2017-02-07"

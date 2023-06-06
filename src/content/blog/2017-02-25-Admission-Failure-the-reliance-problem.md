@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Reliance Problem
 date: 2017-02-25
 description: "Where I talk about my failure to remember."

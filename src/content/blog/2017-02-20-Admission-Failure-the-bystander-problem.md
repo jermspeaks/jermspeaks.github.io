@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Bystander Problem
 date: 2017-02-20
 pubDate: "2017-02-20"

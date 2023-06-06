@@ -1,5 +1,4 @@
 ---
-category: letters
 title: The Inner Game of Desert Running
 date: 2015-09-16
 description: ""

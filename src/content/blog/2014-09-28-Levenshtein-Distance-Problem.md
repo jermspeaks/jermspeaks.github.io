@@ -1,5 +1,5 @@
 ---
-category: blog, post
+tags: ["blog", "post"]
 title: Levenshtein Distance Problem
 date: 2014-09-28
 pubDate: "2014-09-28"

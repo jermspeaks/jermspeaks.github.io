@@ -1,5 +1,4 @@
 ---
-category: letters
 title: 'The Blind Artist'
 date: 2015-12-18
 description: ""

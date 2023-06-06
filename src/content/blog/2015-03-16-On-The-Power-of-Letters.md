@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On The Power of Letters
 date: 2015-03-16
 description: ""

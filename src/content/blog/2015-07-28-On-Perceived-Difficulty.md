@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Perceived Difficulty
 date: 2015-07-28
 description: ""

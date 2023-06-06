@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On The Criteria of Friendship
 date: 2015-01-16
 description: ""

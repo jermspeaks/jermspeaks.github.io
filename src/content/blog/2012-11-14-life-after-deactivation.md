@@ -1,5 +1,5 @@
 ---
-category: blog, post, tumblr
+tags: ["blog", "post", "tumblr"]
 title: Life after Deactivation
 date: 2010-11-14
 pubDate: "2010-11-14"

@@ -1,5 +1,5 @@
 ---
-category: blog, post, programming
+tags: ["blog", "post", "programming"]
 title: React JSX Styling - Ternary Operators
 date: 2016-12-29
 pubDate: "2016-12-29"

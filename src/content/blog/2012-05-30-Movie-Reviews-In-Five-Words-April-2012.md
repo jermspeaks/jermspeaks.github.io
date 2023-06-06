@@ -1,5 +1,5 @@
 ---
-category: blog, post, tumblr
+tags: ["blog", "post", "tumblr"]
 title: "Movie Reviews in Five Words (April 2012)"
 date: 2012-05-30
 pubDate: "2012-05-30"

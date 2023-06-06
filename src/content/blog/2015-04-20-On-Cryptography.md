@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Cryptography
 date: 2015-04-20
 description: ""

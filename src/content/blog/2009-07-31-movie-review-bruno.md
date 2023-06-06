@@ -1,5 +1,5 @@
 ---
-category: blog, post, tumblr
+tags: ["blog", "post", "tumblr"]
 title: "Movie Review: Brüno"
 date: 2009-07-31
 pubDate: "2009-07-31"

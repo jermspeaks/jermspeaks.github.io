@@ -1,5 +1,4 @@
 ---
-category: letters
 title: "Seven Degrees of Strangers: Third Separation"
 date: 2017-10-11
 description: "Joe Lazzara"

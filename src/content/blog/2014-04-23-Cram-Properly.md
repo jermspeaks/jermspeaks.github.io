@@ -1,9 +1,8 @@
 ---
-category: medium, post
+tags: ["medium", "post"]
 title: Cram Properly
 date: 2014-04-23
 pubDate: "2014-04-23"
-
 description: ""
 heroImage: ""
 postType: "blog"

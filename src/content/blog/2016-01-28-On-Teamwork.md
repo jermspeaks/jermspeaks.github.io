@@ -1,5 +1,4 @@
 ---
-category: letters
 title: 'On Teamwork'
 date: 2016-01-28
 description: ""

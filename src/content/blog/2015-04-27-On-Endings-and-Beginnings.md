@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Endings and Beginnings
 date: 2015-04-27
 description: ""

@@ -1,5 +1,4 @@
 ---
-category: blog
 date: 2022-12-08
 description: 'Setting up a new mac - 2022 Apple Macbook Pro 13"'
 draft: false

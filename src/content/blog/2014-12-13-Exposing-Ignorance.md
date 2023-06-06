@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Exposing Ignorance
 date: 2014-12-13
 description: ""

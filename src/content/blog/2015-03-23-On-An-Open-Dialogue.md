@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On An Open Dialogue
 date: 2015-03-23
 description: ""

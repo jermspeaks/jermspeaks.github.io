@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Frustration
 date: 2015-06-01
 description: ""

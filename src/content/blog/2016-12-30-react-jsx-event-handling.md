@@ -1,5 +1,5 @@
 ---
-category: blog, post, programming
+tags: ["blog", "post", "programming"]
 title: React JSX Syntax - Event Handling
 date: 2016-12-30
 pubDate: "2016-12-30"

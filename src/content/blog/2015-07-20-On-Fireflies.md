@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On Fireflies
 date: 2015-07-20
 description: ""

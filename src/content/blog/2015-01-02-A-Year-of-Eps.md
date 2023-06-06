@@ -1,5 +1,4 @@
 ---
-category: letters
 title: On A Year of EPs
 date: 2015-01-02
 description: ""

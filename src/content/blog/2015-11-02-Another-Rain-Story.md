@@ -1,5 +1,4 @@
 ---
-category: letters
 title: Another Rain Story
 date: 2015-11-02
 description: ""

@@ -1,5 +1,4 @@
 ---
-category: blog
 date: 2023-05-28
 description: "My current daily review journal for work, as of 2023."
 draft: false
