@@ -22,14 +22,12 @@ export default defineConfig({
           content: {
             type: "element",
             tagName: "span",
-            properties: { className: ["relative"] },
+            properties: { className: ["heading-link"] },
             children: [
               {
                 type: "element",
                 tagName: "svg",
                 properties: {
-                  className: ["absolute top-0 -left-16"],
-                  style: "top: 0.8rem; left: -2.4rem;",
                   width: 24,
                   height: 24,
                   version: 1.1,
@@ -48,16 +46,6 @@ export default defineConfig({
                   },
                 ],
               },
-              // {
-              //   type: "element",
-              //   tagName: "img",
-              //   properties: {
-              //     src: "/images/heading-link.svg",
-              //     alt: "Link icon",
-              //     className: ["m-0", "h-4", "w-4"],
-              //   },
-              //   children: [],
-              // },
             ],
           },
         },
@@ -72,11 +60,10 @@ export default defineConfig({
               src: "/images/external-link.svg",
               alt: "External link icon",
               width: "16",
-              className: "inline-block ml-2 align-super",
             },
             children: [],
           },
-          contentProperties: { className: ["external-link "] },
+          contentProperties: { className: ["external-link"] },
         },
       ],
     ],
