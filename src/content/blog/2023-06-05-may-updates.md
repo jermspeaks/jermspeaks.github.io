@@ -9,11 +9,11 @@ title: "This month at Craft By Zen, May 2023"
 tags: ["review", "daily", "habits"]
 ---
 
-Over the past month, I've been making small enhancements to make the website 1% better. I'm excited to talk about many of them, some noticable, some under the hood.
+Over the past month, I have been making small enhancements to make the website 1% better. I’m excited to talk about many of them, some noticeable, some under the hood.
 
 ## Major Updates
 
-### Tailwind, 🌑 Dark Mode, and Solving my Woes with Styling
+### Tailwind, 🌑 Dark Mode, and Solving My Woes with Styling
 
 Some major updates are around styling. Previously, I was using some CSS files to style the different pages. However, after a lot of tinkering with Tailwind, I went full in. And boy has it made it easier to update styling, especially around media queries.
 
@@ -21,35 +21,35 @@ I hate to think about media queries, write a quick template or some variables, w
 
 Where I immediately saw this benefit was a bug I found with a list of navigation links. With a little bit of tinkering, I was able to make the classes from `flex` with a default of no wrapping, to `flex-wrap` then `md:flex-no-wrap` to get that desired effect.
 
-Another thing that was super helpful was immediately adding dark mode support. With the prefix, `dark:`, it made my life so much easier. I saw some initially places where I needed to modify the website immediately, and having this utility class prefix allowed me to get straight to styling vs. thinking about CSS selectors and rules. That said, having a background with CSS is a huge help, and even if I had to write only CSS, I'd still be operable.
+Another super helpful thing was immediately adding dark mode support. With the prefix, `dark:`, it made my life so much easier. I saw some initial places where I needed to modify the website immediately, and having this utility class prefix allowed me to get straight to styling vs. thinking about CSS selectors and rules. That said, having a background in CSS is a huge help, and even if I had to write only CSS, I'd still be operable.
 
 Also, you may now notice there are links next to headings. That's all thanks to installing my first [rehype](https://github.com/rehypejs/rehype) plugin! I had no idea there was such a rich community of rehype and remark plugins for all different use cases. I'm excited to explore more of them.
 
-Lastly, my RSS feed has been updated. The books and films are added to the main feed, as well as styling the feed page itself. I didn't know it used an `.xsl` file, and I used a [generic template](https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl).
+Lastly, my RSS feed has been updated. The books and films are added to the main feed, as well as styling the feed page itself. I didn't know it used a `.xsl` file, and I used a [generic template](https://github.com/genmon/aboutfeeds/blob/main/tools/pretty-feed-v3.xsl).
 
 ### New Collections 📚 🎥
 
-I expanded on my library. The films, anti-library, book reviews have been added. The lindy library is okay, and needs a bit more design and explanation. I'm proud of adding the log alongside the movies and books. I plan to link the log back to those pages too, where I can.
+I expanded on my library. The films, anti-library, and book reviews have been added. The lindy library is passable and needs a bit more design and explanation. I'm proud of adding the log alongside the movies and books. I plan to link the log back to those pages too, where I can.
 
-A lot of tinkering with Tailwind helped make this a lot easier too. I knew the design needed to look a little different, so for the past month I've been browsing the pages on my own until they looked the way I wanted.
+A lot of tinkering with Tailwind helped make this a lot easier too. I knew the design needed to look a little different, so for the past month, I've been browsing the pages on my own until they looked the way I wanted.
 
 ### Content Updates
 
-My resume, about page, now page, and many, many other pages have been updated. This was a long time coming. For years, I've kept the same about page, being about the "brief" version vs. the Twitter version vs. the LinkedIn version. I don't think that represented me well. After some inspiration from [Derek Sivers](https://sive.rs/about)' about page, I restarted the process from scratch. I thought more about it like an auto-biography, rather than a professional LinkedIn page. It's a lot more personal, and hopefully that shines than the corporate version that I wince at.
+My resume, about page, now page, and many, many other pages have been updated. This was a long time coming. For years, I've kept the same about page, being about the "brief" version vs. the Twitter version vs. the LinkedIn version. I don't think that represented me well. After some inspiration from [Derek Sivers](https://sive.rs/about)' about page, I restarted the process from scratch. I thought more about it as an autobiography, rather than a professional LinkedIn page. It's a lot more personal, and hopefully, that shines than the corporate version that I wince at.
 
 ### Search 🔍
 
-I installed the Algolia Crawler earlier in the month, and finally had time to add a search component over the weekend. A little more refinement is needed to get the search results to display correctly (specifically removing the navigation text), but we'll get there.
+I installed the Algolia Crawler earlier in the month and finally had time to add a search component over the weekend. A little more refinement is needed to get the search results to display correctly (specifically removing the navigation text), but we'll get there.
 
 ### Under the hood 🚘
 
-Getting the initial setup with Netlify was a major lift. Everything else has felt like a smaller lift, but also necessary. For example, dependabot wasn't installed, so I made sure dealing with package updates were automated. I included meta tags that were missing for SEO purposes, verifying Twitter cards and Open Graph links (like LinkedIn) to work correctly.
+Getting the initial setup with Netlify was a major lift. Everything else has felt like a smaller lift, but also necessary. For example, dependabot wasn't installed, so I made sure dealing with package updates was automated. I included meta tags that were missing for SEO purposes, verifying Twitter cards and Open Graph links (like LinkedIn) to work correctly.
 
 ### What's next?
 
 Honestly, I'm going to take a step back and work on the content. While I'd love to update the Lindy Library, I'd much rather do what I do best, and write more blog posts. I have been working on a personal content pipeline to gather ideas, slowly work through books, and put my own take out there.
 
-If there's every any issues you find with the website, feel free to [open an issue](https://github.com/jermspeaks/jermspeaks.github.io/issues) on Github. Ta ta for now 👋.
+If there are any issues you find with the website, feel free to [open an issue](https://github.com/jermspeaks/jermspeaks.github.io/issues) on GitHub. Ta ta for now 👋.
 
 ### Changelog
 
