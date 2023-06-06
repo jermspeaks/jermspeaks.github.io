@@ -32,6 +32,7 @@
     "html-escaper": "^3.0.3",
     "npm": "^9.6.7",
     "rehype-autolink-headings": "^6.1.1",
+    "rehype-external-links": "^2.1.0",
     "rehype-slug": "^5.1.0",
     "svelte": "^3.59.1",
     "tailwindcss": "^3.3.2"
