@@ -8,17 +8,27 @@ const { class: className } = Astro.props;
 
 <article
   class:list={[
-    "prose lg:prose-xl dark:prose-invert prose-img:mt-0 prose-img:mb-0 mx-auto",
+    "prose lg:prose-xl dark:prose-invert prose-img:mt-0 prose-img:mb-0 hover:prose-a:text-amber-600 mx-auto",
     className,
   ]}
 >
   <slot />
 </article>
 <style lang="css" is:global>
+  h2:hover .heading-link,
+  h3:hover .heading-link,
+  h4:hover .heading-link,
+  h5:hover .heading-link {
+    @apply opacity-100;
+  }
   .heading-link {
-    @apply hidden md:inline relative;
+    @apply hidden md:inline md:opacity-0 relative;
   }
   .heading-link svg {
-    @apply absolute top-1 lg:top-3 -left-8;
+    @apply absolute top-1/2 -translate-y-1/2 -left-7;
+  }
+
+  .external-link {
+    @apply inline-block align-super;
   }
 </style>
