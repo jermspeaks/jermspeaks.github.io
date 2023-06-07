@@ -1,0 +1,141 @@
+---
+title: Excellent Advice for Living
+bookAuthor: "Kevin Kelly"
+dateConsumed: "2023-05-21"
+heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667852408i/62313346.jpg"
+heroImageAlt: "Book cover for Excellent Advice for Living"
+link: "https://amzn.to/3MWVGiE"
+pubDate: "2023-06-06"
+review: ""
+---
+
+## Highlighted Pieces of Advice
+
+The following are key pieces of advice that I took something away with.
+
+- There are only tiny baby steps between can’t and learning.
+- Taking a break is not a sign of weakness but a sign of strength.
+- You can’t reason someone out of a notion that they didn’t reason themselves into.
+- When you are anxious because of your to-do list take comfort in your have-done list.
+- Treating a person to a meal never fails and is so easy to do. It’s powerful with old friends and a great way to make new friends.
+- Movement plus variety equals health.
+- The best way to learn anything is to try to teach what you know.
+- We lack rites of passage. Create a memorable family ceremony when your child reaches legal adulthood between eighteen and twenty-one. This moment will become a significant touchstone in their life.
+- Draw to discover what you see. Write to discover what you think.
+- The quickest checkout line will be the one with the fewest people no matter the size of their carts.
+- Habit is far more dependable than inspiration. Make progress by making habits. Don’t focus on getting into shape. Focus on becoming the kind of person who never misses a workout.
+- Rule of 3 in conversation: To get to the real reason, ask a person to go deeper than what they just said. Then again, and then once more. The third time’s answer is the one closest to the truth.
+- The more you are interested in others the more interesting they’ll find you. To be interesting, be interested.
+- Tend to the small things. More people are defeated by blisters than by mountains.
+- You lead by letting others know what you expect of them which may exceed what they themselves expect. Provide them a reputation that they can step up to.
+- If you ask for someone’s feedback you’ll get a critic. But if instead you ask for advice you’ll get a partner.
+- To make something good, just do it. To make something great, just redo it redo it, redo it. The secret to making fine things is in remaking them.
+- At first, buy the absolute cheapest tools you can find. Upgrade the ones you use a lot. If you wind up using some tool for a job buy the very best you can afford.
+- Nothing elevates a person higher than taking responsibility for their mistakes. If you mess up, fess up. It’s astounding how powerful this ownership is.
+- Separate the processes of creating from improving. You can’t write and edit or sculpt and polish or make and analyze at the same time. If you do, the editor stops the creator. While you invent, don’t select. While you sketch, don’t inspect. While you write the first draft, don’t reflect. At the start, the creator mind must be unleashed from judgment.
+- Forgiveness is accepting the apology you will never get.
+- Be more generous than necessary. No one on their deathbed has ever regretted giving too much away. There is no point to being the richest person in the cemetery.
+- Anything real begins with the fiction of what could be. Imagination is therefore the most potent force in the universe. And you can get better at it. It’s the one skill in life that benefits from ignoring what everyone else knows.
+- On vacation go to the most remote place on your itinerary first bypassing the cities and then return to the big city at the end. You’ll maximize the shock of otherness in the remote, and then later you’ll welcome the familiar conveniences of a busy city on the way back.
+- If you ask to be hired mainly because you need a job you are just another problem for the boss; if you can solve many of the problems the boss has right now you are hired. To be hired, think like your boss.
+- Rule of 7 in research: You can find out anything if you are willing to go seven levels. If the first source you ask doesn’t know ask them who you should ask next and so on down the line. If you are willing to go to the seventh source you’ll almost always get your answer.
+- Experience is overrated. Most breakthrough accomplishments were done by people doing them for the first time. Therefore when hiring hire for aptitude and attitude and then train for skills.
+- Following your bliss is a recipe for paralysis if you don’t know what you are passionate about. A better path for most youth is “master something.” Through mastery of one thing you’ll command a viewpoint to steadily find where your bliss is.
+- Life gets better as you replace transactions with relationships.
+- Investing small amounts of money over a long time works miracles but no one wants to get rich slow.
+- Don’t let someone else’s urgency become your emergency. In fact, don’t be governed by the urgent of any sort. Focus on the important. The urgent is a tyrant. The important should be your king. Down with the tyranny of the urgent!
+- Superheroes and saints never make art. Only imperfect beings can make art because art begins in what is broken.
+- Don’t create things to make money; make money so you can create things. The reward for good work is more work.
+- Learn how to tie a bowline knot. Practice in the dark. With one hand. For the rest of your life you’ll use this knot more times than you would ever believe.
+- In all things—except love— start with the exit strategy. Prepare for the ending. Almost anything is easier to get into than out of.
+- A multitude of bad ideas is necessary for one good idea.
+- You don’t need more time because you already have all the time that you will ever get; you need more focus.
+- For marital bliss take turns allowing each partner to be always right.
+- When a child asks an endless string of “Why?” questions, the smartest reply is “I don’t know, what do you think?”
+- When you are young have friends who are older; when you are old have friends who are younger.
+- You are only as young as the last time you changed your mind.
+- If you can’t tell what you desperately need it’s probably sleep.
+- Writing down one thing you are grateful for each day is the cheapest possible therapy ever.
+- Don’t worry how or where you begin. As long as you keep moving, your success will arrive far from where you start.
+- Each time you connect to people bring them a blessing; then they’ll be happy to see you when you bring them a problem.
+- The work on any worthy project is endless, infinite. You cannot limit the work so you must limit your hours. Your time, not the work is the only thing you can manage.
+- This is the best time ever to make something. None of the greatest, coolest creations 20 years from now have been invented yet. You are not late.
+- Things do not need to be perfect to be wonderful. Especially weddings.
+- We are not a body that carries a soul. We are a soul that is assigned a body not of our choosing, but in our care.
+- People can’t remember more than three points from a speech.
+- To succeed, get other people to pay you; to become wealthy, help other people to succeed.
+- To transcend the influence of your heroes copy them shamelessly like a student until you get them out of your system. That is the way of all masters.
+- Cultivate an allergy to average.
+- You don’t marry a person you marry a family.
+- About 99% of the time the right time is right now.
+- Cultivate 12 people who love you because they are worth more than 12 million people who like you.
+- To manage yourself use your head; to manage others use your heart.
+- End with wanting more, not less.
+- Experiences are fun and having influence is rewarding but only mattering makes us happy. Do stuff that matters.
+- If you stop to listen to a musician or street performer for more than a minute you owe them a dollar.
+- The consistency of your endeavors (exercise, companionship, work) is more important than the quantity.
+- The best work ethic requires a good rest ethic.
+- Don’t aim for better ways to get through your tasks as quickly as possible. Instead aim for better tasks that you never want to stop doing.
+- Don’t keep making the same mistakes; try to make new mistakes.
+- Your growth as a mature being is measured by the number of uncomfortable conversations you are willing to have.
+- Don’t buy anything late at night. There is nothing you need to buy that cannot wait till tomorrow morning.
+- You can find no better medicine for your family than regular meals together without screens.
+- In a genuine survival situation, you can go 3 weeks without food and 3 days without water but only 3 hours without warmth or shade. So don’t worry about food. Focus on temperature and water.
+- Ask anyone you admire: Their lucky breaks happened on a detour from their main goal. So embrace detours. Life is not a straight line for anyone.
+- You’ll get 10 times better results by elevating good behavior rather than punishing bad behavior especially in children and animals.
+- Always read the plaque next to the monument.
+- The general strategy for real estate is to buy the worst property on the best street.
+- When you need to cut something extremely exact don’t try to do it with one cut. Instead, cut it a bit bigger and then keep trimming it bit by bit until perfect. Professional makers call this “creeping up” to the precise measurement.
+- 90% of everything is crap. If you think you don’t like opera, romance novels, TikTok, country music, vegan food NFTs, keep trying to see if you can find the 10% that is not crap.
+- Your best job will be one that you were unqualified for because it stretches you. In fact, only apply to jobs you are unqualified for.
+- You can be whatever you want to be so be the person who ends meetings early.
+- A wise man said: Before you speak, let your words pass through three gates. At the first gate, ask yourself, “Is it true?” At the second gate ask, “Is it necessary?” At the third gate ask, “Is it kind?”
+- Not all prices appear on labels.
+- If a young student is struggling first thing: Check their eyesight.
+- It’s thrilling to be extremely polite to rude strangers.
+- Looking ahead, focus on direction rather than destinations. Maintain the right direction and you’ll arrive at where you want to go.
+- Purchase the most recent tourist guidebook to your hometown or region. You’ll learn a lot by playing the tourist once a year.
+- When introduced to someone make eye contact and count to four or say to yourself, “I see you.” You’ll both remember each other.
+- Spend ⅓ of your time on exploring and ⅔ on optimizing and deepening. As you mature it is harder to devote time to exploring because it seems unproductive but aim for ⅓.
+- You are as big as the things that make you angry.
+- If you want something to get done ask a busy person to do it.
+- Pay attention to what you pay attention to.
+- Reading to your children regularly is the best school they will ever get.
+- It doesn’t matter how many people don’t appreciate you or your work. The only thing that counts is how many do.
+- You can really change someone’s life for the better simply by offering words of encouragement.
+- A superpower worth cultivating is learning from people you don’t like. It is called “humility.” This is the courage to let dumb, stupid, hateful, crazy, mean people teach you something because despite their character flaws they each know something you don’t.
+- The main reason to produce something every day is that you must throw away a lot of good work to reach the great stuff. To let it all go easily you need to be convinced that there is “more where that came from.” You get that in steady production.
+- Unhappiness comes from wanting what others have. Happiness comes from wanting what you already have.
+- To get your message across follow this formula used by ad writers everywhere: simplify, simplify, simplify, then exaggerate.
+- The very best thing you can do for your kids is to love your spouse.
+- To meditate, sit and pay attention to your breathing. Your mind will wander to thoughts. Then you bring your attention back to your breathing where it can’t think. Wander. Retreat. Keep returning to breath no thoughts. That is all.
+- Five years from now you will wish you had started today.
+- Your heart needs to be as educated as your mind.
+- You can’t change your past but you can change your story about it. What is important is not what happened to you but what you did about what happened to you.
+- Let your children choose their punishments. They’ll be tougher than you will.
+- Anger is not the proper response to anger. When you see someone angry you are seeing their pain. Compassion is the proper response to anger.
+- When you find something you really enjoy do it slowly.
+- It is impossible for you to become poor by giving. It is impossible for you to become wealthy without giving.
+- Worry is ineffective. It is certain that 99% of the stuff you are anxious about won’t happen.
+- Be extremely stingy in making promises because you must be generous in keeping them.
+- A proper apology consists of conveying the 3 Rs: regret (genuine empathy with the other) responsibility (not blaming someone else) and remedy (your willingness to fix it).
+- It is usually much easier to make big audacious changes than small incremental ones.
+- To lower tensions during a dispute, mirror the other person’s body language.
+- We are unconsciously distracted by seeing our reflection. You can alleviate a lot of the fatigue of teleconferencing all day if you turn off your self-view.
+- As long as an idea stays in your head it is perfect. But perfect things are never real. Immediately put an idea down into words or in a sketch, or as a cardboard prototype. Now your idea is much closer to reality because it is imperfect.
+- First, always ask for what you want. Works in relationships, business, life.
+- To learn from your mistakes first laugh at your mistakes.
+- It’s unfortunate when someone you carefully trained leaves; but it is worse if you don’t train them and they stay.
+- Your opinion on a contentious issue gains power when you can argue the opposite side as well as they can.
+- When you keep people waiting they begin to think of all your flaws.
+- On the dashboard of every gasoline car is a symbol of gas pump with a little arrow. The arrow points to the side of the car that accesses your gas tank. Remember this when you borrow or rent a car.
+- Instead of asking your child what they learned today, ask them who they helped today.
+- To succeed once focus on the outcome; to keep succeeding focus on the process that makes the outcome.
+- Your ideal partner is not someone you never disagree with but someone you are glad to disagree with.
+- Being curious about another person’s view is the most powerful way to change their view.
+- To speed a meeting up require that any person who speaks must say something no one else in the room knows.
+- If you want to go fast, go alone; if you want to go further, go together.
+- When you are stuck, make a long list of everything that cannot possibly work. On that list will be a seed that leads to a solution that will work.
+- Your last check should go to the funeral home and it should bounce.
+- Life lessons will be presented to you in the order they are needed. Everything you need to master the lesson is within you. Once you have truly learned a lesson you will be presented with the next one. If you are alive that means you still have lessons to learn.
+- Very few regrets in life are about what you did. Almost all are about what you didn’t do.
