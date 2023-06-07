@@ -3,6 +3,7 @@ date: 2023-06-05
 description: "Major website updates, new collections, fixed bugs, and more!"
 draft: false
 heroImage: "https://images.unsplash.com/photo-1536849460588-696219a9e98d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1431&q=80"
+heroImageAlt: "Credits: Unsplash, Steve Johnson"
 postType: "blog"
 pubDate: "2023-06-05"
 title: "This month at Craft By Zen, May 2023"

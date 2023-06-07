@@ -8,12 +8,13 @@ import svelte from "@astrojs/svelte";
 import tailwind from "@astrojs/tailwind";
 import rehypeExternalLinks from "rehype-external-links";
 
+import rehypeFigure from "./plugins/rehype-figure";
+
 // https://astro.build/config
 export default defineConfig({
   site: "https://craftbyzen.com",
   markdown: {
     rehypePlugins: [
-      // rehypeHeadingIds,
       rehypeSlug,
       [
         rehypeAutolinkHeadings,
@@ -66,6 +67,7 @@ export default defineConfig({
           contentProperties: { className: ["external-link"] },
         },
       ],
+      rehypeFigure,
     ],
   },
   integrations: [
