@@ -9,8 +9,15 @@ import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"blog">["data"];
 
-const { title, description, pubDate, updatedDate, heroImage, heroImageAlt } =
-  Astro.props;
+const {
+  title,
+  description,
+  pubDate,
+  updatedDate,
+  heroImage,
+  heroImageAlt,
+  minutesRead,
+} = Astro.props;
 ---
 
 <html lang="en">
@@ -37,7 +44,11 @@ const { title, description, pubDate, updatedDate, heroImage, heroImageAlt } =
             </figure>
           )
         }
-        <FormattedDate date={pubDate} />
+        <div class="flex gap-4">
+          <p><FormattedDate date={pubDate} /></p>
+          <p>&#x2022;</p>
+          <p>{minutesRead}</p>
+        </div>
         {
           updatedDate && (
             <div class="italic dark:text-slate-300">

@@ -20,6 +20,7 @@ const blog = defineCollection({
       .transform((val) => new Date(val)),
     tags: z.array(z.string()).optional(),
     title: z.string(),
+    minutesRead: z.string().optional(),
     updatedDate: z
       .string()
       .optional()
