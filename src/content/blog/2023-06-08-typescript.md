@@ -12,7 +12,7 @@ tags: ["Typescript", "Programming"]
 
 ## Introduction
 
-I started this journey into Typescript by taking a ton of notes with Github Copilot X and "[Typescript in 50 Lessons](https://typescript-book.com/)". I was able to tailor my experience in understanding how to create types through this method, as well as pouring over the docs. Without further ado, here's some notes that I generated (and modified).
+I started this journey into Typescript by taking a ton of notes with Github Copilot X, "[Typescript in 50 Lessons](https://typescript-book.com/)", and the [official documentation](https://www.typescriptlang.org/docs/handbook/2/objects.html). I was able to tailor my experience in understanding how to create types through this method. Without further ado, here's some notes that I generated (and modified).
 
 ## What is Typescript?
 
