@@ -3,11 +3,18 @@ export interface Props {
   link: string;
   title?: string;
   rel?: string;
+  class?: string;
 }
 
-const { link, title, rel } = Astro.props;
+const { link, title, rel, class: className } = Astro.props;
 ---
 
 <li class="hover:text-orange-400 dark:text-white">
-  <a href={link} target="_blank" title={title} rel={rel}><slot /></a>
+  <a
+    class:list={[className]}
+    href={link}
+    target="_blank"
+    title={title}
+    rel={rel}><slot /></a
+  >
 </li>
