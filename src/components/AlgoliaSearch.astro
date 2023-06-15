@@ -40,6 +40,9 @@
   darkModeQuery.addEventListener("change", (event) => {
     console.log("reinitialize?", event.matches);
     theme = event.matches ? colorScheme.dark : colorScheme.light;
+    // Delete the old instance
+    // Initialize new instance
+    // initialize();
   });
 
   if (darkModeQuery?.matches) {
