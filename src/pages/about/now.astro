@@ -7,6 +7,9 @@ import NowContent from "../../components/NowContent.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 
 const nowItems = await getCollection("now");
+const sortedNowItems = nowItems.sort((a, b) => {
+  return new Date(b.data.pubDate).valueOf() - new Date(a.data.pubDate).valueOf();
+});
 ---
 
 <AboutLayout title="Now" description="">
@@ -19,6 +22,6 @@ const nowItems = await getCollection("now");
       Things that I am thinking about now. Sporatic updates about life, things
       I'm thinking about and exploring.
     </p>
-    {nowItems.map((resume) => <NowContent {...resume} />)}
+    {sortedNowItems.map((resume) => <NowContent {...resume} />)}
   </ProseArticle>
 </AboutLayout>
