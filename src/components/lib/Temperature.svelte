@@ -18,13 +18,13 @@
   value={c}
   on:input={(e) => setBothFromC(e?.target?.value)}
   type="number"
-  class="w-16"
+  class="w-16 px-2 dark:text-white dark:bg-slate-800"
 />
 °C =
 <input
   value={f}
   on:input={(e) => setBothFromF(e?.target?.value)}
   type="number"
-  class="w-16"
+  class="w-16 px-2 dark:text-white dark:bg-slate-800"
 />
 °F
