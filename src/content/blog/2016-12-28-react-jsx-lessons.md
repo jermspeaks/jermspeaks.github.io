@@ -1,15 +1,12 @@
 ---
-tags: ["blog", "post", "programming"]
+tags: ["blog", "post", "programming", "Javascript", "React", "JSX", "Code Style"]
 title: React JSX Syntax - Code Style
 date: 2016-12-28
 pubDate: "2016-12-28"
-
 description: ""
 heroImage: ""
 postType: "blog"
 ---
-
-
 
 After a year working with JSX syntax in React, I've learned a few things reviewing my code as well as other developer's code.
 I am taking the perspective of a code review in these following code samples.

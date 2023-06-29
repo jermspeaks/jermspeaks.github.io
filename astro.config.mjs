@@ -1,5 +1,4 @@
 import { defineConfig } from "astro/config";
-import { fileURLToPath } from "url";
 import mdx from "@astrojs/mdx";
 import netlify from "@astrojs/netlify/functions";
 import rehypeAutolinkHeadings from "rehype-autolink-headings";

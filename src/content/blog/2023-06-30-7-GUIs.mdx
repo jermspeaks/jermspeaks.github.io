@@ -1,0 +1,202 @@
+---
+description: Based off the 7 GUIs benchmark, here are implementations of the 7 GUIs in Svelte.
+draft: true
+postType: "learning"
+pubDate: "2023-06-30"
+tags: ["Programming", "Javascript", "Svelte"]
+title: 7 GUIs
+---
+
+import CircleDrawer from "../../components/lib/CircleDrawer.svelte";
+import Counter from "../../components/lib/Counter.svelte";
+import CRUD from "../../components/lib/CRUD.svelte";
+import FlightBooker from "../../components/lib/FlightBooker.svelte";
+import Temperature from "../../components/lib/Temperature.svelte";
+import Timer from "../../components/lib/Timer.svelte";
+
+## What is the 7 GUIs benchmark?
+
+The [7 GUIs](https://7guis.github.io/7guis/) is a benchmark for comparing different GUI frameworks, proposed by Eugen Kiss. See his explanation below.
+
+> There are countless GUI toolkits in different languages and with diverse approaches to GUI development.
+> Yet, diligent comparisons between them are rare.
+> Whereas in a traditional benchmark competing implementations are compared in terms of their resource consumption,
+> here implementations are compared in terms of their notation.
+> To that end, 7GUIs defines seven tasks that represent typical challenges in GUI programming.
+> In addition, 7GUIs provides a recommended set of evaluation dimensions.  
+> -- [Eugen Kiss](https://github.com/eugenkiss)
+
+I'm going to walkthrough each GUI using Svelte, and annotate the code.
+
+## Counter
+
+> The task is to build a frame containing a label or read-only textfield T and a button B.
+> Initially, the value in T is “0” and each click of B increases the value in T by one.
+
+[Link](https://eugenkiss.github.io/7guis/tasks/#counter)
+
+<Counter client:load />
+
+Let's walkthrough the code.
+
+```svelte
+<script>
+  // Initialize the counter with "0" (as it says in the spec)
+  let count = 0;
+</script>
+
+<!-- Display the count, as a number input -->
+<input
+  type="number"
+  bind:value={count}
+/>
+<!-- Add a button that will increment the counter by 1 with each click. -->
+<button
+  on:click={() => (count += 1)}>count</button
+>
+```
+
+## Temperature
+
+> The task is to build a frame containing two textfields T<sub>C</sub> and
+> T<sub>F</sub> representing the temperature in Celsius and Fahrenheit,
+> respectively. Initially, both T<sub>C</sub> and T<sub>F</sub> are empty. When
+> the user enters a numerical value into T<sub>C</sub> the corresponding value
+> in T<sub>F</sub> is automatically updated and vice versa. When the user enters
+> a non-numerical string into T<sub>C</sub> the value in T<sub>F</sub> is not
+> updated and vice versa. The formula for converting a temperature C in Celsius
+> into a temperature F in Fahrenheit is `C = (F - 32) * (5/9)` and the dual
+> direction is `F = C * (9/5) + 32`.
+
+[Link](https://eugenkiss.github.io/7guis/tasks/#temp)
+
+<Temperature client:load />
+
+Code walkthrough.
+
+```svelte
+<script lang="ts">
+  // Initialize the values of celsius and fahrenheit
+  let c = 20;
+  let f = 68;
+
+  // Given the value from Celsius, update Fahrenheit
+  function setBothFromC(value: number): void {
+    // The + is to convert the string to a number
+    c = +value;
+    // Use the formula from the spec to update fahrenheit
+    f = +(32 + (9 / 5) * c).toFixed(1);
+  }
+
+  // Given the value from Fahrenheit, update Celsius
+  function setBothFromF(value: number): void {
+    f = +value;
+    // Use the formula from the spec to update celsius
+    c = +((5 / 9) * (f - 32)).toFixed(1);
+  }
+</script>
+
+<!--
+Add two different inputs. Since the inputs are two-way bound by the values,
+`c` and `f`, we can add an event listener to run the function to convert the
+other value.
+-->
+<input
+  value={c}
+  on:input={(e) => setBothFromC(e.target.value)}
+  type="number"
+/>
+°C =
+<input
+  value={f}
+  on:input={(e) => setBothFromF(e.target.value)}
+  type="number"
+/>
+°F
+```
+
+## Flight Booker
+
+> The task is to build a frame containing a form with three textfields
+> The task is to build a frame containing a combobox C with the two options
+> “one-way flight” and “return flight”, two textfields T<sub>1</sub> and
+> T<sub>2</sub> representing the start and return date, respectively, and a
+> button B for submitting the selected flight. T<sub>2</sub> is enabled iff C's
+> value is “return flight”. When C has the value “return flight” and
+> T<sub>2</sub>'s date is strictly before T<sub>1</sub>'s then B is disabled.
+> When a non-disabled textfield T has an ill-formatted date then T is colored
+> red and B is disabled. When clicking B a message is displayed informing the
+> user of his selection (e.g. “You have booked a one-way flight on
+> 04.04.2014.”). Initially, C has the value “one-way flight” and T<sub>1</sub>
+> as well as T<sub>2</sub> have the same (arbitrary) date (it is implied that
+> T<sub>2</sub> is disabled).
+
+<FlightBooker client:load />
+
+## Timer
+
+> The task is to build a frame containing a gauge G for the elapsed time e, a
+> label which shows the elapsed time as a numerical value, a slider S by which
+> the duration d of the timer can be adjusted while the timer is running and a
+> reset button R. Adjusting S must immediately reflect on d and not only when S
+> is released. It follows that while moving S the filled amount of G will
+> (usually) change immediately. When e ≥ d is true then the timer stops (and G
+> will be full). If, thereafter, d is increased such that d > e will be true
+> then the timer restarts to tick until e ≥ d is true again. Clicking R will
+> reset e to zero.
+
+<Timer client:only />
+
+## CRUD
+
+> The task is to build a frame containing the following elements: a textfield
+> T<sub>prefix</sub>, a pair of textfields T<sub>name</sub> and
+> T<sub>surname</sub>, a listbox L, buttons B<sub>C</sub>, B<sub>U</sub> and
+> B<sub>D</sub> and the three labels as seen in the screenshot. L presents a
+> view of the data in the database that consists of a list of names. At most one
+> entry can be selected in L at a time. By entering a string into
+> T<sub>prefix</sub> the user can filter the names whose surname start with the
+> entered prefix—this should happen immediately without having to submit the
+> prefix with enter. Clicking B<sub>C</sub> will append the resulting name from
+> concatenating the strings in T<sub>name</sub> and T<sub>surname</sub> to L.
+> B<sub>U</sub> and B<sub>D</sub> are enabled if an entry in L is selected. In
+> contrast to B<sub>C</sub>, B<sub>U</sub> will not append the resulting name
+> but instead replace the selected entry with the new name. B<sub>D</sub> will
+> remove the selected entry. The layout is to be done like suggested in the
+> screenshot. In particular, L must occupy all the remaining space.
+
+<CRUD client:load />
+
+## Circle Drawer
+
+> The task is to build a frame containing an undo and redo button as well as a
+> canvas area underneath. Left-clicking inside an empty area inside the canvas
+> will create an unfilled circle with a fixed diameter whose center is the
+> left-clicked point. The circle nearest to the mouse pointer such that the
+> distance from its center to the pointer is less than its radius, if it exists,
+> is filled with the color gray. The gray circle is the selected circle C.
+> Right-clicking C will make a popup menu appear with one entry “Adjust
+> diameter…”. Clicking on this entry will open another frame with a slider
+> inside that adjusts the diameter of C. Changes are applied immediately.
+> Closing this frame will mark the last diameter as significant for the
+> undo/redo history. Clicking undo will undo the last significant change (i.e.
+> circle creation or diameter adjustment). Clicking redo will reapply the last
+> undoed change unless new changes were made by the user in the meantime.
+
+<CircleDrawer client:only />
+
+## Cells
+
+> The task is to create a simple but usable spreadsheet application. The
+> spreadsheet should be scrollable. The rows should be numbered from 0 to 99 and
+> the columns from A to Z. Double-clicking a cell C lets the user change C's
+> formula. After having finished editing the formula is parsed and evaluated and
+> its updated value is shown in C. In addition, all cells which depend on C must
+> be reevaluated. This process repeats until there are no more changes in the
+> values of any cell (change propagation). Note that one should not just
+> recompute the value of every cell but only of those cells that depend on
+> another cell's changed value. If there is an already provided spreadsheet
+> widget it should not be used. Instead, another similar widget (like JTable in
+> Swing) should be customized to become a reusable spreadsheet widget.
+
+This one isn't in the Svelte documentation, and I'll return to this one later.
