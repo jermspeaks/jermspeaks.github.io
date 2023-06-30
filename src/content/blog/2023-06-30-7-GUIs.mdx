@@ -1,12 +1,13 @@
 ---
 description: Based off the 7 GUIs benchmark, here are implementations of the 7 GUIs in Svelte.
-draft: true
+draft: false
 postType: "learning"
 pubDate: "2023-06-30"
 tags: ["Programming", "Javascript", "Svelte"]
 title: 7 GUIs
 ---
 
+import Cells from "../../components/lib/Cells/Cells.svelte";
 import CircleDrawer from "../../components/lib/CircleDrawer.svelte";
 import Counter from "../../components/lib/Counter.svelte";
 import CRUD from "../../components/lib/CRUD.svelte";
@@ -131,7 +132,72 @@ other value.
 > as well as T<sub>2</sub> have the same (arbitrary) date (it is implied that
 > T<sub>2</sub> is disabled).
 
+[Link](https://eugenkiss.github.io/7guis/tasks/#flight)
+
 <FlightBooker client:load />
+
+```svelte
+<script>
+  const DAY_IN_MS = 86400000
+  const tomorrow = new Date(Date.now() + DAY_IN_MS);
+
+  // Create an array of year, month, day, in this format: YYYY-MM-DD
+  let start = [
+    tomorrow.getFullYear(),
+    pad(tomorrow.getMonth() + 1, 2),
+    pad(tomorrow.getDate(), 2),
+  ].join("-");
+
+  // our reactive variables
+  let end = start;
+  let isReturn = false;
+
+  // Running statements reactively, updating the variables when they are changed
+  $: startDate = convertToDate(start);
+  $: endDate = convertToDate(end);
+
+  // Click handler for the button
+  function bookFlight() {
+    // Determine type of return
+    const type = isReturn ? "return" : "one-way";
+
+    let message = `You have booked a ${type} flight, leaving ${startDate.toDateString()}`;
+    if (type === "return") {
+      message += ` and returning ${endDate.toDateString()}`;
+    }
+
+    alert(message);
+  }
+
+  // Convert a string in the format YYYY-MM-DD to a Date object
+  function convertToDate(str) {
+    const split = str.split("-");
+    return new Date(+split[0], +split[1] - 1, +split[2]);
+  }
+
+  // Pad a number with leading zeros
+  function pad(x, len) {
+    x = String(x);
+    while (x.length < len) x = `0${x}`;
+    return x;
+  }
+</script>
+
+<!-- Create your select input for one-way or return flight option -->
+<select bind:value={isReturn}>
+  <option value={false}>one-way flight</option>
+  <option value={true}>return flight</option>
+</select>
+
+<!-- Bind the inputs -->
+<input type="date" bind:value={start} />
+<input type="date" bind:value={end} disabled={!isReturn} />
+
+<!-- Attempt to book flight -->
+<button on:click={bookFlight} disabled={isReturn && startDate >= endDate}
+  >book</button
+>
+```
 
 ## Timer
 
@@ -145,7 +211,61 @@ other value.
 > then the timer restarts to tick until e ≥ d is true again. Clicking R will
 > reset e to zero.
 
+[Link](https://eugenkiss.github.io/7guis/tasks#timer)
+
 <Timer client:only />
+
+```svelte
+<script>
+  // It turns out, you can't run this in Astro without saying this component is client only
+  import { onDestroy } from "svelte";
+
+  // Start elapsed at 0 milliseconds
+  let elapsed = 0;
+  // Set the range input to be 5 seconds / 5000 milliseconds
+  let duration = 5000;
+
+  let last_time = window.performance.now();
+  let frame;
+
+  // IIFE for animation loop
+  (function update() {
+    // pass in the function for the animation frame (infinite looping)
+    frame = requestAnimationFrame(update);
+
+    // performance.now() is like Date.now(), but more accurate to tenths of a milliseconds
+    const time = window.performance.now();
+
+    // Take the minimum of the time elapsed and add it to the new elapsed time
+    elapsed += Math.min(time - last_time, duration - elapsed);
+
+    last_time = time;
+  })();
+
+  // When the component is destroyed, cancel the animation frame
+  onDestroy(() => {
+    cancelAnimationFrame(frame);
+  });
+</script>
+
+<!-- Create the label and use the progress tag to show the time elapsed vs duration -->
+<label>
+  elapsed time:
+  <progress value={elapsed / duration} />
+</label>
+
+<div>{(elapsed / 1000).toFixed(1)}s</div>
+
+<label>
+  duration:
+  <!-- Bind the input to the duration. Max 20 seconds -->
+  <input type="range" bind:value={duration} min="1" max="20000" />
+</label>
+
+
+<!-- Allow the user to reset the timer -->
+<button on:click={() => (elapsed = 0)}>reset</button>
+```
 
 ## CRUD
 
@@ -167,6 +287,105 @@ other value.
 
 <CRUD client:load />
 
+```svelte
+<script>
+  // Have some people to start with
+  let people = [
+    { first: "Hans", last: "Emil" },
+    { first: "Max", last: "Mustermann" },
+    { first: "Roman", last: "Tisch" },
+  ];
+
+  // Initialize the bound variables
+  let prefix = "";
+  let first = "";
+  let last = "";
+  // Initialize the selected item index
+  let i = 0;
+
+  // Reactive statements when the changes
+  $: filteredPeople = prefix
+    ? people.filter((person) => {
+        const name = `${person.last}, ${person.first}`;
+
+        // Filter based off first or last name
+        return name.toLowerCase().startsWith(prefix.toLowerCase());
+      })
+    : people;
+
+  // Reactively change the selected when filtered people
+  $: selected = filteredPeople[i];
+
+  // Reset all inputs when new selection made
+  $: reset_inputs(selected);
+
+  // Create a new person
+  function create() {
+    people = people.concat({ first, last });
+    i = people.length - 1;
+    first = last = "";
+  }
+
+  // Update the selected person
+  function update() {
+    selected.first = first;
+    selected.last = last;
+    people = people;
+  }
+
+  // Remove the selected person
+  function remove() {
+    // Remove selected person from the source array (people), not the filtered array
+    const index = people.indexOf(selected);
+    people = [...people.slice(0, index), ...people.slice(index + 1)];
+
+    first = last = "";
+    i = Math.min(i, filteredPeople.length - 2);
+  }
+
+  // Reset the input for first and last names
+  function reset_inputs(person) {
+    first = person ? person.first : "";
+    last = person ? person.last : "";
+  }
+</script>
+
+<input
+  placeholder="filter prefix"
+  bind:value={prefix}
+/>
+
+<select bind:value={i} size={5}>
+  <!-- Loop through the filtered people -->
+  {#each filteredPeople as person, i}
+    <option value={i}>{person.last}, {person.first}</option>
+  {/each}
+</select>
+
+<!-- Create inputs for first and last names -->
+<label
+  ><input
+    bind:value={first}
+    placeholder="first"
+  /></label
+>
+<label
+  ><input
+    bind:value={last}
+    placeholder="last"
+  /></label
+>
+
+<!-- CRUD operators -->
+<div class="buttons">
+  <button on:click={create} disabled={!first || !last}>create</button>
+  <button on:click={update} disabled={!first || !last || !selected}
+    >update</button
+  >
+  <button on:click={remove} disabled={!selected}>delete</button>
+</div>
+```
+
 ## Circle Drawer
 
 > The task is to build a frame containing an undo and redo button as well as a
@@ -183,7 +402,113 @@ other value.
 > circle creation or diameter adjustment). Clicking redo will reapply the last
 > undoed change unless new changes were made by the user in the meantime.
 
-<CircleDrawer client:only />
+[Link](https://eugenkiss.github.io/7guis/tasks#circle)
+
+<div class="not-prose">
+  <CircleDrawer client:only />
+</div>
+
+```svelte
+<script>
+  // Initialize the bound variables
+  let i = 0;
+  let undoStack = [[]];
+  let circles = [];
+  let selected;
+  let adjusting = false;
+  let adjusted = false;
+
+  // On handling click, create circle with default radius 50 px
+  function handleClick(event) {
+    if (adjusting) {
+      adjusting = false;
+
+      // if circle was adjusted,
+      // push to the stack
+      if (adjusted) push();
+      return;
+    }
+
+    const circle = {
+      cx: event.clientX,
+      cy: event.clientY,
+      r: 50,
+    };
+
+    // Add circles to list of circles. The selected circle is the current circle
+    circles = circles.concat(circle);
+    selected = circle;
+
+    push();
+  }
+
+  function adjust(event) {
+    selected.r = +event.target.value;
+    circles = circles;
+    adjusted = true;
+  }
+
+  function select(circle, event) {
+    if (!adjusting) {
+      event.stopPropagation();
+      selected = circle;
+    }
+  }
+
+  // Use a stack for keeping track of the circles
+  function push() {
+    const newUndoStack = undoStack.slice(0, ++i);
+    newUndoStack.push(clone(circles));
+    undoStack = newUndoStack;
+  }
+
+  function travel(d) {
+    circles = clone(undoStack[(i += d)]);
+    adjusting = false;
+  }
+
+  function clone(circles) {
+    return circles.map(({ cx, cy, r }) => ({ cx, cy, r }));
+  }
+</script>
+
+<!-- Put in the buttons for controls -->
+<div class="controls">
+  <button on:click={() => travel(-1)} disabled={i === 0}>undo</button>
+  <button on:click={() => travel(+1)} disabled={i === undoStack.length - 1}
+    >redo</button
+  >
+</div>
+
+<!-- Draw with an SVG. Bind the click handler -->
+<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
+<svg on:click={handleClick}>
+  <!-- Draw all of the circles -->
+  {#each circles as circle}
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <circle
+      cx={circle.cx}
+      cy={circle.cy}
+      r={circle.r}
+      on:click={(event) => select(circle, event)}
+      on:contextmenu|stopPropagation|preventDefault={() => {
+        // When right-clicking, open the adjuster
+        adjusting = !adjusting;
+        if (adjusting) selected = circle;
+      }}
+      fill={circle === selected ? "#ccc" : "white"}
+    />
+  {/each}
+</svg>
+
+<!-- Show the adjuster if adjusting a circle's size -->
+{#if adjusting}
+  <div class="adjuster">
+    <p>adjust diameter of circle at {selected.cx}, {selected.cy}</p>
+    <input type="range" value={selected.r} on:input={adjust} />
+  </div>
+{/if}
+```
 
 ## Cells
 
@@ -199,4 +524,355 @@ other value.
 > widget it should not be used. Instead, another similar widget (like JTable in
 > Swing) should be customized to become a reusable spreadsheet widget.
 
-This one isn't in the Svelte documentation, and I'll return to this one later.
+[Link](https://eugenkiss.github.io/7guis/tasks#cells)
+
+This one isn't in the Svelte documentation, so I found a different
+implementation that went through it perfectly. [Link](https://thesherwood.github.io/7_GUIs/)
+
+<div class="not-prose">
+  <Cells client:only />
+</div>
+
+Cells is split up into two Svelte components: Cell and Cells.
+
+```svelte
+<!-- Cell.svelte -->
+<script>
+  // Initialized props
+  export let j;
+  export let i;
+  export let focused;
+  export let data;
+  export let p;
+  export let handleFocus;
+  export let handleBlur;
+  export let handleKeydown;
+  export let handleInput;
+
+  // Keep track of the current key
+  let key = j + i;
+
+  // Keep track if a cell is focused
+  let hasFocus = false;
+  $: if (focused === key && !hasFocus) {
+    hasFocus = true;
+  } else if (focused !== key && hasFocus) {
+    hasFocus = false;
+  }
+</script>
+
+<!-- When focused, change the cell into an input -->
+<!-- Otherwise parse the formula -->
+{#if hasFocus}
+  <input
+    id={"input-" + key}
+    value={$data[key] || ""}
+    autofocus
+    on:focus={() => handleFocus(key)}
+    on:blur={() => handleBlur(key)}
+    on:keydown={(e) => handleKeydown(e, j, i)}
+    on:input={(e) => handleInput(e, key)}
+  />
+{:else}
+  <div>{p.parse($data[key]) || ""}</div>
+{/if}
+```
+
+```svelte
+<!-- Cells.svelte -->
+<script>
+  import Cell from "./Cell.svelte";
+  import { data } from "./store.js";
+  import { sampleData } from "./sampleData.js";
+  import { Parser } from "./parse.js";
+
+  // Initialize with the sample data set
+  data.set(sampleData);
+
+  // Create 26 columns w/ the letters of the alphabet
+  const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+  // Max 100 x 100 cells
+  export let shape = [100, 100];
+  const rows = range(shape[1]);
+  const columns = letterRange(shape[0]);
+  const p = new Parser(data, columns, rows);
+  let focused;
+  let tBody;
+
+  // Create range array
+  function range(n) {
+    return [...Array(n).keys()];
+  }
+
+  // Create letter range
+  function letterRange(n) {
+    return range(n).map(getNumberAsLetters);
+  }
+
+  // Loop through letters
+  function getBase26(n) {
+    let result = [];
+    while (n > 25) {
+      let remainder = n % 26;
+      result.push(remainder);
+      n = Math.floor(n / 26) - 1;
+    }
+    result.push(n);
+    return result.reverse();
+  }
+
+  // Get the letter range and join them
+  function getNumberAsLetters(n) {
+    let arr = getBase26(n);
+    return arr.map((num) => LETTERS[num]).join("");
+  }
+
+  function handleFocus(key) {
+    if (focused !== key) {
+      $data[key] = $data[key] || "";
+      focused = key;
+      setTimeout(() => {
+        let target = tBody.querySelector("#input-" + key);
+        if (target) {
+          target.focus();
+          target.setSelectionRange(0, 9999);
+        }
+      }, 10);
+    }
+  }
+
+  function handleBlur(key) {
+    if (focused === key) focused = undefined;
+  }
+
+  function handleInput(e, key) {
+    $data[key] = e.target.value;
+  }
+
+  function handleKeydown(e, column, row) {
+    // Navigate across the spreadsheet with arrow keys (and alt/option key)
+    let selector;
+    if (e.key === "ArrowUp") {
+      let newRow = findAdjacent(rows, row, "before");
+      selector = newRow !== null ? column + newRow : null;
+    }
+    if (e.key === "ArrowDown" || e.key === "Enter") {
+      let newRow = findAdjacent(rows, row, "after");
+      selector = newRow !== null ? column + newRow : null;
+    }
+    if (e.key === "ArrowLeft" && e.altKey) {
+      let newColumn = findAdjacent(columns, column, "before");
+      selector = newColumn !== null ? newColumn + row : null;
+    }
+    if (e.key === "ArrowRight" && e.altKey) {
+      let newColumn = findAdjacent(columns, column, "after");
+      selector = newColumn !== null ? newColumn + row : null;
+    }
+
+    if (selector) {
+      e.preventDefault();
+      handleFocus(selector);
+    }
+  }
+
+  function findAdjacent(arr, value, direction) {
+    let index = arr.indexOf(value);
+    if (index === -1) return null;
+    if (direction === "before")
+      return arr[index - 1] === undefined ? null : arr[index - 1];
+    if (direction === "after") return arr[index + 1] || null;
+    return null;
+  }
+
+  function clear() {
+    data.set({});
+  }
+</script>
+
+<div class="wrapper">
+  <table>
+    <thead>
+      <tr>
+        <td class="row-key" />
+        {#each columns as column}
+          <td class="column-key">{column}</td>
+        {/each}
+      </tr>
+    </thead>
+    <tbody bind:this={tBody}>
+      {#each rows as i}
+        <tr id={"row-" + i}>
+          <td class="row-key">{i}</td>
+          {#each columns as j}
+            <td id={j + i} on:click={() => handleFocus(j + i)}>
+              <Cell
+                {j}
+                {i}
+                {focused}
+                {data}
+                {p}
+                {handleFocus}
+                {handleBlur}
+                {handleKeydown}
+                {handleInput}
+              />
+            </td>
+          {/each}
+        </tr>
+      {/each}
+    </tbody>
+  </table>
+</div>
+<button on:click={clear}>Clear</button>
+```
+
+There are two utility functions to help out the operations: parse and store
+(the latter being the Svelte store to save in local state).
+
+```js
+// parse.js
+export class Parser {
+  constructor(store, columns, rows) {
+    this.cells = {}
+    this.store = store
+    this.columns = columns
+    this.rows = rows
+    this.operations = {
+      sum: (a, b) => a + b,
+      sub: (a, b) => a - b,
+      mul: (a, b) => a * b,
+      div: (a, b) => a / b,
+      mod: (a, b) => a % b,
+      exp: (a, b) => a ** b
+    }
+
+    // subscribe to store
+    this.store.subscribe(value => {
+      this.cells = value
+    })
+  }
+
+  cartesianProduct(letters, numbers) {
+    var result = []
+    letters.forEach(letter => {
+      numbers.forEach(number => {
+        result.push(letter + number)
+      })
+    })
+    return result
+  }
+
+  findArrRange(arr, start, end) {
+    let startI = arr.indexOf(start)
+    let endI = arr.indexOf(end)
+    if (startI == -1 || endI == -1 || startI > endI) return []
+    return arr.slice(startI, endI + 1)
+  }
+
+  getRange(rangeStart, rangeEnd) {
+    rangeStart = this.splitOperand(rangeStart)
+    rangeEnd = this.splitOperand(rangeEnd)
+    let letters = this.findArrRange(this.columns, rangeStart[0], rangeEnd[0])
+    let numbers = this.findArrRange(this.rows, rangeStart[1], rangeEnd[1])
+    return this.cartesianProduct(letters, numbers)
+  }
+
+  splitOperand(operand) {
+    return [operand.match(/[a-zA-Z]+/)[0], Number(operand.match(/\d+/)[0])]
+  }
+
+  rangeOperation(op, rangeStart, rangeEnd) {
+    if (!(this.isWellFormed(rangeStart) && this.isWellFormed(rangeEnd)))
+      return this.originalString
+
+    let range = this.getRange(rangeStart, rangeEnd)
+
+    return range
+      .map(address => Number(this.parse(this.cells[address])))
+      .reduce(this.operations[op])
+  }
+
+  singleOperation(op, operand1, operand2) {
+    let first = this.parseOperand(operand1)
+    let second = this.parseOperand(operand2)
+
+    if (first === null || second === null) return this.originalString
+
+    return this.operations[op](first, second).toString()
+  }
+
+  isWellFormed(operand) {
+    return /[a-zA-Z]+\d+/.test(operand)
+  }
+
+  parseOperand(operand) {
+    if (!isNaN(Number(operand))) return Number(operand)
+    if (operand in this.cells) return Number(this.parse(this.cells[operand]))
+    if (this.isWellFormed(operand)) return 0
+
+    return null
+  }
+
+  parseOperation(op, formula) {
+    if (!(formula.startsWith('(') && formula.endsWith(')')))
+      return this.originalString
+
+    formula = formula.slice(1, formula.length - 1)
+
+    let operationType
+    let formulaArr
+    if (formula.includes(',')) {
+      operationType = 'single'
+      formulaArr = formula.split(',')
+    } else if (formula.includes(':')) {
+      operationType = 'range'
+      formulaArr = formula.split(':')
+    }
+
+    if (formulaArr.length !== 2) return this.originalString
+
+    if (operationType === 'single')
+      return this.singleOperation(op, formulaArr[0], formulaArr[1])
+
+    if (operationType === 'range')
+      return this.rangeOperation(op, formulaArr[0], formulaArr[1])
+
+    return this.originalString
+  }
+
+  parse(str) {
+    this.originalString = str
+    if (typeof str !== 'string') return ''
+    if (!str.startsWith('=')) return str
+
+    let formula = str.slice(1)
+    if (formula.slice(0, 3).toLowerCase() in this.operations) {
+      return this.parseOperation(
+        formula.slice(0, 3).toLowerCase(),
+        formula.slice(3).toUpperCase()
+      )
+    } else {
+      return this.cells[formula] || str
+    }
+  }
+}
+```
+
+```js
+// store.js
+import { writable } from "svelte/store";
+
+export const data = writable({});
+```
+
+The last file is to load prefilled data, but we don't need to go over that.
+
+```js
+// An example of the sampleData file
+export let sampleData = {
+  A0: "Data",
+  A1: "20",
+  A2: "15"
+};
+```
