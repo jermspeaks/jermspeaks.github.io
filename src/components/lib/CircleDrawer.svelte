@@ -7,125 +7,145 @@ radius of the selected circle.
 -->
 
 <script>
-  let i = 0;
-  let undoStack = [[]];
-  let circles = [];
-  let selected;
-  let adjusting = false;
-  let adjusted = false;
+  import Card from "./Card.svelte";
 
-  function handleClick(event) {
-    if (adjusting) {
-      adjusting = false;
+  const BASE_RADIUS = 30;
 
-      // if circle was adjusted,
-      // push to the stack
-      if (adjusted) push();
-      return;
-    }
+  let step = 0;
+  let snapshots = [[]];
+  let radius = BASE_RADIUS;
+  let resizing = false;
+  $: present = snapshots[step];
+  $: if (resizing) {
+    let resizingIndex = present.findIndex(
+      (circle) => circle.x === resizing.x && circle.y === resizing.y
+    );
+    let newPresent = present.slice();
+    newPresent[resizingIndex] = { ...present[resizingIndex], r: radius };
+    present = newPresent;
+  }
 
-    const circle = {
-      cx: event.clientX,
-      cy: event.clientY,
-      r: 50,
+  function handleRightClick(e) {
+    let circle = e.target;
+    resizing = {
+      x: circle.cx.baseVal.value,
+      y: circle.cy.baseVal.value,
+      r: circle.r.baseVal.value,
     };
-
-    circles = circles.concat(circle);
-    selected = circle;
-
-    push();
+    radius = resizing.r;
   }
 
-  function adjust(event) {
-    selected.r = +event.target.value;
-    circles = circles;
-    adjusted = true;
+  function addCircle(e) {
+    let x = e.layerX;
+    let y = e.layerY;
+    let newSnapshot = present.slice();
+    newSnapshot.push({ x, y, r: BASE_RADIUS });
+    addSnapshot(newSnapshot);
   }
 
-  function select(circle, event) {
-    if (!adjusting) {
-      event.stopPropagation();
-      selected = circle;
+  function addSnapshot(newSnapshot) {
+    let newSnapshots = snapshots.slice(0, step + 1);
+    newSnapshots.push(newSnapshot);
+    snapshots = newSnapshots;
+    step++;
+  }
+
+  function undo() {
+    step = Math.max(step - 1, 0);
+  }
+
+  function redo() {
+    step = Math.min(step + 1, snapshots.length - 1);
+  }
+
+  function endResize() {
+    if (radius !== resizing.r) {
+      radius = BASE_RADIUS;
+      addSnapshot(present.slice());
     }
-  }
-
-  function push() {
-    const newUndoStack = undoStack.slice(0, ++i);
-    newUndoStack.push(clone(circles));
-    undoStack = newUndoStack;
-  }
-
-  function travel(d) {
-    circles = clone(undoStack[(i += d)]);
-    adjusting = false;
-  }
-
-  function clone(circles) {
-    return circles.map(({ cx, cy, r }) => ({ cx, cy, r }));
+    resizing = false;
   }
 </script>
 
-<div class="controls">
-  <button on:click={() => travel(-1)} disabled={i === 0}>undo</button>
-  <button on:click={() => travel(+1)} disabled={i === undoStack.length - 1}
-    >redo</button
-  >
-</div>
-<!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-<svg on:click={handleClick}>
-  {#each circles as circle}
-    <!-- svelte-ignore a11y-click-events-have-key-events -->
-    <circle
-      cx={circle.cx}
-      cy={circle.cy}
-      r={circle.r}
-      on:click={(event) => select(circle, event)}
-      on:contextmenu|stopPropagation|preventDefault={() => {
-        adjusting = !adjusting;
-        if (adjusting) selected = circle;
-      }}
-      fill={circle === selected ? "#ccc" : "white"}
-    />
-  {/each}
-</svg>
-
-{#if adjusting}
-  <div class="adjuster">
-    <p>adjust diameter of circle at {selected.cx}, {selected.cy}</p>
-    <input type="range" value={selected.r} on:input={adjust} />
+<div class="wrapper">
+  <div class="buttons">
+    <button disabled={!step} on:click={undo}>Undo</button>
+    <button disabled={step === snapshots.length - 1} on:click={redo}
+      >Redo</button
+    >
   </div>
-{/if}
+  <div class="canvas">
+    <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
+    <svg on:click={addCircle}>
+      {#each present as circle (circle.x + "," + circle.y)}
+        <circle
+          cx={circle.x}
+          cy={circle.y}
+          r={circle.r}
+          fill="white"
+          stroke="black"
+          on:click|stopPropagation|preventDefault={() => {}}
+          on:contextmenu|stopPropagation|preventDefault={handleRightClick}
+        />
+      {/each}
+    </svg>
+  </div>
+
+  {#if resizing}
+    <div class="overlay" on:click={endResize} />
+    <div class="resizer">
+      <p>Adjust radius of circle at ({resizing.x}, {resizing.y})</p>
+      <p>{radius}</p>
+      <input type="range" min={0} max={100} bind:value={radius} />
+    </div>
+  {/if}
+</div>
 
 <style>
-  .controls {
-    position: absolute;
+  .wrapper {
+    max-width: 400px;
+    text-align: left;
+    margin: auto;
+    position: relative;
+  }
+
+  .canvas {
     width: 100%;
+    height: 400px;
+    position: relative;
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+  }
+
+  .resizer {
+    background: rgba(200, 200, 200, 0.5);
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    right: 20px;
+    transform: translateY(-50%);
     text-align: center;
   }
 
+  .buttons {
+    margin: auto;
+    width: max-content;
+  }
+
   svg {
-    background-color: #eee;
+    background: white;
     width: 100%;
     height: 100%;
   }
 
-  circle {
-    stroke: black;
-  }
-
-  .adjuster {
-    position: absolute;
-    width: 80%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    padding: 1em;
-    text-align: center;
-    background-color: rgba(255, 255, 255, 0.7);
-    border-radius: 4px;
-  }
-
-  input[type="range"] {
-    width: 100%;
+  circle:hover {
+    fill: #eee;
   }
 </style>
