@@ -1,0 +1,40 @@
+---
+description: "Sharing your calm, freewriting, the myth of learning styles, and dealing with conflict from 2 UC Berkeley professors."
+draft: false
+postType: "blog"
+pubDate: "2023-10-23"
+tags: ["Weekly"]
+title: 2023 Week 40 & 41 - Weekly Notes
+heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
+heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
+---
+
+Missed last two weeks, as I'm going through the [LYT workshop](https://www.linkingyourthinking.com/). I decided to cease publishing anything until I complete it.
+
+Now that it's the last week, I'm turning my attention back from my [PKM](https://en.wikipedia.org/wiki/Personal_knowledge_management) to this website again. My goal is to publish once a week. 🤞🏼
+
+### Therapy Remark
+
+> Share Your Calm
+
+This really resonated with me when talking with my therapist. In times of others' stress, it's easy to get caught up in the moment and take that on yourself. Instead, take a moment and show your calmness, rather than echoing the stress.
+
+### Freewriting sessions
+
+When I kept up my journaling experiences for a decade, some days, I'd let it all out on paper. Take my thoughts and feelings and let them bleed on paper. Sometimes I'd come up with barely anything. Other times, I'd pour my heart on the page.
+
+I'm going to return to this practice because it's a form of practicing my calm (tying the previous point back in). I'll take a short amount of time, 3 minutes to be exact, and do the work in my journal.
+
+### Sparked Interests
+
+- [The Stubborn Myth of "Learning Styles"](https://www.educationnext.org/stubborn-myth-learning-styles-state-teacher-license-prep-materials-debunked-theory/)
+  - Filed under "Challenge what you believe", this was kind of an eye opener. Sometimes, I want to say I've read the evidence and find it very compelling. But I didn't. I was in a staff development meeting when I was teaching at a Prep school, and we had to work in groups telling each other what learning styles we were.
+- [Cloud Costs Every Programmer Should Know](https://www.vantage.sh/blog/cloud-costs-every-programmer-should-know?utm_source=tldrnewsletter)
+- [Desalination system could produce freshwater that is cheaper than tap water](https://news.mit.edu/2023/desalination-system-could-produce-freshwater-cheaper-0927?utm_source=tldrnewsletter)
+- [Work from Sardinia (Ollolai)](https://www.travelandleisure.com/sardinia-rent-free-digital-nomad-visa-7972049) - the €1 program. Anyone else interested?
+- [Talon](https://chaosparrot.github.io/talon_practice/) is an accessibility tool for editing text using speech
+  - And an extending library, [Cursorless](https://www.cursorless.org/)
+- Making GPT-4 see: [GPT-4V(ision)](https://cdn.openai.com/papers/GPTV_System_Card.pdf)
+  - This is known as multi-modal (additional modalities in which can act as input)
+  - This is explored further by Chip Huyen in [Multimodality and Large Multimodal Models (LMMs)](https://huyenchip.com//2023/10/10/multimodal.html)
+- [Two UC Berkeley professors have clashed on Israel-Palestine. War led them to a joint message](https://www.msn.com/en-us/news/world/two-uc-berkeley-professors-have-clashed-on-israel-palestine-war-led-them-to-a-joint-message/ar-AA1ivpHk)
