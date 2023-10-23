@@ -34,6 +34,9 @@ I'm going to return to this practice because it's a form of practicing my calm (
 - [Work from Sardinia (Ollolai)](https://www.travelandleisure.com/sardinia-rent-free-digital-nomad-visa-7972049) - the €1 program. Anyone else interested?
 - [Talon](https://chaosparrot.github.io/talon_practice/) is an accessibility tool for editing text using speech
   - And an extending library, [Cursorless](https://www.cursorless.org/)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/5mAzHGM2M0k?si=v7XOAZBEbRf6GgLU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 - Making GPT-4 see: [GPT-4V(ision)](https://cdn.openai.com/papers/GPTV_System_Card.pdf)
   - This is known as multi-modal (additional modalities in which can act as input)
   - This is explored further by Chip Huyen in [Multimodality and Large Multimodal Models (LMMs)](https://huyenchip.com//2023/10/10/multimodal.html)
