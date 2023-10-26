@@ -24,7 +24,7 @@
     "@codemirror/view": "^6.21.3",
     "@tailwindcss/typography": "^0.5.10",
     "@types/codemirror": "^5.60.10",
-    "@types/html-escaper": "^3.0.0",
+    "@types/html-escaper": "^3.0.1",
     "astro": "^3.3.2",
     "codemirror": "^6.0.1",
     "hast-util-to-string": "^3.0.0",
