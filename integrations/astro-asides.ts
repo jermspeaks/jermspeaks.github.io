@@ -7,8 +7,9 @@ import { visit } from "unist-util-visit";
 import { makeComponentNode } from "./utils/makeComponentNode";
 
 const AsideTagname = "AutoImportedAside";
+
 export const asideAutoImport: Record<string, [string, string][]> = {
-  "~/components/Aside.astro": [["default", AsideTagname]],
+  "../src/components/Aside.astro": [["default", AsideTagname]],
 };
 
 /**

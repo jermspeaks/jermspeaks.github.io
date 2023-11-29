@@ -31,6 +31,12 @@ export default defineConfig({
     AutoImport({
       imports: [asideAutoImport],
     }),
+    sitemap(),
+    svelte(),
+    tailwind({
+      configFile: "./tailwind.config.cjs",
+      applyBaseStyles: true,
+    }),
     astroAsides(),
     mdx({
       rehypePlugins: [
@@ -40,12 +46,6 @@ export default defineConfig({
         rehypeFigure,
       ],
       remarkPlugins: [remarkReadingTime],
-    }),
-    sitemap(),
-    svelte(),
-    tailwind({
-      configFile: "./tailwind.config.cjs",
-      applyBaseStyles: true,
     }),
   ],
   // NOTE: Once we need redirects, we can use the adaptor
