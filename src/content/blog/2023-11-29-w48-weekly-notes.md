@@ -1,5 +1,5 @@
 ---
-description: "Post-Thanksgiving reflections, respiratory illness, Charles Munger, Q\*, and reflections on Rust that wasn't"
+description: "Post-Thanksgiving reflections, respiratory illness, Charles Munger, Q*, and reflections on Rust that wasn't"
 draft: false
 postType: "blog"
 pubDate: "2023-12-05"
