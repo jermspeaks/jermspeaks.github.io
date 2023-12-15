@@ -16,7 +16,9 @@ const { post } = Astro.props;
   >
     {post.data.title}
   </a>
-  <p class="text-slate-800 dark:text-slate-300"><i>{post.data.description}</i></p>
+  <p class="text-slate-800 dark:text-slate-300">
+    <i>{post.data.description}</i>
+  </p>
   <div class="flex gap-4">
     <FormattedDate
       class="italic text-slate-600 dark:text-slate-300"
@@ -24,10 +26,11 @@ const { post } = Astro.props;
     />
     <div>
       {`#${post.data.postType}`}
+      {Array.isArray(post.data.tags) && " "}
+      {
+        Array.isArray(post.data.tags) &&
+          post.data.tags.map((tag: string) => `#${tag}`).join(" ")
+      }
     </div>
   </div>
-  {
-    /** Array.isArray(post.data.tags) &&
-  post.data.tags.map((tag) => `#${tag}`).join(" ") */
-  }
 </li>
