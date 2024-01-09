@@ -78,14 +78,14 @@
 
 <div class="grid grid-cols-8 grid-rows-3 gap-1">
   <div
-    class="flex items-center justify-start bg-zinc-300 col-start-1 col-end-9 p-2"
+    class="flex items-center justify-start bg-zinc-300 dark:bg-slate-900 col-start-1 col-end-9 p-2"
   >
     <label for="timezone-select" class="font-bold">Your Timezone:</label>
     <select
       bind:this={timezoneSelect}
       id="timezone-select"
       name="timezones"
-      class="ml-2"
+      class="ml-2 dark:bg-slate-900 dark:text-white"
     >
       {#each timeZones as tz (tz)}
         <option value={tz}>{tz}</option>
@@ -93,25 +93,25 @@
     </select>
   </div>
   <div
-    class="bg-zinc-100 border-2 border-black flex items-center justify-start p-2 col-start-1 col-end-6"
+    class="bg-zinc-100 dark:bg-slate-800 border-2 border-black flex items-center justify-start p-2 col-start-1 col-end-6"
     id="local-timezone"
   >
     <strong>System Timezone: </strong><span>&nbsp;</span>{localTimezone}
   </div>
   <div
-    class="col-start-6 col-end-9 border-2 border-blue-500 flex items-center justify-center"
+    class="col-start-6 col-end-9 border-2 border-blue-500 dark:border-blue-800 flex items-center justify-center"
     id="system-time"
   >
     {systemTime}
   </div>
   <div
-    class="bg-zinc-100 border-2 border-black flex items-center justify-start p-2 col-start-1 col-end-6"
+    class="bg-zinc-100 dark:bg-slate-800 border-2 border-black flex items-center justify-start p-2 col-start-1 col-end-6"
     id="selected-timezone"
   >
     <strong>Selected Timezone: </strong><span>&nbsp;</span>{selectedTimezone}
   </div>
   <div
-    class="col-start-6 col-end-9 border-2 border-blue-500 flex items-center justify-center"
+    class="col-start-6 col-end-9 border-2 border-blue-500 dark:border-blue-800 flex items-center justify-center"
     id="selected-time"
   >
     {selectedTime}
