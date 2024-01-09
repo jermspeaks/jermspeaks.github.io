@@ -23,4 +23,12 @@ I'm calling my 2024 the "Year of Renewal". I'm going to write up a blog post abo
 - [PartyKit - Turn everything into a realtime multiplayer app](https://www.partykit.io/)
 - Coming Soon: [📮 Oxford Notes: eBook Edition - Jamoe](https://www.jamoe.org/note-taking)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yvhv7bgmz64?si=CcI0KWvOUiqTTjLx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe 
+  class="aspect-video w-full"
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/yvhv7bgmz64?si=CcI0KWvOUiqTTjLx"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
