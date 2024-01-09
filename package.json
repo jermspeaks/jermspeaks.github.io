@@ -14,7 +14,7 @@
     "@astrojs/mdx": "^1.1.5",
     "@astrojs/netlify": "^4.1.0",
     "@astrojs/rss": "^4.0.1",
-    "@astrojs/sitemap": "^3.0.3",
+    "@astrojs/sitemap": "^3.0.4",
     "@astrojs/svelte": "^4.0.4",
     "@astrojs/tailwind": "^5.0.4",
     "@codemirror/commands": "^6.3.2",
