@@ -1,0 +1,63 @@
+---
+description: "An evening using Make Real, and thoughts on making"
+draft: false
+postType: "blog"
+pubDate: "2024-01-08"
+tags: ["coding", "generative ai"]
+title: Make Real
+heroImage: /images/make-real.png
+heroImageAlt: Screenshot of make real app and my attempts at making a time zone converter
+---
+
+import Timezone from "../../components/lib/Timezone.svelte";
+
+I was listening to the latest Latent Space podcast with Steve Ruiz of [tldraw](https://www.tldraw.com/). (You can watch the full video below).
+What I was taken back by is the "Make Real" demo that included different approaches to using [GPT4-Vision](https://platform.openai.com/docs/guides/vision).
+Of course, my first instinct was to play test it and see what I could make and where the limitations are.
+
+As a part-time designer, I was curious to see a working demo of a wireframe I had in mind.
+
+## Demo
+
+"Make Real" outputs in HTML, CSS, and JS (with tailwind), and I was able to cobble together this little demo of telling you the timezones based off of the selected input.
+One thing to note is the component below is actually a Svelte component, which I created using ChatGPT to convert the HTML to Svelte.
+
+And of course, I've made slight modifications so there are more timezones than the ones given to me.
+
+<Timezone client:load />
+
+Design aesthetic aside, this is a fully functional prototype that I could reuse and prettify.
+With a little bit of coding knowledge, I can be off racing towards putting this in a production-ready app.
+Of course, the way to make these modifications are easier if you have some implementation knowledge of what you're doing.
+
+## Thoughts on Make Real
+
+It's not an career killer for front-end engineers. We are far from that.
+Instead, these should be seen as tools to augment our work and allow us to spend more energy playing over mulling over small implementation details that might get changed later.
+
+With each iteration, I was able to get "Make Real" to output different variations of the same idea, to really see what the realm of possibilities are.
+There's a balance though of giving annotations and adding or subtracting more to the drawings.
+For example, when I asked it to give me 50 timezone selections from the most populated areas on the earth, it only gave me 10 items.
+And even then, ChatGPT came up with TZs not in use.
+
+In a different iteration, I wanted an explorable map. 
+When I asked it to give me a map of where this selected timezone was, it gave me a placeholder. Not so helpful.
+
+The following is the video with Steve Ruiz, and I highly recommend watching it to see more.
+
+<iframe
+  width="560"
+  height="315"
+  src="https://www.youtube.com/embed/0iZdmGmk3sQ?si=2rA4RwqkbBmatT3k"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
+
+## Where do I think we can go from here
+
+I haven't tried state machine drawings yet, and I think that can help extend what we can do with drawings.
+I also would love to explore what other people have done as helpful aids for the drawings to get GPT4-Vision to come up with something better.
+
+Try it out today by giving it your [OpenAI API Key](https://tldraw.notion.site/Make-Real-Help-93be8b5273d14f7386e14eb142575e6e#a9b75e58b1824962a1a69a2f29ace9be).

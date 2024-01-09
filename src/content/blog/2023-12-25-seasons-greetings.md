@@ -3,7 +3,7 @@ description: ""
 draft: false
 postType: "blog"
 pubDate: "2023-12-25"
-tags: ["Weekly"]
+tags: ["Seasonal"]
 title: Season's Greeting and a Happy New Year (2023)
 heroImage: https://images.unsplash.com/photo-1608700098255-1cbc4c22f827?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 heroImageAlt: Unsplash image from Michael Payne showing a felt Santa Clause
