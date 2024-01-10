@@ -19,11 +19,11 @@ There’s this story I heard where parents convinced a pee-wee soccer referee no
 
 ## Trading Spaces
 
-In the film, “Trading Spaces”, Dan Aykroyd’s character is this rich stock broker who has everything going for him — a good career, a smoking hot fiancé, and a large home with his own butler. Being white and privileged, he had never faced much hardship in life. He went to an Ivy League college, has a group of posh friends, and never had to beg. The word “suffer” doesn’t seem to be in his vocabulary.
+In the film, “Trading Spaces”, Dan Aykroyd’s character is this rich stock broker who has everything going for him — a good career, a smoking hot fiancée, and a large home with his own butler. Being white and privileged, he had never faced much hardship in life. He went to an Ivy League college, has a group of posh friends, and never had to beg. The word “suffer” doesn’t seem to be in his vocabulary.
 
 His counterpart, played by Eddie Murphy, is at the absolute bottom. He’s poor, had to fight his way in the hood, and a scam artist. At the beginning of the movie, he pretends to be a war veteran with no legs panhandling. The difference between these two characters is Eddie Murphy’s character has faced a lot of rejection in his life and had to live with it. Dan Aykroyd’s character didn’t.
 
-As the movie progresses, Dan Aykroyd and Eddie Murphy swap places and Aykroyd finds himself at the bottom. Everything is taken from him — his job, his fiancé, and his home. When he finds out that none of those thing will come back to him, he hits rock bottom.
+As the movie progresses, Dan Aykroyd and Eddie Murphy swap places and Aykroyd finds himself at the bottom. Everything is taken from him — his job, his fiancée, and his home. When he finds out that none of those thing will come back to him, he hits rock bottom.
 
 This film might be the worst case scenario of losing everything, but it provides a wonderful lesson. Despite hardship, we can choose to process through that and work past it. Dan Aykroyd almost that rejection overcome him, nearly meeting his end from a suicide attempt. Throughout this portion of the movie, I was thinking, “pull yourself together. You can get through this.” But I understand his behavior. It’s that resistance we have built up because we can’t process the rejection. In the end, he did pull through and eventually getting even with the people who wronged him.
 
