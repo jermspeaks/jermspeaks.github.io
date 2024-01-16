@@ -151,8 +151,13 @@ const lindy = defineCollection({
   schema: z.object({
     author: z.string(),
     heroImage: z.string().optional(),
+    heroImageAlt: z.string().optional(),
     link: z.string(),
     title: z.string(),
+    dateConsumed: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
   }),
 });
 

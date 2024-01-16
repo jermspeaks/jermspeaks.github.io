@@ -9,7 +9,7 @@ import { SITE_DESCRIPTION } from "../consts";
 
 type Props = CollectionEntry<"book">["data"];
 
-const { title, heroImage } = Astro.props;
+const { title, heroImage, heroImageAlt } = Astro.props;
 ---
 
 <html lang="en">
@@ -21,7 +21,10 @@ const { title, heroImage } = Astro.props;
     <Header />
     <main>
       <ProseArticle>
-        {heroImage && <img width={300} height={150} src={heroImage} alt="" />}
+        {heroImage && <img width={300} height={150} src={heroImage} alt={heroImageAlt} title={heroImageAlt} />}
+        {heroImageAlt && (
+          <figcaption class="text-sm italic">{heroImageAlt}</figcaption>
+        )}
         <slot />
       </ProseArticle>
     </main>

@@ -1,0 +1,168 @@
+---
+import { getCollection } from "astro:content";
+import FormattedDate from "../../components/FormattedDate.astro";
+import CurationPage from "../../layouts/CurationPage.astro";
+
+const TOTAL_NUMBER_OF_ITEMS = 5;
+const bookLibrary = (await getCollection("book"))
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .slice(0, TOTAL_NUMBER_OF_ITEMS)
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "books",
+    }
+  }));
+const filmLibrary = (await getCollection("filmLibrary"))
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .slice(0, TOTAL_NUMBER_OF_ITEMS)
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "films",
+    }
+  }));
+// const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
+const lindyLibrary = (await getCollection("lindy"))
+  .sort((a, b) => a.data.title.localeCompare(b.data.title))
+  .slice(0, TOTAL_NUMBER_OF_ITEMS)
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "lindy",
+    }
+  }));
+const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary].sort(
+  (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
+);
+
+const curations = [
+  {
+    title: "Books",
+    heroImage:
+      "https://images.unsplash.com/photo-1495446815901-a7297e633e8d?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heroImageAlt: "Books on a shelf, photographed by Tom Hermans",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    tags: ["books", "reading"],
+  },
+  {
+    title: "Films",
+    heroImage:
+      "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heroImageAlt:
+      "Empty theater with red seats, photographed by Felix Mooneeram",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    tags: ["films", "movies"],
+  },
+  {
+    title: "Lindy Library",
+    heroImage:
+      "https://images.unsplash.com/photo-1473448912268-2022ce9509d8?q=80&w=2341&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heroImageAlt: "Forest of knowledge, photographed by Luca Bravo",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    tags: ["lindy", "library"],
+  },
+  {
+    title: "Business Cards",
+    heroImage:
+      "https://images.unsplash.com/photo-1628891439478-c613e85af7d6?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    heroImageAlt: "Blank black business card, photographed by Giorgio Trovato",
+    description:
+      "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.",
+    tags: ["business", "cards"],
+  },
+];
+---
+
+<CurationPage>
+  <article class="text-lg mt-6 dark:text-slate-300 font-serif">
+    <p>
+      This is the curated collection of eclectic items. I love collecting
+      different kinds of mediums and media. The things that have resonated I'll
+      shelve in my library.
+    </p>
+    <!-- <p>
+      I've split up my library into different sections. Films that have
+      influenced me. Books that have changed my perspective. An anti-library of
+      books that I should read. And a collection of evergreen content that stand
+      the test of time, in the Lindy Library (see <a
+        href="https://en.wikipedia.org/wiki/Lindy_effect"
+        target="_blank"
+        class="hover:text-purple-500"
+        title="Wikipedia Article on the Lindy Effect"
+        rel="noreferrer">Lindy Effect</a
+      >).
+    </p> -->
+  </article>
+  <section class="mt-8">
+    <ul class="flex flex-wrap list-none p-0 gap-4">
+      {
+        curations.map((curation) => (
+          <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[450px] rounded-sm box-border dark:text-gray-100">
+            <div class="max-w-sm rounded overflow-hidden shadow-lg">
+              <img
+                class="w-full"
+                src={curation.heroImage}
+                alt={curation.heroImageAlt}
+              />
+              <div class="px-6 py-4">
+                <div class="font-bold text-xl mb-2 dark:text-gray-200">
+                  {curation.title}
+                </div>
+                <p class="text-gray-700 text-base dark:text-gray-300">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Voluptatibus quia, nulla! Maiores et perferendis eaque,
+                  exercitationem praesentium nihil.
+                </p>
+              </div>
+              <div class="px-6 pt-4 pb-2">
+                {curation.tags.map((tag) => (
+                  <span class="inline-block bg-gray-200 dark:bg-gray-800 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 dark:text-gray-300 mr-2 mb-2">
+                    #{tag}
+                  </span>
+                ))}
+              </div>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+  <section class="mt-8">
+    <h3 class="text-xl mb-5 dark:text-white">Latest</h3>
+    <ul class="flex flex-wrap list-none p-0 gap-4">
+      {
+        combination.map((item) => (
+          <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
+            <a
+              class="visited:text-[#f25042]"
+              href={`/library/${item.data.type}/${item.slug}`}
+            >
+              <img
+                src={item.data.heroImage}
+                width="200"
+                alt={item.data.heroImageAlt}
+              />
+            </a>
+            <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
+              <div>{item.data.title}</div>
+              <div>
+                {item.data.bookAuthor || item.data.author || item.data.director}
+              </div>
+              <FormattedDate
+                class="italic text-slate-600 dark:text-slate-300"
+                date={item.data.dateConsumed}
+              />
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</CurationPage>
