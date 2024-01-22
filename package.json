@@ -29,7 +29,7 @@
     "astro-auto-import": "^0.4.2",
     "codemirror": "^6.0.1",
     "hast-util-to-string": "^3.0.0",
-    "hastscript": "^8.0.0",
+    "hastscript": "^9.0.0",
     "html-escaper": "^3.0.3",
     "mdast-util-to-string": "^4.0.0",
     "reading-time": "^1.5.0",
