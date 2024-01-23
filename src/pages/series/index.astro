@@ -36,11 +36,11 @@ const series = (await getCollection("series")).sort(
         </p>
 
         <section>
-          <ul class="list-none p-0 flex flex-col gap-12">
+          <ul class="list-none lg:p-0 lg:m-0 flex flex-col gap-12">
             {
               series.map((s) => (
-                <li class="flex">
-                  <div class="flex flex-col flex-shrink-0 flex-grow-0 flex-[350px]">
+                <li class="flex flex-col md:flex-row">
+                  <div class="flex flex-col md:flex-shrink-0 md:flex-grow-0 md:flex-[350px]">
                     <a
                       class="visited:text-[#f25042]"
                       href={`/series/${s.slug}/`}
