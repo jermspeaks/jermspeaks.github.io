@@ -41,4 +41,4 @@ To conclude, I want to leave you with questions to ponder about. Do you recogniz
 
 [2] White lie. I have written entries the day after I was supposed to. Also, when I’m traveling overseas, I’ll be too confused by the timezone and may crap out on what day it is exactly.
 
-[3] I adapted this concept from Tim Gallewey’s book, [The Inner Game of Tennis](/library/books/2012-12-30-the-inner-game-of-tennis)
+[3] I adapted this concept from Tim Gallewey’s book, [The Inner Game of Tennis](/curation/books/2012-12-30-the-inner-game-of-tennis)

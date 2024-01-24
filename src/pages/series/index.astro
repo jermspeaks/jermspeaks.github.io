@@ -1,4 +1,6 @@
 ---
+// @deprecated This page is superceded by curation/newsletter
+
 import { getCollection } from "astro:content";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
 import BaseBody from "../../components/BaseBody.astro";
@@ -14,7 +16,7 @@ const series = (await getCollection("series")).sort(
 );
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />

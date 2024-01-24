@@ -5,9 +5,15 @@ import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import TitleHeading from "../components/TitleHeading.astro";
+
+type Props = {
+  title: string;
+};
+
+const { title } = Astro.props;
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
@@ -16,10 +22,17 @@ import TitleHeading from "../components/TitleHeading.astro";
     <Header />
     <main class="max-w-[120ch] mx-auto">
       <TitleHeading>
-        <a href="/curation">Curation</a>
+        <span
+          class="text-slate-700 hover:text-slate-500 dark:text-slate-300 dark:hover:text-slate-500"
+        >
+          <a href="/curation">Curation</a>
+        </span>
+        <span class="text-slate-800 dark:text-slate-300">&nbsp;/&nbsp;</span>
+        <span>{title}</span>
+        <!-- <NavigationLinks items={libraryLinks} /> -->
       </TitleHeading>
       <slot />
+      <Footer />
     </main>
-    <Footer />
   </BaseBody>
 </html>

@@ -29,8 +29,8 @@ Javascript’s execution is slightly different than HTML and CSS. If Javascript 
 
 For a deeper dive into browser performance, here are two (paid) books.
 
-- [High Performance Web Sites](https://learning.oreilly.com/library/view/high-performance-web/9780596529307/) - Written in 2007, still holds value in how browsers run. Some syntax has been updated, but the general advice is sound. It is highly likely you can find this book for free
-- [Even Faster Websites](https://learning.oreilly.com/library/view/even-faster-web/9780596803773/) - Written in 2009, a good follow-up to “High Performance Web Sites” that tackles additional topics about Javascript, the Browser, and the Network
+- [High Performance Web Sites](https://learning.oreilly.com/curation/view/high-performance-web/9780596529307/) - Written in 2007, still holds value in how browsers run. Some syntax has been updated, but the general advice is sound. It is highly likely you can find this book for free
+- [Even Faster Websites](https://learning.oreilly.com/curation/view/even-faster-web/9780596803773/) - Written in 2009, a good follow-up to “High Performance Web Sites” that tackles additional topics about Javascript, the Browser, and the Network
 
 To understand blocking, you have to understand the event loop. The following resource is a great primer on the event loop.
 

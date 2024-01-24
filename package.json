@@ -3,12 +3,13 @@
   "type": "module",
   "version": "1.0.0",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
-    "preview": "astro preview",
     "astro": "astro",
-    "deploy": "netlify deploy --build --prod"
+    "build": "astro build",
+    "deploy": "netlify deploy --build --prod",
+    "dev": "astro dev",
+    "preview": "astro preview",
+    "start": "astro dev",
+    "sync": "astro sync"
   },
   "dependencies": {
     "@astrojs/mdx": "^1.1.5",
