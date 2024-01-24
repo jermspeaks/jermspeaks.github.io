@@ -38,7 +38,7 @@
   const darkModeQuery = window?.matchMedia?.("(prefers-color-scheme:dark)");
 
   darkModeQuery.addEventListener("change", (event) => {
-    console.log("reinitialize?", event.matches);
+    // console.log("reinitialize?", event.matches);
     theme = event.matches ? colorScheme.dark : colorScheme.light;
     // Delete the old instance
     // Initialize new instance

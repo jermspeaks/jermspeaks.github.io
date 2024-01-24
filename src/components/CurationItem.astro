@@ -1,0 +1,27 @@
+---
+import type { CollectionEntry } from "astro:content";
+
+export interface Props {
+  item: CollectionEntry<"curation">;
+}
+
+const { item } = Astro.props;
+const { link, title, heroImage, heroImageAlt } = item.data;
+const { Content } = await item.render();
+---
+
+<li
+  class="bg-white dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl flex-grow-0 flex-[48%]"
+>
+  <img class="w-full" src={heroImage} alt={heroImageAlt} />
+  <div class="px-0 py-4">
+    <div class="font-bold text-xl mb-2 dark:text-gray-200">
+      <a class="visited:text-[#f25042]" href={link}>
+        {title}
+      </a>
+    </div>
+    <div class="text-slate-700 dark:text-slate-100">
+      <Content />
+    </div>
+  </div>
+</li>

@@ -20,7 +20,7 @@ order: 2
 
 When someone tells me they're doing something for their resume, I cringe. I'm not here for a participation badge, I'm here to make things. And sometimes, those things are useful.
 
-I find that I enjoy learning. There's ups and downs, especially when I'm out of my comfort zone. There might be times where I feel like giving up, because something is too difficult. I'm reminded to keep a [growth mindset](/library/books/2015-02-09-mindset) and allow myself to be malleable and flexible rather than rigid and set in my ways. Of course, it's a spectrum and you can't qualify that for everything, so pick and choose.
+I find that I enjoy learning. There's ups and downs, especially when I'm out of my comfort zone. There might be times where I feel like giving up, because something is too difficult. I'm reminded to keep a [growth mindset](/curation/books/2015-02-09-mindset) and allow myself to be malleable and flexible rather than rigid and set in my ways. Of course, it's a spectrum and you can't qualify that for everything, so pick and choose.
 
 I went to school for making physical things, but I fell in love with making digital things more. I still love the craft of metalworking and woodworking, but I certainly craft more code nowadays. Sometimes for the benefit of code itself, but more likely for the benefit of the people who use it. I especially enjoy making things in collaboration because knowledge sharing is a powerful tool. Some of the software projects span across different domains, from my day job doing BioTech, [neurogaming](/project/2015-05-02-pac-man/), [data visualization](/project/2017-10-15-garbage-in-garbage-out/), and [mixed reality apps](/project/2016-06-04-zika-vr/).
 

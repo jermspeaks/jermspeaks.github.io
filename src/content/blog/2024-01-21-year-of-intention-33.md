@@ -13,7 +13,7 @@ Yesterday was my 34th birthday. It was a wildly unexpected year, full of twists 
 
 ### How did the annual theme go?
 
-The thought process behind my annual theme, the Year of Intention, was to make time more intentional. In [Four Thousand Weeks](/library/books/2022-02-21-four-thousand-weeks), Oliver Burkeman writes about the finite time we have. To balance out my active vs. passive time, in which you need both, I want to guard what little precious time I have. In a way, this is a scarcity mindset and one which I should remind myself of often.
+The thought process behind my annual theme, the Year of Intention, was to make time more intentional. In [Four Thousand Weeks](/curation/books/2022-02-21-four-thousand-weeks), Oliver Burkeman writes about the finite time we have. To balance out my active vs. passive time, in which you need both, I want to guard what little precious time I have. In a way, this is a scarcity mindset and one which I should remind myself of often.
 
 Intentionality is planned focus. Meaning I focused my attention on specific areas of my life. After planning, there's a phase of reflection, like reviewing the initial plan and how it went, doing goal setting and planning, and reviewing my energy management. In the past, I would like entropy to set in and stop planning altogether, drop my long-term goals, and let the energy demons enter. Demons may include procrastination, burnout, and being overwhelmed.
 

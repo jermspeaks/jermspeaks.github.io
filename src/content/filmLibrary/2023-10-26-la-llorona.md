@@ -7,6 +7,7 @@ link: "https://www.criterion.com/films/33103-la-llorona"
 pubDate: "2023-10-26"
 releaseYear: 2022
 title: "La Llorona"
+blurb: "Atrocities commited by a warmongering general come back to haunt him in modern-day Guatemala."
 ---
 
 ## Spooktober

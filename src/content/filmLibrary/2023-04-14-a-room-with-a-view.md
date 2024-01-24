@@ -7,6 +7,7 @@ link: "https://www.justwatch.com/us/movie/a-room-with-a-view"
 pubDate: "2023-05-23"
 releaseYear: 1985
 title: "A Room With A View"
+blurb: "One of those picturesque romance movies from a Merchany-Ivory production of an E. M. Forrester novel. And a punchable performance from Daniel-Day Lewis."
 ---
 
 ## Review

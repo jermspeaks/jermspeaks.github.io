@@ -1,0 +1,97 @@
+---
+import { CollectionEntry, getCollection } from "astro:content";
+import FormattedDate from "../../../components/FormattedDate.astro";
+import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+
+const series: [CollectionEntry<"series">] = (
+  await getCollection("series")
+).sort(
+  (a: CollectionEntry<"series">, b: CollectionEntry<"series">) =>
+    b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
+);
+---
+
+<CurationDetailsPage title="Newsletter">
+  <ProseArticle>
+    <p class="my-4">
+      A weekly, longform essay that mainly focuses on lessons I've learned. I
+      try to write something I find meaningful, whether it's exposing your
+      ignorance, staying true to yourself or being resilient. In a world of
+      tweet-sized advice and short comments on a non-sensical Facebook post,
+      there's not enough time to process and distill what we're actually
+      thinking. These letters are to slow down, lean in and really try to form
+      more coherent thoughts than writing that instant gratification post on my
+      choice of social networking site.
+    </p>
+
+    <section>
+      <ul class="list-none lg:p-0 lg:m-0 flex flex-col gap-12">
+        {
+          series.map((s) => (
+            <li class="flex flex-col md:flex-row">
+              <div class="flex flex-col md:flex-shrink-0 md:flex-grow-0 md:flex-[350px]">
+                <a
+                  class="hover:text-purple-700 dark:hover:text-purple-300 visited:text-[#f25042]"
+                  href={`/curation/newsletter/${s.slug}/`}
+                >
+                  {s.data.title}
+                </a>
+                <div class="italic text-slate-600 dark:text-slate-300">
+                  <FormattedDate date={s.data.createdDate} />
+                  &nbsp;to&nbsp;
+                  <FormattedDate date={s.data.endDate} />
+                </div>
+                {s.data.heroImage && (
+                  <img width={240} src={s.data.heroImage} alt="" />
+                )}
+              </div>
+              <div>{s.data.description}</div>
+            </li>
+          ))
+        }
+      </ul>
+    </section>
+    <hr class="mt-5 mb-5" />
+
+    <h2>Subscribe!</h2>
+    <form
+      action="https://tinyletter.com/jeremywong"
+      class="landing-newsletter-form"
+      method="post"
+      onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
+      target="popupwindow"
+    >
+      <div>
+        <label for="tlemail">
+          If what you read resonates with you, please <strong>subscribe</strong
+          >!
+        </label>
+      </div>
+      <div class="flex flex-col md:flex-row gap-4">
+        <div>
+          <input
+            type="text"
+            name="email"
+            id="tlemail"
+            class="py-1 px-2 md:py-2 md:px-4"
+            placeholder="email address"
+          />
+          <input type="hidden" value="1" name="embed" />
+        </div>
+        <div>
+          <input class="sr-only" type="hidden" value="Subscribe" />
+          <button
+            class="bg-yellow-700 hover:bg-yellow-700 dark:bg-yellow-300 text-white dark:text-black font-bold py-2 px-4 rounded"
+            type="submit">Subscribe</button
+          >
+        </div>
+      </div>
+      <p class="text-sm">
+        <a href="https://tinyletter.com" target="_blank"
+          >powered by TinyLetter</a
+        >
+      </p>
+    </form>
+  </ProseArticle>
+</CurationDetailsPage>

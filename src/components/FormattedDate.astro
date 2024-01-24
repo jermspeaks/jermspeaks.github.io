@@ -8,6 +8,7 @@ const { date, class: className } = Astro.props;
 ---
 
 <time datetime={date.toISOString()} class={className}>
+  <slot name="prepend" />
   {
     date.toLocaleDateString("en-us", {
       year: "numeric",
@@ -15,4 +16,6 @@ const { date, class: className } = Astro.props;
       day: "numeric",
     })
   }
+  <slot />
+  <slot name="append" />
 </time>

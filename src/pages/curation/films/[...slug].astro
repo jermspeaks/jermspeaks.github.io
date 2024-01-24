@@ -1,0 +1,20 @@
+---
+import { CollectionEntry, getCollection } from 'astro:content';
+import FilmLibraryPost from '../../../layouts/FilmLibraryPost.astro';
+
+export async function getStaticPaths() {
+	const posts = await getCollection('filmLibrary');
+	return posts.map((post) => ({
+		params: { slug: post.slug },
+		props: post,
+	}));
+}
+type Props = CollectionEntry<'filmLibrary'>;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<FilmLibraryPost {...post.data}>
+	<Content />
+</FilmLibraryPost>

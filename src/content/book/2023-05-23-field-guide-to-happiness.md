@@ -7,6 +7,7 @@ link: "https://amzn.to/3Oxe3gx"
 pubDate: "2023-05-15"
 review: ""
 title: "A Field Guide to Happiness: What I Learned in Bhutan about Living, Loving, and Waking Up"
+blurb: "The author recounts her experiences in Bhutan and how it relates back to how the Bhutanese feel towards happiness and other contemplative thoughts on life."
 ---
 
 ## Highlights

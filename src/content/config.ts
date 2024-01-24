@@ -75,6 +75,7 @@ const series = defineCollection({
     heroImage: z.string().optional(),
     tag: z.string(),
     title: z.string(),
+    blurb: z.string().optional(),
   }),
 });
 
@@ -98,6 +99,7 @@ const book = defineCollection({
       .or(z.date())
       .transform((val) => new Date(val)),
     title: z.string(),
+    blurb: z.string().optional(),
   }),
 });
 
@@ -121,6 +123,7 @@ const antiLibrary = defineCollection({
       .or(z.date())
       .transform((val) => new Date(val)),
     title: z.string(),
+    blurb: z.string().optional(),
   }),
 });
 
@@ -144,6 +147,7 @@ const filmLibrary = defineCollection({
       .or(z.number())
       .or(z.date().transform((val) => new Date(val))),
     title: z.string(),
+    blurb: z.string().optional(),
   }),
 });
 
@@ -158,6 +162,7 @@ const lindy = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    blurb: z.string().optional(),
   }),
 });
 
@@ -186,11 +191,23 @@ const now = defineCollection({
   }),
 });
 
+const curation = defineCollection({
+  schema: z.object({
+    draft: z.boolean().optional(),
+    heroImage: z.string().optional(),
+    heroImageAlt: z.string().optional(),
+    link: z.string(),
+    title: z.string(),
+    tags: z.array(z.string()).optional(),
+  }),
+});
+
 export const collections = {
   about,
   antiLibrary,
   blog,
   book,
+  curation,
   filmLibrary,
   lindy,
   log,

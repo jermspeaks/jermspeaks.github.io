@@ -1,9 +1,7 @@
 ---
-// @deprecated This page is superceded by curation/newsletter
-
 import { CollectionEntry, getCollection } from "astro:content";
-import FormattedDate from "../../components/FormattedDate.astro";
-import SeriesPage from "../../layouts/SeriesPage.astro";
+import FormattedDate from "../../../components/FormattedDate.astro";
+import SeriesPage from "../../../layouts/SeriesPage.astro";
 
 export async function getStaticPaths() {
   const series = await getCollection("series");
