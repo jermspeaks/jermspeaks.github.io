@@ -8,6 +8,7 @@ description: Healthcare application to help geriatrics.
 # project_link: https://github.com/jermspeaks/coral-reef-game
 createdDate: "2015-03-07"
 # image: /images/flitr.jpg
+# imageAlt: Screenshot of Flitr app
 url: /coral-reef-game
 ---
 

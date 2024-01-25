@@ -57,6 +57,8 @@ const project = defineCollection({
       .transform((val) => new Date(val)),
     description: z.string(),
     title: z.string(),
+    image: z.string().optional(),
+    imageAlt: z.string().optional(),
   }),
 });
 

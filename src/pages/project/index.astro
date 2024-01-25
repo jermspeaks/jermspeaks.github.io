@@ -21,10 +21,10 @@ const projects = (await getCollection("project")).sort(
   </head>
   <BaseBody>
     <Header />
-    <main class="max-w-[65ch] mx-auto">
+    <main class="max-w-[85ch] mx-auto">
       <TitleHeading>Projects</TitleHeading>
       <section>
-        <ul class="list-none p-0">
+        <ul class="list-none p-0 grid grid-cols-1 md:grid-cols-2 gap-4">
           {projects.map((project) => <ProjectListItem project={project} />)}
         </ul>
       </section>

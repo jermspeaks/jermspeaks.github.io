@@ -7,10 +7,12 @@ import Header from "../components/Header.astro";
 import TitleHeading from "../components/TitleHeading.astro";
 
 type Props = {
+  section: string;
+  sectionSlug: string;
   title: string;
 };
 
-const { title } = Astro.props;
+const { section, sectionSlug, title } = Astro.props;
 ---
 
 <!doctype html>
@@ -28,7 +30,13 @@ const { title } = Astro.props;
           <a href="/curation">Curation</a>
         </span>
         <span class="text-slate-800 dark:text-slate-300">&nbsp;/&nbsp;</span>
-        <span>{title}</span>
+        <span
+          class="text-slate-700 hover:text-slate-500 dark:text-slate-300 dark:hover:text-slate-500"
+        >
+          <a href={`/curation/${sectionSlug}`}>{section}</a>
+        </span>
+        <span class="text-slate-800 dark:text-slate-300">&nbsp;/&nbsp;</span>
+        <span class="font-bold">{title}</span>
       </TitleHeading>
       <slot />
       <Footer />
