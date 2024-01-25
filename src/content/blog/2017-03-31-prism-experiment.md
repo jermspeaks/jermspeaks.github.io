@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post", "work"]
+tags: ["essay", "blog", "post", "work"]
 title: Code Highlight Test
 date: 2017-03-31
 pubDate: "2017-03-31"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 draft: true
 ---
 

@@ -2,13 +2,12 @@
 title: Team Contribution Guide
 published: false
 draft: false
-categories: ["learning"]
-tags: ["contribution", "support", "dev"]
+tags: ["learning", "contribution", "support", "dev"]
 date: 2019-08-29
 description: ""
 pubDate: "2019-08-29"
 heroImage: ""
-postType: "learning"
+
 ---
 
 The following guide is a modified version that we use at Clear Labs dev team. It's a starting point for team dev work and contribution.

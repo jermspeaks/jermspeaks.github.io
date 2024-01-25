@@ -25,7 +25,6 @@ const { post } = Astro.props;
       date={post.data.pubDate}
     />
     <div>
-      {`#${post.data.postType}`}
       {Array.isArray(post.data.tags) && " "}
       {
         Array.isArray(post.data.tags) &&

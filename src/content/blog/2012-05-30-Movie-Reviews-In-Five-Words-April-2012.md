@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "blog", "post", "tumblr"]
 title: "Movie Reviews in Five Words (April 2012)"
 date: 2012-05-30
 pubDate: "2012-05-30"
-
 description: ""
 heroImage: ""
-postType: "archive"
+
 ---
 
 

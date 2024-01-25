@@ -8,7 +8,10 @@ const { class: className } = Astro.props;
 
 <article
   class:list={[
-    "prose lg:prose-xl dark:prose-invert prose-img:mt-0 prose-img:mb-0 prose-figcaption:mt-0 hover:prose-a:text-amber-600 mx-auto",
+    "prose lg:prose-xl dark:prose-invert prose-img:mt-0 prose-img:mb-0 prose-figcaption:mt-0 hover:prose-a:text-amber-600",
+    {
+      ['mx-auto']: !className?.includes('mx-0'),
+    },
     className,
   ]}
 >

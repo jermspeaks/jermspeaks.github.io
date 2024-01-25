@@ -1,31 +1,15 @@
 ---
-import BaseBody from "../components/BaseBody.astro";
-import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
-import Header from "../components/Header.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"series">["data"];
 
-const { title, description, createdDate, endDate } = Astro.props;
+const { createdDate, endDate } = Astro.props;
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead title={title} description={description} />
-  </head>
-
-  <BaseBody>
-    <Header />
-    <main>
-      <ProseArticle>
-        <FormattedDate date={createdDate} /> to
-        <FormattedDate date={endDate} />
-        <slot />
-      </ProseArticle>
-    </main>
-    <Footer />
-  </BaseBody>
-</html>
+<ProseArticle>
+  <FormattedDate date={createdDate} /> to
+  <FormattedDate date={endDate} />
+  <slot />
+</ProseArticle>

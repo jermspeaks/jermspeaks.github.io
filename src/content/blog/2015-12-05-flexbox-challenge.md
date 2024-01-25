@@ -2,13 +2,12 @@
 title: Flexbox Challenge
 published: false
 draft: true
-categories: ["learning"]
-
+tags: ["learning"]
 date: 2015-12-05
 description: ""
 pubDate: "2015-12-05"
 heroImage: ""
-postType: "learning"
+
 ---
 
 

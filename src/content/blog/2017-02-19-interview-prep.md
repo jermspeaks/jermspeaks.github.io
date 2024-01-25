@@ -5,10 +5,9 @@ description: ""
 draft: false
 heroImage: ""
 
-postType: "learning"
 pubDate: "2017-02-19"
 published: true
-tags: [interview, prep]
+tags: ["learning", "interview", "prep"]
 title: "Interview Prep"
 ---
 

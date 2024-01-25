@@ -1,7 +1,9 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
+import { getCollection } from "astro:content";
+import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
 import FormattedDate from "../../../components/FormattedDate.astro";
 import SeriesPage from "../../../layouts/SeriesPage.astro";
+import type { CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
   const series = await getCollection("series");
@@ -22,23 +24,29 @@ const posts = (await getCollection("blog")).filter(
 const { Content } = await series.render();
 ---
 
-<SeriesPage {...series.data}>
-  <h1>{series.data.title}</h1>
-  <Content />
-  <h3>Posts</h3>
-  <ul class="list-none p-0">
-    {
-      posts.map((post) => (
-        <li class="flex">
-          <FormattedDate
-            class="mt-0 lg:mt-0 flex-shrink-0 flex-grow-0 flex-[130px] italic text-slate-600"
-            date={post.data.pubDate}
-          />
-          <a class="visited:text-[#f25042]" href={`/blog/${post.slug}/`}>
-            {post.data.title}
-          </a>
-        </li>
-      ))
-    }
-  </ul>
-</SeriesPage>
+<CollectionDetailsPage
+  section="Newsletter"
+  sectionSlug="newsletter"
+  title={series.data.title}
+>
+  <SeriesPage {...series.data}>
+    <!-- <h1>{series.data.title}</h1> -->
+    <Content />
+    <h3>Posts</h3>
+    <ul class="list-none p-0">
+      {
+        posts.map((post) => (
+          <li class="flex">
+            <FormattedDate
+              class="mt-0 lg:mt-0 flex-shrink-0 flex-grow-0 flex-[130px] italic text-slate-600"
+              date={post.data.pubDate}
+            />
+            <a class="visited:text-[#f25042]" href={`/blog/${post.slug}/`}>
+              {post.data.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+  </SeriesPage>
+</CollectionDetailsPage>

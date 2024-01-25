@@ -2,14 +2,12 @@
 title: Intro to Webassembly
 published: true
 draft: false
-categories: ["learning"]
-tags: ["webassembly"]
-
+tags: ["learning", "programming", "webassembly"]
 date: 2017-06-06
 description: ""
 pubDate: "2017-06-06"
 heroImage: ""
-postType: "learning"
+
 ---
 
 After reading [a lengthy comic](https://hacks.mozilla.org/2017/02/a-cartoon-intro-to-webassembly/) from [Lin Clark](https://code-cartoons.com/) about WebAssembly,

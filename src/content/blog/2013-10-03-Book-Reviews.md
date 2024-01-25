@@ -1,12 +1,12 @@
 ---
-tags: ["blog", "post"]
+tags: ["archive", "blog", "post"]
 title: Book Reviews of Things I've Recently Read
 date: 2013-10-03
 pubDate: "2013-10-03"
 
 description: ""
 heroImage: ""
-postType: "archive"
+
 ---
 
 Every so often, I read too many books in a short amount of time. I thought it would be beneficial for folks to hear me out and see what they think of the books I've read.

@@ -2,14 +2,12 @@
 title: "YDKJS Part 1: Up & Going"
 published: true
 draft: false
-categories: ["learning"]
-tags: [javascript]
-
+tags: ["learning", "programming", "javascript"]
 date: 2016-01-28
 description: ""
 pubDate: "2016-01-28"
 heroImage: ""
-postType: "learning"
+
 ---
 
 

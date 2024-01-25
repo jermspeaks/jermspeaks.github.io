@@ -1,13 +1,12 @@
 ---
-tags: ["blog", "post", "tumblr"]
-title: Older Women Thinking Twenty
 date: 2008-03-08
-pubDate: "2008-03-08"
-
 description: ""
-heroImage: ""
-postType: "archive"
 draft: true
+heroImage: ""
+
+pubDate: "2008-03-08"
+tags: ["archive", "blog", "post", "tumblr"]
+title: Older Women Thinking Twenty
 ---
 
 

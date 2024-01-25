@@ -3,10 +3,10 @@ date: 2023-05-06
 description: "Annual Review for Age 32"
 draft: false
 heroImage: ""
-postType: "blog"
+
 pubDate: "2023-05-06"
 title: "Year of Challenges (32)"
-tags: ["reflections"]
+tags: ["essay", "reflection"]
 ---
 
 When you start the year heartbroken and scared to start again, where do you go? In my mind, being 32 meant looking forward to getting married, starting a family, buying a home. Life had other plans for me. I took some time to reflect, and I started by selecting an annual theme. It was my "Year of Challenges", where the theme at first meant to start again and regain a sense of agency. It ended as a way to look at events outside your control.

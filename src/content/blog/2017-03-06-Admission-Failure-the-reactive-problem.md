@@ -4,9 +4,9 @@ date: 2017-03-06
 description: "Where I talk about my failure to stop reacting."
 pubDate: "2017-03-06"
 heroImage: ""
-postType: "newsletter"
+
 permalink: /:categories/season-two/:title.html
-tags: [season_2, letters]
+tags: ["newsletter", "season_2", "letters"]
 ---
 
 > Part of the series, "Admission Failure"

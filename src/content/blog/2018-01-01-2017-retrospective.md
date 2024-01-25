@@ -2,10 +2,10 @@
 title: 2017 Retrospective
 date: 2018-01-01
 pubDate: "2018-01-01"
-tags: ["blog", "post", "work", "annual"]
+tags: ["essay", "blog", "post", "work", "annual"]
 description: ""
 heroImage: ""
-postType: "blog"
+
 draft: false
 ---
 

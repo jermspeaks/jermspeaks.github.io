@@ -1,11 +1,11 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "archive", "blog", "post", "tumblr"]
 title: "Movie Review: Harry Potter and the Half Blood Prince"
 date: 2009-07-31
 pubDate: "2009-07-31"
 description: ""
 heroImage: ""
-postType: "archive"
+
 draft: true
 ---
 

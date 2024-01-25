@@ -2,13 +2,12 @@
 title: "Notes: Deno"
 published: false
 draft: false
-categories: ["learning"]
-tags: ["node", "deno"]
+tags: ["learning", "programming", "node", "deno"]
 date: 2022-03-01
 description: ""
 pubDate: "2022-03-01"
 heroImage: ""
-postType: "learning"
+
 ---
 
 I am following version 1.13.2: [Intro docs](https://deno.land/manual@v1.13.2/introduction) for Deno

@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post"]
+tags: ["essay", "blog", "post"]
 title: Returning Back to Recaps
 date: 2014-12-09
 pubDate: "2014-12-09"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 

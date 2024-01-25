@@ -1,21 +1,29 @@
 ---
-import { CollectionEntry, getCollection } from 'astro:content';
-import LogPost from '../../../layouts/LogPost.astro';
+import { getCollection } from "astro:content";
+import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
+import LogPost from "../../../layouts/LogPost.astro";
+import type { CollectionEntry } from "astro:content";
 
 export async function getStaticPaths() {
-	const posts = await getCollection('log');
-	return posts.map((post) => ({
-		params: { slug: post.slug },
-		props: post,
-	}));
+  const posts = await getCollection("log");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
 }
-type Props = CollectionEntry<'log'>;
+type Props = CollectionEntry<"log">;
 
 const post = Astro.props;
 const { Content } = await post.render();
 ---
 
-<LogPost {...post.data}>
-	<h1>{post.data.title}</h1>
-	<Content />
-</LogPost>
+<CollectionDetailsPage
+  section="Logs By Year"
+  sectionSlug="log"
+  title={post.data.title}
+>
+  <LogPost {...post.data}>
+    <!-- <h1>{post.data.title}</h1> -->
+    <Content />
+  </LogPost>
+</CollectionDetailsPage>

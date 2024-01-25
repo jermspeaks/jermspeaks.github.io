@@ -4,17 +4,13 @@ date: 2015-11-30
 description: ""
 pubDate: "2015-11-30"
 heroImage: ""
-postType: "newsletter"
-tags: [season_1, letters]
 
+tags: ["newsletter", "season_1", "letters"]
 ---
 
 Dear Reader,
 
 Let’s keep this a bit informal. I’m thankful for a year of newsletters, thankful for all of you reading, and thankful for all of the support y’all have given me. Without your support, I don’t know if I’d be writing essays every week. This weekly piece of writing is a way to bring together as well as synthesize what I’ve learned throughout the week. Now that it’s been a year, I wanted to look back at what I wrote and take a look at the journey.
-
-
-
 
 ## The Numbers
 

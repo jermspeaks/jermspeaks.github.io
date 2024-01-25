@@ -5,7 +5,7 @@ date: 2016-12-28
 pubDate: "2016-12-28"
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 After a year working with JSX syntax in React, I've learned a few things reviewing my code as well as other developer's code.

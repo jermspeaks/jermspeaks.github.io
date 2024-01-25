@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post", "programming"]
+tags: ["essay", "blog", "post", "programming"]
 title: Single Responsibility
 date: 2017-01-26
 pubDate: "2017-01-26"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 

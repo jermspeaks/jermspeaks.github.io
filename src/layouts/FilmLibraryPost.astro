@@ -10,38 +10,25 @@ import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"filmLibrary">["data"];
 
-const { title, heroImage, releaseYear, director, dateConsumed, heroImageAlt } =
+const { heroImage, releaseYear, director, dateConsumed, heroImageAlt } =
   Astro.props;
 ---
 
-<html lang="en">
-  <head>
-    <BaseHead title={title} description={SITE_DESCRIPTION} />
-  </head>
-
-  <BaseBody>
-    <Header />
-    <main>
-      <ProseArticle>
-        <h1>{title}</h1>
-        {
-          heroImage && (
-            <img alt={heroImageAlt} height={345} src={heroImage} width={230} />
-          )
-        }
-        <div class="py-4 border-b-2 border-solid border-gray-300 mt-2">
-          <div>
-            Released: {releaseYear}
-          </div>
-          <div>dir. {director}</div>
-          <div class="italic text-slate-600 dark:text-slate-300">
-            First Watched:
-            <FormattedDate date={dateConsumed} />
-          </div>
-        </div>
-        <slot />
-      </ProseArticle>
-    </main>
-    <Footer />
-  </BaseBody>
-</html>
+<ProseArticle>
+  {
+    heroImage && (
+      <img alt={heroImageAlt} height={345} src={heroImage} width={230} />
+    )
+  }
+  <div class="py-4 border-b-2 border-solid border-gray-300 mt-2">
+    <div>
+      Released: {releaseYear}
+    </div>
+    <div>dir. {director}</div>
+    <div class="italic text-slate-600 dark:text-slate-300">
+      First Watched:
+      <FormattedDate date={dateConsumed} />
+    </div>
+  </div>
+  <slot />
+</ProseArticle>

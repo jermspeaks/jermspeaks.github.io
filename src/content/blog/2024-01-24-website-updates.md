@@ -4,10 +4,10 @@ description: "Small website updates - Jan 2024"
 draft: false
 heroImage: "https://images.unsplash.com/photo-1536849460588-696219a9e98d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1431&q=80"
 heroImageAlt: "Credits: Unsplash, Steve Johnson"
-postType: "blog"
+
 pubDate: "2024-01-24"
 title: "Craft By Zen Catch-up, Jan 2024"
-tags: ["review", "daily", "habits"]
+tags: ["essay", "reflection", "review"]
 ---
 
 ## New Year, Combined Pages

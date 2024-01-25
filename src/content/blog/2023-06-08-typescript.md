@@ -4,10 +4,10 @@ description: "Deep dive with Typescript and its features. Some notes and example
 draft: false
 heroImage: "https://www.typescriptlang.org/images/branding/logo-grouping.svg"
 heroImageAlt: "Typescript Logo, credits to Microsoft"
-postType: "learning"
+
 pubDate: "2023-06-08"
+tags: ["learning", "Typescript", "programming"]
 title: "Typescript"
-tags: ["Typescript", "Programming"]
 ---
 
 ## Introduction

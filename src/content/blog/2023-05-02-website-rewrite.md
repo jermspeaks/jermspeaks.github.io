@@ -3,9 +3,10 @@ date: 2023-05-02
 description: "Migrating from Jekyll to Astro"
 draft: false
 heroImage: ""
-postType: "blog"
+
 pubDate: "2023-05-02"
 title: "Website Re-write 2023"
+tags: ["essay", "programming", "reflection"]
 ---
 
 I decided to re-write my personal website back in 2017, when I was much more active in writing on my blog. However, that changed quickly when I abandoned making updates in 2018 when I started my job at [Clear Labs](https://clearlabs.com). There was no longer any time to write as we were working on their [Clear Safety product](https://www.clearlabs.com/clear-safety/).

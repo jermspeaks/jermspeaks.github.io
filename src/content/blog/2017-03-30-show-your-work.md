@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post", "work"]
+tags: ["essay", "blog", "post", "work"]
 title: Show Your Work - A Manifesto
 date: 2017-03-30
 pubDate: "2017-03-30"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 draft: false
 ---
 
