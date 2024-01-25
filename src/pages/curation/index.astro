@@ -5,7 +5,7 @@ import CurationPage from "../../layouts/CurationPage.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 import CurationItem from "../../components/CurationItem.astro";
 
-const TOTAL_NUMBER_OF_ITEMS = 5;
+const TOTAL_NUMBER_OF_ITEMS = 6;
 const bookLibrary = (await getCollection("book"))
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
   .map((item) => ({
@@ -35,7 +35,7 @@ const lindyLibrary = (await getCollection("lindy"))
     },
   }));
 
-// Combines all of the collections and finds the latest 5 items
+// Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_ITEMS` items
 const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
   .slice(0, TOTAL_NUMBER_OF_ITEMS);
@@ -70,21 +70,23 @@ const curations = (await getCollection("curation")).sort((a, b) =>
     <ul class="grid grid-cols-1 lg:grid-cols-2 gap-4 list-none p-0">
       {
         combination.map((item) => (
-          <li class="flex flex-shrink-0 flex-grow-0 flex-row flex-wrap flex-[100%] md:flex-[48%] mb-6 md:mb-0 rounded-sm box-border dark:text-white">
-            <a
-              class="flex-shrink-0 flex-grow-0 flex-[200px] visited:text-[#f25042]"
-              href={`/curation/${item.data.type}/${item.slug}`}
-            >
-              <img
-                src={item.data.heroImage}
-                class="aspect-auto w-full"
-                alt={item.data.heroImageAlt}
-              />
-            </a>
-            <div class="md:py-0 md:px-4 mt-2 md:mt-0">
+          <li class="flex flex-col sm:flex-row flex-[100%] sm:flex-[48%] gap-4 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
+            <div class="flex-shrink-0 flex-grow-0 flex-initial sm:w-32">
+              <a
+                class="visited:text-[#f25042]"
+                href={`/curation/${item.data.type}/${item.slug}`}
+              >
+                <img
+                  src={item.data.heroImage}
+                  class="aspect-auto w-full sm:w-32"
+                  alt={item.data.heroImageAlt}
+                />
+              </a>
+            </div>
+            <div class="md:py-0 md:px-0 mt-2 md:mt-0">
               <div class="font-bold mb-2">
                 <a
-                  class="hover:text-purple-500 visited:text-[#f25042]"
+                  class="hover:underline hover:text-purple-500 visited:text-[#f25042]"
                   href={`/curation/${item.data.type}/${item.slug}`}
                 >
                   {item.data.title}

@@ -19,7 +19,7 @@ const lindyLibrary = (await getCollection("lindy")).sort((a, b) =>
       {
         lindyLibrary.map((lindyItem) => (
           <li class="flex rounded-sm box-border p-4 bg-slate-100 dark:bg-slate-800 dark:text-white">
-            <a href={`/library/lindy/${lindyItem.slug}`} title={lindyItem.data.title}>
+            <a href={`/curation/lindy/${lindyItem.slug}`} title={lindyItem.data.title}>
               {lindyItem.data.title}
             </a>
           </li>

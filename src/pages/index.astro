@@ -90,14 +90,14 @@ const latestFilms = (await getCollection("filmLibrary"))
       <div class="flex flex-col max-w-[65ch] lg:max-w-[80ch] mx-auto">
         <div>
           <h3 class="text-3xl font-medium underline">
-            <a href="/library/books">Latest Books</a>
+            <a href="/curation/books">Latest Books</a>
           </h3>
           <ul class="flex flex-wrap list-none p-0 gap-2 mt-8 mb-8">
             {
               latestBooks.map((book) => (
                 <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
                   <a
-                    href={`/library/books/${book.slug}`}
+                    href={`/curation/books/${book.slug}`}
                     title={book.data.title}
                   >
                     <img
@@ -114,7 +114,7 @@ const latestFilms = (await getCollection("filmLibrary"))
         </div>
         <div>
           <h3 class="text-3xl font-medium underline">
-            <a href="/library/films">Latest Films</a>
+            <a href="/curation/films">Latest Films</a>
           </h3>
           <ul class="flex flex-wrap list-none p-0 gap-2 mt-8 mb-8">
             {
@@ -122,7 +122,7 @@ const latestFilms = (await getCollection("filmLibrary"))
                 <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
                   {film.data.heroImage && (
                     <a
-                      href={`/library/films/${film.slug}`}
+                      href={`/curation/films/${film.slug}`}
                       title={film.data.title}
                     >
                       <img

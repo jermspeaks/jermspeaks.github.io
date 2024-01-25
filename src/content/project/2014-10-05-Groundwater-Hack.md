@@ -9,6 +9,7 @@ description: Underwater groundwater device that allows you to determine
 createdDate: "2014-10-05"
 project_link: https://github.com/groundwaterhack/groundwaterhack.github.io
 # image: /images/flitr.jpg
+# imageAlt: Screenshot of Flitr app
 # url: /projects/ng-pacman
 ---
 

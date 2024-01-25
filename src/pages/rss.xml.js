@@ -14,11 +14,11 @@ export async function get(context) {
   }));
   const bookCollection = books.map((book) => ({
     ...book.data,
-    link: `/library/books/${book.slug}/`,
+    link: `/curation/books/${book.slug}/`,
   }));
   const filmCollection = films.map((film) => ({
     ...film.data,
-    link: `/library/films/${film.slug}/`,
+    link: `/curation/films/${film.slug}/`,
   }));
   const items = [...postCollection, ...bookCollection, ...filmCollection].sort(
     (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()
