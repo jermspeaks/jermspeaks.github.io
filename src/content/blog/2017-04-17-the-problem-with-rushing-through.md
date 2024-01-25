@@ -4,9 +4,9 @@ date: 2017-04-17
 description: "Where I talk about my failure to slow down."
 pubDate: "2017-04-17"
 heroImage: ""
-postType: "newsletter"
+
 permalink: /:categories/season-two/:title.html
-tags: [season_2, letters]
+tags: ["newsletter", "season_2", "letters"]
 ---
 
 ![Jear bear letters admission failure 8](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/94ff2d22-e9e3-40a7-958b-ece4b3921ae6.png)

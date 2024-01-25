@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post"]
+tags: ["essay", "programming", "blog", "post"]
 title: Levenshtein Distance Problem
 date: 2014-09-28
 pubDate: "2014-09-28"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 

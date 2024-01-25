@@ -1,11 +1,11 @@
 ---
-tags: ["medium", "post"]
+tags: ["essay", "medium", "post"]
 title: Creation of My Personal Philosophy
 date: 2014-04-21
 pubDate: "2014-04-21"
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 ## What is my personal philosophy?

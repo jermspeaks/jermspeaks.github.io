@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post"]
-title: On the Youth
 date: 2013-02-20
-pubDate: "2013-02-20"
-
 description: ""
 heroImage: ""
-postType: "archive"
+
+pubDate: "2013-02-20"
+tags: ["archive", "blog", "post"]
+title: On the Youth
 ---
 
 

@@ -2,13 +2,12 @@
 title: React Unit Testing Notes
 published: false
 draft: false
-categories: ["learning"]
-tags: ["react", "testing"]
+tags: ["learning", "react", "testing"]
 date: 2019-08-19
 description: ""
 pubDate: "2019-08-19"
 heroImage: ""
-postType: "learning"
+
 ---
 
 These notes are a guide I've written throughout coding the initial part of the application. The note starts out with fundamentals and continues with specific testing edge cases.

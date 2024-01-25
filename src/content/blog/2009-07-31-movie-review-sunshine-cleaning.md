@@ -1,16 +1,13 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "blog", "post", "tumblr"]
 title: "Movie Review: Sunshine Cleaning"
 date: 2009-07-31
 pubDate: "2009-07-31"
-
 description: ""
 heroImage: ""
-postType: "archive"
+
 draft: true
 ---
-
-
 
 ![Sunshine Cleaning movie poster](https://upload.wikimedia.org/wikipedia/en/a/a5/Sunshine_cleaning.jpg)
 

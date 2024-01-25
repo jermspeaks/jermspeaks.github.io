@@ -4,7 +4,12 @@ import WritingListItem from "../../components/WritingListItem.astro";
 import WritingLayout from "../../layouts/Writing.astro";
 
 const posts = (await getCollection("blog"))
-  .filter((post) => !post.data.draft && post.data.postType == "archive")
+  .filter(
+    (post) =>
+      !post.data.draft &&
+      Array.isArray(post.data.tags) &&
+      post.data.tags.includes("archive")
+  )
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 

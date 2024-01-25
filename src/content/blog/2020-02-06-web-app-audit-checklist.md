@@ -1,14 +1,13 @@
 ---
-title: Web App Audit Checklist
-published: false
-draft: false
-categories: ["learning"]
-tags: ["audit", "checklist"]
 date: 2020-02-06
 description: "This checklist is a starting point for web app audits. It's a living document, and will be updated as we learn more."
-pubDate: "2020-02-06"
+draft: false
 heroImage: ""
-postType: "learning"
+
+pubDate: "2020-02-06"
+published: false
+tags: ["learning", "audit", "checklist"]
+title: Web App Audit Checklist
 ---
 
 This checklist is a starting point for web app audits. It's a living document, and will be updated as we learn more.

@@ -1,12 +1,12 @@
 ---
-tags: ["blog", "post"]
+tags: ["essay", "blog", "post"]
 title: Facts of the Present and Past
 date: 2014-11-24
 pubDate: "2014-11-24"
 
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 Don’t be so hung up on the past. At this present moment, do you find yourself asking if you should’ve done something else, or could’ve been making yourself more productive, or you would’ve done that nagging task if you just reminded yourself at the time? Please stop thinking. Don’t over-stress yourself on the banalities of those tiny decisions because they don’t make a difference. Instead, close your eyes and think of something blank. Our past mistakes aren’t something that can be over-written, edited with a few clicks on your profile page. They already happened, and you can’t reverse time and fix those mistakes. What you can do is think of what you can do now and then do it. There’s nothing better than knowing you can make a decision now that will impact the future.

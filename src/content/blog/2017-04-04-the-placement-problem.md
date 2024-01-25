@@ -4,9 +4,9 @@ date: 2017-04-04
 description: "Where I talk about my failure to find my belongings."
 pubDate: "2017-04-04"
 heroImage: ""
-postType: "newsletter"
+
 permalink: /:categories/season-two/:title.html
-tags: [season_2, letters]
+tags: ["newsletter", "season_2", "letters"]
 ---
 
 ![Jear bear letters admission failure 7](https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/f60b85ea-98ea-469f-9942-d15b84fd12f7.png)

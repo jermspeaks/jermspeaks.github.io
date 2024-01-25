@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post", "programming"]
+tags: ["essay", "blog", "post", "programming"]
 title: Broken Windows - Software Entropy Revisited
 date: 2016-12-29
 pubDate: "2016-12-29"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 draft: true
 ---
 

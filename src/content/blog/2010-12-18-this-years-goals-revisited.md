@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post", "tumblr"]
-title: "This Year's Goals Revisited"
 date: 2010-12-18
-pubDate: "2010-12-18"
-
 description: ""
 heroImage: ""
-postType: "archive"
+
+pubDate: "2010-12-18"
+tags: ["archive", "blog", "post", "tumblr"]
+title: "This Year's Goals Revisited"
 ---
 
 

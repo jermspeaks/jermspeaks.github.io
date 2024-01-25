@@ -1,15 +1,14 @@
 ---
-title: Styled Components
-published: false
-draft: false
 categories: ["learning"]
-tags: ["react", "styled components"]
-
 date: 2018-05-26
 description: ""
-pubDate: "2018-05-26"
+draft: false
 heroImage: ""
-postType: "learning"
+
+pubDate: "2018-05-26"
+published: false
+tags: ["learning", "programming", "react", "styled components"]
+title: Styled Components
 ---
 
 At my new job, because we're building the project from the ground up. The team decided to move forward with a css-in-js approach, which perked my ears. First I was skeptic. How could this remove my `css` files? What about psuedoelements and complex selectors.

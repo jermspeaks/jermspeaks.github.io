@@ -4,10 +4,10 @@ description: "A dive into my personal notes on SolidJS, as I was going through t
 draft: false
 heroImage: "https://www.solidjs.com/assets/logo-123b04bc.svg"
 heroImageAlt: "SolidJS Logo"
-postType: "learning"
+
 pubDate: "2023-06-28"
 title: "SolidJS"
-tags: ["Typescript", "Programming"]
+tags: ["learning", "Typescript", "programming"]
 ---
 
 > SolidJS is a Javascript framework for building fast, declarative UIs on the web. It shares many ideas with [React](/blog/2019-11-21-react/), but does not use the virtual DOM to deliver a more performant and pragmatic developer experience.

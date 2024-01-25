@@ -4,9 +4,9 @@ date: 2018-07-07
 description: "Raina Evans"
 pubDate: "2018-07-07"
 heroImage: ""
-postType: "newsletter"
+
 permalink: /:categories/season-three/:title.html
-tags: [season_3, letters]
+tags: ["newsletter", "season_3", "letters"]
 ---
 
 ![7 Degrees of Strangers Letterhead](/images/7_Degrees_Of_Strangers_Letterhead.png)

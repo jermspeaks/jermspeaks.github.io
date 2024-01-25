@@ -12,7 +12,6 @@ const blog = defineCollection({
     draft: z.boolean().optional(),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().optional(),
-    postType: z.string(),
     // Transform string to Date object
     pubDate: z
       .string()
@@ -34,7 +33,6 @@ const log = defineCollection({
     description: z.string(),
     draft: z.boolean().optional(),
     heroImage: z.string().optional(),
-    postType: z.string(),
     // Transform string to Date object
     pubDate: z
       .string()

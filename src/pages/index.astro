@@ -7,9 +7,10 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import ProjectListItem from "../components/ProjectListItem.astro";
 import ProseArticle from "../components/ProseArticle.astro";
+import FormattedDate from "../components/FormattedDate.astro";
 import WritingListItem from "../components/WritingListItem.astro";
 
-const MAX_ITEMS = 5;
+const MAX_ITEMS = 4;
 
 const latestPosts = (await getCollection("blog"))
   .filter((post) => !post.data.draft)
@@ -18,15 +19,44 @@ const latestPosts = (await getCollection("blog"))
 const lastProjects = (await getCollection("project"))
   .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
   .slice(0, MAX_ITEMS);
-const latestBooks = (await getCollection("book"))
+
+const TOTAL_NUMBER_OF_CURATED_ITEMS = 6;
+const bookLibrary = (await getCollection("book"))
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
-  .slice(0, MAX_ITEMS);
-const latestFilms = (await getCollection("filmLibrary"))
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "books",
+    },
+  }));
+const filmLibrary = (await getCollection("filmLibrary"))
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
-  .slice(0, MAX_ITEMS);
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "films",
+    },
+  }));
+// const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
+const lindyLibrary = (await getCollection("lindy"))
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "lindy",
+    },
+  }));
+
+// Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_CURATED_ITEMS` items
+const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
+  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .slice(0, TOTAL_NUMBER_OF_CURATED_ITEMS);
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
@@ -50,89 +80,91 @@ const latestFilms = (await getCollection("filmLibrary"))
 
       <hr class="mt-10 mb-10" />
 
-      <div class="flex flex-col md:flex-row">
-        <div class="flex-[50%]">
-          <ProseArticle>
-            <h2>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div>
+          <ProseArticle class="mx-0 mb-8">
+            <h3 class="text-3xl font-medium underline">
               <a
                 href="/blog"
                 class="hover:text-slate-800 dark:hover:text-slate-300"
-                >Recent Writing</a
+                >✍🏽 What I Wrote</a
               >
-            </h2>
-            <ul>
-              {latestPosts.map((post) => <WritingListItem post={post} />)}
-            </ul>
+            </h3>
           </ProseArticle>
+          <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
+            {latestPosts.map((post) => <WritingListItem post={post} />)}
+          </ul>
         </div>
-        <div class="flex-[50%]">
-          <ProseArticle>
-            <h2>
+        <div>
+          <ProseArticle class="mx-0 mb-8">
+            <h3 class="text-3xl font-medium underline">
               <a
                 href="/project"
                 class="hover:text-slate-800 dark:hover:text-slate-300"
-                >Recent Projects</a
+                >🚢 What I Shipped</a
               >
-            </h2>
-            <ul>
-              {
-                lastProjects.map((project) => (
-                  <ProjectListItem project={project} />
-                ))
-              }
-            </ul>
+            </h3>
           </ProseArticle>
-        </div>
-      </div>
-
-      <hr class="mt-5 mb-5" />
-
-      <div class="flex flex-col max-w-[65ch] lg:max-w-[80ch] mx-auto">
-        <div>
-          <h3 class="text-3xl font-medium underline">
-            <a href="/curation/books">Latest Books</a>
-          </h3>
-          <ul class="flex flex-wrap list-none p-0 gap-2 mt-8 mb-8">
+          <ul class="list-none sm:p-0 grid grid-cols-1 lg:grid-cols-2 gap-4">
             {
-              latestBooks.map((book) => (
-                <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
-                  <a
-                    href={`/curation/books/${book.slug}`}
-                    title={book.data.title}
-                  >
-                    <img
-                      alt={book.data.heroImageAlt}
-                      height="200"
-                      src={book.data.heroImage}
-                      width="133"
-                    />
-                  </a>
-                </li>
+              lastProjects.map((project) => (
+                <ProjectListItem project={project} />
               ))
             }
           </ul>
         </div>
-        <div>
-          <h3 class="text-3xl font-medium underline">
-            <a href="/curation/films">Latest Films</a>
-          </h3>
-          <ul class="flex flex-wrap list-none p-0 gap-2 mt-8 mb-8">
+        <div class="col-span-1 md:col-span-2">
+          <ProseArticle class="mx-0 mb-8">
+            <h3 class="text-3xl font-medium underline">
+              <a href="/curation">🎨 What I've Curated</a>
+            </h3>
+          </ProseArticle>
+          <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none p-0">
             {
-              latestFilms.map((film) => (
-                <li class="flex flex-shrink-0 flex-grow-0 flex-col rounded-sm box-border dark:text-white">
-                  {film.data.heroImage && (
+              combination.map((item) => (
+                <li class="grid grid-cols-8 gap-2 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
+                  <div class="col-span-3 sm:col-span-2">
                     <a
-                      href={`/curation/films/${film.slug}`}
-                      title={film.data.title}
+                      class="visited:text-[#f25042]"
+                      href={`/curation/${item.data.type}/${item.slug}`}
                     >
                       <img
-                        width="133"
-                        height="200"
-                        src={film.data.heroImage}
-                        alt={film.data.heroImageAlt}
+                        src={item.data.heroImage}
+                        class="aspect-auto w-full"
+                        alt={item.data.heroImageAlt}
                       />
                     </a>
-                  )}
+                  </div>
+                  <div class="col-span-5 sm:col-span-6 md:py-0 md:px-0 md:mt-0">
+                    <div class="font-bold mb-2">
+                      <a
+                        class="hover:underline hover:text-purple-500 visited:text-[#f25042]"
+                        href={`/curation/${item.data.type}/${item.slug}`}
+                      >
+                        {item.data.title}
+                      </a>
+                    </div>
+                    <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700 font-thin">
+                      {item.data.type === "books" && (
+                        <>Author:&nbsp;{item.data.bookAuthor}</>
+                      )}
+                      {item.data.type === "films" && (
+                        <>Dir:&nbsp;{item.data.director}</>
+                      )}
+                      {!["books", "films"].includes(item.data.type) && (
+                        <>{item.data.author}</>
+                      )}
+                    </div>
+                    <FormattedDate
+                      class="italic text-slate-600 dark:text-slate-300"
+                      date={item.data.dateConsumed}
+                    >
+                      <span slot="prepend">First consumed:&nbsp;</span>
+                    </FormattedDate>
+                    <div class="mt-2 dark:text-slate-100">
+                      {item.data.blurb}
+                    </div>
+                  </div>
                 </li>
               ))
             }
@@ -152,6 +184,17 @@ const latestFilms = (await getCollection("filmLibrary"))
         </h3>
 
         <p>
+          🚧 Will be back shortly. <a
+            href="https://mailchi.mp/85e4c601669a/tinylettersunsetcurrent-221169"
+            target="_blank"
+            >TinyLetter is going to be out of service in Feb 2024</a
+          >, so I'm looking for a new home for my newsletter. Stay tuned!
+        </p>
+        <p>
+          In the meantime, continue to subscribe, and I will forward the mailing
+          list to the new service.
+        </p>
+        <!-- <p>
           A weekly, longform essay that mainly focuses on lessons I've learned.
           I try to write something I find meaningful, whether it's exposing your
           ignorance, staying true to yourself or being resilient. In a world of
@@ -160,7 +203,7 @@ const latestFilms = (await getCollection("filmLibrary"))
           thinking. These letters are to slow down, lean in and really try to
           form more coherent thoughts than writing that instant gratification
           post on my choice of social networking site.
-        </p>
+        </p> -->
 
         <form
           action="https://tinyletter.com/jeremywong"
@@ -170,11 +213,11 @@ const latestFilms = (await getCollection("filmLibrary"))
           target="popupwindow"
         >
           <div>
-            <label for="tlemail">
+            <!-- <label for="tlemail">
               If what you read resonates with you, please <strong
                 >subscribe</strong
               >!
-            </label>
+            </label> -->
           </div>
           <div class="flex flex-col md:flex-row gap-4">
             <div>

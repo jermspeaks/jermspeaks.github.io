@@ -1,12 +1,12 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "blog", "post", "tumblr"]
 title: "Review: Hooktheory"
 date: 2012-06-27
 pubDate: "2012-06-27"
 
 description: ""
 heroImage: ""
-postType: "archive"
+
 ---
 
 [Hooktheory](https://www.hooktheory.com/)

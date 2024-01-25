@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post"]
+tags: ["essay", "blog", "post"]
 title: 'The DBC Experience: The End'
 date: 2014-08-27
 pubDate: "2014-08-27"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 

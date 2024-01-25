@@ -3,9 +3,9 @@ title: The Bystander Problem
 date: 2017-02-20
 pubDate: "2017-02-20"
 heroImage: ""
-postType: "newsletter"
+
 permalink: /:categories/season-two/:title.html
-tags: [season_2, letters]
+tags: ["newsletter", "season_2", "letters"]
 description: "Where I talk about my failure to speak up."
 ---
 

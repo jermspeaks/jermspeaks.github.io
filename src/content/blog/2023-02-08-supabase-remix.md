@@ -2,13 +2,12 @@
 title: "Build a Realtime Chat App with Remix and Supabase"
 published: false
 draft: false
-categories: ["learning"]
-tags: ["supabase", "remix", "react"]
+tags: ["learning", "supabase", "remix", "react"]
 date: 2023-02-08
 description: "From an egghead course, notes about building a realtime chat app with remix and supabase"
 pubDate: "2023-02-08"
 heroImage: ""
-postType: "learning"
+
 ---
 
 The following are notes from an Egghead [course](https://egghead.io/courses/build-a-realtime-chat-app-with-remix-and-supabase-d36e2618?_cio_id=89fb05009d5c9e5c&utm_campaign=Round%202%20-%20Build%20a%20realtime%20chat%20app%20with%20Remix%20and%20Supabase&utm_content=Build%20a%20realtime%20chat%20app%20with%20Remix%20and%20Supabase&utm_medium=email_action&utm_source=customer.io) I took.

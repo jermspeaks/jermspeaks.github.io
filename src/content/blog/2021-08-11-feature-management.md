@@ -1,14 +1,13 @@
 ---
-title: Feature Management
-published: false
-draft: false
-categories: ["learning"]
-tags: ["react"]
 date: 2021-08-11
 description: ""
-pubDate: "2021-08-11"
+draft: false
 heroImage: ""
-postType: "learning"
+
+pubDate: "2021-08-11"
+published: false
+tags: ["learning", "react"]
+title: Feature Management
 ---
 
 ## Introduction

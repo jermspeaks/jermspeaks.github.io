@@ -4,8 +4,8 @@ date: 2015-06-15
 description: ""
 pubDate: "2015-06-15"
 heroImage: ""
-postType: "newsletter"
-tags: [season_1, letters]
+
+tags: ["newsletter", "season_1", "letters"]
 permalink: /:categories/:title-1.html
 ---
 

@@ -1,14 +1,12 @@
 ---
-categories: ["learning"]
 date: 2017-07-15
 description: ""
 draft: false
 heroImage: ""
 
-postType: "learning"
 pubDate: "2017-07-15"
-tags: ["bash", "shell"]
 published: true
+tags: ["learning", "programming", "bash", "shell"]
 title: Brace Expansion
 ---
 

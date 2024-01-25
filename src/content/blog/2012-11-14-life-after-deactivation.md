@@ -1,12 +1,12 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "blog", "post", "tumblr"]
 title: Life after Deactivation
 date: 2010-11-14
 pubDate: "2010-11-14"
 
 description: ""
 heroImage: ""
-postType: "archive"
+
 ---
 
 

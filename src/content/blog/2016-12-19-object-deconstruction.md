@@ -1,12 +1,11 @@
 ---
-tags: ["blog", "post"]
+tags: ["essay", "blog", "post", "programming", "learning"]
 title: Object Deconstruction in Javascript
 date: 2016-12-19
 pubDate: "2016-12-19"
-
 description: ""
 heroImage: ""
-postType: "blog"
+
 ---
 
 

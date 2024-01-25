@@ -1,14 +1,14 @@
 ---
-title: Browsers - An Introduction
-published: false
-draft: false
 categories: ["learning"]
-tags: ["audit", "checklist"]
 date: 2020-08-31
 description: "A short introductary guide to Browsers, written for incoming interns at Clear Labs"
-pubDate: "2020-08-31"
+draft: false
 heroImage: ""
-postType: "learning"
+
+pubDate: "2020-08-31"
+published: false
+tags: ["learning", "programming", "browsers"]
+title: Browsers - An Introduction
 ---
 
 The following was written for interns starting out with browsers at Clear Labs.

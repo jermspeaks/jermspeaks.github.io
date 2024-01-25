@@ -1,16 +1,12 @@
 ---
-tags: ["blog", "post", "tumblr"]
-title: On Being Wrong
 date: 2012-05-06
-pubDate: "2012-05-06"
-
 description: ""
 heroImage: ""
-postType: "archive"
+
+pubDate: "2012-05-06"
+tags: ["archive", "blog", "post", "tumblr"]
+title: On Being Wrong
 ---
-
-
-
 
 ## The Error of Arrogance
 

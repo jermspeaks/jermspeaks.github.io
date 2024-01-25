@@ -3,9 +3,9 @@ title: The Negligence Problem
 date: 2017-02-07
 pubDate: "2017-02-07"
 heroImage: ""
-postType: "newsletter"
+
 permalink: /:categories/season-two/:title.html
-tags: [season_2, letters]
+tags: ["newsletter", "season_2", "letters"]
 description: "Where I talk about my failure to act."
 ---
 

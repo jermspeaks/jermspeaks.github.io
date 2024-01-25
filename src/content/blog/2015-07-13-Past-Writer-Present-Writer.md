@@ -4,9 +4,8 @@ date: 2015-07-13
 description: ""
 pubDate: "2015-07-13"
 heroImage: ""
-postType: "newsletter"
-tags: [season_1, letters]
 
+tags: ["newsletter", "season_1", "letters"]
 ---
 
 

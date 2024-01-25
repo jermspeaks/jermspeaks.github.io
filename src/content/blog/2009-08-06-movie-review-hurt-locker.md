@@ -1,13 +1,12 @@
 ---
-tags: ["blog", "post", "tumblr"]
-title: "Movie Review: The Hurt Locker"
 date: 2009-08-06
-pubDate: "2009-08-06"
-
 description: ""
-heroImage: ""
-postType: "archive"
 draft: true
+heroImage: ""
+
+pubDate: "2009-08-06"
+tags: ["archive", "blog", "post", "tumblr"]
+title: "Movie Review: The Hurt Locker"
 ---
 
 

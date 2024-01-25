@@ -1,5 +1,5 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "post", "tumblr"]
 title: America - We Should Just Cut the Pie
 date: 2008-01-20
 pubDate: "2008-01-20"
@@ -7,7 +7,7 @@ pubDate: "2008-01-20"
 draft: true
 description: ""
 heroImage: ""
-postType: "archive"
+
 ---
 
 Here’s an interesting thought. What if America were to be split into a few sections rather than be a whole country. Who would this benefit?

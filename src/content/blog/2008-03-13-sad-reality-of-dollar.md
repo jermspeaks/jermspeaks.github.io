@@ -1,12 +1,12 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "blog", "post", "tumblr"]
 title: The Sad Reality of the Volatile Dollar
 date: 2008-03-13
 pubDate: "2008-03-13"
 
 description: ""
 heroImage: ""
-postType: "archive"
+
 draft: true
 ---
 

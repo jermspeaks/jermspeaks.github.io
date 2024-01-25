@@ -3,9 +3,10 @@ date: 2022-12-08
 description: 'Setting up a new mac - 2022 Apple Macbook Pro 13"'
 draft: false
 heroImage: ""
-postType: "blog"
+
 pubDate: "2022-12-08"
 title: "2022 New Mac Setup"
+tags: ["essay"]
 ---
 
 I got a new Macbook at work, 13" w/ M2 Chip, and I thought it would be great to spend the day setting it up. The following is a document I had continued to write as I was going through every step of the way. This might inspire you to do the same, the next Macbook you start from fresh.

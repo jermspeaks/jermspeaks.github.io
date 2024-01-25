@@ -1,11 +1,11 @@
 ---
-tags: ["blog", "post", "tumblr"]
+tags: ["archive", "blog", "post", "tumblr"]
 title: "Movie Review: Brüno"
 date: 2009-07-31
 pubDate: "2009-07-31"
 description: ""
 heroImage: ""
-postType: "archive"
+
 draft: true
 ---
 

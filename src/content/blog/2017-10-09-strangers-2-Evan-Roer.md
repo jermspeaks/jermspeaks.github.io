@@ -3,10 +3,10 @@ title: "Seven Degrees of Strangers: Second Separation"
 date: 2017-10-09
 description: "Evan Roer"
 pubDate: "2017-10-09"
-heroImage: ""
-postType: "newsletter"
+heroImage: "/images/7_Degrees_Of_Strangers_Letterhead.png"
+
 permalink: /:categories/season-three/:title.html
-tags: [season_3, letters]
+tags: ["newsletter", "season_3", "letters"]
 ---
 
 ![7 Degrees of Strangers Letterhead](/images/7_Degrees_Of_Strangers_Letterhead.png)
