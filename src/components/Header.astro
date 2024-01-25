@@ -12,12 +12,9 @@ import HeaderLink from "./HeaderLink.astro";
   </h2>
   <nav class="hidden md:flex md:gap-3 md:items-center md:mb-8 dark:text-white">
     <AlgoliaSearch />
-    <!-- <HeaderLink href="/">Home</HeaderLink> -->
     <HeaderLink href="/blog">Writing</HeaderLink>
     <HeaderLink href="/project">Projects</HeaderLink>
-    <!-- <HeaderLink href="/library">Library</HeaderLink> -->
     <HeaderLink href="/curation">Curation</HeaderLink>
-    <HeaderLink href="/log">Logs</HeaderLink>
     <HeaderLink href="/about">About</HeaderLink>
   </nav>
   <div class="md:hidden">
@@ -56,12 +53,11 @@ import HeaderLink from "./HeaderLink.astro";
         >
       </button>
       <nav
-        class="flex flex-col gap-8 items-center w-full mt-8 text-2xl dark:bg-slate-800 dark:text-white"
+        class="flex flex-col gap-8 items-center w-full mt-8 text-2xl dark:bg-slate-900 dark:text-white"
       >
         <HeaderLink href="/blog">Writing</HeaderLink>
         <HeaderLink href="/project">Projects</HeaderLink>
-        <HeaderLink href="/library">Library</HeaderLink>
-        <HeaderLink href="/log">Logs</HeaderLink>
+        <HeaderLink href="/curation">Curation</HeaderLink>
         <HeaderLink href="/about">About</HeaderLink>
       </nav>
     </div>

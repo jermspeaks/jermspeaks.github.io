@@ -45,7 +45,7 @@ While the family emergencies occupied my mind for a good portion of the year, ma
 - We checked out our first antiquarian fair
 - I got to catch up with old friends who I haven't talked to in years
 - We checked out the Dandelion Chocolate Factory tour
-- We got to go to 2 musicals and an opera (see more in my [logs](/log/2023))
+- We got to go to 2 musicals and an opera (see more in my [logs](/curation/log/2023))
 - We locked in our wedding venue
 - I attended [Nervous System Mastery (NSM)](https://nsmastery.com/) (highly recommend)
 - I got to visit my in-laws twice this year in Florida
