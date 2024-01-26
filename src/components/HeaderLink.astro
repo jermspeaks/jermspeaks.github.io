@@ -13,6 +13,6 @@ const isActive = href === pathname || href === pathname.replace(/^(\/\w*)\/?.*/,
   href={href}
   class:list={isActive
     ? [className, "inline-block", "font-extrabold", "underline"]
-    : [className, "inline-block", "no-underline", "hover:underline"]}
+    : [className, "inline-block", "no-underline", "hover:underline", "hover:text-purple-500"]}
   {...props}><slot /></a
 >

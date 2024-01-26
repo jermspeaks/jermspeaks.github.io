@@ -15,7 +15,7 @@ const filmLibrary = (await getCollection("filmLibrary")).sort(
         filmLibrary.map((film) => (
           <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
             <a
-              class="visited:text-[#f25042]"
+              class="visited:text-amber-600"
               href={`/curation/films/${film.slug}`}
             >
               <img
