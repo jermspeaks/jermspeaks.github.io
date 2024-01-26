@@ -7,6 +7,7 @@ link: "https://amzn.to/3LjTEs9"
 pubDate: "2023-05-15"
 review: ""
 title: "Four Thousand Weeks: Time Management for Mortals"
+blurb: "A challenge to conventional time management advice, highlighting the finite nature of life and urging readers to prioritize meaningful experiences. The book emphasizes intentional living, encouraging a shift from constant busyness to a purpose-driven approach."
 ---
 
 ## Highlights

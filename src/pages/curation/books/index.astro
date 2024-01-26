@@ -10,27 +10,33 @@ const bookLibrary = (await getCollection("book")).sort(
 
 <CurationDetailsPage title="Library">
   <section>
-    <ul class="flex flex-wrap list-none mt-8 p-0 gap-4">
+    <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
       {
         bookLibrary.map((book) => (
-          <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
-            <a
-              class="visited:text-amber-600"
-              href={`/curation/books/${book.slug}`}
-            >
-              <img
-                alt={book.data.heroImageAlt}
-                src={book.data.heroImage}
-                width="200"
-              />
-            </a>
-            <div class="py-3 px-4 border-t-2 border-solid border-gray-100 mt-4">
-              <div>{book.data.title}</div>
-              <div>{book.data.bookAuthor}</div>
-              <FormattedDate
-                class="italic text-slate-600 dark:text-slate-300"
-                date={book.data.dateConsumed}
-              />
+          <li class="flex flex-col sm:flex-row flex-[100%] sm:flex-[48%] gap-4 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
+            <div class="flex-shrink-0 flex-grow-0 flex-initial sm:w-32">
+              <a
+                class="visited:text-amber-600 hover:grayscale"
+                href={`/curation/books/${book.slug}`}
+              >
+                <img
+                  alt={book.data.heroImageAlt}
+                  src={book.data.heroImage}
+                  width="200"
+                />
+              </a>
+            </div>
+            <div class="md:py-0 md:px-0 mt-2 md:mt-0">
+              <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700">
+                <a
+                  class="visited:text-amber-600 hover:text-purple-500"
+                  href={`/curation/books/${book.slug}`}
+                >
+                  {book.data.title}
+                </a>
+              </div>
+              <div class="font-thin">Author: {book.data.bookAuthor}</div>
+              <div class="mt-2 dark:text-slate-100">{book.data.blurb}</div>
             </div>
           </li>
         ))
