@@ -7,6 +7,10 @@ link: "https://www.justwatch.com/us/movie/a-brighter-summer-day"
 pubDate: "2017-01-28"
 releaseYear: 1991
 title: "A Brighter Summer Day"
+country: Taiwan
+runtime: 237 minutes
+language: Mandarin, Taiwanese
+blurb: "The film revolves around two Chinese youth gangs and the experiences of a 14-year-old boy named S'ir. The story is divided into two halves: the first half traces S'ir's experiences in the gang, while the second half focuses on his home and love life. Both halves culminate in unexpected violence"
 ---
 
 Original Title: 牯嶺街少年殺人事件

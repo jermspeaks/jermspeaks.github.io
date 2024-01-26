@@ -7,6 +7,10 @@ link: "https://www.justwatch.com/us/movie/fruitvale-station"
 pubDate: "2018-02-13"
 releaseYear: 2013
 title: "Fruitvale Station"
+country: United States
+language: English
+runtime: 82 minutes
+blurb: A slice of life look at Oscar Grant on the events preceding getting shot and killed by a BART police officer on January 1, 2009, at Oakland's Fruitvale Station.
 ---
 
 ## Review
