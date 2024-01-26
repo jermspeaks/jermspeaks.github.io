@@ -1,14 +1,20 @@
 ---
 import { getCollection } from "astro:content";
-import aboutLinks from "../../utils/aboutLinks";
 import AboutLayout from "../../layouts/About.astro";
+import aboutLinks from "../../utils/aboutLinks";
 import NavigationLinks from "../../components/NavigationLinks.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 import ResumeContent from "../../components/ResumeContent.astro";
 
-const resumeItems = (await getCollection("resume")).sort(
-  (a, b) => a.order > b.order
-);
+const resumeItems = (await getCollection("resume")).sort((a, b) => {
+  if (a.data.order > b.data.order) {
+    return 1;
+  } else if (a.data.order < b.data.order) {
+    return -1;
+  } else {
+    return 0;
+  }
+});
 ---
 
 <AboutLayout
@@ -19,13 +25,13 @@ const resumeItems = (await getCollection("resume")).sort(
   <NavigationLinks slot="navigation" items={aboutLinks} />
   <ProseArticle>
     <h1><strong>Jeremy Wong</strong></h1>
-    {resumeItems.slice(0, 6).map((resume) => <ResumeContent {...resume} />)}
+    {resumeItems.slice(0, 6).map((resume) => <ResumeContent item={resume} />)}
 
     <div class="flex flex-col md:flex-row justify-between align-top my-2">
       {
         resumeItems
           .slice(6)
-          .map((resume) => <ResumeContent headingLevel={3} {...resume} />)
+          .map((resume) => <ResumeContent headingLevel={3} item={resume} />)
       }
     </div>
   </ProseArticle>

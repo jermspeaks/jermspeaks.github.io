@@ -15,7 +15,7 @@ const bookLibrary = (await getCollection("book")).sort(
         bookLibrary.map((book) => (
           <li class="flex flex-shrink-0 flex-grow-0 flex-col flex-[200px] rounded-sm box-border dark:text-white">
             <a
-              class="visited:text-[#f25042]"
+              class="visited:text-amber-600"
               href={`/curation/books/${book.slug}`}
             >
               <img

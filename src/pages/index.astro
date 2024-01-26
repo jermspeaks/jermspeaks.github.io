@@ -72,7 +72,7 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
       <h2 class="mb-2 text-2xl font-thin">
         Maker, Home Cook, Book and Film Nerd. Currently leading application
         development at <a
-          class="text-orange-700 hover:text-orange-300 dark:text-orange-500"
+          class="text-orange-700 hover:text-purple-500 dark:text-orange-500"
           href="https://clearlabs.com/"
           target="_blank">Clear Labs</a
         >
@@ -84,11 +84,7 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
         <div>
           <ProseArticle class="mx-0 mb-8">
             <h3 class="text-3xl font-medium underline">
-              <a
-                href="/blog"
-                class="hover:text-slate-800 dark:hover:text-slate-300"
-                >✍🏽 What I Wrote</a
-              >
+              <a href="/blog" class="hover:text-purple-500">✍🏽 What I Wrote</a>
             </h3>
           </ProseArticle>
           <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
@@ -98,9 +94,7 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
         <div>
           <ProseArticle class="mx-0 mb-8">
             <h3 class="text-3xl font-medium underline">
-              <a
-                href="/project"
-                class="hover:text-slate-800 dark:hover:text-slate-300"
+              <a href="/project" class="hover:text-purple-500"
                 >🚢 What I Shipped</a
               >
             </h3>
@@ -115,8 +109,10 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
         </div>
         <div class="col-span-1 md:col-span-2">
           <ProseArticle class="mx-0 mb-8">
-            <h3 class="text-3xl font-medium underline">
-              <a href="/curation">🎨 What I've Curated</a>
+            <h3 class="text-3xl font-medium underline ">
+              <a href="/curation"
+                >🎨 What I Curated</a
+              >
             </h3>
           </ProseArticle>
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none p-0">
@@ -125,7 +121,7 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
                 <li class="grid grid-cols-8 gap-2 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
                   <div class="col-span-3 sm:col-span-2">
                     <a
-                      class="visited:text-[#f25042]"
+                      class="visited:text-amber-600"
                       href={`/curation/${item.data.type}/${item.slug}`}
                     >
                       <img
@@ -138,7 +134,7 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
                   <div class="col-span-5 sm:col-span-6 md:py-0 md:px-0 md:mt-0">
                     <div class="font-bold mb-2">
                       <a
-                        class="hover:underline hover:text-purple-500 visited:text-[#f25042]"
+                        class="hover:underline hover:text-purple-500 visited:text-amber-600"
                         href={`/curation/${item.data.type}/${item.slug}`}
                       >
                         {item.data.title}
@@ -178,7 +174,7 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
         <h3>
           <a
             href="/curation/newsletter"
-            class="hover:text-slate-800 dark:hover:text-slate-300"
+            class="hover:text-purple-500"
             >Newsletter Series</a
           >
         </h3>
