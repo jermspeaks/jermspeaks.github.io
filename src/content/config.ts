@@ -129,6 +129,8 @@ const antiLibrary = defineCollection({
 
 const filmLibrary = defineCollection({
   schema: z.object({
+    blurb: z.string().optional(),
+    country: z.string().optional(),
     // Transform string to Date object
     dateConsumed: z
       .string()
@@ -137,6 +139,7 @@ const filmLibrary = defineCollection({
     director: z.string(),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().default("Film Poster"),
+    language: z.string().optional(),
     link: z.string(),
     pubDate: z
       .string()
@@ -146,8 +149,8 @@ const filmLibrary = defineCollection({
       .string()
       .or(z.number())
       .or(z.date().transform((val) => new Date(val))),
+    runtime: z.string().optional(),
     title: z.string(),
-    blurb: z.string().optional(),
   }),
 });
 

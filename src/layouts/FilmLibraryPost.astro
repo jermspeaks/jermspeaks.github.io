@@ -1,33 +1,58 @@
 ---
-import { SITE_DESCRIPTION } from "../consts";
-import BaseBody from "../components/BaseBody.astro";
-import BaseHead from "../components/BaseHead.astro";
-import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
-import Header from "../components/Header.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"filmLibrary">["data"];
 
-const { heroImage, releaseYear, director, dateConsumed, heroImageAlt } =
-  Astro.props;
+const {
+  blurb,
+  country,
+  dateConsumed,
+  director,
+  heroImage,
+  heroImageAlt,
+  language,
+  releaseYear,
+  runtime,
+} = Astro.props;
 ---
 
 <ProseArticle>
-  {
-    heroImage && (
-      <img alt={heroImageAlt} height={345} src={heroImage} width={230} />
-    )
-  }
-  <div class="py-4 border-b-2 border-solid border-gray-300 mt-2">
-    <div>
-      Released: {releaseYear}
+  <div
+    class="grid grid-cols-3 gap-4 border-b-2 pb-2 border-solid border-gray-300"
+  >
+    <div class="col-span-3 sm:col-span-1">
+      {
+        heroImage && (
+          <img alt={heroImageAlt} height={345} src={heroImage} width={230} />
+        )
+      }
+      {
+        heroImageAlt && (
+          <figcaption class="text-sm italic">{heroImageAlt}</figcaption>
+        )
+      }
     </div>
-    <div>dir. {director}</div>
-    <div class="italic text-slate-600 dark:text-slate-300">
-      First Watched:
-      <FormattedDate date={dateConsumed} />
+    <div class="col-span-3 md:col-span-2">
+      <div class="font-thin">dir. {director}</div>
+      <div
+        class="pb-4 mb-2 text-sm border-b-2 border-dashed border-gray-300 dark:border-gray-700"
+      >
+        {country && <div>{country}</div>}
+        {releaseYear && <div>{releaseYear}</div>}
+        {runtime && <div>{runtime}</div>}
+        {language && <div>{language}</div>}
+      </div>
+      <div class="italic text-slate-600 dark:text-slate-300">
+        First Watched:
+        <FormattedDate date={dateConsumed} />
+      </div>
+      {
+        blurb && (
+          <div class="italic text-slate-600 dark:text-slate-300">{blurb}</div>
+        )
+      }
     </div>
   </div>
   <slot />

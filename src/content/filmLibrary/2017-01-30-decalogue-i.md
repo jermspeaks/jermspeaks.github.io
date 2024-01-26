@@ -6,7 +6,11 @@ heroImageAlt: "Box Art for Dekalog"
 link: "https://www.criterion.com/films/28661-dekalog"
 pubDate: "2017-01-30"
 releaseYear: 1988
+country: Poland
+language: Polish
+runtime: 53 minutes
 title: "Dekalog I"
+blurb: "The Polish television series \"Dekalog\" revolves around the theme of the First Commandment, \"I am the Lord thy God; thou shalt have no other gods before me\". The characters grapple with their beliefs and the role of technology in their lives. The story explores the importance of spirituality and the search for meaning in a world dominated by technology and rational thought."
 ---
 
 ## Review

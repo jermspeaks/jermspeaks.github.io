@@ -1,13 +1,16 @@
 ---
+blurb: "One of those picturesque romance movies from a Merchany-Ivory production of an E. M. Forrester novel. And a punchable performance from Daniel-Day Lewis."
+country: United Kingdom
 dateConsumed: "2023-04-15 03:00:00 GMT"
 director: "James Ivory"
 heroImage: "https://a.ltrbxd.com/resized/sm/upload/js/2l/27/zl/2rZ2nkS3mmynrz264jfzJ7rd46p-0-230-0-345-crop.jpg?v=7ca9df8c0b"
 heroImageAlt: "A Room With A View"
+language: English
 link: "https://www.justwatch.com/us/movie/a-room-with-a-view"
 pubDate: "2023-05-23"
-releaseYear: 1985
+releaseYear: 1986
+runtime: 117 minutes
 title: "A Room With A View"
-blurb: "One of those picturesque romance movies from a Merchany-Ivory production of an E. M. Forrester novel. And a punchable performance from Daniel-Day Lewis."
 ---
 
 ## Review
