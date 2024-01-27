@@ -1,12 +1,11 @@
 ---
-import { CollectionEntry, getCollection } from "astro:content";
-import FormattedDate from "../../../components/FormattedDate.astro";
+import { getCollection } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+import FormattedDate from "../../../components/FormattedDate.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
+import type { CollectionEntry } from "astro:content";
 
-const series: [CollectionEntry<"series">] = (
-  await getCollection("series")
-).sort(
+const series = (await getCollection("series")).sort(
   (a: CollectionEntry<"series">, b: CollectionEntry<"series">) =>
     b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
 );
