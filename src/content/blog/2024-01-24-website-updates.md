@@ -12,7 +12,7 @@ tags: ["essay", "reflection", "review"]
 
 ## New Year, Combined Pages
 
-I haven't given a website update since June 2023. Since some other things have happened, 
+I haven't given a website update since June 2023. Since some other things have happened,
 here's a short recap of some major updates.
 
 - [Resume](/about/resume) updates

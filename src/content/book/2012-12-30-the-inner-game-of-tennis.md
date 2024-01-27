@@ -6,6 +6,7 @@ heroImageAlt: "Book cover for The inner game of tennis"
 link: "https://amzn.to/3N2rBzm"
 pubDate: "2012-12-30"
 title: "The Inner Game of Tennis: The Classic Guide to the Mental Side of Peak Performance"
+blurb: "The mental aspects of tennis and how they can be applied to achieve peak performance in the sport and beyond, like the inner game, relaxed concentration, and the mind/body connection."
 ---
 
 - [Goodreads Link](https://www.goodreads.com/book/show/905.The_Inner_Game_of_Tennis)

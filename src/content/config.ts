@@ -12,6 +12,7 @@ const blog = defineCollection({
     draft: z.boolean().optional(),
     heroImage: z.string().optional(),
     heroImageAlt: z.string().optional(),
+    minutesRead: z.string().optional(),
     // Transform string to Date object
     pubDate: z
       .string()
@@ -19,7 +20,6 @@ const blog = defineCollection({
       .transform((val) => new Date(val)),
     tags: z.array(z.string()).optional(),
     title: z.string(),
-    minutesRead: z.string().optional(),
     updatedDate: z
       .string()
       .optional()

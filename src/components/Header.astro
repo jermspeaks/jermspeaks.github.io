@@ -4,13 +4,13 @@ import AlgoliaSearch from "./AlgoliaSearch.astro";
 import HeaderLink from "./HeaderLink.astro";
 ---
 
-<header class="mb-8 flex justify-between align-middle print:hidden">
+<header class="mb-4 flex justify-between align-middle print:hidden">
   <h2
-    class="text-xl font-bold mb-8 text-black no-underline hover:text-gray-600 dark:text-white"
+    class="text-xl font-bold mb-4 text-black no-underline hover:text-gray-600 dark:text-white"
   >
     <a href="/">{SITE_TITLE}</a>
   </h2>
-  <nav class="hidden md:flex md:gap-3 md:items-center md:mb-8 dark:text-white">
+  <nav class="hidden md:flex md:gap-3 md:items-center md:mb-4 dark:text-white">
     <AlgoliaSearch />
     <HeaderLink href="/blog">Writing</HeaderLink>
     <HeaderLink href="/project">Projects</HeaderLink>

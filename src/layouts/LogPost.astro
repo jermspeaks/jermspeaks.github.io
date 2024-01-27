@@ -8,7 +8,7 @@ type Props = CollectionEntry<"log">["data"];
 const { updatedDate, heroImage } = Astro.props;
 ---
 
-<ProseArticle>
+<ProseArticle class="prose-hr:my-2 table-auto">
   {heroImage && <img width={720} height={360} src={heroImage} alt="" />}
   {
     updatedDate && (
