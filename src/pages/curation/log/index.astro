@@ -2,7 +2,6 @@
 import { getCollection } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
-import TitleHeading from "../../../components/TitleHeading.astro";
 
 const logs = (await getCollection("log")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
@@ -12,10 +11,15 @@ const logs = (await getCollection("log")).sort(
 <CurationDetailsPage title="Logs by Year">
   <ProseArticle>
     <p>
-      These are logs of consumed media from the past few years. (Updates in
-      Progress).
+      These are logs of consumed media, organized by year. These include books
+      read, films and television series watched, theater/music performances
+      attended, and video games played.
     </p>
-    <p>I've been logging media consumption since 2010.</p>
+    <p>
+      In the future, I plan to add podcasts, and maybe a way to filter by media
+      type. If you have some ideas about how to organize multi-month media, feel
+      free to <a href="mailto:jeremy@craftbyzen.com">email me</a>.
+    </p>
     <ul>
       {
         logs.map((log) => (
@@ -27,5 +31,12 @@ const logs = (await getCollection("log")).sort(
         ))
       }
     </ul>
+    <p>
+      I was inspired by Jen Myer's Media Log, and <a
+        href="https://jenmyers.net/notes/keeping-a-media-log.html"
+        target="_blank">why she keeps one public</a
+      >. If you're interested in creating your own media log, I may write about
+      my process. <a href="mailto:jeremy@craftbyzen.com">Let me know</a>!
+    </p>
   </ProseArticle>
 </CurationDetailsPage>

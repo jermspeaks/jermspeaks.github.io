@@ -73,7 +73,7 @@ const curations = (await getCollection("curation")).sort((a, b) =>
           <li class="flex flex-col sm:flex-row flex-[100%] sm:flex-[48%] gap-4 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
             <div class="flex-shrink-0 flex-grow-0 flex-initial sm:w-32">
               <a
-                class="visited:text-amber-600"
+                class="visited:text-amber-600 hover:grayscale"
                 href={`/curation/${item.data.type}/${item.slug}`}
               >
                 <img

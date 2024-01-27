@@ -1,6 +1,7 @@
 ---
 import { getCollection } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
 
 const lindyLibrary = (await getCollection("lindy")).sort((a, b) =>
   a.data.title.localeCompare(b.data.title)
@@ -9,22 +10,49 @@ const lindyLibrary = (await getCollection("lindy")).sort((a, b) =>
 
 <CurationDetailsPage title="Lindy Library">
   <section>
-    <h3 class="text-xl mt-8 mb-4 dark:text-white">What's a Lindy Library?</h3>
-    <p class="dark:text-white">
-      A <strong>Lindy Library</strong> is an annex of content that has stood the
-      test of time.
-    </p>
-    <h3 class="text-xl mt-5 mb-3 dark:text-white">Contents</h3>
-    <ul class="flex flex-col list-none p-0 gap-1">
+    <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
       {
         lindyLibrary.map((lindyItem) => (
-          <li class="flex rounded-sm box-border p-4 bg-slate-100 dark:bg-slate-800 dark:text-white">
-            <a href={`/curation/lindy/${lindyItem.slug}`} title={lindyItem.data.title}>
-              {lindyItem.data.title}
-            </a>
+          <li class="grid grid-cols-4 gap-4 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
+            <div class="col-span-4 sm:col-span-1">
+              <a
+                class="visited:text-amber-600 hover:grayscale"
+                href={`/curation/antibooks/${lindyItem.slug}`}
+              >
+                <img
+                  alt={lindyItem.data.heroImageAlt}
+                  src={lindyItem.data.heroImage}
+                  width="200"
+                />
+              </a>
+            </div>
+            <div class="col-span-4 sm:col-span-3">
+              <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700">
+                <a
+                  class="hover:underline hover:text-purple-500 visited:text-amber-600"
+                  href={`/curation/lindy/${lindyItem.slug}`}
+                  title={lindyItem.data.title}
+                >
+                  {lindyItem.data.title}
+                </a>
+              </div>
+              <div>{lindyItem.data.author}</div>
+              <div class="mt-2 dark:text-slate-100">{lindyItem.data.blurb}</div>
+            </div>
           </li>
         ))
       }
     </ul>
+  </section>
+  <section>
+    <ProseArticle>
+      <h2 class="text-2xl mt-8 mb-4 dark:text-white">
+        What's a Lindy Library?
+      </h2>
+      <p class="dark:text-white">
+        A <strong>Lindy Library</strong> is an annex of content that has stood the
+        test of time.
+      </p>
+    </ProseArticle>
   </section>
 </CurationDetailsPage>
