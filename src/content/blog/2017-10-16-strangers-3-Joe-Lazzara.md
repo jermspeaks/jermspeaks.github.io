@@ -15,9 +15,13 @@ tags: ["newsletter", "season_3", "letters"]
 
 Thanks for reading the Jear Bear Letters! Before we begin, I'd like to say thanks for the support. I really appreciate your continued readership.
 
-If you're a new reader or have missed the past few letters from the new series, "Seven Degrees of Strangers", you can find [the archive on tinyletter](https://tinyletter.com/jeremywong/archive) or check out [the new section on my website](https://www.craftbyzen.com/letters/season-three/).
+If you're a new reader or have missed the past few letters from the new series, "Seven Degrees of Strangers", you can find ~~[the archive on tinyletter](https://tinyletter.com/jeremywong/archive)~~ or check out [the new section on my website](/curation/newsletter/2017-10-17-series-3/).
 
 That's all. Back to the newsletter.
+
+### Update: 2024-02-01
+
+[Tinyletter is out of operation](https://mailchi.mp/85e4c601669a/tinylettersunsetcurrent-221169). I've created a new newsletter using button.down, which you can subscribe to on the [newsletter page](/curation/newsletter#subscribe).
 
 ## Introduction
 

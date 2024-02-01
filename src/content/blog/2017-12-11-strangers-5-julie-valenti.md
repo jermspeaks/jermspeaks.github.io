@@ -113,11 +113,13 @@ Julie's takeaway is to understand and resolve your childhood trauma. Resolution 
 
 ## Promotion
 
-I read through Julie's book and recommend it. I want to giveaway one free copy of Julie's book to one of my readers. To enter, reply to this email and tell me what you think of this series so far. If you read this on my social media links, [subscribe to the newsletter](https://tinyletter.com/jeremywong). New subscribers will be added to the contest. You have one week to apply. Deadline is December 18th, 2017, 12AM PST.
+I read through Julie's book and recommend it. I want to giveaway one free copy of Julie's book to one of my readers. To enter, reply to this email and tell me what you think of this series so far. If you read this on my social media links, ~~[subscribe to the newsletter](https://tinyletter.com/jeremywong).~~ New subscribers will be added to the contest. You have one week to apply. Deadline is December 18th, 2017, 12AM PST.
 
 If I have perked your interests with childhood trauma, please buy [Julie's book](https://www.amazon.com/Knowing-How-Concepts-Rewire-Brain/dp/0981537685). If you're interested in joining a reading group, let me know. I would love to continue the conversation.
 
+### Update: 2024-02-01
 
+[Tinyletter is out of operation](https://mailchi.mp/85e4c601669a/tinylettersunsetcurrent-221169). I've created a new newsletter using button.down, which you can subscribe to on the [newsletter page](/curation/newsletter#subscribe).
 
 <!-- 
 Outline 

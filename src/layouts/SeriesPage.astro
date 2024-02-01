@@ -10,6 +10,6 @@ const { createdDate, endDate } = Astro.props;
 
 <ProseArticle>
   <FormattedDate date={createdDate} /> to
-  <FormattedDate date={endDate} />
+  {endDate ? <FormattedDate date={endDate} /> : "Present"}
   <slot />
 </ProseArticle>

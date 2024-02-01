@@ -1,10 +1,10 @@
 ---
 title: "Newsletter"
 link: "/curation/newsletter"
-heroImage: "/images/7_Degrees_Of_Strangers_Letterhead.png"
-heroImageAlt: "Title head for the series 7 Degress of Strangers"
+heroImage: "https://images.unsplash.com/photo-1557568192-2fafc8b5bdc9?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+heroImageAlt: "Unsplash image from Davide Baraldi showing a mailbox next to a road."
 tags: ["writing", "series"]
 draft: false
 ---
 
-A weekly, longform essay that mainly focuses on lessons I've learned. I try to write something I find meaningful, whether it's exposing your ignorance, staying true to yourself or being resilient. In a world of tweet-sized advice and short comments on a non-sensical Facebook post, there's not enough time to process and distill what we're actually thinking. These letters are to slow down, lean in and really try to form more coherent thoughts than writing that instant gratification post on my choice of social networking site.
+A newsletter where users can subscribe to my website, blog, and life updates. I am retiring the old, weekly longform format.

@@ -109,10 +109,8 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
         </div>
         <div class="col-span-1 md:col-span-2">
           <ProseArticle class="mx-0 mb-8">
-            <h3 class="text-3xl font-medium underline ">
-              <a href="/curation"
-                >🎨 What I Curated</a
-              >
+            <h3 class="text-3xl font-medium underline">
+              <a href="/curation">🎨 What I Curated</a>
             </h3>
           </ProseArticle>
           <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none p-0">
@@ -172,73 +170,53 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
 
       <ProseArticle>
         <h3>
-          <a
-            href="/curation/newsletter"
-            class="hover:text-purple-500"
+          <a href="/curation/newsletter" class="hover:text-purple-500"
             >Newsletter Series</a
           >
         </h3>
-
         <p>
-          🚧 Will be back shortly. <a
-            href="https://mailchi.mp/85e4c601669a/tinylettersunsetcurrent-221169"
-            target="_blank"
-            >TinyLetter is going to be out of service in Feb 2024</a
-          >, so I'm looking for a new home for my newsletter. Stay tuned!
+          I have put back together my newsletter after years of absense! These
+          are primarily updates on my blog, "Craft By Zen", and maybe some
+          highlights to the new articles I've written. There might be some life
+          updates as well. I'm doing away with the old format of weekly longform
+          essays, and trying some new things with my newsletter.
         </p>
         <p>
-          In the meantime, continue to subscribe, and I will forward the mailing
-          list to the new service.
+          Read more in <a href="/blog/2024-02-01-newsletter-announcement/"
+            >the announcement</a
+          >.
         </p>
-        <!-- <p>
-          A weekly, longform essay that mainly focuses on lessons I've learned.
-          I try to write something I find meaningful, whether it's exposing your
-          ignorance, staying true to yourself or being resilient. In a world of
-          tweet-sized advice and short comments on a non-sensical Facebook post,
-          there's not enough time to process and distill what we're actually
-          thinking. These letters are to slow down, lean in and really try to
-          form more coherent thoughts than writing that instant gratification
-          post on my choice of social networking site.
-        </p> -->
 
         <form
-          action="https://tinyletter.com/jeremywong"
-          class="landing-newsletter-form"
+          action="https://buttondown.email/api/emails/embed-subscribe/craftbyzen"
           method="post"
-          onsubmit="window.open('https://tinyletter.com/jeremywong', 'popupwindow', 'scrollbars=yes,width=800,height=600');return true"
           target="popupwindow"
+          onsubmit="window.open('https://buttondown.email/craftbyzen', 'popupwindow')"
+          class="embeddable-buttondown-form flex flex-col gap-2 sm:w-[50%]"
         >
-          <div>
-            <!-- <label for="tlemail">
-              If what you read resonates with you, please <strong
-                >subscribe</strong
-              >!
-            </label> -->
-          </div>
-          <div class="flex flex-col md:flex-row gap-4">
-            <div>
-              <input
-                type="text"
-                name="email"
-                id="tlemail"
-                class="py-1 px-2 md:py-2 md:px-4"
-                placeholder="email address"
-              />
-              <input type="hidden" value="1" name="embed" />
-            </div>
-            <div>
-              <input class="sr-only" type="hidden" value="Subscribe" />
-              <button
-                class="bg-yellow-700 hover:bg-yellow-700 dark:bg-yellow-300 text-white dark:text-black font-bold py-2 px-4 rounded"
-                type="submit">Subscribe</button
-              >
-            </div>
-          </div>
-          <p class="text-sm">
-            <a href="https://tinyletter.com" target="_blank"
-              >powered by TinyLetter</a
-            >
-          </p>
+          <label
+            class="text-slate-800 dark:text-slate-200 text-sm"
+            for="bd-email">Email</label
+          >
+          <input
+            class="py-1 px-2 md:py-2 md:px-4"
+            type="email"
+            name="email"
+            id="bd-email"
+            placeholder="Enter your email"
+          />
+
+          <button
+            type="submit"
+            value="Subscribe"
+            class="bg-yellow-700 hover:bg-purple-700 dark:bg-yellow-300 text-white dark:text-black font-bold px-4 rounded"
+            >Subscribe</button
+          >
+          <a
+            class="text-sm"
+            href="https://buttondown.email/refer/craftbyzen"
+            target="_blank">Powered by Buttondown.</a
+          >
         </form>
       </ProseArticle>
     </main>
