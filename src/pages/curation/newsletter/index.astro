@@ -39,7 +39,7 @@ const series = (await getCollection("series")).sort(
                 <div class="italic text-slate-600 dark:text-slate-300">
                   <FormattedDate date={s.data.createdDate} />
                   &nbsp;to&nbsp;
-                  <FormattedDate date={s.data.endDate} />
+                  {s.data.endDate ? <FormattedDate date={s.data.endDate} /> : "Present"}
                 </div>
                 {s.data.heroImage && (
                   <img width={240} src={s.data.heroImage} alt="" />
@@ -53,8 +53,16 @@ const series = (await getCollection("series")).sort(
     </section>
     <hr class="mt-5 mb-5" />
 
-    <h2>Subscribe!</h2>
-    <form
+    <h2 id="subscribe">Subscribe!</h2>
+    <p>
+      I have put back together my newsletter after years of absense! These are
+      primarily updates on my blog, "Craft By Zen", and maybe some highlights to
+      the new articles I've written. There might be some life updates as well.
+      I'm doing away with the old format of weekly longform essays, and trying
+      some new things with my newsletter.
+    </p>
+
+    <!-- <form
       action="https://tinyletter.com/jeremywong"
       class="landing-newsletter-form"
       method="post"
@@ -63,7 +71,8 @@ const series = (await getCollection("series")).sort(
     >
       <div>
         <label for="tlemail">
-          If what you read resonates with you, please <strong>subscribe</strong
+          If what you read resonates with you, please <strong
+            >subscribe</strong
           >!
         </label>
       </div>
@@ -91,6 +100,36 @@ const series = (await getCollection("series")).sort(
           >powered by TinyLetter</a
         >
       </p>
+    </form> -->
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/craftbyzen"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https://buttondown.email/craftbyzen', 'popupwindow')"
+      class="embeddable-buttondown-form flex flex-col gap-2 sm:w-[50%]"
+    >
+      <label class="text-slate-800 dark:text-slate-200 text-sm" for="bd-email"
+        >Email</label
+      >
+      <input
+        class="py-1 px-2 md:py-2 md:px-4"
+        type="email"
+        name="email"
+        id="bd-email"
+        placeholder="Enter your email"
+      />
+
+      <button
+        type="submit"
+        value="Subscribe"
+        class="bg-yellow-700 hover:bg-purple-700 dark:bg-yellow-300 text-white dark:text-black font-bold px-4 rounded"
+        >Subscribe</button
+      >
+      <a
+        class="text-sm"
+        href="https://buttondown.email/refer/craftbyzen"
+        target="_blank">Powered by Buttondown.</a
+      >
     </form>
   </ProseArticle>
 </CurationDetailsPage>

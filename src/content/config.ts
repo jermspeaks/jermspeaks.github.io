@@ -71,7 +71,8 @@ const series = defineCollection({
     endDate: z
       .string()
       .or(z.date())
-      .transform((val) => new Date(val)),
+      .transform((val) => new Date(val))
+      .or(z.null()),
     heroImage: z.string().optional(),
     tag: z.string(),
     title: z.string(),
