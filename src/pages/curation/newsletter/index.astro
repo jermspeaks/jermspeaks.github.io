@@ -14,14 +14,16 @@ const series = (await getCollection("series")).sort(
 <CurationDetailsPage title="Newsletter">
   <ProseArticle>
     <p class="my-4">
-      A weekly, longform essay that mainly focuses on lessons I've learned. I
-      try to write something I find meaningful, whether it's exposing your
-      ignorance, staying true to yourself or being resilient. In a world of
-      tweet-sized advice and short comments on a non-sensical Facebook post,
-      there's not enough time to process and distill what we're actually
-      thinking. These letters are to slow down, lean in and really try to form
-      more coherent thoughts than writing that instant gratification post on my
-      choice of social networking site.
+      An old newsletter revamped by Jeremy Wong from Craft By Zen. This
+      newsletter to be more monthly updates about the website, blog posts, and
+      life. Retiring the longform essays from the newsletter, and leaving that
+      in for the blog.
+    </p>
+    <p>
+      You can subscribe below or on the dedicated <a
+        href="https://buttondown.email/craftbyzen"
+        target="_blank">newsletter website</a
+      >.
     </p>
 
     <section>
@@ -39,7 +41,11 @@ const series = (await getCollection("series")).sort(
                 <div class="italic text-slate-600 dark:text-slate-300">
                   <FormattedDate date={s.data.createdDate} />
                   &nbsp;to&nbsp;
-                  {s.data.endDate ? <FormattedDate date={s.data.endDate} /> : "Present"}
+                  {s.data.endDate ? (
+                    <FormattedDate date={s.data.endDate} />
+                  ) : (
+                    "Present"
+                  )}
                 </div>
                 {s.data.heroImage && (
                   <img width={240} src={s.data.heroImage} alt="" />

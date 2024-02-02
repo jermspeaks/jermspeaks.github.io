@@ -9,6 +9,8 @@ In other words, how the site is made.
 
 This website is built with [Astro](https://astro.build/), [Tailwind](https://tailwindcss.com/), [Github Pages](https://pages.github.com/), and [Netlify](https://www.netlify.com/). The previous site was built using Jekyll, Sass, Bourbon, Neat, and Netlify. I wrote a short blog post about this [here](/blog/2023-05-02-website-rewrite/).
 
+The [newsletter](/curation/newsletter) is powered by [Buttondown](https://buttondown.email/).
+
 The domain is registered with [Hover](https://www.hover.com/).
 
 ### Typography
