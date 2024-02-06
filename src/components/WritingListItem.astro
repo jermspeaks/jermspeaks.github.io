@@ -37,7 +37,29 @@ const { post, condensed } = Astro.props;
       {Array.isArray(post.data.tags) && " "}
       {
         Array.isArray(post.data.tags) &&
-          post.data.tags.map((tag: string) => `#${tag}`).join(" ")
+          post.data.tags.map((tag: string, index) =>
+            // if last item, don't add a space
+            index === post.data.tags.length - 1 ? (
+              <>
+                <a
+                  class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                  href={`/blog/tag/${tag}`}
+                >
+                  #{tag}
+                </a>
+              </>
+            ) : (
+              <>
+                <a
+                  class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                  href={`/blog/tag/${tag}`}
+                >
+                  #{tag}
+                </a>
+                &nbsp;
+              </>
+            )
+          )
       }
     </div>
   </div>
