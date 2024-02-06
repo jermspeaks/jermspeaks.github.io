@@ -4,12 +4,21 @@ import FormattedDate from "./FormattedDate.astro";
 
 export interface Props {
   post: CollectionEntry<"blog">;
+  condensed?: boolean;
 }
 
-const { post } = Astro.props;
+const { post, condensed } = Astro.props;
 ---
 
-<li class="dark:text-white my-8">
+<li
+  class:list={[
+    "dark:text-white",
+    {
+      ["my-8"]: !condensed,
+      ["my-2"]: condensed,
+    },
+  ]}
+>
   <a
     class="my-4 text-xl hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
     href={`/blog/${post.slug}/`}
