@@ -3,7 +3,7 @@ description: Notes I took while learning Svelte
 draft: true
 
 pubDate: "2023-07-05"
-tags: ["learning", "Programming", "Javascript", "Svelte"]
+tags: ["learning", "programming", "Javascript", "Svelte"]
 title: Svelte
 ---
 
