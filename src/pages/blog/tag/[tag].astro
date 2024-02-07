@@ -7,12 +7,13 @@ import WritingListItem from "../../../components/WritingListItem.astro";
 export async function getStaticPaths() {
   const posts = await getCollection("blog");
   // Get unique tags
-  const tags = new Set();
+  const tags = new Set<string>();
   posts.forEach((post) => {
     if (Array.isArray(post.data.tags)) {
       post.data.tags.forEach((tag: string) => tags.add(tag));
     }
   });
+
   return Array.from(tags).map((tag) => {
     // Get posts from the given tag
     const postsFilteredByTag = posts.filter((post) => {
@@ -29,7 +30,7 @@ export async function getStaticPaths() {
 }
 
 type Props = {
-  posts: [CollectionEntry<"blog">];
+  posts: CollectionEntry<"blog">[];
   tag: string;
 };
 
@@ -40,8 +41,8 @@ const orderedPosts = posts
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
-<WritingLayout>
-  <h3 class="mt-6 text-green-700 dark:text-green-300">Tag: {tag}</h3>
+<WritingLayout currentTag={tag}>
+  <!-- <h3 class="mt-6 text-green-700 dark:text-green-300">Tag: {tag}</h3> -->
   <ul class="list-none p-0">
     {orderedPosts.map((post) => <WritingListItem post={post} />)}
   </ul>
