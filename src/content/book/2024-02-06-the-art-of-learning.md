@@ -1,18 +1,17 @@
 ---
-title: The Art of Learning
+blurb: "Josh Waitzkin shares his unique systems of thematic learning, idea generation, building resilience, and mastering the art of performance psychology."
 bookAuthor: "Josh Waitzkin"
 dateConsumed: "2012-11-25"
 heroImage: "https://m.media-amazon.com/images/I/51GZMEe2iFL.jpg"
 heroImageAlt: "Book cover for The Art of Learning"
 link: "https://amzn.to/3MWVGiE"
 pubDate: "2024-02-06"
-review: ""
-blurb: "Josh Waitzkin shares his unique systems of thematic learning, idea generation, building resilience, and mastering the art of performance psychology."
+title: The Art of Learning
 ---
 
 "The Art of Learning" by Josh Waitzkin presents several key principles for effective learning.
 
-1. **Growth Mindset**: Cultivate a resilient commitment to the growth process and avoid being molded into a single style by prescriptive training methods. (See [[Atlas/Notes/Sources/Books/Mindset|Mindset]])
+1. **Growth Mindset**: Cultivate a resilient commitment to the growth process and avoid being molded into a single style by prescriptive training methods. (See [Mindset](/curation/books/2015-02-09-mindset/))
 2. **Deliberate Practice**: Engage in purposeful, focused practice that challenges you at the edge of your abilities, allowing for continuous improvement and skill development.
 3. **Discipline and Love**: Embrace discipline while staying true to your individual predispositions, and strive to integrate deeply and fully the most resonant information in your life.
 4. **Routines**: Establish healthy patterns and routines to support effective learning and growth in daily life.
