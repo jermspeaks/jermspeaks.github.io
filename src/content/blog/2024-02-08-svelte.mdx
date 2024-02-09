@@ -1,0 +1,529 @@
+---
+description: While I wrote my first Svelte application 4 years ago, I wanted to test my Svelte knowledge by solidifying it into a blog post.
+draft: false
+pubDate: "2024-02-08"
+tags: ["learning", "programming", "Javascript", "Svelte"]
+title: Svelte
+heroImage: /images/svelte-machine-desktop.png
+heroImageAlt: Official Svelte Machine Logo from their website
+heroImageAsset: true
+---
+
+Svelte is a component-based JavaScript framework that compiles your code at build time rather than at runtime. This means that instead of shipping a bulky framework to the client, Svelte generates highly optimized vanilla JavaScript code that updates the DOM. This approach results in faster load times and better performance. Additionally, Svelte has a small API surface area, making it easy to learn and use.
+
+- [Svelte Website](https://svelte.dev/)
+- [Svelte FAQ](https://svelte.dev/faq)
+- [Svelte Official Tutorial](https://svelte.dev/tutorial/basics)
+
+### Core Concepts using an example
+
+The following example is a simple counter application that teaches the basics of Svelte.
+
+```svelte
+<script>
+  let count = 0;
+
+  function increment() {
+    count += 1;
+  }
+
+  function decrement() {
+    count -= 1;
+  }
+</script>
+
+<main>
+  <h1>The count is {count}</h1>
+  <button on:click={decrement}>-</button>
+  <button on:click={increment}>+</button>
+</main>
+
+<style>
+  main {
+    text-align: center;
+    padding: 1em;
+  }
+  button {
+    margin: 0 1em;
+    padding: 0.5em 1em;
+  }
+</style>
+```
+
+import CounterButtons from "../../components/lib/CounterButtons.svelte";
+
+<CounterButtons client:load />
+
+1. **Reactive Variables**: `let count = 0;` This variable is reactive. Any changes to `count` will automatically update the DOM wherever `count` is referenced.
+2. **Event Handling**: The `on:click` directive is used to attach click event listeners to both buttons, calling the `increment` and `decrement` functions accordingly.
+3. **Inline Handlers**: If you prefer, you could inline these functions directly in the `on:click` handler for something even simpler, like `on:click={() => count += 1}`.
+4. **Conditional Rendering**: Suppose you want to display a message when the count is above a certain threshold. You can use an `{#if}` block directly in your HTML:
+
+```svelte
+{#if count > 10}
+  <p>You have reached a count greater than 10!</p>
+{/if}
+```
+
+### Svelte Components
+
+Expanding our simple counter application by breaking it down into smaller components, which is a common practice for improving the organization and reusability of your code in larger applications. We'll create two components: `CounterDisplay` for showing the current count and `CounterButton` for the increment and decrement buttons.
+
+Create a new file named `CounterDisplay.svelte` in the `src` directory. This component will be responsible for displaying the count.
+
+```svelte
+<script>
+  // This component accepts a prop named `count`
+  export let count;
+</script>
+
+<h1>The count is {count}</h1>
+```
+
+Create another file named `CounterButton.svelte` in the `src` directory. This component will represent a button that can increment or decrement the counter.
+
+```svelte
+<script>
+  // The component accepts two props: the button text and the click action
+  export let text;
+  export let handleClick;
+</script>
+
+<button on:click={handleClick}>{text}</button>
+```
+
+Now, update the `App.svelte` file to use these new components.
+
+```svelte
+<script>
+  import CounterDisplay from './CounterDisplay.svelte';
+  import CounterButton from './CounterButton.svelte';
+
+  let count = 0;
+
+  function increment() {
+    count += 1;
+  }
+
+  function decrement() {
+    count -= 1;
+  }
+</script>
+
+<main>
+  <CounterDisplay {count} />
+  <CounterButton text="-" handleClick={decrement} />
+  <CounterButton text="+" handleClick={increment} />
+</main>
+
+<style>
+  main {
+    text-align: center;
+    padding: 1em;
+  }
+</style>
+```
+
+1. **Props**: Components in Svelte can accept "props", which are custom attributes passed into components. In our case, `CounterDisplay` accepts a `count` prop, and `CounterButton` accepts `text` and `handleClick` props. This allows the components to be reusable and dynamic. Props are reactive, where any prop changes will trigger changes in the component.
+2. **Component Interaction**: The `App.svelte` component manages the state (`count`) and functions (`increment` and `decrement`) and passes them down to the child components. This demonstrates a fundamental pattern of component-based architecture: lifting state up and passing data and behavior down through props.
+3. **Event Handling in Child Components**: The `CounterButton` component receives a function (`handleClick`) as a prop and attaches it to the button's `click` event. This is a common pattern for handling events in child components and allowing parent components to define the behavior.
+
+### Slots in Svelte
+
+Slots in Svelte allow you to create components that can accept content dynamically from their parents. This is similar to transclusion or content projection in other frameworks. In other libraries like React, this is handled with `children`. Slots make components more flexible by letting you inject content into predefined places within a component's template.
+
+#### Basic Slot Example
+
+Imagine you're building a `Card` component that you want to reuse across your application, but with different content each time.
+
+**Card.svelte:**
+
+```svelte
+<div class="card">
+  <slot></slot> <!-- This is where the parent's content will be injected -->
+</div>
+
+<style>
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 10px 0;
+  }
+</style>
+```
+
+You can use this `Card` component in a parent component and pass in different content like so:
+
+```svelte
+<script>
+  import Card from './Card.svelte';
+</script>
+
+<Card>
+  <h2>Title</h2>
+  <p>This is some card content.</p>
+</Card>
+
+<Card>
+  <p>Another card with different content.</p>
+</Card>
+```
+
+#### Named Slots
+
+Svelte also supports named slots, which allow you to define multiple slots within a single component.
+
+**Card.svelte updated with named slots:**
+
+```svelte
+<div class="card">
+  <header>
+    <slot name="header"></slot> <!-- Named slot for header content -->
+  </header>
+  <slot></slot> <!-- Default slot for main content -->
+  <footer>
+    <slot name="footer"></slot> <!-- Named slot for footer content -->
+  </footer>
+</div>
+```
+
+And you can use it like this:
+
+```svelte
+<Card>
+  <h2 slot="header">Card Title</h2>
+  <p>Main content goes here.</p>
+  <p slot="footer">Footer content.</p>
+</Card>
+```
+
+### Basic Usage of Module Scripts
+
+Module scripts in Svelte introduce a powerful feature for managing reusable code and behaviors in your components. A module script runs once when a component is first imported, rather than each time a component instance is created. This makes it ideal for defining shared logic, helpers, and stores that can be used across all instances of a component.
+
+To define a module script in a Svelte component, you use the `<script context="module">` tag. Anything declared inside this tag is scoped to the module, not to individual instances of the component. This is particularly useful for situations where you want to maintain a shared state or perform actions that only need to happen once, regardless of how many times a component is instantiated.
+
+Here's a simple example:
+
+**Counter.svelte:**
+
+```svelte
+<script context="module">
+  // This count is shared across all instances of Counter.svelte
+  let count = 0;
+
+  export function increment() {
+    count += 1;
+    console.log(count);
+  }
+</script>
+
+<script>
+  // This script block is for instance-specific logic and state
+  import { onMount } from 'svelte';
+
+  onMount(() => {
+    // Call the shared increment function when the component mounts
+    increment();
+  });
+</script>
+
+<p>This component has been instantiated.</p>
+```
+
+In this example, the `increment` function and the `count` variable are defined in a module script and shared across all instances of `Counter.svelte`. Every time a new instance is created, it logs the incremented count, demonstrating that `count` is shared and persists across instances.
+
+### Use Cases for Module Scripts
+
+- **Defining shared utility functions**: For components that require common functionality, you can define utility functions in a module script to avoid duplicating code.
+- **Creating singleton stores**: If you need a store that's shared across all instances of a component, defining it in a module script ensures that you have a single, shared store.
+- **Optimizing performance**: Since code in a module script is executed only once, it's an excellent place for performing expensive operations like setting up subscriptions or fetching data that should be done once per component type, rather than once per instance.
+
+### Advanced Component Composition
+
+Module scripts complement Svelte's component composition model by allowing you to abstract and share logic effectively. For instance, you can combine module scripts with slots, props, and context to create highly reusable and customizable components.
+
+Imagine a scenario where you're building a library of UI components. Using module scripts, you can provide a consistent API for configuring these components globally (like themes or internationalization settings) while using instance scripts for configuration that is specific to a component's use case.
+
+### Considerations
+
+- **Scoping**: Remember that variables and functions declared in module scripts are not directly accessible in the instance script or the component's markup. To use them in the component, they need to be exported from the module script and then imported or used in the instance script.
+- **Singleton behavior**: Since the module scope is shared across instances, be mindful of side effects that might occur when modifying shared state. This is similar to how static variables would behave in class-based languages.
+
+### Stores for State Management
+
+Svelte Stores takes a reactive approach to state management, which is different than Redux. At the core of it, see the following.
+
+1. **Creating a Store**: The simplest form of a store in Svelte is a writable store. For example, creating a store to hold a number could look like this:
+
+   ```javascript
+   import { writable } from "svelte/store";
+   const count = writable(0);
+   ```
+
+2. **Subscribing to a Store**: To access the value of a store outside of a Svelte component, you subscribe to it. This might be where syntax can get tricky. Use the `$:` syntax intuitive for reactive statements. Alternatively, you can directly subscribe using `.subscribe` method.
+
+3. **Updating Store Values**: Svelte provides a few patterns for updating the store's value, such as `set`, `update`, and using the auto-subscription feature within components with the `$` prefix.
+
+4. **Reactivity**: One of the powerful features of Svelte is its built-in reactivity. Reactive variables automatically propagate through your application.
+
+#### Derived Stores
+
+Derived stores let you create a store based on other store(s), automatically updating when the underlying stores change. This is useful for calculating derived values or aggregating data from multiple sources.
+
+**Example:**
+
+Suppose you have a store for a list of items and another derived store that calculates the total number of items.
+
+```svelte
+<script>
+  import { writable, derived } from 'svelte/store';
+
+  const items = writable([]);
+
+  const itemCount = derived(items, $items => $items.length);
+</script>
+```
+
+In my Jeopardy app, I used the `derived` function to determine if all of the questions have been answered.
+
+```javascript
+import { writable, derived } from "svelte/store";
+
+function gameRoundStatus() {
+  const { subscribe, set, update } = writable([]);
+
+  return {
+    subscribe,
+    initialize: (categories) => set(categories),
+    setAnswered: ({ categoryIndex, clueIndex }) =>
+      update((categories) => {
+        categories[categoryIndex].clues[clueIndex].answered = true;
+        return categories;
+      }),
+    reset: () => set([]),
+  };
+}
+
+// This becomes a reactive variable
+export const gameRound = gameRoundStatus();
+
+// I need to know if the game board is done playing using this derived status
+export const allAnswered = derived(
+  gameRoundStatus,
+  ($gameRoundStatus) =>
+    $gameRoundStatus.length > 0 &&
+    $gameRoundStatus.every((category) =>
+      category.clues.every((clue) => clue.answered)
+    )
+);
+```
+
+#### Store Bindings
+
+Svelte allows you to bind component controls directly to store values, simplifying state management further.
+
+**Example:**
+
+```svelte
+<script>
+  import { writable } from 'svelte/store';
+
+  const count = writable(0);
+</script>
+
+<input type="number" bind:value={$count}>
+```
+
+#### Complex Store Structures
+
+For applications with complex state, consider structuring your store as a JavaScript object or even using a custom store. Custom stores can encapsulate more complex behavior, such as asynchronous operations or integration with external data sources.
+
+**Creating a Custom Store:**
+
+```javascript
+function createCustomStore() {
+  const { subscribe, set, update } = writable(initialValue);
+
+  return {
+    subscribe,
+    // Custom methods to interact with the store
+    increment: () => update((n) => n + 1),
+    decrement: () => update((n) => n - 1),
+    reset: () => set(initialValue),
+    // More complex operations...
+  };
+}
+```
+
+Slots and advanced state management techniques in Svelte offer a combination of simplicity and power, enabling you to build complex and dynamic applications with less code and more declarative, readable structures.
+
+### Actions
+
+Svelte actions are a powerful and somewhat under-appreciated feature that provide a neat way to interact with DOM elements directly. Actions allow you to attach reusable behavior to DOM elements, which can be especially useful for integrating third-party libraries or creating custom directives that enhance your application's functionality without cluttering your components with imperative code.
+
+An action is simply a function that is called when a DOM element is created, and it returns an object that can contain lifecycle methods like `update` and `destroy`. Here's a basic outline of how actions work:
+
+1. **Creating an Action**: To create an action, you define a function that takes at least one argument, the element it's attached to. This function can return an object with optional `update` and `destroy` methods. The `update` method is called whenever the parameters of the action change, and `destroy` is called when the element is removed from the DOM.
+
+2. **Using an Action**: You apply an action to a DOM element in your Svelte component using the `use` directive.
+
+Here's a simple example to illustrate:
+
+#### Defining a Simple Action
+
+Let's say you want to create an action that automatically focuses an input element when the component mounts:
+
+```javascript
+// focus.js
+export function autofocus(node) {
+  // Directly focus the DOM node
+  node.focus();
+
+  // No need for update or destroy in this case, but they could be added if necessary
+}
+```
+
+### Applying the Action in a Component
+
+You can then use this action in any component like so:
+
+```svelte
+<script>
+    import { autofocus } from './focus.js';
+</script>
+
+<input use:autofocus />
+```
+
+This example is quite basic, but actions can be much more complex and powerful. For instance, you could create an action to:
+
+- Implement drag-and-drop functionality by attaching mouse event listeners to the element.
+- Integrate with third-party libraries, such as initializing a date picker on an input element.
+- Add custom animations or transitions that are not easily achieved through Svelte's native capabilities.
+
+Svelte makes adding animations and transitions to your web applications straightforward and intuitive, enhancing user experience with visual feedback and smooth transitions. Let's explore how to add a simple fade transition to elements in a Svelte application, and then we'll look at a more interactive example.
+
+### Transitions and Animations
+
+Svelte's transition functions, such as `fade`, are part of the `svelte/transition` module. To use a fade transition on an element, first import `fade` from this module.
+
+**Example:**
+
+```svelte
+<script>
+  import { fade } from 'svelte/transition';
+  let isVisible = true;
+</script>
+
+<button on:click={() => (isVisible = !isVisible)}>
+  Toggle
+</button>
+
+{#if isVisible}
+  <div transition:fade={{ duration: 300 }}>
+    Fade me in and out
+  </div>
+{/if}
+```
+
+In this example, clicking the "Toggle" button shows or hides the `div` element with a fade effect over 300 milliseconds.
+
+import Transition from "../../components/lib/Transition.svelte";
+
+<Transition client:load />
+
+### Interactive Animation Example
+
+For a more interactive example, let's create a list where items can be added and removed, each with an animation. We'll use the `slide` transition to make items slide in and out.
+
+First, add `slide` to your imports:
+
+```svelte
+<script>
+  import { slide } from 'svelte/transition';
+  let items = ['Item 1', 'Item 2', 'Item 3'];
+</script>
+```
+
+Now, create a function to add a new item and another to remove an item:
+
+```javascript
+function addItem() {
+  items = [...items, `Item ${items.length + 1}`];
+}
+
+function removeItem(index) {
+  items = items.filter((_, i) => i !== index);
+}
+```
+
+Finally, render the list with transitions on each item:
+
+```svelte
+<button on:click={addItem}>Add Item</button>
+
+<ul>
+  {#each items as item, index (item)}
+    <li transition:slide={{ duration: 200 }}>
+      {item}
+      <button on:click={() => removeItem(index)}>Remove</button>
+    </li>
+  {/each}
+</ul>
+```
+
+In the `#each` block, we use the `slide` transition to animate the addition and removal of list items. The `(item)` key ensures that Svelte can uniquely identify each item for correct animation, especially during removals.
+
+import Animation from "../../components/lib/Animation.svelte";
+
+<Animation client:load />
+
+### Customizing Transitions
+
+Svelte's transitions can be customized extensively via parameters. For both `fade` and `slide`, you can adjust properties like `duration`, `delay`, and `easing` (to control the animation's timing function). Svelte also supports custom CSS transitions and animations, giving you complete control over your animations' look and feel.
+
+### Using the Basic Svelte Template
+
+If you're looking for something simpler or specifically want to work with just the Svelte library without the additional features offered by SvelteKit, you can start with the basic Svelte template.
+
+1. **Scaffold a New Svelte Project**:
+
+   ```bash
+   npx degit sveltejs/template svelte-app
+   cd svelte-app
+   ```
+
+   This creates a new Svelte project in a directory called `svelte-app`.
+
+2. **Install Dependencies**:
+
+   ```bash
+   npm install
+   ```
+
+3. **Start the Development Server**:
+
+   ```bash
+   npm run dev
+   ```
+
+### Let's go full-stack
+
+The developers behind Svelte created SvelteKit for building full-stack applications. I'll expand on it in the future.
+
+### Conclusion
+
+I love Svelte. Especially for my own personal website. I will continue to use it to build more complex apps as my go-to library.
+
+I'll leave you with the Svelte documentary.
+
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/kMlkCYL9qo0?si=F-8-3eZ7B7g8M2gJ"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>

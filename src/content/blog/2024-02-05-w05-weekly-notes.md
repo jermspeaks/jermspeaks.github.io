@@ -39,8 +39,6 @@ Also, as mentioned last week, I spent some time updating my newsletter service. 
 
 <iframe 
   class="aspect-video w-full"
-  width="560"
-  height="315"
   src="https://www.youtube.com/embed/lJH0HtTxEz0?si=sk57D7j83gUaq5Kr"
   title="YouTube video player"
   frameborder="0"
