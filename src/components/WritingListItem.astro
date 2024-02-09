@@ -28,12 +28,12 @@ const { post, condensed } = Astro.props;
   <p class="text-slate-800 dark:text-slate-300">
     <i>{post.data.description}</i>
   </p>
-  <div class="flex gap-4">
+  <div class="grid grid-cols-8 gap-0 md:gap-4">
     <FormattedDate
-      class="italic text-slate-600 dark:text-slate-300"
+      class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
       date={post.data.pubDate}
     />
-    <div>
+    <div class="col-span-8 md:col-span-5 lg:col-span-6 md:justify-self-end">
       {Array.isArray(post.data.tags) && " "}
       {
         Array.isArray(post.data.tags) &&
