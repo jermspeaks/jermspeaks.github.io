@@ -14,8 +14,6 @@ blurb: "Ira Glass, the host of This American Life, shared his insights on storyt
 
 <iframe
   class="aspect-video w-full my-2"
-  width="560"
-  height="315"
   src="https://www.youtube.com/embed/5pFI9UuC_fc?si=0nVMtlfE5D263P5v"
   title="YouTube video player"
   frameborder="0"
@@ -25,8 +23,6 @@ blurb: "Ira Glass, the host of This American Life, shared his insights on storyt
 
 <iframe
   class="aspect-video w-full my-2"
-  width="560"
-  height="315"
   src="https://www.youtube.com/embed/dx2cI-2FJRs?si=oBbXP6uqP4UGyJSF"
   title="YouTube video player"
   frameborder="0"
@@ -36,8 +32,6 @@ blurb: "Ira Glass, the host of This American Life, shared his insights on storyt
 
 <iframe
   class="aspect-video w-full my-2"
-  width="560"
-  height="315"
   src="https://www.youtube.com/embed/X2wLP0izeJE?si=3ihSN2D7jCCRXrkS"
   title="YouTube video player"
   frameborder="0"
