@@ -2,7 +2,7 @@
 description: "We are officially migrating off the old platform and onto a new one."
 draft: false
 pubDate: "2024-02-01"
-tags: ["announcement", "newsletter", "website", "season_4"]
+tags: ["announcement", "newsletter", "season_4"]
 title: "Newsletter Announcement: Introducing Buttondown"
 heroImage: https://images.unsplash.com/photo-1512236258305-32fb110fdb01?q=80&w=2374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 heroImageAlt: Unsplash image from Yannik Mika showing a row of mailboxes
