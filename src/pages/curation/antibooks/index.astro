@@ -29,7 +29,7 @@ const antiLibrary = (await getCollection("antiLibrary")).sort(
             <div class="col-span-4 sm:col-span-3">
               <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700">
                 <a
-                  class="visited:text-amber-600"
+                  class="hover:underline hover:text-purple-500 visited:text-amber-600"
                   href={`/curation/antibooks/${entry.slug}`}
                 >
                   {entry.data.title}
@@ -43,6 +43,7 @@ const antiLibrary = (await getCollection("antiLibrary")).sort(
       }
     </ul>
   </section>
+  <hr class="mt-10 mb-10" />
   <section>
     <ProseArticle>
       <h2 class="text-2xl mt-8 dark:text-white">What is an Anti-library?</h2>

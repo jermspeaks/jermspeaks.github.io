@@ -30,6 +30,16 @@ const bookLibrary = (await getCollection("book"))
       type: "books",
     },
   }));
+const antibookLibrary = (await getCollection("antiLibrary"))
+  .sort((a, b) => b.data.dateAdded.valueOf() - a.data.dateAdded.valueOf())
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      dateConsumed: item.data.dateAdded,
+      type: "antibooks",
+    },
+  }));
 const filmLibrary = (await getCollection("filmLibrary"))
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
   .map((item) => ({
@@ -51,7 +61,12 @@ const lindyLibrary = (await getCollection("lindy"))
   }));
 
 // Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_CURATED_ITEMS` items
-const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
+const combination = [
+  ...bookLibrary,
+  ...filmLibrary,
+  ...lindyLibrary,
+  ...antibookLibrary,
+]
   .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
   .slice(0, TOTAL_NUMBER_OF_CURATED_ITEMS);
 ---
@@ -88,7 +103,11 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
             </h3>
           </ProseArticle>
           <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
-            {latestPosts.map((post) => <WritingListItem post={post} condensed />)}
+            {
+              latestPosts.map((post) => (
+                <WritingListItem post={post} condensed />
+              ))
+            }
           </ul>
         </div>
         <div>
@@ -153,7 +172,11 @@ const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
                       class="italic text-slate-600 dark:text-slate-300"
                       date={item.data.dateConsumed}
                     >
-                      <span slot="prepend">First consumed:&nbsp;</span>
+                      {["antibooks"].includes(item.data.type) ? (
+                        <span slot="prepend">First added:&nbsp;</span>
+                      ) : (
+                        <span slot="prepend">First consumed:&nbsp;</span>
+                      )}
                     </FormattedDate>
                     <div class="mt-2 dark:text-slate-100">
                       {item.data.blurb}
