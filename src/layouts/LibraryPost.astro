@@ -1,8 +1,10 @@
 ---
-import type { CollectionEntry } from "astro:content";
 import ProseArticle from "../components/ProseArticle.astro";
 
-type Props = CollectionEntry<"book">["data"];
+type Props = {
+  heroImage?: string;
+  heroImageAlt?: string;
+}
 
 const { heroImage, heroImageAlt } = Astro.props;
 ---
