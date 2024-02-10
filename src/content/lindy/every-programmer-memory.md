@@ -5,6 +5,7 @@ heroImage: "https://images.unsplash.com/photo-1541029071515-84cc54f84dc5?q=80&w=
 heroImageAlt: "Solid state memory, photographed by Liam Briese"
 link: ''
 dateConsumed: "2015-03-01 03:00:00 GMT"
+pubDate: "2023-05-10"
 blurb: "A paper which provides an extensive exploration of memory, covering topics such as management, organization, and optimization. Despite being over a decade old, the paper remains highly relevant to software engineering today, as some of its insights and concepts continue to be applicable for optimal code performance."
 ---
 
