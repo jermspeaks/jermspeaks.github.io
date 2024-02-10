@@ -166,6 +166,10 @@ const lindy = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
     blurb: z.string().optional(),
   }),
 });

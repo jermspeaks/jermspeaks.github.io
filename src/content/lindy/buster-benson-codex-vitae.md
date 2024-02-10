@@ -5,6 +5,7 @@ heroImage: "https://busterbenson.com/assets/images/resized/800/beliefs.jpg"
 heroImageAlt: "Coat of arms that say Nullius In Verba"
 link: 'https://busterbenson.com/codex'
 dateConsumed: "2023-11-16 03:00:00 GMT"
+pubDate: "2024-02-10"
 blurb: "Over a decade ago, Buster Benson started his \"Codex Vitae\" or book of beliefs. He started small and re-visited it every year, updating his beliefs as his life changes."
 ---
 
