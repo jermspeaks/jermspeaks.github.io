@@ -1,0 +1,46 @@
+---
+import { getCollection } from "astro:content";
+import type { CollectionEntry } from "astro:content";
+import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("antiLibrary");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"antiLibrary">;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<CollectionDetailsPage
+  section="Anti-Library"
+  sectionSlug="antibooks"
+  title={post.data.title}
+>
+  <!-- <h1>{post.data.title}</h1> -->
+  <ProseArticle>
+    {
+      post.data.heroImage && (
+        <img
+          width={300}
+          height={150}
+          src={post.data.heroImage}
+          alt={post.data.heroImageAlt}
+          title={post.data.heroImageAlt}
+        />
+      )
+    }
+    {
+      post.data.heroImageAlt && (
+        <figcaption class="text-sm italic">{post.data.heroImageAlt}</figcaption>
+      )
+    }
+    <a href={post.data.link}>Purchase Link</a>
+    <Content />
+  </ProseArticle>
+</CollectionDetailsPage>

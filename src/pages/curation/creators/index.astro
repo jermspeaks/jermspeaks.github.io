@@ -1,0 +1,45 @@
+---
+import { getCollection } from "astro:content";
+import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+
+const antiLibrary = (await getCollection("creator")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<CurationDetailsPage title="Content Creators">
+  <section class="mb-8">
+    <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
+      {
+        antiLibrary.map((entry) => (
+          <li class="grid grid-cols-4 gap-4 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
+            <div class="col-span-4 sm:col-span-1">
+              <a
+                class="visited:text-amber-600 hover:grayscale"
+                href={`/curation/antibooks/${entry.slug}`}
+              >
+                <img
+                  alt={entry.data.heroImageAlt}
+                  src={entry.data.heroImage}
+                  width="200"
+                />
+              </a>
+            </div>
+            <div class="col-span-4 sm:col-span-3">
+              <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700">
+                <a
+                  class="hover:underline hover:text-purple-500 visited:text-amber-600"
+                  href={`/curation/antibooks/${entry.slug}`}
+                >
+                  {entry.data.title}
+                </a>
+              </div>
+              <div>{entry.data.bookAuthor}</div>
+              <div class="mt-2 dark:text-slate-100">{entry.data.blurb}</div>
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</CurationDetailsPage>
