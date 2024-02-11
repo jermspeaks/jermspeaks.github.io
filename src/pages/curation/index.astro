@@ -54,9 +54,18 @@ const logs = (await getCollection("log"))
       type: "log",
     },
   }));
+const creators = (await getCollection("creator"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "creators",
+    },
+  }));
 
 // Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_ITEMS` items
-const combination = [...bookLibrary, ...antibookLibrary, ...filmLibrary, ...lindyLibrary, ...logs]
+const combination = [...bookLibrary, ...antibookLibrary, ...filmLibrary, ...lindyLibrary, ...logs, ...creators]
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, TOTAL_NUMBER_OF_ITEMS);
 
