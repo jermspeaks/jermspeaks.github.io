@@ -191,6 +191,21 @@ const lindy = defineCollection({
   }),
 });
 
+const creator = defineCollection({
+  schema: z.object({
+    blurb: z.string().optional(),
+    creator: z.string(),
+    heroImage: z.string().optional(),
+    heroImageAlt: z.string().optional(),
+    link: z.string(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    title: z.string(),
+  }),
+});
+
 const about = defineCollection({
   schema: z.object({
     order: z.number(),
@@ -232,6 +247,7 @@ export const collections = {
   antiLibrary,
   blog,
   book,
+  creator,
   curation,
   filmLibrary,
   lindy,
