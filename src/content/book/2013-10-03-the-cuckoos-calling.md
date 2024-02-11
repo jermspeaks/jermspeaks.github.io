@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Robert Galbraith (J.K. Rowling)"
+creator: "Robert Galbraith (J.K. Rowling)"
 dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1540217136i/16160797.jpg"
 heroImageAlt: "Book cover for The Cuckoo's Calling"

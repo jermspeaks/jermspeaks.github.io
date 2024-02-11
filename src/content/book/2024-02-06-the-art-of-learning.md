@@ -1,6 +1,7 @@
 ---
 blurb: "Josh Waitzkin shares his unique systems of thematic learning, idea generation, building resilience, and mastering the art of performance psychology."
 bookAuthor: "Josh Waitzkin"
+creator: "Josh Waitzkin"
 dateConsumed: "2012-11-25"
 heroImage: "https://m.media-amazon.com/images/I/51GZMEe2iFL.jpg"
 heroImageAlt: "Book cover for The Art of Learning"

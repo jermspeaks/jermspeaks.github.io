@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Brene Brown"
+creator: "Brene Brown"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1337110319i/13588356.jpg"
 heroImageAlt: "Book cover for Daring Greatly"

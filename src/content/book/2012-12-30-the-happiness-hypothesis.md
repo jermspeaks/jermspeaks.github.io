@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Jonathon Haidt"
+creator: "Jonathon Haidt"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1348779688i/96884.jpg"
 heroImageAlt: "Book cover for The Happiness Hypothesis"

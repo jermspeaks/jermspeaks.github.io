@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Charles Duhigg"
+creator: "Charles Duhigg"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1545854312i/12609433.jpg"
 heroImageAlt: "Book cover for The Power of Habit"

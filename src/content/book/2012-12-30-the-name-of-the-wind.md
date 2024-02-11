@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Patrick Rothfuss"
+creator: "Patrick Rothfuss"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1270352123i/186074.jpg"
 heroImageAlt: "Book cover for The Name of the Wind"

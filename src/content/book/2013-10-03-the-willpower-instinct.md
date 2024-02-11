@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Kelly McGonigal"
+creator: "Kelly McGonigal"
 dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436737104i/10865206.jpg"
 heroImageAlt: "Book cover for The Willpower Instinct"

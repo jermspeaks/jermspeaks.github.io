@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Douglas Stone"
+creator: "Douglas Stone"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1375064486i/18114120.jpg"
 heroImageAlt: "Book cover for Thanks for the Feedback"

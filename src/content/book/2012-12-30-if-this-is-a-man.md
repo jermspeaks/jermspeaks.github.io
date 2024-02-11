@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Primo Levi"
+creator: "Primo Levi"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1606823551i/6181.jpg"
 heroImageAlt: "Book cover for If This Is A Man"

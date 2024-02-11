@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Anthony Bourdain"
+creator: "Anthony Bourdain"
 dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1433739086i/33313.jpg"
 heroImageAlt: "Book cover for Kitchen Confidential"

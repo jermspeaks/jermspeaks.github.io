@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Linda Leaming"
+creator: "Linda Leaming"
 dateConsumed: "2023-05-23"
 heroImage: "https://images-na.ssl-images-amazon.com/images/I/51q7AU2zLzL._SL600_.jpg"
 heroImageAlt: "Book cover for Field Guide to Happiness"

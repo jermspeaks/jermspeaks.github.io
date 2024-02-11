@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Walter Issacson"
+creator: "Walter Issacson"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630510455i/10883.jpg"
 heroImageAlt: "Book cover for Benjamin Franklin: An American Life"

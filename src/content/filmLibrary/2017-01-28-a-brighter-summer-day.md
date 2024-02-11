@@ -1,6 +1,7 @@
 ---
 dateConsumed: "2017-01-29 03:00:00 GMT"
 director: "Edward Yang"
+creator: "Edward Yang"
 heroImage: "https://a.ltrbxd.com/resized/film-poster/4/2/0/8/9/42089-a-brighter-summer-day-0-230-0-345-crop.jpg?v=8812319159"
 heroImageAlt: "Film Poster for A Brighter Summer Day"
 link: "https://www.justwatch.com/us/movie/a-brighter-summer-day"

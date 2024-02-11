@@ -1,5 +1,6 @@
 ---
 bookAuthor: "William B. Irvine"
+creator: "William B. Irvine"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1547348819i/5617966.jpg"
 heroImageAlt: "Book cover for A Guide to the Good Life"

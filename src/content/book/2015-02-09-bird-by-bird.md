@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Anne Lamott"
+creator: "Anne Lamott"
 dateConsumed: "2014-12-06"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1631772636i/12543.jpg"
 heroImageAlt: "Book cover for Bird by Bird"

@@ -1,6 +1,7 @@
 ---
 title: "Ready Player One"
 bookAuthor: "Ernest Cline"
+creator: "Ernest Cline"
 dateConsumed: "2012-04-18"
 pubDate: "2012-04-18"
 heroImage: "https://68.media.tumblr.com/tumblr_m2ahw4TjVX1qz81kho1_250.jpg"

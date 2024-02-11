@@ -1,6 +1,7 @@
 ---
 title: Excellent Advice for Living
 bookAuthor: "Kevin Kelly"
+creator: "Kevin Kelly"
 dateConsumed: "2023-05-21"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667852408i/62313346.jpg"
 heroImageAlt: "Book cover for Excellent Advice for Living"

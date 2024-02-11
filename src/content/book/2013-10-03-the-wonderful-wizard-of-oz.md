@@ -1,5 +1,6 @@
 ---
 bookAuthor: "L. Frank Baum"
+creator: "L. Frank Baum"
 dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1398003737i/236093.jpg"
 heroImageAlt: "Book cover for The Wonderful Wizard of Oz"

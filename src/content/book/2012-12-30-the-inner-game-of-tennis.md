@@ -1,5 +1,6 @@
 ---
 bookAuthor: "W. Timothy Gallwey"
+creator: "W. Timothy Gallwey"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1427665815i/905.jpg"
 heroImageAlt: "Book cover for The inner game of tennis"

@@ -1,6 +1,7 @@
 ---
 title: "Cradle to Cradle: Remaking the Way We Make Things"
 bookAuthor: "William McDonough & Michael Braungart"
+creator: "William McDonough & Michael Braungart"
 dateConsumed: "2012-05-02"
 pubDate: "2012-05-02"
 heroImage: "https://68.media.tumblr.com/tumblr_m39ym2JUA81qz81kho1_250.gif"

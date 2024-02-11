@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Baratunde Thurston"
+creator: "Baratunde Thurston"
 dateConsumed: "2012-03-07"
 pubDate: "2012-03-07"
 heroImage: "https://68.media.tumblr.com/tumblr_lznp8flhcJ1qz81kho1_500.jpg"

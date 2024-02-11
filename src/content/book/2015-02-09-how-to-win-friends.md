@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Dale Carnegie"
+creator: "Dale Carnegie"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442726934i/4865.jpg"
 heroImageAlt: "Book cover for How to Win Friends and Influence People"

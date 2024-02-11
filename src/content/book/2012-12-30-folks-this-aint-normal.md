@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Joel Salatin"
+creator: "Joel Salatin"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1311272277i/11521956.jpg"
 heroImageAlt: "Book cover for Folks, this ain't normal"

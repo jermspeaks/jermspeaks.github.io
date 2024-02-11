@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Morgan Housel"
+creator: "Morgan Housel"
 dateConsumed: "2024-02-08"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg"
 heroImageAlt: "Book cover for The Psychology of Money"

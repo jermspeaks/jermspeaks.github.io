@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Philip Kiely"
+creator: "Philip Kiely"
 dateAdded: "2023-01-10"
 heroImage: "https://wfsd.com/assets/img/wfsd_paper_render.jpg"
 heroImageAlt: "Book cover for Writing for Software Developers"
