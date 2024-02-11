@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Peter Seibel"
+creator: "Peter Seibel"
 dateAdded: "2014-08-01"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349026758i/6713575.jpg"
 heroImageAlt: "Book cover for Coders At Work"

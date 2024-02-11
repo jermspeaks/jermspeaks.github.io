@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Grant Achatz and Nick Kokonas"
+creator: "Grant Achatz and Nick Kokonas"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1298005883i/8667490.jpg"
 heroImageAlt: "Book cover for Life, on the Line"

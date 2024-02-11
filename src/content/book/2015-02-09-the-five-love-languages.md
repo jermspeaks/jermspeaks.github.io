@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Gary Chapman"
+creator: "Gary Chapman"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432487272i/23878688.jpg"
 heroImageAlt: "Book cover for The 5 Love Languages"

@@ -1,6 +1,7 @@
 ---
 title: Buster Benson's Codex Vitae
-author: Buster Benson
+author: "Buster Benson"
+creator: "Buster Benson"
 heroImage: "https://busterbenson.com/assets/images/resized/800/beliefs.jpg"
 heroImageAlt: "Coat of arms that say Nullius In Verba"
 link: 'https://busterbenson.com/codex'

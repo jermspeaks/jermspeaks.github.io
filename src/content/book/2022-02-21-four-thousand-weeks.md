@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Oliver Burkeman"
+creator: "Oliver Burkeman"
 dateConsumed: "2022-02-21"
 heroImage: "https://m.media-amazon.com/images/I/412kxZO5s7L._SX322_BO1,204,203,200_.jpg"
 heroImageAlt: "Book cover for Four Thousand Weeks"

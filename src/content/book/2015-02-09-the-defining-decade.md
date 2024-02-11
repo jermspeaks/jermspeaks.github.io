@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Meg Jay, Ph.D"
+creator: "Meg Jay, Ph.D"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1529594243i/40603783.jpg"
 heroImageAlt: "Book cover for The Defining Decade"

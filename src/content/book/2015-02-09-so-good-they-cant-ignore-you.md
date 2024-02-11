@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Cal Newport"
+creator: "Cal Newport"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1360564614i/13525945.jpg"
 heroImageAlt: "Book cover for So Good They Can't Ignore You"

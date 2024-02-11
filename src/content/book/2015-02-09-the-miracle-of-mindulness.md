@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Thich Nhat Hanh"
+creator: "Thich Nhat Hanh"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1320448079i/95747.jpg"
 heroImageAlt: "Book cover for The Miracle of Mindfulness"

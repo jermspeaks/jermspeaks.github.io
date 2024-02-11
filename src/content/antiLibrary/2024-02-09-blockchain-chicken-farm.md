@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Xiaowei Wang"
+creator: "Xiaowei Wang"
 dateAdded: "2024-02-09"
 heroImage: "https://mpd-biblio-covers.imgix.net/9780374538668.jpg?w=900"
 heroImageAlt: "Book cover for Blockchain Chicken Farm"

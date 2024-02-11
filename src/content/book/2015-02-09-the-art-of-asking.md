@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Amanda Palmer"
+creator: "Amanda Palmer"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408547261i/20980987.jpg"
 heroImageAlt: "Book cover for The Art Of Asking"

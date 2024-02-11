@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Chade-Meng Tan"
+creator: "Chade-Meng Tan"
 dateAdded: "2024-02-09"
 heroImage: "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/515qI6QtDeL._SY445_SX342_.jpg"
 heroImageAlt: "Book cover for Search Inside Yourself"

@@ -1,6 +1,7 @@
 ---
 title: "Stumbling on Happiness"
 bookAuthor: "Daniel Gilbert"
+creator: "Daniel Gilbert"
 dateConsumed: "2012-04-04"
 pubDate: "2012-04-04"
 heroImage: "https://68.media.tumblr.com/tumblr_m1h8q5pEzZ1qz81kho1_250.jpg"

@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Kio Stark"
+creator: "Kio Stark"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1364915938i/17726184.jpg"
 heroImageAlt: "Book cover for Don't Go Back To School"

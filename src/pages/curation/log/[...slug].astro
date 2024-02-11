@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
 import LogPost from "../../../layouts/LogPost.astro";
 import type { CollectionEntry } from "astro:content";
@@ -14,6 +14,16 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"log">;
 
 const post = Astro.props;
+let previousEntry: Props | null = null;
+let nextEntry: Props | null = null;
+
+if (post.data.previousEntry) {
+  previousEntry = await getEntry(post.data.previousEntry);
+}
+if (post.data.nextEntry) {
+  nextEntry = await getEntry(post.data.nextEntry);
+}
+
 const { Content } = await post.render();
 ---
 
@@ -25,5 +35,19 @@ const { Content } = await post.render();
   <LogPost {...post.data}>
     <!-- <h1>{post.data.title}</h1> -->
     <Content />
+    <div class="flex justify-between">
+      {
+        previousEntry && (
+          <a href={`/curation/log/${previousEntry.slug}`}>
+            ⬅️ Previous: {previousEntry.data.title}
+          </a>
+        )
+      }
+      {
+        nextEntry && (
+          <a href={`/curation/log/${nextEntry.slug}`}>Next: {nextEntry.data.title} ➡️</a>
+        )
+      }
+    </div>
   </LogPost>
 </CollectionDetailsPage>

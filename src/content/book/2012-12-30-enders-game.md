@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Orson Scott Card"
+creator: "Orson Scott Card"
 dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408303130i/375802.jpg"
 heroImageAlt: "Book cover for Ender's Game"

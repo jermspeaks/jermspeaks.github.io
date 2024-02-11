@@ -1,6 +1,7 @@
 ---
 title: Ira Glass on Storytelling
-author: Ira Glass
+author: "Ira Glass"
+creator: "Ira Glass"
 heroImage: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS__A5jam3cTG4wzYkpLoKveUTojRwabvnz8-grAZsUYJi5Ggx2"
 heroImageAlt: "Courtesy of Vulture"
 link: "https://www.thisamericanlife.org/extras/ira-glass-on-storytelling"

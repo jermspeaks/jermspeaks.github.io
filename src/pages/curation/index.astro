@@ -4,10 +4,12 @@ import FormattedDate from "../../components/FormattedDate.astro";
 import CurationPage from "../../layouts/CurationPage.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 import CurationItem from "../../components/CurationItem.astro";
+import type { Code } from "astro:components";
 
 const TOTAL_NUMBER_OF_ITEMS = 6;
+
 const bookLibrary = (await getCollection("book"))
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
     ...item,
     data: {
@@ -15,8 +17,17 @@ const bookLibrary = (await getCollection("book"))
       type: "books",
     },
   }));
+const antibookLibrary = (await getCollection("antiLibrary"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "antibooks",
+    },
+  }));
 const filmLibrary = (await getCollection("filmLibrary"))
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
     ...item,
     data: {
@@ -26,7 +37,7 @@ const filmLibrary = (await getCollection("filmLibrary"))
   }));
 // const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
 const lindyLibrary = (await getCollection("lindy"))
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
     ...item,
     data: {
@@ -34,10 +45,19 @@ const lindyLibrary = (await getCollection("lindy"))
       type: "lindy",
     },
   }));
+const logs = (await getCollection("log"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "log",
+    },
+  }));
 
 // Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_ITEMS` items
-const combination = [...bookLibrary, ...filmLibrary, ...lindyLibrary]
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+const combination = [...bookLibrary, ...antibookLibrary, ...filmLibrary, ...lindyLibrary, ...logs]
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, TOTAL_NUMBER_OF_ITEMS);
 
 const curations = (await getCollection("curation")).sort((a, b) =>
@@ -93,21 +113,13 @@ const curations = (await getCollection("curation")).sort((a, b) =>
                 </a>
               </div>
               <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700 font-thin">
-                {item.data.type === "books" && (
-                  <>Author:&nbsp;{item.data.bookAuthor}</>
-                )}
-                {item.data.type === "films" && (
-                  <>Dir:&nbsp;{item.data.director}</>
-                )}
-                {!["books", "films"].includes(item.data.type) && (
-                  <>{item.data.author}</>
-                )}
+                Created By:&nbsp;{item.data.creator}
               </div>
               <FormattedDate
                 class="italic text-slate-600 dark:text-slate-300"
-                date={item.data.dateConsumed}
+                date={item.data.pubDate}
               >
-                <span slot="prepend">First consumed:&nbsp;</span>
+                <span slot="prepend">Published:&nbsp;</span>
               </FormattedDate>
               <div class="mt-2 dark:text-slate-100">{item.data.blurb}</div>
             </div>

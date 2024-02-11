@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Jill Bolte Taylor, Ph.D."
+creator: "Jill Bolte Taylor, Ph.D."
 dateConsumed: "2012-05-23"
 heroImage: "https://68.media.tumblr.com/tumblr_m4d0yvu1G71qz81kho1_400.jpg"
 heroImageAlt: "Book cover for My Stroke of Insight"

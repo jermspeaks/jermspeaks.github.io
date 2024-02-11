@@ -1,6 +1,7 @@
 ---
 title: "Thinking, Fast and Slow"
 bookAuthor: "Daniel Kahneman"
+creator: "Daniel Kahneman"
 dateConsumed: "2012-05-09"
 pubDate: "2012-05-09"
 heroImage: "https://68.media.tumblr.com/tumblr_m3n16d8nEM1qz81kho1_400.jpg"

@@ -1,6 +1,7 @@
 ---
 dateConsumed: "2018-02-14 03:00:00 GMT"
 director: "Ryan Coogler"
+creator: "Ryan Coogler"
 heroImage: "https://a.ltrbxd.com/resized/sm/upload/4i/ao/9w/sf/zwPYTHFCgWYHRW1OoxE23dxZZRX-0-230-0-345-crop.jpg?v=f56e9553ca"
 heroImageAlt: "Film Poster for Fruitvale Station"
 link: "https://www.justwatch.com/us/movie/fruitvale-station"

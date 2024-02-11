@@ -1,5 +1,6 @@
 ---
 bookAuthor: "Dale Carnegie"
+creator: "Dale Carnegie"
 dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1421842784i/36072.jpg"
 heroImageAlt: "Book cover for 7 Habits of Highly Effective People"
