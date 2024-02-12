@@ -4,7 +4,6 @@ import FormattedDate from "../../components/FormattedDate.astro";
 import CurationPage from "../../layouts/CurationPage.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 import CurationItem from "../../components/CurationItem.astro";
-import type { Code } from "astro:components";
 
 const TOTAL_NUMBER_OF_ITEMS = 6;
 
@@ -35,7 +34,7 @@ const filmLibrary = (await getCollection("filmLibrary"))
       type: "films",
     },
   }));
-// const posts = (await getCollection("blog")).filter((post) => !post.data.draft);
+// const posts = (await getCollection("writing")).filter((post) => !post.data.draft);
 const lindyLibrary = (await getCollection("lindy"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({

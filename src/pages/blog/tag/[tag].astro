@@ -5,7 +5,7 @@ import WritingLayout from "../../../layouts/Writing.astro";
 import WritingListItem from "../../../components/WritingListItem.astro";
 
 export async function getStaticPaths() {
-  const posts = await getCollection("blog");
+  const posts = await getCollection("writing");
   // Get unique tags
   const tags = new Set<string>();
   posts.forEach((post) => {
@@ -30,7 +30,7 @@ export async function getStaticPaths() {
 }
 
 type Props = {
-  posts: CollectionEntry<"blog">[];
+  posts: CollectionEntry<"writing">[];
   tag: string;
 };
 

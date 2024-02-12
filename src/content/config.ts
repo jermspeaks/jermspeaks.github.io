@@ -1,30 +1,33 @@
 import { defineCollection, reference, z } from "astro:content";
 // import { rssSchema } from "@astrojs/rss";
 
-const blog = defineCollection({
+const writing = defineCollection({
   // Type-check frontmatter using a schema
-  schema: z.object({
-    author: z.string().default("Jeremy Wong"),
-    categories: z.array(z.string()).optional(),
-    commentsUrl: z.string().optional(),
-    customData: z.string().optional(),
-    description: z.string(),
-    draft: z.boolean().optional(),
-    heroImage: z.string().optional(),
-    heroImageAlt: z.string().optional(),
-    minutesRead: z.string().optional(),
-    // Transform string to Date object
-    pubDate: z
-      .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
-    tags: z.array(z.string()).optional(),
-    title: z.string(),
-    updatedDate: z
-      .string()
-      .optional()
-      .transform((str) => (str ? new Date(str) : undefined)),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      author: z.string().default("Jeremy Wong"),
+      categories: z.array(z.string()).optional(),
+      commentsUrl: z.string().optional(),
+      customData: z.string().optional(),
+      description: z.string(),
+      draft: z.boolean().optional(),
+      coverImage: image().optional(),
+      coverImageAlt: z.string().default('Cover image for blog post'),
+      heroImage: z.string().optional(),
+      heroImageAlt: z.string().optional(),
+      minutesRead: z.string().optional(),
+      // Transform string to Date object
+      pubDate: z
+        .string()
+        .or(z.date())
+        .transform((val) => new Date(val)),
+      tags: z.array(z.string()).default([]),
+      title: z.string(),
+      updatedDate: z
+        .string()
+        .optional()
+        .transform((str) => (str ? new Date(str) : undefined)),
+    }),
 });
 
 const log = defineCollection({
@@ -245,7 +248,6 @@ const curation = defineCollection({
 export const collections = {
   about,
   antiLibrary,
-  blog,
   book,
   creator,
   curation,
@@ -256,4 +258,5 @@ export const collections = {
   project,
   resume,
   series,
+  writing,
 };

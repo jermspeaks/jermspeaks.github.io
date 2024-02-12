@@ -5,18 +5,16 @@ import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
-import NavigationLinks from "../components/NavigationLinks.astro";
 import TitleHeading from "../components/TitleHeading.astro";
-import writingLinks from "../utils/writingLinks";
 
 type Props = {
   title?: string;
   currentTag?: string;
 };
 
-const topTags = ["newsletter", "essay", "learning", "archive"];
+const topTags = ["essay", "newsletter", "learning", "archive"];
 
-const posts = await getCollection("blog");
+const posts = await getCollection("writing");
 // Get unique tags
 const tags = new Set<string>();
 posts.forEach((post) => {
@@ -60,7 +58,6 @@ const { title = "Writing", currentTag } = Astro.props;
     <Header />
     <main class="max-w-[65ch] mx-auto">
       <TitleHeading>{title}</TitleHeading>
-      <!-- <NavigationLinks items={writingLinks} /> -->
       <ul
         class="flex flex-wrap md:flex-nowrap gap-2 list-none m-0 p-0 print:hidden"
       >

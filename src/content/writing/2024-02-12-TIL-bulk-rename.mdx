@@ -1,0 +1,42 @@
+---
+description: "Obsidian gems of 2023, another terrible thing happened in Florida, restoring children deafness, giant parasol could alleviate Global Warming, and Tailwind criticism."
+draft: false
+pubDate: "2024-02-12"
+tags: ["TIL", "programming"]
+title: Bulk Rename MacOS CLI
+coverImage: '../../images/TIL.png'
+coverImageAlt: Image from Boston University showing Today I learned
+---
+
+I have a bunch of files I want to rename using the `rename` utility.
+
+If you've installed the `rename` utility on your Mac, you can use it to mass rename files in the terminal. The `rename` utility typically follows a specific syntax, and it's quite powerful for renaming multiple files according to certain patterns or rules.
+
+import Aside from '../../components/Aside.astro'
+
+<Aside type="tip" title="Config">
+To install `rename` on MacOS terminal, do the following
+```sh
+brew install rename
+```
+</Aside>
+
+Here's a basic example of how you can use the `rename` utility:
+
+```sh
+rename 's/old_pattern/new_pattern/' files_to_rename
+```
+
+For my markdown files, I have the following
+
+```sh
+rename 's/-clearlabs//' *-clearlabs.md
+```
+
+When dealing with filenames that contain spaces, you'll need to escape those spaces in your command. Here's how you can do it using the `rename` command:
+
+```sh
+rename 's/ Clear Labs//' *.md
+```
+
+This command will remove the substring " Clear Labs" (including the space) from all `.md` files in the current directory.
