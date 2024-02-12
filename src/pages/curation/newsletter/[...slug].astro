@@ -16,7 +16,7 @@ type Props = CollectionEntry<"series">;
 
 const series = Astro.props;
 
-const posts = (await getCollection("blog")).filter(
+const posts = (await getCollection("writing")).filter(
   (post) =>
     Array.isArray(post.data.tags) && post.data.tags.includes(series.data.tag)
 );

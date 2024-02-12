@@ -3,7 +3,7 @@ import { getCollection } from "astro:content";
 import WritingLayout from "../../layouts/Writing.astro";
 import WritingListItem from "../../components/WritingListItem.astro";
 
-const posts = (await getCollection("blog"))
+const posts = (await getCollection("writing"))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
