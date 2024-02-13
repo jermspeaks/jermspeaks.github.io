@@ -3,9 +3,18 @@ title: Holiday Card Charity Drive 2019
 permalink: /projects/holiday-charity-2019
 description: Donate to Global Giving for a holiday card
 createdDate: "2019-12-05"
+coverImage: "../../images/holiday-card-charity-drive.png"
+imageAlt: Title card for my holiday card charity
 ---
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/tOXmg5mGpGQ" frameborder="0" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/tOXmg5mGpGQ"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 
 Happy holidays! I’m in a jolly mood and would like to present to you my annual holiday card charity drive. This year, the card will be drawn by my AxiDraw robot, then painted over in lovely colors. In return, I have one ask. Can you share some love to people who are less fortunate than you?
 
