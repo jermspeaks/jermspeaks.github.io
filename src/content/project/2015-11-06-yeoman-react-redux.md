@@ -4,6 +4,8 @@ permalink: /projects/yeoman-react-redux
 description: Code generator for React & Redux Projects
 # project_link: https://github.com/jermspeaks/generator-react-redux
 createdDate: "2015-06-21"
+coverImage: "../../images/yo-react-redux.png"
+imageAlt: "Screenshot of terminal with yeoman generator"
 ---
 
 Yeoman is a code generator in Javascript. This open-source library is for generating React Components, Redux actions and reducers.

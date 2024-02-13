@@ -1,6 +1,7 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import FormattedDate from "./FormattedDate.astro";
+import { Image } from "astro:assets";
 
 export interface Props {
   project: CollectionEntry<"project">;
@@ -12,7 +13,12 @@ const { project } = Astro.props;
 <li
   class="bg-yellow-50 dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl flex-grow-0 flex-[48%]"
 >
-  <img class="w-full" src={project.data.image} alt={project.data.imageAlt} />
+  {project.data.coverImage && (
+    <Image src={project.data.coverImage} alt={project.data.imageAlt} />
+  )}
+  {project.data.image && (
+    <img class="w-full" src={project.data.image} alt={project.data.imageAlt} />
+  )}
   <div class="font-bold text-xl mb-2 dark:text-gray-200">
     <a
       class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"

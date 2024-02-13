@@ -7,8 +7,8 @@ description: Healthcare application to help geriatrics.
   Project from 2015 Philips Hackathon in SF.
 # project_link: https://github.com/jermspeaks/coral-reef-game
 createdDate: "2015-03-07"
-# image: /images/flitr.jpg
-# imageAlt: Screenshot of Flitr app
+coverImage: ../../images/philips-hackathon.png
+imageAlt: Philips Hackathon Dashboard
 url: /coral-reef-game
 ---
 
@@ -16,7 +16,7 @@ As part of the Philips HealthSuite Digital Platform Hackathon, I created a dashb
 The goal was to combine the patient dashboard with his physician and primary care taker.
 If you'd like to learn more, please check out the slides below.
 
-![Philips Hackathon Dashboard](/images/philips-hackathon.png)
+![Philips Hackathon Dashboard](../../images/philips-hackathon.png)
 
 ## Slides
 

@@ -7,17 +7,24 @@ description:
   Project part of IBM Watson's 2016 Hackathon challenge.
 project_link: https://www.medicaremojo.com/
 createdDate: "2016-04-02"
-# image: /images/flitr.jpg
-# url: /coral-reef-game
+coverImage: ../../images/mm-ibm-hack.png
+imageAlt: "medicaremojo app screenshots"
 ---
 
 I wrote a backend for an application that utilizes IBM Watson to pick out topics from an article extractor. I ingested a medicare document to see if it could find the keywords.
 
 [Github Project Page](https://github.com/medicaremojo/ibmhack)
 
-![medicaremojo app screenshots](/images/mm-ibm-hack.png)
+![medicaremojo app screenshots](../../images/mm-ibm-hack.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/N-x-24C38Kk" frameborder="0" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full"
+  src="https://www.youtube.com/embed/N-x-24C38Kk"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen
+></iframe>
 
 ## What we're up to
 

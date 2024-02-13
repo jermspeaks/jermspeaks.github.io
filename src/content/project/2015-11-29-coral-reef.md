@@ -4,9 +4,10 @@ permalink: /projects/coral-reef
 name: Coral Reef Game
 description: Board game to teach children about coral reefs.
   Project from Science Hack Day 2015
-# project_link: https://github.com/jermspeaks/coral-reef-game
 createdDate: "2015-11-29"
 url: /coral-reef-game
+coverImage: ../../images/lego-coral.png
+imageAlt: "Lego coral reef"
 ---
 
 A Science Hack Day SF 2015 hack.
@@ -23,7 +24,7 @@ They are also habitat to species that make up our interconnected food chain.
 This cooperative board game is to help kids understand what impacts coral reefs and they can do about it.
 
 > "This much is certain: We have the power to damage the sea, but no sure way to heal the harm."
-
+>
 > -- Dr. Sylvia Earle, "Sea Change: A Message of the Oceans"
 
 ### Game Details

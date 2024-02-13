@@ -12,7 +12,7 @@ const writing = defineCollection({
       description: z.string(),
       draft: z.boolean().optional(),
       coverImage: image().optional(),
-      coverImageAlt: z.string().default('Cover image for blog post'),
+      coverImageAlt: z.string().default("Cover image for blog post"),
       heroImage: z.string().optional(),
       heroImageAlt: z.string().optional(),
       minutesRead: z.string().optional(),
@@ -63,17 +63,19 @@ const log = defineCollection({
 });
 
 const project = defineCollection({
-  schema: z.object({
-    // Transform string to Date object
-    createdDate: z
-      .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
-    description: z.string(),
-    title: z.string(),
-    image: z.string().optional(),
-    imageAlt: z.string().optional(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      // Transform string to Date object
+      createdDate: z
+        .string()
+        .or(z.date())
+        .transform((val) => new Date(val)),
+      coverImage: image().optional(),
+      description: z.string(),
+      image: z.string().optional(),
+      imageAlt: z.string().optional(),
+      title: z.string(),
+    }),
 });
 
 const series = defineCollection({

@@ -5,13 +5,15 @@ description: Given a word, display images of that word and related words.
   Part of my code challenge for Reverb.
 # project_link: https://github.com/jermspeaks/word-images
 createdDate: "2014-10-15"
+coverImage: ../../images/word-image.png
+imageAlt: Word to image app screenshot
 ---
 
 When you search for a word, it displays the images for that word and related words. The application is supposed to show related images, so that will be on the next revision.
 
 [Github Project Page](https://github.com/jermspeaks/word-images)
 
-![Word to image app screenshot](/images/word-image.png)
+![Word to image app screenshot](../../images/word-image.png)
 
 ### Technologies:
 

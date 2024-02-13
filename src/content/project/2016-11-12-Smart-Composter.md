@@ -4,9 +4,8 @@ permalink: /projects/compost
 name: Smart Composter
 description: Smart composter using IoT Sensors and the Grow-IoT library.
   Project from Science Hack Day 2016
-# project_link: https://jermspeaks.github.io/webvr-demo/?polyfill=1
-# image: /images/webvr-demo.png
-# url: /projects/zika
+coverImage: ../../images/grow-polymer-elements.png
+imageAlt: "Grow Elements in Polymer"
 createdDate: "2016-11-12"
 ---
 
@@ -28,11 +27,11 @@ I also helped Jake integrate d3 charts with his Polymer app.
 
 [Github Page](https://github.com/CommonGarden/grow-elements)
 
-![Grow Elements](/images/grow-polymer-elements.png)
+![Grow Elements](../../images/grow-polymer-elements.png)
 
 ## Documentation
 
-![Compost poster for science hack day](/images/compost-poster.png)
+![Compost poster for science hack day](../../images/compost-poster.png)
 
 ![pH Schematics](https://github.com/jermspeaks/compost/blob/master/schematics/pH_I2C_schem.png?raw=true)
 

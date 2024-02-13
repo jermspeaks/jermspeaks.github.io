@@ -8,8 +8,8 @@ description: Underwater groundwater device that allows you to determine
   Project from Science Hack Day 2014
 createdDate: "2014-10-05"
 project_link: https://github.com/groundwaterhack/groundwaterhack.github.io
-# image: /images/flitr.jpg
-# imageAlt: Screenshot of Flitr app
+coverImage: ../../images/groundwater-goal.png
+imageAlt: Groundwater prototype
 # url: /projects/ng-pacman
 ---
 
@@ -30,19 +30,19 @@ The following is from the presentation given at Science Hack Day.
 
 ### Math!
 
-![Groundwater spacing](/images/groundwater-spaced.png)
+![Groundwater spacing](../../images/groundwater-spaced.png)
 
 Space electrodes evenly
 
-![Groundwater outer distance](/images/groundwater-outer.png)
+![Groundwater outer distance](../../images/groundwater-outer.png)
 
 Inject current in OUTER pair
 
-![Groundwater inner distance](/images/groundwater-inner.png)
+![Groundwater inner distance](../../images/groundwater-inner.png)
 
 Measure voltage across INNER pair
 
-![Groundwater depth](/images/groundwater-depth.png)
+![Groundwater depth](../../images/groundwater-depth.png)
 
 Depth:
 
@@ -50,7 +50,7 @@ Depth:
 z = a / 2
 ```
 
-![Groundwater resistivity](/images/groundwater-resistivity.png)
+![Groundwater resistivity](../../images/groundwater-resistivity.png)
 
 Resistivity:
 
@@ -61,13 +61,13 @@ Resistivity:
 ρ low = WATER!  
 ρ high = DRY!
 
-![Groundwater distance to depth](/images/groundwater-distance.png)
+![Groundwater distance to depth](../../images/groundwater-distance.png)
 
 As distance `a` increases, the depth of signal increases
 
 ## Recap
 
-![Groundwater prototype](/images/groundwater-goal.png)
+![Groundwater prototype](../../images/groundwater-goal.png)
 
 - Low-cost groundwater detection is necessary to measure groundwater usage on a wide scale!
 - The Arduino was chosen to use for data logging purposes
