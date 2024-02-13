@@ -15,7 +15,9 @@ The domain is registered with [Hover](https://www.hover.com/).
 
 ### Typography
 
-This website uses “Brother 1816”, a font by Ignacio Corbo and Fernando Díaz of [TipoType](https://tipotype.com/).
+This website uses "Merriweather Sans", an open-source font retrieved from [fontsource](https://fontsource.org/fonts/merriweather-sans). The font was crated by [Sorkin Type](https://www.sorkintype.com/).
+
+This website uses "Brother 1816", a font by Ignacio Corbo and Fernando Díaz of [TipoType](https://tipotype.com/).
 
 I love using Futura when I have time to go to the letterpress shop at [San Francisco Centter for the Book](https://sfcb.org/).
 

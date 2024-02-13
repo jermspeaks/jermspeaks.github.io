@@ -23,6 +23,7 @@
     "@codemirror/language": "^6.10.1",
     "@codemirror/state": "^6.3.3",
     "@codemirror/view": "^6.23.1",
+    "@fontsource-variable/merriweather-sans": "^5.0.9",
     "@tailwindcss/typography": "^0.5.10",
     "@types/codemirror": "^5.60.15",
     "@types/html-escaper": "^3.0.2",
