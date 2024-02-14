@@ -1,0 +1,26 @@
+[
+  { "name": "Communications" },
+  { "name": "Communications/Written Language" },
+  { "name": "Communications/Written Language/Printing Press" },
+  { "name": "Communications/Written Language/Printing Press/Newspapers" },
+  { "name": "Communications/Written Language/Printing Press/Books" },
+  { "name": "Communications/Electronic" },
+  { "name": "Communications/Electronic/Telegraph" },
+  { "name": "Communications/Electronic/Telegraph/Radio" },
+  { "name": "Communications/Electronic/Telegraph/Radio/Television" },
+  {
+    "name": "Communications/Electronic/Telegraph/Radio/Television/Satellite TV"
+  },
+  { "name": "Communications/Electronic/Telegraph/Radio/Internet" },
+  {
+    "name": "Communications/Electronic/Telegraph/Radio/Internet/Social Media"
+  },
+  {
+    "name": "Communications/Electronic/Telegraph/Radio/Internet/Streaming Services"
+  },
+  { "name": "Communications/Electronic/Telephony" },
+  { "name": "Communications/Electronic/Telephony/Mobile Phones" },
+  {
+    "name": "Communications/Electronic/Telephony/Mobile Phones/Smartphones"
+  }
+]

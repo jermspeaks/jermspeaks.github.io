@@ -1,0 +1,52 @@
+---
+title: Technology Tree
+description: Visualized Technology Tree, templated for easy customization, with the help of ChatGPT.
+createdDate: "2024-02-13"
+coverImage: "../../images/tech-tree.png"
+imageAlt: "Screenshot of tech tree"
+---
+
+import TechnologyTree from "../../components/lib/TechnologyTree.svelte";
+import technologies from "../../components/data/treePlot.json";
+
+The goal of this project was to explore video game technology trees. I wanted an easy way to
+generate a visualization without too much hassle.
+
+My end goal is to have it clickable so that as I progress through my game, I can have a duplicate
+tree on this side that I can play with and to see what I need to do to unlock the next leaf,
+as well as review its benefits.
+
+<div class="not-prose">
+  <TechnologyTree client:load technologies={technologies} />
+</div>
+
+In my first attempt building a technology tree, I used the base example of communications technologies.
+This was generated from ChatGPT where I prompted it to create one using some technologies I'm familiar with.
+Ultimately, I need to have it in Svelte, and if I could utilize d3.js, I would. It falls short ultimately because
+it feels like the customizations not where I want it to be, and the updates I want to make appear challenging.
+
+import TidyTree from "../../components/lib/TidyTree.svelte";
+
+<TidyTree client:load />
+
+I took a step back and reviewed the code ChatGPT came up with. While it was spot on what it was supposed to build,
+the way it went about it appeared wrong. If you've explored observable's collection of [d3.hierarchy examples](https://observablehq.com/collection/@d3/d3-hierarchy),
+you'll find a gallery of examples that are similar to where I want to build. So I stepped back and instead of going
+full d3, I used their Plot library. This is their tidy tree example, after massaging the data to fit its form.
+
+
+import IndentedTree from "../../components/lib/IndentedTree.svelte";
+
+<IndentedTree client:load />
+
+In Plot's [tree mark docs](https://observablehq.com/plot/marks/tree), there was an indented tree that I really liked.
+I also learned how to deliminate the data to fit the form better, and make it a lot easier to generate.
+I've been thinking quite a lot about graphs and trees because I think it's yet another way to create an exploratory learning environment
+where others can click through the parts that most interest them. And the path to get there is of least resistance.
+It's like rock climbers finding their path up to the top, and other climbers often traverse in similar or different ways.
+
+### Future Endeavors
+
+This project isn't complete. I want to make it clickable, and be able to generate a lot of data for someone to explore
+the tree slowly, and while you've highlighted that item, it will appear to be new content the viewer can review. 
+I'm not sure how the content works as I update the visualization, but I'll figure it out.
