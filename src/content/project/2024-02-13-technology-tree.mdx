@@ -1,0 +1,89 @@
+---
+title: Technology Tree
+description: Visualized Technology Tree, templated for easy customization, with the help of ChatGPT.
+createdDate: "2024-02-13"
+coverImage: "../../images/piano.png"
+imageAlt: "Screenshot of piano app"
+---
+
+import TechnologyTree from "../../components/lib/TechnologyTree.svelte";
+export const technologies = {
+  name: "Communications",
+  children: [
+    {
+      name: "Written Language",
+      children: [
+        {
+          name: "Printing Press",
+          children: [
+            {
+              name: "Newspapers",
+              children: [],
+            },
+            {
+              name: "Books",
+              children: [],
+            },
+          ],
+        },
+      ],
+    },
+    {
+      name: "Electronic",
+      children: [
+        {
+          name: "Telegraph",
+          children: [
+            {
+              name: "Radio",
+              children: [
+                {
+                  name: "Television",
+                  children: [
+                    {
+                      name: "Satellite TV",
+                      children: [],
+                    },
+                  ],
+                },
+                {
+                  name: "Internet",
+                  children: [
+                    {
+                      name: "Social Media",
+                      children: [],
+                    },
+                    {
+                      name: "Streaming Services",
+                      children: [],
+                    },
+                  ],
+                },
+              ],
+            },
+          ],
+        },
+        {
+          name: "Telephony",
+          children: [
+            {
+              name: "Mobile Phones",
+              children: [
+                {
+                  name: "Smartphones",
+                  children: [],
+                },
+              ],
+            },
+          ],
+        },
+      ],
+    },
+  ],
+};
+
+<div class="not-prose">
+  <TechnologyTree client:load technologies={technologies} />
+</div>
+
+In my first attempt building a technology tree, I used the base example of communications technologies.
