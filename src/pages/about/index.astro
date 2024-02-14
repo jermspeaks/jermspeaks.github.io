@@ -6,6 +6,7 @@ import AboutLayout from "../../layouts/About.astro";
 import aboutLinks from "../../utils/aboutLinks";
 import NavigationLinks from "../../components/NavigationLinks.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
+import profilePicture from "../../images/profile-pic.png";
 
 const aboutItems = await getCollection("about");
 ---
@@ -18,9 +19,8 @@ const aboutItems = await getCollection("about");
   <Image
     width={420}
     height={420}
-    src="../../images/profile-pic.png"
-    alt="My profile picture"
-    slot="image"
+    src={profilePicture}
+    alt="My profile picture" 
     class="mx-auto rounded-full drop-shadow-md hover:grayscale"
   />
   <NavigationLinks slot="navigation" items={aboutLinks} />
