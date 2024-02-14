@@ -92,7 +92,13 @@ radius of the selected circle.
   </div>
 
   {#if resizing}
-    <div class="overlay" on:click={endResize} />
+    <div 
+      class="overlay"
+      on:click={endResize}
+      on:keydown={endResize}
+      tabindex="0"
+      role="button"
+    />
     <div class="resizer">
       <p>Adjust radius of circle at ({resizing.x}, {resizing.y})</p>
       <p>{radius}</p>

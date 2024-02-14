@@ -22,7 +22,6 @@
   <input
     id={"input-" + key}
     value={$data[key] || ""}
-    autofocus
     on:focus={() => handleFocus(key)}
     on:blur={() => handleBlur(key)}
     on:keydown={(e) => handleKeydown(e, j, i)}
