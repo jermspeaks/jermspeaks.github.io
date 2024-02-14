@@ -12,9 +12,8 @@ const writing = defineCollection({
       description: z.string(),
       draft: z.boolean().optional(),
       coverImage: image().optional(),
-      coverImageAlt: z.string().default("Cover image for blog post"),
       heroImage: z.string().optional(),
-      heroImageAlt: z.string().optional(),
+      heroImageAlt: z.string().default("Cover image for blog post"),
       minutesRead: z.string().optional(),
       // Transform string to Date object
       pubDate: z

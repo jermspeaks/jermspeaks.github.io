@@ -13,7 +13,6 @@ type Props = CollectionEntry<"writing">["data"];
 const {
   description,
   coverImage,
-  coverImageAlt,
   heroImage,
   heroImageAlt,
   minutesRead,
@@ -40,10 +39,10 @@ const {
                 width={720}
                 height={360}
                 src={coverImage}
-                alt={coverImageAlt}
+                alt={heroImageAlt}
               />
-              {coverImageAlt && (
-                <figcaption class="text-sm italic">{coverImageAlt}</figcaption>
+              {heroImageAlt && (
+                <figcaption class="text-sm italic">{heroImageAlt}</figcaption>
               )}
             </figure>
           )

@@ -18,15 +18,15 @@ _Goal:_ Create a fun way to make people aware of phone use and chronic neck pain
 
 ### Ideation Phase
 
-<img src="/images/sloths-ideation.jpg" alt="Idea Cloud for PSA" width="600" />
+![Idea Cloud for PSA](../../images/sloths-ideation.jpg)
 
 ### Storyboarding Phase
 
-<img src="/images/sloths-storyboarding.jpg" alt="Storyboarding for PSA" width="600" />
+![Storyboarding for PSA](../../images/sloths-storyboarding.jpg)
 
 ### First Drafts
 
-<img src="/images/sloths-first-draft.jpg" alt="First draft for PSA" width="600" />
+![First draft for PSA](../../images/sloths-first-draft.jpg)
 
 ## Credits
 

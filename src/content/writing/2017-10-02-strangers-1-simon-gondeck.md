@@ -3,17 +3,17 @@ title: "Seven Degrees of Strangers: First Separation"
 date: 2017-10-02
 description: "Simon Gondeck"
 pubDate: "2017-10-02"
-heroImage: ""
-
+coverImage: "../../images/7_DOS_Simon_Graphic.png"
+heroImageAlt: Simon wearing letterman with head as computer screen
 permalink: /:categories/season-three/:title.html
 tags: ["newsletter", "season_3", "letters"]
 ---
 
-![7 Degrees of Strangers Letterhead](/images/7_Degrees_Of_Strangers_Letterhead.png)
+![7 Degrees of Strangers Letterhead](../../images/7_Degrees_Of_Strangers_Letterhead.png)
 
 ## Introduction
 
-Welcome to the next installment of the Jear-Bear Letters. After a half year 
+Welcome to the next installment of the Jear-Bear Letters. After a half year
 hiatus, we're back with a new series called "Seven Degrees of Strangers".
 
 The title is a play on "Seven Degrees of Separation" where you are at most
@@ -22,11 +22,11 @@ stranger on the street, I could trace them to at most seven degrees of
 separation until I found a connection.
 
 Over the course of the next 7 weeks, I will write about the conversation I
-had with 7 people, each one degree of separation away. I've chosen 
-communication as the theme for each conversation, trying to understand what it 
-means to communicate to each other and how can we build connections when we 
-don't know the stranger. You'll get to hear their stories and experiences, and 
-how I relate to them. 
+had with 7 people, each one degree of separation away. I've chosen
+communication as the theme for each conversation, trying to understand what it
+means to communicate to each other and how can we build connections when we
+don't know the stranger. You'll get to hear their stories and experiences, and
+how I relate to them.
 
 ### Why are you doing this project?
 
@@ -61,27 +61,27 @@ friend, I wanted to probe him about starting a company. Simon did not disappoint
 ## Enter Simon
 
 Simon's a recent grad from the University of St. Thomas with a B.S. in
-Accounting. I met Simon three years ago at a software bootcamp. At the time, 
+Accounting. I met Simon three years ago at a software bootcamp. At the time,
 he was on his summer break; he was one of the younger members of our cohort. He clicked with me because I grew up in the Bay Area and he wanted to know if I knew G-Eazy. I didn't, but I know people who knows the rapper, and Simon kept asking more questions about the Bay Area.
 
-And I loved Simon's enthusiasm. We paired programmed a few times and hung out 
-outside of the program. I got Simon to join our final team project where we 
-created a social network for grieving. Simon was a total team player and 
+And I loved Simon's enthusiasm. We paired programmed a few times and hung out
+outside of the program. I got Simon to join our final team project where we
+created a social network for grieving. Simon was a total team player and
 whooped my ass into gear when we took a break at the gym.
 
-Simon's an athlete and spent his college term playing lacrosse player. 
-Unfortunately, at the time we were talking, he was recovering from an injury 
-when we had the interview. I realize that he's a person to go to for my 
+Simon's an athlete and spent his college term playing lacrosse player.
+Unfortunately, at the time we were talking, he was recovering from an injury
+when we had the interview. I realize that he's a person to go to for my
 atheletic questions, so in the future, I'll be reaching out to him more.
 
-<img src="/images/7_DOS_Simon_Graphic.png" alt="Simon wearing letterman with head as computer screen" width="600" />
+<!-- ![Simon wearing letterman with head as computer screen](../../images/7_DOS_Simon_Graphic.png) -->
 
 ### MG Web Partners
 
 After the software bootcamp, Simon returned to school, living in St. Paul,
-Minnesota. He got a part-time job working at a web consulting company. While on the job, he discovered he was compensated far less than the contract stipulated. 
+Minnesota. He got a part-time job working at a web consulting company. While on the job, he discovered he was compensated far less than the contract stipulated.
 
-An epiphany came when he was at a yoga class. The studio were in need of a 
+An epiphany came when he was at a yoga class. The studio were in need of a
 website, but all of the contractors they found were out of their budget. Simon and his friend Johnny and he drafted a reasonable offer, and they got their first contract. [MG Web Partners](https://www.mgwebpartners.com/) was born.
 
 #### Lessons on Starting a Business
@@ -99,11 +99,12 @@ customers. They sent out an email campaign last June, seen below.
 > and development company called MG Web Partners.
 > We specialize in building businesses remarkable websites that deliver new
 > customers and drive revenue.
->  
->  We help three kinds of companies:  
->  1. Companies with outdated websites  
->  2. Companies with poorly designed websites  
->  3. Or Companies that just need a new website
+>
+> We help three kinds of companies:
+>
+> 1.  Companies with outdated websites
+> 2.  Companies with poorly designed websites
+> 3.  Or Companies that just need a new website
 >
 > Most companies fit one of these three scenarios, so if you know of anyone,
 > please forward them my contact information and I promise we’ll take good
@@ -142,13 +143,13 @@ frequently. I had a few recommendations for him.
 
 - **Write a minimum amount every day.** I choose a page a day.
 - **Read "Bird by Bird"** by Anne Lammont, or at least the chapter on "Shitty
-First Drafts".
+  First Drafts".
 - **Don't be afraid to delete.** This one took me a long time. In fact, while writing this section, I deleted half of my work because it didn't matter.
 - **Don't expect success.** As counter-intuitive as it may be, that piece of advice helped me release what I consider terrible writing to my letter friends. A few of those letters have been very well received, like my "Caltrain Suicides" letter and my "Lost Keys" letter.
 - **Editing is just as important as writing.** And its corallary: **Polishing takes more time than writing.**
 - **Find peers to review your writing.** Earlier on in my letter writing, I decided to open up each letter for critique.
-I reached out on Twitter to see who could be my critique, and a few people
-helped me. I'd send a draft out, and they would give me some helpful criticism.
+  I reached out on Twitter to see who could be my critique, and a few people
+  helped me. I'd send a draft out, and they would give me some helpful criticism.
 
 ### Take-aways
 
@@ -159,7 +160,7 @@ I asked Simon what's one thing he wants people to take away with.
 
 ### Next Week
 
-At the end of each interview, I asked the participant to choose the next person for me to interview. At first, I was loose on criteria, but as I progressed with each interview, I decided to give the participants a question. Who is someone you know you would like to hear an interview from? 
+At the end of each interview, I asked the participant to choose the next person for me to interview. At first, I was loose on criteria, but as I progressed with each interview, I decided to give the participants a question. Who is someone you know you would like to hear an interview from?
 
 I didn't get to ask Simon this question, yet he knew intuitively I was looking for someone interesting. And he didn't disappoint. Hope that's tease enough for you to continue reading.
 
@@ -167,11 +168,11 @@ I didn't get to ask Simon this question, yet he knew intuitively I was looking f
 
 I'd like to thank Simon Gondeck for being the very first participant. Without you, I wouldn't have started this journey. I'd also like to thank Evan Roer for illustrating the series' letterhead and an accompanying graphic for this letter. Both of you rock.
 
-<section class="landing-middle-banner">
+<!-- <section class="landing-middle-banner">
 	<div>
 	  <a href="/letters/season-two/">Previous Season</a>
 	</div>
 	<div>
 	  <a href="/letters/season-three/strangers-2-Evan-Roar.html">Next Letter</a>
 	</div>
-</section>
+</section> -->

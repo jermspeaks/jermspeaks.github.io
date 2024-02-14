@@ -3,13 +3,13 @@ title: "Seven Degrees of Strangers: Fourth Separation"
 date: 2017-10-23
 description: "Mary Aipoalani"
 pubDate: "2017-10-23"
-heroImage: ""
-
+coverImage: "../../images/7_DOS_Mary_Graphic.png"
+heroImageAlt: "Mary's information on a cocktail napkin"
 permalink: /:categories/season-three/:title.html
 tags: ["newsletter", "season_3", "letters"]
 ---
 
-![7 Degrees of Strangers Letterhead](/images/7_Degrees_Of_Strangers_Letterhead.png)
+![7 Degrees of Strangers Letterhead](../../images/7_Degrees_Of_Strangers_Letterhead.png)
 
 ## Introduction
 
@@ -62,7 +62,7 @@ Mary told this to an Uber driver once. He said, "You inspire me." He is sold on 
 
 Mary's pitched this idea to television producers and they say she could get a TV show deal. It sounds appealing because it acts on our human tendencies to want to connect. And she doesn't do it to flirt with strangers. Mary's more interested in the stories people have to tell. 
 
-<img src="/images/7_DOS_Mary_Graphic.png" alt="Mary's information on a cocktail napkin" />
+<!-- ![Mary's information on a cocktail napkin](../../images/7_DOS_Mary_Graphic.png) -->
 
 ### Takeaway message
 
