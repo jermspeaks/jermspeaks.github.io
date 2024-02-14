@@ -1,0 +1,52 @@
+{
+  "name": "Communications",
+  "children": [
+    {
+      "name": "Written Language",
+      "children": [
+        {
+          "name": "Printing Press",
+          "children": [
+            { "name": "Newspapers", "children": [] },
+            { "name": "Books", "children": [] }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "Electronic",
+      "children": [
+        {
+          "name": "Telegraph",
+          "children": [
+            {
+              "name": "Radio",
+              "children": [
+                {
+                  "name": "Television",
+                  "children": [{ "name": "Satellite TV", "children": [] }]
+                },
+                {
+                  "name": "Internet",
+                  "children": [
+                    { "name": "Social Media", "children": [] },
+                    { "name": "Streaming Services", "children": [] }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Telephony",
+          "children": [
+            {
+              "name": "Mobile Phones",
+              "children": [{ "name": "Smartphones", "children": [] }]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
