@@ -1,5 +1,6 @@
 ---
 import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
 import AboutContent from "../../components/AboutContent.astro";
 import AboutLayout from "../../layouts/About.astro";
 import aboutLinks from "../../utils/aboutLinks";
@@ -14,10 +15,10 @@ const aboutItems = await getCollection("about");
   title="About Me"
   updatedDate={new Date("April 27 2022")}
 >
-  <img
+  <Image
     width={420}
     height={420}
-    src="/profile-pic.png"
+    src="../../images/profile-pic.png"
     alt="My profile picture"
     slot="image"
     class="mx-auto rounded-full drop-shadow-md hover:grayscale"

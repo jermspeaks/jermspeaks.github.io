@@ -3,13 +3,13 @@ title: "Seven Degrees of Strangers: Third Separation"
 date: 2017-10-11
 description: "Joe Lazzara"
 pubDate: "2017-10-11"
-heroImage: ""
-
+coverImage: "../../images/7DOS_Joe_Graphic.png"
+heroImageAlt: "Joe leaves his suit in the closet and wears a butcher's apron"
 permalink: /:categories/season-three/:title.html
 tags: ["newsletter", "season_3", "letters"]
 ---
 
-![7 Degrees of Strangers Letterhead](/images/7_Degrees_Of_Strangers_Letterhead.png)
+![7 Degrees of Strangers Letterhead](../../images/7_Degrees_Of_Strangers_Letterhead.png)
 
 ## Announcements
 
@@ -68,7 +68,7 @@ After that, he consulted for a few years. But Joe grew tired on traveling around
 
 Carmel, Indiana is a progressive city and their mayor wanted to build a city center. The mayor asked Joe if he wanted to start a restaurants there. When Joe asked his wife, she objected. She told him they have three children, ages 3, 5, and 7, and he wouldn't be there for them at night. Joe remembered his friend, Mark Zannoni. He was also Italian, and Mark's father owned a butcher shop outside of Chicago. Joe asked his wife about a butcher shop, and she agreed that would be a better choice.
 
-<img src="/images/7DOS_Joe_Graphic.png" alt="Joe leaves his suit in the closet and wears a butcher's apron" width="600" />
+<!-- <img src="/images/7DOS_Joe_Graphic.png" alt="Joe leaves his suit in the closet and wears a butcher's apron" width="600" /> -->
 
 They put about a year of work into opening the shop before it opened. The first year's return was at a loss, but since then, they've been on the up. They're netting a few million a year, and it has become such an integral piece to the community. Joe's been at it for 11 years. You can find the butcher shop and fish market's website at the end of the article.
 
