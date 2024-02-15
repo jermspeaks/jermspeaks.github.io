@@ -1,0 +1,42 @@
+---
+description: "Creating a regular expression for decimal points"
+draft: false
+pubDate: "2024-02-15"
+tags: ["TIL", "programming"]
+title: Regex for Decimal Points
+coverImage: '../../images/TIL.png'
+heroImageAlt: Image from Boston University showing Today I learned
+---
+
+I needed a regular expression for checking if a number has 1 decimal point.
+Here's the regular expression ChatGPT came up with: `/^\d+(\.\d{1})?$/`
+
+Of course, it wasn't actually the correct requirement. 
+It needed to check if it's an integer (no decimal points). 
+And if it is a decimal point, it can be at most one. 
+
+I screwed up and tried to pair two quantifiers together.
+So if you have `?` and you want to use `{0,1}`, you can't do `{0.1}?`.
+
+And I didn' need the group, although in retrospect, using the quantifier on the 
+group works, but removing the group makes the `?` obsolete.
+
+Here's what I ultimately came up with.
+
+```js
+function validateToOneOrNoDecimalPoint(number) {
+    // Regular expression to match numbers with either 0 or 1 decimal point (optional)
+    const regex = /^\d+\.?\d{0,1}$/;
+    return regex.test(number);
+}
+
+// Example usage:
+console.log(validateToOneOrNoDecimalPoint(3.5));   // true
+console.log(validateToOneOrNoDecimalPoint(10));    // true
+console.log(validateToOneOrNoDecimalPoint(2.34));  // false (more than one decimal point)
+console.log(validateToOneOrNoDecimalPoint(5.));    // true (no decimal point)
+console.log(validateToOneOrNoDecimalPoint(5));     // true (no decimal point)
+```
+
+And I added even more test cases, and used `regex.match` over `regex.test`.
+Subtle difference.
