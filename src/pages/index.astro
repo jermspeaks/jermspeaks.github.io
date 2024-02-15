@@ -22,7 +22,7 @@ const lastProjects = (await getCollection("project"))
 
 const TOTAL_NUMBER_OF_CURATED_ITEMS = 6;
 const bookLibrary = (await getCollection("book"))
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
     ...item,
     data: {
@@ -31,7 +31,7 @@ const bookLibrary = (await getCollection("book"))
     },
   }));
 const antibookLibrary = (await getCollection("antiLibrary"))
-  .sort((a, b) => b.data.dateAdded.valueOf() - a.data.dateAdded.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
     ...item,
     data: {
@@ -41,7 +41,7 @@ const antibookLibrary = (await getCollection("antiLibrary"))
     },
   }));
 const filmLibrary = (await getCollection("filmLibrary"))
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
     ...item,
     data: {
@@ -51,7 +51,7 @@ const filmLibrary = (await getCollection("filmLibrary"))
   }));
 // const posts = (await getCollection("writing")).filter((post) => !post.data.draft);
 const lindyLibrary = (await getCollection("lindy"))
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
     ...item,
     data: {
@@ -67,7 +67,7 @@ const combination = [
   ...lindyLibrary,
   ...antibookLibrary,
 ]
-  .sort((a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf())
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, TOTAL_NUMBER_OF_CURATED_ITEMS);
 ---
 
