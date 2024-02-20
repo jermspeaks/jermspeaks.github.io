@@ -10,15 +10,19 @@ type Props = {
   section: string;
   sectionSlug: string;
   title: string;
+  description?: string;
 };
 
-const { section, sectionSlug, title } = Astro.props;
+const { section, sectionSlug, title, description } = Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead
+      title={title || SITE_TITLE}
+      description={description || SITE_DESCRIPTION}
+    />
   </head>
   <BaseBody>
     <Header />
