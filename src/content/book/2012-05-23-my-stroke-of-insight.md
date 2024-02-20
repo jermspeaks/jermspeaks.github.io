@@ -14,7 +14,13 @@ The book I’ve read last week was Dr. Jill Bolte Taylor’s “My Stroke of Ins
 
 [Original Post](https://jermspeaks.com/post/23614392227/the-book-ive-read-last-week-was-dr-jill-bolte)
 
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/en/jill_bolte_taylor_my_stroke_of_insight" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<iframe 
+  class="aspect-video w-full my-2"
+  src="https://embed.ted.com/talks/lang/en/jill_bolte_taylor_my_stroke_of_insight"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
 ### Updates 2015-02-09
 

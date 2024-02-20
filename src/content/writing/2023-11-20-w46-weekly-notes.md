@@ -31,7 +31,12 @@ I use a version of a resonance calendar, but it's more like what sparks. I put i
   - [Over 500 employees protested](https://twitter.com/karaswisher/status/1726599700961521762), asking to reinstate Sam and Greg. One of the signatories included Ilya Sutskever who was on the board.
     - He includes [regrets about the board's decision](https://twitter.com/ilyasut/status/1726590052392956028)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/9iqn1HhFJ6c?si=mxTVhcwo4YaEL_eC" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/9iqn1HhFJ6c"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
 - In other news, [Cruise CEO resigns](https://twitter.com/kvogt/status/1726428099217400178)
 - What the OpenAI fallout means for the rest of us? [[Shawn Swyx Wang]] has [predictions](https://www.latent.space/p/the-end-of-openai)

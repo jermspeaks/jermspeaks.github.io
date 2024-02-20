@@ -19,7 +19,7 @@ I took this idea of "Weekly Notes" from [Jamie Tanna](https://www.jvt.me/) who I
   - ![](https://cdn.masto.host/enosmtown/media_attachments/files/111/120/641/540/173/957/original/67e575312802ac02.jpg)
 - I would love to train an AI to teach [dying languages](https://unesdoc.unesco.org/ark:/48223/pf0000192416). It was inspiring to see OpenAI use GPT-4 to [help the Government of Iceland](https://openai.com/customer-stories/government-of-iceland) with this problem.
 - Watched Martin Kleppmann's talk from Strangeloop: "New algorithms for collaborative text editing"
-  - <iframe width="560" height="315" src="https://www.youtube.com/embed/Mr0a5KyD6BU?si=s7QHNtPA_FN2CH4l" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+  - <iframe class="aspect-video w-full my-2" src="https://www.youtube.com/embed/Mr0a5KyD6BU" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   - Absolutely fascinating how he breaks down the algorithms in [Automerge](https://automerge.org/).
   - I had no idea Martin (et al) came up with the idea of [local-first](https://www.inkandswitch.com/local-first/)
   - For those who don't know, Martin wrote [Designing Data-Intensive Applications](https://dataintensive.net/) , which is like the bible for distributed computing.

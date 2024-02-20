@@ -24,7 +24,7 @@ I'm calling my 2024 the "Year of Renewal". I'm going to write up a blog post abo
 - Coming Soon: [📮 Oxford Notes: eBook Edition - Jamoe](https://www.jamoe.org/note-taking)
 
 <iframe 
-  class="aspect-video w-full"
+  class="aspect-video w-full  my-2"
   width="560"
   height="315"
   src="https://www.youtube.com/embed/yvhv7bgmz64?si=CcI0KWvOUiqTTjLx"

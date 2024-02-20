@@ -21,6 +21,7 @@ const { Content } = await post.render();
   section="Films"
   sectionSlug="films"
   title={post.data.title}
+  description={post.data.blurb}
 >
   <FilmLibraryPost {...post.data}>
     <Content />

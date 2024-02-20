@@ -38,7 +38,7 @@ Also, as mentioned last week, I spent some time updating my newsletter service. 
   - A group of Israeli scientists wants to send a giant sail into space to block a portion of solar radiation. The shade in this artist’s rendering is enhanced to illustrate the concept.
 
 <iframe 
-  class="aspect-video w-full"
+  class="aspect-video w-full my-2"
   src="https://www.youtube.com/embed/lJH0HtTxEz0?si=sk57D7j83gUaq5Kr"
   title="YouTube video player"
   frameborder="0"

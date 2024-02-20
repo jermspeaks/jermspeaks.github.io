@@ -34,6 +34,11 @@ My roommate Mark keeps asking the question, “What’s the point?” while we w
 
 The best counter example I know of for someone who didn’t let their body’s pain get to their mind was Stuart Scott, ESPN anchor. In the following video, Scott talks about his struggle with cancer and shows us what’s possible when faced with death.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/kOWM_VuxxQ0" frameborder="0" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/kOWM_VuxxQ0"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
 Reading this book, I couldn’t help but well up and cry, get depressed, get overwhelmed by the emotions Peter was going through. And then, it’s followed by hope, knowing that I can make the most out of life. My biggest take-away is not to let this moment slip again and really determine what my own purpose is for my life.

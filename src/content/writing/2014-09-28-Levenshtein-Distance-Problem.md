@@ -5,14 +5,9 @@ date: 2014-09-28
 pubDate: "2014-09-28"
 description: ""
 heroImage: ""
-
 ---
 
-
-
-![Levenshtein Distance Matrix](https://www.levenshtein.net/images/levenshtein_meilenstein_matrix.gif)
-
-> Levenshtein Distance Matrix
+![Levenshtein Distance Matrix](http://www.levenshtein.net/images/levenshtein_meilenstein_matrix.gif)
 
 The Levenshtein Distance problem, also known as the edit distance problem, is to find the lowest cost path to turn one string to another string. It is commonly used in spell checking, Google search results for 'did you mean...', and DNA sequencing (Bioinformatics).
 
@@ -40,7 +35,13 @@ The result is at the bottom right corner, which will tell you the minimum cost o
 
 My coding club looked at this algorithm with no prior knowledge of this problem and tried to understand it. Now that I've taken the time to review this, I have a much deeper understanding of this now.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/EciZzD_27iI" frameborder="0" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/EciZzD_27iI"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
 ---
 
@@ -50,4 +51,10 @@ Levenshtein distance implementation in different programming languages
 
 MIT course on Algorithms: Levenshtein distance problem explained with dynamic programming
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ocZMDMZwhCY" frameborder="0" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/ocZMDMZwhCY"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>

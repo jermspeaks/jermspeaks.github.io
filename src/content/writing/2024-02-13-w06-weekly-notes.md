@@ -17,7 +17,7 @@ Solidifying my Weekly Review Template has been extremely useful. It reminds me w
 I found a YouTube short about this woman who lost her job, and her reaction was to be happy. Like of course it's going to garner views, and she even admits it's not the normal reaction people have to being fired.
 
 <iframe 
-  class="aspect-video w-full"
+  class="aspect-video w-full my-2"
   src="https://www.youtube.com/embed/3Lsv-BA0IDw"
   title="YouTube video player"
   frameborder="0"

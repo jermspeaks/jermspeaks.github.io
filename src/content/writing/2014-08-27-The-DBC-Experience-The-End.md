@@ -24,7 +24,14 @@ It's still a bit too early to see the outcome of this program on me, which may t
 - It's perfectly fine to cry in a room of adults, even if you're the only one doing it.
 - As adults, we forget all too often that we really try hard to hide embarrassment in front of others. Stop worrying about that. If they talk about you, what's the worst that could happen?
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V74AxCqOTvg" frameborder="0" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/V74AxCqOTvg"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
+
 
 I'm by far not the first person to blog about my experiences at DBC, and I can not do it justice in one blog posts. As I learn more about myself and what has really been the most telling things that I should have been working on all along, I'll share it.
 

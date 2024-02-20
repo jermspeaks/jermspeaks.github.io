@@ -52,7 +52,7 @@ const { title = "Writing", currentTag } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead title={title || SITE_TITLE} description={SITE_DESCRIPTION} />
   </head>
   <BaseBody>
     <Header />

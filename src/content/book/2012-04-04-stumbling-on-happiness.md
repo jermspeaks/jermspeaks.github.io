@@ -17,4 +17,10 @@ This Week’s Book Review: “Stumbling on Happiness” by Daniel Gilbert. This 
 
 Despite being a book about happiness, this isn't a self-help book about how to become happy. It's actually Dr. Gilbert's research into perception and cognitive biases and how our imagination deceives us. The book is profound with it's findings, but I didn't think it has much value in immediate changes. You have to think about it for a while and be aware of how our mind deceives us. [Obligatory TED Talk](https://www.ted.com/talks/dan_gilbert_the_surprising_science_of_happiness).
 
-<div style="max-width:854px"><div style="position:relative;height:0;padding-bottom:56.25%"><iframe src="https://embed.ted.com/talks/lang/en/dan_gilbert_the_surprising_science_of_happiness" width="854" height="480" style="position:absolute;left:0;top:0;width:100%;height:100%" frameborder="0" scrolling="no" allowfullscreen></iframe></div></div>
+<iframe 
+  class="aspect-video w-full my-2"
+  src="https://embed.ted.com/talks/lang/en/dan_gilbert_the_surprising_science_of_happiness"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>

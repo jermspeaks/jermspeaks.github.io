@@ -18,7 +18,7 @@ I wrote a backend for an application that utilizes IBM Watson to pick out topics
 ![medicaremojo app screenshots](../../images/mm-ibm-hack.png)
 
 <iframe
-  class="aspect-video w-full"
+  class="aspect-video w-full my-2"
   src="https://www.youtube.com/embed/N-x-24C38Kk"
   title="YouTube video player"
   frameborder="0"

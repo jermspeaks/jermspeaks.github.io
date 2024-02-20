@@ -22,4 +22,9 @@ heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
 - [BFI Sight and Sound 50 best films of 2023](https://www.bfi.org.uk/sight-and-sound/polls/50-best-films-2023)
 - [CSS Wrapped 2023](https://developer.chrome.com/blog/css-wrapped-2023)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/-2W89vXGwu4?si=RttLcL-HW-QE0zuv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/-2W89vXGwu4"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
