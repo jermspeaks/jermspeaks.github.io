@@ -1,0 +1,55 @@
+---
+import { getCollection } from "astro:content";
+import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
+import FormattedDate from "../../../components/FormattedDate.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("classified");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"classified">;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<CollectionDetailsPage
+  section="Classifieds"
+  sectionSlug="classified"
+  title={post.data.title}
+  description={post.data.blurb}
+>
+  <ProseArticle>
+    <div
+      class="grid grid-cols-3 gap-4 border-b-2 pb-2 border-solid border-gray-300"
+    >
+      <div class="col-span-3 md:col-span-3">
+        <div class="italic text-slate-600 dark:text-slate-300">
+          Published:
+          <FormattedDate date={post.data.pubDate} />
+        </div>
+        <div class="italic text-slate-600 dark:text-slate-300">
+          Location: {post.data.location}
+        </div>
+        <div>
+          <a href={post.data.link}>Link for Classified</a>
+        </div>
+        <div>
+          {
+            post.data.tags.map((tag) => (
+              <span class="inline-block bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                {tag}
+              </span>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+    <Content />
+  </ProseArticle>
+</CollectionDetailsPage>
