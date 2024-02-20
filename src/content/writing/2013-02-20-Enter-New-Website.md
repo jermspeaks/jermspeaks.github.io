@@ -1,12 +1,10 @@
 ---
-tags: ["archive", "blog", "post"]
+tags: ["archive", "blog", "post", "website"]
 title: Enter New Website
 date: 2013-02-20
 pubDate: "2013-02-20"
-
 description: ""
 heroImage: ""
-
 ---
 
 ## On Starting
