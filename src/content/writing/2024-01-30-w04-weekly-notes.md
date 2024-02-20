@@ -11,7 +11,7 @@ heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
 The YouTube algorithm said, it's time to get into Chess, so that's what I dived into this week. I was introduced to [Anna Cramling](https://www.youtube.com/@AnnaCramling), whose YouTube videos were really interesting to think about the moves as they were happening real-time.
 
 <iframe 
-  class="aspect-video w-full"
+  class="aspect-video w-full my-2"
   width="560"
   height="315"
   src="https://www.youtube.com/embed/k0uNoCI2Wqk?si=CcI0KWvOUiqTTjLx"

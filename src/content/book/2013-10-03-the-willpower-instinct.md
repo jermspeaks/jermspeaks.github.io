@@ -11,7 +11,13 @@ title: "The Willpower Instinct: How Self-Control Works, Why It Matters, and What
 
 This is my self-help book of the quarter. It's about how our willpower works and it's a practical guide in changing habits and really utilizing willpower without being drained. It's highly interesting and brings on a ten-week plan. It's been used by the book's author, Kelly McGonigal, and the class she teaches undergrads and others at Stanford. I'm going to review it later and see if I can actually change one of my habits through this program. I've tried some of her suggestions before, but now I know more of the science behind it. If you want a primer to this, I recommend [her talk @Google](https://www.youtube.com/watch?v=V5BXuZL1HAg).
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/V5BXuZL1HAg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/V5BXuZL1HAg"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
 ### Follow-up Review on 2015-02-09
 

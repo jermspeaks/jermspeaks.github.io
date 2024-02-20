@@ -32,4 +32,9 @@ Daylight savings is a pain. It's 4:30pm and it's already a sunset. Some people g
   - I also distinctly going to see Spirited Away at Shattack Cinema, and remembering how Miyazaki movies instill magic into them.
 - [Laufey x Norah Jones + Christmas](https://store.bluenote.com/products/norah-jones-laufey-christmas-with-you-spotify-exclusive-7?lf=5233f80b9db296fd92cd955a2e5b54cc)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/WY6JRKeMuvM?si=0Nk-blzdB6wtrYWH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/WY6JRKeMuvM"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>

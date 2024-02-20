@@ -36,7 +36,12 @@ To understand blocking, you have to understand the event loop. The following res
 
 [What the heck is the event loop anyway?](https://www.youtube.com/watch?v=8aGhZQkoFbQ) - A Youtube video conference talk on how the event loop works. It also goes over some special topics of multi-threading with Javascript.
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/8aGhZQkoFbQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/8aGhZQkoFbQ"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
 ### Event Handling
 

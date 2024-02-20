@@ -15,7 +15,15 @@ For the past few years, I have often neglected people close to me in the pursuit
 
 This last year, out of practicality, necessity, and taking a really hard look at myself, I made a few changes that has had a tremendous impact. One of these changes was to spend meaningful time with friends, even if its just for an hour. A few years back, there was [this segment from The Daily Show](https://www.cc.com/video-clips/dxrlhk/the-daily-show-with-jon-stewart-trendspotting---social-networking) about true friendship versus Myspace friends. The professor interviewed made a good point there was not enough time to keep up with 9000 online friends. Knowing there's a finite amount of time, instead of spending a mindless weekend playing video games or watching the same Youtube clip over again, I chose to cut that out and try to schedule time to spend with those who have touched me in some significant way.
 
-<div style="background-color:#000000;width:520px;"><div style="padding:4px;"><iframe src="https://media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:b0926c8a-ed00-11e0-aca6-0026b9414f30" width="512" height="288" frameborder="0" allowfullscreen="true"></iframe></div></div>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://media.mtvnservices.com/embed/mgid:arc:video:comedycentral.com:b0926c8a-ed00-11e0-aca6-0026b9414f30"
+  title="YouTube video player"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
+
+**Note**: the video may take a minute to load  
 
 It wasn’t easy to start. There was an internal struggle undermining my efforts, a resistance if you may. This resistance questioned all of my actions. “Do you think they will even answer you? You’ve neglected them for so long.” That resistance subsided the more people I reached out to when I got replies back. Some other factors were scheduling issues and lack of contact information. But as I slowly trudged along, calling up friends that I cared about, I started to realize this was a possible endeavor, even if the circumstances to meet up are difficult.
 

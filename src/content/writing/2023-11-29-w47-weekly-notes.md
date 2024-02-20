@@ -21,7 +21,12 @@ Thanksgiving holiday was this past week. I'm thankful for making through this he
 - Films to watch: American Symphony (Trailer below)
   - At some point, I want to do a short review of "Between Two Kingdoms", which chronicles Suleika's journey in healing from her Luekemia, and the parallels I had with my father's ongoing recovery
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/wKSMsdq8ONs?si=buRdFjiVfB67C649" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/wKSMsdq8ONs"
+  title="YouTube video player"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>
 
 - [2FA Directory](https://2fa.directory/about/) - I didn't know there was a directory for 2FA / MFA. I'm certainly going to review this
 - [Mysterious Respiratory Illness Affects Dogs in Multiple States - The New York Times](https://www.nytimes.com/2023/11/20/science/dog-respiratory-illness-us.html) - We keep an eyebrow raise for every cough our dog makes
