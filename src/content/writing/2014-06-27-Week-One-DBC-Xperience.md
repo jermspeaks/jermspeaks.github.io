@@ -5,10 +5,7 @@ date: 2014-06-27
 pubDate: "2014-06-27"
 description: ""
 heroImage: ""
-
 ---
-
-
 
 ![Don't feed the pidgeons sign](https://static1.squarespace.com/static/512515d2e4b08a76159c79b3/t/53ad786ee4b0b3e2d9649f9e/1403877503360/?format=2500w)
 

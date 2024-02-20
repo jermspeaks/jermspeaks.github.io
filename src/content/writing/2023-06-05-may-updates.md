@@ -7,7 +7,7 @@ heroImageAlt: "Credits: Unsplash, Steve Johnson"
 
 pubDate: "2023-06-05"
 title: "This month at Craft By Zen, May 2023"
-tags: ["essay", "review", "daily", "habits"]
+tags: ["website", "updates"]
 ---
 
 Over the past month, I have been making small enhancements to make the website 1% better. I’m excited to talk about many of them, some noticeable, some under the hood.
