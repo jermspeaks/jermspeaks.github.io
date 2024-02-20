@@ -246,10 +246,25 @@ const curation = defineCollection({
   }),
 });
 
+const classified = defineCollection({
+  schema: z.object({
+    draft: z.boolean().optional(),
+    link: z.string(),
+    location: z.string().optional(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    tags: z.array(z.string()).optional(),
+    title: z.string(),
+  }),
+});
+
 export const collections = {
   about,
   antiLibrary,
   book,
+  classified,
   creator,
   curation,
   filmLibrary,

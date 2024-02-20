@@ -1,0 +1,55 @@
+---
+import { getCollection } from "astro:content";
+import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+import FormattedDate from "../../../components/FormattedDate.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+
+const classifieds = (await getCollection("classified")).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+);
+---
+
+<CurationDetailsPage title="Classifieds">
+  <section class="mb-8">
+    <ul class="grid grid-cols-1 gap-8 list-none p-0">
+      {
+        classifieds.map((classified) => (
+          <li class="mb-6 md:mb-0 rounded-sm box-border dark:text-white">
+            <div>
+              <a
+                class="text-xl hover:underline hover:text-purple-500 visited:text-amber-600"
+                href={`/curation/classified/${classified.slug}`}
+              >
+                {classified.data.title}
+              </a>
+            </div>
+            <div class="italic">
+              <FormattedDate date={classified.data.pubDate} />
+            </div>
+            <div class="italic">{classified.data.location}</div>
+            <div>
+              {classified.data.tags.map((tag) => (
+                <span class="inline-block bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                  {tag}
+                </span>
+              ))}
+            </div>
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+  <ProseArticle>
+    <h3>What are these classifieds?</h3>
+    <p>
+      These classifieds are personal asks from friends, colleagues, recruiters,
+      and other person I come across who want to ask something from my network.
+    </p>
+    <p>
+      They could be job postings, things that people would like to sell, things
+      that I might want to sell. Really anything tacked onto a board at a
+      University Union or coffee shop, when that was still a thing. I mean, it's
+      still a thing, I think.
+    </p>
+  </ProseArticle>
+</CurationDetailsPage>

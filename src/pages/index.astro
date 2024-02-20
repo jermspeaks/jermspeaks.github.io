@@ -9,6 +9,7 @@ import ProjectListItem from "../components/ProjectListItem.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import WritingListItem from "../components/WritingListItem.astro";
+import CurationItem from "../components/CurationItem.astro";
 
 const MAX_ITEMS = 4;
 
@@ -69,6 +70,8 @@ const combination = [
 ]
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, TOTAL_NUMBER_OF_CURATED_ITEMS);
+
+const curations = await getCollection("curation");
 ---
 
 <!doctype html>
@@ -188,6 +191,25 @@ const combination = [
           </ul>
         </div>
       </div>
+      <ul
+        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 list-none p-0 mt-8"
+      >
+        {
+          curations.map(
+            (curation) =>
+              !curation.data.draft && (
+                <li class="flex flex-col p-4">
+                  <a
+                    class="visited:text-amber-600 hover:text-purple-500 border-2 p-2 border-slate-500 rounded bg-orange-100 hover:bg-rose-200"
+                    href={`/curation/${curation.slug}`}
+                  >
+                    {curation.data.title}
+                  </a>
+                </li>
+              )
+          )
+        }
+      </ul>
 
       <hr class="mt-5 mb-5" />
 
