@@ -12,8 +12,8 @@ tags: ["newsletter", "season_1", "letters"]
 
 ## The Event List
 
-> So I ran to the end of the road. And when I got there, I thought maybe I'd run to the end of the town…
-> -- Forrest Gump
+> So I ran to the end of the road. And when I got there, I thought maybe I'd run to the end of the town…  
+> — Forrest Gump
 
 - I ran across the Golden Gate Bridge, a half marathon, and a full marathon.
 - Wrote 43 newsletters. Also, I have every one of you to thank to being readers, from the early readers or new subscribers. :D

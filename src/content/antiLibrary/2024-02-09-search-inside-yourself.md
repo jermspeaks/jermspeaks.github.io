@@ -43,7 +43,7 @@ The following are some notes that are influenced by his work about EI. I might s
 - **Awareness**: Paying attention to the emotional and physical body
 
 > Emotion is a basic physiological state characterized by identifiable autonomic or bodily changes.
-> -- Dr. Laura Delizonna
+> — Dr. Laura Delizonna
 
 - **Awareness**: Develop a high resolution awareness of emotions as they arise. Own our emotions instead of them owning us.
 - **Empathy**: Develop a high resolution awareness of emotion _in others_ as they arise

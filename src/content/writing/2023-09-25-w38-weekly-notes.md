@@ -48,8 +48,8 @@ I've decided to share things that I've found throughout the week, curating for y
   2. Firm Boundaries
   3. Intentional Vulnerability
 
-> Get used to the bear behind you.
-> -- Werner Herzog's 24th and final maxim
+> Get used to the bear behind you.  
+> — Werner Herzog's 24th and final maxim
 
 - I heard this quote on [a podcast](https://www.relay.fm/focused/186) in respect to creating. While there are things you can't control, it's your attitude to it that matters the most.
 - Also, Justin Welsh has written enough where his "new" content is really an update to his old content. Hence, having a [730-day content library](https://www.justinwelsh.me/newsletter/build-a-content-library). I would love to aspire on my ideas like this, and refine, refine, refine.

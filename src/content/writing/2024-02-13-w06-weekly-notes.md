@@ -60,8 +60,8 @@ I found a YouTube short about this woman who lost her job, and her reaction was 
 - [I Can’t Handle Prestige TV](https://tylersticka.com/journal/prestige-tv/)
 - Custom GPTs could be to build a technology tree visually connected to an infinite canvas app (parked idea)
 
-> "Rencontrer” is a meeting with the new. Remembrance is the comfort of recognition.
-> -- Esther Perel
+> "Rencontrer" is a meeting with the new. Remembrance is the comfort of recognition.  
+> — Esther Perel
 
 Last week, I learned there are three [curiosity attractors](https://nesslabs.com/curiosity-attractors). Curiosity Attractors are the recurring fascinations that you can't shake, whether active or latent.
 
@@ -69,8 +69,8 @@ Last week, I learned there are three [curiosity attractors](https://nesslabs.com
 2. **Empathic curiosity** relates to your interest in connecting with others, understanding their perspectives and experiences
 3. **Diversive curiosity** is that fleeting urge you sometimes feel to explore something new just for the sake of novelty, with no clear goal in mind
 
-   > Curiosity attractors also often intersect with parts of your **identity**. We go back to questions that fit with our personal values and worldviews
-   > -- Anne-Laure Le Cunuff
+   > Curiosity attractors also often intersect with parts of your **identity**. We go back to questions that fit with our personal values and worldviews  
+   > — Anne-Laure Le Cunuff
 
 - I learned from [Scott H Young](https://www.scotthyoung.com) that from these three models of learning, the model that appears to be best fit is based off differing prior knowledge. Even for a beginner, they do learn a lot, even if it's still not as much as someone who came in with a lot of prior knowledge (and they get benefit too)
 

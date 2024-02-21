@@ -33,7 +33,7 @@ Sometimes I'm afraid to start. That's when I return to "[An Invocation for Begin
 ### Life's Maxims
 
 <!-- > The only way to make sense out of change is to plunge into it, move with it, and join the dance.
-> -- Alan Watts -->
+> — Alan Watts -->
 
 - Return to a [Beginner's Mind](https://zenhabits.net/beginner/). Starting from a beginner's mind opens yourself to new and radical ideas. Having an expert's mind rejects new ideas and sticks to what they know.
 - Feedback should be actionable, specific, kind (and consensual)

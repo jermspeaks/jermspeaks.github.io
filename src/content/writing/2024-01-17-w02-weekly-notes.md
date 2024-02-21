@@ -9,8 +9,8 @@ heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb
 heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
 ---
 
-> Containers didn’t just lower the cost of shipping—they all but eliminated it. Transportation costs became negligible, no longer a barrier to worldwide distribution.
-> -- Deb Chachra, How Infrastructure Works, Chapter 3: Living in Networks
+> Containers didn’t just lower the cost of shipping—they all but eliminated it. Transportation costs became negligible, no longer a barrier to worldwide distribution.  
+> — Deb Chachra, How Infrastructure Works, Chapter 3: Living in Networks
 
 I've been taking a slow burn reading Deb Chachra's new book, "How Infrastructure Works". It's the book I wanted [The 99% Invisible City](https://99percentinvisible.org/book/) to be. It's a nice compliment to it, and dives deeper into the idea of how networks dominate our everyday lives in a (sometimes) hidden way.
 
