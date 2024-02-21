@@ -192,7 +192,7 @@ const curations = await getCollection("curation");
         </div>
       </div>
       <ul
-        class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4 list-none p-0 mt-8"
+        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 list-none p-0 mt-8"
       >
         {
           curations.map(
@@ -200,7 +200,7 @@ const curations = await getCollection("curation");
               !curation.data.draft && (
                 <li class="flex flex-col p-4">
                   <a
-                    class="visited:text-amber-600 hover:text-purple-500 border-2 p-2 border-slate-500 rounded bg-orange-100 hover:bg-rose-200"
+                    class="visited:text-amber-600 hover:text-purple-500 dark:hover:text-purple-300 dark:text-slate-100 border-2 p-2 border-slate-500 dark:border-slate-300 rounded bg-orange-100 dark:bg-orange-900 hover:bg-rose-200 dark:hover:bg-rose-900"
                     href={`/curation/${curation.slug}`}
                   >
                     {curation.data.title}
