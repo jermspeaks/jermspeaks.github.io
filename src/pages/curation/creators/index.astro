@@ -7,7 +7,7 @@ const antiLibrary = (await getCollection("creator")).sort(
 );
 ---
 
-<CurationDetailsPage title="Content Creators">
+<CurationDetailsPage title="Creators">
   <section class="mb-8">
     <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
       {
@@ -34,7 +34,7 @@ const antiLibrary = (await getCollection("creator")).sort(
                   {entry.data.title}
                 </a>
               </div>
-              <div>{entry.data.bookAuthor}</div>
+              <div>{entry.data.creator}</div>
               <div class="mt-2 dark:text-slate-100">{entry.data.blurb}</div>
             </div>
           </li>

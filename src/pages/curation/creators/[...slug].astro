@@ -19,7 +19,7 @@ const { Content } = await post.render();
 ---
 
 <CollectionDetailsPage
-  section="Content Creators"
+  section="Creators"
   sectionSlug="creators"
   title={post.data.title}
   description={post.data.blurb}
@@ -59,7 +59,7 @@ const { Content } = await post.render();
           <a href={post.data.link}>Website</a>
         </div>
         <div class="italic text-slate-600 dark:text-slate-300">
-          First Read:
+          First published:
           <FormattedDate date={post.data.pubDate} />
         </div>
         <div class="italic text-slate-600 dark:text-slate-300">{post.data.blurb}</div>
