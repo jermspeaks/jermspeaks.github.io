@@ -9,7 +9,6 @@ import ProjectListItem from "../components/ProjectListItem.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import WritingListItem from "../components/WritingListItem.astro";
-import CurationItem from "../components/CurationItem.astro";
 
 const MAX_ITEMS = 4;
 
@@ -60,6 +59,15 @@ const lindyLibrary = (await getCollection("lindy"))
       type: "lindy",
     },
   }));
+const creators = (await getCollection("creator"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .map((item) => ({
+    ...item,
+    data: {
+      ...item.data,
+      type: "creator",
+    },
+  }));
 
 // Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_CURATED_ITEMS` items
 const combination = [
@@ -67,6 +75,7 @@ const combination = [
   ...filmLibrary,
   ...lindyLibrary,
   ...antibookLibrary,
+  ...creators,
 ]
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, TOTAL_NUMBER_OF_CURATED_ITEMS);
@@ -161,25 +170,13 @@ const curations = await getCollection("curation");
                       </a>
                     </div>
                     <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700 font-thin">
-                      {item.data.type === "books" && (
-                        <>Author:&nbsp;{item.data.bookAuthor}</>
-                      )}
-                      {item.data.type === "films" && (
-                        <>Dir:&nbsp;{item.data.director}</>
-                      )}
-                      {!["books", "films"].includes(item.data.type) && (
-                        <>{item.data.author}</>
-                      )}
+                      Created by:&nbsp;{item.data.creator}
                     </div>
                     <FormattedDate
                       class="italic text-slate-600 dark:text-slate-300"
-                      date={item.data.dateConsumed}
+                      date={item.data.pubDate}
                     >
-                      {["antibooks"].includes(item.data.type) ? (
-                        <span slot="prepend">First added:&nbsp;</span>
-                      ) : (
-                        <span slot="prepend">First consumed:&nbsp;</span>
-                      )}
+                      <span slot="prepend">Published:&nbsp;</span>
                     </FormattedDate>
                     <div class="mt-2 dark:text-slate-100">
                       {item.data.blurb}
