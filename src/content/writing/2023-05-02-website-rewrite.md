@@ -76,3 +76,5 @@ There's a bunch of things left-over from this migration that I have to still wor
 Overall though, I'm happy with my switch, and plan on working on my website more. Astro makes it incredible easy to add components from other libraries that I've worked with in the past (personally used React, Vue, Svelte, and Solid), so I plan on making more interactive blog posts and projects for this website in the future.
 
 If you have any questions about the migration, want to give me feedback, or would like some help on your own Astro blog, feel free to email me. I'm always happy to help. (Email is in the footer of all pages).
+
+My official changelog can be found in [this project page](/project/2023-05-01-craft-by-zen-redesign/).

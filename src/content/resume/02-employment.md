@@ -12,7 +12,8 @@ order: 2
   - **Clear Dx WGS**
 
     - Built on top of the Clear Safety product to launch a new product, Clear Dx WGS, a comprehensive WGS (Whole Genome Sequencing) platform to accelerate the detection of infectious disease outbreaks
-    - Ran accessibility fixes and reports to ensure compliance with WCAG 2.1 AA
+    - Designed, developed, and tested new features on Clear Dx WGS that include rack creation and run reports for SARS-CoV-2 (Clinical and Wastewater), Microbial Surveillance, and other produts.
+    - Audited accessibility on our application, outputting VPAT reports, and implemented fixes to ensure compliance with WCAG 2.1 AAA
     - Patched application with security policies and headers
     - Earned certification in ISO 13485:2016 (QMS)
     - Tech Stack: Same as Clear Safety
@@ -22,7 +23,7 @@ order: 2
     - Managed continuous, quarterly releases including features like smart scheduling, data visualization, and data analysis
     - Assisted in designing and implementing a full design system, modular to create hi-fi screens and quality user experiences for developers
     - Led Scrum ceremonies including sprint planning, backlog grooming, and retrospectives
-    - Tech Stack: React, Redux, Styled-Components, d3, GraphQL, Docker, Nginx, GCP, Jest, Cypress, Workbox, Storybook, Kubernetes
+    - Tech Stack: React, Redux, Styled-Components, d3, GraphQL, Docker, Nginx, GCP, Jest, Cypress, Workbox, Storybook, Kubernetes, git
 
 - _2014-2018_  
   **Inform** Senior Front-end Engineer
