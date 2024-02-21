@@ -1,3 +1,28 @@
+---
+type Props = {
+  searchId?: string;
+};
+
+// export let searchId = 'search';
+const { searchId = "search" } = Astro.props;
+const colorScheme = {
+  dark: {
+    mark: "#fff", // Color of the matching content
+    background: "#23263b", // Background Color of the input and the panel
+    selected: "#111432", // Background Color of the selected item
+    text: "#d6d6e7", // Color of the title of the items
+    colorSourceIcon: "#d6d6e7", // Color of the icon on the left of results
+  },
+  light: {
+    mark: "#f25042",
+    background: "#f9f4ef",
+    selected: "#e0dbd7",
+    text: "#222",
+    colorSourceIcon: "#444",
+  },
+};
+---
+
 <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.css"
@@ -6,36 +31,20 @@
   type="text/javascript"
   src="https://cdn.jsdelivr.net/npm/@algolia/algoliasearch-netlify-frontend@1/dist/algoliasearchNetlify.js"
 ></script>
-<script lang="ts">
-  const colorScheme = {
-    dark: {
-      mark: "#fff", // Color of the matching content
-      background: "#23263b", // Background Color of the input and the panel
-      selected: "#111432", // Background Color of the selected item
-      text: "#d6d6e7", // Color of the title of the items
-      colorSourceIcon: "#d6d6e7", // Color of the icon on the left of results
-    },
-    light: {
-      mark: "#f25042",
-      background: "#f9f4ef",
-      selected: "#e0dbd7",
-      text: "#222",
-      colorSourceIcon: "#444",
-    },
-  };
+<script lang="ts" define:vars={{ searchId, colorScheme }}>
   let theme = colorScheme.dark;
-  const initialize = () => {
+  let initialize = () => {
     algoliasearchNetlify({
       appId: "436X6I66DK",
       apiKey: "b03e4f0173081b7c00e2c966802f8fa3",
       siteId: "ba48845b-90cf-4096-a2a5-816539b2e5a6",
       branch: "main",
-      selector: "div#search",
+      selector: `div#${searchId}`,
       theme,
     });
   };
 
-  const darkModeQuery = window?.matchMedia?.("(prefers-color-scheme:dark)");
+  let darkModeQuery = window?.matchMedia?.("(prefers-color-scheme:dark)");
 
   darkModeQuery.addEventListener("change", (event) => {
     // console.log("reinitialize?", event.matches);
@@ -54,4 +63,4 @@
   initialize();
 </script>
 
-<div id="search"></div>
+<div id={searchId}></div>
