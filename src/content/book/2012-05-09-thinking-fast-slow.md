@@ -6,6 +6,7 @@ dateConsumed: "2012-05-09"
 pubDate: "2012-05-09"
 heroImage: "https://68.media.tumblr.com/tumblr_m3n16d8nEM1qz81kho1_400.jpg"
 link: "https://amzn.to/3LO1xGa"
+blurb: "Kahneman talks about his research in the two systems in our brain, System 1 and System 2, and how they influence our decision-making processes. System 1 operates intuitively and automatically, while System 2 involves more deliberate thinking and problem-solving."
 ---
 
 This week’s book is “Thinking, Fast and Slow” by Daniel Kahneman. This book explains so much about the way we think and the fallacies we make because we let ourselves believe in our “fast mind.” Our slow thinking is our more intellectual, logical thought process that is required when you do a math problem. Of course, these are just theoretical thinking minds, and they actually don’t exist. But for this book, it’s a great analogy for understanding Dr. Kahneman’s research over the last few decades.

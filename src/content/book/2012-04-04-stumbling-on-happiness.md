@@ -7,6 +7,7 @@ pubDate: "2012-04-04"
 heroImage: "https://68.media.tumblr.com/tumblr_m1h8q5pEzZ1qz81kho1_250.jpg"
 link: "https://amzn.to/3VFQOm1"
 description: "This book isn’t a self-help guide to finding happiness, but about how humans make fallacies based on their ability to think they are being rational when in doubt they are not."
+blurb: "The human brain has an ability to imagine and simulate experiences, and how this capacity affects our ability to predict what will make us happy. Dr. Gilbert describes various biases and mental errors that make it difficult for us to forecast our future happiness. He also emphasizes the importance of being aware of these cognitive tricks to synthesize our own happiness."
 ---
 
 This Week’s Book Review: “Stumbling on Happiness” by Daniel Gilbert. This book is a great insight on the psychology of happiness, not a self-help book. The biggest idea for me is the idea that imagination of the future is more exaggerated in our minds and less likely to happen. Also, this book reassures I’m not unique, and many of the ideas and concepts expressed here apply to me. I’m being doped by my own mind’s anticipatory engine, and that’s affecting my emotions, especially “happiness.” This book really delves into this concept and how intangible it really is. If you love these pop-psychology books, this one is really easy to understand as well. If you also get a chance to watch Gilbert’s TED talk, it’s a great compliment to the book.
