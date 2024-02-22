@@ -8,6 +8,7 @@ link: "https://amzn.to/3BcN2H3"
 pubDate: "2012-05-23"
 title: "My Stroke of Insight: A Brain Scientist's Personal Journey"
 description: "The story is quite astonishing and is helpful for people going through recovery and supportive members who help out."
+blurb: "Dr. Jill Bolte Taylor's memoir detailing her a stroke in her mid-thirties, the following major brain surgery, and her years-long healing process."
 ---
 
 The book I’ve read last week was Dr. Jill Bolte Taylor’s “My Stroke of Insight”. Here is the [TED talk](https://www.ted.com/talks/jill_bolte_taylor_s_powerful_stroke_of_insight) she gave about her experience, and the book expands upon that. It’s split up on the story of her stroke, recovery, and next steps. It debunks common myths around strokes, and it gave me a better understanding about my own mind.

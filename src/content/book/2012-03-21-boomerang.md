@@ -6,6 +6,7 @@ dateConsumed: "2012-03-21"
 pubDate: "2012-03-21"
 heroImage: "https://68.media.tumblr.com/tumblr_m0dj4s2Xd51qz81kho1_400.jpg"
 link: "https://amzn.to/3NQU7EX"
+blurb: "An account on the global financial crisis as it affected various countries, including Iceland, Greece, Ireland, Germany, and the US. Diving into the reasons for the financial crisis in these countries, offering insights into their economic struggles and the impact of the crisis on their societies and governments."
 ---
 
 This week’s book review: “Boomerang: Travels in the New Third World” by Michael Lewis. Though I definitely liked “The Big Short” better, this book is a great companion piece to the financial crisis over in Europe. There’s some great insight on why the monetary departments aren’t working well in Iceland, Greece, Germany, Ireland and California.

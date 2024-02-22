@@ -6,6 +6,7 @@ pubDate: "2012-03-07"
 heroImage: "https://68.media.tumblr.com/tumblr_lznp8flhcJ1qz81kho1_500.jpg"
 link: "https://amzn.to/3B72QeM"
 title: "How To Be Black"
+blurb: "A humorous and thought-provoking book exploring the complexities of black identity and offers insightful commentary on race and culture."
 ---
 
 This week’s book: “How to be Black” by Baratunde Thurston. As an ethnic minority (i.e. not white in the US), there are a few things I could really relate with. The book is a great template for knowing what it means to be black, not how to become one. That isn’t possible if you’re not born into it. For me, I now understand how we aren’t actually in a “post-race” society because the US citizens elected a black president. Also, I understand the humor in how being black can be used to mess around with people. The biggest thing that the book has helped me with is to get a grip on identifying that I’m an ethnic minority (or if you’re black, identifying you’re black). I read the book during February, during Black History Month, so that’s probably a good time to read it. It doesn’t mean you absolutely have to (because now it’s March).

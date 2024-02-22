@@ -7,6 +7,7 @@ pubDate: "2012-03-14"
 heroImage: "https://68.media.tumblr.com/tumblr_m01fu2QoBe1qz81kho1_500.jpg"
 link: "https://amzn.to/41iNDSr"
 description: "The inside story of Google that’s quite comprehensive until the date of its publication. However, the weak point of the book is a lack of criticism on the failed projects."
+blurb: "Reviewing the growth of Google from its academic project origins at Stanford to the company that is rolling in billions of long-tail advertising dollars, forms the central exchange for information on the internet, having by then already grown to 24,000 employees."
 ---
 
 This week’s book review: “In The Plex: How Google Thinks, Works, and Shapes Our Lives” by Steven Levy.
