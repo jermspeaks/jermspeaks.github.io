@@ -3,26 +3,51 @@ import { getCollection } from "astro:content";
 import { SITE_TITLE, SITE_RSS_DESCRIPTION } from "../consts";
 
 export async function get(context) {
-  const posts = await getCollection("writing");
+  const antiLibrary = await getCollection("antiLibrary");
   const books = await getCollection("book");
+  const creator = await getCollection("creator");
   const films = await getCollection("filmLibrary");
+  const lindy = await getCollection("lindy");
+  const posts = await getCollection("writing");
 
   // Recent items first
-  const postCollection = posts.map((post) => ({
-    ...post.data,
-    link: `/blog/${post.slug}/`,
+  const postCollection = posts.map((item) => ({
+    ...item.data,
+    link: `/blog/${item.slug}/`,
   }));
-  const bookCollection = books.map((book) => ({
-    ...book.data,
-    link: `/curation/books/${book.slug}/`,
+  const bookCollection = books.map((item) => ({
+    ...item.data,
+    description: item.data.blurb,
+    link: `/curation/books/${item.slug}/`,
   }));
-  const filmCollection = films.map((film) => ({
-    ...film.data,
-    link: `/curation/films/${film.slug}/`,
+  const filmCollection = films.map((item) => ({
+    ...item.data,
+    description: item.data.blurb,
+    link: `/curation/films/${item.slug}/`,
   }));
-  const items = [...postCollection, ...bookCollection, ...filmCollection].sort(
-    (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()
-  );
+  const antiLibraryCollection = antiLibrary.map((item) => ({
+    ...item.data,
+    description: item.data.blurb,
+    link: `/curation/antibooks/${item.slug}`,
+  }));
+  const creatorCollection = creator.map((item) => ({
+    ...item.data,
+    description: item.data.blurb,
+    link: `/curation/creators/${item.slug}`,
+  }));
+  const lindyCollection = lindy.map((item) => ({
+    ...item.data,
+    description: item.data.blurb,
+    link: `/curation/lindy/${item.slug}`,
+  }));
+  const items = [
+    ...antiLibraryCollection,
+    ...bookCollection,
+    ...creatorCollection,
+    ...filmCollection,
+    ...lindyCollection,
+    ...postCollection,
+  ].sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
 
   return rss({
     title: SITE_TITLE,
