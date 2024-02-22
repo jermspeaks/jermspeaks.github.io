@@ -16,9 +16,8 @@ After the movie ended, walking down the long corridor of the movie theater, I wa
 
 > I was listening to the Design Matters podcast where Debbie Millman interviewed Elle Luna. Elle  wrote this piece on Medium called “The Crossroads of Should and Must”, which summarizes a portion of the interview when she’s describing the dream she had. In her recurring dream, Elle is standing in front of a white room with a concrete floor and high windows. She decided to go out and look for it in real life. After searching for days or weeks on Craigslist, she found it.
 >
-> Dusk was falling as I arrived at the white room from my dreams. It was stark, absolute, white, and a symbol of something new, of beginnings. As I looked around, I thought, “What on earth have I done? Why am I here?” And as clear as day, I heard a voice say, “It’s time to paint.”
->
-> -- Elle Luna, “The Crossroads of Should and Must"
+> Dusk was falling as I arrived at the white room from my dreams. It was stark, absolute, white, and a symbol of something new, of beginnings. As I looked around, I thought, “What on earth have I done? Why am I here?” And as clear as day, I heard a voice say, "It’s time to paint."  
+> — Elle Luna, “The Crossroads of Should and Must"
 
 Elle calls this her calling, and a decision she must do. She quit her job and started painting for the first time in ten years. She was able to express herself, or be true to herself, in a way she wasn’t able to do before as a designer.
 
@@ -31,15 +30,15 @@ In the process of thinking about this, I broke down my worries to some actionabl
 **I’m afraid...**
 
 1. Of being able to dance in front of strangers in public transportation. One stupid question that I ask myself is, is it illegal to do street performance on a moving train?
-1. Of eavesdropping and joining in on the conversation.
-1. Of starting a conversation with a complete stranger on the train. Especially of the opposite gender. My brain goes into overdrive and analyzes angles of how I would end up being a creeper or realize I may not have good social skills. I don’t think I have bad social skills in other settings.
-1. I don’t have what it takes to take a leap of faith without sliding back into old routines right after. Elle Luna talks about choosing “Must” isn’t a one time decision. It’s a continual decision you have to keep on making daily to yourself.
-1. Of the guy in the head. The one that tells you how much of a piece of shit you are. I used to have severe imposter syndrome, and still beat myself up for making bad choices and decisions.
-1. Of being penniless and broke. That I have no solid financial plan. Of talking financials with others.
-1. Of having no one to talk to and that I’m cooped up in my room or brain too long. I’m doing better at this, now that I rotate between different friends during different times of the week or month.
-1. I will be alone. Like the last one, but in terms of a personal relationship. I felt bad when I abandoned all hope while working late nights because it felt impossible to put myself out there.
-1. I will make the people around me feel bad. I don’t like being the bearer of bad news, and I hate shaking up the pot. I’ve been relatively non-confrontational my whole life, but I’m working on this.
-1. Of dying and having an obituary I wouldn’t want to read.
+2. Of eavesdropping and joining in on the conversation.
+3. Of starting a conversation with a complete stranger on the train. Especially of the opposite gender. My brain goes into overdrive and analyzes angles of how I would end up being a creeper or realize I may not have good social skills. I don’t think I have bad social skills in other settings.
+4. I don’t have what it takes to take a leap of faith without sliding back into old routines right after. Elle Luna talks about choosing “Must” isn’t a one time decision. It’s a continual decision you have to keep on making daily to yourself.
+5. Of the guy in the head. The one that tells you how much of a piece of shit you are. I used to have severe imposter syndrome, and still beat myself up for making bad choices and decisions.
+6. Of being penniless and broke. That I have no solid financial plan. Of talking financials with others.
+7. Of having no one to talk to and that I’m cooped up in my room or brain too long. I’m doing better at this, now that I rotate between different friends during different times of the week or month.
+8. I will be alone. Like the last one, but in terms of a personal relationship. I felt bad when I abandoned all hope while working late nights because it felt impossible to put myself out there.
+9. I will make the people around me feel bad. I don’t like being the bearer of bad news, and I hate shaking up the pot. I’ve been relatively non-confrontational my whole life, but I’m working on this.
+10. Of dying and having an obituary I wouldn’t want to read.
 
 What are you afraid of? Are there things in your life that are blocking you from doing what you want to do? Take 10 minutes and write your own list.
 

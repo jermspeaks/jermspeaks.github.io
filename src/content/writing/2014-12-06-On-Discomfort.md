@@ -27,9 +27,8 @@ The feeling of discomfort pairs well with the feeling of flourishing. And the op
 
 > Then [there's] maybe the worst type, because it can cunningly masquerade as patience and humble frustration. You’ve got the Complacent type, who improves radically until he hits a plateau, and is content with the radical improvement he’s made to get to the plateau, and doesn’t mind staying at the plateau because it’s comfortable and familiar, and he doesn’t worry about getting off it, and pretty soon you find he’s designed a whole game around compensating for the weaknesses and chinks in the armor the given plateau represents in his game, still—his whole game is based on this plateau now.
 >
-> And little by little, guys he used to beat start beating him, locating the chinks of the plateau, and his rank starts to slide, but he’ll say he doesn’t care, he says he’s in it for the love of the game, and he always smiles but there gets to be something sort of tight and hangdog about his smile, and he always smiles and is real nice to everybody and real good to have around but he keeps staying where he is while other guys hop plateaux, and he gets beat more and more, but he’s content.
->
-> -- David Foster Wallace, Infinite Jest
+> And little by little, guys he used to beat start beating him, locating the chinks of the plateau, and his rank starts to slide, but he’ll say he doesn’t care, he says he’s in it for the love of the game, and he always smiles but there gets to be something sort of tight and hangdog about his smile, and he always smiles and is real nice to everybody and real good to have around but he keeps staying where he is while other guys hop plateaux, and he gets beat more and more, but he’s content.  
+> — David Foster Wallace, Infinite Jest
 
 Although I am saving the plateau phase for another letter, I wanted to touch on it briefly. David Foster Wallace understands the comfortable feeling and how it can stall their growth. Instead of trying to focus on how to better themselves, they may lose their matches and don’t let failures teach them something. The person has a good attitude about losing and doesn’t pass judgment, but he or she has no vision to desire a better outcome<sup>[3]</sup> Take it from chess world champion Emmanuel Lasker. "A bad plan is better than no plan at all.”
 

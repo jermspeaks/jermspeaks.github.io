@@ -1,0 +1,21 @@
+---
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import AlgoliaSearch from "../../components/AlgoliaSearch.astro";
+import BaseBody from "../../components/BaseBody.astro";
+import BaseHead from "../../components/BaseHead.astro";
+import Footer from "../../components/Footer.astro";
+import Header from "../../components/Header.astro";
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+  </head>
+
+  <BaseBody>
+    <Header searchEnabled={false} />
+    <AlgoliaSearch />
+    <Footer />
+  </BaseBody>
+</html>

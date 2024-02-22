@@ -50,48 +50,27 @@ On my friend, Helin, recommendation, I read a book called "The Gift” a few mon
 
 In addition to the benefits to the gift recipient, the cards have a major benefit to the gift giver. These Christmas cards are a gift for me to initiate a conversation to my contacts. It’s my lazy excuse to talk to someone I may have not reached out to for a year. It bugs me that people enter and exit your life, while the only thing keeping you from reaching out with a simple phone call, text, or email.  I’m reminded of the poem by writer Charles Hanson Towne.
 
-> Around the corner I have a friend,
->
-> In this great city that has no end;
->
-> Yet the days go by, and weeks rush on,
->
-> And before I know it a year is gone,
->
-> And I never see my old friend's face,
->
-> For Life is a swift and terrible race.
->
-> He knows I like him just as well,
->
-> As in the days when I rang his bell,
->
-> And he rang mine. We were younger then,
->
-> And now we are busy, tired men:
->
-> Tired with playing a foolish game,
->
-> Tired with trying to make a name.
->
-> "To-morrow," I say, "I will call on Jim
->
-> "Just to show that I'm thinking of him."
->
-> But to-morrow comes -- and to-morrow goes,
->
-> And distance between us grows and grows.
->
-> Around the corner -- yet miles away,...
->
-> "Here's a telegram sir,..."
->
-> "Jim died today."
->
-> And that's what we get, and deserve in the end:
->
-> Around the corner, a vanished friend.
->
-> -- Charles Hanson Towne
+> Around the corner I have a friend,  
+> In this great city that has no end;  
+> Yet the days go by, and weeks rush on,  
+> And before I know it a year is gone,  
+> And I never see my old friend's face,  
+> For Life is a swift and terrible race.  
+> He knows I like him just as well,  
+> As in the days when I rang his bell,  
+> And he rang mine. We were younger then,  
+> And now we are busy, tired men:  
+> Tired with playing a foolish game,  
+> Tired with trying to make a name.  
+> "To-morrow," I say, "I will call on Jim  
+> "Just to show that I'm thinking of him."  
+> But to-morrow comes -- and to-morrow goes,  
+> And distance between us grows and grows.  
+> Around the corner -- yet miles away,...  
+> "Here's a telegram sir,..."  
+> "Jim died today."  
+> And that's what we get, and deserve in the end:  
+> Around the corner, a vanished friend.  
+> — Charles Hanson Towne
 
 I never expected this ritual to occupy so much time. But I think of the benefits make it worthwhile, of catching up with old friends, of being able to go beyond normal gifts, of being creative. I absolutely love doing this, too much to the point this is what I think about on my free time.
