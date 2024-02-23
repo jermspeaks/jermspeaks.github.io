@@ -1,0 +1,23 @@
+---
+import { getEntry } from "astro:content";
+import AboutLayout from "../../layouts/About.astro";
+import aboutLinks from "../../utils/aboutLinks";
+import NavigationLinks from "../../components/NavigationLinks.astro";
+import ProseArticle from "../../components/ProseArticle.astro";
+
+const entry = await getEntry("about", "about-3-colophon");
+const { title, lastUpdated } = entry.data;
+const { Content } = await entry.render();
+---
+
+<AboutLayout
+  description="How the website is made"
+  title="Colophon"
+  updatedDate={new Date(lastUpdated)}
+>
+  <NavigationLinks slot="navigation" items={aboutLinks} />
+  <ProseArticle>
+    <h2>{title}</h2>
+    <Content />
+  </ProseArticle>
+</AboutLayout>
