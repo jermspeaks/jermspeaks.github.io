@@ -214,6 +214,10 @@ const about = defineCollection({
   schema: z.object({
     order: z.number(),
     title: z.string(),
+    lastUpdated: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
   }),
 });
 
