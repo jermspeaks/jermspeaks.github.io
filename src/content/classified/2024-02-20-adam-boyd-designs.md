@@ -5,6 +5,7 @@ location: "Concord, CA"
 pubDate: "2024-02-20"
 tags: ["shopping"]
 title: Adam Boyd Designs - Handcrafted Sterling Silver and Copper Jewelry
+referrer: Personal
 ---
 
 Adam Boyd was our former intern at Clear Labs. He also hand crafts his own jewelry.

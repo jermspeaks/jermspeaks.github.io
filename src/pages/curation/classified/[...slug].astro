@@ -34,6 +34,9 @@ const { Content } = await post.render();
           <FormattedDate date={post.data.pubDate} />
         </div>
         <div class="italic text-slate-600 dark:text-slate-300">
+          Referrer: {post.data.referrer}
+        </div>
+        <div class="italic text-slate-600 dark:text-slate-300">
           Location: {post.data.location}
         </div>
         <div>
@@ -41,11 +44,12 @@ const { Content } = await post.render();
         </div>
         <div>
           {
-            post.data.tags.map((tag) => (
-              <span class="inline-block bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
-                {tag}
-              </span>
-            ))
+            Array.isArray(post.data.tags) &&
+              post.data.tags.map((tag) => (
+                <span class="inline-block bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                  {tag}
+                </span>
+              ))
           }
         </div>
       </div>

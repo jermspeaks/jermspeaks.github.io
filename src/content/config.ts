@@ -253,6 +253,7 @@ const curation = defineCollection({
 const classified = defineCollection({
   schema: z.object({
     draft: z.boolean().optional(),
+    referrer: z.string(),
     link: z.string(),
     location: z.string().optional(),
     pubDate: z
