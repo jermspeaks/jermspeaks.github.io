@@ -28,11 +28,12 @@ const classifieds = (await getCollection("classified")).sort(
             </div>
             <div class="italic">{classified.data.location}</div>
             <div>
-              {classified.data.tags.map((tag) => (
-                <span class="inline-block bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
-                  {tag}
-                </span>
-              ))}
+              {Array.isArray(classified.data.tags) &&
+                classified.data.tags.map((tag) => (
+                  <span class="inline-block bg-gray-200 dark:bg-gray-800 text-gray-700 dark:text-gray-300 rounded-full px-3 py-1 text-sm font-semibold mr-2 mb-2">
+                    {tag}
+                  </span>
+                ))}
             </div>
           </li>
         ))
