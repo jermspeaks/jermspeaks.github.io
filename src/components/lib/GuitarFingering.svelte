@@ -67,37 +67,84 @@
     "sus4",
   ];
 
-  // let chords = Object.keys(chordData);
-  // let search = "";
-  // let suggestions = [];
-
   let selectedNote = "";
   let selectedOption = "";
-  // let selectedChord = null;
-  let fingerings = [];
+  let selectedVariation = 0;
 
-  // function onChange(event) {
-  //   selectedNote = event.currentTarget.value;
-  //   console.log("selectedNote", selectedNote);
+  function onNoteChange(event) {
+    // const nextNote = event.currentTarget.value;
+    if (selectedVariation !== 0) {
+      selectedVariation = 0;
+    }
 
-  //   const chord = `${selectedNote}`;
-  //   selectedChord = chordData?.[chord];
-  //   // fingerings = selectedChord.map((fingering) => fingering.p);
-  // }
-
-  // const selectChord = (chordName) => {
-  //   search = chordName;
-  //   selectedChord = chordData[chordName];
-  // };
+    return event;
+  }
 
   $: selectedPositionsAndFingerings =
     chordData?.[`${selectedNote}${selectedOption}`];
-  // $: fingerings = Array.isArray(selectedPositionsAndFingerings)
-  //   ? selectedPositionsAndFingerings.map((fingering) => fingering?.f)
-  //   : [];
-  // $: frets = Array.isArray(selectedPositionsAndFingerings)
-  //   ? selectedPositionsAndFingerings.map((fingering) => fingering?.p)
-  //   : [];
+
+  // Constants for the SVG rendering
+  const numberOfStrings = 6;
+  const numberOfFrets = 21;
+  const stringSpacing = 20; // Vertical space between strings
+  const fretSpacing = 40; // Horizontal space between frets
+  const fretboardWidth = (numberOfFrets + 1) * fretSpacing + 2 * stringSpacing;
+  const fretboardHeight = (numberOfStrings - 1) * stringSpacing;
+
+  const getFingerPosition = (string, fret) => {
+    return {
+      cx: fret * fretSpacing - fretSpacing / 2, // x position
+      cy: (numberOfStrings - string) * stringSpacing, // y position
+      r: 8, // radius of the circle
+    };
+  };
+
+  const getTextPosition = (string, fret) => {
+    return {
+      x: fret * fretSpacing - fretSpacing / 2, // x position - text width
+      y: (numberOfStrings - string) * stringSpacing + 5, // y position + 1/2 text size
+    };
+  };
+
+  const parseFretPositions = (fretAndPosition = {}) => {
+    const { f: fingerPosition, p: fretPosition } = fretAndPosition;
+
+    // Edge Case: if the fingering includes a semicolon, there are alternative fingerings.
+    // We need to account for that
+
+    // Positions are delimited by commas like this "4,6,6,5,4,4"
+    // Fingering is delimited by single numbers, like "134211"
+    // For each string, determine the fingering and the fret position
+    // Some fingering omits the finger positions where position === x since
+    // there is no fingering there, so you can't rely on index
+    const fingerPositions = fingerPosition.split("");
+    const fretPositions = fretPosition.split(",");
+
+    let stringIndex = 0;
+    const map = fretPositions.map((fret, i) => {
+      let finalFingerAndPosition = {};
+      if (fret === "x") {
+        finalFingerAndPosition = {
+          text: "",
+          fret: "x",
+        };
+      } else if (fret === "0") {
+        finalFingerAndPosition = {
+          text: "",
+          fret: 0,
+        };
+      } else {
+        finalFingerAndPosition = {
+          text: fingerPositions[stringIndex],
+          fret: parseInt(fret, 10),
+        };
+        stringIndex++;
+      }
+
+      return finalFingerAndPosition;
+    });
+    return map;
+  };
 
   onMount(() => {
     searchChords();
@@ -116,6 +163,7 @@
         name="note"
         bind:group={selectedNote}
         value={note}
+        on:change={onNoteChange}
       />
       <label
         class="w-full py-4 ms-2 text-md font-medium text-gray-900 dark:text-gray-300"
@@ -161,16 +209,120 @@
 <p class="text-2xl mb-4">Selected Chord: {selectedNote}{selectedOption}</p>
 
 {#if selectedPositionsAndFingerings}
+  <svg
+    class="my-4"
+    width={fretboardWidth}
+    height={fretboardHeight + 2 * stringSpacing}
+    xmlns="http://www.w3.org/2000/svg"
+    version="1.1"
+  >
+    <!-- Draw strings -->
+    {#each Array(numberOfStrings) as _, stringIndex}
+      <line
+        x1="0"
+        y1={stringSpacing + stringIndex * stringSpacing}
+        x2={(21 + 1) * fretSpacing}
+        y2={stringSpacing + stringIndex * stringSpacing}
+        class="stroke-slate-900 dark:stroke-slate-100"
+      />
+    {/each}
+
+    <!-- Draw frets and fret numbers -->
+    {#each Array(22) as _, fretIndex}
+      <line
+        x1={fretIndex * fretSpacing}
+        y1={stringSpacing}
+        x2={fretIndex * fretSpacing}
+        y2={fretboardHeight + stringSpacing}
+        class="stroke-slate-900 dark:stroke-slate-100"
+      />
+      {#if fretIndex > 0}
+        <text
+          x={fretIndex * fretSpacing - fretSpacing / 2}
+          y={fretboardHeight + 2 * stringSpacing - 5}
+          font-size="10"
+          text-anchor="middle"
+          class="fill-slate-900 dark:fill-slate-100"
+        >
+          {fretIndex}
+        </text>
+      {/if}
+    {/each}
+
+    <!-- Draw fretboard markers -->
+    {#each [3, 5, 7, 9, 15, 17, 19, 21] as fret}
+      <circle
+        cx={fret * fretSpacing - fretSpacing / 2}
+        cy={fretboardHeight / 2 + stringSpacing}
+        r={stringSpacing / 4}
+        class="fill-slate-300 dark:fill-slate-500"
+      />
+    {/each}
+    <!-- Double dots for the 12th fret -->
+    <circle
+      cx={12 * fretSpacing - fretSpacing / 2}
+      cy={fretboardHeight / 3 + stringSpacing}
+      r={stringSpacing / 4}
+      class="fill-slate-300 dark:fill-slate-500"
+    />
+    <circle
+      cx={12 * fretSpacing - fretSpacing / 2}
+      cy={(2 * fretboardHeight) / 3 + stringSpacing}
+      r={stringSpacing / 4}
+      class="fill-slate-300 dark:fill-slate-500"
+    />
+
+    <!-- Draw finger positions -->
+    {#each selectedPositionsAndFingerings as selectedPositionAndFingering, i}
+      {#each parseFretPositions(selectedPositionAndFingering) as parsedString, stringIndex}
+        <g class={i !== selectedVariation ? "hidden" : ""}>
+          {#if ![0, "x"].includes(parsedString.fret)}
+            <circle
+              {...getFingerPosition(stringIndex, parsedString.fret)}
+              class="fill-slate-800 dark:fill-slate-200 stroke-slate-400 dark:stroke-slate-800"
+            />
+            <text
+              class="text-sm fill-slate-100 dark:fill-slate-900"
+              text-anchor="middle"
+              {...getTextPosition(stringIndex, parsedString.fret)}
+              >{parsedString.text}</text
+            >
+          {:else if parsedString.fret === "x"}
+            <!-- Left padding for the 'x' marks. Note index is reverse, so 5 minus index (zero-based, since 6 typically) -->
+            <text
+              x={stringSpacing / 2}
+              y={stringSpacing + (5 - stringIndex) * stringSpacing}
+              font-size="14"
+              text-anchor="middle"
+              alignment-baseline="middle"
+            >
+              x
+            </text>
+          {/if}
+        </g>
+      {/each}
+    {/each}
+  </svg>
   <table>
     <thead>
       <tr>
+        <th class="px-4">Selected</th>
         <th class="px-4">Fingers</th>
         <th class="px-4">Frets</th>
       </tr>
     </thead>
     <tbody>
-      {#each selectedPositionsAndFingerings as selectedPositionAndFingering}
+      {#each selectedPositionsAndFingerings as selectedPositionAndFingering, i}
         <tr class="border-2 border-zinc-800 dark:border-zinc-200">
+          <td class="px-4"
+            ><input
+              id={`variation-${i.toString()}`}
+              type="radio"
+              name="variation"
+              bind:group={selectedVariation}
+              value={i}
+            /></td
+          >
           <td class="px-4">{selectedPositionAndFingering.f}</td>
           <td class="px-4">{selectedPositionAndFingering.p}</td>
         </tr>
