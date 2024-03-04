@@ -130,13 +130,21 @@ It was extremely basic at first, like the following.
 </svg>
 
 There weren't enough frets. 6 including the initial fret. It needed 21.
-Plus, there were fretboard markers that make it extremely helpful.
+Plus, there were fretboard markers that make it extremely helpful. I looked up
+an initial image of what a fretboard looked like to help me with the visual
+representation.
+
+![Guitar Drawing and Anatomy from WikiMedia](https://upload.wikimedia.org/wikipedia/commons/5/58/Guitaranatomy.jpg?20060116163430)
+
+I also looked at another tool called [All Guitar Chords](https://www.all-guitar-chords.com/chords/scales)
+to see how they represented the fretboard. The impetus for this project was to
+have my own and understand different music theory concepts that are more advanced.
 
 I got ChatGPT to add those markers, as well as extend the fret to 21. It also drew
 the initial dots for the fingering and position combinations. It wasn't very clear
-though how it fit in my dataset, so I had to re-work it to read the updated data 
+though how it fit in my dataset, so I had to re-work it to read the updated data
 structure. While ChatGPT is very well equipped to do this, it felt like more energy
-to explain it to ChatGPT as I knew what to do. 
+to explain it to ChatGPT as I knew what to do.
 
 ChatGPT is a great launching pad, but terrible at finishing. You have to continue
 prompting, and there gets a point where prompting no longer is as effective as
@@ -147,8 +155,15 @@ playing with that prototype and work from there. When there are more features to
 create, I'll go back to ChatGPT as needed to help me scaffold and adjust. The fine
 line is when do you stop prompting for adjustments and making your own changes.
 
+Another point I want to make is exercise helps me practice coding with Svelte.
+I understand the basic syntax, but it's harder to grasp unless you're coding in it
+and running into problems, like [how do I make an "else if" block](https://svelte.dev/examples/else-if-blocks)?
+How do bound input variables change? And when do I use a computed variable? I've written these
+before, and I know they exist. Putting in the reps helps me solidify that knowledge.
+
 ## Future Endeavors
 
 - Fingering variation. I'm only rendering the initial fingering. I need to figure out how to split this up further in the form beyond changing variations.
+  - I'm using [hookpad](https://hookpad.hooktheory.com/) from HookTheory to help me with those options. Time to brush up on my Music Theory.
 - Make it more mobile friendly
 - Redo the options. I want to make sure they make more sense than the cryptic symbols like "+" and make sure it's clear for major, minor, 7th, 9th, etc. chords are easier to find. Diminished, suspended, and other chord types should be add-ons
