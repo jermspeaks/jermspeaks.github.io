@@ -12,16 +12,158 @@ import GuitarFingering from "../../components/lib/GuitarFingering.svelte";
   <GuitarFingering client:load />
 </div>
 
-{/* ## What is a UUID?
+## How did you create this?
 
-A UUID (Universally Unique Identifier) is a 128-bit number used to identify
-information in computer systems. The term globally unique identifier (GUID)
-is also used, typically in software created by Microsoft.
+ChatGPT helped me with the initial code. I took that and ran with it. This is an
+exploration of a new blog post I will write about inertia and activation energy.
 
-When generated according to the standard methods, UUIDs are for practical
-purposes unique, without depending for their uniqueness on a central
-registration authority or coordination between the parties generating them,
-unlike most other numbering schemes.
+Once ChatGPT gave me an initial Svelte component, I could see how I could create
+the form options for the notes. ChatGPT was terrible at coming up with the position
+and fingering, so I consulted a different source for that.
 
-While the probability that a UUID will be duplicated is not zero, it is close
-enough to zero to be negligible. */}
+I copied a JSON dictionary of chord from a gist from [Greg Schoppe](https://github.com/gschoppe),
+which I found through [his blog post](https://gschoppe.com/js/json-chords/).
+His dictionary included most common chords from a standard guitar tuning (EADGBE).
+Each chord is described by its fret positions and fingers. Each position may contain
+variations on fingering, separated by semicolons.
+
+With that data source, I was able to parse it for what the notes were, as well as
+the different options.
+
+After I got an initial table down, I worked on creating the fretboard in SVG.
+ChatGPT gave me an initial scaffold, which is great when you don't want to figure
+out which variables you will need (e.g. string spacing, width, and height).
+
+It was extremely basic at first, like the following.
+
+<svg
+  class="my-4 s-LDXEgoPjzQhk"
+  width="920"
+  height="140"
+  xmlns="http://www.w3.org/2000/svg"
+  version="1.1"
+>
+  <line
+    x1="0"
+    y1="20"
+    x2="200"
+    y2="20"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="0"
+    y1="40"
+    x2="200"
+    y2="40"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="0"
+    y1="60"
+    x2="200"
+    y2="60"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="0"
+    y1="80"
+    x2="200"
+    y2="80"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="0"
+    y1="100"
+    x2="200"
+    y2="100"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="0"
+    y1="120"
+    x2="200"
+    y2="120"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="0"
+    y1="20"
+    x2="0"
+    y2="120"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="40"
+    y1="20"
+    x2="40"
+    y2="120"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="80"
+    y1="20"
+    x2="80"
+    y2="120"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="120"
+    y1="20"
+    x2="120"
+    y2="120"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="160"
+    y1="20"
+    x2="160"
+    y2="120"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+  <line
+    x1="200"
+    y1="20"
+    x2="200"
+    y2="120"
+    class="stroke-slate-900 dark:stroke-slate-100 s-LDXEgoPjzQhk"
+  ></line>
+</svg>
+
+There weren't enough frets. 6 including the initial fret. It needed 21.
+Plus, there were fretboard markers that make it extremely helpful. I looked up
+an initial image of what a fretboard looked like to help me with the visual
+representation.
+
+![Guitar Drawing and Anatomy from WikiMedia](https://upload.wikimedia.org/wikipedia/commons/5/58/Guitaranatomy.jpg?20060116163430)
+
+I also looked at another tool called [All Guitar Chords](https://www.all-guitar-chords.com/chords/scales)
+to see how they represented the fretboard. The impetus for this project was to
+have my own and understand different music theory concepts that are more advanced.
+
+I got ChatGPT to add those markers, as well as extend the fret to 21. It also drew
+the initial dots for the fingering and position combinations. It wasn't very clear
+though how it fit in my dataset, so I had to re-work it to read the updated data
+structure. While ChatGPT is very well equipped to do this, it felt like more energy
+to explain it to ChatGPT as I knew what to do.
+
+ChatGPT is a great launching pad, but terrible at finishing. You have to continue
+prompting, and there gets a point where prompting no longer is as effective as
+telling my brain to code.
+
+What I'm playing with is this idea of getting an initial prototype down, then
+playing with that prototype and work from there. When there are more features to
+create, I'll go back to ChatGPT as needed to help me scaffold and adjust. The fine
+line is when do you stop prompting for adjustments and making your own changes.
+
+Another point I want to make is exercise helps me practice coding with Svelte.
+I understand the basic syntax, but it's harder to grasp unless you're coding in it
+and running into problems, like [how do I make an "else if" block](https://svelte.dev/examples/else-if-blocks)?
+How do bound input variables change? And when do I use a computed variable? I've written these
+before, and I know they exist. Putting in the reps helps me solidify that knowledge.
+
+## Future Endeavors
+
+- Fingering variation. I'm only rendering the initial fingering. I need to figure out how to split this up further in the form beyond changing variations.
+  - I'm using [hookpad](https://hookpad.hooktheory.com/) from HookTheory to help me with those options. Time to brush up on my Music Theory.
+- Make it more mobile friendly
+- Redo the options. I want to make sure they make more sense than the cryptic symbols like "+" and make sure it's clear for major, minor, 7th, 9th, etc. chords are easier to find. Diminished, suspended, and other chord types should be add-ons
