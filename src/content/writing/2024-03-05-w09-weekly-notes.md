@@ -68,7 +68,7 @@ Every February, it comes as quickly as it goes. This month was no exception.
   2. Prepare for the next work session
 
 <iframe 
-  class="aspect-video w-full"
+  class="aspect-video w-full my-2"
   src="https://www.youtube.com/embed/4k6Xgjqkad4"
   title="They made React great again?"
   frameborder="0"

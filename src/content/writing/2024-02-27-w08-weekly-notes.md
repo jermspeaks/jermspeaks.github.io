@@ -38,7 +38,7 @@ Here's the article in question: [Where have all the websites gone?](https://www.
 - [AT&T says service has been restored after massive, nationwide outage. Authorities are investigating](https://www.cnn.com/2024/02/22/tech/att-cell-service-outage/index.html)
 
 <iframe 
-  class="aspect-video w-full"
+  class="aspect-video w-full my-2"
   src="https://www.youtube.com/embed/OHuLnaY7Nxs"
   title="chantastic is a Raycast newbie. What can he do?"
   frameborder="0"
@@ -46,7 +46,7 @@ Here's the article in question: [Where have all the websites gone?](https://www.
   allowfullscreen></iframe>
 
 <iframe 
-  class="aspect-video w-full"
+  class="aspect-video w-full my-2"
   src="https://www.youtube.com/embed/9IiTdSnmS7E"
   title="Sisyphus and the Impossible Dream"
   frameborder="0"
