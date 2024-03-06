@@ -21,11 +21,17 @@ const {
   updatedDate,
   tags,
 } = Astro.props;
+// TODO: We should use coverImage for og:image using https://docs.astro.build/en/recipes/dynamically-importing-images/
 ---
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead
+      title={title}
+      description={description}
+      image={heroImage}
+      imageAlt={heroImageAlt}
+    />
   </head>
 
   <BaseBody>
