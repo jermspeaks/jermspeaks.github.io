@@ -7,6 +7,7 @@ export interface Props {
   title: string;
   description: string;
   image?: string;
+  imageAlt?: string;
   twitterHandle?: string;
   author?: string;
   publishedDate?: string;
@@ -19,6 +20,7 @@ const {
   author = "Jeremy Wong",
   description,
   image = "/meta-social.png",
+  imageAlt = "Craft By Zen Hero Image",
   title,
   twitterHandle = "@jermspeaks",
   publishedDate = defaultDate,
@@ -49,7 +51,7 @@ const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
 <meta property="og:image" content={new URL(image, Astro.url)} />
-<meta property="og:image:alt" content="Craft By Zen Hero Image" />
+<meta property="og:image:alt" content={imageAlt} />
 
 <!-- Articles -->
 <meta

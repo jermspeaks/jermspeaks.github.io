@@ -1,7 +1,7 @@
 ---
 description: "Instructions on changing remote and local git branches from master to main"
 draft: false
-pubDate: "2024-02-20"
+pubDate: "2024-02-20T08:00:00.000Z"
 tags: ["TIL", "git", "programming"]
 title: TIL how to rename my master branch to main
 coverImage: '../../images/TIL.png'

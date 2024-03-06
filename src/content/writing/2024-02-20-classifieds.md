@@ -3,7 +3,7 @@ description: "Classifieds have been added to the website. 📰🗞️"
 draft: false
 heroImage: "https://images.unsplash.com/photo-1504711331083-9c895941bf81?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
 heroImageAlt: "Classified newspaper page, photographed by AbsolutVision"
-pubDate: "2024-02-20"
+pubDate: "2024-02-20T08:00:00.000Z"
 tags: ["website", "updates", "classifieds"]
 title: "Introducing Classifieds"
 ---
