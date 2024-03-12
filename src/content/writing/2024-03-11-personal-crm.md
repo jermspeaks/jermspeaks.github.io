@@ -3,7 +3,7 @@ description: "My personal tool for keeping track of people and interactions tail
 draft: false
 pubDate: "2024-03-11T23:00:00.000Z"
 tags: ["pkm", "people", "review"]
-title: My "Personal CRM" Rolodex
+title: "My \"Personal CRM\" Rolodex"
 heroImage: https://images.unsplash.com/photo-1586281380614-bf2205048318?q=80&w=2340&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
 heroImageAlt: Unsplash image from Markus Winkler showing an empty paper with a contact list
 ---
