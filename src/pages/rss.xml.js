@@ -2,7 +2,7 @@ import rss from "@astrojs/rss";
 import { getCollection } from "astro:content";
 import { SITE_TITLE, SITE_RSS_DESCRIPTION } from "../consts";
 
-export async function get(context) {
+export async function GET(context) {
   const antiLibrary = await getCollection("antiLibrary");
   const books = await getCollection("book");
   const creator = await getCollection("creator");
