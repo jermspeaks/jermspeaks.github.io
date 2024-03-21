@@ -1,5 +1,5 @@
 ---
-description: "How to be not distracted, blizzards in California, local-first movement, and emembering David Bordwell and Akira Toriyama."
+description: "Gleam, Salon style intellectual conversations, OpenAI's response to Elon, Raw Milk as a conservative signal, and a collection of design engineers."
 draft: false
 pubDate: "2024-03-21T08:00:00.000Z"
 tags: ["weekly", "reflection"]
