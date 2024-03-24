@@ -2,7 +2,7 @@
 title: The Inner Game of Desert Running
 date: 2015-09-16
 description: ""
-pubDate: "2015-09-16"
+pubDate: "2015-09-16T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

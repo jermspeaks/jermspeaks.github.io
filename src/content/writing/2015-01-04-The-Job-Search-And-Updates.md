@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post"]
 title: The Job Search and Updates
 date: 2015-01-04
-pubDate: "2015-01-04"
+pubDate: "2015-01-04T08:00:00.000Z"
 description: ""
 heroImage: ""
 

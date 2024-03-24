@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post"]
 title: Returning Back to Recaps
 date: 2014-12-09
-pubDate: "2014-12-09"
+pubDate: "2014-12-09T08:00:00.000Z"
 description: ""
 heroImage: ""
 ---

@@ -5,7 +5,7 @@ dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1442769612i/7954936.jpg"
 heroImageAlt: "Book cover for What Technology Wants"
 link: "https://amzn.to/3OKuLsE"
-pubDate: "2012-12-30"
+pubDate: "2012-12-30T08:00:00.000Z"
 title: "What Technology Wants"
 ---
 

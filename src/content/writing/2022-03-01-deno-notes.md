@@ -5,7 +5,7 @@ draft: false
 tags: ["learning", "programming", "node", "deno"]
 date: 2022-03-01
 description: ""
-pubDate: "2022-03-01"
+pubDate: "2022-03-01T08:00:00.000Z"
 heroImage: ""
 
 ---

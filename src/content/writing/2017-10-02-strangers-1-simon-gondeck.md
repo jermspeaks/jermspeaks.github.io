@@ -2,7 +2,7 @@
 title: "Seven Degrees of Strangers: First Separation"
 date: 2017-10-02
 description: "Simon Gondeck"
-pubDate: "2017-10-02"
+pubDate: "2017-10-02T08:00:00.000Z"
 coverImage: "../../images/7_DOS_Simon_Graphic.png"
 heroImageAlt: Simon wearing letterman with head as computer screen
 permalink: /:categories/season-three/:title.html

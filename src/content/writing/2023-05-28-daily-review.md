@@ -5,7 +5,7 @@ draft: false
 heroImage: "https://images.unsplash.com/photo-1585909695284-32d2985ac9c0?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1770&q=80"
 heroImageAlt: "Credits: Unsplash, Markus Winkler"
 
-pubDate: "2023-05-28"
+pubDate: "2023-05-28T08:00:00.000Z"
 title: "Daily Review Journal"
 tags: ["essay", "review", "daily", "habits"]
 ---

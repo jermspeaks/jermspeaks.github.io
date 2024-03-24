@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post", "tumblr"]
 title: Life after Deactivation
 date: 2010-11-14
-pubDate: "2010-11-14"
+pubDate: "2010-11-14T08:00:00.000Z"
 
 description: ""
 heroImage: ""

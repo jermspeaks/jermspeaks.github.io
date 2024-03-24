@@ -3,7 +3,7 @@ date: 2012-02-03
 description: ""
 heroImage: ""
 
-pubDate: "2012-02-03"
+pubDate: "2012-02-03T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: New Years 2011 Resolutions Revisited
 ---

@@ -2,7 +2,7 @@
 title: On Passing The Torch
 date: 2015-08-24
 description: ""
-pubDate: "2015-08-24"
+pubDate: "2015-08-24T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

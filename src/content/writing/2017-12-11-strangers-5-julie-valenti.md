@@ -2,7 +2,7 @@
 title: "Seven Degrees of Strangers: Fifth Separation"
 date: 2017-12-11
 description: "Julie Valenti"
-pubDate: "2017-12-11"
+pubDate: "2017-12-11T08:00:00.000Z"
 coverImage: "../../images/7_DOS_Julie_Valenti.png"
 heroImageAlt: "Julie Valenti and rewiring your brain"
 permalink: /:categories/season-three/:title.html

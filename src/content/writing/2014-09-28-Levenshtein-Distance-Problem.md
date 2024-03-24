@@ -2,7 +2,7 @@
 tags: ["essay", "programming", "blog", "post"]
 title: Levenshtein Distance Problem
 date: 2014-09-28
-pubDate: "2014-09-28"
+pubDate: "2014-09-28T08:00:00.000Z"
 description: ""
 heroImage: ""
 ---

@@ -4,7 +4,7 @@ description: ""
 draft: false
 heroImage: ""
 
-pubDate: "2017-07-15"
+pubDate: "2017-07-15T08:00:00.000Z"
 published: true
 tags: ["learning", "programming", "bash", "shell"]
 title: Brace Expansion

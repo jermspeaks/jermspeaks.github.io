@@ -2,7 +2,7 @@
 title: 'The 2015 Retrospective'
 date: 2016-01-05
 description: ""
-pubDate: "2016-01-05"
+pubDate: "2016-01-05T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

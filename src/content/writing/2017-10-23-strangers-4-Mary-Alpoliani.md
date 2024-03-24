@@ -2,7 +2,7 @@
 title: "Seven Degrees of Strangers: Fourth Separation"
 date: 2017-10-23
 description: "Mary Aipoalani"
-pubDate: "2017-10-23"
+pubDate: "2017-10-23T08:00:00.000Z"
 coverImage: "../../images/7_DOS_Mary_Graphic.png"
 heroImageAlt: "Mary's information on a cocktail napkin"
 permalink: /:categories/season-three/:title.html

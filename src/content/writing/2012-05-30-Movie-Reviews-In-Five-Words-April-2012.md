@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post", "tumblr"]
 title: "Movie Reviews in Five Words (April 2012)"
 date: 2012-05-30
-pubDate: "2012-05-30"
+pubDate: "2012-05-30T08:00:00.000Z"
 description: ""
 heroImage: ""
 

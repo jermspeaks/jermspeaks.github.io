@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post", "website"]
 title: Enter New Website
 date: 2013-02-20
-pubDate: "2013-02-20"
+pubDate: "2013-02-20T08:00:00.000Z"
 description: ""
 heroImage: ""
 ---

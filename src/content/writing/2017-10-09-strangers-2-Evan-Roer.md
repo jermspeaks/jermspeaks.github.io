@@ -2,7 +2,7 @@
 title: "Seven Degrees of Strangers: Second Separation"
 date: 2017-10-09
 description: "Evan Roer"
-pubDate: "2017-10-09"
+pubDate: "2017-10-09T08:00:00.000Z"
 coverImage: "../../images/7_DOS_Evan_Graphic.png"
 heroImageAlt: "A scale weighing Evan's decision to be an accountant or designer"
 permalink: /:categories/season-three/:title.html

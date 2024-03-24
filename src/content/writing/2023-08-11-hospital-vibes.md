@@ -2,7 +2,7 @@
 description: Daily headaches, panic attacks, life or death experiences on a trip from the ICU and back
 draft: false
 
-pubDate: "2023-08-11"
+pubDate: "2023-08-11T08:00:00.000Z"
 tags: ["essay", "personal", "medical"]
 title: Navigating Healthcare During Crisis
 heroImage: https://images.unsplash.com/photo-1516574187841-cb9cc2ca948b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80

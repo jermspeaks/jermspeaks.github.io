@@ -1,7 +1,7 @@
 ---
 title: 2017 Retrospective
 date: 2018-01-01
-pubDate: "2018-01-01"
+pubDate: "2018-01-01T08:00:00.000Z"
 tags: ["essay", "blog", "post", "work", "annual"]
 description: ""
 heroImage: ""

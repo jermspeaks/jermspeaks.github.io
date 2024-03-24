@@ -5,7 +5,7 @@ dateAdded: "2014-08-01"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1349026758i/6713575.jpg"
 heroImageAlt: "Book cover for Coders At Work"
 link: "https://amzn.to/3OLTRrm"
-pubDate: "2023-05-30"
+pubDate: "2023-05-30T08:00:00.000Z"
 title: "Coders at Work: Reflections on the Craft of Programming"
 blurb: "\"Peter Seibel interviews 15 of the most interesting computer programmers alive today in Coders at Work, offering a companion volume to Apress’s highly acclaimed best-seller Founders at Work by Jessica Livingston.\""
 ---

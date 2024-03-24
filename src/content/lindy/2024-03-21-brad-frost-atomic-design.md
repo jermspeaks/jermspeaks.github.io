@@ -6,7 +6,7 @@ heroImage: "https://atomicdesign.bradfrost.com/images/book-cover.svg"
 heroImageAlt: "Book cover for Atomic Design"
 link: 'https://atomicdesign.bradfrost.com/'
 dateConsumed: "2018-03-12"
-pubDate: "2024-03-21"
+pubDate: "2024-03-21T08:00:00.000Z"
 blurb: "When designing from the ground up, create small, atomic components that can be combined into bigger components. Using biology as a guide, the complexity is organized into molecules, organisms, then pages. Templates are also used as layouts for those pages."
 ---
 

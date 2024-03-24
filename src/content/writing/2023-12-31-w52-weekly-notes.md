@@ -2,7 +2,7 @@
 description: "My fiancée's article, PHOLEDs, fall of the American Chestnut, EVs in China, and how the US is not normal"
 draft: false
 
-pubDate: "2023-12-31"
+pubDate: "2023-12-31T08:00:00.000Z"
 tags: ["weekly"]
 title: 2023 Week 52 - Weekly Notes
 heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80

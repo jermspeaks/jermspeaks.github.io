@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post"]
 title: 'Week One: The DBC Xperience'
 date: 2014-06-27
-pubDate: "2014-06-27"
+pubDate: "2014-06-27T08:00:00.000Z"
 description: ""
 heroImage: ""
 ---

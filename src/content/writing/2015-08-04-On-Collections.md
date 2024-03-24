@@ -2,7 +2,7 @@
 title: On Collections
 date: 2015-08-04
 description: ""
-pubDate: "2015-08-04"
+pubDate: "2015-08-04T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

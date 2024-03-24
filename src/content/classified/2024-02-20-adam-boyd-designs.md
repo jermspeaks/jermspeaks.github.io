@@ -2,7 +2,7 @@
 draft: false
 link: "https://www.etsy.com/shop/AdamBoydDesigns"
 location: "Concord, CA"
-pubDate: "2024-02-20"
+pubDate: "2024-02-20T08:00:00.000Z"
 tags: ["shopping"]
 title: Adam Boyd Designs - Handcrafted Sterling Silver and Copper Jewelry
 referrer: Personal

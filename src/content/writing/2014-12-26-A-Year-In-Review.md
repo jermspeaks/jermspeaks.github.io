@@ -2,7 +2,7 @@
 title: 'A Year In Review: 2014'
 date: 2014-12-26
 description: ""
-pubDate: "2014-12-26"
+pubDate: "2014-12-26T08:00:00.000Z"
 heroImage: ""
 
 tags: [season_1, letters]

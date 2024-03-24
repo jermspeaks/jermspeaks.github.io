@@ -5,7 +5,7 @@ dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1298005883i/8667490.jpg"
 heroImageAlt: "Book cover for Life, on the Line"
 link: "https://amzn.to/3oz3kaP"
-pubDate: "2012-12-30"
+pubDate: "2012-12-30T08:00:00.000Z"
 title: "Life, on the Line: A Chef’s Story of Chasing Greatness, Facing Death, and Redefining the Way We Eat"
 ---
 

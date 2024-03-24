@@ -2,7 +2,7 @@
 title: 'Ghosts, Part 2'
 date: 2016-06-03
 description: ""
-pubDate: "2016-06-03"
+pubDate: "2016-06-03T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

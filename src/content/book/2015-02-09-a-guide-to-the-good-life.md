@@ -5,7 +5,7 @@ dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1547348819i/5617966.jpg"
 heroImageAlt: "Book cover for A Guide to the Good Life"
 link: "https://amzn.to/3BZxzL9"
-pubDate: "2015-02-09"
+pubDate: "2015-02-09T08:00:00.000Z"
 title: "A Guide to the Good Life: The Ancient Art of Stoic Joy"
 blurb: "An introduction to the philosophy of Stoicism as a practical guide to leading a fulfilling life. Irvine explores Stoic principles, including acceptance of what is beyond one's control, overcoming destructive emotions, and finding tranquility through a mindful and intentional approach to living."
 ---

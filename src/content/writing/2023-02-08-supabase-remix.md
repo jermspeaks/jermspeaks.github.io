@@ -5,7 +5,7 @@ draft: false
 tags: ["learning", "supabase", "remix", "react"]
 date: 2023-02-08
 description: "From an egghead course, notes about building a realtime chat app with remix and supabase"
-pubDate: "2023-02-08"
+pubDate: "2023-02-08T08:00:00.000Z"
 heroImage: ""
 
 ---

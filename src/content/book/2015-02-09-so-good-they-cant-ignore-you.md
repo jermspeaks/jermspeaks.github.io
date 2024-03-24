@@ -5,7 +5,7 @@ dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1360564614i/13525945.jpg"
 heroImageAlt: "Book cover for So Good They Can't Ignore You"
 link: "https://amzn.to/42d7v9Z"
-pubDate: "2015-02-09"
+pubDate: "2015-02-09T08:00:00.000Z"
 title: "So Good They Can't Ignore You"
 blurb: "Counter advice to \"follow your passion\" and about the importance of becoming exceptional at what you do."
 ---

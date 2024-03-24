@@ -2,7 +2,7 @@
 title: The Reactive Problem
 date: 2017-03-06
 description: "Where I talk about my failure to stop reacting."
-pubDate: "2017-03-06"
+pubDate: "2017-03-06T08:00:00.000Z"
 heroImage: ""
 
 permalink: /:categories/season-two/:title.html

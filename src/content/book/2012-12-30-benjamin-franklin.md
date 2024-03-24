@@ -5,7 +5,7 @@ dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1630510455i/10883.jpg"
 heroImageAlt: "Book cover for Benjamin Franklin: An American Life"
 link: "https://amzn.to/3qiyl3n"
-pubDate: "2012-12-30"
+pubDate: "2012-12-30T08:00:00.000Z"
 title: "Benjamin Franklin: An American Life"
 ---
 

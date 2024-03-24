@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post", "programming"]
 title: Single Responsibility
 date: 2017-01-26
-pubDate: "2017-01-26"
+pubDate: "2017-01-26T08:00:00.000Z"
 description: ""
 heroImage: ""
 

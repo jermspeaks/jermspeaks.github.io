@@ -3,7 +3,7 @@ date: 2014-07-05
 description: ""
 heroImage: ""
 
-pubDate: "2014-07-05"
+pubDate: "2014-07-05T08:00:00.000Z"
 tags: ["essay", "blog", "post"]
 title: 'Week Two: DBC EXP'
 ---

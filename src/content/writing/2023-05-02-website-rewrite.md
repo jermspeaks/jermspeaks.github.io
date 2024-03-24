@@ -4,7 +4,7 @@ description: "Migrating from Jekyll to Astro"
 draft: false
 heroImage: ""
 
-pubDate: "2023-05-02"
+pubDate: "2023-05-02T08:00:00.000Z"
 title: "Website Re-write 2023"
 tags: ["essay", "programming", "website", "updates"]
 ---

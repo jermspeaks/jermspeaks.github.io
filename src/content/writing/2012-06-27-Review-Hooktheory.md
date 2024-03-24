@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post", "tumblr"]
 title: "Review: Hooktheory"
 date: 2012-06-27
-pubDate: "2012-06-27"
+pubDate: "2012-06-27T08:00:00.000Z"
 
 description: ""
 heroImage: ""

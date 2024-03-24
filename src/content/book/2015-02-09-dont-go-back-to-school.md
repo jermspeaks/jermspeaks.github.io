@@ -5,7 +5,7 @@ dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1364915938i/17726184.jpg"
 heroImageAlt: "Book cover for Don't Go Back To School"
 link: "https://amzn.to/43xIBTv"
-pubDate: "2015-02-09"
+pubDate: "2015-02-09T08:00:00.000Z"
 title: "Don't Go Back To School"
 blurb: "A series of interviews with unconventional people challenging the traditional education-to-career pathway, advocating for alternative methods of learning and skill acquisition outside formal academic institutions."
 ---

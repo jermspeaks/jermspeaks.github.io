@@ -2,7 +2,7 @@
 tags: ["archive", "post", "tumblr"]
 title: America - We Should Just Cut the Pie
 date: 2008-01-20
-pubDate: "2008-01-20"
+pubDate: "2008-01-20T08:00:00.000Z"
 draft: true
 description: ""
 heroImage: ""

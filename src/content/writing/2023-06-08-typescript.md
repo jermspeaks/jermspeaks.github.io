@@ -5,7 +5,7 @@ draft: false
 heroImage: "https://www.typescriptlang.org/images/branding/logo-grouping.svg"
 heroImageAlt: "Typescript Logo, credits to Microsoft"
 
-pubDate: "2023-06-08"
+pubDate: "2023-06-08T08:00:00.000Z"
 tags: ["learning", "Typescript", "programming"]
 title: "Typescript"
 ---

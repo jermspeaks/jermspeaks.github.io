@@ -2,7 +2,7 @@
 title: "Seven Degrees of Strangers: Third Separation"
 date: 2017-10-11
 description: "Joe Lazzara"
-pubDate: "2017-10-11"
+pubDate: "2017-10-11T08:00:00.000Z"
 coverImage: "../../images/7DOS_Joe_Graphic.png"
 heroImageAlt: "Joe leaves his suit in the closet and wears a butcher's apron"
 permalink: /:categories/season-three/:title.html

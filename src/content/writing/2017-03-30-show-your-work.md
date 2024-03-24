@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post", "work"]
 title: Show Your Work - A Manifesto
 date: 2017-03-30
-pubDate: "2017-03-30"
+pubDate: "2017-03-30T08:00:00.000Z"
 description: ""
 heroImage: ""
 

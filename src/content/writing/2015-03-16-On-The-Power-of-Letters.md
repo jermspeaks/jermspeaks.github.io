@@ -2,7 +2,7 @@
 title: On The Power of Letters
 date: 2015-03-16
 description: ""
-pubDate: "2015-03-16"
+pubDate: "2015-03-16T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

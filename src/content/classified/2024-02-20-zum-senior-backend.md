@@ -2,7 +2,7 @@
 draft: false
 link: "https://jobs.lever.co/ridezum/3f583c09-479b-4385-bc2f-3f8150893886"
 location: "Redwood City, CA"
-pubDate: "2024-02-20"
+pubDate: "2024-02-20T08:00:00.000Z"
 tags: ["job"]
 title: Zum - Senior Backend Engineer
 referrer: Personal

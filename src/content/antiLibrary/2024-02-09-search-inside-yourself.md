@@ -5,7 +5,7 @@ dateAdded: "2024-02-09"
 heroImage: "https://m.media-amazon.com/images/W/MEDIAX_849526-T1/images/I/515qI6QtDeL._SY445_SX342_.jpg"
 heroImageAlt: "Book cover for Search Inside Yourself"
 link: "https://www.amazon.com/Search-Inside-Yourself-Unexpected-Achieving/dp/0062116932/"
-pubDate: "2024-02-09"
+pubDate: "2024-02-09T08:00:00.000Z"
 title: "Search Inside Yourself: The Unexpected Path to Achieving Success, Happiness"
 blurb: "Intro to emotional intelligence (EI) and mindfulness. It goes through mindfulness and meditation exercises to enhance EI, making it relevant for individuals in a modern, fast-paced workplace and lead a happier life."
 ---

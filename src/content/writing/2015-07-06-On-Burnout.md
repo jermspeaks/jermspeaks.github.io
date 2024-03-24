@@ -2,7 +2,7 @@
 title: On Burnout
 date: 2015-07-06
 description: ""
-pubDate: "2015-07-06"
+pubDate: "2015-07-06T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

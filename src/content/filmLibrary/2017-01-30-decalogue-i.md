@@ -5,7 +5,7 @@ creator: "Krzysztof Kieślowski"
 heroImage: "https://a.ltrbxd.com/resized/sm/upload/nf/yf/7h/7p/v7GRnQV6dBzcboIW0bJrkldt2nO-0-230-0-345-crop.jpg?v=b0bb3358a6"
 heroImageAlt: "Box Art for Dekalog"
 link: "https://www.criterion.com/films/28661-dekalog"
-pubDate: "2017-01-30"
+pubDate: "2017-01-30T08:00:00.000Z"
 releaseYear: 1988
 country: Poland
 language: Polish

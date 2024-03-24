@@ -2,7 +2,7 @@
 title: Marathon Acknowledgements
 date: 2015-10-12
 description: ""
-pubDate: "2015-10-12"
+pubDate: "2015-10-12T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post", "work"]
 title: Code Highlight Test
 date: 2017-03-31
-pubDate: "2017-03-31"
+pubDate: "2017-03-31T08:00:00.000Z"
 description: ""
 heroImage: ""
 

@@ -5,7 +5,7 @@ description: ""
 draft: false
 heroImage: ""
 
-pubDate: "2017-02-19"
+pubDate: "2017-02-19T08:00:00.000Z"
 published: true
 tags: ["learning", "interview", "prep"]
 title: "Interview Prep"

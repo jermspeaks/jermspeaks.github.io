@@ -3,7 +3,7 @@ creator: "Debra Fraiser"
 heroImage: "https://www.debrafrasier.com/wp-content/uploads/2020/01/panel-about.png"
 heroImageAlt: "Portrait photo of Debra Fraiser"
 link: "https://www.debrafrasier.com/"
-pubDate: "2024-02-21"
+pubDate: "2024-02-21T08:00:00.000Z"
 title: "Debra Fraiser"
 blurb: 'Debra is the author and illustrator of many award-winning picture books including On the Day You Were Born and Miss Alaineus, A Vocabulary Disaster. In addition to her well- known talks on creative process, Debra’s innovative "Book Events" build a community’s creativity through projects that start with a story.'
 ---

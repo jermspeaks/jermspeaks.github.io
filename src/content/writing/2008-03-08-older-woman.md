@@ -4,7 +4,7 @@ description: ""
 draft: true
 heroImage: ""
 
-pubDate: "2008-03-08"
+pubDate: "2008-03-08T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: Older Women Thinking Twenty
 ---

@@ -2,7 +2,7 @@
 title: On Fireflies
 date: 2015-06-15
 description: ""
-pubDate: "2015-06-15"
+pubDate: "2015-06-15T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

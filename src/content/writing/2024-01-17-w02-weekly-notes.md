@@ -2,7 +2,7 @@
 description: "Stanley Cups Out of Stock, a guide to ZIRP, displaced jobs from AI, and the reason there's no improvement on rebuilding Lahaina."
 draft: false
 
-pubDate: "2024-01-17"
+pubDate: "2024-01-17T08:00:00.000Z"
 tags: ["weekly"]
 title: 2024 Week 02 - Weekly Notes
 heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80

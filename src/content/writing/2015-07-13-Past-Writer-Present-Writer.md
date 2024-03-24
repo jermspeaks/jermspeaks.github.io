@@ -2,7 +2,7 @@
 title: Past Writer, Present Writer
 date: 2015-07-13
 description: ""
-pubDate: "2015-07-13"
+pubDate: "2015-07-13T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

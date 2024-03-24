@@ -6,7 +6,7 @@ dateConsumed: "2023-05-21"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1667852408i/62313346.jpg"
 heroImageAlt: "Book cover for Excellent Advice for Living"
 link: "https://amzn.to/3MWVGiE"
-pubDate: "2023-06-08"
+pubDate: "2023-06-08T08:00:00.000Z"
 review: ""
 blurb: "Key takeaways from short pieces advice Kevin Kelly has collected over decades. I've turned those into different categories of advice that has resonated with me."
 ---

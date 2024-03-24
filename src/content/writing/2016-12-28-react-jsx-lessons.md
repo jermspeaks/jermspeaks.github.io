@@ -2,7 +2,7 @@
 tags: ["blog", "post", "programming", "Javascript", "React", "JSX", "Code Style"]
 title: React JSX Syntax - Code Style
 date: 2016-12-28
-pubDate: "2016-12-28"
+pubDate: "2016-12-28T08:00:00.000Z"
 description: ""
 heroImage: ""
 

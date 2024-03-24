@@ -2,7 +2,7 @@
 title: 'On Teamwork'
 date: 2016-01-28
 description: ""
-pubDate: "2016-01-28"
+pubDate: "2016-01-28T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

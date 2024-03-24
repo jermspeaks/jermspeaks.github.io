@@ -5,7 +5,7 @@ creator: "Ryan Coogler"
 heroImage: "https://a.ltrbxd.com/resized/sm/upload/4i/ao/9w/sf/zwPYTHFCgWYHRW1OoxE23dxZZRX-0-230-0-345-crop.jpg?v=f56e9553ca"
 heroImageAlt: "Film Poster for Fruitvale Station"
 link: "https://www.justwatch.com/us/movie/fruitvale-station"
-pubDate: "2018-02-13"
+pubDate: "2018-02-13T08:00:00.000Z"
 releaseYear: 2013
 title: "Fruitvale Station"
 country: United States

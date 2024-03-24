@@ -2,7 +2,7 @@
 title: On Exposing Ignorance
 date: 2014-12-13
 description: ""
-pubDate: "2014-12-13"
+pubDate: "2014-12-13T08:00:00.000Z"
 heroImage: ""
 
 tags: [season_1, letters]

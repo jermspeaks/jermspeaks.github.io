@@ -4,7 +4,7 @@ description: ""
 draft: true
 heroImage: ""
 
-pubDate: "2008-01-22"
+pubDate: "2008-01-22T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: My Take on Scientology
 ---

@@ -2,7 +2,7 @@
 title: On Audiobooks
 date: 2015-10-19
 description: ""
-pubDate: "2015-10-19"
+pubDate: "2015-10-19T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

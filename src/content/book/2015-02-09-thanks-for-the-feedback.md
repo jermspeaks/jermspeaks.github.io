@@ -5,7 +5,7 @@ dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1375064486i/18114120.jpg"
 heroImageAlt: "Book cover for Thanks for the Feedback"
 link: "https://amzn.to/3WITjoa"
-pubDate: "2015-02-09"
+pubDate: "2015-02-09T08:00:00.000Z"
 title: "Thanks for the Feedback: The Science and Art of Receiving Feedback Well"
 blurb: "A focus on the importance of receiving feedback effectively and provides practical strategies for dealing with different types of feedback."
 ---

@@ -8,7 +8,7 @@ heroImage: "https://a.ltrbxd.com/resized/sm/upload/js/2l/27/zl/2rZ2nkS3mmynrz264
 heroImageAlt: "A Room With A View"
 language: English
 link: "https://www.justwatch.com/us/movie/a-room-with-a-view"
-pubDate: "2023-05-23"
+pubDate: "2023-05-23T08:00:00.000Z"
 releaseYear: 1986
 runtime: 117 minutes
 title: "A Room With A View"

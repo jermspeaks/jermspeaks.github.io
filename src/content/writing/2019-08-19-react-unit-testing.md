@@ -5,7 +5,7 @@ draft: false
 tags: ["learning", "react", "testing"]
 date: 2019-08-19
 description: ""
-pubDate: "2019-08-19"
+pubDate: "2019-08-19T08:00:00.000Z"
 heroImage: ""
 
 ---

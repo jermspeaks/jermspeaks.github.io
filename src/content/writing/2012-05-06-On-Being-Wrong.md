@@ -3,7 +3,7 @@ date: 2012-05-06
 description: ""
 heroImage: ""
 
-pubDate: "2012-05-06"
+pubDate: "2012-05-06T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: On Being Wrong
 ---

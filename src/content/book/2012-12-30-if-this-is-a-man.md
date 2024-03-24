@@ -5,7 +5,7 @@ dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1606823551i/6181.jpg"
 heroImageAlt: "Book cover for If This Is A Man"
 link: "https://amzn.to/43u6Ba4"
-pubDate: "2012-12-30"
+pubDate: "2012-12-30T08:00:00.000Z"
 title: "If This Is A Man"
 ---
 

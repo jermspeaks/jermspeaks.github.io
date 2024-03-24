@@ -4,7 +4,7 @@ description: 'Setting up a new mac - 2022 Apple Macbook Pro 13"'
 draft: false
 heroImage: ""
 
-pubDate: "2022-12-08"
+pubDate: "2022-12-08T08:00:00.000Z"
 title: "2022 New Mac Setup"
 tags: ["essay"]
 ---
