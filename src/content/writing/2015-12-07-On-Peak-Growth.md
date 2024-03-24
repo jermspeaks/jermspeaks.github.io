@@ -2,7 +2,7 @@
 title: On Peak Growth
 date: 2015-12-07
 description: ""
-pubDate: "2015-12-07"
+pubDate: "2015-12-07T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

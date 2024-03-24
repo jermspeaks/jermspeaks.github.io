@@ -2,7 +2,7 @@
 title: On Frustration
 date: 2015-06-01
 description: ""
-pubDate: "2015-06-01"
+pubDate: "2015-06-01T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post"]
 title: 'The DBC Experience: The End'
 date: 2014-08-27
-pubDate: "2014-08-27"
+pubDate: "2014-08-27T08:00:00.000Z"
 description: ""
 heroImage: ""
 

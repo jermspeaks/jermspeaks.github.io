@@ -1,7 +1,7 @@
 ---
 title: The Negligence Problem
 date: 2017-02-07
-pubDate: "2017-02-07"
+pubDate: "2017-02-07T08:00:00.000Z"
 heroImage: ""
 
 permalink: /:categories/season-two/:title.html

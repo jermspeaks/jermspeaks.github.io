@@ -6,7 +6,7 @@ dateConsumed: "2012-11-25"
 heroImage: "https://m.media-amazon.com/images/I/51GZMEe2iFL.jpg"
 heroImageAlt: "Book cover for The Art of Learning"
 link: "https://amzn.to/3MWVGiE"
-pubDate: "2024-02-06"
+pubDate: "2024-02-06T08:00:00.000Z"
 title: The Art of Learning
 ---
 

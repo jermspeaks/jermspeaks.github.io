@@ -5,7 +5,7 @@ dateAdded: "2024-02-21"
 heroImage: "https://m.media-amazon.com/images/I/81EDTjulE2L._SL1500_.jpg"
 heroImageAlt: "Book cover for An A-Z of Pasta"
 link: "https://booklarder.com/products/an-a-z-of-pasta-stories-shapes-sauces-recipes"
-pubDate: "2024-02-21"
+pubDate: "2024-02-21T08:00:00.000Z"
 title: "An A-Z of Pasta: Stories, Shapes, Sauces, Recipes"
 blurb: "Rachel Roddy condenses everything she has learned about Italy's favourite food in a practical, easy-to-use and mouth-watering collection of 100 essential pasta and pasta sauce recipes."
 ---

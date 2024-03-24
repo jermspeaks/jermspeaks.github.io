@@ -2,7 +2,7 @@
 title: The Problem of Rushing Through
 date: 2017-04-17
 description: "Where I talk about my failure to slow down."
-pubDate: "2017-04-17"
+pubDate: "2017-04-17T08:00:00.000Z"
 heroImage: ""
 
 permalink: /:categories/season-two/:title.html

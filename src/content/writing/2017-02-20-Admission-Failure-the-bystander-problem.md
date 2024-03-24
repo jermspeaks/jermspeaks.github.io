@@ -1,7 +1,7 @@
 ---
 title: The Bystander Problem
 date: 2017-02-20
-pubDate: "2017-02-20"
+pubDate: "2017-02-20T08:00:00.000Z"
 heroImage: ""
 
 permalink: /:categories/season-two/:title.html

@@ -2,7 +2,7 @@
 title: "Seven Degrees of Strangers: Seventh Separation"
 date: 2018-07-14
 description: "Megan Jolly"
-pubDate: "2018-07-14"
+pubDate: "2018-07-14T08:00:00.000Z"
 coverImage: "../../images/7_Degrees_Of_Strangers_Letterhead.png"
 heroImageAlt: "7 Degrees of Strangers Letterhead"
 permalink: /:categories/season-three/:title.html

@@ -5,7 +5,7 @@ dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1432487272i/23878688.jpg"
 heroImageAlt: "Book cover for The 5 Love Languages"
 link: "https://amzn.to/42dETgH"
-pubDate: "2015-02-09"
+pubDate: "2015-02-09T08:00:00.000Z"
 title: "The 5 Love Languages: The Secret to Love that Lasts"
 ---
 

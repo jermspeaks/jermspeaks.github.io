@@ -5,7 +5,7 @@ dateConsumed: "2024-02-08"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1581527774i/41881472.jpg"
 heroImageAlt: "Book cover for The Psychology of Money"
 link: "https://amzn.to/42aV7qY"
-pubDate: "2024-02-09"
+pubDate: "2024-02-09T08:00:00.000Z"
 title: "The Psychology of Money: Timeless lessons on wealth, greed, and happiness"
 blurb: "\"Morgan Housel shares 19 short stories exploring the strange ways people think about money and teaches you how to make better sense of one of life’s most important topics.\""
 ---

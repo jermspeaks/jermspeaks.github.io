@@ -5,7 +5,7 @@ dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1433739086i/33313.jpg"
 heroImageAlt: "Book cover for Kitchen Confidential"
 link: "https://amzn.to/43aNm5J"
-pubDate: "2013-10-03"
+pubDate: "2013-10-03T08:00:00.000Z"
 title: "Kitchen Confidential"
 ---
 

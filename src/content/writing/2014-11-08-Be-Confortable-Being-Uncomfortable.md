@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post"]
 title: Be Comfortable Being Uncomfortable
 date: 2014-11-08
-pubDate: "2014-11-08"
+pubDate: "2014-11-08T08:00:00.000Z"
 description: ""
 heroImage: ""
 

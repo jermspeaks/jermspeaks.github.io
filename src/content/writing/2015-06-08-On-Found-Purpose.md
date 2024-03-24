@@ -2,7 +2,7 @@
 title: On Found Purpose
 date: 2015-06-08
 description: ""
-pubDate: "2015-06-08"
+pubDate: "2015-06-08T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

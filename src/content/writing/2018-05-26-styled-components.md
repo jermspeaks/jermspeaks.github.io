@@ -5,7 +5,7 @@ description: ""
 draft: false
 heroImage: ""
 
-pubDate: "2018-05-26"
+pubDate: "2018-05-26T08:00:00.000Z"
 published: false
 tags: ["learning", "programming", "react", "styled components"]
 title: Styled Components

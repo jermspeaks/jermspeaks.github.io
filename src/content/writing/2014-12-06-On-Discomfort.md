@@ -2,7 +2,7 @@
 title: On Discomfort
 date: 2014-12-06
 description: ""
-pubDate: "2014-12-06"
+pubDate: "2014-12-06T08:00:00.000Z"
 heroImage: ""
 
 tags: [season_1, letters]

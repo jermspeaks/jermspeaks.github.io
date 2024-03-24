@@ -5,7 +5,7 @@ dateConsumed: "2012-02-29"
 heroImage: "https://68.media.tumblr.com/tumblr_lznp1q47Op1qz81kho1_400.jpg"
 heroImageAlt: "Book cover image for The Commitment"
 link: "https://amzn.to/41QkPSg"
-pubDate: "2012-02-29"
+pubDate: "2012-02-29T08:00:00.000Z"
 title: "The Commitment: Love, Sex, Marriage, and My Family"
 blurb: "A personal account of tying the knot with Dan's partner, offering insights into the meaning of commitment in the context of love, sex, marriage, and family. And it's Dan's thoughts on marriage and the dynamics of his own relationship, making it a valuable read for anyone considering marriage or seeking a deeper understanding of committed relationships."
 ---

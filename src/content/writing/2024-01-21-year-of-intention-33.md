@@ -2,7 +2,7 @@
 description: "My annual review, taking a look at my 33rd year"
 draft: false
 
-pubDate: "2024-01-21"
+pubDate: "2024-01-21T08:00:00.000Z"
 tags: ["essay", "reflection"]
 title: Year of Intentions (33)
 heroImage: https://images.unsplash.com/photo-1562609952-9a082716e8be?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D

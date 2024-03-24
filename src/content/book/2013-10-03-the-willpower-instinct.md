@@ -5,7 +5,7 @@ dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1436737104i/10865206.jpg"
 heroImageAlt: "Book cover for The Willpower Instinct"
 link: "https://amzn.to/3IO75QC"
-pubDate: "2013-10-03"
+pubDate: "2013-10-03T08:00:00.000Z"
 title: "The Willpower Instinct: How Self-Control Works, Why It Matters, and What You Can Do to Get More of It"
 ---
 

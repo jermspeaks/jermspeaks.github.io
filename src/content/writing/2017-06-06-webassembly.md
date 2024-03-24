@@ -5,7 +5,7 @@ draft: false
 tags: ["learning", "programming", "webassembly"]
 date: 2017-06-06
 description: ""
-pubDate: "2017-06-06"
+pubDate: "2017-06-06T08:00:00.000Z"
 heroImage: ""
 
 ---

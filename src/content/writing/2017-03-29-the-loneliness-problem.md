@@ -2,7 +2,7 @@
 title: The Loneliness Problem
 date: 2017-03-30
 description: "Where I talk about my failure to be alone."
-pubDate: "2017-03-30"
+pubDate: "2017-03-30T08:00:00.000Z"
 heroImage: ""
 
 permalink: /:categories/season-two/:title.html

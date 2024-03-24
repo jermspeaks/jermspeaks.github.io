@@ -2,7 +2,7 @@
 title: "Seven Degrees of Strangers: Sixth Separation"
 date: 2018-07-07
 description: "Raina Evans"
-pubDate: "2018-07-07"
+pubDate: "2018-07-07T08:00:00.000Z"
 coverImage: "../../images/7_DOS_Raina_Evans.png"
 heroImageAlt: "The many different hats Raina Evans wears"
 permalink: /:categories/season-three/:title.html

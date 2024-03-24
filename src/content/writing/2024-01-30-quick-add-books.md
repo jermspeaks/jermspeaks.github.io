@@ -1,7 +1,7 @@
 ---
 description: "Setting up the Obsidian QuickAdd plugin with a custom book plugin"
 draft: false
-pubDate: "2024-01-30"
+pubDate: "2024-01-30T08:00:00.000Z"
 tags: ["pkm", "programming"]
 title: Using my custom book macro for Obsidian QuickAdd Plugin 
 heroImage: https://obsidian.md/images/obsidian-logo-gradient.svg

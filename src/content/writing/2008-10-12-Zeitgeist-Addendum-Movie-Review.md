@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post", "tumblr"]
 title: "Movie Review: Zeitgeist Addendum"
 date: 2008-10-12
-pubDate: "2008-10-12"
+pubDate: "2008-10-12T08:00:00.000Z"
 
 description: ""
 heroImage: ""

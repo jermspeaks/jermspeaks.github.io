@@ -2,7 +2,7 @@
 title: On An Open Dialogue
 date: 2015-03-23
 description: ""
-pubDate: "2015-03-23"
+pubDate: "2015-03-23T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

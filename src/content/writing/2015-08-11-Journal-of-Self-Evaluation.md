@@ -2,7 +2,7 @@
 title: Journal of Self-Evaluation
 date: 2015-08-11
 description: ""
-pubDate: "2015-08-11"
+pubDate: "2015-08-11T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

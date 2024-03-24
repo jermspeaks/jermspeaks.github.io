@@ -2,7 +2,7 @@
 title: 'Ghosts, Part 1'
 date: 2016-05-23
 description: ""
-pubDate: "2016-05-23"
+pubDate: "2016-05-23T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

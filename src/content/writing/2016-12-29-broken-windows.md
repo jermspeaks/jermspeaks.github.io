@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post", "programming"]
 title: Broken Windows - Software Entropy Revisited
 date: 2016-12-29
-pubDate: "2016-12-29"
+pubDate: "2016-12-29T08:00:00.000Z"
 description: ""
 heroImage: ""
 draft: true

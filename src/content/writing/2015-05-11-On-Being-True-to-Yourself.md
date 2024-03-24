@@ -2,7 +2,7 @@
 title: On Being True to Yourself
 date: 2015-05-11
 description: ""
-pubDate: "2015-05-11"
+pubDate: "2015-05-11T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

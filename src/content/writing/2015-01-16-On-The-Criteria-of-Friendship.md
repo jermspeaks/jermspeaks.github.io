@@ -2,7 +2,7 @@
 title: On The Criteria of Friendship
 date: 2015-01-16
 description: ""
-pubDate: "2015-01-16"
+pubDate: "2015-01-16T08:00:00.000Z"
 heroImage: ""
 
 tags: [season_1, letters]

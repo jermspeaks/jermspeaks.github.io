@@ -5,7 +5,7 @@ dateConsumed: "2015-02-09"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1408547261i/20980987.jpg"
 heroImageAlt: "Book cover for The Art Of Asking"
 link: "https://amzn.to/3OLE8IW"
-pubDate: "2015-02-09"
+pubDate: "2015-02-09T08:00:00.000Z"
 title: "The Art Of Asking"
 blurb: "Amanda Palmer recounts being a street performer to a world-renowned artist, emphasizing the importance of accepting help when it's offered and building a closely-knit network based on personal communication, honesty, and trust."
 ---

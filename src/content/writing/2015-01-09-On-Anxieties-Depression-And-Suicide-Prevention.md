@@ -2,7 +2,7 @@
 title: 'On Anxieties, Depression, And Suicide Prevention'
 date: 2015-01-09
 description: ""
-pubDate: "2015-01-09"
+pubDate: "2015-01-09T08:00:00.000Z"
 heroImage: ""
 
 tags: [season_1, letters]

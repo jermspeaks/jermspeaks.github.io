@@ -2,7 +2,7 @@
 title: 'On Conversation'
 date: 2016-10-10
 description: ""
-pubDate: "2016-10-10"
+pubDate: "2016-10-10T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

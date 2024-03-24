@@ -2,7 +2,7 @@
 title: On Endings and Beginnings
 date: 2015-04-27
 description: ""
-pubDate: "2015-04-27"
+pubDate: "2015-04-27T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

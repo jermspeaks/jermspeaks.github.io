@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post"]
 title: A Walk With Hackathons
 date: 2014-11-24
-pubDate: "2014-11-24"
+pubDate: "2014-11-24T08:00:00.000Z"
 description: ""
 heroImage: ""
 

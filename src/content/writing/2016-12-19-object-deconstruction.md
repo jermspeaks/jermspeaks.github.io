@@ -2,7 +2,7 @@
 tags: ["essay", "blog", "post", "programming", "learning"]
 title: Object Deconstruction in Javascript
 date: 2016-12-19
-pubDate: "2016-12-19"
+pubDate: "2016-12-19T08:00:00.000Z"
 description: ""
 heroImage: ""
 

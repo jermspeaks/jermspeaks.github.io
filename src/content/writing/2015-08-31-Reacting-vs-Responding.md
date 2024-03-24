@@ -2,7 +2,7 @@
 title: Reacting vs Responding
 date: 2015-08-31
 description: ""
-pubDate: "2015-08-31"
+pubDate: "2015-08-31T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

@@ -5,7 +5,7 @@ dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1398003737i/236093.jpg"
 heroImageAlt: "Book cover for The Wonderful Wizard of Oz"
 link: "https://amzn.to/3MIrUxO"
-pubDate: "2013-10-03"
+pubDate: "2013-10-03T08:00:00.000Z"
 title: "The Wonderful Wizard of Oz"
 ---
 

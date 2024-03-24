@@ -5,7 +5,7 @@ creator: "Cord Jefferson"
 heroImage: "https://m.media-amazon.com/images/M/MV5BZDlkZmRlYTctNGJmNy00MjVkLThjZDQtMWY5Zjg2NjlhZDZkXkEyXkFqcGdeQXVyMDM2NDM2MQ@@._V1_SX300.jpg"
 heroImageAlt: "Film Poster for American Fiction"
 link: "https://www.themoviedb.org/movie/1056360-american-fiction"
-pubDate: "2024-02-15"
+pubDate: "2024-02-15T08:00:00.000Z"
 releaseYear: 2023
 title: "American Fiction"
 blurb: 'A novelist who''s fed up with the establishment profiting from "Black" entertainment uses a pen name to write a book that propels him into the heart of hypocrisy and the madness he claims to disdain.'

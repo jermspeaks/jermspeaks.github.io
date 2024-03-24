@@ -4,7 +4,7 @@ description: "This checklist is a starting point for web app audits. It's a livi
 draft: false
 heroImage: ""
 
-pubDate: "2020-02-06"
+pubDate: "2020-02-06T08:00:00.000Z"
 published: false
 tags: ["learning", "audit", "checklist"]
 title: Web App Audit Checklist

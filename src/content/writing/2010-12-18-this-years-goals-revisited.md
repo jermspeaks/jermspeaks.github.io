@@ -3,7 +3,7 @@ date: 2010-12-18
 description: ""
 heroImage: ""
 
-pubDate: "2010-12-18"
+pubDate: "2010-12-18T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: "This Year's Goals Revisited"
 ---

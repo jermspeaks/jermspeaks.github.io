@@ -5,7 +5,7 @@ dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1311272277i/11521956.jpg"
 heroImageAlt: "Book cover for Folks, this ain't normal"
 link: "https://amzn.to/3WBAuDf"
-pubDate: "2012-12-30"
+pubDate: "2012-12-30T08:00:00.000Z"
 title: "Folks, This Ain’t Normal: A Farmer’s Advice for Happier Hens, Healthier People, and a Better World"
 ---
 

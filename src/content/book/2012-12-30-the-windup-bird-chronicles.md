@@ -5,7 +5,7 @@ dateConsumed: "2012-12-30"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1327872639i/11275.jpg"
 heroImageAlt: "Book cover for The Wind-up Bird Chronicles"
 link: "https://amzn.to/3OLemV6"
-pubDate: "2012-12-30"
+pubDate: "2012-12-30T08:00:00.000Z"
 title: "The Wind-up Bird Chronicles"
 ---
 

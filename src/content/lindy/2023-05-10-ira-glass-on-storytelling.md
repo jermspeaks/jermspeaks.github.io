@@ -6,7 +6,7 @@ heroImage: "https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS__A5jam3cTG4w
 heroImageAlt: "Courtesy of Vulture"
 link: "https://www.thisamericanlife.org/extras/ira-glass-on-storytelling"
 dateConsumed: "2014-02-01"
-pubDate: "2023-05-10"
+pubDate: "2023-05-10T08:00:00.000Z"
 blurb: "Ira Glass, the host of This American Life, shared his insights on storytelling in a short 30 minute interview revolving around the importance of engaging the audience, using vivid language, and focusing on the structure and characters of the story."
 ---
 

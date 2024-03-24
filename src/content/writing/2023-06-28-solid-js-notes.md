@@ -5,7 +5,7 @@ draft: false
 heroImage: "https://www.solidjs.com/assets/logo-123b04bc.svg"
 heroImageAlt: "SolidJS Logo"
 
-pubDate: "2023-06-28"
+pubDate: "2023-06-28T08:00:00.000Z"
 title: "SolidJS"
 tags: ["learning", "Typescript", "programming"]
 ---

@@ -2,7 +2,7 @@
 title: Christmas in October
 date: 2015-10-07
 description: ""
-pubDate: "2015-10-07"
+pubDate: "2015-10-07T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

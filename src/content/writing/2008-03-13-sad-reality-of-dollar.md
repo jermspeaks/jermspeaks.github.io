@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post", "tumblr"]
 title: The Sad Reality of the Volatile Dollar
 date: 2008-03-13
-pubDate: "2008-03-13"
+pubDate: "2008-03-13T08:00:00.000Z"
 
 description: ""
 heroImage: ""

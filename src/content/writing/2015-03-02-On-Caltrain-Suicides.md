@@ -2,7 +2,7 @@
 title: On Caltrain Suicides
 date: 2015-03-02
 description: ""
-pubDate: "2015-03-02"
+pubDate: "2015-03-02T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

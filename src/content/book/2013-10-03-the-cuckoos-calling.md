@@ -5,7 +5,7 @@ dateConsumed: "2013-10-03"
 heroImage: "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1540217136i/16160797.jpg"
 heroImageAlt: "Book cover for The Cuckoo's Calling"
 link: "https://amzn.to/3C2uCJO"
-pubDate: "2013-10-03"
+pubDate: "2013-10-03T08:00:00.000Z"
 title: "The Cuckoo's Calling"
 blurb: "A murder mystery following war vet PI Cormoran Strike and his secretary as they investigate the death of a young model named Lula Landry."
 ---

@@ -5,7 +5,7 @@ dateAdded: "2023-01-10"
 heroImage: "https://wfsd.com/assets/img/wfsd_paper_render.jpg"
 heroImageAlt: "Book cover for Writing for Software Developers"
 link: "https://wfsd.com/"
-pubDate: "2023-05-31"
+pubDate: "2023-05-31T08:00:00.000Z"
 title: "Writing for Software Developers"
 blurb: "\"Writing for Software Developers focuses on teaching you how to envision, create, and publish mid-length technical tutorials and articles, but the principles and practices you’ll develop will help you write anything from a short README to an entire technical book. And regardless of why you write, this guide aims to provide you with the techniques you will need to reach your goals.\""
 ---

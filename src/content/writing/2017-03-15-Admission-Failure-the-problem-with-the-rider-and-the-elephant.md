@@ -1,7 +1,7 @@
 ---
 title: The Problem With the Rider and the Elephant
 date: 2017-03-15
-pubDate: "2017-03-15"
+pubDate: "2017-03-15T08:00:00.000Z"
 heroImage: "https://gallery.tinyletterapp.com/b7acb1dd09358f1ed19f16a562a005fc08d42511/images/17d7d676-0a33-4f67-8091-dfc9478c888d.png"
 
 permalink: /:categories/season-two/:title.html

@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post"]
 title: Book Reviews of Things I've Recently Read
 date: 2013-10-03
-pubDate: "2013-10-03"
+pubDate: "2013-10-03T08:00:00.000Z"
 
 description: ""
 heroImage: ""

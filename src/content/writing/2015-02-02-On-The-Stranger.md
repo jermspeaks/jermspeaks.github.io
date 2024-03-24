@@ -2,7 +2,7 @@
 title: On The Stranger
 date: 2015-02-02
 description: ""
-pubDate: "2015-02-02"
+pubDate: "2015-02-02T08:00:00.000Z"
 heroImage: ""
 
 tags: [season_1, letters]

@@ -4,7 +4,7 @@ description: ""
 draft: true
 heroImage: ""
 
-pubDate: "2009-08-06"
+pubDate: "2009-08-06T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: "Movie Review: The Hurt Locker"
 ---

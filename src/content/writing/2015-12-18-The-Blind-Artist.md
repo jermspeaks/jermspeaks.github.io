@@ -2,7 +2,7 @@
 title: 'The Blind Artist'
 date: 2015-12-18
 description: ""
-pubDate: "2015-12-18"
+pubDate: "2015-12-18T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

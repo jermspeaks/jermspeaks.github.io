@@ -2,7 +2,7 @@
 tags: ["archive", "blog", "post", "tumblr"]
 title: There’s a Time and a Place for Everything
 date: 2008-01-15
-pubDate: "2008-01-15"
+pubDate: "2008-01-15T08:00:00.000Z"
 draft: true
 description: ""
 heroImage: ""

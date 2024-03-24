@@ -4,7 +4,7 @@ description: ""
 draft: true
 heroImage: ""
 
-pubDate: "2008-02-05"
+pubDate: "2008-02-05T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: Super Tuesday - The World Is Watching Upon The Elections
 ---

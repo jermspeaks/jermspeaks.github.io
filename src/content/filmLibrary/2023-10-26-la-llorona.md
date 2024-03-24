@@ -5,7 +5,7 @@ creator: "Jayro Bustamante"
 heroImage: "https://a.ltrbxd.com/resized/film-poster/5/4/4/4/7/3/544473-the-weeping-woman-0-230-0-345-crop.jpg?v=3547efda7b"
 heroImageAlt: "Film Poster for La Llorona"
 link: "https://www.criterion.com/films/33103-la-llorona"
-pubDate: "2023-10-26"
+pubDate: "2023-10-26T08:00:00.000Z"
 releaseYear: 2019
 title: "La Llorona"
 blurb: "Atrocities commited by a warmongering general come back to haunt him in modern-day Guatemala."

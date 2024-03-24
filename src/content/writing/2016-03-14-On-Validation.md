@@ -2,7 +2,7 @@
 title: 'On Validation'
 date: 2016-03-14
 description: ""
-pubDate: "2016-03-14"
+pubDate: "2016-03-14T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

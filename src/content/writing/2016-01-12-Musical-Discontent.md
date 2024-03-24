@@ -2,7 +2,7 @@
 title: 'Musical Discontent'
 date: 2016-01-12
 description: ""
-pubDate: "2016-01-12"
+pubDate: "2016-01-12T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

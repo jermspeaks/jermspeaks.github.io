@@ -2,7 +2,7 @@
 draft: false
 link: "https://jobs.lever.co/ridezum/4de14203-9b9d-46ec-99aa-9ed3f92a57b6"
 location: "Redwood City, CA"
-pubDate: "2024-02-20"
+pubDate: "2024-02-20T08:00:00.000Z"
 tags: ["job"]
 title: Zum - Senior Web Engineer
 referrer: Personal

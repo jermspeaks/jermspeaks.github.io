@@ -2,7 +2,7 @@
 title: On Self-Doubt
 date: 2015-11-16
 description: ""
-pubDate: "2015-11-16"
+pubDate: "2015-11-16T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

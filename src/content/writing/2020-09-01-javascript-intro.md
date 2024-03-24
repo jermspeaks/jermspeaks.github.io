@@ -5,7 +5,7 @@ draft: false
 tags: ["learning", "programming", "Javascript"]
 date: 2020-09-01
 description: "A short introductary guide to Javascript, written for incoming interns at Clear Labs"
-pubDate: "2020-09-01"
+pubDate: "2020-09-01T08:00:00.000Z"
 heroImage: ""
 
 ---

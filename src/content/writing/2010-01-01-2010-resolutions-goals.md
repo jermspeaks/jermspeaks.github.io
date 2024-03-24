@@ -3,7 +3,7 @@ date: 2010-01-01
 description: ""
 heroImage: ""
 
-pubDate: "2010-01-01"
+pubDate: "2010-01-01T08:00:00.000Z"
 tags: ["archive", "blog", "post", "tumblr"]
 title: "2010 Resolutions/Goals"
 ---

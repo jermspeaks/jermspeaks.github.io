@@ -2,7 +2,7 @@
 title: The Reliance Problem
 date: 2017-02-25
 description: "Where I talk about my failure to remember."
-pubDate: "2017-02-25"
+pubDate: "2017-02-25T08:00:00.000Z"
 heroImage: ""
 
 permalink: /:categories/season-two/:title.html

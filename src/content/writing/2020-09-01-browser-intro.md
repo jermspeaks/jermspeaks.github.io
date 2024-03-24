@@ -5,7 +5,7 @@ description: "A short introductary guide to Browsers, written for incoming inter
 draft: false
 heroImage: ""
 
-pubDate: "2020-08-31"
+pubDate: "2020-08-31T08:00:00.000Z"
 published: false
 tags: ["learning", "programming", "browsers"]
 title: Browsers - An Introduction

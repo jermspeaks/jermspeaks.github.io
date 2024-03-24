@@ -2,7 +2,7 @@
 title: On Generations
 date: 2016-12-13
 description: ""
-pubDate: "2016-12-13"
+pubDate: "2016-12-13T08:00:00.000Z"
 heroImage: ""
 
 tags: ["newsletter", "season_1", "letters"]

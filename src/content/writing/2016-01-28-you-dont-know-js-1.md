@@ -5,7 +5,7 @@ draft: false
 tags: ["learning", "programming", "javascript"]
 date: 2016-01-28
 description: ""
-pubDate: "2016-01-28"
+pubDate: "2016-01-28T08:00:00.000Z"
 heroImage: ""
 
 ---

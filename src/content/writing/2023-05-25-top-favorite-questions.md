@@ -4,7 +4,7 @@ description: "An exercise where I lay out my favorite questions. These questions
 draft: false
 heroImage: ""
 
-pubDate: "2023-05-25"
+pubDate: "2023-05-25T08:00:00.000Z"
 title: "My Current Favorite Questions"
 tags: ["essay", "reflection"]
 ---

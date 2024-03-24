@@ -2,7 +2,7 @@
 title: The Placement Problem
 date: 2017-04-04
 description: "Where I talk about my failure to find my belongings."
-pubDate: "2017-04-04"
+pubDate: "2017-04-04T08:00:00.000Z"
 heroImage: ""
 
 permalink: /:categories/season-two/:title.html
