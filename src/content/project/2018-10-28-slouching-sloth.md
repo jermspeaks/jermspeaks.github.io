@@ -1,13 +1,14 @@
 ---
-title: No Slouching Sloths
-permalink: /projects/no-slouching-sloths
-name: No Slouching Sloths
-description: A PSA developed as a project from Science Hack Day 2018
-project_link: https://jermspeaks.github.io/projects/no-slouching-sloths
 coverImage: ../../images/sloths-first-draft.jpg
-imageAlt: Poster for the slouching sloth
-url: /no-slouching-sloths
 createdDate: "2017-10-15"
+description: A PSA developed as a project from Science Hack Day 2018
+imageAlt: Poster for the slouching sloth
+name: No Slouching Sloths
+permalink: /projects/no-slouching-sloths
+project_link: https://jermspeaks.github.io/projects/no-slouching-sloths
+title: No Slouching Sloths
+updatedDate: "2017-10-15"
+url: /no-slouching-sloths
 ---
 
 [Science Hack Day SF 2018 Project](https://sf.sciencehackday.org/hacks-2018/#hack_5)

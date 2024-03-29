@@ -7,6 +7,7 @@ description: Healthcare application to help geriatrics.
   Project from 2015 Philips Hackathon in SF.
 # project_link: https://github.com/jermspeaks/coral-reef-game
 createdDate: "2015-03-07"
+updatedDate: "2015-03-07"
 coverImage: ../../images/philips-hackathon.png
 imageAlt: Philips Hackathon Dashboard
 url: /coral-reef-game

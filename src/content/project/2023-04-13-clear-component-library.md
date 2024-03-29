@@ -6,6 +6,7 @@ project_link: https://clear-component-library.vercel.app/
 coverImage: ../../images/clear-components.png
 imageAlt: Storybook showing the skeleton for Clear Labs component library
 createdDate: "2023-04-13"
+updatedDate: "2023-04-13"
 ---
 
 - [GitHub Repo](https://github.com/jermspeaks/clear-component-library)

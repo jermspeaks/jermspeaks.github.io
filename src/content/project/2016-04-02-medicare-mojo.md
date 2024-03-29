@@ -7,6 +7,7 @@ description:
   Project part of IBM Watson's 2016 Hackathon challenge.
 project_link: https://www.medicaremojo.com/
 createdDate: "2016-04-02"
+updatedDate: "2016-04-02"
 coverImage: ../../images/mm-ibm-hack.png
 imageAlt: "medicaremojo app screenshots"
 ---
