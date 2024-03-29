@@ -1,0 +1,30 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+import InspirationItem from "../../../components/InspirationItem.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+
+const entry = await getEntry("curation", "inspirations");
+const { Content } = await entry.render();
+
+const inspirations = (await getCollection("inspiration")).sort((a, b) =>
+  a.data.title.localeCompare(b.data.title)
+);
+---
+
+<CurationDetailsPage title="Inspirations">
+  <section>
+    <ProseArticle>
+      <Content />
+    </ProseArticle>
+    <ul class="grid grid-cols-1 gap-8 list-none p-0">
+      {
+        inspirations.map((inspirationItem) =>
+          !inspirationItem.data.draft ? (
+            <InspirationItem item={inspirationItem} />
+          ) : null
+        )
+      }
+    </ul>
+  </section>
+</CurationDetailsPage>
