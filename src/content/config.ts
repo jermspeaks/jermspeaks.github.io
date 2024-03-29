@@ -269,6 +269,22 @@ const classified = defineCollection({
   }),
 });
 
+const inspiration = defineCollection({
+  schema: z.object({
+    draft: z.boolean().optional(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    updatedDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+    title: z.string(),
+    blurb: z.string().optional(),
+  }),
+});
+
 export const collections = {
   about,
   antiLibrary,
@@ -277,6 +293,7 @@ export const collections = {
   creator,
   curation,
   filmLibrary,
+  inspiration,
   lindy,
   log,
   now,
