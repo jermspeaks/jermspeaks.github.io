@@ -6,6 +6,7 @@ project_link: https://clearly-feud.vercel.app
 coverImage: ../../images/clear-feud.png
 imageAlt: Screenshot of the clear feud app
 createdDate: "2022-12-14"
+updatedDate: "2022-12-14"
 ---
 
 [GitHub Repo](https://github.com/jeremy-clearlabs/clearly-feud)

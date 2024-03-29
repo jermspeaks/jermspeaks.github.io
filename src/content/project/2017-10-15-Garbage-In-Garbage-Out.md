@@ -5,11 +5,12 @@ name: Garbage In Garbage Out
 description:
   Data exploration of inflows and outflows of city trash to other cities. Data from the US Commodities Survey from 2012.
   Project from Science Hack Day 2017
-project_link: https://jermspeaks.github.io/garbage-in-garbage-out/
 coverImage: "../../images/gigo.png"
-imageAlt: Data visualization for garbage data
-url: /garbage-in-garbage-out
 createdDate: "2017-10-15"
+imageAlt: Data visualization for garbage data
+project_link: https://jermspeaks.github.io/garbage-in-garbage-out/
+updatedDate: "2017-10-15"
+url: /garbage-in-garbage-out
 ---
 
 [Science Hack Day SF 2017 Project](https://sf.sciencehackday.org/hacks-2017/#hack_10)

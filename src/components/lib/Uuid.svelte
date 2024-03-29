@@ -3,7 +3,7 @@
 
   let uuid = "";
 
-  function generateUUID() {
+  function legacyGenerateUUID() {
     return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(
       /[xy]/g,
       function (c) {
@@ -13,6 +13,9 @@
       }
     );
   }
+
+  const generateUUID = () =>
+    crypto?.randomUUID ? crypto.randomUUID() : legacyGenerateUUID();
 
   function copyToClipboard(text) {
     navigator.clipboard
@@ -43,7 +46,9 @@
 </script>
 
 <div>
-  <p class="border-2 text-center px-2 py-4 border-slate-800 dark:border-slate-200 rounded">
+  <p
+    class="border-2 text-center px-2 py-4 border-slate-800 dark:border-slate-200 rounded"
+  >
     Generated UUID: {uuid}
   </p>
   <div class="flex align-middle gap-4">
