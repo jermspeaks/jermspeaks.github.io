@@ -1,14 +1,15 @@
 ---
-import { getCollection } from "astro:content";
-import FormattedDate from "../../../components/FormattedDate.astro";
+import { getCollection, getEntry } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 
 const bookLibrary = (await getCollection("book")).sort(
   (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
 );
+const entry = await getEntry("curation", "books");
+const { heroImage, heroImageAlt } = entry.data;
 ---
 
-<CurationDetailsPage title="Library">
+<CurationDetailsPage image={heroImage} imageAlt={heroImageAlt} title="Library">
   <section>
     <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
       {

@@ -7,21 +7,28 @@ import Header from "../components/Header.astro";
 import TitleHeading from "../components/TitleHeading.astro";
 
 type Props = {
+  description?: string;
+  image?: string;
+  imageAlt?: string;
   section: string;
   sectionSlug: string;
+  srcImage?: string;
   title: string;
-  description?: string;
 };
 
-const { section, sectionSlug, title, description } = Astro.props;
+const { description, image, imageAlt, section, sectionSlug, srcImage, title } =
+  Astro.props;
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
     <BaseHead
-      title={title || SITE_TITLE}
       description={description || SITE_DESCRIPTION}
+      image={image}
+      imageAlt={imageAlt}
+      srcImage={srcImage}
+      title={title || SITE_TITLE}
     />
   </head>
   <BaseBody>

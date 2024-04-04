@@ -1,6 +1,7 @@
 ---
 import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
+import curationImage from "../images/curation.png";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import TitleHeading from "../components/TitleHeading.astro";
@@ -10,8 +11,10 @@ import TitleHeading from "../components/TitleHeading.astro";
 <html lang="en">
   <head>
     <BaseHead
-      title="Curations"
       description="This is the curated collection of eclectic items. I love collecting different kinds of mediums and media. The things that have resonated I'll shelve in my library."
+      imageAlt="Curation cover"
+      srcImage={curationImage?.src}
+      title="Curations"
     />
   </head>
   <BaseBody>

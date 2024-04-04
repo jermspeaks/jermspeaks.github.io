@@ -6,6 +6,7 @@ import "../styles/global.css";
 export interface Props {
   title: string;
   description: string;
+  srcImage?: string; // Reserved for image:assets by using image.src
   image?: string;
   imageAlt?: string;
   twitterHandle?: string;
@@ -21,9 +22,10 @@ const {
   description,
   image = "/meta-social.png",
   imageAlt = "Craft By Zen Hero Image",
+  publishedDate = defaultDate,
+  srcImage,
   title,
   twitterHandle = "@jermspeaks",
-  publishedDate = defaultDate,
 } = Astro.props;
 
 const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
@@ -50,7 +52,14 @@ const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
 <meta property="og:url" content={Astro.url} />
 <meta property="og:title" content={title} />
 <meta property="og:description" content={description} />
-<meta property="og:image" content={new URL(image, Astro.url)} />
+{
+  srcImage ? (
+    <meta property="og:image" content={srcImage} />
+  ) : (
+    <meta property="og:image" content={new URL(image, Astro.url)} />
+  )
+}
+
 <meta property="og:image:alt" content={imageAlt} />
 
 <!-- Articles -->
@@ -72,5 +81,4 @@ const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
 <script
   async
   src="https://analytics.umami.is/script.js"
-  data-website-id={umamiTrackingCode}
-></script>
+  data-website-id={umamiTrackingCode}></script>

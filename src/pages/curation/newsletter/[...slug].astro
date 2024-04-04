@@ -25,10 +25,13 @@ const { Content } = await series.render();
 ---
 
 <CollectionDetailsPage
+  description={series.data.description}
+  image={series.data.heroImage}
+  imageAlt={series.data.heroImageAlt}
+  srcImage={series.data.coverImage?.src}
   section="Newsletter"
   sectionSlug="newsletter"
   title={series.data.title}
-  description={series.data.description}
 >
   <SeriesPage {...series.data}>
     <!-- <h1>{series.data.title}</h1> -->

@@ -1,14 +1,20 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
 const logs = (await getCollection("log")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const entry = await getEntry("curation", "log");
+const { heroImage, heroImageAlt } = entry.data;
 ---
 
-<CurationDetailsPage title="Logs by Year">
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="Logs by Year"
+>
   <ProseArticle>
     <p>
       These are logs of consumed media, organized by year. These include books

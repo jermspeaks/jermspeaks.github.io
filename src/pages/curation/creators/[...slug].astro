@@ -19,10 +19,12 @@ const { Content } = await post.render();
 ---
 
 <CollectionDetailsPage
+  description={post.data.blurb}
+  image={post.data.heroImage}
+  imageAlt={post.data.heroImageAlt}
   section="Creators"
   sectionSlug="creators"
   title={post.data.title}
-  description={post.data.blurb}
 >
   <!-- <h1>{post.data.title}</h1> -->
   <ProseArticle>

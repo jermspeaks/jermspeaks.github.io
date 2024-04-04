@@ -11,6 +11,7 @@ export async function getStaticPaths() {
     props: post,
   }));
 }
+
 type Props = CollectionEntry<"antiLibrary">;
 
 const post = Astro.props;
@@ -22,6 +23,8 @@ const { Content } = await post.render();
   sectionSlug="antibooks"
   title={post.data.title}
   description={post.data.blurb}
+  image={post.data.heroImage}
+  imageAlt={post.data.heroImageAlt}
 >
   <!-- <h1>{post.data.title}</h1> -->
   <ProseArticle>

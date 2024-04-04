@@ -5,12 +5,18 @@ import BaseBody from "../../components/BaseBody.astro";
 import BaseHead from "../../components/BaseHead.astro";
 import Footer from "../../components/Footer.astro";
 import Header from "../../components/Header.astro";
+import searchImg from "../../images/search.png";
 ---
 
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead
+      description={SITE_DESCRIPTION}
+      imageAlt="Search cover"
+      srcImage={searchImg.src}
+      title={SITE_TITLE}
+    />
   </head>
 
   <BaseBody>

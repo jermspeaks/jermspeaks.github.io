@@ -1,14 +1,20 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
 const lindyLibrary = (await getCollection("lindy")).sort((a, b) =>
   a.data.title.localeCompare(b.data.title)
 );
+const entry = await getEntry("curation", "lindy");
+const { heroImage, heroImageAlt } = entry.data;
 ---
 
-<CurationDetailsPage title="Timeless Treasure Trove">
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="Timeless Treasure Trove"
+>
   <section>
     <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
       {

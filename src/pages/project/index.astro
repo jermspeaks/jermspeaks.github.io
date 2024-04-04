@@ -5,8 +5,9 @@ import BaseBody from "../../components/BaseBody.astro";
 import BaseHead from "../../components/BaseHead.astro";
 import Footer from "../../components/Footer.astro";
 import Header from "../../components/Header.astro";
-import TitleHeading from "../../components/TitleHeading.astro";
 import ProjectListItem from "../../components/ProjectListItem.astro";
+import projectsImg from "../../images/projects.png";
+import TitleHeading from "../../components/TitleHeading.astro";
 
 type Props = {
   title?: string;
@@ -22,7 +23,12 @@ const projects = (await getCollection("project")).sort(
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={title || SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead
+      description={SITE_DESCRIPTION}
+      imageAlt="Projects cover"
+      srcImage={projectsImg.src}
+      title={title || SITE_TITLE}
+    />
   </head>
   <BaseBody>
     <Header />
