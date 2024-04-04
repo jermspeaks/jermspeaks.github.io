@@ -2,9 +2,10 @@
 export interface Props {
   date: Date;
   class?: string;
+  options?: Intl.DateTimeFormatOptions;
 }
 
-const { date, class: className } = Astro.props;
+const { date, class: className, options = {} } = Astro.props;
 ---
 
 <time datetime={date.toISOString()} class={className}>
@@ -14,6 +15,7 @@ const { date, class: className } = Astro.props;
       year: "numeric",
       month: "short",
       day: "numeric",
+      ...options,
     })
   }
   <slot />
