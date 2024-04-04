@@ -47,7 +47,15 @@ export async function GET(context) {
     ...filmCollection,
     ...lindyCollection,
     ...postCollection,
-  ].sort((a, b) => b.pubDate.valueOf() - a.pubDate.valueOf());
+  ]
+    .filter(
+      // Filter all draft posts
+      (post) => !post.draft
+    )
+    .sort(
+      // Sort by the publication date
+      (a, b) => b.pubDate.valueOf() - a.pubDate.valueOf()
+    );
 
   return rss({
     title: SITE_TITLE,
