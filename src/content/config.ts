@@ -288,6 +288,16 @@ const inspiration = defineCollection({
   }),
 });
 
+const stream = defineCollection({
+  schema: z.object({
+    draft: z.boolean().optional(),
+    pubDate: z
+      .string()
+      .or(z.date())
+      .transform((val) => new Date(val)),
+  }),
+});
+
 export const collections = {
   about,
   antiLibrary,
@@ -303,5 +313,6 @@ export const collections = {
   project,
   resume,
   series,
+  stream,
   writing,
 };

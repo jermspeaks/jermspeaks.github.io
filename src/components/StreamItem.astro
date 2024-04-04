@@ -1,0 +1,28 @@
+---
+import type { CollectionEntry } from "astro:content";
+import ProseArticle from "./ProseArticle.astro";
+import FormattedDate from "./FormattedDate.astro";
+
+export interface Props {
+  item: CollectionEntry<"stream">;
+}
+
+const { item } = Astro.props;
+const { Content } = await item.render();
+---
+
+<li class="px-0 py-4">
+  <ProseArticle class="prose-headings:mt-0">
+    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 mb-8 text-slate-700 dark:text-slate-100">
+      <div class="col-span-2 italic">
+        <FormattedDate
+          date={item.data.pubDate}
+          options={{ hour: "numeric", minute: "numeric" }}
+        />
+      </div>
+      <div class="col-span-6">
+        <Content />
+      </div>
+    </div>
+  </ProseArticle>
+</li>
