@@ -82,23 +82,26 @@ const project = defineCollection({
 });
 
 const series = defineCollection({
-  schema: z.object({
-    // Transform string to Date object
-    createdDate: z
-      .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
-    description: z.string(),
-    endDate: z
-      .string()
-      .or(z.date())
-      .transform((val) => new Date(val))
-      .or(z.null()),
-    heroImage: z.string().optional(),
-    tag: z.string(),
-    title: z.string(),
-    blurb: z.string().optional(),
-  }),
+  schema: ({ image }) =>
+    z.object({
+      // Transform string to Date object
+      createdDate: z
+        .string()
+        .or(z.date())
+        .transform((val) => new Date(val)),
+      description: z.string(),
+      endDate: z
+        .string()
+        .or(z.date())
+        .transform((val) => new Date(val))
+        .or(z.null()),
+      coverImage: image().optional(),
+      heroImage: z.string().optional(),
+      heroImageAlt: z.string().optional(),
+      tag: z.string(),
+      title: z.string(),
+      blurb: z.string().optional(),
+    }),
 });
 
 const book = defineCollection({

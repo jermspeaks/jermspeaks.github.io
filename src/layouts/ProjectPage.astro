@@ -9,12 +9,26 @@ import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"project">["data"];
 
-const { title, description, createdDate, updatedDate } = Astro.props;
+const {
+  coverImage,
+  createdDate,
+  description,
+  image,
+  imageAlt,
+  title,
+  updatedDate,
+} = Astro.props;
 ---
 
 <html lang="en">
   <head>
-    <BaseHead title={title} description={description} />
+    <BaseHead
+      description={description}
+      image={image}
+      imageAlt={imageAlt}
+      srcImage={coverImage?.src}
+      title={title}
+    />
   </head>
 
   <BaseBody>

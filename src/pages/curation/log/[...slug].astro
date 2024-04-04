@@ -28,10 +28,12 @@ const { Content } = await post.render();
 ---
 
 <CollectionDetailsPage
+  description={post.data.blurb}
+  image={post.data.heroImage}
+  imageAlt={post.data.heroImageAlt}
   section="Logs By Year"
   sectionSlug="log"
   title={post.data.title}
-  description={post.data.blurb}
 >
   <LogPost {...post.data}>
     <!-- <h1>{post.data.title}</h1> -->

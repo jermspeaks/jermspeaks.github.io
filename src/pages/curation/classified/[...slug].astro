@@ -19,10 +19,10 @@ const { Content } = await post.render();
 ---
 
 <CollectionDetailsPage
+  description={post.data.location}
   section="Classifieds"
   sectionSlug="classified"
   title={post.data.title}
-  description={post.data.blurb}
 >
   <ProseArticle>
     <div

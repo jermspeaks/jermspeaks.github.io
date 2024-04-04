@@ -6,6 +6,7 @@ import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import TitleHeading from "../components/TitleHeading.astro";
+import writingImage from "../images/writing.png";
 
 type Props = {
   title?: string;
@@ -52,7 +53,12 @@ const { title = "Writing", currentTag } = Astro.props;
 <!doctype html>
 <html lang="en">
   <head>
-    <BaseHead title={title || SITE_TITLE} description={SITE_DESCRIPTION} />
+    <BaseHead 
+      description={SITE_DESCRIPTION}
+      imageAlt="Writing cover"
+      srcImage={writingImage.src}
+      title={title || SITE_TITLE}
+    />
   </head>
   <BaseBody>
     <Header />

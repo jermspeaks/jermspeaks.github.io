@@ -11,26 +11,26 @@ import type { CollectionEntry } from "astro:content";
 type Props = CollectionEntry<"writing">["data"];
 
 const {
-  description,
   coverImage,
+  description,
   heroImage,
   heroImageAlt,
   minutesRead,
   pubDate,
+  tags,
   title,
   updatedDate,
-  tags,
 } = Astro.props;
-// TODO: We should use coverImage for og:image using https://docs.astro.build/en/recipes/dynamically-importing-images/
 ---
 
 <html lang="en">
   <head>
     <BaseHead
-      title={title}
       description={description}
       image={heroImage}
       imageAlt={heroImageAlt}
+      srcImage={coverImage?.src}
+      title={title}
     />
   </head>
 

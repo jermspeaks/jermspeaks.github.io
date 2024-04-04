@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import FormattedDate from "../../../components/FormattedDate.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
@@ -7,9 +7,15 @@ import ProseArticle from "../../../components/ProseArticle.astro";
 const classifieds = (await getCollection("classified")).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+const entry = await getEntry("curation", "classified");
+const { heroImage, heroImageAlt } = entry.data;
 ---
 
-<CurationDetailsPage title="Classifieds">
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="Classifieds"
+>
   <section class="mb-8">
     <ul class="grid grid-cols-1 gap-8 list-none p-0">
       {

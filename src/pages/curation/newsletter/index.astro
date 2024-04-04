@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import FormattedDate from "../../../components/FormattedDate.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
@@ -9,9 +9,15 @@ const series = (await getCollection("series")).sort(
   (a: CollectionEntry<"series">, b: CollectionEntry<"series">) =>
     b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
 );
+const entry = await getEntry("curation", "newsletter");
+const { heroImage, heroImageAlt } = entry.data;
 ---
 
-<CurationDetailsPage title="Newsletter">
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="Newsletter"
+>
   <ProseArticle>
     <p class="my-4">
       An old newsletter revamped by Jeremy Wong from Craft By Zen. This

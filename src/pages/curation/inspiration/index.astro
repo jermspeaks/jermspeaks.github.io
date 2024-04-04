@@ -5,6 +5,7 @@ import InspirationItem from "../../../components/InspirationItem.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
 const entry = await getEntry("curation", "inspirations");
+const { heroImage, heroImageAlt } = entry.data;
 const { Content } = await entry.render();
 
 const inspirations = (await getCollection("inspiration")).sort((a, b) =>
@@ -12,7 +13,11 @@ const inspirations = (await getCollection("inspiration")).sort((a, b) =>
 );
 ---
 
-<CurationDetailsPage title="Inspirations">
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="Inspirations"
+>
   <section>
     <ProseArticle>
       <Content />

@@ -18,10 +18,12 @@ const { Content } = await post.render();
 ---
 
 <CollectionDetailsPage
+  description={post.data.blurb}
+  image={post.data.heroImage}
+  imageAlt={post.data.heroImageAlt}
   section="Films"
   sectionSlug="films"
   title={post.data.title}
-  description={post.data.blurb}
 >
   <FilmLibraryPost {...post.data}>
     <Content />

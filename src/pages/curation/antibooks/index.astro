@@ -1,14 +1,20 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, getEntry } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
 const antiLibrary = (await getCollection("antiLibrary")).sort(
   (a, b) => b.data.dateAdded.valueOf() - a.data.dateAdded.valueOf()
 );
+const entry = await getEntry("curation", "antilibrary");
+const { heroImage, heroImageAlt } = entry.data;
 ---
 
-<CurationDetailsPage title="Anti-Library">
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="Anti-Library"
+>
   <section class="mb-8">
     <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
       {

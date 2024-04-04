@@ -1,14 +1,21 @@
 ---
-// import { getCollection } from "astro:content";
+// import { getCollection, getEntry } from "astro:content";
+import { getEntry } from "astro:content";
 // import FormattedDate from "../../../components/FormattedDate.astro";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 
 // const filmLibrary = (await getCollection("filmLibrary")).sort(
 //   (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
 // );
+const entry = await getEntry("curation", "businesscards");
+const { heroImage, heroImageAlt } = entry.data;
 ---
 
-<CurationDetailsPage title="Business Cards">
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="Business Cards"
+>
   <section>
     <h3 class="dark:text-slate-100">This area is under construction</h3>
     <!-- <ul class="flex flex-wrap list-none mt-8 p-0 gap-4">
