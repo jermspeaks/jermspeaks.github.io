@@ -1,19 +1,26 @@
 ---
 import type { CollectionEntry } from "astro:content";
 import ProseArticle from "./ProseArticle.astro";
+import FormattedDate from "./FormattedDate.astro";
 
 export interface Props {
   item: CollectionEntry<"inspiration">;
 }
 
 const { item } = Astro.props;
-const { title } = item.data;
+const { title, pubDate, updatedDate } = item.data;
 const { Content } = await item.render();
+
+const lastUpdated = updatedDate !== pubDate ? updatedDate : pubDate;
 ---
 
-<li class="rounded-lg px-6 py-4">
+<li class="rounded-lg px-0 py-2 sm:px-6 sm:py-4">
   <ProseArticle>
-    <div class="px-0 py-4 text-slate-700 dark:text-slate-100">
+    <div class="p-0 text-slate-700 dark:text-slate-100">
+      <h2>{title}</h2>
+      <div class="italic">
+        Last Updated: <FormattedDate date={lastUpdated} />
+      </div>
       <Content />
     </div>
   </ProseArticle>

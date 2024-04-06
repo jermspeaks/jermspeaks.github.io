@@ -291,6 +291,7 @@ const inspiration = defineCollection({
 const stream = defineCollection({
   schema: z.object({
     draft: z.boolean().optional(),
+    title: z.string(),
     pubDate: z
       .string()
       .or(z.date())

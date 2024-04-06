@@ -9,6 +9,7 @@ import ProjectListItem from "../components/ProjectListItem.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import WritingListItem from "../components/WritingListItem.astro";
+import StreamListItem from "../components/StreamListItem.astro";
 
 const MAX_ITEMS = 4;
 
@@ -16,6 +17,9 @@ const latestPosts = (await getCollection("writing"))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, MAX_ITEMS);
+const lastStream = (await getCollection("stream"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 2);
 const lastProjects = (await getCollection("project"))
   .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
   .slice(0, MAX_ITEMS);
@@ -92,23 +96,35 @@ const curations = await getCollection("curation");
   <BaseBody>
     <Header />
     <main class="dark:text-white">
-      <h1 class="mt-12 mb-6 text-3xl md:text-6xl">
-        <strong>Jeremy</strong> makes essays and mini projects about programming,
-        data, and crafting.
-      </h1>
-      <h2 class="mb-2 text-2xl font-thin">
-        Maker, Home Cook, Book and Film Nerd. Currently leading application
-        development at <a
-          class="text-orange-700 hover:text-purple-500 dark:text-orange-500"
-          href="https://clearlabs.com/"
-          target="_blank">Clear Labs</a
-        >
-      </h2>
+      <p
+        class="invisible sm:visible text-[3.75vw] sm:text-[2.75vw] md:text-[2vw] lg:text-[1.5vw] px-[1vw] max-w-[10em] mr-auto ml-[2.1vw] transform rotate-[-8deg] leading-tight mb-[-0.5em]"
+      >
+        👋🏽 Hi, I'm
+      </p>
+      <div class="mt-4 mb-6 flex flex-col sm:flex-row gap-4 justify-between">
+        <div>
+          <h1 class="text-3xl md:text-6xl"><span class="inline sm:hidden">👋🏽 Hi, I'm </span>Jeremy</h1>
+        </div>
+        <div>
+          <h2 class="mb-2 text-2xl font-thin">
+            I'm currently leading application development at <a
+              class="text-orange-700 hover:text-purple-500 dark:text-orange-500"
+              href="https://clearlabs.com/"
+              target="_blank">Clear Labs</a
+            >
+          </h2>
+          <p>
+            And I write essays on <i>eclectic topics</i>, from <b>programming</b
+            >, <b>cooking</b>, and strange habit of collecting <b>obituaries</b
+            >.
+          </p>
+        </div>
+      </div>
 
       <hr class="mt-10 mb-10" />
 
-      <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-        <div>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="col-span-1 md:col-span-3">
           <ProseArticle class="mx-0 mb-8">
             <h3 class="text-3xl font-medium underline">
               <a href="/blog" class="hover:text-purple-500">✍🏽 What I Wrote</a>
@@ -122,7 +138,21 @@ const curations = await getCollection("curation");
             }
           </ul>
         </div>
-        <div>
+        <div class="hidden md:block md:col-span-1">
+          <ProseArticle class="mx-0 mb-8">
+            <h3 class="text-3xl font-medium underline">
+              <a href="/curation/stream" class="hover:text-purple-500">🚰 Stream</a>
+            </h3>
+          </ProseArticle>
+          <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
+            {
+              lastStream.map((item) => (
+                <StreamListItem item={item} />
+              ))
+            }
+          </ul>
+        </div>
+        <div class="col-span-1 md:col-span-4">
           <ProseArticle class="mx-0 mb-8">
             <h3 class="text-3xl font-medium underline">
               <a href="/project" class="hover:text-purple-500"
@@ -130,7 +160,7 @@ const curations = await getCollection("curation");
               >
             </h3>
           </ProseArticle>
-          <ul class="list-none sm:p-0 grid grid-cols-1 lg:grid-cols-2 gap-4">
+          <ul class="list-none sm:p-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {
               lastProjects.map((project) => (
                 <ProjectListItem project={project} />
@@ -138,7 +168,7 @@ const curations = await getCollection("curation");
             }
           </ul>
         </div>
-        <div class="col-span-1 md:col-span-2">
+        <div class="col-span-1 md:col-span-4">
           <ProseArticle class="mx-0 mb-8">
             <h3 class="text-3xl font-medium underline">
               <a href="/curation">🎨 What I Curated</a>
@@ -195,7 +225,7 @@ const curations = await getCollection("curation");
           curations.map(
             (curation) =>
               !curation.data.draft && (
-                <li class="flex flex-col p-4">
+                <li class="flex flex-col sm:p-2 md:p-4">
                   <a
                     class="visited:text-amber-600 hover:text-purple-500 dark:hover:text-purple-300 dark:text-slate-100 border-2 p-2 border-slate-500 dark:border-slate-300 rounded bg-orange-100 dark:bg-orange-900 hover:bg-rose-200 dark:hover:bg-rose-900"
                     href={`/curation/${curation.slug}`}

@@ -70,7 +70,7 @@
     oscillator.connect(audioContext.destination);
     oscillator.type = "sine";
     oscillator.frequency.value = getFrequency(note, octave);
-    console.log("frequency", note, octave, oscillator.frequency.value);
+    // console.log("frequency", note, octave, oscillator.frequency.value);
     oscillator.start();
     oscillator.stop(audioContext.currentTime + 1);
   }

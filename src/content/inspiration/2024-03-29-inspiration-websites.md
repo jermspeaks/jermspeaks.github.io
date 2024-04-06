@@ -1,12 +1,10 @@
 ---
 pubDate: "2024-03-29T08:00:00.000Z"
 updatedDate: "2024-03-29T08:00:00.000Z"
-title: "Websites"
+title: "Invididuals' Websites"
 blurb: "Inspirational websites that influence my website"
 draft: false
 ---
-
-## Invididuals' Websites
 
 These are people whose websites serve as awe and inspiration. There's something
 that resonates with me and I want to emulate or remix ideas from their websites.

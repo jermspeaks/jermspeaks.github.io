@@ -6,10 +6,10 @@ const today = new Date();
 ---
 
 <footer
-  class="pt-10 mt-10 border-t-2 border-x-neutral-400 justify-between flex flex-col items-start gap-6 before:sm:items-middle sm:flex-row sm:gap-0 print:hidden"
+  class="pt-5 mt-5 sm:pt-10 sm:mt-10 border-t-2 border-x-neutral-400 print:hidden"
 >
-  <div class="grid grid-cols-4 gap-8 sm:gap-0 w-full">
-    <div class="col-span-4 sm:col-span-3 flex flex-col gap-4">
+  <div class="grid grid-cols-4 gap-8 sm:gap-0">
+    <div class="col-span-4 sm:col-span-3 grid grid-cols-1 gap-4">
       <h3 class="text-xl dark:text-slate-100">Connect with me</h3>
       <a href="/rss.xml" title="RSS" rel="external">
         <button
@@ -32,6 +32,14 @@ const today = new Date();
           Subscribe via RSS Feed
         </button>
       </a>
+      <a href="/subscribe" title="Email Newsletter"> 
+        <button
+          type="button"
+          class="flex px-4 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
+        >
+          📧 Subscribe to the Newsletter
+        </button>
+      </a>
       <a href="https://www.buymeacoffee.com/jermspeaks" target="_blank">
         <button
           type="button"
@@ -42,13 +50,13 @@ const today = new Date();
       </a>
       <ul class="flex gap-2 list-none m-0 p-0">
         <FooterSocialItem
-          class="flex gap-2 items-center"
+          class="col-span-1 px-4 py-2 border-2 rounded-full flex gap-2 items-center"
           link="mailto:jeremy@craftbyzen.com"
           title="email"
         >
           <svg
             viewBox="0 0 8 6"
-            class="h-8 w-8 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
+            class="h-6 w-6 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
             fill="currentColor"
             xmlns="https://www.w3.org/2000/svg"
             ><title>Link to Jeremy's Email</title>
@@ -57,12 +65,12 @@ const today = new Date();
           </svg>
         </FooterSocialItem>
         <FooterSocialItem
-          class="flex gap-2 items-center"
+          class="col-span-1 px-4 py-2 border-2 rounded-full flex gap-2 items-center"
           link="https://github.com/jermspeaks"
           title="GitHub"
         >
           <svg
-            class="h-8 w-8 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
+            class="h-6 w-6 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
             fill="currentColor"
             viewBox="0 0 30 30"
             xmlns="https://www.w3.org/2000/svg"
@@ -72,12 +80,12 @@ const today = new Date();
           >
         </FooterSocialItem>
         <FooterSocialItem
-          class="flex gap-2 items-center"
+          class="col-span-1 px-4 py-2 border-2 rounded-full flex gap-2 items-center"
           link="https://www.linkedin.com/in/jeremynwong"
           title="LinkedIn"
         >
           <svg
-            class="h-8 w-8 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
+            class="h-6 w-6 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
             viewBox="0 0 30 30"
             xmlns="https://www.w3.org/2000/svg"
             ><title>Link to Jeremy's LinkedIn</title><path
@@ -86,13 +94,13 @@ const today = new Date();
           >
         </FooterSocialItem>
         <FooterSocialItem
-          class="flex gap-2 items-center"
+          class="col-span-1 px-4 py-2 border-2 rounded-full flex gap-2 items-center"
           link="https://twitter.com/jermspeaks"
           title="Twitter"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            class="h-8 w-8 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
+            class="h-6 w-6 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
             viewBox="0 0 300 300.251"
             version="1.1"
             ><title>Link to Jeremy's Twitter</title>
@@ -102,12 +110,12 @@ const today = new Date();
           </svg>
         </FooterSocialItem>
         <FooterSocialItem
-          class="flex gap-2 items-center"
+          class="col-span-1 px-4 py-2 border-2 rounded-full flex gap-2 items-center"
           link="https://mastodon.online/@jermspeaks"
           title="Mastodon"
         >
           <svg
-            class="h-8 w-8 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
+            class="h-6 w-6 fill-slate-800 dark:fill-slate-200 hover:fill-purple-500"
             fill="currentColor"
             viewBox="0 0 417.8 512"
             xmlns="https://www.w3.org/2000/svg"
