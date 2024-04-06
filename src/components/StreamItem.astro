@@ -8,12 +8,16 @@ export interface Props {
 }
 
 const { item } = Astro.props;
+const { slug, data } = item;
+const { title } = data;
 const { Content } = await item.render();
 ---
 
 <li class="px-0 py-4">
   <ProseArticle class="prose-headings:mt-0">
-    <div class="grid grid-cols-1 md:grid-cols-8 gap-4 mb-8 text-slate-700 dark:text-slate-100">
+    <div
+      class="grid grid-cols-1 md:grid-cols-8 gap-4 mb-8 text-slate-700 dark:text-slate-100"
+    >
       <div class="col-span-2 italic">
         <FormattedDate
           date={item.data.pubDate}
@@ -21,6 +25,7 @@ const { Content } = await item.render();
         />
       </div>
       <div class="col-span-6">
+        <h2 id={slug}>{title}</h2>
         <Content />
       </div>
     </div>

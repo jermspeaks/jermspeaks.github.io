@@ -4,7 +4,7 @@ import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import InspirationItem from "../../../components/InspirationItem.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
-const entry = await getEntry("curation", "inspirations");
+const entry = await getEntry("curation", "inspiration");
 const { heroImage, heroImageAlt } = entry.data;
 const { Content } = await entry.render();
 
