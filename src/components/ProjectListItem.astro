@@ -13,12 +13,22 @@ const { project } = Astro.props;
 <li
   class="bg-yellow-50 dark:bg-slate-800 rounded-lg px-6 py-8 ring-1 ring-slate-900/5 shadow-xl flex-grow-0 flex-[48%]"
 >
-  {project.data.coverImage && (
-    <Image src={project.data.coverImage} alt={project.data.imageAlt} />
-  )}
-  {project.data.image && (
-    <img class="w-full" src={project.data.image} alt={project.data.imageAlt} />
-  )}
+  {
+    project.data.coverImage && (
+      <div class="h-[150px] grid items-center overflow-hidden">
+        <Image src={project.data.coverImage} alt={project.data.imageAlt} />
+      </div>
+    )
+  }
+  {
+    project.data.image && (
+      <img
+        class="w-full"
+        src={project.data.image}
+        alt={project.data.imageAlt}
+      />
+    )
+  }
   <div class="font-bold text-xl mb-2 dark:text-gray-200">
     <a
       class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
@@ -37,3 +47,17 @@ const { project } = Astro.props;
     />
   </div>
 </li>
+
+<style>
+  .project-image-container {
+    padding-bottom: 5px;
+    max-height: 150px;
+    overflow-y: hidden;
+    position: relative;
+  }
+  .project-image {
+    position: relative;
+    margin-top: 50%;
+    transform: translateY(-50%);
+  }
+</style>
