@@ -62,8 +62,6 @@ Honestly, I'm not depressed. I remember Austen Kleon's book inspired me to read 
 
 ### Notable Videos
 
-![Natural Gas Is Scamming America | Climate Town - YouTube](https://www.youtube.com/watch?v=K2oL4SFwkkw)
-
 <iframe 
   class="aspect-video w-full my-2"
   src="https://www.youtube.com/embed/K2oL4SFwkkw"
