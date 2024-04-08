@@ -12,6 +12,7 @@ import WritingListItem from "../components/WritingListItem.astro";
 import StreamListItem from "../components/StreamListItem.astro";
 
 const MAX_ITEMS = 4;
+const MAX_STREAM_ENTRIES = 3; 
 
 const latestPosts = (await getCollection("writing"))
   .filter((post) => !post.data.draft)
@@ -19,7 +20,7 @@ const latestPosts = (await getCollection("writing"))
   .slice(0, MAX_ITEMS);
 const lastStream = (await getCollection("stream"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, 2);
+  .slice(0, MAX_STREAM_ENTRIES);
 const lastProjects = (await getCollection("project"))
   .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
   .slice(0, MAX_ITEMS);
