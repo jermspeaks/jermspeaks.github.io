@@ -7,7 +7,7 @@ coverImage: "../../images/tech-tree.png"
 imageAlt: "Screenshot of tech tree"
 ---
 
-import TechnologyTree from "../../components/lib/TechnologyTree.svelte";
+import TechnologyTree from "../../components/TechnologyTree.svelte";
 import technologies from "../../components/data/treePlot.json";
 
 The goal of this project was to explore video game technology trees. I wanted an easy way to
@@ -26,7 +26,7 @@ This was generated from ChatGPT where I prompted it to create one using some tec
 Ultimately, I need to have it in Svelte, and if I could utilize d3.js, I would. It falls short ultimately because
 it feels like the customizations not where I want it to be, and the updates I want to make appear challenging.
 
-import TidyTree from "../../components/lib/TidyTree.svelte";
+import TidyTree from "../../components/TidyTree.svelte";
 
 <TidyTree client:load />
 
@@ -36,7 +36,7 @@ you'll find a gallery of examples that are similar to where I want to build. So 
 full d3, I used their Plot library. This is their tidy tree example, after massaging the data to fit its form.
 
 
-import IndentedTree from "../../components/lib/IndentedTree.svelte";
+import IndentedTree from "../../components/IndentedTree.svelte";
 
 <IndentedTree client:load />
 

@@ -7,8 +7,6 @@ radius of the selected circle.
 -->
 
 <script>
-  import Card from "./Card.svelte";
-
   const BASE_RADIUS = 30;
 
   let step = 0;
