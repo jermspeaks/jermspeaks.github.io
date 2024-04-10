@@ -1,11 +1,9 @@
 <script>
   import * as Plot from "@observablehq/plot";
-  import flare from "../data/tree.json";
+  import flare from "./data/tree.json";
 
   let div;
-  // let data = d3.ticks(-2, 2, 200).map(Math.sin);
-
-  // function onMousemove(event) {
+  // let data = d3.ticks(-2, 2, 200).ma./data/tree.json/ function onMousemove(event) {
   //   const [x, y] = d3.pointer(event);
   //   data = data.slice(-200).concat(Math.atan2(x, y));
   // }

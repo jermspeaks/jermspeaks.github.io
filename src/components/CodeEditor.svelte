@@ -16,7 +16,7 @@
   import { EditorState, StateEffect, type Extension } from "@codemirror/state";
   import { indentUnit, type LanguageSupport } from "@codemirror/language";
   import { indentWithTab } from "@codemirror/commands";
-  import debounce from "../../utils/debounce";
+  import debounce from "../utils/debounce";
 
   let classes = "";
   export { classes as class };

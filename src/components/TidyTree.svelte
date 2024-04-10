@@ -1,7 +1,7 @@
 <script>
   import * as Plot from "@observablehq/plot";
   import * as d3 from "d3";
-  import flare from "../data/treePlot.json";
+  import flare from "./data/treePlot.json";
 
   let div;
 
@@ -27,7 +27,6 @@
         ],
       })
     );
-    
   }
 </script>
 

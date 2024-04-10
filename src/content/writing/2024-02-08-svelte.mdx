@@ -50,7 +50,7 @@ The following example is a simple counter application that teaches the basics of
 </style>
 ```
 
-import CounterButtons from "../../components/lib/CounterButtons.svelte";
+import CounterButtons from "../../components/CounterButtons.svelte";
 
 <CounterButtons client:load />
 
@@ -430,7 +430,7 @@ Svelte's transition functions, such as `fade`, are part of the `svelte/transitio
 
 In this example, clicking the "Toggle" button shows or hides the `div` element with a fade effect over 300 milliseconds.
 
-import Transition from "../../components/lib/Transition.svelte";
+import Transition from "../../components/Transition.svelte";
 
 <Transition client:load />
 
@@ -476,7 +476,7 @@ Finally, render the list with transitions on each item:
 
 In the `#each` block, we use the `slide` transition to animate the addition and removal of list items. The `(item)` key ensures that Svelte can uniquely identify each item for correct animation, especially during removals.
 
-import Animation from "../../components/lib/Animation.svelte";
+import Animation from "../../components/Animation.svelte";
 
 <Animation client:load />
 

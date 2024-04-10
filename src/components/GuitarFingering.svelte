@@ -1,8 +1,8 @@
 <script>
   import { onMount } from "svelte";
-  import data from "./fingering.json";
+  import data from "./data/fingering.json";
 
-  // Mock data for chord fingerings. In a real application, you would fetch this from a database or API.
+  // Mock data for chord fingerings. In a real ./data/fingering.jsonjsonld fetch this from a database or API.
   const chordData = data.EADGBE;
   const notes = [
     "A",
