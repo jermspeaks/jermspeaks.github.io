@@ -1,0 +1,233 @@
+---
+description: "An introduction to feature management using LaunchDarkly and if I use them as advertised."
+draft: false
+heroImage: https://images.unsplash.com/photo-1604313628668-57aa3c1e9357?q=80&w=2300&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+heroImageAlt: "Railroad semafor. Credits: Unsplash - Michał Franczak"
+pubDate: "2024-04-18T08:00:00.000Z"
+tags: ["programming", "flags"]
+title: "Flag management in practice"
+---
+
+## What is Feature Management?
+
+A **feature flag** is a decision point in your code that can change the behavior of your application.
+
+<div class="sm:flex sm:gap-4">
+  <div>
+    <b>Temporary flags</b> are often used to safely deploy changes to your
+    application or to test new behaviors against old ones. After a new behavior
+    is being used by 100% of your users, the flag is intended to be removed.
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1584649525122-8d6895492a5d?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Traffic light showing a green light. Unsplash - Eliobed Suarez"
+      />
+      <figcaption class="text-sm italic">
+        Traffic light showing a green light. Unsplash - Eliobed Suarez
+      </figcaption>
+    </div>
+  </div>
+  <div>
+    <b>Permanent flags</b> give you a way to control the behavior of your
+    application at any time. You might use a permanent flag to create a
+    kill-switch or to reveal functionality only to specific users.
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1555529902-5261145633bf?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="Locked entrance. Unsplash - Muhammad Zaqy Al Fattah"
+      />
+      <figcaption class="text-sm italic">
+        Traffic light showing a green light. Unsplash - Eliobed Suarez
+      </figcaption>
+    </div>
+  </div>
+</div>
+
+### Feature Flags Are _Context Sensitive_
+
+The code path token can change based on the context provided; for example, the user's identity, the plan they've paid for, or any other data.
+
+### Feature Flags Are _Deployment Agnostic_
+
+Feature flags can be used to control which users can see each change. This decouples the act of deploying from the act of releasing.
+
+### Use Cases for Flags
+
+- **Release** - A temporary flag that initially serves false to all targets, then progressively rolls out true to targets until it reaches 100%
+- **Kill Switch** - A permanent safety mechanism used to shut off non-core functionality or third-party tools in an emergency
+- **Experiment** - A flag to test a hypothesis and provide continuous optimization using beta users and A/B tests
+- **Migration** - A temporary flag used to migrate data or systems while keeping your application available and disruption free
+
+These are the ones advertised by LaunchDarkly. There are many more use cases, and they allow for customization.
+
+## What is LaunchDarkly?
+
+- LaunchDarkly is a company that provides **feature flags as a service**.
+- At work, flags are served and managed by LaunchDarkly's services.
+- LaunchDarkly is integrated through streaming via web sockets, meaning each web app user session receives messages only when necessary. Changes can be pushed out to clients in real time.
+
+<img
+  src="https://docs.launchdarkly.com/static/1713462058669.2898531298/077b7/architecture-ld-app-diagram.png"
+  alt="A diagram showing the end-to-end connection between LaunchDarkly's flag delivery network and your application."
+/>
+<figcaption class="text-sm italic">
+  A diagram showing the end-to-end connection between LaunchDarkly's flag
+  delivery network and your application.{" "}
+  <a
+    href="https://docs.launchdarkly.com/home/getting-started/architecture"
+    target="_blank"
+  >
+    Source
+  </a>
+</figcaption>
+
+## How I use flags in practice
+
+In our codebase, we have a custom React hook wrapped around the SDK
+that returns the flag value that we can use programmatically.
+
+```js
+const [specificFlag] = useFeatureFlags([
+  {
+    flag: "specificFlagKey",
+    defaultValue: false,
+  },
+]);
+```
+
+From here, we usually add conditional logic to toggle the flag logic to the target code.
+We can also use the same method to do the same on the server-side as well.
+
+### Adding User Context
+
+LaunchDarkly uses context to target which flags should be on or off. 
+The user's context, known in LaunchDarkly as identity, must be used when initializing the application.
+
+#### Anonymous Users
+On initialization, a user session will be identified as an anonymous user. 
+This is because in the initialization, the user's session token (access token) has not been verified yet. 
+Because we want to use flags for public users as well, i.e. those not logged into the app, we initialize the Provider before the token check.
+
+An anonymous user has two attributes: 
+
+- **key** - a unique identifier for the anonymous user and a field on the ldUser type.
+- **anonymous** - a field on the ldUser type that notes if a user is anonymous or not. Stored as a Boolean.
+
+#### Authenticated Users
+
+Once the user authenticates, and the application has retrieved the user context, 
+we identifies the user using the `ldClient.identify` function. 
+In this identify function, we pass along the following information about our user:
+
+- `key`: Our user's unique identifier (as a uuid)
+- `anonymous`: false
+- `email`: the user's email address
+
+In addition, we pass along some custom fields that we can use to narrow down the user's targeting.
+This includes their role and their organization, since our app is a multi-tenant.
+
+If this user has already been added to LaunchDarkly, their flag profile will be returned. 
+
+If this user is new, LaunchDarkly will automatically create this user, create their flag profile, and be returned.
+
+#### Logout
+
+On logout, the application re-identifies the user using the `ldClient.identify` function. 
+Since the application has a logout hook, we add a handler to identify the user to be an anonymous user again. 
+This resets all flags to switch over for anonymous users. 
+
+### When do we change our flags?
+
+- **Per Release** - For each release, our release team has a list of flags to modify, including toggling targeting and changing rules and segments per rules.
+- **On Market Support** - There may be a request to make a non-release changes. These include new customer onboarding and turning on a feature for an existing customer.
+
+### Deployments
+
+There are different types of deployments:
+
+- **Canary Releases** - User groups who would like to opt in
+- **Ring Deployments** - Different user segments at a time - e.g. beta or power users
+- **Percentage-based Deployments** - Start with low percentage, then move to higher. For operational changes
+
+Each of these can be implemented using feature flags.
+
+Feature flags and blue/green deploys are complementary techniques. Although there are areas of overlap, each approach has distinct benefits, and the best strategy is to use both.
+
+### Testing
+
+It isn't necessary (or even possible) to test every combination of feature flags. Testing each variation of a flag in isolation (using default values for the other flags) is usually enough, unless there's some known interaction between certain flags.
+
+Here's an example using jest and LaunchDarkly's mock testing library.
+
+```js
+import { mockFlags } from 'jest-launchdarkly-mock';
+
+it('tests with the flag on' , () => {
+  mockFlags({
+    [FLAG_IN_QUESTION]: true,
+  });
+  // Write your test here
+});
+
+it('tests with the flag off' , () => {
+  mockFlags({
+    [FLAG_IN_QUESTION]: false,
+  });
+  // Write your test here
+});
+```
+
+### Flag Maintenance
+
+Cleaning up flags aggressively is the key to preventing technical debt from building up. There's no royal road to flag cleanup, but there are some processes that make it manageable.
+
+A stale flag is a temporary flag that is no longer in use and has not been cleaned up. Too many stale flags are a form of technical debt and an antipattern that you should avoid.
+
+At work, we follow a practice to do it prior to any major release. This is about every 3 to 4 months.
+
+## Questions you should be able to answer now
+
+<ul>
+  <li>
+    <details>
+      <summary>What is feature management?</summary>
+      <p>
+        A decision point in your code that can change the behavior of your
+        application.
+      </p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>What is the difference between a temporary vs. a permanent flag?</summary>
+      <p>
+        A temporary flag will ultimately be removed from the application. A
+        permanent won't and will stay as a kill switch.
+      </p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>How do flags configured in LaunchDarkly get delivered to our applications?</summary>
+      <p>LaunchDarkly uses streaming via web sockets.</p>
+    </details>
+  </li>
+  <li>
+    <details>
+      <summary>How can flag management be resilient to failures?</summary>
+      <p>
+        LaunchDarkly has multiple fallbacks. If their CDN goes down, it goes to
+        their service. If their service goes down, you can route it to an
+        external service like their relay proxy. If all of those go down, then
+        there will be cached results from the last sucessful response. And if
+        this is a first time request, then a fallback default value is used.
+      </p>
+    </details>
+  </li>
+</ul>
+
+## Learn More
+
+- LaunchDarkly's [The Definitive Guide to Feature Management](https://launchdarkly.com/the-definitive-guide-to-feature-management/)
+- [LaunchDarkly's architecture](https://docs.launchdarkly.com/home/getting-started/architecture)
+- [Guide to Effective Feature Management](https://learn.launchdarkly.com/effective-feature-management/)
