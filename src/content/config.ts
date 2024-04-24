@@ -296,6 +296,7 @@ const stream = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    tags: z.array(z.string()).optional(),
   }),
 });
 

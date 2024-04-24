@@ -19,7 +19,7 @@ const { Content } = await item.render();
       date={item.data.pubDate}
       options={{ hour: "numeric", minute: "numeric" }}
     />
-    <div class="prose dark:prose-invert prose-p:m-0 line-clamp-5">
+    <div class="prose dark:prose-invert prose-p:m-0 line-clamp-4 md:line-clamp-5">
       <a href={`/curation/stream#${slug}`}>{title}</a>
       <Content />
     </div>
