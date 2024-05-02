@@ -1,10 +1,11 @@
 ---
 import { getCollection, getEntry } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+import FormattedDate from "../../../components/FormattedDate.astro";
 
 const filmLibrary = (await getCollection("filmLibrary")).sort(
   (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
-);
+);``
 const entry = await getEntry("curation", "films");
 const { heroImage, heroImageAlt } = entry.data;
 ---
@@ -37,6 +38,7 @@ const { heroImage, heroImageAlt } = entry.data;
                 </a>
               </div>
               <div>Dir. {film.data.director}</div>
+              {/* <FormattedDate date={film.data.dateConsumed} /> */}
               <div class="mt-2 dark:text-slate-100">{film.data.blurb}</div>
             </div>
           </li>

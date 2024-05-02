@@ -1,5 +1,5 @@
 ---
-dateConsumed: "2023-10-02 03:00:00 GMT"
+dateConsumed: "2023-10-02T03:00:00.000Z"
 director: "Jayro Bustamante"
 creator: "Jayro Bustamante"
 heroImage: "https://a.ltrbxd.com/resized/film-poster/5/4/4/4/7/3/544473-the-weeping-woman-0-230-0-345-crop.jpg?v=3547efda7b"
