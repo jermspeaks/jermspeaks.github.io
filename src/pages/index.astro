@@ -11,13 +11,15 @@ import FormattedDate from "../components/FormattedDate.astro";
 import WritingListItem from "../components/WritingListItem.astro";
 import StreamListItem from "../components/StreamListItem.astro";
 
+const MAX_WRITING_POSTS = 5;
 const MAX_ITEMS = 4;
 const MAX_STREAM_ENTRIES = 3; 
+const TOTAL_NUMBER_OF_CURATED_ITEMS = 6;
 
 const latestPosts = (await getCollection("writing"))
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, MAX_ITEMS);
+  .slice(0, MAX_WRITING_POSTS);
 const lastStream = (await getCollection("stream"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, MAX_STREAM_ENTRIES);
@@ -25,7 +27,6 @@ const lastProjects = (await getCollection("project"))
   .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
   .slice(0, MAX_ITEMS);
 
-const TOTAL_NUMBER_OF_CURATED_ITEMS = 6;
 const bookLibrary = (await getCollection("book"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .map((item) => ({
