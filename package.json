@@ -12,7 +12,7 @@
     "sync": "astro sync"
   },
   "dependencies": {
-    "@astrojs/mdx": "^3.0.1",
+    "@astrojs/mdx": "^3.1.0",
     "@astrojs/netlify": "^5.2.1",
     "@astrojs/rss": "^4.0.5",
     "@astrojs/sitemap": "^3.1.4",
