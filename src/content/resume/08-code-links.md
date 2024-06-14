@@ -1,6 +1,7 @@
 ---
 title: Code / Links
 order: 8
+printVersion: false
 ---
 
 - [Email](mailto:jeremy@craftbyzen.com)

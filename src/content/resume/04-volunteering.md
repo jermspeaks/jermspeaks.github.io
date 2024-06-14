@@ -1,6 +1,7 @@
 ---
 title: Volunteering
 order: 4
+printVersion: false
 ---
 
 - _2017 - 2021_ **Hackbright Academy** Mentor and Guest Lecturer

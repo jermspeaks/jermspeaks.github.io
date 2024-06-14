@@ -1,6 +1,7 @@
 ---
 title: Active Stack
 order: 7
+printVersion: false
 ---
 
 - React & Svelte
