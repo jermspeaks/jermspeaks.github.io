@@ -232,6 +232,7 @@ const resume = defineCollection({
   schema: z.object({
     order: z.number(),
     title: z.string(),
+    printVersion: z.boolean(), 
   }),
 });
 

@@ -1,6 +1,7 @@
 ---
 title: Projects
 order: 5
+printVersion: false
 ---
 
 - [Craft By Zen](https://craftbyzen.com/blog/2023-05-02-website-rewrite/) Redesign

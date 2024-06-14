@@ -7,7 +7,7 @@ import ProseArticle from "../../components/ProseArticle.astro";
 import ResumeContent from "../../components/ResumeContent.astro";
 
 const resumeItems = (await getCollection("resume"))
-  .filter((a) => !a.data.printVersion)
+  .filter((a) => a.data.printVersion)
   .sort((a, b) => {
     if (a.data.order > b.data.order) {
       return 1;
@@ -25,17 +25,16 @@ const resumeItems = (await getCollection("resume"))
   updatedDate={new Date("June 14, 2024")}
 >
   <NavigationLinks slot="navigation" items={aboutLinks} />
-  <ProseArticle>
+  <ProseArticle class="prose-headings:mt-4 prose-headings:mb-0 prose-p:m-0">
     <h1><strong>Jeremy Wong</strong></h1>
-    {resumeItems.slice(0, 7).map((resume) => <ResumeContent item={resume} />)}
+    {resumeItems.slice(0, 6).map((resume) => <ResumeContent headingLevel={2} item={resume} />)}
 
     <div class="flex flex-col md:flex-row justify-between align-top my-2">
       {
         resumeItems
-          .slice(7)
+          .slice(6)
           .map((resume) => <ResumeContent headingLevel={3} item={resume} />)
       }
     </div>
-    <p>A printable version of my resume can be found <a href="./resume-printable">here</a>.</p>
   </ProseArticle>
 </AboutLayout>
