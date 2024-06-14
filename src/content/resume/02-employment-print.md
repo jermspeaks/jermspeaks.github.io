@@ -1,6 +1,6 @@
 ---
 title: Employment
-order: 2
+order: 3
 printVersion: true
 ---
 
@@ -29,7 +29,6 @@ printVersion: true
 
   - **Digital Media Exchange** _Dashboard for customers and internal employees for all of Inform's Services_
     - Joined my team in a lead front-end role reviewing design and interactions and developing the UI infrastructure in React, Redux, d3, Node.js, Express Docker, Rancher, and AWS
-    - Facilitated usability testing to determine weak points of the application to improve in the next development cycle
   - **WordPress Plugin**
     - Developed Inform's WordPress plugin for customers to embed videos without leaving the WordPress environment
   - **Insights** _Dashboard for publishers to understand their content using Reverb's services_
