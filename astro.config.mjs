@@ -34,8 +34,8 @@ export default defineConfig({
     sitemap(),
     svelte(),
     tailwind({
-      configFile: "./tailwind.config.cjs",
-      applyBaseStyles: true,
+      configFile: "./tailwind.config.js",
+      applyBaseStyles: false,
     }),
     astroAsides(),
     mdx({
