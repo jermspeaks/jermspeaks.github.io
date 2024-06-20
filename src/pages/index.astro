@@ -86,7 +86,7 @@ const combination = [
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, TOTAL_NUMBER_OF_CURATED_ITEMS);
 
-const curations = await getCollection("curation");
+// const curations = await getCollection("curation");
 ---
 
 <!doctype html>
@@ -220,7 +220,7 @@ const curations = await getCollection("curation");
           </ul>
         </div>
       </div>
-      <ul
+      <!-- <ul
         class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 list-none p-0 mt-8"
       >
         {
@@ -238,7 +238,7 @@ const curations = await getCollection("curation");
               )
           )
         }
-      </ul>
+      </ul> -->
 
       <hr class="mt-5 mb-5" />
 
