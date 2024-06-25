@@ -8,7 +8,7 @@ heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb
 heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
 ---
 
-> Be a cycle maker, not a cycle breaker
+> Be a cycle maker, not a cycle breaker  
 > -- Jatee Kearsley, owner of [Je T'aime Patisserie](https://www.jetaimebk.com/) Bed-Stuy, Brooklyn. [Video](https://www.youtube.com/watch?v=1yk2eqRWzEA&list=LL&index=12)
 
 This idea of forgoing cycle breaking to making new cycles, like being the first grad to your family, or running your own business. Jatee talks about being the first business owner in her family, and I loved her enthusiasm and spirit.
