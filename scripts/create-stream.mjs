@@ -20,7 +20,7 @@ async function generateMarkdownFile(title, tags) {
   );
 
   const content = `---
-draft: true
+draft: false
 pubDate: "${date.toISOString()}"
 tags: [${tags.map((tag) => `"${tag}"`).join(", ")}]
 title: "${title}"
