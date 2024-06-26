@@ -7,15 +7,12 @@ const writing = defineCollection({
     z.object({
       author: z.string().default("Jeremy Wong"),
       categories: z.array(z.string()).optional(),
-      commentsUrl: z.string().optional(),
-      customData: z.string().optional(),
       description: z.string(),
       draft: z.boolean().optional(),
       coverImage: image().optional(),
       heroImage: z.string().optional(),
       heroImageAlt: z.string().default("Cover image for blog post"),
       minutesRead: z.string().optional(),
-      // Transform string to Date object
       pubDate: z
         .string()
         .or(z.date())
@@ -232,7 +229,7 @@ const resume = defineCollection({
   schema: z.object({
     order: z.number(),
     title: z.string(),
-    printVersion: z.boolean(), 
+    printVersion: z.boolean(),
   }),
 });
 
