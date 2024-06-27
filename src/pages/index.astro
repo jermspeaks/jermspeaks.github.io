@@ -13,7 +13,7 @@ import StreamListItem from "../components/StreamListItem.astro";
 
 const MAX_WRITING_POSTS = 5;
 const MAX_ITEMS = 4;
-const MAX_STREAM_ENTRIES = 3; 
+const MAX_STREAM_ENTRIES = 3;
 const TOTAL_NUMBER_OF_CURATED_ITEMS = 6;
 
 const latestPosts = (await getCollection("writing"))
@@ -21,6 +21,7 @@ const latestPosts = (await getCollection("writing"))
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, MAX_WRITING_POSTS);
 const lastStream = (await getCollection("stream"))
+  .filter((item) => !item.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, MAX_STREAM_ENTRIES);
 const lastProjects = (await getCollection("project"))
@@ -105,7 +106,9 @@ const combination = [
       </p>
       <div class="mt-4 mb-6 flex flex-col sm:flex-row gap-4 justify-between">
         <div>
-          <h1 class="text-3xl md:text-6xl"><span class="inline sm:hidden">👋🏽 Hi, I'm </span>Jeremy</h1>
+          <h1 class="text-3xl md:text-6xl">
+            <span class="inline sm:hidden">👋🏽 Hi, I'm </span>Jeremy
+          </h1>
         </div>
         <div>
           <h2 class="mb-2 text-2xl font-thin">
@@ -143,15 +146,13 @@ const combination = [
         <div class="col-span-1 md:block md:col-span-3 lg:col-span-2">
           <ProseArticle class="mx-0 mb-8">
             <h3 class="text-3xl font-medium underline">
-              <a href="/curation/stream" class="hover:text-purple-500">🚰 Stream</a>
+              <a href="/curation/stream" class="hover:text-purple-500"
+                >🚰 Stream</a
+              >
             </h3>
           </ProseArticle>
           <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
-            {
-              lastStream.map((item) => (
-                <StreamListItem item={item} />
-              ))
-            }
+            {lastStream.map((item) => <StreamListItem item={item} />)}
           </ul>
         </div>
         <div class="col-span-1 md:col-span-8">
@@ -162,7 +163,9 @@ const combination = [
               >
             </h3>
           </ProseArticle>
-          <ul class="list-none sm:p-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+          <ul
+            class="list-none sm:p-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
+          >
             {
               lastProjects.map((project) => (
                 <ProjectListItem project={project} />
