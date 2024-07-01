@@ -19,15 +19,15 @@ This week, we're back. I'm coming back at you all with some links that I found f
 
 ### Link Roll
 
-> The goal of a book isn’t to get to the last page, it’s to expand your thinking.
+> The goal of a book isn’t to get to the last page, it’s to expand your thinking.  
 > -- Dave Rupert
 
-> Everyone is waiting for that one post, that one video, that one podcast from *someone* that explains things is just such a way they can understand.
+> Everyone is waiting for that one post, that one video, that one podcast from *someone* that explains things is just such a way they can understand.  
 > -- Jim Nielsen
 
 - People to follow:
   - [Ashley Janssen | Productivity Consultant, Writer, Speaker](https://ashleyjanssen.com/)
-  - [simeonGriggs.dev | Thoughts on Internet](https://www.simeongriggs.dev/)
+  - [Simeon Griggs | Thoughts on Internet](https://www.simeongriggs.dev/)
 - Helpful Tailwind color index: [Overview of Tailwind CSS Colors](https://tailscan.com/colors)
   - Also: Tailwind Tints: [Tailwind CSS 11-color Palette Generator and API](https://www.tints.dev/)
 - To make a test website? [Eleventy is a simpler static site generator](https://www.11ty.dev/)
