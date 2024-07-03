@@ -2,7 +2,7 @@
 bookAuthor: "Philip Kiely"
 creator: "Philip Kiely"
 dateAdded: "2023-01-10"
-heroImage: "https://wfsd.com/assets/img/wfsd_paper_render.jpg"
+heroImage: "https://wfsd.com/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fwfsd_subtle_render.fa708b3b.jpg&w=2048&q=75"
 heroImageAlt: "Book cover for Writing for Software Developers"
 link: "https://wfsd.com/"
 pubDate: "2023-05-31T08:00:00.000Z"
