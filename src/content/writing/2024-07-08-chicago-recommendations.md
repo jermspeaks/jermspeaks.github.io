@@ -5,6 +5,8 @@ pubDate: "2024-07-08T16:43:48.803Z"
 tags: ["travel", "recommendations"]
 title: "Chicago Recommendations"
 updatedDate: "2024-07-08T16:43:48.803Z"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9b/Flag_of_Chicago%2C_Illinois.svg/1920px-Flag_of_Chicago%2C_Illinois.svg.png"
+heroImageAlt: Flag of Chicago, Wikipedia Commons
 ---
 
 Chicago is known as the windy city, not because of its wind, but because of its terrible politics. That said, if you visit between late September to April, bring winter wear.
