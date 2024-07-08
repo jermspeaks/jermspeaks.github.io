@@ -1,0 +1,34 @@
+---
+export interface Props {
+  date: Date;
+  class?: string;
+  dateOptions?: Intl.DateTimeFormatOptions;
+  timeOptions?: Intl.DateTimeFormatOptions;
+}
+
+const {
+  date,
+  class: className,
+  dateOptions = {},
+  timeOptions = {},
+} = Astro.props;
+
+const datetimeString = date.toLocaleString("en-us", {
+  year: "numeric",
+  month: "short",
+  day: "numeric",
+  hour: "numeric",
+  minute: "numeric",
+  timeZone: "America/Los_Angeles",
+  timeZoneName: "short",
+  ...dateOptions,
+  ...timeOptions,
+});
+---
+
+<time datetime={date.toISOString()} class={className}>
+  <slot name="prepend" />
+  {datetimeString}
+  <slot />
+  <slot name="append" />
+</time>

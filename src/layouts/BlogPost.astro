@@ -1,16 +1,23 @@
 ---
+import { getCollection } from "astro:content";
 import { Image } from "astro:assets";
 import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
-import FormattedDate from "../components/FormattedDate.astro";
+import FormattedDateTime from "../components/FormattedDateTime.astro";
 import Header from "../components/Header.astro";
 import ProseArticle from "../components/ProseArticle.astro";
 import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"writing">["data"];
 
+const series = (await getCollection("series")).sort(
+  (a: CollectionEntry<"series">, b: CollectionEntry<"series">) =>
+    b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
+);
+
 const {
+  author,
   coverImage,
   description,
   heroImage,
@@ -21,6 +28,18 @@ const {
   title,
   updatedDate,
 } = Astro.props;
+const hasUpdatedDate = updatedDate && updatedDate !== pubDate;
+const isNewsletter = tags.includes("newsletter");
+const newsletterSeriesTag = tags.filter((tag: string) =>
+  tag.startsWith("season_")
+)?.[0];
+const newsletterSeries =
+  series.find(
+    (s: CollectionEntry<"series">) => s.data.tag === newsletterSeriesTag
+  ) ?? null;
+const { slug: newsletterSeriesSlug, data: newsletterSeriesData } =
+  newsletterSeries ?? {};
+const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
 ---
 
 <html lang="en">
@@ -68,14 +87,12 @@ const {
             </figure>
           )
         }
-        <div class="flex gap-4">
-          <p><FormattedDate date={pubDate} /></p>
-          <p>&#x2022;</p>
-          <p>{minutesRead}</p>
-          <p>&#x2022;</p>
+        <div class="md:flex md:gap-4">
+          <p>📖 {minutesRead}</p>
+          <p class="hidden md:block">•</p>
           <p>
             {
-              tags.map((tag: string, index) =>
+              tags.map((tag: string, index: number) =>
                 // if last item, don't add a space
                 index === tags.length - 1 ? (
                   <>
@@ -101,14 +118,84 @@ const {
             }
           </p>
         </div>
+        <slot />
+        <hr />
+        <div class="italic dark:text-slate-300">
+          {
+            hasUpdatedDate ? (
+              <p>
+                Written by <a href="/about">{author}</a> and published on{" "}
+                <FormattedDateTime date={pubDate} />, and last updated on{" "}
+                <FormattedDateTime date={updatedDate} />.
+              </p>
+            ) : (
+              <p>
+                Written by <a href="/about">{author}</a> and published on{" "}
+                <FormattedDateTime date={pubDate} />.
+              </p>
+            )
+          }
+        </div>
         {
-          updatedDate && (
-            <div class="italic dark:text-slate-300">
-              Last updated on <FormattedDate date={updatedDate} />
-            </div>
+          isNewsletter && (
+            <>
+              <hr />
+              <p>
+                For the newsletter archive, check out{" "}
+                <a href="/curation/newsletter">Newsletter Series</a>.
+                {newsletterSeriesSlug && (
+                  <>
+                    For this specific series, check out the{" "}
+                    <a href={`/curation/newsletter/${newsletterSeriesSlug}`}>
+                      {newsletterSeriesTitle}
+                    </a>
+                    .
+                  </>
+                )}
+              </p>
+              <p>
+                And if you like this newsletter, consider subscribing! You will
+                get monthly updates from me like this one.
+              </p>
+              <form
+                action="https://buttondown.email/api/emails/embed-subscribe/craftbyzen"
+                method="post"
+                target="popupwindow"
+                onsubmit="window.open('https://buttondown.email/craftbyzen', 'popupwindow')"
+                class="embeddable-buttondown-form flex flex-col gap-2 sm:w-[50%]"
+              >
+                <label
+                  class="text-slate-800 dark:text-slate-200 text-sm"
+                  for="bd-email"
+                >
+                  Email
+                </label>
+                <input
+                  class="py-1 px-2 md:py-2 md:px-4"
+                  type="email"
+                  name="email"
+                  id="bd-email"
+                  placeholder="Enter your email"
+                />
+
+                <button
+                  type="submit"
+                  value="Subscribe"
+                  class="bg-yellow-700 hover:bg-purple-700 dark:bg-yellow-300 text-white dark:text-black font-bold px-4 rounded"
+                >
+                  Subscribe
+                </button>
+                <a
+                  class="text-sm"
+                  href="https://buttondown.email/refer/craftbyzen"
+                  target="_blank"
+                >
+                  Powered by Buttondown.
+                </a>
+              </form>
+            </>
           )
         }
-        <slot />
       </ProseArticle>
     </main>
     <Footer />
