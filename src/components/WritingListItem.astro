@@ -37,7 +37,7 @@ const { post, condensed } = Astro.props;
       {Array.isArray(post.data.tags) && " "}
       {
         Array.isArray(post.data.tags) &&
-          post.data.tags.map((tag: string, index) =>
+          post.data.tags.map((tag: string, index: number) =>
             // if last item, don't add a space
             index === post.data.tags.length - 1 ? (
               <>
