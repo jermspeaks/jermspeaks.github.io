@@ -79,3 +79,10 @@ Tony Zhou and Taylor Ramos are back with a short film called The Second. From th
   allowfullscreen></iframe>
 
 ![Movie poster for The Second](https://pbs.twimg.com/media/GRk2FYObEAAhRXz?format=jpg&name=4096x4096)
+
+### Currently Logging
+
+- Continuing "Dave the Diver"
+- Continue campaigning with my wife "Baldur's Gate 3"
+- Updated [2024 media log](/curation/log/2024#june)
+- Currently reading "Get Better At Anything" by Scott H Young

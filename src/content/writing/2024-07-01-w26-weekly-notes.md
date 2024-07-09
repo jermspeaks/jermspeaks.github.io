@@ -86,3 +86,9 @@ Cleo Abrams - Why Can't Robots Check "I'm Not A Robot"?
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen></iframe>
+
+### Currently Logging
+
+- Playing "Disney's Dreamlight Valley"
+- Started playing "Dave the Diver"
+- Playing with my wife "Baldur's Gate 3"
