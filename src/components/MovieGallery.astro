@@ -1,0 +1,40 @@
+---
+interface Movie {
+  id: string;
+  title: string;
+  link: string;
+  poster?: string;
+}
+export interface Props {
+  movies: Movie[];
+}
+
+const { movies = [] } = Astro.props;
+---
+
+<div class="container mx-auto px-4 py-8">
+  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+    {movies.map((movie) => (
+      <a href={movie.link} class="group">
+        <div class="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+          {movie.poster ? (
+            <img 
+              src={movie.poster} 
+              alt={`${movie.title} Poster`} 
+              class="w-full h-auto object-cover"
+            />
+          ) : (
+            <div class="bg-gray-300 w-full h-0 pb-[150%] flex items-center justify-center">
+              <span class="text-gray-600">No Poster Available</span>
+            </div>
+          )}
+          <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-opacity duration-300 flex items-end justify-center">
+            <h3 class="text-white text-lg font-semibold p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+              {movie.title}
+            </h3>
+          </div>
+        </div>
+      </a>
+    ))}
+  </div>
+</div>
