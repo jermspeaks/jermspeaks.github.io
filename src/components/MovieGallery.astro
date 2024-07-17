@@ -13,23 +13,23 @@ const { movies = [] } = Astro.props;
 ---
 
 <div class="container mx-auto px-4 py-8">
-  <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+  <div class="grid grid-cols-5 gap-4">
     {movies.map((movie) => (
       <a href={movie.link} class="group">
-        <div class="relative overflow-hidden rounded-lg shadow-lg transition-transform duration-300 ease-in-out transform hover:scale-105">
+        <div class="relative overflow-hidden rounded-lg shadow-lg transform hover:border-4 hover:border-white">
           {movie.poster ? (
             <img 
               src={movie.poster} 
-              alt={`${movie.title} Poster`} 
+              alt={`${movie.title} Poster`}
               class="w-full h-auto object-cover"
             />
           ) : (
-            <div class="bg-gray-300 w-full h-0 pb-[150%] flex items-center justify-center">
+            <div class="not-prose bg-gray-300 w-full h-0 pb-[150%] flex items-center justify-center">
               <span class="text-gray-600">No Poster Available</span>
             </div>
           )}
           <div class="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-60 transition-opacity duration-300 flex items-end justify-center">
-            <h3 class="text-white text-lg font-semibold p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <h3 class="not-prose text-white md:text-lg font-semibold p-0.5 md:p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               {movie.title}
             </h3>
           </div>
