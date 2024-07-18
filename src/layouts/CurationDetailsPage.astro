@@ -6,15 +6,21 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import TitleHeading from "../components/TitleHeading.astro";
 
+interface Title {
+  link?: string;
+  title: string;
+}
+
 type Props = {
   description?: string;
   image?: string;
   imageAlt?: string;
   srcImage?: string;
   title: string;
+  titles?: Title[];
 };
 
-const { title, description, image, srcImage, imageAlt } = Astro.props;
+const { titles, title, description, image, srcImage, imageAlt } = Astro.props;
 ---
 
 <!doctype html>
@@ -37,8 +43,39 @@ const { title, description, image, srcImage, imageAlt } = Astro.props;
         >
           <a href="/curation">Curation</a>
         </span>
-        <span class="text-slate-800 dark:text-slate-300">&nbsp;/&nbsp;</span>
-        <span>{title}</span>
+        {
+          titles ? (
+            titles.map((t) => {
+              if (t.link) {
+                return (
+                  <>
+                    <span class="text-slate-800 dark:text-slate-300">
+                      &nbsp;/&nbsp;
+                    </span>
+                    <span class="text-slate-700 hover:underline hover:text-purple-500 dark:text-slate-300 dark:hover:text-slate-500">
+                      <a href={t.link}>{t.title}</a>
+                    </span>
+                  </>
+                );
+              }
+              return (
+                <>
+                  <span class="text-slate-800 dark:text-slate-300">
+                    &nbsp;/&nbsp;
+                  </span>
+                  <span>{t.title}</span>
+                </>
+              );
+            })
+          ) : (
+            <>
+              <span class="text-slate-800 dark:text-slate-300">
+                &nbsp;/&nbsp;
+              </span>
+              <span>{title}</span>
+            </>
+          )
+        }
       </TitleHeading>
       <slot />
       <Footer />

@@ -1,0 +1,81 @@
+---
+import { getCollection, getEntry } from "astro:content";
+import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+import StreamItem from "../../../components/StreamItem.astro";
+import type { GetStaticPaths } from "astro";
+
+// Grab the curation entry for streams
+const entry = await getEntry("curation", "stream");
+const { heroImage, heroImageAlt } = entry.data;
+
+// Generate pages from our array of streams, with 10 to a page
+export const getStaticPaths = (async ({ paginate }) => {
+  const streams = (await getCollection("stream"))
+    .filter((item) => !item.data.draft)
+    .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
+
+  return paginate(streams, { pageSize: 10 });
+}) satisfies GetStaticPaths;
+
+// All paginated data is passed on the "page" prop
+const { page } = Astro.props;
+---
+
+<CurationDetailsPage
+  image={heroImage}
+  imageAlt={heroImageAlt}
+  title="The Stream"
+>
+  <ProseArticle>
+    <p>
+      The anti-social media stream. Otherwise known as my personal feed. Similar
+      to <a
+        href="https://stream.thesephist.com/"
+        target="_blank"
+        rel="noreferrer">Linus's stream</a
+      > by Linus Lee.
+    </p>
+  </ProseArticle>
+  <hr class="border-y-4 border-r-2 border-gray-400 dark:border-gray-700 my-4" />
+  <ul class="list-none p-0 ps-0">
+    {page.data.map((stream: any) => <StreamItem item={stream} />)}
+  </ul>
+  <div class="flex justify-evenly items-center">
+    {
+      page.url.prev ? (
+        <a
+          href={page.url.prev}
+          class="flex px-4 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
+        >
+          Previous
+        </a>
+      ) : (
+        <button
+          disabled
+          class="flex px-4 py-2 border-2 rounded-full text-slate-500 dark:text-slate-200"
+        >
+          Previous
+        </button>
+      )
+    }
+    Page {page.currentPage}
+    {
+      page.url.next ? (
+        <a
+          href={page.url.next}
+          class="flex px-4 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
+        >
+          Next
+        </a>
+      ) : (
+        <button
+          disabled
+          class="flex px-4 py-2 border-2 rounded-full text-slate-500 dark:text-slate-200"
+        >
+          Next
+        </button>
+      )
+    }
+  </div>
+</CurationDetailsPage>

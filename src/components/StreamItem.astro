@@ -19,13 +19,14 @@ const { Content } = await item.render();
       class="grid grid-cols-1 md:grid-cols-8 gap-4 mb-8 text-slate-700 dark:text-slate-100"
     >
       <div class="col-span-2 italic">
-        <FormattedDate
-          date={item.data.pubDate}
-          options={{ hour: "numeric", minute: "numeric" }}
-        />
+          <FormattedDate
+            date={item.data.pubDate}
+            options={{ hour: "numeric", minute: "numeric" }}
+          />
+        </a>
       </div>
       <div class="col-span-6">
-        <h2 id={slug}>{title}</h2>
+        <h2 id={slug}><a href={`/curation/stream/link/${slug}`}>{title}</a></h2>
         <Content />
       </div>
     </div>
