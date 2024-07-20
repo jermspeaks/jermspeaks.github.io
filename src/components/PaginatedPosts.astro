@@ -1,0 +1,79 @@
+---
+import HomePageAntiBookItem from "./HomePageAntiBookItem.astro";
+import HomePageBookItem from "./HomePageBookItem.astro";
+import HomePageCurationItem from "./HomePageCurationItem.astro";
+import HomePageFilmItem from "./HomePageFilmItem.astro";
+import HomePageProjectItem from "./HomePageProjectItem.astro";
+import HomePageStreamItem from "./HomePageStreamItem.astro";
+import HomePageWritingItem from "./HomePageWritingItem.astro";
+
+interface Props {
+  posts: any[];
+}
+
+const { posts } = Astro.props;
+---
+
+<ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
+  {
+    posts.map((item) => {
+      if (item.data.kind === "writing") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageWritingItem item={item} />
+          </li>
+        );
+      }
+      if (item.data.kind === "stream") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageStreamItem item={item} />
+          </li>
+        );
+      }
+      if (item.data.kind === "project") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageProjectItem item={item} />
+          </li>
+        );
+      }
+      if (item.data.kind === "films") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageFilmItem item={item} />
+          </li>
+        );
+      }
+      if (item.data.kind === "books") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageBookItem item={item} />
+          </li>
+        );
+      }
+      if (item.data.kind === "antibooks") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageAntiBookItem item={item} />
+          </li>
+        );
+      }
+      if (
+        [
+          "log",
+          "series",
+          "lindy",
+          "creators",
+          "now",
+          "curation",
+          "classified",
+          "inspiration",
+        ].includes(item.data.kind)
+      ) {
+        return <HomePageCurationItem item={item} />;
+      }
+      return null;
+    })
+  }
+</ul>

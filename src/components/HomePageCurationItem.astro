@@ -1,0 +1,50 @@
+---
+import FormattedDate from "./FormattedDate.astro";
+import HomePageFilmItem from "./HomePageFilmItem.astro";
+import HomePageStreamItem from "./HomePageStreamItem.astro";
+import HomePageWritingItem from "./HomePageWritingItem.astro";
+import ProjectListItem from "./ProjectListItem.astro";
+import type { CollectionEntry } from "astro:content";
+
+interface Props {
+  item: CollectionEntry<"curation">;
+}
+const { item } = Astro.props;
+---
+
+<li
+  class="grid grid-cols-8 gap-2 mb-6 md:mb-0 rounded-sm box-border dark:text-white"
+>
+  <div class="col-span-3 sm:col-span-2">
+    <a
+      class="visited:text-amber-600 hover:grayscale"
+      href={`/curation/${item.data.kind}/${item.slug}`}
+    >
+      <img
+        src={item.data.heroImage}
+        class="aspect-auto w-full"
+        alt={item.data.heroImageAlt}
+      />
+    </a>
+  </div>
+  <div class="col-span-5 sm:col-span-6 md:py-0 md:px-0 md:mt-0">
+    <div class="font-bold mb-2">
+      <a
+        class="hover:underline hover:text-purple-500 visited:text-amber-600"
+        href={`/curation/${item.data.kind}/${item.slug}`}
+      >
+        {item.data.title}
+      </a>
+    </div>
+    <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700 font-thin">
+      Created by:&nbsp;{item.data.creator}
+    </div>
+    <FormattedDate
+      class="italic text-slate-600 dark:text-slate-300"
+      date={item.data.pubDate}
+    >
+      <span slot="prepend">Published:&nbsp;</span>
+    </FormattedDate>
+    <div class="mt-2 dark:text-slate-100">{item.data.blurb}</div>
+  </div>
+</li>

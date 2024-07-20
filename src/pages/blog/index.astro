@@ -10,6 +10,12 @@ const posts = (await getCollection("writing"))
 
 <WritingLayout>
   <ul class="list-none p-0">
-    {posts.map((post) => <WritingListItem post={post} />)}
+    {
+      posts.map((post) => (
+        <li class="dark:text-white my-8">
+          <WritingListItem post={post} />
+        </li>
+      ))
+    }
   </ul>
 </WritingLayout>

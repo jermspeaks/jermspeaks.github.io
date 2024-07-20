@@ -1,93 +1,11 @@
 ---
-import { getCollection } from "astro:content";
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import BaseBody from "../components/BaseBody.astro";
 import BaseHead from "../components/BaseHead.astro";
 import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
-import ProjectListItem from "../components/ProjectListItem.astro";
-import ProseArticle from "../components/ProseArticle.astro";
-import FormattedDate from "../components/FormattedDate.astro";
-import WritingListItem from "../components/WritingListItem.astro";
-import StreamListItem from "../components/StreamListItem.astro";
-
-const MAX_WRITING_POSTS = 5;
-const MAX_ITEMS = 4;
-const MAX_STREAM_ENTRIES = 3;
-const TOTAL_NUMBER_OF_CURATED_ITEMS = 6;
-
-const latestPosts = (await getCollection("writing"))
-  .filter((post) => !post.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, MAX_WRITING_POSTS);
-const lastStream = (await getCollection("stream"))
-  .filter((item) => !item.data.draft)
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, MAX_STREAM_ENTRIES);
-const lastProjects = (await getCollection("project"))
-  .sort((a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf())
-  .slice(0, MAX_ITEMS);
-
-const bookLibrary = (await getCollection("book"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "books",
-    },
-  }));
-const antibookLibrary = (await getCollection("antiLibrary"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      dateConsumed: item.data.dateAdded,
-      type: "antibooks",
-    },
-  }));
-const filmLibrary = (await getCollection("filmLibrary"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "films",
-    },
-  }));
-// const posts = (await getCollection("writing")).filter((post) => !post.data.draft);
-const lindyLibrary = (await getCollection("lindy"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "lindy",
-    },
-  }));
-const creators = (await getCollection("creator"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "creator",
-    },
-  }));
-
-// Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_CURATED_ITEMS` items
-const combination = [
-  ...bookLibrary,
-  ...filmLibrary,
-  ...lindyLibrary,
-  ...antibookLibrary,
-  ...creators,
-]
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .slice(0, TOTAL_NUMBER_OF_CURATED_ITEMS);
-
-// const curations = await getCollection("curation");
+import HomePagePosts from "../components/HomePagePosts.astro";
+import HomePageSide from "../components/HomePageSide.astro";
 ---
 
 <!doctype html>
@@ -99,205 +17,24 @@ const combination = [
   <BaseBody>
     <Header />
     <main class="dark:text-white">
-      <p
-        class="invisible sm:visible text-[3.75vw] sm:text-[2.75vw] md:text-[2vw] lg:text-[1.5vw] px-[1vw] max-w-[10em] mr-auto ml-[2.1vw] transform rotate-[-8deg] leading-tight mb-[-0.5em]"
-      >
-        👋🏽 Hi, I'm
-      </p>
       <div class="mt-4 mb-6 flex flex-col sm:flex-row gap-4 justify-between">
         <div>
           <h1 class="text-3xl md:text-6xl">
-            <span class="inline sm:hidden">👋🏽 Hi, I'm </span>Jeremy
+            👋🏽 Hi! This is Jeremy's Craft by Zen
           </h1>
-        </div>
-        <div>
-          <h2 class="mb-2 text-2xl font-thin">
-            I'm currently leading application development at <a
-              class="text-orange-700 hover:text-purple-500 dark:text-orange-500"
-              href="https://clearlabs.com/"
-              target="_blank">Clear Labs</a
-            >
-          </h2>
-          <p>
-            And I write essays on <i>eclectic topics</i>, from <b>programming</b
-            >, <b>cooking</b>, and strange habit of collecting <b>obituaries</b
-            >.
-          </p>
         </div>
       </div>
 
       <hr class="mt-10 mb-10" />
-
       <div class="grid grid-cols-1 md:grid-cols-8 gap-8">
-        <div class="col-span-1 md:col-span-5 lg:col-span-6">
-          <ProseArticle class="mx-0 mb-8">
-            <h3 class="text-3xl font-medium underline">
-              <a href="/blog" class="hover:text-purple-500">✍🏽 What I Wrote</a>
-            </h3>
-          </ProseArticle>
-          <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
-            {
-              latestPosts.map((post) => (
-                <WritingListItem post={post} condensed />
-              ))
-            }
-          </ul>
+        <div class="col-span-1 md:col-span-6">
+          <HomePagePosts />
         </div>
-        <div class="col-span-1 md:block md:col-span-3 lg:col-span-2">
-          <ProseArticle class="mx-0 mb-8">
-            <h3 class="text-3xl font-medium underline">
-              <a href="/curation/stream" class="hover:text-purple-500"
-                >🚰 Stream</a
-              >
-            </h3>
-          </ProseArticle>
-          <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
-            {lastStream.map((item) => <StreamListItem item={item} />)}
-          </ul>
-        </div>
-        <div class="col-span-1 md:col-span-8">
-          <ProseArticle class="mx-0 mb-8">
-            <h3 class="text-3xl font-medium underline">
-              <a href="/project" class="hover:text-purple-500"
-                >🚢 What I Shipped</a
-              >
-            </h3>
-          </ProseArticle>
-          <ul
-            class="list-none sm:p-0 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
-          >
-            {
-              lastProjects.map((project) => (
-                <ProjectListItem project={project} />
-              ))
-            }
-          </ul>
-        </div>
-        <div class="col-span-1 md:col-span-8">
-          <ProseArticle class="mx-0 mb-8">
-            <h3 class="text-3xl font-medium underline">
-              <a href="/curation">🎨 What I Curated</a>
-            </h3>
-          </ProseArticle>
-          <ul class="grid grid-cols-1 md:grid-cols-2 gap-8 list-none p-0">
-            {
-              combination.map((item) => (
-                <li class="grid grid-cols-8 gap-2 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
-                  <div class="col-span-3 sm:col-span-2">
-                    <a
-                      class="visited:text-amber-600 hover:grayscale"
-                      href={`/curation/${item.data.type}/${item.slug}`}
-                    >
-                      <img
-                        src={item.data.heroImage}
-                        class="aspect-auto w-full"
-                        alt={item.data.heroImageAlt}
-                      />
-                    </a>
-                  </div>
-                  <div class="col-span-5 sm:col-span-6 md:py-0 md:px-0 md:mt-0">
-                    <div class="font-bold mb-2">
-                      <a
-                        class="hover:underline hover:text-purple-500 visited:text-amber-600"
-                        href={`/curation/${item.data.type}/${item.slug}`}
-                      >
-                        {item.data.title}
-                      </a>
-                    </div>
-                    <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700 font-thin">
-                      Created by:&nbsp;{item.data.creator}
-                    </div>
-                    <FormattedDate
-                      class="italic text-slate-600 dark:text-slate-300"
-                      date={item.data.pubDate}
-                    >
-                      <span slot="prepend">Published:&nbsp;</span>
-                    </FormattedDate>
-                    <div class="mt-2 dark:text-slate-100">
-                      {item.data.blurb}
-                    </div>
-                  </div>
-                </li>
-              ))
-            }
-          </ul>
+        <div class="col-span-1 md:block md:col-span-2">
+          <HomePageSide />
         </div>
       </div>
-      <!-- <ul
-        class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 list-none p-0 mt-8"
-      >
-        {
-          curations.map(
-            (curation) =>
-              !curation.data.draft && (
-                <li class="flex flex-col sm:p-2 md:p-4">
-                  <a
-                    class="visited:text-amber-600 hover:text-purple-500 dark:hover:text-purple-300 dark:text-slate-100 border-2 p-2 border-slate-500 dark:border-slate-300 rounded bg-orange-100 dark:bg-orange-900 hover:bg-rose-200 dark:hover:bg-rose-900"
-                    href={`/curation/${curation.slug}`}
-                  >
-                    {curation.data.title}
-                  </a>
-                </li>
-              )
-          )
-        }
-      </ul> -->
-
-      <hr class="mt-5 mb-5" />
-
-      <ProseArticle>
-        <h3>
-          <a href="/curation/newsletter" class="hover:text-purple-500"
-            >Newsletter Series</a
-          >
-        </h3>
-        <p>
-          I have put back together my newsletter after years of absense! These
-          are primarily updates on my blog, "Craft By Zen", and maybe some
-          highlights to the new articles I've written. There might be some life
-          updates as well. I'm doing away with the old format of weekly longform
-          essays, and trying some new things with my newsletter.
-        </p>
-        <p>
-          Read more in <a href="/blog/2024-02-01-newsletter-announcement/"
-            >the announcement</a
-          >.
-        </p>
-
-        <form
-          action="https://buttondown.email/api/emails/embed-subscribe/craftbyzen"
-          method="post"
-          target="popupwindow"
-          onsubmit="window.open('https://buttondown.email/craftbyzen', 'popupwindow')"
-          class="embeddable-buttondown-form flex flex-col gap-2 sm:w-[50%]"
-        >
-          <label
-            class="text-slate-800 dark:text-slate-200 text-sm"
-            for="bd-email">Email</label
-          >
-          <input
-            class="py-1 px-2 md:py-2 md:px-4"
-            type="email"
-            name="email"
-            id="bd-email"
-            placeholder="Enter your email"
-          />
-
-          <button
-            type="submit"
-            value="Subscribe"
-            class="bg-yellow-700 hover:bg-purple-700 dark:bg-yellow-300 text-white dark:text-black font-bold px-4 rounded"
-            >Subscribe</button
-          >
-          <a
-            class="text-sm"
-            href="https://buttondown.email/refer/craftbyzen"
-            target="_blank">Powered by Buttondown.</a
-          >
-        </form>
-      </ProseArticle>
     </main>
-
     <Footer />
   </BaseBody>
 </html>

@@ -23,6 +23,7 @@ const writing = defineCollection({
         .string()
         .optional()
         .transform((str) => (str ? new Date(str) : undefined)),
+      kind: z.string().default("writing"),
     }),
 });
 
@@ -55,6 +56,7 @@ const log = defineCollection({
       .string()
       .optional()
       .transform((str) => (str ? new Date(str) : undefined)),
+    kind: z.string().default("log"),
   }),
 });
 
@@ -62,6 +64,10 @@ const project = defineCollection({
   schema: ({ image }) =>
     z.object({
       // Transform string to Date object
+      pubDate: z
+        .string()
+        .or(z.date())
+        .transform((val) => new Date(val)),
       createdDate: z
         .string()
         .or(z.date())
@@ -75,6 +81,7 @@ const project = defineCollection({
       image: z.string().optional(),
       imageAlt: z.string().optional(),
       title: z.string(),
+      kind: z.string().default("project"),
     }),
 });
 
@@ -98,6 +105,7 @@ const series = defineCollection({
       tag: z.string(),
       title: z.string(),
       blurb: z.string().optional(),
+      kind: z.string().default("series"),
     }),
 });
 
@@ -123,6 +131,7 @@ const book = defineCollection({
       .transform((val) => new Date(val)),
     title: z.string(),
     blurb: z.string().optional(),
+    kind: z.string().default("books"),
   }),
 });
 
@@ -148,6 +157,7 @@ const antiLibrary = defineCollection({
       .transform((val) => new Date(val)),
     title: z.string(),
     blurb: z.string().optional(),
+    kind: z.string().default("antibooks"),
   }),
 });
 
@@ -176,6 +186,7 @@ const filmLibrary = defineCollection({
       .or(z.date().transform((val) => new Date(val))),
     runtime: z.string().optional(),
     title: z.string(),
+    kind: z.string().default("films"),
   }),
 });
 
@@ -196,6 +207,7 @@ const lindy = defineCollection({
       .or(z.date())
       .transform((val) => new Date(val)),
     blurb: z.string().optional(),
+    kind: z.string().default("lindy"),
   }),
 });
 
@@ -211,6 +223,7 @@ const creator = defineCollection({
       .or(z.date())
       .transform((val) => new Date(val)),
     title: z.string(),
+    kind: z.string().default("creators"),
   }),
 });
 
@@ -222,6 +235,7 @@ const about = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+      kind: z.string().default("about"),
   }),
 });
 
@@ -230,6 +244,7 @@ const resume = defineCollection({
     order: z.number(),
     title: z.string(),
     printVersion: z.boolean(),
+    kind: z.string().default("resume"),
   }),
 });
 
@@ -241,6 +256,7 @@ const now = defineCollection({
       .or(z.date())
       .transform((val) => new Date(val)),
     draft: z.boolean().optional(),
+    kind: z.string().default("now"),
   }),
 });
 
@@ -252,6 +268,7 @@ const curation = defineCollection({
     link: z.string(),
     title: z.string(),
     tags: z.array(z.string()).optional(),
+    kind: z.string().default("curation"),
   }),
 });
 
@@ -267,6 +284,7 @@ const classified = defineCollection({
       .transform((val) => new Date(val)),
     tags: z.array(z.string()).optional(),
     title: z.string(),
+    kind: z.string().default("classified"),
   }),
 });
 
@@ -283,6 +301,7 @@ const inspiration = defineCollection({
       .transform((val) => new Date(val)),
     title: z.string(),
     blurb: z.string().optional(),
+    kind: z.string().default("inspiration"),
   }),
 });
 
@@ -295,6 +314,7 @@ const stream = defineCollection({
       .or(z.date())
       .transform((val) => new Date(val)),
     tags: z.array(z.string()).optional(),
+    kind: z.string().default("stream"),
   }),
 });
 

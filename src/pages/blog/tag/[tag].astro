@@ -42,8 +42,13 @@ const orderedPosts = posts
 ---
 
 <WritingLayout currentTag={tag}>
-  <!-- <h3 class="mt-6 text-green-700 dark:text-green-300">Tag: {tag}</h3> -->
   <ul class="list-none p-0">
-    {orderedPosts.map((post) => <WritingListItem post={post} />)}
+    {
+      orderedPosts.map((post) => (
+        <li class="dark:text-white my-8">
+          <WritingListItem post={post} />
+        </li>
+      ))
+    }
   </ul>
 </WritingLayout>

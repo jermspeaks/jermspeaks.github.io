@@ -6,6 +6,7 @@ description: An interactive map for Families USA.
   Implemented the map using angular and d3
 project_link: https://familiesusa.org/medicaid-expansion-waivers-states
 createdDate: "2015-06-21"
+pubDate: "2015-06-21"
 updatedDate: "2015-06-21"
 coverImage: ../../images/families-medicare.png
 imageAlt: "Screenshot of medicare interactive map"

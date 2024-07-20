@@ -7,6 +7,7 @@ description: Underwater groundwater device that allows you to determine
   Useful for digging for wells in your backyard.
   Project from Science Hack Day 2014
 createdDate: "2014-10-05"
+pubDate: "2014-10-05"
 updatedDate: "2014-10-05"
 project_link: https://github.com/groundwaterhack/groundwaterhack.github.io
 coverImage: ../../images/groundwater-goal.png

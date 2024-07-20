@@ -6,6 +6,7 @@ project_link: https://craftbyzen.com/
 coverImage: ../../images/craftbyzen-screenshot.png
 imageAlt: This website as a screenshot
 createdDate: "2023-05-01"
+pubDate: "2023-05-01"
 updatedDate: "2024-01-24"
 ---
 
