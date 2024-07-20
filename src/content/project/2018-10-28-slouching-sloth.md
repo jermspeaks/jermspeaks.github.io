@@ -1,6 +1,7 @@
 ---
 coverImage: ../../images/sloths-first-draft.jpg
 createdDate: "2017-10-15"
+pubDate: "2017-10-15"
 description: A PSA developed as a project from Science Hack Day 2018
 imageAlt: Poster for the slouching sloth
 name: No Slouching Sloths

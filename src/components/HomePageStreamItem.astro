@@ -1,0 +1,72 @@
+---
+import type { CollectionEntry } from "astro:content";
+import FormattedDate from "./FormattedDate.astro";
+import ProseArticle from "./ProseArticle.astro";
+
+export interface Props {
+  item: CollectionEntry<"stream">;
+}
+
+const { item } = Astro.props;
+const { data, slug } = item;
+const { title, tags } = data;
+const { Content } = await item.render();
+---
+
+<div class="prose dark:prose-invert !max-w-none">
+  <a
+    class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+    href={`/curation/stream#${slug}`}>{title}</a
+  >
+  <div class="text-sm italic mb-2">
+    Posted <FormattedDate
+      date={item.data.pubDate}
+      options={{ hour: "numeric", minute: "numeric" }}
+    />
+  </div>
+</div>
+<ProseArticle
+  class="lg:prose !max-w-none prose-p:m-0 line-clamp-4 md:line-clamp-5"
+>
+  <Content />
+</ProseArticle>
+<div
+  class="grid grid-cols-8 gap-0 md:gap-4 prose dark:prose-invert !max-w-none"
+>
+  <div class="col-span-4">
+    <span
+      >Filed: 🚰 <a
+        class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+        href="/curation/stream">Stream</a
+      ></span
+    >
+  </div>
+  <div class="col-span-4 md:justify-self-end">
+    {
+      Array.isArray(tags) &&
+        tags.map((tag: string, index: number) =>
+          // if last item, don't add a space
+          index === tags.length - 1 ? (
+            <>
+              <a
+                class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                href={`/blog/tag/${tag}`}
+              >
+                🔖{tag}
+              </a>
+            </>
+          ) : (
+            <>
+              <a
+                class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                href={`/blog/tag/${tag}`}
+              >
+                🔖{tag}
+              </a>
+              &nbsp;
+            </>
+          )
+        )
+    }
+  </div>
+</div>

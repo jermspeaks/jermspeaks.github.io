@@ -7,60 +7,50 @@ export interface Props {
   condensed?: boolean;
 }
 
-const { post, condensed } = Astro.props;
+const { post } = Astro.props;
 ---
 
-<li
-  class:list={[
-    "dark:text-white",
-    {
-      ["my-8"]: !condensed,
-      ["my-2"]: condensed,
-    },
-  ]}
+<a
+  class="my-4 text-xl hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+  href={`/blog/${post.slug}/`}
 >
-  <a
-    class="my-4 text-xl hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-    href={`/blog/${post.slug}/`}
-  >
-    {post.data.title}
-  </a>
-  <p class="text-slate-800 dark:text-slate-300">
-    <i>{post.data.description}</i>
-  </p>
-  <div class="grid grid-cols-8 gap-0 md:gap-4">
-    <FormattedDate
-      class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
-      date={post.data.pubDate}
-    />
-    <div class="col-span-8 md:col-span-5 lg:col-span-6 md:justify-self-end">
-      {Array.isArray(post.data.tags) && " "}
-      {
-        Array.isArray(post.data.tags) &&
-          post.data.tags.map((tag: string, index: number) =>
-            // if last item, don't add a space
-            index === post.data.tags.length - 1 ? (
-              <>
-                <a
-                  class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-                  href={`/blog/tag/${tag}`}
-                >
-                  🔖{tag}
-                </a>
-              </>
-            ) : (
-              <>
-                <a
-                  class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-                  href={`/blog/tag/${tag}`}
-                >
-                  🔖{tag}
-                </a>
-                &nbsp;
-              </>
-            )
+  {post.data.title}
+</a>
+<p class="text-slate-800 dark:text-slate-300">
+  <i>{post.data.description}</i>
+</p>
+<div class="grid grid-cols-8 gap-0 md:gap-4">
+  <FormattedDate
+    class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
+    date={post.data.pubDate}
+  />
+  <div class="col-span-8 md:col-span-5 lg:col-span-6 md:justify-self-end">
+    {Array.isArray(post.data.tags) && " "}
+    {
+      Array.isArray(post.data.tags) &&
+        post.data.tags.map((tag: string, index: number) =>
+          // if last item, don't add a space
+          index === post.data.tags.length - 1 ? (
+            <>
+              <a
+                class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                href={`/blog/tag/${tag}`}
+              >
+                🔖{tag}
+              </a>
+            </>
+          ) : (
+            <>
+              <a
+                class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                href={`/blog/tag/${tag}`}
+              >
+                🔖{tag}
+              </a>
+              &nbsp;
+            </>
           )
-      }
-    </div>
+        )
+    }
   </div>
-</li>
+</div>

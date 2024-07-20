@@ -7,6 +7,7 @@ description:
   Project from Science Hack Day 2017
 coverImage: "../../images/gigo.png"
 createdDate: "2017-10-15"
+pubDate: "2017-10-15"
 imageAlt: Data visualization for garbage data
 project_link: https://jermspeaks.github.io/garbage-in-garbage-out/
 updatedDate: "2017-10-15"

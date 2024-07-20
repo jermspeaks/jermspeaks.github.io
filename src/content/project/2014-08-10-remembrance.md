@@ -13,6 +13,7 @@ coverImage: ../../images/remembrance.png
 imageAlt: Screenshot of Remembrance app
 url: https://remembrance-dbc.herokuapp.com/
 createdDate: "2014-08-10"
+pubDate: "2014-08-10"
 updatedDate: "2014-08-10"
 ---
 

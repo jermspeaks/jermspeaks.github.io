@@ -5,6 +5,7 @@ description: Given a word, display images of that word and related words.
   Part of my code challenge for Reverb.
 # project_link: https://github.com/jermspeaks/word-images
 createdDate: "2014-10-15"
+pubDate: "2014-10-15"
 updatedDate: "2014-10-15"
 coverImage: ../../images/word-image.png
 imageAlt: Word to image app screenshot
