@@ -11,11 +11,12 @@ lastUpdated: "2023-06-02T08:00:00.000Z"
 - 1996: started playing the piano
 - 2007: embarassed myself in front of a Model UN conference by trying to be funny, but not myself
 - 2008: moved to San Luis Obispo for Cal Poly
-- 2011: studied abroad in Munich, Germany and caught the travel bug 🐞
+- 2011: studied abroad in Munich, Germany and caught the travel bug 🐞, started sending annual holiday cards
 - 2012: graduated college, moved back to Berkeley briefly, then moved to Santa Clara for a job as an engineer for a medical devices company
 - 2014: quit the medical device field, moved to Chicago to learn how to code, moved back Santa Clara for a job as a software engineer, started a weekly newsletter "The Jear Bear Newsletter"
 - 2018: Changed jobs, still working as a software engineer
 - 2022: got engaged 💍
+- 2024: got married 💒
 
 ### At the heart of it, I'm making things
 
