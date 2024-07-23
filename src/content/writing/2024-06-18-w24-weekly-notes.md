@@ -2,7 +2,7 @@
 description: "Keeping a dev journal, book recommendations, how computers reduce efficiency, introduction to jhanas, some podcast notes about AI companies, and how do dogs see color."
 draft: false
 pubDate: "2024-06-18T23:30:00.000Z"
-tags: ["weekly", "reflection"]
+tags: ["weeknote"]
 title: 2024 Week 24 - Weekly Notes
 heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
 heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar

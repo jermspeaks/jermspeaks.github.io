@@ -1,9 +1,5 @@
 ---
 import FormattedDate from "./FormattedDate.astro";
-import HomePageFilmItem from "./HomePageFilmItem.astro";
-import HomePageStreamItem from "./HomePageStreamItem.astro";
-import HomePageWritingItem from "./HomePageWritingItem.astro";
-import ProjectListItem from "./ProjectListItem.astro";
 import type { CollectionEntry } from "astro:content";
 
 interface Props {
@@ -36,15 +32,26 @@ const { item } = Astro.props;
         {item.data.title}
       </a>
     </div>
-    <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700 font-thin">
+    <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700">
       Created by:&nbsp;{item.data.creator}
     </div>
-    <FormattedDate
-      class="italic text-slate-600 dark:text-slate-300"
-      date={item.data.pubDate}
-    >
-      <span slot="prepend">Published:&nbsp;</span>
-    </FormattedDate>
+    {
+      item.data.updatedDate ? (
+        <FormattedDate
+          class="italic text-slate-600 dark:text-slate-300"
+          date={item.data.updatedDate}
+        >
+          <span slot="prepend">Updated:&nbsp;</span>
+        </FormattedDate>
+      ) : (
+        <FormattedDate
+          class="italic text-slate-600 dark:text-slate-300"
+          date={item.data.pubDate}
+        >
+          <span slot="prepend">Published:&nbsp;</span>
+        </FormattedDate>
+      )
+    }
     <div class="mt-2 dark:text-slate-100">{item.data.blurb}</div>
   </div>
 </li>

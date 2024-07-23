@@ -1,12 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import HomePageAntiBookItem from "./HomePageAntiBookItem.astro";
-import HomePageBookItem from "./HomePageBookItem.astro";
-import HomePageCurationItem from "./HomePageCurationItem.astro";
-import HomePageFilmItem from "./HomePageFilmItem.astro";
-import HomePageProjectItem from "./HomePageProjectItem.astro";
-import HomePageStreamItem from "./HomePageStreamItem.astro";
-import HomePageWritingItem from "./HomePageWritingItem.astro";
+import PaginatedPosts from "./PaginatedPosts.astro";
 
 const TOTAL_ENTRIES = 16;
 
@@ -22,83 +16,25 @@ const creators = await getCollection("creator");
 const filmLibrary = await getCollection("filmLibrary");
 const lastProjects = await getCollection("project");
 const lindyLibrary = await getCollection("lindy");
+const nowItems = await getCollection("now");
 
 const combination = [
-  ...latestPosts,
-  ...lastStream,
-  ...lastProjects,
-  ...bookLibrary,
-  ...filmLibrary,
-  ...lindyLibrary,
   ...antibookLibrary,
+  ...bookLibrary,
   ...creators,
+  ...filmLibrary,
+  ...lastProjects,
+  ...lastStream,
+  ...latestPosts,
+  ...lindyLibrary,
+  ...nowItems,
 ]
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
   .slice(0, TOTAL_ENTRIES);
 ---
 
 <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
-  {
-    combination.map((item) => {
-      if (item.data.kind === "writing") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageWritingItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "stream") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageStreamItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "project") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageProjectItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "films") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageFilmItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "books") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageBookItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "antibooks") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageAntiBookItem item={item} />
-          </li>
-        );
-      }
-      if (
-        [
-          "log",
-          "series",
-          "lindy",
-          "creators",
-          "now",
-          "curation",
-          "classified",
-          "inspiration",
-        ].includes(item.data.kind)
-      ) {
-        return <HomePageCurationItem item={item} />;
-      }
-      return null;
-    })
-  }
+  <PaginatedPosts posts={combination} />
 </ul>
 <div class="flex justify-evenly items-center mt-6">
   <button

@@ -3,6 +3,8 @@ import HomePageAntiBookItem from "./HomePageAntiBookItem.astro";
 import HomePageBookItem from "./HomePageBookItem.astro";
 import HomePageCurationItem from "./HomePageCurationItem.astro";
 import HomePageFilmItem from "./HomePageFilmItem.astro";
+import HomePageLogItem from "./HomePageLogItem.astro";
+import HomePageNowItem from "./HomePageNowItem.astro";
 import HomePageProjectItem from "./HomePageProjectItem.astro";
 import HomePageStreamItem from "./HomePageStreamItem.astro";
 import HomePageWritingItem from "./HomePageWritingItem.astro";
@@ -59,13 +61,26 @@ const { posts } = Astro.props;
           </li>
         );
       }
+      if (item.data.kind === "now") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageNowItem item={item} />
+          </li>
+        );
+      }
+      if (item.data.kind === "log") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageLogItem item={item} />
+          </li>
+        );
+      }
       if (
         [
           "log",
           "series",
           "lindy",
           "creators",
-          "now",
           "curation",
           "classified",
           "inspiration",

@@ -2,7 +2,7 @@
 description: "Obsidian gems of 2023, another terrible thing happened in Florida, restoring children deafness, giant parasol could alleviate Global Warming, and Tailwind criticism."
 draft: false
 pubDate: "2024-02-05T08:00:00.000Z"
-tags: ["weekly"]
+tags: ["weeknote"]
 title: 2024 Week 05 - Weekly Notes
 heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
 heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
