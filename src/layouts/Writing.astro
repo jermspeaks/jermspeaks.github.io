@@ -13,7 +13,7 @@ type Props = {
   currentTag?: string;
 };
 
-const topTags = ["essay", "newsletter", "learning", "archive"];
+const topTags = ["popular", "newsletter", "archive"];
 
 const posts = await getCollection("writing");
 const streams = await getCollection("stream");
@@ -75,82 +75,87 @@ const { title = "Writing", currentTag } = Astro.props;
   </head>
   <BaseBody>
     <Header />
-    <main class="max-w-[85ch] mx-auto">
+    <main class="mx-auto">
       <TitleHeading>{title}</TitleHeading>
-      <ul
-        class="flex flex-wrap md:flex-nowrap gap-2 list-none m-0 p-0 print:hidden"
-      >
-        {
-          isActive("/blog") && (
-            <li class="text-green-700 dark:text-green-300  border-blue-800 dark:border-blue-500 border-solid border-b-2">
-              All Posts
-            </li>
-          )
-        }
-        {
-          !isActive("/blog") && (
-            <li>
-              <a
-                class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-                href="/blog"
-              >
-                All Posts
-              </a>
-            </li>
-          )
-        }
-        {
-          topTags.map((tag) => {
-            if (tag === currentTag) {
-              return (
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-8 space-between">
+        <div class="col-span-12 md:col-span-9">
+          <slot />
+        </div>
+        <div class="col-span-12 md:block md:col-span-3">
+          <ul
+            class="flex flex-wrap gap-2 list-none m-0 p-0 print:hidden mb-4"
+          >
+            {
+              isActive("/blog") && (
                 <li class="text-green-700 dark:text-green-300  border-blue-800 dark:border-blue-500 border-solid border-b-2">
-                  {toPascalCase(tag)}
+                  All Posts
                 </li>
-              );
+              )
             }
-            return (
-              <li>
-                <a
-                  class="dark:text-slate-100 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-                  href={`/blog/tag/${tag}`}
-                >
-                  {toPascalCase(tag)}
-                </a>
-              </li>
-            );
-          })
-        }
-      </ul>
-      <details>
-        <summary class="dark:text-slate-100">🔖 Tags</summary>
-        <ul class="flex flex-wrap gap-2 list-none m-0 p-0 print:hidden">
-          {
-            tagList.map((tag) => {
-              if (tag === currentTag) {
-                return (
-                  <li class="text-green-700 dark:text-green-300  border-blue-800 dark:border-blue-500 border-solid border-b-2">
-                    {toPascalCase(tag)}&nbsp;({counts.get(tag)})
-                  </li>
-                );
-              }
-              return (
+            {
+              !isActive("/blog") && (
                 <li>
                   <a
-                    class="dark:text-slate-100 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-                    href={`/blog/tag/${tag}`}
+                    class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                    href="/blog"
                   >
-                    {toPascalCase(tag)}&nbsp;({counts.get(tag)})
+                    All Posts
                   </a>
                 </li>
-              );
-            })
-          }
-        </ul>
-      </details>
-      <section>
-        <slot />
-      </section>
+              )
+            }
+            {
+              topTags.map((tag) => {
+                if (tag === currentTag) {
+                  return (
+                    <li class="text-green-700 dark:text-green-300  border-blue-800 dark:border-blue-500 border-solid border-b-2">
+                      {toPascalCase(tag)}
+                    </li>
+                  );
+                }
+                return (
+                  <li>
+                    <a
+                      class="dark:text-slate-100 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                      href={`/blog/tag/${tag}`}
+                    >
+                      {toPascalCase(tag)}
+                    </a>
+                  </li>
+                );
+              })
+            }
+          </ul>
+          <details>
+            <summary class="dark:text-slate-100">🔖 Tags</summary>
+            <ul class="flex flex-wrap gap-2 list-none m-0 p-0 print:hidden">
+              {
+                tagList.map((tag) => {
+                  if (tag === currentTag) {
+                    return (
+                      <li class="text-green-700 dark:text-green-300  border-blue-800 dark:border-blue-500 border-solid border-b-2">
+                        {toPascalCase(tag)}&nbsp;({counts.get(tag)})
+                      </li>
+                    );
+                  }
+                  return (
+                    <li>
+                      <a
+                        class="dark:text-slate-100 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+                        href={`/blog/tag/${tag}`}
+                      >
+                        {toPascalCase(tag)}&nbsp;({counts.get(tag)})
+                      </a>
+                    </li>
+                  );
+                })
+              }
+            </ul>
+          </details>
+        </div>
+      </div>
+
+      <Footer />
     </main>
-    <Footer />
   </BaseBody>
 </html>
