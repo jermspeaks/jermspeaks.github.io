@@ -20,11 +20,13 @@ const { project } = Astro.props;
   }
   {
     project.data.image && (
-      <img
-        class="w-full"
-        src={project.data.image}
-        alt={project.data.imageAlt}
-      />
+      <div class="col-span-12 md:col-span-6 lg:col-span-4 h-max-[300px] grid items-center overflow-hidden">
+        <img
+          class="w-full"
+          src={project.data.image}
+          alt={project.data.imageAlt}
+        />
+      </div>
     )
   }
   <div class="col-span-12 md:col-span-6 lg:col-span-8">
