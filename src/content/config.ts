@@ -74,8 +74,8 @@ const project = defineCollection({
         .transform((val) => new Date(val)),
       updatedDate: z
         .string()
-        .or(z.date())
-        .transform((val) => new Date(val)),
+        .optional()
+        .transform((str) => (str ? new Date(str) : undefined)),
       coverImage: image().optional(),
       description: z.string(),
       image: z.string().optional(),
@@ -129,6 +129,10 @@ const book = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    updatedDate: z
+      .string()
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
     title: z.string(),
     blurb: z.string().optional(),
     kind: z.string().default("books"),
@@ -155,6 +159,10 @@ const antiLibrary = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    updatedDate: z
+      .string()
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
     title: z.string(),
     blurb: z.string().optional(),
     kind: z.string().default("antibooks"),
@@ -180,6 +188,10 @@ const filmLibrary = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    updatedDate: z
+      .string()
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
     releaseYear: z
       .string()
       .or(z.number())
@@ -206,6 +218,10 @@ const lindy = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    updatedDate: z
+      .string()
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
     blurb: z.string().optional(),
     kind: z.string().default("lindy"),
   }),
@@ -222,6 +238,10 @@ const creator = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
+    updatedDate: z
+      .string()
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
     title: z.string(),
     kind: z.string().default("creators"),
   }),
@@ -235,7 +255,7 @@ const about = defineCollection({
       .string()
       .or(z.date())
       .transform((val) => new Date(val)),
-      kind: z.string().default("about"),
+    kind: z.string().default("about"),
   }),
 });
 
@@ -297,8 +317,8 @@ const inspiration = defineCollection({
       .transform((val) => new Date(val)),
     updatedDate: z
       .string()
-      .or(z.date())
-      .transform((val) => new Date(val)),
+      .optional()
+      .transform((str) => (str ? new Date(str) : undefined)),
     title: z.string(),
     blurb: z.string().optional(),
     kind: z.string().default("inspiration"),

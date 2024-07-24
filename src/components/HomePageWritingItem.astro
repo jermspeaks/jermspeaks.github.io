@@ -41,7 +41,7 @@ const { description, pubDate, tags, title } = data;
 <div
   class="grid grid-cols-8 gap-0 md:gap-4 prose dark:prose-invert !max-w-none"
 >
-  <div class="col-span-4">
+  <div class="col-span-8 md:col-span-4 lg:col-span-2"> 
     <span
       >Filed: ✍🏼 <a
         class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
@@ -49,8 +49,8 @@ const { description, pubDate, tags, title } = data;
       ></span
     >
   </div>
-  <div class="col-span-4 md:justify-self-end">
-    {
+  <div class="col-span-8 md:col-span-4 lg:col-span-6 md:justify-self-end">
+    🔖{
       Array.isArray(tags) &&
         tags.map((tag: string, index: number) =>
           // if last item, don't add a space
@@ -60,7 +60,7 @@ const { description, pubDate, tags, title } = data;
                 class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
                 href={`/blog/tag/${tag}`}
               >
-                🔖{tag}
+                {tag}
               </a>
             </>
           ) : (
@@ -69,7 +69,7 @@ const { description, pubDate, tags, title } = data;
                 class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
                 href={`/blog/tag/${tag}`}
               >
-                🔖{tag}
+                {tag}
               </a>
               &nbsp;
             </>

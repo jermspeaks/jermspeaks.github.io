@@ -2,13 +2,14 @@
 import { getCollection } from "astro:content";
 
 const posts = await getCollection("writing");
-// const streams = await getCollection("stream");
+const streams = await getCollection("stream");
+const collections = [...posts, ...streams];
 
 // Get unique tags
 const tags = new Set<string>();
 const counts = new Map<string, number>();
 
-posts.forEach((post) => {
+collections.forEach((post) => {
   if (!post.data.draft && Array.isArray(post.data.tags)) {
     post.data.tags.forEach((tag: string) => {
       tags.add(tag);
@@ -21,20 +22,6 @@ posts.forEach((post) => {
     });
   }
 });
-// TODO: Once we merge streams and writing, uncomment this
-// streams.forEach((stream) => {
-//   if (!stream.data.draft && Array.isArray(stream.data.tags)) {
-//     stream.data.tags.forEach((tag: string) => {
-//       tags.add(tag);
-//       const currentCount = counts.get(tag) ?? 0;
-//       if (counts.has(tag)) {
-//         counts.set(tag, currentCount + 1);
-//       } else {
-//         counts.set(tag, 1);
-//       }
-//     });
-//   }
-// });
 
 const tagList = Array.from(tags)
   .sort((a, b) => (counts.get(b) ?? 0) - (counts.get(a) ?? 0))
@@ -65,7 +52,11 @@ const toPascalCase = (tag: string): string => {
   </p>
   <hr class="mt-5 mb-5" />
   <!-- Add top tags -->
-  <h4>🔖 Top 10 Tags</h4>
+  <h4>
+    🔖 Top 10 <a
+      class="dark:text-slate-100 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+      href="/blog/tag">Tags</a>
+  </h4>
   <ul class="flex flex-wrap gap-2 list-none m-0 p-0 print:hidden">
     {
       tagList.map((tag) => {

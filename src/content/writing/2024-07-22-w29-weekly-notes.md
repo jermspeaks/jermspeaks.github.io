@@ -4,7 +4,7 @@ draft: false
 heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
 heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
 pubDate: "2024-07-23T00:10:00.000Z"
-tags: ["weekly", "reflection"]
+tags: ["weeknote", "tech", "obits", "politics", "redesign", "productivity", "recommendations"]
 title: "2024 Week 29 - Weekly Notes"
 ---
 
@@ -78,4 +78,10 @@ And speaking of website, I've reconfigured my main page so the tagline and some 
 
 ### Viral enough for me
 
-- ![](https://www.youtube.com/watch?v=25LUF8GmbFU)
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/25LUF8GmbFU"
+  title="I Was An MIT Educated Neurosurgeon Now I'm Unemployed And Alone In The Mountains How Did I Get Here?"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen></iframe>

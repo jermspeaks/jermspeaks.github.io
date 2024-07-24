@@ -91,7 +91,7 @@ const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
           <p>📖 {minutesRead}</p>
           <p class="hidden md:block">•</p>
           <p>
-            {
+            🔖{
               tags.map((tag: string, index: number) =>
                 // if last item, don't add a space
                 index === tags.length - 1 ? (
@@ -100,7 +100,7 @@ const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
                       class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
                       href={`/blog/tag/${tag}`}
                     >
-                      🔖{tag}
+                      {tag}
                     </a>
                   </>
                 ) : (
@@ -109,7 +109,7 @@ const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
                       class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
                       href={`/blog/tag/${tag}`}
                     >
-                      🔖{tag}
+                      {tag}
                     </a>
                     &nbsp;
                   </>

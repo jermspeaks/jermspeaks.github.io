@@ -1,0 +1,78 @@
+---
+import { getCollection } from "astro:content";
+import CurationItem from "../../../components/CurationItem.astro";
+import CurationPage from "../../../layouts/CurationPage.astro";
+import PaginatedPosts from "../../../components/PaginatedPosts.astro";
+import Pagination from "../../../components/Pagination.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+import type { GetStaticPaths } from "astro";
+
+export const getStaticPaths = (async ({ paginate }) => {
+  const pageSize = 16;
+  const antibookLibrary = (await getCollection("antiLibrary")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  const bookLibrary = (await getCollection("book")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  const creators = (await getCollection("creator")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  const filmLibrary = (await getCollection("filmLibrary")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  // const posts = (await getCollection("writing")).filter((post) => !post.data.draft);
+  const lindyLibrary = (await getCollection("lindy")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+  const logs = (await getCollection("log")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
+  );
+
+  // Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_ITEMS` items
+  const combination = [
+    ...antibookLibrary,
+    ...bookLibrary,
+    ...creators,
+    ...filmLibrary,
+    ...lindyLibrary,
+    ...logs,
+  ].sort((a, b) => {
+    // If updated date exists, use that first, then use pubDate if not
+    const aDate = a.data.updatedDate ? a.data.updatedDate : a.data.pubDate;
+    const bDate = b.data.updatedDate ? b.data.updatedDate : b.data.pubDate;
+    return bDate.valueOf() - aDate.valueOf();
+  });
+  return paginate(combination, { pageSize });
+}) satisfies GetStaticPaths;
+
+// All paginated data is passed on the "page" prop
+const { page } = Astro.props;
+
+// const curations = (await getCollection("curation")).sort((a, b) =>
+//   a.data.title.localeCompare(b.data.title)
+// );
+---
+
+<CurationPage>
+  <ProseArticle class="mx-0">
+    <p>
+      This is the curated collection of eclectic items. I love collecting
+      different kinds of mediums and media. The things that have resonated I'll
+      shelve in my library.
+    </p>
+    <p>Back to <a href="/curation">Collections</a></p>
+  </ProseArticle>
+  <section class="max-w-[85ch] mx-auto mt-8">
+    <div class="col-span-10 sm:col-span-8 flex flex-col gap-4">
+      <ul class="list-none p-0">
+        <PaginatedPosts posts={page.data} />
+      </ul>
+      <Pagination
+        previous={page.url.prev}
+        next={page.url.next}
+        currentPage={page.currentPage}
+      />
+    </div>
+  </section>
+</CurationPage>
