@@ -1,21 +1,15 @@
 ---
 import { getCollection } from "astro:content";
+import PaginatedPosts from "../../components/PaginatedPosts.astro";
 import WritingLayout from "../../layouts/Writing.astro";
-import WritingListItem from "../../components/WritingListItem.astro";
 
-const posts = (await getCollection("writing"))
+const posts = await getCollection("writing");
+const streams = await getCollection("stream");
+const collections = [...posts, ...streams]
   .filter((post) => !post.data.draft)
   .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf());
 ---
 
 <WritingLayout>
-  <ul class="list-none p-0">
-    {
-      posts.map((post) => (
-        <li class="dark:text-white my-8">
-          <WritingListItem post={post} />
-        </li>
-      ))
-    }
-  </ul>
+  <PaginatedPosts posts={collections} />
 </WritingLayout>
