@@ -7,13 +7,14 @@ import Footer from "../../components/Footer.astro";
 import Header from "../../components/Header.astro";
 import ProjectListItem from "../../components/ProjectListItem.astro";
 import projectsImg from "../../images/projects.png";
+import ProseArticle from "../../components/ProseArticle.astro";
 import TitleHeading from "../../components/TitleHeading.astro";
 
 type Props = {
   title?: string;
 };
 
-const { title = "Projects" } = Astro.props;
+const { title = "Playground" } = Astro.props;
 
 const projects = (await getCollection("project")).sort(
   (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
@@ -32,10 +33,17 @@ const projects = (await getCollection("project")).sort(
   </head>
   <BaseBody>
     <Header />
-    <main class="max-w-[85ch] mx-auto">
-      <TitleHeading>Projects</TitleHeading>
+    <main class="mx-auto">
+      <TitleHeading>Playground</TitleHeading>
+      <ProseArticle class="mx-0 mb-8">
+        <p>
+          The playground is a place for personal projects, professional work,
+          and toy projects that I have built. Not all projects are finished.
+          Some are ideas to explore. Others are abandonware.
+        </p>
+      </ProseArticle>
       <section>
-        <ul class="list-none p-0 grid grid-cols-1 md:grid-cols-2 gap-4">
+        <ul class="list-none p-0 grid grid-cols-1 gap-4">
           {projects.map((project) => <ProjectListItem project={project} />)}
         </ul>
       </section>
