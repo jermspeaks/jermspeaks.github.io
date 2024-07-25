@@ -1,0 +1,68 @@
+---
+title: "🧱 / Components"
+order: 4
+lastUpdated: "2024-07-25T22:11:20.587Z"
+---
+
+I use a number of components in Astro for reusability.
+
+### Date Formatting
+
+import FormattedDate from "../../components/FormattedDate.astro";
+
+This is my simple date formatting component. I go in more detail about timezones in the [timestamps](/about#timestamps) section.
+
+<div class="grid grid-cols-1 items-center">
+  <div>
+    ```astro
+    <FormattedDate date={new Date("2024-07-25T22:11:20.587Z")} />
+    ```
+  </div>
+  <div>
+    <FormattedDate date={new Date("2024-07-25T22:11:20.587Z")} />
+  </div>
+</div>
+
+I take advantage of the slot feature in astro for prepend and append text.
+
+<div class="grid grid-cols-1 items-center">
+  <div>
+    ```astro
+    <FormattedDate date={new Date("2024-07-25T22:11:20.587Z")}>
+      <span slot="prepend">Published:&nbsp;</span>
+    </FormattedDate>
+    ```
+  </div>
+  <div>
+    <FormattedDate date={new Date("2024-07-25T22:11:20.587Z")}>
+      <span slot="prepend">Published:&nbsp;</span>
+    </FormattedDate>
+  </div>
+</div>
+
+Adding extra options, like `hour` and `minute`, allows me to add extra information to that date.
+
+<div class="grid grid-cols-1 items-center">
+  <div>
+    ```astro
+    <FormattedDate
+      date={new Date("2024-07-25T22:11:20.587Z")}
+      options={{ hour: "numeric", minute: "numeric" }}
+    >
+      <span slot="prepend">Published:&nbsp;</span>
+    </FormattedDate>
+    ```
+  </div>
+  <div>
+    <FormattedDate
+      date={new Date("2024-07-25T22:11:20.587Z")}
+      options={{ hour: "numeric", minute: "numeric" }}
+    >
+      <span slot="prepend">Published:&nbsp;</span>
+    </FormattedDate>
+  </div>
+</div>
+
+### More Components Soon
+
+This section is still under construction, so if you want to read more, please reach out to me.
