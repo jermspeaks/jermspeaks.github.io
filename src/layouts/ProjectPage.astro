@@ -5,6 +5,7 @@ import Footer from "../components/Footer.astro";
 import FormattedDate from "../components/FormattedDate.astro";
 import Header from "../components/Header.astro";
 import ProseArticle from "../components/ProseArticle.astro";
+import TitleHeading from "../components/TitleHeading.astro";
 import type { CollectionEntry } from "astro:content";
 
 type Props = CollectionEntry<"project">["data"];
@@ -33,21 +34,32 @@ const {
 
   <BaseBody>
     <Header />
-    <main>
+    <main class="max-w-[120ch] mx-auto">
+      <TitleHeading>
+        <span
+          class="text-slate-700 hover:underline hover:text-purple-500 dark:text-slate-300 dark:hover:text-slate-500"
+        >
+          <a href="/project">Playground</a>
+        </span>
+        <span class="text-slate-800 dark:text-slate-300">&nbsp;/&nbsp;</span>
+        <span class="font-bold">{title}</span>
+      </TitleHeading>
       <ProseArticle>
         <slot />
       </ProseArticle>
-      <div class="prose lg:prose-xl prose-quoteless dark:prose-invert mx-auto my-8">
+      <div
+        class="prose lg:prose-xl prose-quoteless dark:prose-invert mx-auto my-8"
+      >
         {
-          createdDate === updatedDate ? (
-            <div class="italic text-slate-600">
-              Created:{" "}
-              <FormattedDate class="italic text-slate-600" date={createdDate} />
-            </div>
-          ) : (
+          updatedDate ? (
             <div class="italic text-slate-600">
               Last Updated:{" "}
               <FormattedDate class="italic text-slate-600" date={updatedDate} />
+            </div>
+          ) : (
+            <div class="italic text-slate-600">
+              Created:{" "}
+              <FormattedDate class="italic text-slate-600" date={createdDate} />
             </div>
           )
         }

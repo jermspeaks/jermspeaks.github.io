@@ -4,10 +4,8 @@ permalink: /projects/families-usa
 name: "Families USA: Medicaid Expansion Waivers in the States"
 description: An interactive map for Families USA.
   Implemented the map using angular and d3
-project_link: https://familiesusa.org/medicaid-expansion-waivers-states
-createdDate: "2015-06-21"
-pubDate: "2015-06-21"
-updatedDate: "2015-06-21"
+createdDate: "2015-06-21T00:00:00.000Z"
+pubDate: "2015-06-21T00:00:00.000Z"
 coverImage: ../../images/families-medicare.png
 imageAlt: "Screenshot of medicare interactive map"
 ---

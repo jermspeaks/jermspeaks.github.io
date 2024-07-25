@@ -5,10 +5,8 @@ name: Philips HealthSuite Hackathon
 description: Healthcare application to help geriatrics.
   Using Philips HealthSuite Digital Platform.
   Project from 2015 Philips Hackathon in SF.
-# project_link: https://github.com/jermspeaks/coral-reef-game
-createdDate: "2015-03-07"
-pubDate: "2015-03-07"
-updatedDate: "2015-03-07"
+createdDate: "2015-03-07T00:00:00.000Z"
+pubDate: "2015-03-07T00:00:00.000Z"
 coverImage: ../../images/philips-hackathon.png
 imageAlt: Philips Hackathon Dashboard
 url: /coral-reef-game

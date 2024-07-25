@@ -2,6 +2,17 @@
 import { getCollection } from "astro:content";
 import PaginatedPosts from "./PaginatedPosts.astro";
 
+interface ItemData {
+  draft?: boolean;
+  pubDate: Date | string;
+  title: string;
+  updatedDate?: Date | string;
+}
+
+interface Item {
+  data: ItemData;
+}
+
 const TOTAL_ENTRIES = 16;
 
 const latestPosts = (await getCollection("writing")).filter(
@@ -17,6 +28,7 @@ const filmLibrary = await getCollection("filmLibrary");
 const lastProjects = await getCollection("project");
 const lindyLibrary = await getCollection("lindy");
 const nowItems = await getCollection("now");
+const inspiration = await getCollection("inspiration");
 
 const combination = [
   ...antibookLibrary,
@@ -28,8 +40,15 @@ const combination = [
   ...latestPosts,
   ...lindyLibrary,
   ...nowItems,
+  ...inspiration,
 ]
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .filter((item: Item) => !item.data.draft)
+  .sort((a: Item, b: Item) => {
+    // If updated date exists, use that first, then use pubDate if not
+    const aDate = a.data.updatedDate ? a.data.updatedDate : a.data.pubDate;
+    const bDate = b.data.updatedDate ? b.data.updatedDate : b.data.pubDate;
+    return new Date(bDate).valueOf() - new Date(aDate).valueOf();
+  })
   .slice(0, TOTAL_ENTRIES);
 ---
 

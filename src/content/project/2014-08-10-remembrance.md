@@ -12,9 +12,8 @@ project_link: https://remembrance-dbc.herokuapp.com/
 coverImage: ../../images/remembrance.png
 imageAlt: Screenshot of Remembrance app
 url: https://remembrance-dbc.herokuapp.com/
-createdDate: "2014-08-10"
-pubDate: "2014-08-10"
-updatedDate: "2014-08-10"
+createdDate: "2014-08-10T00:00:00.000Z"
+pubDate: "2014-08-10T00:00:00.000Z"
 ---
 
 ![Remembrance Homepage](../../images/remembrance.png)

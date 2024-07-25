@@ -14,11 +14,25 @@ type Props = {
   title?: string;
 };
 
+interface ItemData {
+  draft?: boolean;
+  pubDate: Date | string;
+  title: string;
+  updatedDate?: Date | string;
+}
+
+interface Item {
+  data: ItemData;
+}
+
 const { title = "Playground" } = Astro.props;
 
-const projects = (await getCollection("project")).sort(
-  (a, b) => b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
-);
+const projects = (await getCollection("project")).sort((a: Item, b: Item) => {
+  // If updated date exists, use that first, then use pubDate if not
+  const aDate = a.data.updatedDate ? a.data.updatedDate : a.data.pubDate;
+  const bDate = b.data.updatedDate ? b.data.updatedDate : b.data.pubDate;
+  return new Date(bDate).valueOf() - new Date(aDate).valueOf();
+});
 ---
 
 <!doctype html>

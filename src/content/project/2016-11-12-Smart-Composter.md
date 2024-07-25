@@ -6,9 +6,8 @@ description: Smart composter using IoT Sensors and the Grow-IoT library.
   Project from Science Hack Day 2016
 coverImage: ../../images/grow-polymer-elements.png
 imageAlt: "Grow Elements in Polymer"
-createdDate: "2016-11-12"
-pubDate: "2016-11-12"
-updatedDate: "2016-11-12"
+createdDate: "2016-11-12T00:00:00.000Z"
+pubDate: "2016-11-12T00:00:00.000Z"
 ---
 
 

@@ -3,6 +3,7 @@ import HomePageAntiBookItem from "./HomePageAntiBookItem.astro";
 import HomePageBookItem from "./HomePageBookItem.astro";
 import HomePageCurationItem from "./HomePageCurationItem.astro";
 import HomePageFilmItem from "./HomePageFilmItem.astro";
+import HomePageInspirationItem from "./HomePageInspirationItem.astro";
 import HomePageLogItem from "./HomePageLogItem.astro";
 import HomePageNowItem from "./HomePageNowItem.astro";
 import HomePageProjectItem from "./HomePageProjectItem.astro";
@@ -75,16 +76,17 @@ const { posts } = Astro.props;
           </li>
         );
       }
+      if (item.data.kind === "inspiration") {
+        return (
+          <li class:list={["dark:text-white", "my-2"]}>
+            <HomePageInspirationItem item={item} />
+          </li>
+        );
+      }
       if (
-        [
-          "log",
-          "series",
-          "lindy",
-          "creators",
-          "curation",
-          "classified",
-          "inspiration",
-        ].includes(item.data.kind)
+        ["series", "lindy", "creators", "curation", "classified"].includes(
+          item.data.kind
+        )
       ) {
         return <HomePageCurationItem item={item} />;
       }

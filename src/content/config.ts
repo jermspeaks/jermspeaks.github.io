@@ -320,7 +320,7 @@ const inspiration = defineCollection({
       .optional()
       .transform((str) => (str ? new Date(str) : undefined)),
     title: z.string(),
-    blurb: z.string().optional(),
+    description: z.string().optional(),
     kind: z.string().default("inspiration"),
   }),
 });

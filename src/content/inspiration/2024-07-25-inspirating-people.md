@@ -1,7 +1,7 @@
 ---
 pubDate: "2024-07-25T08:00:00.000Z"
 title: "Inspiring People"
-blurb: ""
+description: ""
 draft: true
 ---
 

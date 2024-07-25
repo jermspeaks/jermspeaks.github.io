@@ -6,11 +6,10 @@ description:
   Data exploration of inflows and outflows of city trash to other cities. Data from the US Commodities Survey from 2012.
   Project from Science Hack Day 2017
 coverImage: "../../images/gigo.png"
-createdDate: "2017-10-15"
-pubDate: "2017-10-15"
+createdDate: "2017-10-15T00:00:00.000Z"
+pubDate: "2017-10-15T00:00:00.000Z"
 imageAlt: Data visualization for garbage data
 project_link: https://jermspeaks.github.io/garbage-in-garbage-out/
-updatedDate: "2017-10-15"
 url: /garbage-in-garbage-out
 ---
 

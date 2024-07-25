@@ -4,9 +4,8 @@ permalink: /projects/coral-reef
 name: Coral Reef Game
 description: Board game to teach children about coral reefs.
   Project from Science Hack Day 2015
-createdDate: "2015-11-29"
-pubDate: "2015-11-29"
-updatedDate: "2015-11-29"
+createdDate: "2015-11-29T00:00:00.000Z"
+pubDate: "2015-11-29T00:00:00.000Z"
 url: /coral-reef-game
 coverImage: ../../images/lego-coral.png
 imageAlt: "Lego coral reef"
