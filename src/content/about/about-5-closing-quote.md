@@ -1,6 +1,6 @@
 ---
 title: "📖 / Closing Quote"
-order: 4
+order: 5
 lastUpdated: "2023-05-02T08:00:00.000Z"
 ---
 

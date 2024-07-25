@@ -1,7 +1,7 @@
 ---
 title: "🧑🏽‍💻 / Colophon"
 order: 3
-lastUpdated: "2024-02-22T08:00:00.000Z"
+lastUpdated: "2024-07-25T22:11:20.587Z"
 ---
 
 In printmaking, this is a brief statement at the end of a book or manuscript, typically used to describe the details of its production. For this website, it is how the site is made.
@@ -24,8 +24,6 @@ I love using Futura when I have time to go to the letterpress shop at [San Franc
 
 <!-- https://www.happyhues.co/palettes/11 -->
 
-### Components
+### Timestamps
 
-I use a number of components in Astro for reusability.
-
-This section is still under construction, so if you want to read more, please reach out to me.
+All timestamps are in `America/Los_Angeles` timezone. This is because I am predominantly U.S. West coast-based, so PST/PDT is where all of my posts are central to. There are some exceptions when it comes to content I've written in other parts of the world. I've been flip-flopping, deciding whether or not showcasing the time things were posted are important, but for now, we will leave this as a footnote.
