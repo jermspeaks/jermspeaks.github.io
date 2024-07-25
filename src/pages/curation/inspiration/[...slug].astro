@@ -1,0 +1,53 @@
+---
+import { getCollection } from "astro:content";
+import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
+import FormattedDate from "../../../components/FormattedDate.astro";
+import ProseArticle from "../../../components/ProseArticle.astro";
+import type { CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const posts = await getCollection("inspiration");
+  return posts.map((post) => ({
+    params: { slug: post.slug },
+    props: post,
+  }));
+}
+type Props = CollectionEntry<"inspiration">;
+
+const post = Astro.props;
+const { Content } = await post.render();
+---
+
+<CollectionDetailsPage
+  description={post.data.blurb}
+  section="Inspirations"
+  sectionSlug="inspiration"
+  title={post.data.title}
+>
+  <ProseArticle>
+    <div
+      class="grid grid-cols-3 gap-4 border-b-2 pb-2 border-solid border-gray-300"
+    >
+      <div class="col-span-3 md:col-span-2">
+        {
+          post.data.updatedDate ? (
+            <FormattedDate
+              class="italic text-slate-600 dark:text-slate-300"
+              date={post.data.updatedDate}
+            >
+              <span slot="prepend">Updated:&nbsp;</span>
+            </FormattedDate>
+          ) : (
+            <FormattedDate
+              class="italic text-slate-600 dark:text-slate-300"
+              date={post.data.pubDate}
+            >
+              <span slot="prepend">Published:&nbsp;</span>
+            </FormattedDate>
+          )
+        }
+      </div>
+    </div>
+    <Content />
+  </ProseArticle>
+</CollectionDetailsPage>

@@ -10,17 +10,29 @@ export interface Props {
 const { item } = Astro.props;
 const { title, pubDate, updatedDate } = item.data;
 const { Content } = await item.render();
-
-const lastUpdated = updatedDate !== pubDate ? updatedDate : pubDate;
 ---
 
 <li class="rounded-lg px-0 py-2 sm:px-6 sm:py-4">
   <ProseArticle>
     <div class="p-0 text-slate-700 dark:text-slate-100">
-      <h2>{title}</h2>
-      <div class="italic">
-        Last Updated: <FormattedDate date={lastUpdated} />
-      </div>
+      <h2><a href={`/curation/inspiration/${item.slug}`}>{title}</a></h2>
+      {
+        updatedDate ? (
+          <FormattedDate
+            class="italic text-slate-600 dark:text-slate-300"
+            date={updatedDate}
+          >
+            <span slot="prepend">Updated:&nbsp;</span>
+          </FormattedDate>
+        ) : (
+          <FormattedDate
+            class="italic text-slate-600 dark:text-slate-300"
+            date={pubDate}
+          >
+            <span slot="prepend">Published:&nbsp;</span>
+          </FormattedDate>
+        )
+      }
       <Content />
     </div>
   </ProseArticle>

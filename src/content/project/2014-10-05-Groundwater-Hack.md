@@ -6,9 +6,8 @@ description: Underwater groundwater device that allows you to determine
   where there is groundwater using everyday equipment.
   Useful for digging for wells in your backyard.
   Project from Science Hack Day 2014
-createdDate: "2014-10-05"
-pubDate: "2014-10-05"
-updatedDate: "2014-10-05"
+createdDate: "2014-10-05T00:00:00.000Z"
+pubDate: "2014-10-05T00:00:00.000Z"
 project_link: https://github.com/groundwaterhack/groundwaterhack.github.io
 coverImage: ../../images/groundwater-goal.png
 imageAlt: Groundwater prototype

@@ -9,7 +9,7 @@ export interface Props {
 
 const { item } = Astro.props;
 const { data, slug } = item;
-const { pubDate, title, coverImage, imageAlt, description } = data;
+const { pubDate, title, coverImage, imageAlt, description, updatedDate } = data;
 ---
 
 <div
@@ -22,30 +22,52 @@ const { pubDate, title, coverImage, imageAlt, description } = data;
     >
       {title}
     </a>
-    <div class="text-sm italic mb-2">
-      Posted <FormattedDate
-        class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
-        date={pubDate}
-        options={{ hour: "numeric", minute: "numeric" }}
-      />
-    </div>
+    {
+      updatedDate ? (
+        <div class="text-sm italic mb-2">
+          Last updated{" "}
+          <FormattedDate
+            class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
+            date={updatedDate}
+            options={{ hour: "numeric", minute: "numeric" }}
+          />
+        </div>
+      ) : (
+        <div class="text-sm italic mb-2">
+          Posted{" "}
+          <FormattedDate
+            class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
+            date={pubDate}
+            options={{ hour: "numeric", minute: "numeric" }}
+          />
+        </div>
+      )
+    }
     <div class="mt-2 dark:text-slate-100">
       {description}
+      {
+        updatedDate && (
+          <p class="italic text-slate-600 dark:text-slate-300">
+            Originally published{" "}
+            <FormattedDate
+              date={pubDate}
+              options={{ hour: "numeric", minute: "numeric" }}
+            />
+          </p>
+        )
+      }
       <div class="prose dark:prose-invert !max-w-none">
         <span
           >Filed: 🚢 <a
             class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-            href="/projects">Playground</a
+            href="/project">Playground</a
           ></span
         >
       </div>
     </div>
   </div>
   <div class="col-span-3 sm:col-span-2">
-    <a
-      class="visited:text-amber-600 hover:grayscale"
-      href={`/projects/${slug}`}
-    >
+    <a class="visited:text-amber-600 hover:grayscale" href={`/project/${slug}`}>
       {
         coverImage && (
           <div class="h-[150px] grid items-center overflow-hidden">

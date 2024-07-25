@@ -5,9 +5,8 @@ description: Family Feud made for Clear Labs to make an interactive way on how t
 project_link: https://clearly-feud.vercel.app
 coverImage: ../../images/clear-feud.png
 imageAlt: Screenshot of the clear feud app
-createdDate: "2022-12-14"
-pubDate: "2022-12-14"
-updatedDate: "2022-12-14"
+createdDate: "2022-12-14T00:00:00.000Z"
+pubDate: "2022-12-14T00:00:00.000Z"
 ---
 
 [GitHub Repo](https://github.com/jeremy-clearlabs/clearly-feud)

@@ -6,77 +6,43 @@ import PaginatedPosts from "../../components/PaginatedPosts.astro";
 import Pagination from "../../components/Pagination.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 
-const TOTAL_NUMBER_OF_ITEMS = 16;
+interface ItemData {
+  draft?: boolean;
+  pubDate: Date | string;
+  title: string;
+  updatedDate?: Date | string;
+}
 
-const bookLibrary = (await getCollection("book"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "books",
-    },
-  }));
-const antibookLibrary = (await getCollection("antiLibrary"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "antibooks",
-    },
-  }));
-const filmLibrary = (await getCollection("filmLibrary"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "films",
-    },
-  }));
-const lindyLibrary = (await getCollection("lindy"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "lindy",
-    },
-  }));
-const logs = (await getCollection("log"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "log",
-    },
-  }));
-const creators = (await getCollection("creator"))
-  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
-  .map((item) => ({
-    ...item,
-    data: {
-      ...item.data,
-      type: "creators",
-    },
-  }));
+interface Item {
+  data: ItemData;
+}
+
+const bookLibrary = await getCollection("book");
+const antibookLibrary = await getCollection("antiLibrary");
+const filmLibrary = await getCollection("filmLibrary");
+const lindyLibrary = await getCollection("lindy");
+const logs = await getCollection("log");
+const creators = await getCollection("creator");
+const inspiration = await getCollection("inspiration");
+
+const TOTAL_NUMBER_OF_ITEMS = 16;
 
 // Combines all of the collections and finds the latest `TOTAL_NUMBER_OF_ITEMS` items
 const combination = [
-  ...bookLibrary,
   ...antibookLibrary,
+  ...bookLibrary,
+  ...creators,
   ...filmLibrary,
+  ...inspiration,
   ...lindyLibrary,
   ...logs,
-  ...creators,
 ]
-  .sort((a, b) => {
+  .filter((item: Item) => !item.data.draft)
+  .sort((a: Item, b: Item) => {
     // If updated date exists, use that first, then use pubDate if not
     const aDate = a.data.updatedDate ? a.data.updatedDate : a.data.pubDate;
     const bDate = b.data.updatedDate ? b.data.updatedDate : b.data.pubDate;
-    return bDate.valueOf() - aDate.valueOf();
+    return new Date(bDate).valueOf() - new Date(aDate).valueOf();
   })
   .slice(0, TOTAL_NUMBER_OF_ITEMS);
 
@@ -94,7 +60,9 @@ const curations = (await getCollection("curation")).sort((a, b) =>
     </p>
   </ProseArticle>
   <section class="grid grid-cols-8 gap-4 mt-8">
-    <ul class="col-span-8 sm:col-span-4 md:col-span-3 flex flex-col gap-4 list-none p-0">
+    <ul
+      class="col-span-8 sm:col-span-4 md:col-span-3 flex flex-col gap-4 list-none p-0"
+    >
       {
         curations.map(
           (curation) => !curation.data.draft && <CurationItem item={curation} />

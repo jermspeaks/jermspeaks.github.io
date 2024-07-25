@@ -2,10 +2,8 @@
 title: Yeoman Generator for React and Redux
 permalink: /projects/yeoman-react-redux
 description: Code generator for React & Redux Projects
-# project_link: https://github.com/jermspeaks/generator-react-redux
-createdDate: "2015-06-21"
-pubDate: "2015-06-21"
-updatedDate: "2015-06-21"
+createdDate: "2015-06-21T00:00:00.000Z"
+pubDate: "2015-06-21T00:00:00.000Z"
 coverImage: "../../images/yo-react-redux.png"
 imageAlt: "Screenshot of terminal with yeoman generator"
 ---

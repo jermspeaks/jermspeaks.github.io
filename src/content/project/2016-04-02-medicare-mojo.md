@@ -6,9 +6,8 @@ description:
   An app using IBM Watson to make a better way of sorting through Medicare documentation.
   Project part of IBM Watson's 2016 Hackathon challenge.
 project_link: https://www.medicaremojo.com/
-createdDate: "2016-04-02"
-pubDate: "2016-04-02"
-updatedDate: "2016-04-02"
+createdDate: "2016-04-02T00:00:00.000Z"
+pubDate: "2016-04-02T00:00:00.000Z"
 coverImage: ../../images/mm-ibm-hack.png
 imageAlt: "medicaremojo app screenshots"
 ---

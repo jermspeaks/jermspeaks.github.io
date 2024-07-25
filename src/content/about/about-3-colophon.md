@@ -8,7 +8,9 @@ In printmaking, this is a brief statement at the end of a book or manuscript, ty
 
 ### Tech Stack
 
-This website is built with [Astro](https://astro.build/), [Tailwind](https://tailwindcss.com/), [Github Pages](https://pages.github.com/), and [Netlify](https://www.netlify.com/). The previous site was built using Jekyll, Sass, Bourbon, Neat, and Netlify. I wrote a short blog post about this [here](/blog/2023-05-02-website-rewrite/).
+This website is built with [Astro](https://astro.build/), [Tailwind](https://tailwindcss.com/), [Github Pages](https://pages.github.com/), and [Netlify](https://www.netlify.com/). Interactive components are written in [Svelte](https://svelte.dev/). Analytics are captured in [Umami](https://umami.is/), which is an alternative to Google Analytics, is [open source](https://github.com/umami-software/umami), and [privacy-focused](https://umami.is/privacy).
+
+The previous site was built using Jekyll, Sass, Bourbon, Neat, and Netlify. I wrote a short blog post about this [here](/blog/2023-05-02-website-rewrite/).
 
 The [newsletter](/curation/newsletter) is powered by [Buttondown](https://buttondown.email/).
 

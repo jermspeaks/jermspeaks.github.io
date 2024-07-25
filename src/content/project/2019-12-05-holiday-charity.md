@@ -2,9 +2,8 @@
 title: Holiday Card Charity Drive 2019
 permalink: /projects/holiday-charity-2019
 description: Donate to Global Giving for a holiday card
-createdDate: "2019-12-05"
-pubDate: "2019-12-05"
-updatedDate: "2019-12-05"
+createdDate: "2019-12-05T00:00:00.000Z"
+pubDate: "2019-12-05T00:00:00.000Z"
 coverImage: "../../images/holiday-card-charity-drive.png"
 imageAlt: Title card for my holiday card charity
 ---

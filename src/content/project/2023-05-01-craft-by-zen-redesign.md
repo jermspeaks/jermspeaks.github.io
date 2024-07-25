@@ -1,17 +1,24 @@
 ---
 title: Craft By Zen Redesign
 name: Craft By Zen Redesign
-description: "The official \"Craft By Zen\" Website changelog"
+description: 'Previous official "Craft By Zen" Website changelog. Officially retired 2024-07-25.'
 project_link: https://craftbyzen.com/
 coverImage: ../../images/craftbyzen-screenshot.png
 imageAlt: This website as a screenshot
-createdDate: "2023-05-01"
-pubDate: "2023-05-01"
-updatedDate: "2024-01-24"
+createdDate: "2023-05-01T00:00:00.000Z"
+pubDate: "2023-05-01T00:00:00.000Z"
+updatedDate: "2024-07-25T21:00:00.000Z"
 ---
 
 You can read all about my redesign in [my initial post](/blog/2023-05-02-website-rewrite/).
 This project page will be a highlighted changelog for my website.
+
+### Updates 2024-07-25
+
+This page hasn't been updated in awhile, and will probably not get anymore updates.
+I'm constantly making updates. You can find a list of changes in my [Pull requests](https://github.com/jermspeaks/jermspeaks.github.io/pulls?q=is%3Apr+is%3Aclosed). Because I've changed the way the homepage works, you can now find a feed-like experience for anything updated there.
+
+For more about how this website is made, check out the [tech stack](/about#tech-stack) in the colophon section.
 
 ### Updates 2024-01-24
 
@@ -56,7 +63,7 @@ This project page will be a highlighted changelog for my website.
 
 - 🚀 Migrated to Astro!
 - [#37](https://github.com/jermspeaks/jermspeaks.github.io/pull/37) With the migration to astro, added back blog, newsletter, learning posts, email, resume, RSS feed, media page, logs and coding. Favicon had an update.
-- [#38](https://github.com/jermspeaks/jermspeaks.github.io/pull/38)  Verify Dependabot settings on Github Group specific blog posts into series: Season 1, Season 2, Season 3, Learning Modules, etc.
+- [#38](https://github.com/jermspeaks/jermspeaks.github.io/pull/38) Verify Dependabot settings on Github Group specific blog posts into series: Season 1, Season 2, Season 3, Learning Modules, etc.
 - [#39](https://github.com/jermspeaks/jermspeaks.github.io/pull/39) Add library and rename media to press
 - [#40](https://github.com/jermspeaks/jermspeaks.github.io/pull/40) Added movie scrapping between 2019 to 2023
 - [#41](https://github.com/jermspeaks/jermspeaks.github.io/pull/41) Add Svelte demo

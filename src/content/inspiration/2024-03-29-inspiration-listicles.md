@@ -2,7 +2,7 @@
 pubDate: "2024-03-29T08:00:00.000Z"
 updatedDate: "2024-03-29T08:00:00.000Z"
 title: "Websites"
-blurb: "Inspirational websites that influence my website"
+description: "Inspirational websites that influence my website"
 draft: true
 ---
 

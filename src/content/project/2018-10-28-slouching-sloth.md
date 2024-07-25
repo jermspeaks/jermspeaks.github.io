@@ -1,14 +1,13 @@
 ---
 coverImage: ../../images/sloths-first-draft.jpg
-createdDate: "2017-10-15"
-pubDate: "2017-10-15"
+createdDate: "2017-10-15T00:00:00.000Z"
 description: A PSA developed as a project from Science Hack Day 2018
 imageAlt: Poster for the slouching sloth
 name: No Slouching Sloths
 permalink: /projects/no-slouching-sloths
 project_link: https://jermspeaks.github.io/projects/no-slouching-sloths
+pubDate: "2017-10-15T00:00:00.000Z"
 title: No Slouching Sloths
-updatedDate: "2017-10-15"
 url: /no-slouching-sloths
 ---
 
