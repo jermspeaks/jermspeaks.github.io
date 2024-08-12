@@ -29,7 +29,7 @@
     "@tailwindcss/typography": "^0.5.13",
     "@types/codemirror": "^5.60.15",
     "@types/html-escaper": "^3.0.2",
-    "astro": "^4.13.1",
+    "astro": "^4.13.3",
     "astro-auto-import": "^0.4.2",
     "clsx": "^2.1.1",
     "codemirror": "^6.0.1",
