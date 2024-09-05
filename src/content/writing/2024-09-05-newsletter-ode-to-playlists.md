@@ -1,0 +1,29 @@
+---
+description: "Newsletter - We dive into my decade long habit of creating seasonal music playlists and lament on how music streaming services have made it harder to find and create original mixtapes."
+draft: false
+pubDate: "2024-09-05T16:00:00.000Z"
+tags: ["newsletter", "season_4"]
+title: "Newsletter - An Ode to the Seasonal Playlist"
+heroImage: https://images.unsplash.com/photo-1512236258305-32fb110fdb01?q=80&w=2374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+heroImageAlt: Unsplash image from Yannik Mika showing a row of mailboxes
+---
+
+📍 Location: San Jose, CA
+
+I've been a fan of making [seasonal music playlists](https://open.spotify.com/playlist/2Vw19vj1EJwJEApW33w2Re?si=871b8fdbe2394b72) for more than a decade. I started in iTunes, making new music and fitting them into playlists for road trips on my iPod. Looking back, these playlists feel like a snapshot of my life and where I was. It evokes specific memories of who I was with and where I felt I was at that time of my life.
+
+There was this time when my friend Teagan and I were road-tripping through the coast of the Pacific Northwest while listening to a song Moby made as part of NPR's "Project Music" called Gone to Sleep. While on the narrow highway amidst windy roads cliffside, as well as the void of light through the redwood forests during the nighttime, I had an eerie, yet hopeful mood. There's a video game called Pacific Drive that I haven't played, but I must wonder if it captures a similar mood in its soundtrack.
+
+In the late 90’s at the supermarket checkout aisle, I remember looking at the back cover of "Now That's What I Call Music" compilation CDs. The curator took the billboard's top 20 list and burned them onto a CD. I remember challenging myself to make a more personal CD for the music I was listening to and started ripping them and putting them into my CD player. It was always a challenge trying to fit the 70-minute form factor. The result was always a mishmash of the music I was listening to at the time. Whether it was rediscovering rock bands of the 70s, or new pop hits, it all got smashed together unordered. And inevitably, I would hit skip on songs I knew didn't fit after the 10th listen-through.
+
+Much later, I found myself in the Metafilter community where I would participate in a seasonal CD swap. An organizer would connect a small group and you. Each swap had a catchy title, usually alluding to a song, like "Swap Me Maybe", "The Songbird Swap", and "Swap Battle". I loved taking a walk with my music player and strolling to someone else's curation. As one of those people who have said "I listen to a little of everything", the eclectic range appealed to me. It might have been a warm surprise from Ray LaMontagne, or an electronica beat of Phantogram.
+
+I feel like the tides changed when I converted to a streaming service. I know the argument sounds like a broken record about not owning a physical copy of the music. Beyond that, the playlists that have been curated for me don’t feel as personal as receiving a mixtape cassette. The Algorithm supposedly knows my tastes and creates a warm echo chamber of what’s come before. But if I’ve learned anything from different music eras, disruption is required to challenge the listener. We need Stravinky’s The Rite of Spring to drive into our brains atonality. Or Captain Beefheart and his Magic Band’s Trout Mask Replica to challenge our ears with discordant rhythms and motifs. I would like to think the Algorithm works by keeping you in the echo chamber long enough that everything starts to sound the same, and the potential for a playlist to be great becomes mediocre.
+
+With the advent of short video platforms like TikTok, Vine (RIP), Instagram Reels, Snapchat, and so many others, the music that plays along is the sound bites. You can't fit an album into that form factor, and the music industry has transformed with it. Add to that the oddly structured price per stream and you get a mix of more singles that can hit viral numbers. I'm not interested in dissecting if that's good or bad for the industry. I'm more interested in how that affects my personal music listening habits. The streaming giants have created music ecosystems around machine-learned playlist creations based on what is similar and viral, and rewarding those who have figured that formula out with the biggest payouts. All of this said, this also feeds into the Algorithm’s playlist selection.
+
+With our current modes of listening to playlists, I have to wonder, where can I fit my voice in playlist curation? I haven't changed my habit of making seasonal playlists, but the ways I discover music have.
+
+There's an idealized version of the playlist creation process I have in mind. I would take the time to listen to dozens of albums end to end and pick and choose the handfuls of songs that have resonated with me. But more and more, the Algorithm prevails. I try hard to go with a select few curators who have great tastes. Or radio stations that still employ DJs to spin their favorite tunes.
+
+My friend D and I created an end-of-year playlist that has rules. The songs chosen must have been released that year, is something we find has resonated most with us that year and must fit on a 70-minute CD. It mixes what I felt in those seasonal playlists and puts my thinking cap on what is worthwhile to include. Since space is limited, you can't put all of the year's hits. I find creativity in these constraints and mindfully listen to that playlist over and over until it feels right. That's what I think makes a great curated mixtape. And it gets to be saved and listened to whenever, like a few months from now, or listened to a decade later as a retrospective. Let's bring back the era of mixtapes.
