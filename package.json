@@ -20,7 +20,7 @@
     "@astrojs/sitemap": "^3.1.6",
     "@astrojs/svelte": "^5.7.0",
     "@astrojs/tailwind": "^5.1.0",
-    "@codemirror/commands": "^6.6.1",
+    "@codemirror/commands": "^6.6.2",
     "@codemirror/lang-json": "^6.0.1",
     "@codemirror/language": "^6.10.2",
     "@codemirror/state": "^6.4.1",
