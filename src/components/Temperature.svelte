@@ -1,6 +1,6 @@
 <script lang="ts">
-  let c = 20;
-  let f = 68;
+  let c = $state(20);
+  let f = $state(68);
 
   function setBothFromC(value: number): void {
     c = +value;
@@ -16,14 +16,14 @@
 <!-- https://eugenkiss.github.io/7guis/tasks/#temp -->
 <input
   value={c}
-  on:input={(e) => setBothFromC(e?.target?.value)}
+  oninput={(e) => setBothFromC(e?.target?.value)}
   type="number"
   class="w-16 px-2 dark:text-white dark:bg-slate-800"
 />
 °C =
 <input
   value={f}
-  on:input={(e) => setBothFromF(e?.target?.value)}
+  oninput={(e) => setBothFromF(e?.target?.value)}
   type="number"
   class="w-16 px-2 dark:text-white dark:bg-slate-800"
 />

@@ -67,9 +67,9 @@
     "sus4",
   ];
 
-  let selectedNote = "";
-  let selectedOption = "";
-  let selectedVariation = 0;
+  let selectedNote = $state("");
+  let selectedOption = $state("");
+  let selectedVariation = $state(0);
 
   function onNoteChange(event) {
     // const nextNote = event.currentTarget.value;
@@ -80,8 +80,8 @@
     return event;
   }
 
-  $: selectedPositionsAndFingerings =
-    chordData?.[`${selectedNote}${selectedOption}`];
+  let selectedPositionsAndFingerings =
+    $derived(chordData?.[`${selectedNote}${selectedOption}`]);
 
   // Constants for the SVG rendering
   const numberOfStrings = 6;
@@ -163,7 +163,7 @@
         name="note"
         bind:group={selectedNote}
         value={note}
-        on:change={onNoteChange}
+        onchange={onNoteChange}
       />
       <label
         class="w-full py-4 ms-2 text-md font-medium text-gray-900 dark:text-gray-300"

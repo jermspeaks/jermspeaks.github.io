@@ -2,7 +2,7 @@
   import { onMount } from 'svelte';
   import { writable } from 'svelte/store';
   import * as d3 from 'd3';
-  export let technologies;
+  let { technologies } = $props();
 
   const svgNodes = writable([]);
   const svgLinks = writable([]);

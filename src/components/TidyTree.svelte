@@ -1,11 +1,13 @@
 <script>
+  import { run } from 'svelte/legacy';
+
   import * as Plot from "@observablehq/plot";
   import * as d3 from "d3";
   import flare from "./data/treePlot.json";
 
-  let div;
+  let div = $state();
 
-  $: {
+  run(() => {
     div?.append(
       Plot.plot({
         axis: null,
@@ -27,7 +29,7 @@
         ],
       })
     );
-  }
+  });
 </script>
 
 <div bind:this={div} role="img"></div>

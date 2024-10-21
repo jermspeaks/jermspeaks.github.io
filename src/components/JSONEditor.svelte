@@ -3,10 +3,10 @@
   import { createHighlighter } from "shiki";
   import CodeEditor from "./CodeEditor.svelte";
 
-  let value = "";
-  let graphqlQueryOrMutation = "";
-  let spaces = 2;
-  let error: any | null = null;
+  let value = $state("");
+  let graphqlQueryOrMutation = $state("");
+  let spaces = $state(2);
+  let error: any | null = $state(null);
   const convert = () => {
     // Reset error first
     if (error !== null) {
@@ -48,7 +48,7 @@
     }
   }
 
-  let promise = getHighlighter();
+  let promise = $state(getHighlighter());
 
   const parseGraphql = () => {
     try {
@@ -74,12 +74,12 @@
 <div class="flex justify-start gap-8">
   <button
     class="border-black dark:border-white border-solid border-2 bg-none cursor-pointer mt-8 flex justify-center p-1 text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-200"
-    on:click={convert}>Convert</button
+    onclick={convert}>Convert</button
   >
   {#if validGraphQLJson(value)}
     <button
       class="border-black dark:border-white border-solid border-2 bg-none cursor-pointer mt-8 flex justify-center p-1 text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-200"
-      on:click={parseGraphql}>Format GraphQL</button
+      onclick={parseGraphql}>Format GraphQL</button
     >
   {/if}
 </div>

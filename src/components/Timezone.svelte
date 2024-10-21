@@ -51,12 +51,12 @@
     "Pacific/Honolulu",
   ];
 
-  let localTimezone = "";
-  let systemTime = "";
-  let selectedTimezone = "";
-  let selectedTime = "";
+  let localTimezone = $state("");
+  let systemTime = $state("");
+  let selectedTimezone = $state("");
+  let selectedTime = $state("");
 
-  let timezoneSelect;
+  let timezoneSelect = $state();
 
   onMount(() => {
     updateTimeDisplays();

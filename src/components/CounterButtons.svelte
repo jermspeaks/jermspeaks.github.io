@@ -1,5 +1,5 @@
 <script>
-  let count = 0;
+  let count = $state(0);
 
   function increment() {
     count += 1;
@@ -14,11 +14,11 @@
   <h3>The count is {count}</h3>
   <button
     class="my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
-    on:click={decrement}>-</button
+    onclick={decrement}>-</button
   >
   <button
     class="my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
-    on:click={increment}>+</button
+    onclick={increment}>+</button
   >
 
   {#if count > 10}

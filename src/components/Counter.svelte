@@ -1,5 +1,5 @@
 <script>
-  let count = 0;
+  let count = $state(0);
 </script>
 
 <input
@@ -9,5 +9,5 @@
 />
 <button
   class="px-2 border-solid border-2 dark:border-gray-400"
-  on:click={() => (count += 1)}>count</button
+  onclick={() => (count += 1)}>count</button
 >

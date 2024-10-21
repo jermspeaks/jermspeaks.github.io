@@ -7,12 +7,12 @@
 
   const LETTERS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-  export let shape = [100, 100];
+  let { shape = [100, 100] } = $props();
   const rows = range(shape[1]);
   const columns = letterRange(shape[0]);
   const p = new Parser(data, columns, rows);
-  let focused;
-  let tBody;
+  let focused = $state();
+  let tBody = $state();
 
   function range(n) {
     return [...Array(n).keys()];
@@ -104,7 +104,7 @@
   <table>
     <thead>
       <tr>
-        <td class="row-key" />
+        <td class="row-key"></td>
         {#each columns as column}
           <td class="column-key">{column}</td>
         {/each}
@@ -115,7 +115,7 @@
         <tr id={"row-" + i}>
           <td class="row-key">{i}</td>
           {#each columns as j}
-            <td id={j + i} on:click={() => handleFocus(j + i)}>
+            <td id={j + i} onclick={() => handleFocus(j + i)}>
               <Cell
                 {j}
                 {i}
@@ -134,7 +134,7 @@
     </tbody>
   </table>
 </div>
-<button on:click={clear}>Clear</button>
+<button onclick={clear}>Clear</button>
 
 <style>
   .wrapper {

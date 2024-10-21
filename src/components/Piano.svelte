@@ -1,5 +1,5 @@
 <script>
-  let currentKey = "C";
+  let currentKey = $state("C");
   let transposeAmount = 0;
 
   function generatePianoKeys() {
@@ -116,16 +116,16 @@
   {#each generatePianoKeys() as { note, type, blackNote, octave }}
     <div
       class={`h-32 w-4 my-1 border border-solid border-gray-800 inline-block relative bg-white hover:bg-slate-800 ${type}`}
-      on:click={() => playNote(note, octave)}
-      on:keydown={() => playNote(note, octave)}
+      onclick={() => playNote(note, octave)}
+      onkeydown={() => playNote(note, octave)}
       role="button"
       tabindex="0"
     >
       {#if blackNote}
         <div
           class="h-20 w-3 bg-black absolute top-0 left-3 m-0 z-10 hover:bg-slate-200"
-          on:click={() => playNote(blackNote.note, octave)}
-          on:keydown={() => playNote(blackNote.note, octave)}
+          onclick={() => playNote(blackNote.note, octave)}
+          onkeydown={() => playNote(blackNote.note, octave)}
           role="button"
           tabindex="0"
         ></div>
@@ -136,8 +136,8 @@
 <div class="flex justify-center items-center mt-5">
   <div
     class="p-2 px-4 m-0 bg-gray-200 border border-solid border-gray-300 cursor-pointer"
-    on:click={() => transpose(-1)}
-    on:keydown={() => transpose(-1)}
+    onclick={() => transpose(-1)}
+    onkeydown={() => transpose(-1)}
     role="button"
     tabindex="0"
   >
@@ -146,8 +146,8 @@
   <div class="font-bold mx-4">Transpose</div>
   <div
     class="p-2 px-4 m-0 bg-gray-200 border border-solid border-gray-300 cursor-pointer"
-    on:click={() => transpose(1)}
-    on:keydown={() => transpose(1)}
+    onclick={() => transpose(1)}
+    onkeydown={() => transpose(1)}
     role="button"
     tabindex="0"
   >

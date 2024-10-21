@@ -1,4 +1,4 @@
-<script lang="ts" context="module">
+<script lang="ts" module>
   export type ThemeSpec = Record<string, StyleSpec>;
   export type StyleSpec = {
     [propOrSelector: string]: string | number | StyleSpec | null;
@@ -6,6 +6,8 @@
 </script>
 
 <script lang="ts">
+  import { run } from 'svelte/legacy';
+
   import { createEventDispatcher, onDestroy, onMount } from "svelte";
   import { basicSetup } from "codemirror";
   import {
@@ -18,52 +20,54 @@
   import { indentWithTab } from "@codemirror/commands";
   import debounce from "../utils/debounce";
 
-  let classes = "";
-  export { classes as class };
-  export let value: string | null | undefined = "";
+  
 
-  export let basic = true;
-  export let lang: LanguageSupport | null | undefined = undefined;
-  export let theme: Extension | null | undefined = undefined;
-  export let extensions: Extension[] = [];
 
-  export let useTab = true;
-  export let tabSize = 2;
 
-  export let styles: ThemeSpec | null | undefined = undefined;
-  export let lineWrapping = false;
-  export let editable = true;
-  export let readonly = false;
-  export let placeholder: string | HTMLElement | null | undefined = undefined;
+  interface Props {
+    class?: string;
+    value?: string | null | undefined;
+    basic?: boolean;
+    lang?: LanguageSupport | null | undefined;
+    theme?: Extension | null | undefined;
+    extensions?: Extension[];
+    useTab?: boolean;
+    tabSize?: number;
+    styles?: ThemeSpec | null | undefined;
+    lineWrapping?: boolean;
+    editable?: boolean;
+    readonly?: boolean;
+    placeholder?: string | HTMLElement | null | undefined;
+  }
+
+  let {
+    class: classes = "",
+    value = $bindable(""),
+    basic = true,
+    lang = undefined,
+    theme = undefined,
+    extensions = [],
+    useTab = true,
+    tabSize = 2,
+    styles = undefined,
+    lineWrapping = false,
+    editable = true,
+    readonly = false,
+    placeholder = undefined
+  }: Props = $props();
 
   const is_browser = typeof window !== "undefined";
   const dispatch = createEventDispatcher<{ change: string }>();
 
-  let element: HTMLDivElement;
-  let view: EditorView;
+  let element: HTMLDivElement = $state();
+  let view: EditorView = $state();
 
   let update_from_prop = false;
   let update_from_state = false;
   let first_config = true;
   let first_update = true;
 
-  $: state_extensions = [
-    ...get_base_extensions(
-      basic,
-      useTab,
-      tabSize,
-      lineWrapping,
-      placeholder,
-      editable,
-      readonly,
-      lang
-    ),
-    ...get_theme(theme, styles),
-    ...extensions,
-  ];
 
-  $: view && update(value);
-  $: view && state_extensions && reconfigure();
 
   onMount(() => (view = create_editor_view()));
   onDestroy(() => view?.destroy());
@@ -164,14 +168,34 @@
     if (theme) extensions.push(theme);
     return extensions;
   }
+  let state_extensions = $derived([
+    ...get_base_extensions(
+      basic,
+      useTab,
+      tabSize,
+      lineWrapping,
+      placeholder,
+      editable,
+      readonly,
+      lang
+    ),
+    ...get_theme(theme, styles),
+    ...extensions,
+  ]);
+  run(() => {
+    view && update(value);
+  });
+  run(() => {
+    view && state_extensions && reconfigure();
+  });
 </script>
 
 {#if is_browser}
-  <div class="codemirror-wrapper {classes}" bind:this={element} />
+  <div class="codemirror-wrapper {classes}" bind:this={element}></div>
 {:else}
   <div class="scm-waiting {classes}">
     <div class="scm-waiting__loading scm-loading">
-      <div class="scm-loading__spinner" />
+      <div class="scm-loading__spinner"></div>
       <p class="scm-loading__text">Loading editor...</p>
     </div>
 

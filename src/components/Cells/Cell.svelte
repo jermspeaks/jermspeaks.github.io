@@ -1,31 +1,37 @@
 <script>
-  export let j;
-  export let i;
-  export let focused;
-  export let data;
-  export let p;
-  export let handleFocus;
-  export let handleBlur;
-  export let handleKeydown;
-  export let handleInput;
+  import { run } from 'svelte/legacy';
+
+  let {
+    j,
+    i,
+    focused,
+    data,
+    p,
+    handleFocus,
+    handleBlur,
+    handleKeydown,
+    handleInput
+  } = $props();
 
   let key = j + i;
-  let hasFocus = false;
-  $: if (focused === key && !hasFocus) {
-    hasFocus = true;
-  } else if (focused !== key && hasFocus) {
-    hasFocus = false;
-  }
+  let hasFocus = $state(false);
+  run(() => {
+    if (focused === key && !hasFocus) {
+      hasFocus = true;
+    } else if (focused !== key && hasFocus) {
+      hasFocus = false;
+    }
+  });
 </script>
 
 {#if hasFocus}
   <input
     id={"input-" + key}
     value={$data[key] || ""}
-    on:focus={() => handleFocus(key)}
-    on:blur={() => handleBlur(key)}
-    on:keydown={(e) => handleKeydown(e, j, i)}
-    on:input={(e) => handleInput(e, key)}
+    onfocus={() => handleFocus(key)}
+    onblur={() => handleBlur(key)}
+    onkeydown={(e) => handleKeydown(e, j, i)}
+    oninput={(e) => handleInput(e, key)}
   />
 {:else}
   <div>{p.parse($data[key]) || ""}</div>
