@@ -1,7 +1,7 @@
 <script>
   import { onMount } from "svelte";
 
-  let uuid = "";
+  let uuid = $state("");
 
   function legacyGenerateUUID() {
     return "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx".replace(
@@ -54,12 +54,12 @@
   <div class="flex align-middle gap-4">
     <button
       class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
-      on:click={() => (uuid = generateUUID())}>Generate New UUID</button
+      onclick={() => (uuid = generateUUID())}>Generate New UUID</button
     >
     <div class="relative">
       <button
         class="px-2 py-1 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
-        on:click={() => copyToClipboard(uuid)}
+        onclick={() => copyToClipboard(uuid)}
       >
         <svg
           width="30px"

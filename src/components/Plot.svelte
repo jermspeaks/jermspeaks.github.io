@@ -1,8 +1,10 @@
 <script>
+  import { run } from 'svelte/legacy';
+
   import * as Plot from "@observablehq/plot";
   import * as d3 from "d3";
 
-  let div;
+  let div = $state();
   const aapl = [
     {
       Date: new Date("2013-05-13"),
@@ -52,14 +54,14 @@
   //   data = data.slice(-200).concat(Math.atan2(x, y));
   // }
 
-  $: {
+  run(() => {
     // div?.firstChild?.remove(); // remove old chart, if any
     div?.append(
       Plot.plot({
         marks: [Plot.lineY(aapl, { x: "Date", y: "Close" })],
       })
     ); // add the new chart
-  }
+  });
 </script>
 
 <!-- <div on:mousemove={onMousemove} bind:this={div} role="img"></div> -->

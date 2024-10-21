@@ -1,8 +1,10 @@
 <script>
+  import { run } from 'svelte/legacy';
+
   import * as Plot from "@observablehq/plot";
   import flare from "./data/tree.json";
 
-  let div;
+  let div = $state();
   // let data = d3.ticks(-2, 2, 200).ma./data/tree.json/ function onMousemove(event) {
   //   const [x, y] = d3.pointer(event);
   //   data = data.slice(-200).concat(Math.atan2(x, y));
@@ -17,7 +19,7 @@
     };
   }
 
-  $: {
+  run(() => {
     // div?.firstChild?.remove(); // remove old chart, if any
     // div?.append(Plot.lineY(data).plot({ grid: true })); // add the new chart
     // div?.append(
@@ -59,7 +61,7 @@
         }),
       })
     );
-  }
+  });
 </script>
 
 <div bind:this={div} role="img"></div>

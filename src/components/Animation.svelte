@@ -1,6 +1,6 @@
 <script>
   import { slide } from "svelte/transition";
-  let items = ["Item 1", "Item 2", "Item 3"];
+  let items = $state(["Item 1", "Item 2", "Item 3"]);
 
   function addItem() {
     items = [...items, `Item ${items.length + 1}`];
@@ -13,7 +13,7 @@
 
 <button
   class="my-2 px-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
-  on:click={addItem}>Add Item</button
+  onclick={addItem}>Add Item</button
 >
 
 <ul class="list-none">
@@ -22,7 +22,7 @@
       {item}
       <button
         class="my-2 px-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
-        on:click={() => removeItem(index)}>Remove</button
+        onclick={() => removeItem(index)}>Remove</button
       >
     </li>
   {/each}

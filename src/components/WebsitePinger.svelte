@@ -1,8 +1,8 @@
 <script>
   const websites = ["google.com", "bing.com", "amazon.com"];
-  let results = [];
-  let isLoading = false;
-  let error = null;
+  let results = $state([]);
+  let isLoading = $state(false);
+  let error = $state(null);
 
   async function pingWebsite(website) {
     const startTime = performance.now();
@@ -70,7 +70,7 @@
   </div>
 
   <button
-    on:click={handlePing}
+    onclick={handlePing}
     disabled={isLoading}
     class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
   >
@@ -90,7 +90,7 @@
   {#if results.length > 0}
     <div class="space-y-2">
       <button
-        on:click={downloadCSV}
+        onclick={downloadCSV}
         class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
       >
         Download Results (CSV)

@@ -7,21 +7,28 @@ radius of the selected circle.
 -->
 
 <script>
+  import { run, preventDefault, stopPropagation } from 'svelte/legacy';
+
   const BASE_RADIUS = 30;
 
-  let step = 0;
-  let snapshots = [[]];
-  let radius = BASE_RADIUS;
-  let resizing = false;
-  $: present = snapshots[step];
-  $: if (resizing) {
-    let resizingIndex = present.findIndex(
-      (circle) => circle.x === resizing.x && circle.y === resizing.y
-    );
-    let newPresent = present.slice();
-    newPresent[resizingIndex] = { ...present[resizingIndex], r: radius };
-    present = newPresent;
-  }
+  let step = $state(0);
+  let snapshots = $state([[]]);
+  let radius = $state(BASE_RADIUS);
+  let resizing = $state(false);
+  let present;
+  run(() => {
+    present = snapshots[step];
+  });
+  run(() => {
+    if (resizing) {
+      let resizingIndex = present.findIndex(
+        (circle) => circle.x === resizing.x && circle.y === resizing.y
+      );
+      let newPresent = present.slice();
+      newPresent[resizingIndex] = { ...present[resizingIndex], r: radius };
+      present = newPresent;
+    }
+  });
 
   function handleRightClick(e) {
     let circle = e.target;
@@ -67,14 +74,14 @@ radius of the selected circle.
 
 <div class="wrapper">
   <div class="buttons">
-    <button disabled={!step} on:click={undo}>Undo</button>
-    <button disabled={step === snapshots.length - 1} on:click={redo}
+    <button disabled={!step} onclick={undo}>Undo</button>
+    <button disabled={step === snapshots.length - 1} onclick={redo}
       >Redo</button
     >
   </div>
   <div class="canvas">
-    <!-- svelte-ignore a11y-click-events-have-key-events a11y-no-static-element-interactions -->
-    <svg on:click={addCircle}>
+    <!-- svelte-ignore a11y_click_events_have_key_events, a11y_no_static_element_interactions -->
+    <svg onclick={addCircle}>
       {#each present as circle (circle.x + "," + circle.y)}
         <circle
           cx={circle.x}
@@ -82,8 +89,8 @@ radius of the selected circle.
           r={circle.r}
           fill="white"
           stroke="black"
-          on:click|stopPropagation|preventDefault={() => {}}
-          on:contextmenu|stopPropagation|preventDefault={handleRightClick}
+          onclick={stopPropagation(preventDefault(() => {}))}
+          oncontextmenu={stopPropagation(preventDefault(handleRightClick))}
         />
       {/each}
     </svg>
@@ -92,11 +99,11 @@ radius of the selected circle.
   {#if resizing}
     <div 
       class="overlay"
-      on:click={endResize}
-      on:keydown={endResize}
+      onclick={endResize}
+      onkeydown={endResize}
       tabindex="0"
       role="button"
-    />
+></div>
     <div class="resizer">
       <p>Adjust radius of circle at ({resizing.x}, {resizing.y})</p>
       <p>{radius}</p>

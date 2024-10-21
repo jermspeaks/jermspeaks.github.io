@@ -23,14 +23,14 @@
 
   let uid = 1;
 
-  let todos = [
+  let todos = $state([
     { id: uid++, done: false, description: "write some docs" },
     { id: uid++, done: false, description: "start writing blog post" },
     { id: uid++, done: true, description: "buy some milk" },
     { id: uid++, done: false, description: "mow the lawn" },
     { id: uid++, done: false, description: "feed the turtle" },
     { id: uid++, done: false, description: "fix some bugs" },
-  ];
+  ]);
 
   function add(input) {
     const todo = {
@@ -57,7 +57,7 @@
 <div class="board">
   <input
     placeholder="what needs to be done?"
-    on:keydown={(e) => e.key === "Enter" && add(e.target)}
+    onkeydown={(e) => e.key === "Enter" && add(e.target)}
   />
 
   <div class="left">
@@ -68,9 +68,9 @@
         out:send={{ key: todo.id }}
         animate:flip
       >
-        <input type="checkbox" on:change={() => mark(todo, true)} />
+        <input type="checkbox" onchange={() => mark(todo, true)} />
         {todo.description}
-        <button on:click={() => remove(todo)}>remove</button>
+        <button onclick={() => remove(todo)}>remove</button>
       </label>
     {/each}
   </div>
@@ -84,9 +84,9 @@
         out:send={{ key: todo.id }}
         animate:flip
       >
-        <input type="checkbox" checked on:change={() => mark(todo, false)} />
+        <input type="checkbox" checked onchange={() => mark(todo, false)} />
         {todo.description}
-        <button on:click={() => remove(todo)}>remove</button>
+        <button onclick={() => remove(todo)}>remove</button>
       </label>
     {/each}
   </div>
