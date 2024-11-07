@@ -5,6 +5,7 @@
   "scripts": {
     "astro": "astro",
     "build": "astro build",
+    "create:now": "node scripts/create-now.mjs",
     "create:stream": "node scripts/create-stream.mjs",
     "create:writing": "node ./scripts/create-writing.mjs",
     "deploy": "netlify deploy --build --prod",
