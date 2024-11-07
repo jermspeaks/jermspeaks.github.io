@@ -1,11 +1,11 @@
 ---
-description: "OpenAI shake-ups and announcement for Canvas, Hurricane season with Helene and Milton, new Meta AR glasses, a AI regulatory blow, Stackblitz bolt, and RIP Kris Kristofferson."
+description: "A break in format - the quiet art of attention, conferences, vercel and microfront-ends, and some recommendations."
 draft: false
 heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2370&q=80
 heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
-pubDate: "2024-10-09T00:30:00.000Z"
-tags: ["weeknote", "ai", "openai", "AR", "returntowork", "fengshui"]
-title: "2024 Week 40 - Weekly Notes"
+pubDate: "2024-10-30T00:30:00.000Z"
+tags: ["weeknote", "focus"]
+title: "2024 Week 43 - Weekly Notes"
 ---
 
 I changed up the format last week. In a way, it's a little more freeing because I don't have to group everything with like things, necessarily. Plus, it gives me a chance to play around with looser organization.
