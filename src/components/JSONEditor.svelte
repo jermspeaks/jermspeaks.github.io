@@ -38,7 +38,7 @@
         themes: ["github-dark"],
         langs: ["graphql"],
       });
-      console.log("graphqlQueryOrMutation", graphqlQueryOrMutation);
+      // console.log("graphqlQueryOrMutation", graphqlQueryOrMutation);
       return highlighter.codeToHtml(graphqlQueryOrMutation, {
         lang: "graphql",
         theme: "github-dark",
