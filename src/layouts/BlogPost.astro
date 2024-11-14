@@ -27,6 +27,7 @@ const {
   tags,
   title,
   updatedDate,
+  schema,
 } = Astro.props;
 const hasUpdatedDate = updatedDate && updatedDate !== pubDate;
 const isNewsletter = tags.includes("newsletter");
@@ -51,6 +52,11 @@ const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
       srcImage={coverImage?.src}
       title={title}
     />
+    {
+      schema && (
+        <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+      )
+    }
   </head>
 
   <BaseBody>

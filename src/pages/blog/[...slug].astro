@@ -2,25 +2,28 @@
 import { getCollection, getEntry } from "astro:content";
 import BlogPost from "../../layouts/BlogPost.astro";
 import type { CollectionEntry } from "astro:content";
+import { generateWritingPieceSchema } from '../../utils/schemas';
+
+type Props = CollectionEntry<"writing">;
 
 export async function getStaticPaths() {
   const posts = await getCollection("writing");
-  return posts.map((post) => ({
+  return posts.map((post: Props) => ({
     params: { slug: post.slug },
     props: post,
   }));
 }
-type Props = CollectionEntry<"writing">;
 
 const post = Astro.props;
 const { Content } = await post.render();
+const schema = post ? generateWritingPieceSchema(post) : null;
 
 const blogPost = await getEntry("writing", post.slug);
 const { remarkPluginFrontmatter } = await blogPost.render();
 const { minutesRead } = remarkPluginFrontmatter ?? {};
 ---
 
-<BlogPost {...post.data} minutesRead={minutesRead}>
+<BlogPost {...post.data} minutesRead={minutesRead} schema={schema}>
   <h1>{post.data.title}</h1>
   <Content />
 </BlogPost>

@@ -7,6 +7,7 @@ import Footer from "../components/Footer.astro";
 import Header from "../components/Header.astro";
 import TitleHeading from "../components/TitleHeading.astro";
 import writingImage from "../images/writing.png";
+import { generateWritingListSchema } from "../utils/schemas";
 
 type Props = {
   title?: string;
@@ -60,6 +61,8 @@ const toPascalCase = (tag: string): string => {
     .join(" ");
 };
 
+const schema = posts.length > 0 ? generateWritingListSchema(posts) : null;
+
 const { title = "Writing", currentTag } = Astro.props;
 ---
 
@@ -72,6 +75,11 @@ const { title = "Writing", currentTag } = Astro.props;
       srcImage={writingImage.src}
       title={title || SITE_TITLE}
     />
+    {
+      schema && (
+        <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+      )
+    }
   </head>
   <BaseBody>
     <Header />
@@ -82,9 +90,7 @@ const { title = "Writing", currentTag } = Astro.props;
           <slot />
         </div>
         <div class="col-span-12 md:block md:col-span-3">
-          <ul
-            class="flex flex-wrap gap-2 list-none m-0 p-0 print:hidden mb-4"
-          >
+          <ul class="flex flex-wrap gap-2 list-none m-0 p-0 print:hidden mb-4">
             {
               isActive("/blog") && (
                 <li class="text-green-700 dark:text-green-300  border-blue-800 dark:border-blue-500 border-solid border-b-2">
