@@ -19,7 +19,7 @@
     "@astrojs/netlify": "^5.5.4",
     "@astrojs/rss": "^4.0.9",
     "@astrojs/sitemap": "^3.2.1",
-    "@astrojs/svelte": "^5.7.3",
+    "@astrojs/svelte": "^6.0.1",
     "@astrojs/tailwind": "^5.1.2",
     "@codemirror/commands": "^6.7.1",
     "@codemirror/lang-json": "^6.0.1",
