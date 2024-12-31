@@ -66,3 +66,15 @@ The hyperkey has been a game changer. I was worried prior because I had used bot
 Revived my newsletter!
 
 Major website additions, like curations and projects (after years of neglect)
+
+<!-- These are a few of my favorites things
+
+Films
+
+Music
+
+Gifts
+- quotes
+- something about food
+- Stories
+- https://www.nytimes.com/2024/12/21/briefing/your-favorite-things.html -->
