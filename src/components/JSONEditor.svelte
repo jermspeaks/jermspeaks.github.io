@@ -1,4 +1,5 @@
 <script lang="ts">
+  import { onMount, onDestroy } from "svelte";
   import { json } from "@codemirror/lang-json";
   import { createHighlighter } from "shiki";
   import CodeEditor from "./CodeEditor.svelte";
@@ -7,6 +8,8 @@
   let graphqlQueryOrMutation = $state("");
   let spaces = $state(2);
   let error: any | null = $state(null);
+  let highlighter: any | null = $state(null);
+
   const convert = () => {
     // Reset error first
     if (error !== null) {
@@ -32,13 +35,17 @@
     return false;
   };
 
+  // Create highlighter once
+  async function initHighlighter() {
+    highlighter = await createHighlighter({
+      themes: ["github-dark"],
+      langs: ["graphql"],
+    });
+  }
+
   async function getHighlighter() {
     try {
-      const highlighter = await createHighlighter({
-        themes: ["github-dark"],
-        langs: ["graphql"],
-      });
-      console.log("graphqlQueryOrMutation", graphqlQueryOrMutation);
+      // console.log("graphqlQueryOrMutation", graphqlQueryOrMutation);
       return highlighter.codeToHtml(graphqlQueryOrMutation, {
         lang: "graphql",
         theme: "github-dark",
@@ -63,6 +70,16 @@
       error = e;
     }
   };
+
+  onMount(async () => {
+    await initHighlighter();
+  });
+
+  onDestroy(() => {
+    if (highlighter) {
+      highlighter.dispose();
+    }
+  });
 </script>
 
 <CodeEditor bind:value lang={json()} />
