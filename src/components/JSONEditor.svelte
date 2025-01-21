@@ -37,6 +37,10 @@
 
   // Create highlighter once
   async function initHighlighter() {
+    if (highlighter) {
+      // If you create a new highlighter, you need to dispose the old one
+      highlighter.dispose();
+    }
     highlighter = await createHighlighter({
       themes: ["github-dark"],
       langs: ["graphql"],

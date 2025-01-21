@@ -4,9 +4,9 @@ import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import FormattedDate from "../../../components/FormattedDate.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
-const classifieds = (await getCollection("classified")).sort(
-  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
-);
+const classifieds = (await getCollection("classified"))
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .filter((classified) => !classified.data.draft || !classified.data.expired);
 const entry = await getEntry("curation", "classified");
 const { heroImage, heroImageAlt } = entry.data;
 ---
