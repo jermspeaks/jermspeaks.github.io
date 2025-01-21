@@ -1,5 +1,6 @@
 ---
 draft: false
+expired: false
 link: "https://www.linkedin.com/in/marlone-akidiva/"
 location: "Nairobi, Kenya or Remote"
 pubDate: "2024-06-05T18:00:09.000Z"

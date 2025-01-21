@@ -1,5 +1,6 @@
 ---
 draft: false
+expired: false
 link: "https://www.linkedin.com/in/eastmankeith/"
 location: "San Francisco/Bay Area, CA"
 pubDate: "2024-04-18T23:04:03.226Z"
