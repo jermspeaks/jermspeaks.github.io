@@ -30,10 +30,10 @@ const writing = defineCollection({
 const log = defineCollection({
   // Type-check frontmatter using a schema
   schema: z.object({
-    // previousEntry: reference("log").optional(),
-    // nextEntry: reference("log").optional(),
-    previousEntry: z.string().optional(),
-    nextEntry: z.string().optional(),
+    previousEntry: reference("log").optional(),
+    nextEntry: reference("log").optional(),
+    // previousEntry: z.string().optional(),
+    // nextEntry: z.string().optional(),
     description: z.string(),
     draft: z.boolean().optional(),
     heroImage: z
