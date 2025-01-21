@@ -3,6 +3,7 @@ import { getCollection } from "astro:content";
 
 const posts = await getCollection("writing");
 const streams = await getCollection("stream");
+const classifieds = await getCollection("classified");
 const collections = [...posts, ...streams];
 
 // Get unique tags
@@ -22,6 +23,10 @@ collections.forEach((post) => {
     });
   }
 });
+
+const latestClassifieds = classifieds
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 2);
 
 const tagList = Array.from(tags)
   .sort((a, b) => (counts.get(b) ?? 0) - (counts.get(a) ?? 0))
@@ -55,7 +60,8 @@ const toPascalCase = (tag: string): string => {
   <h4>
     🔖 Top 10 <a
       class="dark:text-slate-100 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-      href="/blog/tag">Tags</a>
+      href="/blog/tag">Tags</a
+    >
   </h4>
   <ul class="flex flex-wrap gap-2 list-none m-0 p-0 print:hidden">
     {
@@ -118,5 +124,27 @@ const toPascalCase = (tag: string): string => {
         target="_blank">Powered by Buttondown.</a
       >
     </form>
+  </div>
+  <hr class="mt-10 mb-10" />
+  <div class="prose dark:prose-invert !max-w-none">
+    <h4>
+      <a href="/curation/classified" class="hover:text-purple-500"
+        >Latest Classifieds</a
+      >
+    </h4>
+    <ul>
+      {
+        latestClassifieds.map((classified) => (
+          <li>
+            <a
+              class="dark:text-slate-100 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+              href={`/curation/classified/${classified.slug}`}
+            >
+              {classified.data.title}
+            </a>
+          </li>
+        ))
+      }
+    </ul>
   </div>
 </div>

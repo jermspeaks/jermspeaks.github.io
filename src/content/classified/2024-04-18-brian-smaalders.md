@@ -1,5 +1,6 @@
 ---
 draft: false
+expired: false
 link: "https://www.linkedin.com/in/brian-smaalders-aa8b9817b/"
 location: "San Francisco/Bay Area, CA"
 pubDate: "2024-04-18T23:09:12.225Z"

@@ -32,6 +32,8 @@ const log = defineCollection({
   schema: z.object({
     previousEntry: reference("log").optional(),
     nextEntry: reference("log").optional(),
+    // previousEntry: z.string().optional(),
+    // nextEntry: z.string().optional(),
     description: z.string(),
     draft: z.boolean().optional(),
     heroImage: z
@@ -295,6 +297,7 @@ const curation = defineCollection({
 const classified = defineCollection({
   schema: z.object({
     draft: z.boolean().optional(),
+    expired: z.boolean().optional(),
     referrer: z.string(),
     link: z.string(),
     location: z.string().optional(),
