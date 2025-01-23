@@ -5,7 +5,7 @@ heroImage: https://images.unsplash.com/photo-1506485338023-6ce5f36692df?ixlib=rb
 heroImageAlt: Unsplash image from Jazmin Quaynor showing a weekly calendar
 pubDate: "2025-01-23T01:00:00.000Z"
 tags: ["weeknote", "AI", "pain"]
-title: "2025 Week 02 - Weekly Notes"
+title: "2025 Week 03 - Weekly Notes"
 ---
 
 ### Notes
@@ -93,10 +93,11 @@ This new OK Go music Video
 
 <iframe
   class="aspect-video w-full my-2"
-  src="https://www.youtube.com/watch?v=MOEULOSVNK4"
-  title="OK GO"
+  src="https://www.youtube.com/embed/MOEULOSVNK4"
+  title="OK Go - A Stone Only Rolls Downhill (Official Video)"
   frameborder="0"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
   allowfullscreen></iframe>
 
 ### Obits
