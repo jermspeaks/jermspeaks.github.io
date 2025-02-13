@@ -1,0 +1,58 @@
+---
+description: "Google claims cultural holidays are not sustainable. Are they true?"
+draft: false
+pubDate: "2025-02-13T23:00:00.000Z"
+tags: ["essay"]
+title: "Refuting the claim that cultural holidays are not sustainable"
+heroImage: https://images.unsplash.com/photo-1611988615248-5d4f0b9ac31e?q=80&w=2370&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D
+heroImageAlt: Unsplash image from Kyrie Kim showing a calendar on a bed
+---
+
+The Verge reported that Google Calendar removed events like Pride and BHM because its holiday list [wasn't 'sustainable'](https://www.theverge.com/news/608858/google-calendar-missing-events-holidays). I call BS. So do many others. [Other](https://www.nytimes.com/2025/02/12/technology/google-black-history-womens-history.html) [media](https://apnews.com/article/google-calendar-pride-black-history-month-8c499cfbe399b1eccc436032b3c4ced0) outlets have reported on this, prompted Google to [respond with their own blog post](https://blog.google/feed/google-calendar-changes-cultural-moments/).
+
+> Contrary to some of the comments on social media, this was not something we did just this year.
+
+Of course, Google doesn't want to be accused of any backlash. And given recent events of cancelling cultural celebrations in the name of anti-wokeness, it's no surprise Google is trying to distance themselves from any backlash.
+
+Here's the justification from Google's spokeswoman, Madison Cushman Veld, had to say about this.
+
+> For over a decade we've worked with [timeanddate.com](https://www.timeanddate.com/) to show public holidays and national observances in Google Calendar. Some years ago, the Calendar team started **manually** adding a broader set of cultural moments in a wide number of countries around the world. We got feedback that some other events and countries were missing — and maintaining hundreds of moments manually and consistently globally **wasn't scalable or sustainable**. So in mid-2024 we returned to showing only public holidays and national observances from timeanddate.com globally, while allowing users to manually add other important moments.
+
+> [!note] _bolding and links are my own in the blockquote_
+
+But let's talk some stats for a moment here. Google has some dominance with the Calendar we use. Google Calendar is one of the most widely used calendar apps globally, with [over 1.2 billion monthly visits as of early 2024](https://explodingtopics.com/blog/digital-calendar-market-summary). And Google has a [history of killing off products](https://killedbygoogle.com/). I love Ed Zitron's idea of [The Rot Economy](https://www.wheresyoured.at/the-rot-economy/) in explaining why this all matters. With such reach, these tech companies should be taking more responsibility in representing the world we live in. But because they don't, I thought maybe I'll make my own Calendar and see how difficult this task is.
+
+A few things to note:
+
+- I'm not taking suggestions from others. But if I did, I'd engineer a feedback system to determine how to best add new events on the Calendar. There's more appropriate ways to handle these changes over flat out removing events.
+  - For some ideas, I urge people to read about [Consensus Seeking Decision Making Model](https://en.wikipedia.org/wiki/Consensus_decision-making) that doesn't discount other's voices and tries best to find a solution that works for the most people.
+- I'm using timeanddate.com's full Calendar list as a baseline since that's what Google used. Of course, there's some bias in the list since it's not all inclusive. But they made the list, and I'm guessing their staff had some say in understanding cultural events. We know compromises had to be made.
+- ~~Some of the events in the list are very locally specific (e.g. to a state, or sometimes unspecified the location when it says "Many regions"). I'm going to omit those for now.~~
+
+## The Calendar
+
+import HolidayCalendar from "$lib/components/HolidayCalendar.svelte";
+import HolidayList from "$lib/components/HolidayList.astro";
+
+<div class="not-prose">
+  <HolidayCalendar client:visible />
+</div>
+
+<details>
+  <summary>Full list of holidays</summary>
+  <HolidayList />
+</details>
+
+Some technical notes:
+I built this with the help of Cursor. It uses Svelte, shadcn/ui, tailwindcss, and bits-ui.
+It had a lot of fun learning about bits-ui primitives and will be working on more calendars in the future.
+
+## Conclusion
+
+I took an hour of my day to code this Calendar, which isn't perfect, but reminds me it takes a bit of effort to make it happen.
+There are ways to automate the process of adding events (you can do some research about [rrule](https://jkbrzt.github.io/rrule/)). And in doing the work, you'll recognize the diverse events happening around the world.
+
+I'm not saying Google should add every single event to their Calendar. But they should be more responsible in representing the world we live in.
+
+And to remind ourselves Google has done this before, check out their archive of [Google Doodles - Google's Search Logo Changes for Every Occasion](https://doodles.google/). Don't give me a BS reason not to do something because it's not sustainable when you have a history of doing it.
+If that logic were true, the early years of YouTube would have been a no-go. And so many of their products we use today.

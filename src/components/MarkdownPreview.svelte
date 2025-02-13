@@ -96,7 +96,7 @@
 </script>
 
 <div class="markdown-preview">
-  <div class="grid grid-cols-2 gap-4">
+  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="editor">
       <textarea
         class="w-full h-[500px] p-4 border rounded"

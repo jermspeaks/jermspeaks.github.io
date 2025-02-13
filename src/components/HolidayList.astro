@@ -1,0 +1,17 @@
+---
+import holidays from "../utils/holidays.ts";
+
+const holidaysToShow = holidays;
+---
+
+<ul class="list-none p-0">
+  {holidaysToShow.map((holiday) => (
+    <li class="py-2 px-2 border-b border-gray-200">
+      <span class="text-gray-500 mr-4">{holiday.date}</span>
+      <span class="text-gray-900">{holiday.holiday}</span>
+      {holiday.note && (
+        <span class="text-gray-500 ml-4">{holiday.note}</span>
+      )}
+    </li>
+  ))}
+</ul>
