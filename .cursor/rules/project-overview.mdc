@@ -1,0 +1,18 @@
+---
+description: 
+globs: 
+---
+
+# Project Overview
+
+- This project is built using Astro. There will be `.astro` files for pages, layouts, and components.
+- The chosen library for interactivity is Svelte. Specifically, use Svelte 5 syntax.
+- All content is written in Markdown or MDX. 
+- Name in PascalCase under `src/components/`.
+- Keep them small, typed with interfaces.
+- Use Tailwind, radix, and shadcn/ui for common UI components like textarea, button, etc.
+
+## Tailwind Usage
+
+- Use Tailwind (mobile-first, dark mode with dark:(class)). Extend brand tokens in `tailwind.config.ts`.
+
