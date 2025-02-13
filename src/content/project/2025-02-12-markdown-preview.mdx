@@ -1,0 +1,40 @@
+---
+title: Markdown Preview Viewer
+description: With the output of AI as markdown, I want to easily preview it.
+createdDate: "2025-02-12T00:00:00.000Z"
+pubDate: "2025-02-12T00:00:00.000Z"
+image: "https://external-content.duckduckgo.com/iu/?u=https://www.fullstackpython.com/img/logos/markdown.png&f=1&nofb=1&ipt=19c937c69b9f6c8bea7ee635e5a7f3785f9b6e92e74ba5a4942c908994d3b071&ipo=images"
+imageAlt: "Markdown Logo"
+---
+
+import MarkdownPreview from "../../components/MarkdownPreview.svelte";
+
+<div class="not-prose">
+  <MarkdownPreview client:load />
+</div>
+
+The Markdown Preview Viewer includes the following features:
+
+1. **Live Preview**: As you type markdown in the left panel, the output is rendered in real-time on the right panel, providing immediate feedback on your formatting.
+
+2. **Syntax Highlighting**: The viewer supports syntax highlighting for code blocks using highlight.js, making your code snippets more readable with proper language-specific coloring.
+
+3. **Rich Text Copying**: The "Copy to Clipboard" button preserves formatting when pasting into applications like Google Slides or other rich text editors. If HTML copying isn't supported, it falls back to plain text.
+
+4. **Download as Markdown**: You can download your markdown content as a `.md` file for later use or sharing.
+
+5. **Responsive Layout**: The viewer uses a two-column layout that works well on larger screens, with a clean and simple interface.
+
+6. **Error Handling**: If there are any issues with parsing the markdown, clear error messages are displayed to help you identify and fix the problem.
+
+7. **Markdown Element Support**: The preview supports all common markdown elements including:
+   - Headers (H1, H2, H3)
+   - Lists (ordered and unordered)
+   - Code blocks with syntax highlighting
+   - Inline code
+   - Links with hover effects
+   - Images with responsive sizing
+   - Blockquotes
+   - Tables with proper formatting
+
+8. **Custom Styling**: Each markdown element is styled with careful attention to typography, spacing, and readability, ensuring your content looks polished and professional.
