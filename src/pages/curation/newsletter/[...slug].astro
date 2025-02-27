@@ -42,7 +42,7 @@ const { Content } = await series.render();
         posts.map((post) => (
           <li class="flex">
             <FormattedDate
-              class="mt-0 lg:mt-0 flex-shrink-0 flex-grow-0 flex-[130px] italic text-slate-600"
+              class="mt-0 lg:mt-0 shrink-0 grow-0 flex-[130px] italic text-slate-600"
               date={post.data.pubDate}
             />
             <a class="visited:text-amber-600" href={`/blog/${post.slug}/`}>

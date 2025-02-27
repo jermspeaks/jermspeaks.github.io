@@ -69,7 +69,7 @@ The following is the initial exchange of what areas she wanted to focus on.
 
 > These areas I am more unsure about, in regards to what kind of information they would want.
 > We didn't go very deeply into the concept of REST APIs during the bootcamp itself, any explanations were usually in optional sections of the platform.
-> My best guess, based on the curriculum, is they would be satisfied with a well-rounded overview/definition of what REST is and why its used.
+> My best guess, based on the curriculum, is they would be satisfied with a well-rounded-sm overview/definition of what REST is and why its used.
 > Additionally, explaining implementation of RESTful Routing in a framework such as Rails or Django (more semi-RESTful for the latter).
 
 > And there is a small chance they may ask me about APIs, which can be as general as "What is an API?" and "How are they used?" or as specific as providing an example of API usage with AJAX and jQuery.

@@ -6,7 +6,7 @@ const bookLibrary = (await getCollection("book")).sort(
   (a, b) => b.data.dateConsumed.valueOf() - a.data.dateConsumed.valueOf()
 );
 const entry = await getEntry("curation", "books");
-const { heroImage, heroImageAlt } = entry.data;
+const { heroImage, heroImageAlt } = entry?.data ?? {};
 ---
 
 <CurationDetailsPage image={heroImage} imageAlt={heroImageAlt} title="Library">
@@ -14,8 +14,8 @@ const { heroImage, heroImageAlt } = entry.data;
     <ul class="grid grid-cols-1 lg:grid-cols-2 gap-8 list-none p-0">
       {
         bookLibrary.map((book) => (
-          <li class="flex flex-col sm:flex-row flex-[100%] sm:flex-[48%] gap-4 mb-6 md:mb-0 rounded-sm box-border dark:text-white">
-            <div class="flex-shrink-0 flex-grow-0 flex-initial sm:w-32">
+          <li class="flex flex-col sm:flex-row flex-[100%] sm:flex-[48%] gap-4 mb-6 md:mb-0 rounded-xs box-border dark:text-white">
+            <div class="shrink-0 grow-0 flex-initial sm:w-32">
               <a
                 class="visited:text-amber-600 hover:grayscale"
                 href={`/curation/books/${book.slug}`}

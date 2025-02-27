@@ -50,17 +50,17 @@
     {maxValue}
     {minValue}
     numberOfMonths={1}
-    class="rounded-md border shadow calendar-container"
+    class="rounded-md border border-gray-200 shadow-sm calendar-container"
     {isDateUnavailable}
   />
   <button
-    class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500 disabled:opacity-50 disabled:cursor-not-allowed"
+    class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded-sm hover:bg-purple-500 disabled:opacity-50 disabled:cursor-not-allowed"
     disabled={value?.toString() === today(getLocalTimeZone()).toString()}
     on:click={() => (value = today(getLocalTimeZone()))}>Return to today</button
   >
 
   {#if selectedHolidays.length > 0}
-    <div class="p-4 border rounded-md space-y-2">
+    <div class="p-4 border border-gray-200 rounded-md space-y-2">
       <h3 class="font-semibold text-lg">
         Holidays on {value?.toString()}
       </h3>
@@ -77,7 +77,7 @@
       </div>
     </div>
   {:else}
-    <div class="p-4 border rounded-md space-y-2">
+    <div class="p-4 border border-gray-200 rounded-md space-y-2">
       <h3 class="font-semibold text-lg">
         No holidays on {value?.toString()}
       </h3>

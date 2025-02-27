@@ -99,14 +99,14 @@
   <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
     <div class="editor">
       <textarea
-        class="w-full h-[500px] p-4 border rounded"
+        class="w-full h-[500px] p-4 border border-gray-200 rounded-sm"
         bind:value={markdownInput}
         on:input={updatePreview}
         placeholder="Type your markdown here..."
       ></textarea>
     </div>
     <div class="preview">
-      <div class="w-full h-[500px] p-4 border rounded overflow-auto">
+      <div class="w-full h-[500px] p-4 border border-gray-200 rounded-sm overflow-auto">
         {@html renderedOutput}
       </div>
     </div>

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@config "../../tailwind.config.js";
 
 @font-face {
   font-family: "Brother 1816";

@@ -153,7 +153,7 @@ Tim Urban's idea of a controlled dopamine hit makes a lot of sense to me. Maybe 
 
 - Tim Urban on X: "24 thoughts that gave me a dopamine hit this year" - [X thread](https://twitter.com/waitbutwhy/status/1874207852988137776)
 
-Rounded up resources regarding Ollama
+rounded-sm up resources regarding Ollama
 
 <iframe
   class="aspect-video w-full my-2"
