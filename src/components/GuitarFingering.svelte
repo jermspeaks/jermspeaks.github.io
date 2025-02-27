@@ -154,7 +154,7 @@
 <div class="grid grid-cols-6 gap-4">
   {#each notes as note}
     <div
-      class="col-span-3 sm:col-span-2 md:col-span-1 flex items-center ps-4 border border-gray-200 rounded dark:border-gray-700"
+      class="col-span-3 sm:col-span-2 md:col-span-1 flex items-center ps-4 border border-gray-200 rounded-sm dark:border-gray-700"
     >
       <input
         class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"
@@ -183,7 +183,7 @@
   <div class="grid grid-cols-6 gap-8">
     {#each options as option}
       <div
-        class="col-span-3 sm:col-span-2 md:col-span-1 flex items-center ps-4 border border-gray-200 rounded dark:border-gray-700"
+        class="col-span-3 sm:col-span-2 md:col-span-1 flex items-center ps-4 border border-gray-200 rounded-sm dark:border-gray-700"
       >
         <input
           class="w-4 h-4 text-blue-600 bg-gray-100 border-gray-300 focus:ring-blue-500 dark:focus:ring-blue-600 dark:ring-offset-gray-800 focus:ring-2 dark:bg-gray-700 dark:border-gray-600"

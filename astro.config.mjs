@@ -6,7 +6,7 @@ import rehypeExternalLinks from "rehype-external-links";
 import rehypeSlug from "rehype-slug";
 import sitemap from "@astrojs/sitemap";
 import svelte from "@astrojs/svelte";
-import tailwind from "@astrojs/tailwind";
+import tailwindcss from "@tailwindcss/vite";
 // import netlify from "@astrojs/netlify/static";
 
 import { asideAutoImport, astroAsides } from "./integrations/astro-asides";
@@ -27,16 +27,15 @@ export default defineConfig({
     ],
     remarkPlugins: [remarkReadingTime],
   },
+  vite: {
+    plugins: [tailwindcss()],
+  },
   integrations: [
     AutoImport({
       imports: [asideAutoImport],
     }),
     sitemap(),
     svelte(),
-    tailwind({
-      configFile: "./tailwind.config.js",
-      applyBaseStyles: false,
-    }),
     astroAsides(),
     mdx({
       rehypePlugins: [

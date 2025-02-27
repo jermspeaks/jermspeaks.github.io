@@ -12,7 +12,7 @@
 </script>
 
 <button
-  class="my-2 px-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
+  class="my-2 px-2 border-slate-800 dark:border-slate-200 border-2 rounded-sm hover:bg-purple-500"
   onclick={addItem}>Add Item</button
 >
 
@@ -21,7 +21,7 @@
     <li transition:slide={{ duration: 200 }}>
       {item}
       <button
-        class="my-2 px-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
+        class="my-2 px-2 border-slate-800 dark:border-slate-200 border-2 rounded-sm hover:bg-purple-500"
         onclick={() => removeItem(index)}>Remove</button
       >
     </li>

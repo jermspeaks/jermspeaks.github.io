@@ -47,19 +47,20 @@
 
 <div>
   <p
-    class="border-2 text-center px-2 py-4 border-slate-800 dark:border-slate-200 rounded"
+    class="border-2 text-center px-2 py-4 border-slate-800 dark:border-slate-200 rounded-sm"
   >
     Generated UUID: {uuid}
   </p>
   <div class="flex align-middle gap-4">
     <button
-      class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
+      class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded-sm hover:bg-purple-500"
       onclick={() => (uuid = generateUUID())}>Generate New UUID</button
     >
     <div class="relative">
       <button
-        class="px-2 py-1 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
+        class="px-2 py-1 my-2 border-slate-800 dark:border-slate-200 border-2 rounded-sm hover:bg-purple-500"
         onclick={() => copyToClipboard(uuid)}
+        aria-label="Copy to clipboard"
       >
         <svg
           width="30px"

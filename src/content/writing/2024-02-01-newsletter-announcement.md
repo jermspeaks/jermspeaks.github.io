@@ -35,7 +35,7 @@ With that, I'm going to send my first newsletter sometime in February, so make s
   <button
     type="submit"
     value="Subscribe"
-    class="bg-yellow-700 hover:bg-purple-700 dark:bg-yellow-300 text-white dark:text-black font-bold px-4 rounded"
+    class="bg-yellow-700 hover:bg-purple-700 dark:bg-yellow-300 text-white dark:text-black font-bold px-4 rounded-sm"
     >Subscribe</button
   >
   <a

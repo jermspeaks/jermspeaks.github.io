@@ -72,14 +72,14 @@
   <button
     onclick={handlePing}
     disabled={isLoading}
-    class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
+    class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded-sm hover:bg-purple-500"
   >
     {isLoading ? "Pinging..." : "Ping Websites"}
   </button>
 
   {#if error}
     <div
-      class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded relative"
+      class="bg-red-100 border border-red-400 text-red-700 px-4 py-3 rounded-sm relative"
       role="alert"
     >
       <strong class="font-bold">Error!</strong>
@@ -91,7 +91,7 @@
     <div class="space-y-2">
       <button
         onclick={downloadCSV}
-        class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded hover:bg-purple-500"
+        class="px-2 my-2 border-slate-800 dark:border-slate-200 border-2 rounded-sm hover:bg-purple-500"
       >
         Download Results (CSV)
       </button>
