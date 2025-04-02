@@ -121,7 +121,3 @@ Film: [Turn Every Page – The Adventures of Robert Caro and Robert Gottlieb | S
 - Book: [Superagency - What Could Possibly Go Right with Our AI Future](https://www.superagency.ai/) by Reid Hoffman
 - Steven Levy has a newsletter. - [Plaintext Newsletter by Steven Levy | WIRED](https://www.wired.com/newsletter/plaintext?sourceCode=BottomStories)
 - Book: [Let's Talk About It Links](https://www.erikamoen.com/LetsTalk/)
-
-### Obits
-
-%% Anyone who has died %%
