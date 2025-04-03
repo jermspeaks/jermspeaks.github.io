@@ -48,7 +48,7 @@ Released this week
 
 - [Let’s talk about Brain Rot – The OpenSource Temple](https://opensourcetemple.com/lets-talk-about-brain-rot/)
 
-Who Is in DOGE? Tracking Its Staffers and Allies in the Federal Government - The New York Times](https://www.nytimes.com/interactive/2025/02/27/us/politics/doge-staff-list.html)
+[Who Is in DOGE? Tracking Its Staffers and Allies in the Federal Government - The New York Times](https://www.nytimes.com/interactive/2025/02/27/us/politics/doge-staff-list.html)
 
 - [The people in Elon Musk's DOGE universe | TechCrunch](https://techcrunch.com/2025/02/25/the-people-in-elon-musk-doge-universe/)
 - [The Young, Inexperienced Engineers Aiding Elon Musk’s Government Takeover | WIRED](https://www.wired.com/story/elon-musk-government-young-engineers/)

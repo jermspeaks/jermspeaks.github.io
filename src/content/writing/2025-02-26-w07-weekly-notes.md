@@ -75,7 +75,14 @@ Yeah, I think I missed this last time - [Introducing ChatGPT Gov | OpenAI](https
 
 ![How Oil Propaganda Sneaks Into TV Shows | Climate Town - YouTube](https://youtu.be/wBC_bug5DIQ)
 
-![](https://www.youtube.com/watch?v=ZfBkw0j-QIs)
+<iframe
+  class="aspect-video w-full my-2"
+  src="https://www.youtube.com/embed/ZfBkw0j-QIs"
+  title="This is not normal"
+  frameborder="0"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allowfullscreen></iframe>
 
 [Chat With Your Readwise Highlights - Readwise Docs](https://docs.readwise.io/readwise/guides/chat-with-highlights)
 
