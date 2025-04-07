@@ -7,6 +7,7 @@
   let renderedOutput = "";
   let error = "";
   let highlighter;
+  let isPreviewMode = false; // New state to track the current mode
 
   onMount(async () => {
     try {
@@ -27,7 +28,13 @@
         ],
       });
 
-      // Configure marked to use Shiki
+      marked.use({
+        pedantic: false,
+        gfm: true,
+        breaks: true,
+      });
+
+      // Configure marked with all options
       marked.setOptions({
         highlight: (code, lang) => {
           try {
@@ -88,6 +95,14 @@
     URL.revokeObjectURL(url);
   }
 
+  // Function to toggle between editor and preview modes
+  function toggleMode() {
+    isPreviewMode = !isPreviewMode;
+    if (isPreviewMode) {
+      updatePreview();
+    }
+  }
+
   onDestroy(() => {
     if (highlighter) {
       highlighter.dispose();
@@ -96,32 +111,39 @@
 </script>
 
 <div class="markdown-preview">
-  <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
-    <div class="editor">
-      <textarea
-        class="w-full h-[500px] p-4 border border-gray-200 rounded-sm"
-        bind:value={markdownInput}
-        on:input={updatePreview}
-        placeholder="Type your markdown here..."
-      ></textarea>
-    </div>
-    <div class="preview">
-      <div class="w-full h-[500px] p-4 border border-gray-200 rounded-sm overflow-auto">
-        {@html renderedOutput}
-      </div>
+  <div class="flex flex-col md:flex-row gap-2 justify-between items-center mb-4">
+    <button
+      class="px-2 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
+      on:click={toggleMode}
+    >
+      {isPreviewMode ? "Switch to Editor" : "Switch to Preview"}
+    </button>
+    <div class="flex flex-col md:flex-row gap-2">
+      <button
+        class="px-2 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
+        on:click={copyToClipboard}>Copy to Clipboard</button
+      >
+      <button
+        class="px-2 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
+        on:click={downloadMarkdown}>Download as .md</button
+      >
     </div>
   </div>
 
-  <div class="flex gap-2 mt-4">
-    <button
-      class="px-4 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
-      on:click={copyToClipboard}>Copy to Clipboard</button
+  {#if isPreviewMode}
+    <div
+      class="preview not-prose w-full h-[500px] p-4 border border-gray-200 rounded-sm overflow-auto"
     >
-    <button
-      class="px-4 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
-      on:click={downloadMarkdown}>Download as .md</button
-    >
-  </div>
+      {@html renderedOutput}
+    </div>
+  {:else}
+    <textarea
+      class="w-full h-[500px] p-4 border border-gray-200 rounded-sm"
+      bind:value={markdownInput}
+      on:input={updatePreview}
+      placeholder="Type your markdown here..."
+    ></textarea>
+  {/if}
 
   {#if error}
     <div class="error mt-4 text-red-500">{error}</div>
