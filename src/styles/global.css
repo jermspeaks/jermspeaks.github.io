@@ -187,6 +187,12 @@
   --font-size-6: 2.488rem;
 }
 
+@media (prefers-color-scheme: dark) {
+  :root {
+    --color-page-bg: #020817;
+  }
+}
+
 @media screen and (min-width: 800px) {
   :root {
     /* scale for 1.33 */
