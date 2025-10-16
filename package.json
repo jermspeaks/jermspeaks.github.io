@@ -24,7 +24,7 @@
     "@codemirror/lang-json": "^6.0.2",
     "@codemirror/language": "^6.11.3",
     "@codemirror/state": "^6.5.2",
-    "@codemirror/view": "^6.38.4",
+    "@codemirror/view": "^6.38.6",
     "@observablehq/plot": "^0.6.17",
     "@tailwindcss/typography": "^0.5.19",
     "@tailwindcss/vite": "^4.1.14",
