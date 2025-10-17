@@ -1,0 +1,135 @@
+---
+export interface Props {
+  url: string;
+  size?: 'sm' | 'md' | 'lg';
+  description?: string;
+}
+
+const { url, size = 'md', description: overrideDescription } = Astro.props;
+
+// Function to decode HTML entities
+function decodeHtmlEntities(text: string): string {
+  const entityMap: { [key: string]: string } = {
+    '&amp;': '&',
+    '&lt;': '<',
+    '&gt;': '>',
+    '&quot;': '"',
+    '&#39;': "'",
+    '&apos;': "'",
+    '&nbsp;': ' ',
+    '&copy;': '©',
+    '&reg;': '®',
+    '&trade;': '™',
+    '&hellip;': '…',
+    '&mdash;': '—',
+    '&ndash;': '-',
+    '&lsquo;': '\'',
+    '&rsquo;': '\'',
+    '&ldquo;': '\"',
+    '&rdquo;': '\"',
+  };
+  
+  return text.replace(/&[a-zA-Z0-9#]+;/g, (entity) => {
+    // Handle numeric entities like &#x27; and &#39;
+    if (entity.startsWith('&#x')) {
+      const hex = entity.slice(3, -1);
+      return String.fromCharCode(parseInt(hex, 16));
+    }
+    if (entity.startsWith('&#')) {
+      const decimal = entity.slice(2, -1);
+      return String.fromCharCode(parseInt(decimal, 10));
+    }
+    
+    return entityMap[entity] || entity;
+  });
+}
+
+// Function to extract meta tags from HTML
+function extractMetaTags(html: string) {
+  const titleMatch = html.match(/<title[^>]*>([^<]*)<\/title>/i);
+  const ogTitleMatch = html.match(/<meta[^>]*property=["']og:title["'][^>]*content=["']([^"']*(?:'[^"']*)*)["'][^>]*>/i);
+  const ogImageMatch = html.match(/<meta[^>]*property=["']og:image["'][^>]*content=["']([^"']*(?:'[^"']*)*)["'][^>]*>/i);
+  
+  // Try description in order: description meta tag, og:description, twitter:description
+  const descriptionMatch = html.match(/<meta[^>]*name=["']description["'][^>]*content=["']([^"']*(?:'[^"']*)*)["'][^>]*>/i);
+  const ogDescriptionMatch = html.match(/<meta[^>]*property=["']og:description["'][^>]*content=["']([^"']*(?:'[^"']*)*)["'][^>]*>/i);
+  const twitterDescriptionMatch = html.match(/<meta[^>]*name=["']twitter:description["'][^>]*content=["']([^"']*(?:'[^"']*)*)["'][^>]*>/i);
+  
+  // Get the first non-empty description
+  const description = descriptionMatch?.[1] || ogDescriptionMatch?.[1] || twitterDescriptionMatch?.[1] || '';
+
+  return {
+    title: decodeHtmlEntities(ogTitleMatch?.[1] || titleMatch?.[1] || 'Untitled'),
+    description: decodeHtmlEntities(description),
+    image: ogImageMatch?.[1] || null
+  };
+}
+
+let metadata: {
+  title: string;
+  description: string;
+  image: string | null;
+} = {
+  title: 'Untitled',
+  description: '',
+  image: null
+};
+
+try {
+  const response = await fetch(url);
+  if (response.ok) {
+    const html = await response.text();
+    metadata = extractMetaTags(html);
+  }
+} catch (error) {
+  console.warn(`Failed to fetch metadata for ${url}:`, error);
+}
+---
+
+<a
+  href={url}
+  target="_blank"
+  rel="noopener noreferrer"
+  class="block border border-gray-200 dark:border-gray-700 rounded-lg overflow-hidden bg-white dark:bg-gray-800 hover:bg-gray-50 dark:hover:bg-gray-700 no-underline prose-a:no-underline"
+>
+  <div class={size === 'lg' ? 'flex flex-col' : 'flex flex-col md:flex-row'}>
+    {metadata.image && (
+      <div class={size === 'lg' ? 'w-full' : 'md:w-48 flex-shrink-0'}>
+        <img
+          src={metadata.image}
+          alt={metadata.title || "Link preview image"}
+          class={
+            size === 'lg' 
+              ? 'w-full h-96 object-cover' 
+              : size === 'sm' 
+                ? 'w-full h-16 object-cover' 
+                : 'w-full h-32 md:h-full object-cover'
+          }
+        />
+      </div>
+    )}
+
+    <div class="p-4 flex-1">
+      <div class="text-md mb-1 line-clamp-2">
+        <span class="font-semibold text-gray-900 dark:text-gray-100">{metadata.title || "Untitled"}</span>
+        <span class="text-xs text-gray-500 dark:text-gray-500"> · {new URL(url).hostname}</span>
+      </div>
+
+      {size !== 'sm' && (
+        <p class="text-sm text-gray-700 dark:text-gray-300 mb-2 line-clamp-2">
+          {overrideDescription || metadata.description || "No description available"}
+        </p>
+      )}
+    </div>
+  </div>
+</a>
+
+<style>
+  .line-clamp-2 {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+  }
+</style>

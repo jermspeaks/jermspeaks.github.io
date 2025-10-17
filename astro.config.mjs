@@ -10,6 +10,10 @@ import tailwindcss from "@tailwindcss/vite";
 // import netlify from "@astrojs/netlify/static";
 
 import { asideAutoImport, astroAsides } from "./integrations/astro-asides";
+
+const linkPreviewAutoImport = {
+  "../src/components/LinkPreview.astro": [["default", "LinkPreview"]],
+};
 import rehypeAutolinkConfig from "./plugins/rehype-autolink-heading-config";
 import rehypeExternalLinkConfig from "./plugins/rehype-external-link-config";
 import rehypeFigure from "./plugins/rehype-figure";
@@ -32,7 +36,7 @@ export default defineConfig({
   },
   integrations: [
     AutoImport({
-      imports: [asideAutoImport],
+      imports: [asideAutoImport, linkPreviewAutoImport],
     }),
     sitemap(),
     svelte(),

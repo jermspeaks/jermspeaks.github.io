@@ -38,7 +38,7 @@ const { page } = Astro.props;
     </p>
   </ProseArticle>
   <hr class="border-y-4 border-r-2 border-gray-400 dark:border-gray-700 my-4" />
-  <ul class="list-none p-0 ps-0">
+  <ul class="list-none p-0 ps-0 divide-y divide-gray-300 dark:divide-gray-600">
     {page.data.map((stream: any) => <StreamItem item={stream} />)}
   </ul>
   <div class="flex justify-evenly items-center">
