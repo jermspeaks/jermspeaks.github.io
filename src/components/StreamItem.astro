@@ -16,17 +16,20 @@ const { Content } = await item.render();
 <li class="px-0 py-4">
   <ProseArticle class="prose-headings:mt-0">
     <div
-      class="grid grid-cols-1 md:grid-cols-8 gap-4 mb-8 text-slate-700 dark:text-slate-100"
+      class="grid grid-cols-1 md:grid-cols-8 gap-2 mb-8 text-slate-700 dark:text-slate-100"
     >
-      <div class="col-span-2 italic">
-          <FormattedDate
-            date={item.data.pubDate}
-            options={{ hour: "numeric", minute: "numeric" }}
-          />
-        </a>
-      </div>
-      <div class="col-span-6">
-        <h2 id={slug}><a href={`/curation/stream/link/${slug}`}>{title}</a></h2>
+      <div class="col-span-8">
+        <div id={slug} class="text-md md:text-lg">
+          <a
+            class="no-underline hover:underline hover:text-purple-500"
+            href={`/curation/stream/link/${slug}`}>{title}</a
+          >
+        </div>
+        <FormattedDate
+          class="italic text-sm"
+          date={item.data.pubDate}
+          options={{ hour: "numeric", minute: "numeric" }}
+        />
         <Content />
       </div>
     </div>
