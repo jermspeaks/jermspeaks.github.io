@@ -2,7 +2,7 @@ import { fontFamily } from "tailwindcss/defaultTheme";
 
 /** @type {import('tailwindcss').Config} */
 const config = {
-  darkMode: 'media',
+  darkMode: "media",
   content: ["./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}"],
   safelist: ["dark"],
   theme: {
@@ -60,8 +60,27 @@ const config = {
       typography: {
         quoteless: {
           css: {
-            "blockquote p:first-of-type::before": { content: "none" },
+            blockquote: {
+              borderLeft: "none",
+              paddingLeft: "0",
+              position: "relative",
+            },
+            "blockquote p:first-of-type::before": {
+              content: "'\"'",
+              fontSize: "3rem",
+              color: "#dc2626",
+              fontWeight: "bold",
+              position: "absolute",
+              top: "-0.5rem",
+              left: "-0.5rem",
+              lineHeight: "1",
+              fontFamily: "\"Brother 1816\", Verdana, sans-serif",
+            },
             "blockquote p:first-of-type::after": { content: "none" },
+            "blockquote p:first-of-type": {
+              paddingLeft: "2rem",
+              marginTop: "1rem",
+            },
           },
         },
       },
