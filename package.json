@@ -10,6 +10,7 @@
     "create:writing": "node ./scripts/create-writing.mjs",
     "deploy": "netlify deploy --build --prod",
     "dev": "astro dev",
+    "metadata:extract": "node scripts/extract-metadata.mjs",
     "preview": "astro preview",
     "start": "astro dev",
     "sync": "astro sync"
