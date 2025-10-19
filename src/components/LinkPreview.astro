@@ -3,9 +3,13 @@ export interface Props {
   url: string;
   size?: 'sm' | 'md' | 'lg';
   description?: string;
+  title?: string;
+  image?: string;
 }
 
-const { url, size = 'md', description: overrideDescription } = Astro.props;
+const { url, size = 'md', description: overrideDescription, title: overrideTitle, image: overrideImage } = Astro.props;
+
+import { getCachedMetadata, saveToCache } from '../utils/metadataCache';
 
 // Function to decode HTML entities
 function decodeHtmlEntities(text: string): string {
@@ -70,19 +74,47 @@ let metadata: {
   description: string;
   image: string | null;
 } = {
-  title: 'Untitled',
-  description: '',
-  image: null
+  title: overrideTitle || 'Untitled',
+  description: overrideDescription || '',
+  image: overrideImage || null
 };
 
-try {
-  const response = await fetch(url);
-  if (response.ok) {
-    const html = await response.text();
-    metadata = extractMetaTags(html);
+// Only fetch if we don't have manual overrides for everything
+const needsFetch = !overrideTitle || !overrideDescription || !overrideImage;
+
+if (needsFetch) {
+  // Try cache first
+  const cached = getCachedMetadata(url);
+  
+  if (cached) {
+    metadata = {
+      title: overrideTitle || cached.title,
+      description: overrideDescription || cached.description,
+      image: overrideImage || cached.image
+    };
+    console.log(`Using cached metadata for: ${url}`);
+  } else {
+    // Fetch from URL if not in cache
+    try {
+      const response = await fetch(url);
+      if (response.ok) {
+        const html = await response.text();
+        const fetchedMetadata = extractMetaTags(html);
+        
+        // Save to cache for future builds
+        saveToCache(url, fetchedMetadata);
+        
+        // Use fetched data for missing overrides
+        metadata = {
+          title: overrideTitle || fetchedMetadata.title,
+          description: overrideDescription || fetchedMetadata.description,
+          image: overrideImage || fetchedMetadata.image
+        };
+      }
+    } catch (error) {
+      console.warn(`Failed to fetch metadata for ${url}:`, error);
+    }
   }
-} catch (error) {
-  console.warn(`Failed to fetch metadata for ${url}:`, error);
 }
 ---
 
