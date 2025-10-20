@@ -16,25 +16,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from "../consts";
 
   <BaseBody>
     <Header />
-    <main class="dark:text-white">
-      <div class="mt-4 mb-6 flex flex-col sm:flex-row gap-4 justify-between">
-        <div>
-          <h1 class="text-3xl md:text-6xl">
-            👋🏽 Hi! This is Jeremy's Craft by Zen
-          </h1>
-        </div>
-      </div>
-
-      <hr class="mt-10 mb-10" />
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-8">
-        <div class="col-span-1 md:col-span-6">
-          <HomePagePosts />
-        </div>
-        <div class="col-span-1 md:block md:col-span-2">
-          <HomePageSide />
-        </div>
-      </div>
-    </main>
+    <HomePagePosts />
     <Footer />
   </BaseBody>
 </html>

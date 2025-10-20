@@ -1,6 +1,6 @@
 ---
 import { SITE_TITLE } from "../consts";
-import AlgoliaSearch from "./AlgoliaSearch.astro";
+import SearchDialog from "./SearchDialog.astro";
 import HeaderLink from "./HeaderLink.astro";
 
 type Props = {
@@ -10,18 +10,21 @@ type Props = {
 const { searchEnabled = true } = Astro.props;
 ---
 
-<header class="mb-4 flex justify-between align-middle print:hidden">
-  <h2
-    class="text-xl font-bold mb-4 text-black no-underline hover:text-gray-600 dark:text-white"
+<header
+  class="max-w-xl md:max-w-2xl mx-auto mb-4 flex justify-between align-middle print:hidden"
+>
+  <h1
+    class="text-xl font-bold mb-4 text-black no-underline hover:text-gray-600 dark:hover:text-yellow-300 dark:text-white"
   >
     <a href="/">{SITE_TITLE}</a>
-  </h2>
+    <span class="text-sm text-gray-500">by Jeremy Wong</span>
+  </h1>
   <nav class="hidden md:flex md:gap-3 md:items-center md:mb-4 dark:text-white">
-    {searchEnabled && <AlgoliaSearch />}
-    <HeaderLink href="/blog">Writing</HeaderLink>
+    <!-- <HeaderLink href="/blog">Writing</HeaderLink> -->
     <HeaderLink href="/project">Playground</HeaderLink>
     <HeaderLink href="/curation">Curation</HeaderLink>
     <HeaderLink href="/about">About</HeaderLink>
+    {searchEnabled && <SearchDialog />}
   </nav>
   <div class="md:hidden">
     {

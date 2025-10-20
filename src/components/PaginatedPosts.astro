@@ -9,88 +9,263 @@ import HomePageNowItem from "./HomePageNowItem.astro";
 import HomePageProjectItem from "./HomePageProjectItem.astro";
 import HomePageStreamItem from "./HomePageStreamItem.astro";
 import HomePageWritingItem from "./HomePageWritingItem.astro";
+import SubscriptionBanner from "./SubscriptionBanner.astro";
 
 interface Props {
   posts: any[];
+  showSubscriptionBanner?: boolean;
 }
 
-const { posts } = Astro.props;
+const { posts, showSubscriptionBanner = false } = Astro.props;
+
+// Helper function to generate consistent class names for post items
+const getPostItemClasses = (index: number) => {
+  const baseClasses = ["dark:text-white", "my-2"];
+  const borderClasses = index > 0 ? "border-t border-dashed border-gray-300 dark:border-gray-600 pt-4" : "";
+  return [...baseClasses, borderClasses].filter(Boolean);
+};
 ---
 
-<ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
-  {
-    posts.map((item) => {
-      if (item.data.kind === "writing") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageWritingItem item={item} />
-          </li>
-        );
+{
+  showSubscriptionBanner && posts.length > 3 ? (
+    <>
+      <ul class="list-none sm:p-0 grid grid-cols-1 gap-4 pb-4">
+        {
+          posts.slice(0, 3).map((item, index) => {
+            if (item.data.kind === "writing") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageWritingItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "stream") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageStreamItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "project") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageProjectItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "films") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageFilmItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "books") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageBookItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "antibooks") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageAntiBookItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "now") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageNowItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "log") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageLogItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "inspiration") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageInspirationItem item={item} />
+                </li>
+              );
+            }
+            if (
+              ["series", "lindy", "creators", "curation", "classified"].includes(
+                item.data.kind
+              )
+            ) {
+              return <HomePageCurationItem item={item} />;
+            }
+            return null;
+          })
+        }
+      </ul>
+      <SubscriptionBanner />
+      <ul class="list-none sm:p-0 grid grid-cols-1 gap-4 border-t border-gray-300 dark:border-gray-600 pt-4">
+        {
+          posts.slice(3).map((item, index) => {
+            if (item.data.kind === "writing") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageWritingItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "stream") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageStreamItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "project") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageProjectItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "films") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageFilmItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "books") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageBookItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "antibooks") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageAntiBookItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "now") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageNowItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "log") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageLogItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "inspiration") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageInspirationItem item={item} />
+                </li>
+              );
+            }
+            if (
+              ["series", "lindy", "creators", "curation", "classified"].includes(
+                item.data.kind
+              )
+            ) {
+              return <HomePageCurationItem item={item} />;
+            }
+            return null;
+          })
+        }
+      </ul>
+    </>
+  ) : (
+    <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
+      {
+        posts.map((item, index) => {
+            if (item.data.kind === "writing") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageWritingItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "stream") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageStreamItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "project") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageProjectItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "films") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageFilmItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "books") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageBookItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "antibooks") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageAntiBookItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "now") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageNowItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "log") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageLogItem item={item} />
+                </li>
+              );
+            }
+            if (item.data.kind === "inspiration") {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageInspirationItem item={item} />
+                </li>
+              );
+            }
+            if (
+              ["series", "lindy", "creators", "curation", "classified"].includes(
+                item.data.kind
+              )
+            ) {
+              return (
+                <li class:list={getPostItemClasses(index)}>
+                  <HomePageCurationItem item={item} />
+                </li>
+              );
+            }
+          return null;
+        })
       }
-      if (item.data.kind === "stream") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageStreamItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "project") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageProjectItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "films") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageFilmItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "books") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageBookItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "antibooks") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageAntiBookItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "now") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageNowItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "log") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageLogItem item={item} />
-          </li>
-        );
-      }
-      if (item.data.kind === "inspiration") {
-        return (
-          <li class:list={["dark:text-white", "my-2"]}>
-            <HomePageInspirationItem item={item} />
-          </li>
-        );
-      }
-      if (
-        ["series", "lindy", "creators", "curation", "classified"].includes(
-          item.data.kind
-        )
-      ) {
-        return <HomePageCurationItem item={item} />;
-      }
-      return null;
-    })
-  }
-</ul>
+    </ul>
+  )
+}

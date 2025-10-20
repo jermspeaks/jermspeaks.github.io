@@ -1,0 +1,58 @@
+---
+// SubscriptionBanner component for homepage
+---
+
+<div
+  class="w-full bg-gray-200 dark:bg-gray-800 p-6 my-8 border-y-2 border-yellow-300 dark:border-yellow-600"
+>
+  <div class="mx-auto">
+    <!-- <div class="text-center mb-4">
+      <p class="text-slate-700 dark:text-slate-300">
+        Updates on my blog, "Craft By Zen", new articles, and life updates. 
+        I'm trying new things with my newsletter format.
+      </p>
+    </div> -->
+
+    <form
+      action="https://buttondown.email/api/emails/embed-subscribe/craftbyzen"
+      method="post"
+      target="popupwindow"
+      onsubmit="window.open('https:\/\/buttondown.email\/craftbyzen', 'popupwindow')"
+      class="embeddable-buttondown-form flex flex-col sm:flex-row gap-3 items-center justify-center"
+    >
+      <div>
+        <h3 class="font-bold text-slate-800 dark:text-slate-100 mb-2">
+          📧 Get the newsletter
+        </h3>
+      </div>
+      <div class="flex-1 max-w-md">
+        <input
+          class="w-full py-3 px-4 rounded-lg border-2 border-slate-300 dark:border-slate-600 bg-white dark:bg-slate-800 text-slate-800 dark:text-slate-200 placeholder-slate-500 dark:placeholder-slate-400 focus:border-yellow-500 dark:focus:border-yellow-400 focus:outline-none"
+          type="email"
+          name="email"
+          id="bd-email-banner"
+          placeholder="Enter your email address"
+          required
+        />
+      </div>
+
+      <button
+        type="submit"
+        value="Subscribe"
+        class="bg-yellow-600 hover:bg-purple-600 dark:bg-yellow-400 dark:hover:bg-purple-500 text-white dark:text-black font-bold px-6 py-3 rounded-lg transition-colors duration-200 whitespace-nowrap"
+      >
+        Subscribe
+      </button>
+    </form>
+
+    <!-- <div class="text-center mt-3">
+      <a
+        class="text-sm text-slate-600 dark:text-slate-400 hover:text-purple-600 dark:hover:text-purple-300"
+        href="https://buttondown.email/refer/craftbyzen"
+        target="_blank"
+      >
+        Powered by Buttondown
+      </a>
+    </div> -->
+  </div>
+</div>
