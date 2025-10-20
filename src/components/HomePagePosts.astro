@@ -52,8 +52,8 @@ const combination = [
   .slice(0, TOTAL_ENTRIES);
 ---
 
-<ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
-  <PaginatedPosts posts={combination} />
+<ul class="list-none max-w-xl md:max-w-2xl mx-auto sm:p-0 grid grid-cols-1 gap-4">
+  <PaginatedPosts posts={combination} showSubscriptionBanner={true} />
 </ul>
 <div class="flex justify-evenly items-center mt-6">
   <button
