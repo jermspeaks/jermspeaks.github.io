@@ -18,7 +18,7 @@ const { Content } = await item.render();
     class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
     href={`/curation/stream/link/${slug}`}>{title}</a
   >
-  <div class="text-sm italic mb-2">
+  <div class="text-xs italic mb-2 text-slate-600 dark:text-slate-400">
     Posted <FormattedDate
       date={item.data.pubDate}
       options={{ hour: "numeric", minute: "numeric" }}
@@ -37,32 +37,17 @@ const { Content } = await item.render();
       ></span
     >
   </div> -->
-  <div>
-    🔖{
+  <div class="pt-2 flex gap-2">
+    {
       Array.isArray(tags) &&
-        tags.map((tag: string, index: number) =>
-          // if last item, don't add a space
-          index === tags.length - 1 ? (
-            <>
-              <a
-                class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-                href={`/blog/tag/${tag}`}
-              >
-                {tag}
-              </a>
-            </>
-          ) : (
-            <>
-              <a
-                class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-                href={`/blog/tag/${tag}`}
-              >
-                {tag}
-              </a>
-              &nbsp;
-            </>
-          )
-        )
+        tags.map((tag: string, index: number) => (
+          <a
+            class="text-slate-600 dark:text-slate-400 italic font-light hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+            href={`/blog/tag/${tag}`}
+          >
+            {tag}
+          </a>
+        ))
     }
   </div>
 </div>
