@@ -52,21 +52,20 @@ const combination = [
   .slice(0, TOTAL_ENTRIES);
 ---
 
-<ul class="list-none max-w-xl md:max-w-2xl mx-auto sm:p-0 grid grid-cols-1 gap-4">
-  <PaginatedPosts posts={combination} showSubscriptionBanner={true} />
-</ul>
-<div class="flex justify-evenly items-center mt-6">
-  <button
-    disabled
-    class="flex px-4 py-2 border-2 rounded-full text-slate-500 dark:text-slate-200"
-  >
-    Previous
-  </button>
-  <div>Page 1</div>
-  <a
-    href="/page/2"
-    class="flex px-4 py-2 border-2 rounded-full hover:bg-purple-300 dark:hover:bg-purple-600 dark:text-slate-100"
-  >
-    Next
-  </a>
-</div>
+<main class="max-w-xl md:max-w-2xl mx-auto">
+  <ul class="list-none sm:p-0 grid grid-cols-1 gap-4">
+    <PaginatedPosts posts={combination} showSubscriptionBanner={true} />
+  </ul>
+  <div class="flex justify-between items-center mt-6">
+    <button disabled class="flex text-slate-500 dark:text-slate-400">
+      Newer
+    </button>
+    <!-- <div>Page 1</div> -->
+    <a
+      href="/page/2"
+      class="flex text-slate-800 dark:text-slate-100 hover:text-purple-500 dark:hover:text-purple-400"
+    >
+      Older
+    </a>
+  </div>
+</main>
