@@ -13,19 +13,19 @@
   let selectedHolidays: Holiday[];
 
   $: {
-    console.log("selectedDate changed:", value);
+    // console.log("selectedDate changed:", value);
     selectedHolidays = value
       ? holidays.filter((h) => h.date === value.toString())
       : [];
-    console.log("selectedHolidays:", selectedHolidays);
+    // console.log("selectedHolidays:", selectedHolidays);
   }
 
   function modifierClass(date: DateValue): string {
     const isoDateStr = date.toString();
     const hasHoliday = holidays.some((h) => h.date === isoDateStr);
-    if (hasHoliday) {
-      console.log("Date has holiday:", isoDateStr);
-    }
+    // if (hasHoliday) {
+    //   console.log("Date has holiday:", isoDateStr);
+    // }
     return hasHoliday ? "holiday-date" : "";
   }
 
@@ -37,10 +37,10 @@
     return !holidays.some((h) => h.date === date.toString());
   }
 
-  onMount(() => {
-    console.log("Total holidays in dataset:", holidays.length);
-    console.log("Sample holidays:", holidays.slice(0, 100));
-  });
+  // onMount(() => {
+  //   console.log("Total holidays in dataset:", holidays.length);
+  //   console.log("Sample holidays:", holidays.slice(0, 100));
+  // });
 </script>
 
 <div class="calendar-container space-y-4">
