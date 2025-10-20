@@ -1,0 +1,39 @@
+---
+draft: false
+pubDate: "2025-10-20T16:27:22.215Z"
+tags: []
+title: "Website News - Callouts and Link Previews"
+---
+
+Quick website news. I've added callouts for some areas of the website, including the newsletter at the bottom.
+I removed a bunch of social links that no longer are representative of where I'm at online.
+I've removed the two-layout style for a single one since the content I'm usually here to bring is not worth the width.
+
+I've created link previews! For select (and recent) links, I'm now using a `LinkPreview` Astro component.
+It's using the metadata from websites to create these nice link previews.
+There's a manual override in case the parsing did not reach my standards of link previews.
+
+As an example, the new **Track Star Podcast** is awesome, and here's the latest episode I watched.
+
+import LinkPreview from "../../components/LinkPreview.astro";
+
+<LinkPreview
+  url="https://podcasts.apple.com/us/podcast/the-track-star-podcast/id1836496108"
+  title="The Track Star Podcast"
+  description="Listen to Jack Coyne's The Track Star Podcast podcast on Apple Podcasts."
+  image="https://is1-ssl.mzstatic.com/image/thumb/Podcasts211/v4/5c/c9/bc/5cc9bca3-0063-1ef8-17b9-cc77264378e6/mza_4002982522853686818.jpg/1200x1200bf-60.jpg"
+  size="md"
+/>
+
+<br />
+
+<LinkPreview
+  url="https://www.youtube.com/watch?v=lPizHfC5YEY"
+  title="The Great American Songbook EXPLAINED | The Track Star Podcast with Jack Coyne"
+  description="The Track Star Podcast continues with a deep dive into the Great American Songbook, the tradition that shaped American popular music as we know it. Guided by..."
+  image="https://i.ytimg.com/vi/lPizHfC5YEY/maxresdefault.jpg"
+  size="lg"
+/>
+
+There's many other small updates to make the website feel more user friendly, including updated pagination and updating tags.
+Also, the line breaks in essay content is longer now, so you can figure out if you want to choose to read more.
