@@ -28,7 +28,7 @@
     "@codemirror/view": "^6.38.6",
     "@observablehq/plot": "^0.6.17",
     "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.1.14",
+    "@tailwindcss/vite": "^4.1.15",
     "@types/codemirror": "^5.60.16",
     "@types/html-escaper": "^3.0.4",
     "astro": "^5.14.5",
