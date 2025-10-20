@@ -53,29 +53,30 @@ const { page } = Astro.props;
 
   <BaseBody>
     <Header />
-    <main class="dark:text-white">
+    <main class="max-w-xl md:max-w-2xl mx-auto dark:text-white">
       <div class="mt-4 mb-6 flex flex-col sm:flex-row gap-4 justify-between">
         <div>
-          <h1 class="text-3xl md:text-6xl">
-            👋🏽 Hi! This is Jeremy's Craft by Zen
-          </h1>
+          <div class="text-xl md:text-2xl">
+            Page {page.currentPage}
+          </div>
         </div>
       </div>
 
-      <hr class="mt-10 mb-10" />
-      <div class="grid grid-cols-1 md:grid-cols-8 gap-8">
-        <div class="col-span-1 md:col-span-6">
+      <!-- <hr class="mt-10 mb-10" /> -->
+      <!-- <div class="grid grid-cols-1 md:grid-cols-8 gap-8">
+        <div class="col-span-1 md:col-span-6"> -->
           <PaginatedPosts posts={page.data} />
           <Pagination
-            previous={page.url.prev}
-            next={page.url.next}
+            previous={page.currentPage === 2 ? "/" : page.url.prev}
+            next={page.currentPage === page.lastPage ? "#pagination-older" : page.url.next}
             currentPage={page.currentPage}
+            lastPage={page.lastPage}
           />
-        </div>
-        <div class="col-span-1 md:block md:col-span-2">
+        <!-- </div> -->
+        <!-- <div class="col-span-1 md:block md:col-span-2">
           <HomePageSide />
-        </div>
-      </div>
+        </div> -->
+      <!-- </div> -->
     </main>
     <Footer />
   </BaseBody>
