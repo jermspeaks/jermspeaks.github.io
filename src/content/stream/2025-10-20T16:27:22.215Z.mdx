@@ -1,0 +1,27 @@
+---
+draft: false
+pubDate: "2025-10-20T16:27:22.215Z"
+tags: []
+title: "Website News - Callouts and Link Previews"
+---
+
+Quick website news. I've added callouts for some areas of the website, including the newsletter at the bottom.
+I removed a bunch of social links that no longer are representative of where I'm at online.
+I've removed the two-layout style for a single one since the content I'm usually here to bring is not worth the width.
+
+I've created link previews! For select (and recent) links, I'm now using a `LinkPreview` Astro component.
+It's using the metadata from websites to create these nice link previews.
+There's a manual override in case the parsing did not reach my standards of link previews.
+
+As an example, the new **Track Star Podcast** is awesome, and here's the latest episode I watched.
+
+import LinkPreview from "../../components/LinkPreview.astro";
+
+<LinkPreview url="https://podcasts.apple.com/us/podcast/the-track-star-podcast/id1836496108" />
+
+<br />
+
+<LinkPreview url="https://www.youtube.com/watch?v=lPizHfC5YEY" size="lg" />
+
+There's many other small updates to make the website feel more user friendly, including updated pagination and updating tags.
+Also, the line breaks in essay content is longer now, so you can figure out if you want to choose to read more.
