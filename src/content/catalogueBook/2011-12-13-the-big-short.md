@@ -1,6 +1,6 @@
 ---
 title: "The big short"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Michael Lewis"
 authors: ["Michael Lewis"]

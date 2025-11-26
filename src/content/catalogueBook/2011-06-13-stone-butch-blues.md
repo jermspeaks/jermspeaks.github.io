@@ -1,6 +1,6 @@
 ---
 title: "Stone Butch Blues"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Leslie Feinberg"
 authors: ["Leslie Feinberg"]

@@ -1,6 +1,6 @@
 ---
 title: "Shark's Fin and Sichuan Pepper"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Fuchsia Dunlop"
 authors: ["Fuchsia Dunlop"]

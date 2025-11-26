@@ -1,6 +1,6 @@
 ---
 title: "The War of Art"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Steven Pressfield"
 authors: ["Steven Pressfield"]

@@ -1,6 +1,6 @@
 ---
 title: "Maybe You Should Talk to Someone"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781328662057"
 bookAuthor: "Lori Gottlieb"

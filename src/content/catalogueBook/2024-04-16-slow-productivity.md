@@ -1,6 +1,6 @@
 ---
 title: "Slow Productivity"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593544860"
 bookAuthor: "Cal Newport"

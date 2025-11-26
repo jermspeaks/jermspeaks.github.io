@@ -1,6 +1,6 @@
 ---
 title: "Locke & Key, Vol. 6"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Joe Hill"
 authors: ["Joe Hill"]

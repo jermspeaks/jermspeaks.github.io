@@ -1,6 +1,6 @@
 ---
 title: "Steal like an artist"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Austin Kleon"
 authors: ["Austin Kleon"]

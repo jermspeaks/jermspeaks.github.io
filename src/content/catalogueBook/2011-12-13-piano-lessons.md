@@ -1,6 +1,6 @@
 ---
 title: "Piano lessons"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Noah Adams"
 authors: ["Noah Adams"]

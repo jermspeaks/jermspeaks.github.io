@@ -1,6 +1,6 @@
 ---
 title: "Tribe of Mentors"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781328994967"
 bookAuthor: "Tim Ferriss"

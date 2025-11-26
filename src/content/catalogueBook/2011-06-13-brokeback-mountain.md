@@ -1,6 +1,6 @@
 ---
 title: "Brokeback Mountain"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Annie Proulx"
 authors: ["Annie Proulx"]

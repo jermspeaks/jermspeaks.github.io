@@ -1,6 +1,6 @@
 ---
 title: "Life, on the Line"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Grant Achatz"
 authors: ["Grant Achatz"]

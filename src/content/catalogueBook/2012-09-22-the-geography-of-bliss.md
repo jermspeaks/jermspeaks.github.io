@@ -1,6 +1,6 @@
 ---
 title: "The Geography of Bliss"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Eric Weiner"
 authors: ["Eric Weiner"]

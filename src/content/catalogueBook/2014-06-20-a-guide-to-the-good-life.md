@@ -1,6 +1,6 @@
 ---
 title: "A Guide to the Good Life"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "William Braxton Irvine"
 authors: ["William Braxton Irvine"]

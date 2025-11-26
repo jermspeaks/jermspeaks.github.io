@@ -1,6 +1,6 @@
 ---
 title: "We Are All Weird"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Seth Godin"
 authors: ["Seth Godin"]

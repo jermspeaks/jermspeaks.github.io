@@ -1,6 +1,6 @@
 ---
 title: "Captivate"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780399564482"
 bookAuthor: "Vanessa Van Edwards"

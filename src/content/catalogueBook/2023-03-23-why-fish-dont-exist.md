@@ -1,6 +1,6 @@
 ---
 title: "Why Fish Don't Exist"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781501160370"
 bookAuthor: "Lulu Miller"

@@ -346,6 +346,7 @@ const catalogueBook = defineCollection({
     z.object({
       title: z.string(),
       isbn: z.string().optional(),
+      ASIN: z.string().optional(),
       bookAuthor: z.string().optional(),
       authors: z.array(z.string()).optional(),
       publishers: z.array(z.string()).optional(),
@@ -356,7 +357,17 @@ const catalogueBook = defineCollection({
         .transform((val) => (val ? new Date(val) : undefined)),
       pages: z.number().optional(),
       coverImage: image().optional(),
-      rating: z.union([z.string(), z.number()]).optional(),
+      rating: z
+        .union([z.string(), z.number()])
+        .optional()
+        .refine(
+          (val) => {
+            if (val === undefined) return true;
+            const num = typeof val === "string" ? parseInt(val) : val;
+            return num >= 1 && num <= 6;
+          },
+          { message: "Rating must be between 1 and 6" }
+        ),
       reviewDate: z
         .string()
         .or(z.date())

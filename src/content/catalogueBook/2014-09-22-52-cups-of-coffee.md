@@ -1,6 +1,6 @@
 ---
 title: "52 Cups of Coffee"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Megan Gebhart"
 authors: ["Megan Gebhart"]

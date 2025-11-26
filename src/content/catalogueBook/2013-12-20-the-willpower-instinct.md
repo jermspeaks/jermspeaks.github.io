@@ -1,6 +1,6 @@
 ---
 title: "The willpower instinct"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Kelly McGonigal"
 authors: ["Kelly McGonigal"]

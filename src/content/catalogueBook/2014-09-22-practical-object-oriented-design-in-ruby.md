@@ -1,6 +1,6 @@
 ---
 title: "Practical Object Oriented Design In Ruby"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Sandi Metz"
 authors: ["Sandi Metz"]

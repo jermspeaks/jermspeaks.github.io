@@ -1,6 +1,6 @@
 ---
 title: "Pragmatic Thinking and Learning"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Andy Hunt"
 authors: ["Andy Hunt"]

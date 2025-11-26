@@ -1,6 +1,6 @@
 ---
 title: "Antifragile"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Nassim Nicholas Taleb"
 authors: ["Nassim Nicholas Taleb", "Genís Sánchez Barberán", "Albino Santos Mosquera"]

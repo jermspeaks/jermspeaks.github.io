@@ -1,6 +1,6 @@
 ---
 title: "The Non-Designer's Design Book"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Robin Williams"
 authors: ["Robin Williams"]

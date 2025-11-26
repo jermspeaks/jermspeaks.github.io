@@ -1,6 +1,6 @@
 ---
 title: "Smarter Faster Better"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Charles Duhigg"
 authors: ["Charles Duhigg"]

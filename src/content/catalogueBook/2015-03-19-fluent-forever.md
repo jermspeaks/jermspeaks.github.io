@@ -1,6 +1,6 @@
 ---
 title: "Fluent forever"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Gabriel Wyner"
 authors: ["Gabriel Wyner"]

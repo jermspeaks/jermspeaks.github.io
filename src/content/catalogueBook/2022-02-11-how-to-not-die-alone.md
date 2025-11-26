@@ -1,6 +1,6 @@
 ---
 title: "How to Not Die Alone"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781982120634"
 bookAuthor: "Logan Ury"

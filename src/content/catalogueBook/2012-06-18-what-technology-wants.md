@@ -1,6 +1,6 @@
 ---
 title: "What technology wants"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Kevin Kelly"
 authors: ["Kevin Kelly"]

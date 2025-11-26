@@ -1,6 +1,6 @@
 ---
 title: "Fast Food Nation"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Eric Schlosser"
 authors: ["Eric Schlosser"]

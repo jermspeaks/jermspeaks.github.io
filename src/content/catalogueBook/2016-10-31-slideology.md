@@ -1,6 +1,6 @@
 ---
 title: "slide:ology"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Nancy Duarte"
 authors: ["Nancy Duarte"]

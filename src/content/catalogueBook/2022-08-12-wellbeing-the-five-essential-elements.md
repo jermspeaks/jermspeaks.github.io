@@ -1,6 +1,6 @@
 ---
 title: "Wellbeing: The Five Essential Elements"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781595620408"
 bookAuthor: "Tom Rath"

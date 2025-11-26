@@ -1,6 +1,6 @@
 ---
 title: "You are not so smart"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "David McRaney"
 authors: ["David McRaney"]

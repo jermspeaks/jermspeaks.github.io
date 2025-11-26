@@ -1,6 +1,6 @@
 ---
 title: "Le petit prince"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Antoine de Saint-Exupéry"
 authors: ["Antoine de Saint-Exupéry"]

@@ -1,6 +1,6 @@
 ---
 title: "Keep Going"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781523506644"
 bookAuthor: "Austin Kleon"

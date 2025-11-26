@@ -1,6 +1,6 @@
 ---
 title: "The Robber Bride"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Margaret Atwood"
 authors: ["Margaret Atwood", "Deborah Simmons", "Margaret Atwood"]

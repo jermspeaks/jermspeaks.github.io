@@ -1,6 +1,6 @@
 ---
 title: "O Alquimista"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Paulo Coelho"
 authors: ["Paulo Coelho"]

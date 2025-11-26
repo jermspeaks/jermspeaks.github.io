@@ -1,6 +1,6 @@
 ---
 title: "The 48 Laws of Power"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Robert Greene"
 authors: ["Robert Greene"]

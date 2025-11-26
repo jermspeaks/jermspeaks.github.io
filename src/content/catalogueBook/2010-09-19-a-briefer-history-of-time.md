@@ -1,6 +1,6 @@
 ---
 title: "A Briefer History of Time"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Stephen Hawking"
 authors: ["Stephen Hawking", "Leonard Mlodinow"]

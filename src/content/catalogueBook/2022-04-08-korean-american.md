@@ -1,6 +1,6 @@
 ---
 title: "Korean American"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593233504"
 bookAuthor: "Eric Kim"

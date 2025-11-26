@@ -1,6 +1,6 @@
 ---
 title: "In the plex"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Steven Levy"
 authors: ["Steven Levy"]

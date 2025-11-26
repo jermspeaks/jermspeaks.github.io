@@ -1,6 +1,6 @@
 ---
 title: "The Girl Who Played with Fire"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Stieg Larsson"
 authors: ["Stieg Larsson"]

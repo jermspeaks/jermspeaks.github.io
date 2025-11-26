@@ -1,6 +1,6 @@
 ---
 title: "Crying in H Mart"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780525657743"
 bookAuthor: "Michelle Zauner"

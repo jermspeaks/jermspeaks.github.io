@@ -1,6 +1,6 @@
 ---
 title: "Factfulness"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781250123817"
 bookAuthor: "Hans Rosling"

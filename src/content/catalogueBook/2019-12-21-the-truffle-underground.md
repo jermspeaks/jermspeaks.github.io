@@ -1,6 +1,6 @@
 ---
 title: "The Truffle Underground"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780451495693"
 bookAuthor: "Ryan Jacobs"

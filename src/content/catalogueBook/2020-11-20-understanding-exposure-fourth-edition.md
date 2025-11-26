@@ -1,6 +1,6 @@
 ---
 title: "Understanding Exposure, Fourth Edition"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781607748519"
 bookAuthor: "Bryan Peterson"

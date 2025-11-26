@@ -1,6 +1,6 @@
 ---
 title: "Backwards and in Heels"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781633536180"
 bookAuthor: "Alicia Malone"

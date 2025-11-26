@@ -1,6 +1,6 @@
 ---
 title: "How to Win at Losing"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Monica Reinagel"
 authors: ["Monica Reinagel"]

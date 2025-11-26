@@ -1,6 +1,6 @@
 ---
 title: "The Things They Carried"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Tim O'Brien"
 authors: ["Tim O'Brien"]

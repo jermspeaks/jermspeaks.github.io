@@ -1,6 +1,6 @@
 ---
 title: "Not fade away"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Laurence Shames"
 authors: ["Laurence Shames", "Peter Barton"]

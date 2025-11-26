@@ -1,6 +1,6 @@
 ---
 title: "American Chinatown"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Bonnie Tsui"
 authors: ["Bonnie Tsui"]

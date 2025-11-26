@@ -1,6 +1,6 @@
 ---
 title: "How to Change Your Mind"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780735224155"
 bookAuthor: "Michael Pollan"

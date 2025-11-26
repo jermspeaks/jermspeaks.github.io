@@ -1,6 +1,6 @@
 ---
 title: "Getting Things Done"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "David Allen"
 authors: ["David Allen", "David Allen", "David Allen"]

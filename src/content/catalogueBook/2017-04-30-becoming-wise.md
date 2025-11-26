@@ -1,6 +1,6 @@
 ---
 title: "Becoming Wise"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781594206801"
 bookAuthor: "Krista Tippett"

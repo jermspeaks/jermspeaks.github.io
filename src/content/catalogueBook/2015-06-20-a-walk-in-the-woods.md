@@ -1,6 +1,6 @@
 ---
 title: "A Walk in the Woods"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Bill Bryson"
 authors: ["Bill Bryson"]

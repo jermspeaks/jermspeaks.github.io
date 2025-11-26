@@ -1,6 +1,6 @@
 ---
 title: "Know My Name"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780735223721"
 bookAuthor: "Chanel Miller"

@@ -1,6 +1,6 @@
 ---
 title: "The Serviceberry"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781668072257"
 bookAuthor: "Robin Wall Kimmerer"

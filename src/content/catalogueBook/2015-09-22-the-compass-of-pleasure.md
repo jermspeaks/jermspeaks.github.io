@@ -1,6 +1,6 @@
 ---
 title: "The Compass of Pleasure"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "David J. Linden"
 authors: ["David J. Linden"]

@@ -1,6 +1,6 @@
 ---
 title: "Rising strong"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Brené Brown"
 authors: ["Brené Brown"]

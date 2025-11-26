@@ -1,6 +1,6 @@
 ---
 title: "A Field Guide to Happiness"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781401945091"
 bookAuthor: "Linda Leaming"

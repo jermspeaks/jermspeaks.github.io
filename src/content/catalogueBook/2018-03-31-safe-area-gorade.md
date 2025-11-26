@@ -1,6 +1,6 @@
 ---
 title: "Safe Area Goražde"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781560974703"
 bookAuthor: "Joe Sacco"

@@ -1,6 +1,6 @@
 ---
 title: "Nurture Shock"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Bronson, Po, Merryman, Ashley"
 authors: ["Bronson, Po, Merryman, Ashley"]

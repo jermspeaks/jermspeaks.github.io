@@ -1,6 +1,6 @@
 ---
 title: "Engineering Management for the Rest of Us"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9798986769301"
 bookAuthor: "Sarah Drasner"

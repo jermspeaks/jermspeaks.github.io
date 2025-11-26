@@ -1,6 +1,6 @@
 ---
 title: "The Fifth Risk: Undoing Democracy"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781324002659"
 bookAuthor: "Michael Lewis"

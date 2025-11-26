@@ -1,6 +1,6 @@
 ---
 title: "Listen to this"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Alex Ross"
 authors: ["Alex Ross"]

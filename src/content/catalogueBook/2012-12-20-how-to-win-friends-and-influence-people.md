@@ -1,6 +1,6 @@
 ---
 title: "How to Win Friends and Influence People"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Dale Carnegie"
 authors: ["Dale Carnegie"]

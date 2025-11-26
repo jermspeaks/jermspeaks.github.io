@@ -1,6 +1,6 @@
 ---
 title: "The Fortune Cookie Chronicles"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jennifer 8. Lee"
 authors: ["Jennifer 8. Lee"]

@@ -1,6 +1,6 @@
 ---
 title: "The Golden Thread"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781473659049"
 bookAuthor: "Kassia St Clair"

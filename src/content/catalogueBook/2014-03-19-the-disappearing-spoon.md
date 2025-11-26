@@ -1,6 +1,6 @@
 ---
 title: "The Disappearing Spoon"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Sam Kean"
 authors: ["Sam Kean"]

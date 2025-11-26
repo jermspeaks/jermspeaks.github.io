@@ -1,6 +1,6 @@
 ---
 title: "Delivering happiness"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Tony Hsieh"
 authors: ["Tony Hsieh"]

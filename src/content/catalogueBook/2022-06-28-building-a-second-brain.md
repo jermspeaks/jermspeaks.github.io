@@ -1,6 +1,6 @@
 ---
 title: "Building a Second Brain"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781982167387"
 bookAuthor: "Tiago Forte"

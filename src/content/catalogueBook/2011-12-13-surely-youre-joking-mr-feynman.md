@@ -1,6 +1,6 @@
 ---
 title: "\"Surely You're Joking, Mr. Feynman\""
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Richard Phillips Feynman"
 authors: ["Richard Phillips Feynman", "Ralph Leighton"]

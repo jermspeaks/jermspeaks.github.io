@@ -1,6 +1,6 @@
 ---
 title: "Never eat alone and other secrets to success"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Keith Ferrazzi"
 authors: ["Keith Ferrazzi"]

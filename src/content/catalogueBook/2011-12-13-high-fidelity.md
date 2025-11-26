@@ -1,6 +1,6 @@
 ---
 title: "High Fidelity"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Nick Hornby"
 authors: ["Nick Hornby"]

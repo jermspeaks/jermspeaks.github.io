@@ -1,6 +1,6 @@
 ---
 title: "Essays in Love"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Alain De Botton"
 authors: ["Alain De Botton"]

@@ -1,6 +1,6 @@
 ---
 title: "The Happiness Hypothesis"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jonathan Haidt"
 authors: ["Jonathan Haidt"]

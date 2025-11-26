@@ -1,6 +1,6 @@
 ---
 title: "Coming & Crying"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Melissa Gira Grant"
 authors: ["Melissa Gira Grant"]

@@ -1,6 +1,6 @@
 ---
 title: "Confessions of an economic hit man"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Perkins, John"
 authors: ["Perkins, John", "John Perkins", "John Perkins", "Perkins, John"]

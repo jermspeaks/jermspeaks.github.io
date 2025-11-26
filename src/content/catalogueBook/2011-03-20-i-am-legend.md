@@ -1,6 +1,6 @@
 ---
 title: "I am Legend"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Richard Matheson"
 authors: ["Richard Matheson"]

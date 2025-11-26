@@ -1,6 +1,6 @@
 ---
 title: "What to Do When it's Your Turn: (And it's Always Your Turn)"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Seth Godin"
 authors: ["Seth Godin"]

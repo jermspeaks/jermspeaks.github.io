@@ -1,6 +1,6 @@
 ---
 title: "Y The Last Man, Vol. 1"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Brian K. Vaughan"
 authors: ["Brian K. Vaughan"]

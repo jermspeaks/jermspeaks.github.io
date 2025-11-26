@@ -1,6 +1,6 @@
 ---
 title: "Friendship in the Age of Loneliness"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780762472260"
 bookAuthor: "Adam Smiley Poswolsky"

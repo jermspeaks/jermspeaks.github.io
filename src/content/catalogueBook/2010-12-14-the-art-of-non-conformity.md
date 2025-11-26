@@ -1,6 +1,6 @@
 ---
 title: "The Art of Non-Conformity"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Chris Guillebeau"
 authors: ["Chris Guillebeau"]

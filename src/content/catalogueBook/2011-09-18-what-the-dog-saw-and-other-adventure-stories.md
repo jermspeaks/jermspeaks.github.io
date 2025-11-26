@@ -1,6 +1,6 @@
 ---
 title: "What the dog saw and other adventure stories"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Malcolm Gladwell"
 authors: ["Malcolm Gladwell"]

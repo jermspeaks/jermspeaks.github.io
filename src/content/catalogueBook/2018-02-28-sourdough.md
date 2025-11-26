@@ -1,6 +1,6 @@
 ---
 title: "Sourdough"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780374203108"
 bookAuthor: "Robin Sloan"

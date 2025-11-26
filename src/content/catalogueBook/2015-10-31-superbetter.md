@@ -1,6 +1,6 @@
 ---
 title: "SuperBetter"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jane McGonigal"
 authors: ["Jane McGonigal"]

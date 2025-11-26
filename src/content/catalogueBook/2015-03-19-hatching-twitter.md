@@ -1,6 +1,6 @@
 ---
 title: "Hatching Twitter"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Nick Bilton"
 authors: ["Nick Bilton"]

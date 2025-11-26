@@ -1,6 +1,6 @@
 ---
 title: "Million Dollar Weekend"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593539781"
 bookAuthor: "Noah Kagan"

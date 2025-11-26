@@ -1,6 +1,6 @@
 ---
 title: "The Last Man"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Mary Shelley"
 authors: ["Mary Shelley"]

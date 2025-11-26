@@ -1,6 +1,6 @@
 ---
 title: "The defining decade"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Meg Jay"
 authors: ["Meg Jay"]

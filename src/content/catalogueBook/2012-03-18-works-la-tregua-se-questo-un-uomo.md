@@ -1,6 +1,6 @@
 ---
 title: "Works (La tregua / Se questo è un uomo)"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Primo Levi"
 authors: ["Primo Levi"]

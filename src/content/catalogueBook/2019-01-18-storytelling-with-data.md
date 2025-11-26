@@ -1,6 +1,6 @@
 ---
 title: "Storytelling with Data"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781119002260"
 bookAuthor: "Cole Nussbaumer Knaflic"

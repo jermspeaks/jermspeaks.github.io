@@ -1,6 +1,6 @@
 ---
 title: "So Good They Can't Ignore You"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Cal Newport"
 authors: ["Cal Newport"]

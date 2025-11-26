@@ -1,6 +1,6 @@
 ---
 title: "The 7 Habits of Highly Effective People"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Stephen R. Covey"
 authors: ["Stephen R. Covey", "Sean Covey"]

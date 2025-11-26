@@ -1,6 +1,6 @@
 ---
 title: "The Know-It-All"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jacobs, A. J."
 authors: ["Jacobs, A. J."]

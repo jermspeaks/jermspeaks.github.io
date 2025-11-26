@@ -1,6 +1,6 @@
 ---
 title: "The Hate U Give"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062498557"
 bookAuthor: "Angie Thomas"

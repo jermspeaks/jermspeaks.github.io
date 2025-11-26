@@ -1,6 +1,6 @@
 ---
 title: "MacroWikinomics"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Don Tapscott"
 authors: ["Don Tapscott", "Anthony D. Williams"]

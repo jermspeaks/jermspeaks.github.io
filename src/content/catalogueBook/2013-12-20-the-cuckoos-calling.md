@@ -1,6 +1,6 @@
 ---
 title: "The Cuckoo's Calling"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "J. K. Rowling"
 authors: ["J. K. Rowling"]

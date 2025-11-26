@@ -1,6 +1,6 @@
 ---
 title: "Pedagogy of the Oppressed"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Paulo Freire"
 authors: ["Paulo Freire"]

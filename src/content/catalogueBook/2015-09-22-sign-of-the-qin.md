@@ -1,6 +1,6 @@
 ---
 title: "Sign of the Qin"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "L. G. Bass"
 authors: ["L. G. Bass", "Laura Geringer"]

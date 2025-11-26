@@ -1,6 +1,6 @@
 ---
 title: "You are now less dumb"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "David McRaney"
 authors: ["David McRaney"]

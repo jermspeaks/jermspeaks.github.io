@@ -1,6 +1,6 @@
 ---
 title: "Oryx and Crake"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Margaret Atwood"
 authors: ["Margaret Atwood"]

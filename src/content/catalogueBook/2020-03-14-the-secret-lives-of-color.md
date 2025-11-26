@@ -1,6 +1,6 @@
 ---
 title: "The Secret Lives of Color"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781524704940"
 bookAuthor: "Kassia St. Clair"

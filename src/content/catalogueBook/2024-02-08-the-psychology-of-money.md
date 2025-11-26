@@ -1,6 +1,6 @@
 ---
 title: "The Psychology of Money"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780857197689"
 bookAuthor: "Morgan Housel"

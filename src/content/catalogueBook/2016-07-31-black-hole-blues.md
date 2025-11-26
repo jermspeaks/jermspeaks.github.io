@@ -1,6 +1,6 @@
 ---
 title: "Black hole blues"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Janna Levin"
 authors: ["Janna Levin"]

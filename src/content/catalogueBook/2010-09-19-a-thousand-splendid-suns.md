@@ -1,6 +1,6 @@
 ---
 title: "A Thousand Splendid Suns"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Khaled Hosseini"
 authors: ["Khaled Hosseini"]

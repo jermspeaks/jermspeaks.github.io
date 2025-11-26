@@ -1,6 +1,6 @@
 ---
 title: "Assassination vacation"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Sarah Vowell"
 authors: ["Sarah Vowell"]

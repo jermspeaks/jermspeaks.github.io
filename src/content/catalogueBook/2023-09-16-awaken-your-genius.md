@@ -1,6 +1,6 @@
 ---
 title: "Awaken Your Genius"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781541700390"
 bookAuthor: "Ozan Varol"

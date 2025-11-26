@@ -1,6 +1,6 @@
 ---
 title: "Minor Feelings"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781984820372"
 bookAuthor: "Cathy Park Hong"

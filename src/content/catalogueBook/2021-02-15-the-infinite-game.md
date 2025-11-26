@@ -1,6 +1,6 @@
 ---
 title: "The Infinite Game"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780735213524"
 bookAuthor: "Simon Sinek"

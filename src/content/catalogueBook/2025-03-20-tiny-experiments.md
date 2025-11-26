@@ -1,6 +1,6 @@
 ---
 title: "Tiny Experiments"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593715130"
 bookAuthor: "Anne-Laure Le Cunff"

@@ -1,6 +1,6 @@
 ---
 title: "You Need a Budget"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062567604"
 bookAuthor: "Jesse Mecham"

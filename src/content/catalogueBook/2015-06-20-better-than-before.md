@@ -1,6 +1,6 @@
 ---
 title: "Better than before"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Gretchen Rubin"
 authors: ["Gretchen Rubin"]

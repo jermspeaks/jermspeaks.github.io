@@ -1,6 +1,6 @@
 ---
 title: "Logicomix - An Epic Search for Truth"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Apostolos K. Doxiadēs"
 authors: ["Apostolos K. Doxiadēs", "Christos H. Papadimitriou", "Alecos Papadatos"]

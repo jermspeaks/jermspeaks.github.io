@@ -1,6 +1,6 @@
 ---
 title: "Don't Go Back to School: A Handbook for Learning Anything"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Kio Stark"
 authors: ["Kio Stark"]

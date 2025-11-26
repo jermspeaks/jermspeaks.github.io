@@ -1,6 +1,6 @@
 ---
 title: "Tuesdays with Morrie"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780385484510"
 bookAuthor: "Mitch Albom"

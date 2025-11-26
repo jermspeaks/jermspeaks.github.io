@@ -1,6 +1,6 @@
 ---
 title: "How to Think Like a Great Graphic Designer"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Debbie Millman"
 authors: ["Debbie Millman"]

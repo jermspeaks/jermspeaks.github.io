@@ -1,6 +1,6 @@
 ---
 title: "The Art of Seduction"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Robert Greene"
 authors: ["Robert Greene", "Joost Elffers"]

@@ -1,6 +1,6 @@
 ---
 title: "Everything Is Figureoutable"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780525535010"
 bookAuthor: "Marie Forleo"

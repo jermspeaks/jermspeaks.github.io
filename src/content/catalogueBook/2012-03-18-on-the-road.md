@@ -1,6 +1,6 @@
 ---
 title: "On the Road"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jack Kerouac"
 authors: ["Jack Kerouac"]

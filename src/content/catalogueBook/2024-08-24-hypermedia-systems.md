@@ -1,6 +1,6 @@
 ---
 title: "Hypermedia Systems"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Carson Gross"
 pubDate: "2023-07-16T00:00:00.000Z"

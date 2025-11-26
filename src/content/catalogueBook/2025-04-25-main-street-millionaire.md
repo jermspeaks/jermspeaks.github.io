@@ -1,6 +1,6 @@
 ---
 title: "Main Street Millionaire"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593718612"
 bookAuthor: "Codie Sanchez"

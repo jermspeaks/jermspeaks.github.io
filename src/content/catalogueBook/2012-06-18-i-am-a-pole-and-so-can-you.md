@@ -1,6 +1,6 @@
 ---
 title: "I Am a Pole and So Can You"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Stephen Colbert"
 authors: ["Stephen Colbert"]

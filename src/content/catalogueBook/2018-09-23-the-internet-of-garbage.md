@@ -1,6 +1,6 @@
 ---
 title: "The Internet of Garbage"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "‎ 978-0692181218"
 bookAuthor: "Sarah Jeong"

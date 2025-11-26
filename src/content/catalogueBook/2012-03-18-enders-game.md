@@ -1,6 +1,6 @@
 ---
 title: "Ender's Game"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Orson Scott Card"
 authors: ["Orson Scott Card"]

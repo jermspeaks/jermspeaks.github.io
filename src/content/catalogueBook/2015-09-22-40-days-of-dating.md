@@ -1,6 +1,6 @@
 ---
 title: "40 Days of Dating"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jessica Walsh"
 authors: ["Jessica Walsh", "Timothy Goodman"]

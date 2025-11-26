@@ -1,6 +1,6 @@
 ---
 title: "Lauren Ipsum"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Carlos Bueno"
 authors: ["Carlos Bueno"]

@@ -1,6 +1,6 @@
 ---
 title: "Zen and the Art of Motorcycle Maintenance"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Robert M. Pirsig"
 authors: ["Robert M. Pirsig"]

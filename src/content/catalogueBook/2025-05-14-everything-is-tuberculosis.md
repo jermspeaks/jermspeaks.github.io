@@ -1,6 +1,6 @@
 ---
 title: "Everything Is Tuberculosis"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9798217168422"
 bookAuthor: "John Green"

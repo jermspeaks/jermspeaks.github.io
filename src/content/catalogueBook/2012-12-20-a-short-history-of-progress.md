@@ -1,6 +1,6 @@
 ---
 title: "A short history of progress"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Ronald Wright"
 authors: ["Ronald Wright"]

@@ -1,6 +1,6 @@
 ---
 title: "I'm Glad My Mom Died"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781982185824"
 bookAuthor: "Jennette McCurdy"

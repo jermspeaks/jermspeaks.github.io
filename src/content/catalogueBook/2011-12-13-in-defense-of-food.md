@@ -1,6 +1,6 @@
 ---
 title: "In Defense of Food"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Michael Pollan"
 authors: ["Michael Pollan"]

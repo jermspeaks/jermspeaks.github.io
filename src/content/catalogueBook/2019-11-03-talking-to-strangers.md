@@ -1,6 +1,6 @@
 ---
 title: "Talking to Strangers"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780316535625"
 bookAuthor: "Malcolm Gladwell"

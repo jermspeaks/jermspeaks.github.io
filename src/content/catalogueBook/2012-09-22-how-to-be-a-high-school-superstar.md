@@ -1,6 +1,6 @@
 ---
 title: "How to be a High School Superstar"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Cal Newport"
 authors: ["Cal Newport"]

@@ -1,6 +1,6 @@
 ---
 title: "Medium Raw"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Anthony Bourdain"
 authors: ["Anthony Bourdain"]

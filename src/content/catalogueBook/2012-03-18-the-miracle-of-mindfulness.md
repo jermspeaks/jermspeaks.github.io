@@ -1,6 +1,6 @@
 ---
 title: "The Miracle of Mindfulness"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Thích Nhất Hạnh"
 authors: ["Thích Nhất Hạnh"]

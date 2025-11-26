@@ -1,6 +1,6 @@
 ---
 title: "Snow Crash"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Neal Stephenson"
 authors: ["Neal Stephenson"]

@@ -1,6 +1,6 @@
 ---
 title: "Drawing blood"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Molly Crabapple"
 authors: ["Molly Crabapple"]

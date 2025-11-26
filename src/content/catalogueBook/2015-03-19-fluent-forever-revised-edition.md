@@ -1,6 +1,6 @@
 ---
 title: "Fluent Forever (Revised Edition)"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780385348102"
 bookAuthor: "Gabriel Wyner"

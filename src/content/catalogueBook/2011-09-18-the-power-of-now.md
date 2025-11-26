@@ -1,6 +1,6 @@
 ---
 title: "The Power of Now"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Eckhart Tolle"
 authors: ["Eckhart Tolle"]

@@ -1,6 +1,6 @@
 ---
 title: "Cradle to Cradle"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "William McDonough"
 authors: ["William McDonough", "Michael Braungart", "Michael Braungart"]

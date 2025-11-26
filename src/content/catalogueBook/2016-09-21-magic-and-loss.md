@@ -1,6 +1,6 @@
 ---
 title: "Magic and loss"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Virginia Heffernan"
 authors: ["Virginia Heffernan"]

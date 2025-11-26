@@ -1,6 +1,6 @@
 ---
 title: "The Tao of Pooh"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Benjamin Hoff"
 authors: ["Benjamin Hoff", "Ernest H. Shepard", "A. A. Milne"]

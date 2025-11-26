@@ -1,6 +1,6 @@
 ---
 title: "The gutsy girl"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Caroline Paul"
 authors: ["Caroline Paul"]

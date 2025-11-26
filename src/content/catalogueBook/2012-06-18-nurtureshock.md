@@ -1,6 +1,6 @@
 ---
 title: "Nurtureshock"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Po Bronson"
 authors: ["Po Bronson", "Ashley Merryman"]

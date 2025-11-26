@@ -1,6 +1,6 @@
 ---
 title: "The Psychology of Everyday Things"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Donald A. Norman"
 authors: ["Donald A. Norman"]

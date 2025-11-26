@@ -1,6 +1,6 @@
 ---
 title: "Strong Ending: A Journey from Combat to Comedy"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "B07J54MBQK"
 bookAuthor: "A"

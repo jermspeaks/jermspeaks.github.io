@@ -1,6 +1,6 @@
 ---
 title: "The Inner Game of Tennis"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "W. Timothy Gallwey"
 authors: ["W. Timothy Gallwey"]

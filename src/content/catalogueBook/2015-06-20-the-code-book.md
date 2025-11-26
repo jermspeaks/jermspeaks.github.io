@@ -1,6 +1,6 @@
 ---
 title: "The Code Book"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Simon Singh"
 authors: ["Simon Singh"]

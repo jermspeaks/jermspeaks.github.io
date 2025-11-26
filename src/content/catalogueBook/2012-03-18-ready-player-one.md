@@ -1,6 +1,6 @@
 ---
 title: "Ready Player One"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Ernest Cline"
 authors: ["Ernest Cline", "Arnaud Regnauld", "Ernest Cline"]

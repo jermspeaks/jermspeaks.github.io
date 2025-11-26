@@ -1,6 +1,6 @@
 ---
 title: "How to Be Black"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Baratunde Thurston"
 authors: ["Baratunde Thurston"]

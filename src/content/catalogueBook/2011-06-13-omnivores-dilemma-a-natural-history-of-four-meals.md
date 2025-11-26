@@ -1,6 +1,6 @@
 ---
 title: "Omnivore's Dilemma. A Natural History of Four Meals"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Michael Pollan"
 authors: ["Michael Pollan", "Richie Chevat", "Raul Nagore"]

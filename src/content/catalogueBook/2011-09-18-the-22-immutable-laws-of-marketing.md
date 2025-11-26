@@ -1,6 +1,6 @@
 ---
 title: "The 22 immutable laws of marketing"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Al Ries"
 authors: ["Al Ries"]

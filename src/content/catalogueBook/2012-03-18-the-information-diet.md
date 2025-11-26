@@ -1,6 +1,6 @@
 ---
 title: "The Information Diet"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Clay A. Johnson"
 authors: ["Clay A. Johnson"]

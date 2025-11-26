@@ -1,0 +1,85 @@
+---
+import { getCollection } from "astro:content";
+import { Image } from "astro:assets";
+import CatalogueFilter from "../../components/CatalogueFilter.svelte";
+import BaseBody from "../../components/BaseBody.astro";
+import BaseHead from "../../components/BaseHead.astro";
+import Footer from "../../components/Footer.astro";
+import Header from "../../components/Header.astro";
+import TitleHeading from "../../components/TitleHeading.astro";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+
+const allBooks = await getCollection("catalogueBook");
+const books = allBooks
+  .filter((book) => !book.data.draft)
+  .map((book) => {
+    // Safely convert reviewDate to ISO string, handling invalid dates
+    // Fall back to pubDate if reviewDate is not available
+    const dateToUse = book.data.reviewDate || book.data.pubDate;
+    let reviewDateString: string;
+    
+    if (!dateToUse) {
+      // Missing reviewDate and pubDate, use epoch as fallback
+      console.warn(`Missing reviewDate and pubDate for book: ${book.slug}`);
+      reviewDateString = new Date(0).toISOString();
+    } else if (dateToUse instanceof Date) {
+      // Check if the Date is valid
+      if (isNaN(dateToUse.getTime())) {
+        // Invalid date, use a fallback
+        console.warn(`Invalid reviewDate for book: ${book.slug}, date: ${dateToUse}`);
+        reviewDateString = new Date(0).toISOString();
+      } else {
+        reviewDateString = dateToUse.toISOString();
+      }
+    } else {
+      // Try to create a Date from the value
+      const date = new Date(dateToUse);
+      if (isNaN(date.getTime())) {
+        // Invalid date, use a fallback
+        console.warn(`Invalid reviewDate for book: ${book.slug}, value: ${dateToUse}`);
+        reviewDateString = new Date(0).toISOString();
+      } else {
+        reviewDateString = date.toISOString();
+      }
+    }
+
+    return {
+      slug: book.slug,
+      data: {
+        title: book.data.title,
+        bookAuthor: book.data.bookAuthor,
+        authors: book.data.authors,
+        rating: book.data.rating,
+        pubDate: reviewDateString,
+        coverImage: book.data.coverImage
+          ? {
+              src: book.data.coverImage.src,
+              width: book.data.coverImage.width,
+              height: book.data.coverImage.height,
+            }
+          : null,
+      },
+    };
+  });
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <BaseHead
+      description="This page lists games, books, shows... stuff I've played, watched, read, listened to."
+      title="Catalogue"
+    />
+  </head>
+  <BaseBody>
+    <Header />
+    <main class="max-w-[120ch] mx-auto px-4">
+      <TitleHeading>
+        <a href="/catalogue">Catalogue</a>
+      </TitleHeading>
+      <CatalogueFilter client:load books={books} />
+    </main>
+    <Footer />
+  </BaseBody>
+</html>
+

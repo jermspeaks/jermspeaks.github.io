@@ -1,6 +1,6 @@
 ---
 title: "The Art of War"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Sun Tzu "
 authors: ["Sun Tzu "]

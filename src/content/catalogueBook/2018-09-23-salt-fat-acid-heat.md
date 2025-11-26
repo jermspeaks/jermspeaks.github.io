@@ -1,6 +1,6 @@
 ---
 title: "Salt, Fat, Acid, Heat"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "978-1782112303"
 bookAuthor: "Samin Nosrat"

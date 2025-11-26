@@ -1,6 +1,6 @@
 ---
 title: "Rowing the Atlantic"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781416583608"
 bookAuthor: "Roz Savage"

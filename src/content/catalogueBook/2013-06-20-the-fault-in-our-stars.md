@@ -1,6 +1,6 @@
 ---
 title: "The Fault in Our Stars"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "John Green"
 authors: ["John Green"]

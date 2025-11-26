@@ -1,6 +1,6 @@
 ---
 title: "The One World Schoolhouse"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Salman Khan"
 authors: ["Salman Khan"]

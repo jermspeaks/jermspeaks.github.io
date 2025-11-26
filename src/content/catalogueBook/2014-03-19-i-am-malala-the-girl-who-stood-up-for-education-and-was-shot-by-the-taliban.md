@@ -1,6 +1,6 @@
 ---
 title: "I Am Malala: The Girl Who Stood Up for Education and Was Shot by the Taliban"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Malala Yousafzai"
 authors: ["Malala Yousafzai"]

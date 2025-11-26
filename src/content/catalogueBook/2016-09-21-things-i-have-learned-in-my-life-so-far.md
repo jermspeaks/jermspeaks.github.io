@@ -1,6 +1,6 @@
 ---
 title: "Things I have learned in my life so far"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Stefan Sagmeister"
 authors: ["Stefan Sagmeister"]

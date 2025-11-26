@@ -1,6 +1,6 @@
 ---
 title: "Bird by Bird"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Anne Lamott"
 authors: ["Anne Lamott"]

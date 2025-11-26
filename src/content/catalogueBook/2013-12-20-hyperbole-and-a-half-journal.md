@@ -1,6 +1,6 @@
 ---
 title: "Hyperbole and a Half Journal"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Allie Brosh"
 authors: ["Allie Brosh"]

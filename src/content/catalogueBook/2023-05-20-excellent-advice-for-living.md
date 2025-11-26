@@ -1,6 +1,6 @@
 ---
 title: "Excellent Advice for Living"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593654521"
 bookAuthor: "Kevin Kelly"

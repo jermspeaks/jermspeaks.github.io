@@ -1,6 +1,6 @@
 ---
 title: "The Rest Is Noise"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Alex Ross"
 authors: ["Alex Ross"]

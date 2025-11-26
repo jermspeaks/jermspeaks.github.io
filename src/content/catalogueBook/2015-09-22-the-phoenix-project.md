@@ -1,6 +1,6 @@
 ---
 title: "The Phoenix Project"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Gene Kim"
 authors: ["Gene Kim", "Kevin Behr", "George Spafford", "Gene Kim"]

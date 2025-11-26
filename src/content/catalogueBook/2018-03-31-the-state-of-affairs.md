@@ -1,6 +1,6 @@
 ---
 title: "The State of Affairs"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062322609"
 bookAuthor: "Esther Perel"

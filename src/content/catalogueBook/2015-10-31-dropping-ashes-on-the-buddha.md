@@ -1,6 +1,6 @@
 ---
 title: "Dropping ashes on the Buddha"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Seung Sahn"
 authors: ["Seung Sahn"]

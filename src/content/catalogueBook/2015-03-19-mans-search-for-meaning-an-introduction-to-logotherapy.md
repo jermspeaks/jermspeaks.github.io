@@ -1,6 +1,6 @@
 ---
 title: "man's search for meaning an introduction to logotherapy"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Viktor E. Frankl"
 authors: ["Viktor E. Frankl"]

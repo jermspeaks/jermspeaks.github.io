@@ -1,6 +1,6 @@
 ---
 title: "Stumbling on Happiness"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Daniel Gilbert"
 authors: ["Daniel Gilbert"]

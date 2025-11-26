@@ -1,6 +1,6 @@
 ---
 title: "Good to Great"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jim Collins"
 authors: ["Jim Collins"]

@@ -1,6 +1,6 @@
 ---
 title: "The Hobbit"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "J.R.R. Tolkien"
 authors: ["J.R.R. Tolkien"]

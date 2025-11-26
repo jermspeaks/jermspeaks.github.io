@@ -1,6 +1,6 @@
 ---
 title: "And Then There Were None"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780061739255"
 bookAuthor: "Agatha Christie"

@@ -1,6 +1,6 @@
 ---
 title: "Principles"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781501124051"
 bookAuthor: "Ray Dalio"

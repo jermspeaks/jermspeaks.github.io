@@ -1,6 +1,6 @@
 ---
 title: "The Time Machine"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "H. G. Wells"
 authors: ["H. G. Wells"]

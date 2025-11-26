@@ -1,6 +1,6 @@
 ---
 title: "The art of fermentation"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Sandor Ellix Katz"
 authors: ["Sandor Ellix Katz", "Alejandro Pareja Rodríguez"]

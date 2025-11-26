@@ -1,6 +1,6 @@
 ---
 title: "Thinking, fast and slow"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Daniel Kahneman"
 authors: ["Daniel Kahneman"]

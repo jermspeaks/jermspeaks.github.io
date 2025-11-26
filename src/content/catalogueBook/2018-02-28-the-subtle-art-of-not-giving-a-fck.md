@@ -1,6 +1,6 @@
 ---
 title: "The Subtle Art of Not Giving a F*ck"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062457738"
 bookAuthor: "Mark Manson"

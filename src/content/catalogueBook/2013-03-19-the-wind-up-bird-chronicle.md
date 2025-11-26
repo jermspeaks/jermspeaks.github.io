@@ -1,6 +1,6 @@
 ---
 title: "The Wind-up Bird Chronicle"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "村上春樹"
 authors: ["村上春樹"]

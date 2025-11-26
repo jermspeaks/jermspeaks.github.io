@@ -1,6 +1,6 @@
 ---
 title: "Squirrel Seeks Chipmunk"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "David Sedaris"
 authors: ["David Sedaris"]

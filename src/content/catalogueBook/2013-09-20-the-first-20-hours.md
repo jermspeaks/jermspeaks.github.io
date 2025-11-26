@@ -1,6 +1,6 @@
 ---
 title: "The First 20 Hours"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Josh Kaufman"
 authors: ["Josh Kaufman"]

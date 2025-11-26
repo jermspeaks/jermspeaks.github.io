@@ -1,6 +1,6 @@
 ---
 title: "Creative Calling"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062879981"
 bookAuthor: "Chase Jarvis"

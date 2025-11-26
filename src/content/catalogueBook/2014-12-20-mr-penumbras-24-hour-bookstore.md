@@ -1,6 +1,6 @@
 ---
 title: "Mr. Penumbra's 24-hour bookstore"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Robin Sloan"
 authors: ["Robin Sloan"]

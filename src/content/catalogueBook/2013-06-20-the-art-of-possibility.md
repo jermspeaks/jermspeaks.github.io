@@ -1,6 +1,6 @@
 ---
 title: "The Art of Possibility"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Rosamund Stone Zander"
 authors: ["Rosamund Stone Zander", "Benjamin Zander"]

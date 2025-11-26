@@ -1,6 +1,6 @@
 ---
 title: "Moonwalking with Einstein"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Joshua Foer"
 authors: ["Joshua Foer"]

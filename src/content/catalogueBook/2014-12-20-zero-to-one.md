@@ -1,6 +1,6 @@
 ---
 title: "Zero to One"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Peter A. Thiel"
 authors: ["Peter A. Thiel", "Blake Masters"]

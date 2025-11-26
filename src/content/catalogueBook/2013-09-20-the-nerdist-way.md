@@ -1,6 +1,6 @@
 ---
 title: "The Nerdist Way"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Chris Hardwick"
 authors: ["Chris Hardwick"]

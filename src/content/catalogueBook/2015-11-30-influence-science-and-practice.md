@@ -1,6 +1,6 @@
 ---
 title: "Influence : Science and Practice"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Robert Cialdini"
 authors: ["Robert Cialdini"]

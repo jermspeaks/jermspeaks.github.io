@@ -1,6 +1,6 @@
 ---
 title: "Kern and Burn"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jessica Karle Heltzel Tim Hoover"
 authors: ["Jessica Karle Heltzel Tim Hoover"]

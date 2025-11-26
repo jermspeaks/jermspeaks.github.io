@@ -1,6 +1,6 @@
 ---
 title: "A Winter's Promise"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781609454845"
 bookAuthor: "Christelle Dabos"

@@ -1,6 +1,6 @@
 ---
 title: "The Power of Habit"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Charles Duhigg"
 authors: ["Charles Duhigg"]

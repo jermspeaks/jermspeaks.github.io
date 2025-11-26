@@ -1,6 +1,6 @@
 ---
 title: "The Lean Startup"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Eric Ries"
 authors: ["Eric Ries"]

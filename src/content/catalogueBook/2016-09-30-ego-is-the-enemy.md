@@ -1,6 +1,6 @@
 ---
 title: "Ego is the Enemy"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Ryan Holiday"
 authors: ["Ryan Holiday"]

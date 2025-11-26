@@ -1,6 +1,6 @@
 ---
 title: "Super Thinking"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780525533580"
 bookAuthor: "Gabriel Weinberg"

@@ -1,6 +1,6 @@
 ---
 title: "Extreme Ownership"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781466874961"
 bookAuthor: "Jocko Willink"

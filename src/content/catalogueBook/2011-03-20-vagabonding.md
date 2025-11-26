@@ -1,6 +1,6 @@
 ---
 title: "Vagabonding"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Rolf Potts"
 authors: ["Rolf Potts"]

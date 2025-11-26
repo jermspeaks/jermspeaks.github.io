@@ -1,6 +1,6 @@
 ---
 title: "Nutrition diva's secrets for a healthy diet"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Monica Reinagel"
 authors: ["Monica Reinagel"]

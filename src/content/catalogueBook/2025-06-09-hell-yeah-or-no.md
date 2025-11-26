@@ -1,6 +1,6 @@
 ---
 title: "Hell Yeah Or No"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781988575971"
 bookAuthor: "["

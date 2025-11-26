@@ -1,6 +1,6 @@
 ---
 title: "The Commitment"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Dan Savage"
 authors: ["Dan Savage"]

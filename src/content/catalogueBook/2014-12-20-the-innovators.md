@@ -1,6 +1,6 @@
 ---
 title: "The Innovators"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Walter Isaacson"
 authors: ["Walter Isaacson"]

@@ -1,6 +1,6 @@
 ---
 title: "The Tipping Point"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Malcolm Gladwell"
 authors: ["Malcolm Gladwell"]

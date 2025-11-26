@@ -1,6 +1,6 @@
 ---
 title: "On Writing"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Stephen King"
 authors: ["Stephen King"]

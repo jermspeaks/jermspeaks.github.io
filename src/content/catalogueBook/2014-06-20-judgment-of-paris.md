@@ -1,6 +1,6 @@
 ---
 title: "Judgment of Paris"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "George M. Taber"
 authors: ["George M. Taber"]

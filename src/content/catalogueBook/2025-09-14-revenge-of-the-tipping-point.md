@@ -1,6 +1,6 @@
 ---
 title: "Revenge of the Tipping Point"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780316581479"
 bookAuthor: "Malcolm Gladwell"

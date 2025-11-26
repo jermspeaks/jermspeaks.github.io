@@ -1,6 +1,6 @@
 ---
 title: "Crash Test Girl"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062749789"
 bookAuthor: "Kari Byron"

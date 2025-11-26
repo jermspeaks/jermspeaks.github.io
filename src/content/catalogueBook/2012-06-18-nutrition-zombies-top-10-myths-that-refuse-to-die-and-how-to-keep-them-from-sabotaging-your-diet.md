@@ -1,6 +1,6 @@
 ---
 title: "Nutrition Zombies: Top 10 Myths That Refuse to Die : (and How to Keep Them from Sabotaging Your Diet)"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Monica Reinagel"
 authors: ["Monica Reinagel"]

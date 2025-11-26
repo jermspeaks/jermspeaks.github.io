@@ -1,6 +1,6 @@
 ---
 title: "The 4-Hour Work Week"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Timothy Ferriss"
 authors: ["Timothy Ferriss"]

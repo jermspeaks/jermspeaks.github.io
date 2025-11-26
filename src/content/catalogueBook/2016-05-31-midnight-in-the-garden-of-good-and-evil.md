@@ -1,6 +1,6 @@
 ---
 title: "Midnight in the Garden of Good and Evil"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "John Berendt"
 authors: ["John Berendt"]

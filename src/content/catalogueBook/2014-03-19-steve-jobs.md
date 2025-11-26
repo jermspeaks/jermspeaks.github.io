@@ -1,6 +1,6 @@
 ---
 title: "Steve Jobs"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Walter Isaacson"
 authors: ["Walter Isaacson"]

@@ -1,6 +1,6 @@
 ---
 title: "A Clash of Kings"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "George R. R. Martin"
 authors: ["George R. R. Martin"]

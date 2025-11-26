@@ -1,6 +1,6 @@
 ---
 title: "Antimemetics"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9798992936407"
 bookAuthor: "Nadia Asparouhova"

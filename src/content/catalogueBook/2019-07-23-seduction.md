@@ -1,6 +1,6 @@
 ---
 title: "Seduction"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062440532"
 bookAuthor: "Karina Longworth"

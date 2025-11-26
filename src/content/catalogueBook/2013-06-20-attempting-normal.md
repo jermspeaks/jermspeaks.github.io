@@ -1,6 +1,6 @@
 ---
 title: "Attempting Normal"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Marc Maron"
 authors: ["Marc Maron"]

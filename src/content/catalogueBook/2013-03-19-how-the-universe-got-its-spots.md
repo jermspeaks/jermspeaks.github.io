@@ -1,6 +1,6 @@
 ---
 title: "How the Universe Got Its Spots"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Janna Levin"
 authors: ["Janna Levin"]

@@ -1,6 +1,6 @@
 ---
 title: "The Pragmatic Programmer"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Andy Hunt"
 authors: ["Andy Hunt", "David Thomas", "Dave Thomas", "David . Thomas"]

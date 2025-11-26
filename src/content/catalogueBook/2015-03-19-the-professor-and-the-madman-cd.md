@@ -1,6 +1,6 @@
 ---
 title: "The Professor and the Madman CD"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Simon Winchester"
 authors: ["Simon Winchester", "Simon Winchester"]

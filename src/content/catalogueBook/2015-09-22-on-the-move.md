@@ -1,6 +1,6 @@
 ---
 title: "On the Move"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Oliver Sacks"
 authors: ["Oliver Sacks"]

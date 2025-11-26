@@ -1,6 +1,6 @@
 ---
 title: "The Art of Fear"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780062423436"
 bookAuthor: "Kristen Ulmer"

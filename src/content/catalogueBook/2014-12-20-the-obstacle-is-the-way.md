@@ -1,6 +1,6 @@
 ---
 title: "The obstacle is the way"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Ryan Holiday"
 authors: ["Ryan Holiday"]

@@ -1,6 +1,6 @@
 ---
 title: "One Hundred Years of Solitude"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Gabriel García Márquez"
 authors: ["Gabriel García Márquez"]

@@ -1,6 +1,6 @@
 ---
 title: "The Secret Life of Groceries"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780553459401"
 bookAuthor: "Benjamin Lorr"

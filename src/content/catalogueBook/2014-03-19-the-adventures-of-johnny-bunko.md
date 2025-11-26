@@ -1,6 +1,6 @@
 ---
 title: "The Adventures of Johnny Bunko"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Daniel H. Pink"
 authors: ["Daniel H. Pink"]

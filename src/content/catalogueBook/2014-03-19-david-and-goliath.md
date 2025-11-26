@@ -1,6 +1,6 @@
 ---
 title: "David and Goliath"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Malcolm Gladwell"
 authors: ["Malcolm Gladwell"]

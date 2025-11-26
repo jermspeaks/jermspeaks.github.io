@@ -1,6 +1,6 @@
 ---
 title: "Nutrition Diva's 5 Secrets for Aging Well"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Monica Reinagel"
 authors: ["Monica Reinagel"]

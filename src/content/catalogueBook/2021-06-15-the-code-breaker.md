@@ -1,6 +1,6 @@
 ---
 title: "The Code Breaker"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781982115869"
 bookAuthor: "Walter Isaacson"

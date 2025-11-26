@@ -1,6 +1,6 @@
 ---
 title: "How to Calm Your Mind"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781039000094"
 bookAuthor: "Chris Bailey"

@@ -1,6 +1,6 @@
 ---
 title: "I will teach you to be rich"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Ramit Sethi"
 authors: ["Ramit Sethi"]

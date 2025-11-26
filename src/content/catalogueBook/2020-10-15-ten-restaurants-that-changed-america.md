@@ -1,6 +1,6 @@
 ---
 title: "Ten Restaurants That Changed America"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781631492464"
 bookAuthor: "Paul Freedman"

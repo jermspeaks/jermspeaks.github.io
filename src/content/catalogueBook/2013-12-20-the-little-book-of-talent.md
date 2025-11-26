@@ -1,6 +1,6 @@
 ---
 title: "The little book of talent"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Daniel Coyle"
 authors: ["Daniel Coyle"]

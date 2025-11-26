@@ -1,6 +1,6 @@
 ---
 title: "The inner game of music"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Barry Green"
 authors: ["Barry Green"]

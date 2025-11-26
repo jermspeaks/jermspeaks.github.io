@@ -1,6 +1,6 @@
 ---
 title: "The Goldfinch"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Donna Tartt"
 authors: ["Donna Tartt", "Katia Benovich"]

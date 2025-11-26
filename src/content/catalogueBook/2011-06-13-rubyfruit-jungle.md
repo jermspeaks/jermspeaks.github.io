@@ -1,6 +1,6 @@
 ---
 title: "Rubyfruit Jungle"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Rita Mae Brown"
 authors: ["Rita Mae Brown"]

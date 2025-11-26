@@ -1,6 +1,6 @@
 ---
 title: "The Dutch House"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781526614971"
 bookAuthor: "Ann Patchett"

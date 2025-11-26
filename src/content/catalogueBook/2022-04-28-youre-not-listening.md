@@ -1,6 +1,6 @@
 ---
 title: "You’re Not Listening"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781473561106"
 bookAuthor: "Kate Murphy"

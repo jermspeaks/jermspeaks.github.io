@@ -1,6 +1,6 @@
 ---
 title: "The Five Love Languages"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Gary Chapman"
 authors: ["Gary Chapman", "Chris Fabry"]

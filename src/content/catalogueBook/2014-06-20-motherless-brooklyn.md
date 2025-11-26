@@ -1,6 +1,6 @@
 ---
 title: "Motherless Brooklyn"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jonathan Lethem"
 authors: ["Jonathan Lethem", "J. LETHEM", "Professor of the History of Science Geoffrey Cantor"]

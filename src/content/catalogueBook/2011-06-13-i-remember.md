@@ -1,6 +1,6 @@
 ---
 title: "I remember"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Joe Brainard"
 authors: ["Joe Brainard"]

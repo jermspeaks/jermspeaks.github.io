@@ -1,6 +1,6 @@
 ---
 title: "Originals"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780143128854"
 bookAuthor: "Adam Grant"

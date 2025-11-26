@@ -1,6 +1,6 @@
 ---
 title: "The Drunken Botanist"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Amy Stewart"
 authors: ["Amy Stewart"]

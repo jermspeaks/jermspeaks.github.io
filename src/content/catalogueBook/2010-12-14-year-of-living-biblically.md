@@ -1,6 +1,6 @@
 ---
 title: "Year of Living Biblically"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jacobs, A. J."
 authors: ["Jacobs, A. J."]

@@ -1,6 +1,6 @@
 ---
 title: "Sharpie art workshop"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Timothy Goodman"
 authors: ["Timothy Goodman"]

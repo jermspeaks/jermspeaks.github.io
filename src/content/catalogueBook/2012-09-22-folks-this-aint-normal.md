@@ -1,6 +1,6 @@
 ---
 title: "Folks, This Ain't Normal"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Joel Salatin"
 authors: ["Joel Salatin", "Mónica Fernández Perea"]

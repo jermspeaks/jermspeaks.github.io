@@ -1,6 +1,6 @@
 ---
 title: "Julie and Julia"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Julie Powell"
 authors: ["Julie Powell"]

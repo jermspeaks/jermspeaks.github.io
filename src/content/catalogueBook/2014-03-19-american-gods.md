@@ -1,6 +1,6 @@
 ---
 title: "American Gods"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Neil Gaiman"
 authors: ["Neil Gaiman"]

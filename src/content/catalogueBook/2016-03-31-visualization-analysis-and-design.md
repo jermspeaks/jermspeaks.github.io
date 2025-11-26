@@ -1,6 +1,6 @@
 ---
 title: "Visualization Analysis and Design"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Tamara Munzner"
 authors: ["Tamara Munzner"]

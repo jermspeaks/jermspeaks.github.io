@@ -1,6 +1,6 @@
 ---
 title: "The personal MBA"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Josh Kaufman"
 authors: ["Josh Kaufman"]

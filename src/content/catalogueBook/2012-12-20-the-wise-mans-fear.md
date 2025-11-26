@@ -1,6 +1,6 @@
 ---
 title: "The Wise Man’s Fear"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Patrick Rothfuss"
 authors: ["Patrick Rothfuss"]

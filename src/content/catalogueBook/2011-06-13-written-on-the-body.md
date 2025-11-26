@@ -1,6 +1,6 @@
 ---
 title: "Written on the Body"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jeanette Winterson"
 authors: ["Jeanette Winterson"]

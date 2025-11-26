@@ -1,6 +1,6 @@
 ---
 title: "Death by black hole : and other cosmic quandaries"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Neil deGrasse Tyson"
 authors: ["Neil deGrasse Tyson"]

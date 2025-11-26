@@ -1,6 +1,6 @@
 ---
 title: "Manage your day-to-day"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jocelyn K. Glei"
 authors: ["Jocelyn K. Glei", "Scott Belsky"]

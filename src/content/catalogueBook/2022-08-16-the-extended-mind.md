@@ -1,6 +1,6 @@
 ---
 title: "The Extended Mind"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780544947665"
 bookAuthor: "Annie Murphy Paul"

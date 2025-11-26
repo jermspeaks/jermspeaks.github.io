@@ -1,6 +1,6 @@
 ---
 title: "Hitchcock"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780671604295"
 bookAuthor: "Francois Truffaut"

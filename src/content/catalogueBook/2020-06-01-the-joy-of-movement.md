@@ -1,6 +1,6 @@
 ---
 title: "The Joy of Movement"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780525534129"
 bookAuthor: "Kelly McGonigal"

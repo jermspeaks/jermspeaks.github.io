@@ -1,6 +1,6 @@
 ---
 title: "Four Thousand Weeks"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781847924025"
 bookAuthor: "Oliver Burkeman"

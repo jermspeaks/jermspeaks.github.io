@@ -1,6 +1,6 @@
 ---
 title: "The Name of the Wind"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Patrick Rothfuss"
 authors: ["Patrick Rothfuss"]

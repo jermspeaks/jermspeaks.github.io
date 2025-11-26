@@ -1,6 +1,6 @@
 ---
 title: "The Art of Asking"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Amanda Palmer"
 authors: ["Amanda Palmer", "Brené Brown"]

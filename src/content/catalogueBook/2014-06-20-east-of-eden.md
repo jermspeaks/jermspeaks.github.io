@@ -1,6 +1,6 @@
 ---
 title: "East of Eden"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "John Steinbeck"
 authors: ["John Steinbeck"]

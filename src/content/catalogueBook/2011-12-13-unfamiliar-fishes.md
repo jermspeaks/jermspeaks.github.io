@@ -1,6 +1,6 @@
 ---
 title: "Unfamiliar Fishes"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Sarah Vowell"
 authors: ["Sarah Vowell"]

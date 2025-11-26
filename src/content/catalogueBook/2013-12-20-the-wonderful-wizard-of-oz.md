@@ -1,6 +1,6 @@
 ---
 title: "The Wonderful Wizard of Oz"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "L. Frank Baum"
 authors: ["L. Frank Baum"]

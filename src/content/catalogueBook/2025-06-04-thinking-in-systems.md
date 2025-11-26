@@ -1,6 +1,6 @@
 ---
 title: "Thinking in Systems"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781603580557"
 bookAuthor: "Donella H. Meadows"

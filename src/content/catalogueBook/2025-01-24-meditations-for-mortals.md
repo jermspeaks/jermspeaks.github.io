@@ -1,6 +1,6 @@
 ---
 title: "Meditations for Mortals"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780735247888"
 bookAuthor: "Oliver Burkeman"

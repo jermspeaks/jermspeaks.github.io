@@ -1,6 +1,6 @@
 ---
 title: "Gender outlaw"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Kate Bornstein"
 authors: ["Kate Bornstein"]

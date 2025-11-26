@@ -1,6 +1,6 @@
 ---
 title: "Let's Explore Diabetes with Owls"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "David Sedaris"
 authors: ["David Sedaris"]

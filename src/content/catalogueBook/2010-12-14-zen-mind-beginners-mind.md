@@ -1,6 +1,6 @@
 ---
 title: "Zen mind, beginner's mind"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Shunryū Suzuki"
 authors: ["Shunryū Suzuki"]

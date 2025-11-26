@@ -1,6 +1,6 @@
 ---
 title: "The Handmaid's Tale"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Margaret Atwood"
 authors: ["Margaret Atwood"]

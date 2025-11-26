@@ -1,6 +1,6 @@
 ---
 title: "Born A Crime"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781473635319"
 bookAuthor: "Trevor Noah"

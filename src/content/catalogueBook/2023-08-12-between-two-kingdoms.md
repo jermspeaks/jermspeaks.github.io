@@ -1,6 +1,6 @@
 ---
 title: "Between Two Kingdoms"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780399588594"
 bookAuthor: "Suleika Jaouad"

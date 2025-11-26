@@ -1,6 +1,6 @@
 ---
 title: "Helvetica, Objectified, Urbanized"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Gary Hustwit"
 authors: ["Gary Hustwit"]

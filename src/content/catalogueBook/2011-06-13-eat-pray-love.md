@@ -1,6 +1,6 @@
 ---
 title: "Eat, Pray, Love"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Elizabeth Gilbert"
 authors: ["Elizabeth Gilbert"]

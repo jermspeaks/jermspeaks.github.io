@@ -1,6 +1,6 @@
 ---
 title: "Get Programming with Go"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781638355472"
 bookAuthor: "Roger Peppe"

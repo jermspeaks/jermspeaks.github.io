@@ -1,6 +1,6 @@
 ---
 title: "Zero to maker"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "David Lang"
 authors: ["David Lang"]

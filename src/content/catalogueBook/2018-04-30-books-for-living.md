@@ -1,6 +1,6 @@
 ---
 title: "Books for Living"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780804172752"
 bookAuthor: "Will Schwalbe"

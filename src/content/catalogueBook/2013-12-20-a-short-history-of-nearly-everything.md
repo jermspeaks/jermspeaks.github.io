@@ -1,6 +1,6 @@
 ---
 title: "A short history of nearly everything"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Bill Bryson"
 authors: ["Bill Bryson"]

@@ -1,6 +1,6 @@
 ---
 title: "To Kill a Mockingbird"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780871299208"
 bookAuthor: "Harper Lee"

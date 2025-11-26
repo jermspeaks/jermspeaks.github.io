@@ -1,6 +1,6 @@
 ---
 title: "El Valor Del Miedo"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Gavin De Becker"
 authors: ["Gavin De Becker", "Gavin De Becker", "Gavin de Becker"]

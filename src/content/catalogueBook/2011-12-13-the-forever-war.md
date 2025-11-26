@@ -1,6 +1,6 @@
 ---
 title: "The Forever War"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Joe Haldeman"
 authors: ["Joe Haldeman"]

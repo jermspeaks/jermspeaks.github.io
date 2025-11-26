@@ -1,6 +1,6 @@
 ---
 title: "Reclaiming Conversation"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Sherry Turkle"
 authors: ["Sherry Turkle"]

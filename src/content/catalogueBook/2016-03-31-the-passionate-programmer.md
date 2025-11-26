@@ -1,6 +1,6 @@
 ---
 title: "The passionate programmer"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Chad Fowler"
 authors: ["Chad Fowler"]

@@ -1,6 +1,6 @@
 ---
 title: "Strong Towns"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781119564812"
 bookAuthor: "Charles L. Marohn, Jr."

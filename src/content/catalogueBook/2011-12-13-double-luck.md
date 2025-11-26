@@ -1,6 +1,6 @@
 ---
 title: "Double luck"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Lu, Chi Fa."
 authors: ["Lu, Chi Fa.", "Chi Fa Lu"]

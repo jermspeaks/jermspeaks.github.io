@@ -1,6 +1,6 @@
 ---
 title: "The Boron Letters"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "978-1484825983"
 bookAuthor: "["

@@ -1,6 +1,6 @@
 ---
 title: "Enchantment: The Life of Audrey Hepburn"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Donald Spoto"
 authors: ["Donald Spoto"]

@@ -1,6 +1,6 @@
 ---
 title: "The Road to Burgundy"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Ray Walker"
 authors: ["Ray Walker"]

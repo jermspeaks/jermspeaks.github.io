@@ -1,6 +1,6 @@
 ---
 title: "101 Things I Learned® in Fashion School"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Alfredo Cabrera"
 authors: ["Alfredo Cabrera", "Matthew Frederick"]

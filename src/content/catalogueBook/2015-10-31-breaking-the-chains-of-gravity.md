@@ -1,6 +1,6 @@
 ---
 title: "Breaking the chains of gravity"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Amy Shira Teitel"
 authors: ["Amy Shira Teitel"]

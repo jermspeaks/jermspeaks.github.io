@@ -1,6 +1,6 @@
 ---
 title: "Salt Sugar Fat"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Michael Moss"
 authors: ["Michael Moss"]

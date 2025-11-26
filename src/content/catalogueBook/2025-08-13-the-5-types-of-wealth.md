@@ -1,6 +1,6 @@
 ---
 title: "The 5 Types of Wealth"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593723197"
 bookAuthor: "Sahil Bloom"

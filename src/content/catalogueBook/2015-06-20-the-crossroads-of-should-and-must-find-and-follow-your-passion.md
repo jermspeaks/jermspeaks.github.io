@@ -1,6 +1,6 @@
 ---
 title: "The Crossroads of Should and Must: Find and Follow Your Passion"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Elle Luna"
 authors: ["Elle Luna"]

@@ -1,6 +1,6 @@
 ---
 title: "Leaders Eat Last"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Simon Sinek"
 authors: ["Simon Sinek"]

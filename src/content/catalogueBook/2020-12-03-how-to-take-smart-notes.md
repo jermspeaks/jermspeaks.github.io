@@ -1,6 +1,6 @@
 ---
 title: "How to Take Smart Notes"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9783982438818"
 bookAuthor: "Sönke Ahrens"

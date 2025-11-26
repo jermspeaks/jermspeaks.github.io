@@ -1,6 +1,6 @@
 ---
 title: "My Stroke of Insight"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Jill Bolte Taylor"
 authors: ["Jill Bolte Taylor"]

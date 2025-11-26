@@ -1,6 +1,6 @@
 ---
 title: "Making Work Visible"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "978-1942788164"
 bookAuthor: "Dominica Degrandis"

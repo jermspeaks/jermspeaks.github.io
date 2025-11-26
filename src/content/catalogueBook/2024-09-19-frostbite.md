@@ -1,6 +1,6 @@
 ---
 title: "Frostbite"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780735223295"
 bookAuthor: "Nicola Twilley"

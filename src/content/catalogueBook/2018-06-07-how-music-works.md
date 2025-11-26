@@ -1,6 +1,6 @@
 ---
 title: "How Music Works"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780804188937"
 bookAuthor: "David Byrne"

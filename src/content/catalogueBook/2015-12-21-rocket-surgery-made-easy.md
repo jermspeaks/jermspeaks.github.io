@@ -1,6 +1,6 @@
 ---
 title: "Rocket Surgery Made Easy"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Steve Krug"
 authors: ["Steve Krug"]

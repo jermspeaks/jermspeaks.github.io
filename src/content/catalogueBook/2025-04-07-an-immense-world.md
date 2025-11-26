@@ -1,6 +1,6 @@
 ---
 title: "An Immense World"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9780593133248"
 bookAuthor: "Ed Yong"

@@ -1,6 +1,6 @@
 ---
 title: "The Innovator's Dilemma"
-draft: true
+draft: false
 kind: "catalogueBook"
 isbn: "9781422197585"
 bookAuthor: "Clayton M. Christensen"

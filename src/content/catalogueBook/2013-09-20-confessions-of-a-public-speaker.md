@@ -1,6 +1,6 @@
 ---
 title: "Confessions of a public speaker"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Scott Berkun"
 authors: ["Scott Berkun"]

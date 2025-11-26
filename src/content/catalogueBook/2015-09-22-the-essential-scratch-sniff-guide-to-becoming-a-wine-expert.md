@@ -1,6 +1,6 @@
 ---
 title: "The essential scratch & sniff guide to becoming a wine expert"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Richard Bėtts"
 authors: ["Richard Bėtts"]

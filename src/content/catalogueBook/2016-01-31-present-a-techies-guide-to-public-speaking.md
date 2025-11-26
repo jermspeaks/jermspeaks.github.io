@@ -1,6 +1,6 @@
 ---
 title: "Present! A Techie's Guide to Public Speaking"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Vijayashanker, Poornima, Catlin, Karen"
 authors: ["Vijayashanker, Poornima, Catlin, Karen"]

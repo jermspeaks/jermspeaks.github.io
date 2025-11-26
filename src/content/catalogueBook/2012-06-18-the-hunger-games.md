@@ -1,6 +1,6 @@
 ---
 title: "The Hunger Games"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Suzanne Collins"
 authors: ["Suzanne Collins"]

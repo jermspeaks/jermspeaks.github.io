@@ -1,6 +1,6 @@
 ---
 title: "Män som hatar kvinnor"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Stieg Larsson"
 authors: ["Stieg Larsson"]

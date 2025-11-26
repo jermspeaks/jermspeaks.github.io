@@ -1,6 +1,6 @@
 ---
 title: "Economics in One Lesson"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Henry Hazlitt"
 authors: ["Henry Hazlitt"]

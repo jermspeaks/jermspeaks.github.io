@@ -1,6 +1,6 @@
 ---
 title: "The Signal and the Noise"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Nate Silver"
 authors: ["Nate Silver"]

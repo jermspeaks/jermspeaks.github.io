@@ -1,6 +1,6 @@
 ---
 title: "Flash Boys"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Michael Lewis"
 authors: ["Michael Lewis"]

@@ -1,6 +1,6 @@
 ---
 title: "She comes first"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Ian Kerner"
 authors: ["Ian Kerner"]

@@ -1,6 +1,6 @@
 ---
 title: "Thanks for the Feedback"
-draft: true
+draft: false
 kind: "catalogueBook"
 bookAuthor: "Douglas Stone"
 authors: ["Douglas Stone", "Sheila Heen"]
