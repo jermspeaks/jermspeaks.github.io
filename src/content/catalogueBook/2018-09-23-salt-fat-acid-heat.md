@@ -7,5 +7,6 @@ bookAuthor: "Samin Nosrat"
 pubDate: "2017-04-25T07:00:00.000Z"
 publishDate: "2017-04-25T07:00:00.000Z"
 reviewDate: "2018-09-23T00:00:00.000Z"
+rating: 4
 ---
 

@@ -7,5 +7,6 @@ bookAuthor: "Sönke Ahrens"
 pubDate: "2022-03-11T00:00:00.000Z"
 publishDate: "2022-03-11T00:00:00.000Z"
 reviewDate: "2020-12-03T00:00:00.000Z"
+rating: 4
 ---
 

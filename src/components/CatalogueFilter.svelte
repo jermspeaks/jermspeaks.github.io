@@ -1,5 +1,4 @@
 <script lang="ts">
-  import { onMount } from "svelte";
 
   let { books = [] }: {
     books: Array<{
@@ -124,35 +123,35 @@
   }
 </script>
 
-<div class="catalogue-container">
-  <aside class="sidebar">
-    <p class="description">
+<div class="grid grid-cols-[250px_1fr] gap-8 mt-8 max-md:grid-cols-1">
+  <aside class="flex flex-col gap-6">
+    <p class="text-sm text-slate-600 dark:text-slate-300 m-0">
       This page lists games, books, shows... stuff I've played, watched, read,
       listened to.
     </p>
 
-    <div class="filter-group">
-      <label for="search">Search</label>
+    <div class="flex flex-col gap-2">
+      <label for="search" class="text-sm font-medium dark:text-white">Search</label>
       <input
         id="search"
         type="text"
         bind:value={searchQuery}
         placeholder="Search..."
-        class="search-input"
+        class="p-2 border border-slate-300 dark:border-slate-700 rounded text-sm bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100"
       />
     </div>
 
-    <div class="filter-group">
-      <label for="type">Type</label>
-      <select id="type" bind:value={typeFilter} class="select-input">
+    <div class="flex flex-col gap-2">
+      <label for="type" class="text-sm font-medium dark:text-white">Type</label>
+      <select id="type" bind:value={typeFilter} class="p-2 border border-slate-300 dark:border-slate-700 rounded text-sm bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100">
         <option value="all">Type</option>
         <!-- Reserved for future expansion -->
       </select>
     </div>
 
-    <div class="filter-group">
-      <label for="rating">Rating</label>
-      <select id="rating" bind:value={ratingFilter} class="select-input">
+    <div class="flex flex-col gap-2">
+      <label for="rating" class="text-sm font-medium dark:text-white">Rating</label>
+      <select id="rating" bind:value={ratingFilter} class="p-2 border border-slate-300 dark:border-slate-700 rounded text-sm bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100">
         <option value="all">Rating</option>
         <option value="6">❤️ Masterpiece</option>
         <option value="5">🥰 Loved</option>
@@ -163,13 +162,13 @@
       </select>
     </div>
 
-    <div class="filter-group">
-      <label for="sort">
+    <div class="flex flex-col gap-2">
+      <label for="sort" class="text-sm font-medium dark:text-white flex items-center gap-2">
         Sort
         <button
           type="button"
           onclick={() => toggleSortDirection()}
-          class="sort-direction"
+          class="bg-transparent border-none cursor-pointer text-base p-0 text-inherit"
           aria-label="Toggle sort direction"
         >
           {sortDirection === "asc" ? "↑" : "↓"}
@@ -177,7 +176,7 @@
       </label>
       <select
         id="sort"
-        class="select-input"
+        class="p-2 border border-slate-300 dark:border-slate-700 rounded text-sm bg-white dark:bg-slate-800 text-slate-900 dark:text-slate-100"
         value={sortField}
         onchange={(e) => {
           const value = (e.target as HTMLSelectElement).value;
@@ -191,29 +190,29 @@
       </select>
     </div>
 
-    <div class="entry-count">
+    <div class="mt-auto text-sm text-slate-600 dark:text-slate-300">
       {filteredBooks.length} entries
     </div>
   </aside>
 
-  <main class="grid-container">
-    <div class="book-grid">
+  <main class="min-h-0">
+    <div class="grid grid-cols-5 gap-4 max-xl:grid-cols-4 max-md:grid-cols-3 max-sm:grid-cols-2">
       {#each filteredBooks as book (book.slug)}
-        <a href={`/catalogue/${book.slug}`} class="book-card">
-          <div class="book-cover-wrapper">
+        <a href={`/catalogue/${book.slug}`} class="block no-underline text-inherit">
+          <div class="relative w-full aspect-[2/3] overflow-hidden rounded">
             {#if book.data.coverImage}
               <img
                 src={book.data.coverImage.src}
                 alt={book.data.title}
-                class="book-cover"
+                class="w-full h-full object-cover"
               />
             {:else}
-              <div class="book-cover-placeholder">
+              <div class="w-full h-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center p-2 text-xs text-center text-slate-600 dark:text-slate-300">
                 {book.data.title}
               </div>
             {/if}
             {#if book.data.rating}
-              <span class="rating-emoji">
+              <span class="absolute top-1 right-1 text-xl bg-white/90 dark:bg-slate-900/90 rounded-full w-7 h-7 flex items-center justify-center shadow-sm">
                 {getRatingEmoji(book.data.rating)}
               </span>
             {/if}
@@ -224,167 +223,4 @@
   </main>
 </div>
 
-<style>
-  .catalogue-container {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    gap: 2rem;
-    margin-top: 2rem;
-  }
-
-  .sidebar {
-    display: flex;
-    flex-direction: column;
-    gap: 1.5rem;
-  }
-
-  .description {
-    font-size: 0.9rem;
-    color: rgb(71 85 105);
-    margin: 0;
-  }
-
-  .dark .description {
-    color: rgb(203 213 225);
-  }
-
-  .filter-group {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-  }
-
-  .filter-group label {
-    font-size: 0.875rem;
-    font-weight: 500;
-    display: flex;
-    align-items: center;
-    gap: 0.5rem;
-  }
-
-  .search-input,
-  .select-input {
-    padding: 0.5rem;
-    border: 1px solid rgb(203 213 225);
-    border-radius: 0.25rem;
-    font-size: 0.875rem;
-    background: white;
-    color: rgb(15 23 42);
-  }
-
-  .dark .search-input,
-  .dark .select-input {
-    background: rgb(30 41 59);
-    border-color: rgb(51 65 85);
-    color: rgb(241 245 249);
-  }
-
-  .sort-direction {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1rem;
-    padding: 0;
-    color: inherit;
-  }
-
-  .entry-count {
-    margin-top: auto;
-    font-size: 0.875rem;
-    color: rgb(71 85 105);
-  }
-
-  .dark .entry-count {
-    color: rgb(203 213 225);
-  }
-
-  .grid-container {
-    min-height: 0;
-  }
-
-  .book-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 1rem;
-  }
-
-  .book-card {
-    display: block;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .book-cover-wrapper {
-    position: relative;
-    width: 100%;
-    aspect-ratio: 2 / 3;
-    overflow: hidden;
-    border-radius: 0.25rem;
-  }
-
-  .book-cover {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-  .book-cover-placeholder {
-    width: 100%;
-    height: 100%;
-    background: rgb(241 245 249);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5rem;
-    font-size: 0.75rem;
-    text-align: center;
-    color: rgb(71 85 105);
-  }
-
-  .dark .book-cover-placeholder {
-    background: rgb(30 41 59);
-    color: rgb(203 213 225);
-  }
-
-  .rating-emoji {
-    position: absolute;
-    top: 0.25rem;
-    right: 0.25rem;
-    font-size: 1.25rem;
-    background: rgba(255, 255, 255, 0.9);
-    border-radius: 50%;
-    width: 1.75rem;
-    height: 1.75rem;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  }
-
-  .dark .rating-emoji {
-    background: rgba(15, 23, 42, 0.9);
-  }
-
-  @media (max-width: 1024px) {
-    .book-grid {
-      grid-template-columns: repeat(4, 1fr);
-    }
-  }
-
-  @media (max-width: 768px) {
-    .catalogue-container {
-      grid-template-columns: 1fr;
-    }
-
-    .book-grid {
-      grid-template-columns: repeat(3, 1fr);
-    }
-  }
-
-  @media (max-width: 640px) {
-    .book-grid {
-      grid-template-columns: repeat(2, 1fr);
-    }
-  }
-</style>
 

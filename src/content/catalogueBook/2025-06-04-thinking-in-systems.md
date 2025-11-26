@@ -7,5 +7,6 @@ bookAuthor: "Donella H. Meadows"
 pubDate: "2008-01-01T00:00:00.000Z"
 publishDate: "2008-01-01T00:00:00.000Z"
 reviewDate: "2025-06-04T00:00:00.000Z"
+rating: 4
 ---
 

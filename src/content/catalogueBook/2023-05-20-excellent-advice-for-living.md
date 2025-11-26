@@ -7,5 +7,6 @@ bookAuthor: "Kevin Kelly"
 pubDate: "2023-05-02T00:00:00.000Z"
 publishDate: "2023-05-02T00:00:00.000Z"
 reviewDate: "2023-05-20T00:00:00.000Z"
+rating: 4
 ---
 

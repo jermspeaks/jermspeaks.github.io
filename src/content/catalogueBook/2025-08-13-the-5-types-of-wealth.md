@@ -7,5 +7,6 @@ bookAuthor: "Sahil Bloom"
 pubDate: "2025-02-04T00:00:00.000Z"
 publishDate: "2025-02-04T00:00:00.000Z"
 reviewDate: "2025-08-13T00:00:00.000Z"
+rating: 4
 ---
 

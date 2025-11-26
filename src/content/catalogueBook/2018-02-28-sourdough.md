@@ -7,5 +7,6 @@ bookAuthor: "Robin Sloan"
 pubDate: "2017-09-05T00:00:00.000Z"
 publishDate: "2017-09-05T00:00:00.000Z"
 reviewDate: "2018-02-28T00:00:00.000Z"
+rating: 4
 ---
 

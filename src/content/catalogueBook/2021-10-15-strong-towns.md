@@ -7,5 +7,6 @@ bookAuthor: "Charles L. Marohn, Jr."
 pubDate: "2019-10-01T00:00:00.000Z"
 publishDate: "2019-10-01T00:00:00.000Z"
 reviewDate: "2021-10-15T00:00:00.000Z"
+rating: 4
 ---
 

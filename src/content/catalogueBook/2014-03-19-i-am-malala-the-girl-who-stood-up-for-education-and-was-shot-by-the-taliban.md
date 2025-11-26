@@ -6,5 +6,6 @@ bookAuthor: "Malala Yousafzai"
 authors: ["Malala Yousafzai"]
 pubDate: "2014-03-19T00:00:00.000Z"
 reviewDate: "2014-03-19T00:00:00.000Z"
+rating: 4
 ---
 
