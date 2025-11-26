@@ -9,5 +9,7 @@ publishDate: "2013-01-01T00:00:00.000Z"
 reviewDate: "2015-11-30T00:00:00.000Z"
 isbn: "9781292035499"
 rating: 4
+publishers: ["Pearson Education, Limited"]
 ---
+
 

@@ -9,5 +9,9 @@ publishDate: "2008-01-01T00:00:00.000Z"
 reviewDate: "2015-10-31T00:00:00.000Z"
 isbn: "9788374809290"
 rating: 4
+publishers: ["Wydawnictwo MAG"]
+pages: 175
+coverImage: "../../images/catalogueBook/2015-10-31-the-graveyard-book.png"
 ---
+
 

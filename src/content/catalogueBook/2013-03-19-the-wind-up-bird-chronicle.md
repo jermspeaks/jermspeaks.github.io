@@ -9,5 +9,7 @@ publishDate: "1998-01-01T00:00:00.000Z"
 reviewDate: "2013-03-19T00:00:00.000Z"
 isbn: "9781860464690"
 rating: 4
+publishers: ["Penguin Random House"]
 ---
+
 

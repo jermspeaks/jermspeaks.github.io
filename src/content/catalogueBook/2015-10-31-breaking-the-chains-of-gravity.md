@@ -9,5 +9,8 @@ publishDate: "2015-01-01T00:00:00.000Z"
 reviewDate: "2015-10-31T00:00:00.000Z"
 isbn: "9781472911193"
 rating: 4
+publishers: ["Bloomsbury Publishing Plc"]
+coverImage: "../../images/catalogueBook/2015-10-31-breaking-the-chains-of-gravity.png"
 ---
+
 

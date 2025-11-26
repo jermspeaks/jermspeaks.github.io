@@ -8,5 +8,8 @@ pubDate: "2017-02-28T00:00:00.000Z"
 publishDate: "2017-02-28T00:00:00.000Z"
 reviewDate: "2021-07-10T00:00:00.000Z"
 rating: 4
+publishers: ["Balzer + Bray"]
+coverImage: "../../images/catalogueBook/2021-07-10-the-hate-u-give.png"
 ---
+
 

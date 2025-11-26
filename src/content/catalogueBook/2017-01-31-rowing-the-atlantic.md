@@ -8,5 +8,8 @@ pubDate: "2009-10-06T00:00:00.000Z"
 publishDate: "2009-10-06T00:00:00.000Z"
 reviewDate: "2017-01-31T00:00:00.000Z"
 rating: 4
+authors: ["Roz Savage"]
+publishers: ["Simon & Schuster, Limited"]
 ---
+
 

@@ -9,5 +9,9 @@ publishDate: "2013-01-01T00:00:00.000Z"
 reviewDate: "2013-06-20T00:00:00.000Z"
 isbn: "9780988949003"
 rating: 4
+publishers: ["Kio Stark"]
+pages: 214
+coverImage: "../../images/catalogueBook/2013-06-20-dont-go-back-to-school-a-handbook-for-learning-anything.png"
 ---
+
 

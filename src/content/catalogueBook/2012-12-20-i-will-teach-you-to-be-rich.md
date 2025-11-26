@@ -9,5 +9,8 @@ publishDate: "2009-01-01T00:00:00.000Z"
 reviewDate: "2012-12-20T00:00:00.000Z"
 isbn: "9780340998069"
 rating: 4
+publishers: ["Hodder & Stoughton"]
+pages: 272
 ---
+
 

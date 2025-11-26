@@ -9,5 +9,9 @@ publishDate: "2011-01-01T00:00:00.000Z"
 reviewDate: "2014-03-19T00:00:00.000Z"
 isbn: "9786047703739"
 rating: 4
+publishers: ["Thế Giới"]
+pages: 693
+coverImage: "../../images/catalogueBook/2014-03-19-steve-jobs.png"
 ---
+
 

@@ -9,5 +9,8 @@ publishDate: "2012-01-01T00:00:00.000Z"
 reviewDate: "2012-09-22T00:00:00.000Z"
 isbn: "9781101583715"
 rating: 4
+publishers: ["Portfolio"]
+coverImage: "../../images/catalogueBook/2012-09-22-trust-me-im-lying.png"
 ---
+
 

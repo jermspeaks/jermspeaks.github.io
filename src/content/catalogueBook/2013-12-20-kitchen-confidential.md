@@ -9,5 +9,7 @@ publishDate: "2000-01-01T00:00:00.000Z"
 reviewDate: "2013-12-20T00:00:00.000Z"
 isbn: "9781408820858"
 rating: 4
+publishers: ["Bloomsbury Publishing Plc"]
 ---
+
 

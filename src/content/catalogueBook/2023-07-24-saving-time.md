@@ -8,5 +8,8 @@ pubDate: "2023-03-23T00:00:00.000Z"
 publishDate: "2023-03-23T00:00:00.000Z"
 reviewDate: "2023-07-24T00:00:00.000Z"
 rating: 4
+authors: ["Jenny Odell"]
+publishers: ["Penguin Random House"]
 ---
+
 

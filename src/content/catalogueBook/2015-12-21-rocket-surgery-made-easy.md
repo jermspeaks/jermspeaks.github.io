@@ -9,5 +9,9 @@ publishDate: "2009-01-01T00:00:00.000Z"
 reviewDate: "2015-12-21T00:00:00.000Z"
 isbn: "9789058714404"
 rating: 4
+publishers: ["Uitgeverij Thema"]
+pages: 137
+coverImage: "../../images/catalogueBook/2015-12-21-rocket-surgery-made-easy.png"
 ---
+
 

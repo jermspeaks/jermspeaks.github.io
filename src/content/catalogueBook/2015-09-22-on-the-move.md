@@ -9,5 +9,7 @@ publishDate: "2015-01-01T00:00:00.000Z"
 reviewDate: "2015-09-22T00:00:00.000Z"
 isbn: "9781529087451"
 rating: 4
+publishers: ["Pan Macmillan"]
 ---
+
 

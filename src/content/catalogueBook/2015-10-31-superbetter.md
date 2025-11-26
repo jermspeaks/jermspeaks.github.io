@@ -9,5 +9,9 @@ publishDate: "2015-01-01T00:00:00.000Z"
 reviewDate: "2015-10-31T00:00:00.000Z"
 isbn: "9783451304941"
 rating: 4
+publishers: ["Herder"]
+pages: 560
+coverImage: "../../images/catalogueBook/2015-10-31-superbetter.png"
 ---
+
 

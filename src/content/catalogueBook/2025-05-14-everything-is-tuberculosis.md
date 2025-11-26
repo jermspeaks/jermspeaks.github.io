@@ -8,5 +8,9 @@ pubDate: "2025-03-18T00:00:00.000Z"
 publishDate: "2025-03-18T00:00:00.000Z"
 reviewDate: "2025-05-14T00:00:00.000Z"
 rating: 4
+authors: ["John Green"]
+publishers: ["Diversified Publishing"]
+pages: 256
 ---
+
 

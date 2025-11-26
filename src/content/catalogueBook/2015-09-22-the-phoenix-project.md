@@ -9,5 +9,7 @@ publishDate: "2013-01-01T00:00:00.000Z"
 reviewDate: "2015-09-22T00:00:00.000Z"
 isbn: "9781950508945"
 rating: 4
+publishers: ["IT Revolution Press"]
 ---
+
 

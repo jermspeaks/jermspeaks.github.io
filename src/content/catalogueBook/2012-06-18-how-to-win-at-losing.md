@@ -9,5 +9,7 @@ publishDate: "2012-01-01T00:00:00.000Z"
 reviewDate: "2012-06-18T00:00:00.000Z"
 isbn: "9781466804784"
 rating: 4
+publishers: ["St. Martin's Press"]
 ---
+
 

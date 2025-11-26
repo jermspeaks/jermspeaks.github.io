@@ -9,5 +9,9 @@ publishDate: "2008-01-01T00:00:00.000Z"
 reviewDate: "2012-06-18T00:00:00.000Z"
 isbn: "9780452295544"
 rating: 4
+publishers: ["Plume"]
+pages: 224
+coverImage: "../../images/catalogueBook/2012-06-18-my-stroke-of-insight.png"
 ---
+
 

@@ -9,5 +9,7 @@ publishDate: "1834-01-01T00:00:00.000Z"
 reviewDate: "2012-12-20T00:00:00.000Z"
 isbn: "9789997702487"
 rating: 4
+publishers: ["Books on Tape"]
 ---
+
 

@@ -9,5 +9,7 @@ publishDate: "2015-01-01T00:00:00.000Z"
 reviewDate: "2016-09-21T00:00:00.000Z"
 isbn: "9781627883672"
 rating: 4
+publishers: ["Quarto Publishing Group USA"]
 ---
+
 

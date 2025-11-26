@@ -9,5 +9,9 @@ publishDate: "2004-01-01T00:00:00.000Z"
 reviewDate: "2011-06-13T00:00:00.000Z"
 isbn: "0743250605"
 rating: 4
+publishers: ["Simon & Schuster"]
+pages: 386
+coverImage: "../../images/catalogueBook/2011-06-13-the-know-it-all.png"
 ---
+
 

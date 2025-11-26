@@ -9,5 +9,8 @@ publishDate: "2004-01-01T00:00:00.000Z"
 reviewDate: "2015-09-22T00:00:00.000Z"
 isbn: "9780307245977"
 rating: 4
+publishers: ["Listening Library"]
+coverImage: "../../images/catalogueBook/2015-09-22-sign-of-the-qin.png"
 ---
+
 

@@ -8,5 +8,8 @@ pubDate: "2017-12-26T00:00:00.000Z"
 publishDate: "2017-12-26T00:00:00.000Z"
 reviewDate: "2021-05-30T00:00:00.000Z"
 rating: 4
+authors: ["Jesse Mecham"]
+publishers: ["HarperCollins Publishers"]
 ---
+
 

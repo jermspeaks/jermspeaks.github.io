@@ -9,5 +9,7 @@ publishDate: "1993-01-01T00:00:00.000Z"
 reviewDate: "2012-03-18T00:00:00.000Z"
 isbn: "9785552755875"
 rating: 4
+publishers: ["Doubleday Books"]
 ---
+
 

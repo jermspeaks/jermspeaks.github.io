@@ -9,5 +9,7 @@ publishDate: "2001-01-01T00:00:00.000Z"
 reviewDate: "2010-12-14T00:00:00.000Z"
 isbn: "9780786555819"
 rating: 4
+publishers: ["Penguin Publishing Group"]
 ---
+
 

@@ -9,5 +9,9 @@ publishDate: "2008-01-01T00:00:00.000Z"
 reviewDate: "2012-06-18T00:00:00.000Z"
 isbn: "9786555321449"
 rating: 4
+publishers: ["Rocco"]
+pages: 400
+coverImage: "../../images/catalogueBook/2012-06-18-the-hunger-games.png"
 ---
+
 

@@ -9,5 +9,8 @@ publishDate: "2016-01-01T00:00:00.000Z"
 reviewDate: "2016-09-30T00:00:00.000Z"
 isbn: "9781781257012"
 rating: 4
+publishers: ["Profile Books Ltd", "imusti", "Profile Books"]
+coverImage: "../../images/catalogueBook/2016-09-30-ego-is-the-enemy.png"
 ---
+
 

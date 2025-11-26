@@ -9,5 +9,9 @@ publishDate: "1970-01-01T00:00:00.000Z"
 reviewDate: "2010-12-14T00:00:00.000Z"
 isbn: "9525572145"
 rating: 4
+publishers: ["Delfiini kirjat"]
+pages: 150
+coverImage: "../../images/catalogueBook/2010-12-14-zen-mind-beginners-mind.png"
 ---
+
 

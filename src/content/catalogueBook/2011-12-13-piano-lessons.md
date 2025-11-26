@@ -9,5 +9,9 @@ publishDate: "1996-01-01T00:00:00.000Z"
 reviewDate: "2011-12-13T00:00:00.000Z"
 isbn: "0783819854"
 rating: 4
+publishers: ["G.K. Hall"]
+pages: 264
+coverImage: "../../images/catalogueBook/2011-12-13-piano-lessons.png"
 ---
+
 

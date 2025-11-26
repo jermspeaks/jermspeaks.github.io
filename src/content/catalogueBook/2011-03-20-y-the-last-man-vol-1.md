@@ -9,5 +9,7 @@ publishDate: "2003-01-01T00:00:00.000Z"
 reviewDate: "2011-03-20T00:00:00.000Z"
 isbn: "9781417698103"
 rating: 4
+publishers: ["Tandem Library"]
 ---
+
 

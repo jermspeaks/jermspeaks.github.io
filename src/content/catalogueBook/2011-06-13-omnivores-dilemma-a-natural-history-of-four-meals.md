@@ -9,5 +9,9 @@ publishDate: "2006-01-01T00:00:00.000Z"
 reviewDate: "2011-06-13T00:00:00.000Z"
 isbn: "9786067222340"
 rating: 4
+publishers: ["Publica"]
+pages: 592
+coverImage: "../../images/catalogueBook/2011-06-13-omnivores-dilemma-a-natural-history-of-four-meals.png"
 ---
+
 

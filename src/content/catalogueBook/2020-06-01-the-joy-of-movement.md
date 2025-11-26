@@ -8,5 +8,10 @@ pubDate: "2019-12-31T00:00:00.000Z"
 publishDate: "2019-12-31T00:00:00.000Z"
 reviewDate: "2020-06-01T00:00:00.000Z"
 rating: 4
+authors: ["Kelly McGonigal"]
+publishers: ["Penguin Publishing Group", "Avery", "AVERY"]
+pages: 272
+coverImage: "../../images/catalogueBook/2020-06-01-the-joy-of-movement.png"
 ---
+
 

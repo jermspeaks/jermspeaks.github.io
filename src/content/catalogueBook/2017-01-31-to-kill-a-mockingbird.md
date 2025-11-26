@@ -8,5 +8,10 @@ pubDate: "1960-07-11T00:00:00.000Z"
 publishDate: "1960-07-11T00:00:00.000Z"
 reviewDate: "2017-01-31T00:00:00.000Z"
 rating: 4
+authors: ["Harper Lee"]
+publishers: ["Dramatic Pub Co"]
+pages: 80
+coverImage: "../../images/catalogueBook/2017-01-31-to-kill-a-mockingbird.png"
 ---
+
 

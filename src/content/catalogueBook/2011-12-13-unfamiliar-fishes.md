@@ -9,5 +9,9 @@ publishDate: "2011-01-01T00:00:00.000Z"
 reviewDate: "2011-12-13T00:00:00.000Z"
 isbn: "9781594487873"
 rating: 4
+publishers: ["Riverhead Books"]
+pages: 256
+coverImage: "../../images/catalogueBook/2011-12-13-unfamiliar-fishes.png"
 ---
+
 

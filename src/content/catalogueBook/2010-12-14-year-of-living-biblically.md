@@ -9,5 +9,8 @@ publishDate: "2007-01-01T00:00:00.000Z"
 reviewDate: "2010-12-14T00:00:00.000Z"
 isbn: "9781448135813"
 rating: 4
+publishers: ["Penguin Random House"]
+pages: 400
 ---
+
 

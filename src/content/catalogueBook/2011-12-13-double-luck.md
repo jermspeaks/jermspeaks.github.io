@@ -9,5 +9,9 @@ publishDate: "2001-01-01T00:00:00.000Z"
 reviewDate: "2011-12-13T00:00:00.000Z"
 isbn: "0823415600"
 rating: 4
+publishers: ["Holiday House"]
+pages: 212
+coverImage: "../../images/catalogueBook/2011-12-13-double-luck.png"
 ---
+
 

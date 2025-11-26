@@ -9,5 +9,9 @@ publishDate: "2014-01-01T00:00:00.000Z"
 reviewDate: "2015-06-20T00:00:00.000Z"
 isbn: "9789048821679"
 rating: 4
+publishers: ["Uitgeverij Carrera"]
+pages: 301
+coverImage: "../../images/catalogueBook/2015-06-20-flash-boys.png"
 ---
+
 

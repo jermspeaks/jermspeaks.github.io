@@ -9,5 +9,9 @@ publishDate: "2009-01-01T00:00:00.000Z"
 reviewDate: "2012-06-18T00:00:00.000Z"
 isbn: "9780446504133"
 rating: 4
+publishers: ["Twelve"]
+pages: 352
+coverImage: "../../images/catalogueBook/2012-06-18-nurtureshock.png"
 ---
+
 

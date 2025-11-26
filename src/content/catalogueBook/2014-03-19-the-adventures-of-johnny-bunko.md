@@ -9,5 +9,7 @@ publishDate: "2008-01-01T00:00:00.000Z"
 reviewDate: "2014-03-19T00:00:00.000Z"
 isbn: "9780755318735"
 rating: 4
+publishers: ["Headline Publishing Group"]
 ---
+
 

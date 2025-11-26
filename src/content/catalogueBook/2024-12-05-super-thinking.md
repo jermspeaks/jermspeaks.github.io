@@ -8,5 +8,10 @@ pubDate: "2019-06-18T00:00:00.000Z"
 publishDate: "2019-06-18T00:00:00.000Z"
 reviewDate: "2024-12-05T00:00:00.000Z"
 rating: 4
+authors: ["Gabriel Weinberg", "Lauren McCann"]
+publishers: ["Portfolio"]
+pages: 352
+coverImage: "../../images/catalogueBook/2024-12-05-super-thinking.png"
 ---
+
 

@@ -9,5 +9,8 @@ publishDate: "1937-01-01T00:00:00.000Z"
 reviewDate: "2013-12-20T00:00:00.000Z"
 isbn: "9789460923821"
 rating: 4
+publishers: ["Uitgeverij Meulenhoff"]
+coverImage: "../../images/catalogueBook/2013-12-20-the-hobbit.png"
 ---
+
 

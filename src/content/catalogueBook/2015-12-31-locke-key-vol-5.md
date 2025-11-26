@@ -9,5 +9,9 @@ publishDate: "2012-01-01T00:00:00.000Z"
 reviewDate: "2015-12-31T00:00:00.000Z"
 isbn: "1613772270"
 rating: 4
+publishers: ["IDW", "IDW Publishing"]
+pages: 160
+coverImage: "../../images/catalogueBook/2015-12-31-locke-key-vol-5.png"
 ---
+
 

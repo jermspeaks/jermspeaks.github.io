@@ -9,5 +9,8 @@ publishDate: "1936-01-01T00:00:00.000Z"
 reviewDate: "2012-12-20T00:00:00.000Z"
 isbn: "9781956861365"
 rating: 4
+publishers: ["Namya Press"]
+pages: 228
 ---
+
 

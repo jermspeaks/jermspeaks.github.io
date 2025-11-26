@@ -9,5 +9,9 @@ publishDate: "2014-01-01T00:00:00.000Z"
 reviewDate: "2016-03-31T00:00:00.000Z"
 isbn: "9781466508910"
 rating: 4
+publishers: ["A K Peters/CRC Press"]
+pages: 428
+coverImage: "../../images/catalogueBook/2016-03-31-visualization-analysis-and-design.png"
 ---
+
 

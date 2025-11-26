@@ -9,5 +9,9 @@ publishDate: "2015-01-01T00:00:00.000Z"
 reviewDate: "2015-09-22T00:00:00.000Z"
 isbn: "9780989532143"
 rating: 4
+publishers: ["Swiss Dots"]
+pages: 736
+coverImage: "../../images/catalogueBook/2015-09-22-helvetica-objectified-urbanized.png"
 ---
+
 

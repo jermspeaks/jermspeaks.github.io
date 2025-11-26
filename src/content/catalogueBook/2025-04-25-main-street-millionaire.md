@@ -8,5 +8,8 @@ pubDate: "2024-12-03T00:00:00.000Z"
 publishDate: "2024-12-03T00:00:00.000Z"
 reviewDate: "2025-04-25T00:00:00.000Z"
 rating: 4
+authors: ["Codie Sanchez"]
+publishers: ["Penguin Publishing Group"]
 ---
+
 

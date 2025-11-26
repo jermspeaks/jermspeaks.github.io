@@ -9,5 +9,9 @@ publishDate: "2002-01-01T00:00:00.000Z"
 reviewDate: "2014-12-20T00:00:00.000Z"
 isbn: "9781936891160"
 rating: 4
+publishers: ["‎ Black Irish Entertainment LLC"]
+pages: 182
+coverImage: "../../images/catalogueBook/2014-12-20-the-war-of-art.png"
 ---
+
 

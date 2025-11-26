@@ -9,5 +9,9 @@ publishDate: "2008-01-01T00:00:00.000Z"
 reviewDate: "2012-03-18T00:00:00.000Z"
 isbn: "9788652108206"
 rating: 4
+publishers: ["Laguna"]
+pages: 462
+coverImage: "../../images/catalogueBook/2012-03-18-ready-player-one.png"
 ---
+
 

@@ -9,5 +9,9 @@ publishDate: "2010-01-01T00:00:00.000Z"
 reviewDate: "2012-06-18T00:00:00.000Z"
 isbn: "9780143120179"
 rating: 4
+publishers: ["Penguin Books", "Penguin Group"]
+pages: 416
+coverImage: "../../images/catalogueBook/2012-06-18-what-technology-wants.png"
 ---
+
 

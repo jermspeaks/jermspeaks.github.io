@@ -9,5 +9,8 @@ publishDate: "2010-01-01T00:00:00.000Z"
 reviewDate: "2011-09-18T00:00:00.000Z"
 isbn: "9781610660242"
 rating: 4
+publishers: ["Writers Of The Round Table Press", "Writers of the Round Table Press"]
+pages: 80
 ---
+
 

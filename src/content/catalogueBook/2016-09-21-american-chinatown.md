@@ -9,5 +9,8 @@ publishDate: "2009-01-01T00:00:00.000Z"
 reviewDate: "2016-09-21T00:00:00.000Z"
 isbn: "9781416557234"
 rating: 4
+publishers: ["Free Press"]
+coverImage: "../../images/catalogueBook/2016-09-21-american-chinatown.png"
 ---
+
 

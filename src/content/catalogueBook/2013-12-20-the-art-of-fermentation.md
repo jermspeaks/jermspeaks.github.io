@@ -9,5 +9,9 @@ publishDate: "2012-01-01T00:00:00.000Z"
 reviewDate: "2013-12-20T00:00:00.000Z"
 isbn: "9788484455646"
 rating: 4
+publishers: ["Gaia Ediciones"]
+pages: 540
+coverImage: "../../images/catalogueBook/2013-12-20-the-art-of-fermentation.png"
 ---
+
 

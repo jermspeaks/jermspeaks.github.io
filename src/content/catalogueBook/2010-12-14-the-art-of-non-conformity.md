@@ -9,5 +9,9 @@ publishDate: "2010-01-01T00:00:00.000Z"
 reviewDate: "2010-12-14T00:00:00.000Z"
 isbn: "9780399536106"
 rating: 4
+publishers: ["Perigee Trade"]
+pages: 256
+coverImage: "../../images/catalogueBook/2010-12-14-the-art-of-non-conformity.png"
 ---
+
 

@@ -9,5 +9,8 @@ publishDate: "1999-01-01T00:00:00.000Z"
 reviewDate: "2016-05-31T00:00:00.000Z"
 isbn: "9789752108370"
 rating: 4
+publishers: ["Altin Kitaplar"]
+coverImage: "../../images/catalogueBook/2016-05-31-on-writing.png"
 ---
+
 

@@ -8,5 +8,10 @@ pubDate: "2022-05-01T00:00:00.000Z"
 publishDate: "2022-05-01T00:00:00.000Z"
 reviewDate: "2025-06-09T00:00:00.000Z"
 rating: 4
+authors: ["Derek Sivers"]
+publishers: ["Hit Media"]
+pages: 144
+coverImage: "../../images/catalogueBook/2025-06-09-hell-yeah-or-no.png"
 ---
+
 

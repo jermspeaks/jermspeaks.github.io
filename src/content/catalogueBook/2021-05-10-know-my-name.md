@@ -8,5 +8,10 @@ pubDate: "2019-09-24T00:00:00.000Z"
 publishDate: "2019-09-24T00:00:00.000Z"
 reviewDate: "2021-05-10T00:00:00.000Z"
 rating: 4
+authors: ["Chanel Miller"]
+publishers: ["Penguin Publishing Group"]
+pages: 384
+coverImage: "../../images/catalogueBook/2021-05-10-know-my-name.png"
 ---
+
 

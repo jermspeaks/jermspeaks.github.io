@@ -9,5 +9,8 @@ publishDate: "1973-01-01T00:00:00.000Z"
 reviewDate: "2011-06-13T00:00:00.000Z"
 isbn: "965042430X"
 rating: 4
+publishers: ["Sifriyat poʻalim"]
+pages: 192
 ---
+
 

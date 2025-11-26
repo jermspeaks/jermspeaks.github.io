@@ -9,5 +9,8 @@ publishDate: "2001-01-01T00:00:00.000Z"
 reviewDate: "2014-03-19T00:00:00.000Z"
 isbn: "9780694526079"
 rating: 4
+publishers: ["HarperAudio"]
+coverImage: "../../images/catalogueBook/2014-03-19-good-to-great.png"
 ---
+
 

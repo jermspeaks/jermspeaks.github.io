@@ -9,5 +9,8 @@ publishDate: "2013-01-01T00:00:00.000Z"
 reviewDate: "2014-06-20T00:00:00.000Z"
 isbn: "9781592408122"
 rating: 4
+publishers: ["Gotham"]
+coverImage: "../../images/catalogueBook/2014-06-20-the-road-to-burgundy.png"
 ---
+
 

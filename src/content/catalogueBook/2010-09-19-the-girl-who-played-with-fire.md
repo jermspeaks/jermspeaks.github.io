@@ -9,5 +9,7 @@ publishDate: "2009-01-01T00:00:00.000Z"
 reviewDate: "2010-09-19T00:00:00.000Z"
 isbn: "9780857054043"
 rating: 4
+publishers: ["Quercus"]
 ---
+
 

@@ -9,5 +9,9 @@ publishDate: "1996-01-01T00:00:00.000Z"
 reviewDate: "2016-12-20T00:00:00.000Z"
 isbn: "9788652113279"
 rating: 4
+publishers: ["Laguna"]
+pages: 359
+coverImage: "../../images/catalogueBook/2016-12-20-neverwhere.png"
 ---
+
 

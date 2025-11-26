@@ -9,5 +9,9 @@ publishDate: "2011-01-01T00:00:00.000Z"
 reviewDate: "2016-03-31T00:00:00.000Z"
 isbn: "9781934356340"
 rating: 4
+publishers: ["Pragmatic Bookshelf"]
+pages: 198
+coverImage: "../../images/catalogueBook/2016-03-31-the-passionate-programmer.png"
 ---
+
 

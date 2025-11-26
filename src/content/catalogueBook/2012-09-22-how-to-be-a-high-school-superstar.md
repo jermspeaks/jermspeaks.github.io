@@ -9,5 +9,8 @@ publishDate: "2010-01-01T00:00:00.000Z"
 reviewDate: "2012-09-22T00:00:00.000Z"
 isbn: "9780767932585"
 rating: 4
+publishers: ["Broadway Books"]
+coverImage: "../../images/catalogueBook/2012-09-22-how-to-be-a-high-school-superstar.png"
 ---
+
 

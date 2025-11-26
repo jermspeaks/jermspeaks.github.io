@@ -9,5 +9,9 @@ publishDate: "2007-01-01T00:00:00.000Z"
 reviewDate: "2010-09-19T00:00:00.000Z"
 isbn: "9782714443274"
 rating: 4
+publishers: ["BELFOND", "Belfond (Littératures étrangères)"]
+pages: 416
+coverImage: "../../images/catalogueBook/2010-09-19-a-thousand-splendid-suns.png"
 ---
+
 

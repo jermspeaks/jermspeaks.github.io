@@ -9,5 +9,8 @@ publishDate: "1992-01-01T00:00:00.000Z"
 reviewDate: "2011-06-13T00:00:00.000Z"
 isbn: "0394223047"
 rating: 4
+publishers: ["Alfred A. Knopf Canada"]
+pages: 190
 ---
+
 

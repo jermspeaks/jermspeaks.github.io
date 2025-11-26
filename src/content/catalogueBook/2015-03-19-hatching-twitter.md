@@ -9,5 +9,8 @@ publishDate: "2013-01-01T00:00:00.000Z"
 reviewDate: "2015-03-19T00:00:00.000Z"
 isbn: "9781444761962"
 rating: 4
+publishers: ["Hodder & Stoughton"]
+pages: 232
 ---
+
 

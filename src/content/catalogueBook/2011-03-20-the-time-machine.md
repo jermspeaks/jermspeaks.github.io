@@ -9,5 +9,9 @@ publishDate: "1895-01-01T00:00:00.000Z"
 reviewDate: "2011-03-20T00:00:00.000Z"
 isbn: "9788537818190"
 rating: 4
+publishers: ["Zahar"]
+pages: 200
+coverImage: "../../images/catalogueBook/2011-03-20-the-time-machine.png"
 ---
+
 

@@ -9,5 +9,9 @@ publishDate: "2000-01-01T00:00:00.000Z"
 reviewDate: "2013-06-20T00:00:00.000Z"
 isbn: "9788556510808"
 rating: 4
+publishers: ["Suma"]
+pages: 832
+coverImage: "../../images/catalogueBook/2013-06-20-a-storm-of-swords.png"
 ---
+
 

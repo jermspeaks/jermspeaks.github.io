@@ -8,5 +8,8 @@ pubDate: "2024-03-05T00:00:00.000Z"
 publishDate: "2024-03-05T00:00:00.000Z"
 reviewDate: "2024-04-16T00:00:00.000Z"
 rating: 4
+authors: ["Cal Newport"]
+publishers: ["Penguin Publishing Group"]
 ---
+
 

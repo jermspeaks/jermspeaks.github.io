@@ -9,5 +9,8 @@ publishDate: "2011-01-01T00:00:00.000Z"
 reviewDate: "2013-03-19T00:00:00.000Z"
 isbn: "9780141032139"
 rating: 4
+publishers: ["Penguin Books, Limited"]
+pages: 310
 ---
+
 

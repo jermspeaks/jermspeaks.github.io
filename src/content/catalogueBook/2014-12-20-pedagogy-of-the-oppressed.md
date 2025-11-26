@@ -9,5 +9,8 @@ publishDate: "1970-01-01T00:00:00.000Z"
 reviewDate: "2014-12-20T00:00:00.000Z"
 isbn: "9781630158255"
 rating: 4
+publishers: ["Tantor Audio"]
+coverImage: "../../images/catalogueBook/2014-12-20-pedagogy-of-the-oppressed.png"
 ---
+
 

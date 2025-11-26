@@ -9,5 +9,7 @@ publishDate: "2007-01-01T00:00:00.000Z"
 reviewDate: "2012-09-22T00:00:00.000Z"
 isbn: "9788466354028"
 rating: 4
+publishers: ["Penguin Random House Grupo Editorial"]
 ---
+
 
