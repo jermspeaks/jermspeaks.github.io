@@ -7,5 +7,6 @@ authors: ["Daniel H. Pink"]
 pubDate: "2008-01-01T00:00:00.000Z"
 publishDate: "2008-01-01T00:00:00.000Z"
 reviewDate: "2014-03-19T00:00:00.000Z"
+isbn: "9780755318735"
 ---
 

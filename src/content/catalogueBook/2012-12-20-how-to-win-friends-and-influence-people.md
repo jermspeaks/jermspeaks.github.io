@@ -7,5 +7,6 @@ authors: ["Dale Carnegie"]
 pubDate: "1936-01-01T00:00:00.000Z"
 publishDate: "1936-01-01T00:00:00.000Z"
 reviewDate: "2012-12-20T00:00:00.000Z"
+isbn: "9781956861365"
 ---
 

@@ -7,5 +7,6 @@ authors: ["Clay A. Johnson"]
 pubDate: "2011-01-01T00:00:00.000Z"
 publishDate: "2011-01-01T00:00:00.000Z"
 reviewDate: "2012-03-18T00:00:00.000Z"
+isbn: "9781491933350"
 ---
 

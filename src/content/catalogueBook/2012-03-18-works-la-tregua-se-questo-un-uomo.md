@@ -7,5 +7,6 @@ authors: ["Primo Levi"]
 pubDate: "1963-01-01T00:00:00.000Z"
 publishDate: "1963-01-01T00:00:00.000Z"
 reviewDate: "2012-03-18T00:00:00.000Z"
+isbn: "9783446237445"
 ---
 

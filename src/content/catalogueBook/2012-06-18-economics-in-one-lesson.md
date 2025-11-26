@@ -7,5 +7,6 @@ authors: ["Henry Hazlitt"]
 pubDate: "1946-01-01T00:00:00.000Z"
 publishDate: "1946-01-01T00:00:00.000Z"
 reviewDate: "2012-06-18T00:00:00.000Z"
+isbn: "9780517548233"
 ---
 
