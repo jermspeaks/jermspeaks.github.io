@@ -1,0 +1,11 @@
+---
+title: "The Hobbit"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "J.R.R. Tolkien"
+authors: ["J.R.R. Tolkien"]
+pubDate: "1937-01-01T00:00:00.000Z"
+publishDate: "1937-01-01T00:00:00.000Z"
+reviewDate: "2013-12-20T00:00:00.000Z"
+---
+

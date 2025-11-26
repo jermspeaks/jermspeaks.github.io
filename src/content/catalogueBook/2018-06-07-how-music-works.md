@@ -1,0 +1,11 @@
+---
+title: "How Music Works"
+draft: true
+kind: "catalogueBook"
+isbn: "9780804188937"
+bookAuthor: "David Byrne"
+pubDate: "2017-05-02T00:00:00.000Z"
+publishDate: "2017-05-02T00:00:00.000Z"
+reviewDate: "2018-06-07T00:00:00.000Z"
+---
+

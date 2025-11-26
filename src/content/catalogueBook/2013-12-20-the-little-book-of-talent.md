@@ -1,0 +1,11 @@
+---
+title: "The little book of talent"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Daniel Coyle"
+authors: ["Daniel Coyle"]
+pubDate: "2012-01-01T00:00:00.000Z"
+publishDate: "2012-01-01T00:00:00.000Z"
+reviewDate: "2013-12-20T00:00:00.000Z"
+---
+

@@ -1,0 +1,11 @@
+---
+title: "The Truffle Underground"
+draft: true
+kind: "catalogueBook"
+isbn: "9780451495693"
+bookAuthor: "Ryan Jacobs"
+pubDate: "2019-06-04T00:00:00.000Z"
+publishDate: "2019-06-04T00:00:00.000Z"
+reviewDate: "2019-12-21T00:00:00.000Z"
+---
+

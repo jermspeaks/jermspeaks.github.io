@@ -1,0 +1,11 @@
+---
+title: "How to Change Your Mind"
+draft: true
+kind: "catalogueBook"
+isbn: "9780735224155"
+bookAuthor: "Michael Pollan"
+pubDate: "2019-05-14T00:00:00.000Z"
+publishDate: "2019-05-14T00:00:00.000Z"
+reviewDate: "2018-10-24T00:00:00.000Z"
+---
+

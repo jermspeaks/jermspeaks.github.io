@@ -341,10 +341,42 @@ const stream = defineCollection({
   }),
 });
 
+const catalogueBook = defineCollection({
+  schema: ({ image }) =>
+    z.object({
+      title: z.string(),
+      isbn: z.string().optional(),
+      bookAuthor: z.string().optional(),
+      authors: z.array(z.string()).optional(),
+      publishers: z.array(z.string()).optional(),
+      publishDate: z
+        .string()
+        .or(z.date())
+        .optional()
+        .transform((val) => (val ? new Date(val) : undefined)),
+      pages: z.number().optional(),
+      coverImage: image().optional(),
+      rating: z.union([z.string(), z.number()]).optional(),
+      reviewDate: z
+        .string()
+        .or(z.date())
+        .optional()
+        .transform((val) => (val ? new Date(val) : undefined)),
+      pubDate: z
+        .string()
+        .or(z.date())
+        .transform((val) => new Date(val)),
+      description: z.string().optional(),
+      draft: z.boolean().optional(),
+      kind: z.string().default("catalogueBook"),
+    }),
+});
+
 export const collections = {
   about,
   antiLibrary,
   book,
+  catalogueBook,
   classified,
   creator,
   curation,

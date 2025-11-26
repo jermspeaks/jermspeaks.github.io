@@ -1,0 +1,11 @@
+---
+title: "Enchantment: The Life of Audrey Hepburn"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Donald Spoto"
+authors: ["Donald Spoto"]
+pubDate: "2007-01-01T00:00:00.000Z"
+publishDate: "2007-01-01T00:00:00.000Z"
+reviewDate: "2016-04-30T00:00:00.000Z"
+---
+

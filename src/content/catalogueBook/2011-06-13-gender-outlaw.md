@@ -1,0 +1,11 @@
+---
+title: "Gender outlaw"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Kate Bornstein"
+authors: ["Kate Bornstein"]
+pubDate: "1992-01-01T00:00:00.000Z"
+publishDate: "1992-01-01T00:00:00.000Z"
+reviewDate: "2011-06-13T00:00:00.000Z"
+---
+

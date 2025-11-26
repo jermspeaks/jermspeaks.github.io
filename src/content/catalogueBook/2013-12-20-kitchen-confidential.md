@@ -1,0 +1,11 @@
+---
+title: "Kitchen Confidential"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Anthony Bourdain"
+authors: ["Anthony Bourdain"]
+pubDate: "2000-01-01T00:00:00.000Z"
+publishDate: "2000-01-01T00:00:00.000Z"
+reviewDate: "2013-12-20T00:00:00.000Z"
+---
+

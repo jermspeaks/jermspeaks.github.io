@@ -1,0 +1,11 @@
+---
+title: "The Miracle of Mindfulness"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Thích Nhất Hạnh"
+authors: ["Thích Nhất Hạnh"]
+pubDate: "1987-01-01T00:00:00.000Z"
+publishDate: "1987-01-01T00:00:00.000Z"
+reviewDate: "2012-03-18T00:00:00.000Z"
+---
+

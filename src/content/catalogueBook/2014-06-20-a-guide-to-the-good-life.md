@@ -1,0 +1,11 @@
+---
+title: "A Guide to the Good Life"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "William Braxton Irvine"
+authors: ["William Braxton Irvine"]
+pubDate: "2008-01-01T00:00:00.000Z"
+publishDate: "2008-01-01T00:00:00.000Z"
+reviewDate: "2014-06-20T00:00:00.000Z"
+---
+

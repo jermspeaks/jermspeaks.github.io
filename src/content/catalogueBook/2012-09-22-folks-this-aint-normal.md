@@ -1,0 +1,11 @@
+---
+title: "Folks, This Ain't Normal"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Joel Salatin"
+authors: ["Joel Salatin", "Mónica Fernández Perea"]
+pubDate: "2011-01-01T00:00:00.000Z"
+publishDate: "2011-01-01T00:00:00.000Z"
+reviewDate: "2012-09-22T00:00:00.000Z"
+---
+

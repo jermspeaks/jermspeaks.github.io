@@ -1,0 +1,11 @@
+---
+title: "The One World Schoolhouse"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Salman Khan"
+authors: ["Salman Khan"]
+pubDate: "2012-01-01T00:00:00.000Z"
+publishDate: "2012-01-01T00:00:00.000Z"
+reviewDate: "2013-03-19T00:00:00.000Z"
+---
+

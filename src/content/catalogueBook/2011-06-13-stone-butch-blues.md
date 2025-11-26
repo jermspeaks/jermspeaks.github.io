@@ -1,0 +1,11 @@
+---
+title: "Stone Butch Blues"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Leslie Feinberg"
+authors: ["Leslie Feinberg"]
+pubDate: "1993-01-01T00:00:00.000Z"
+publishDate: "1993-01-01T00:00:00.000Z"
+reviewDate: "2011-06-13T00:00:00.000Z"
+---
+

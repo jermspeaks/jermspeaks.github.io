@@ -1,0 +1,11 @@
+---
+title: "Snow Crash"
+draft: true
+kind: "catalogueBook"
+bookAuthor: "Neal Stephenson"
+authors: ["Neal Stephenson"]
+pubDate: "1992-01-01T00:00:00.000Z"
+publishDate: "1992-01-01T00:00:00.000Z"
+reviewDate: "2013-09-20T00:00:00.000Z"
+---
+
