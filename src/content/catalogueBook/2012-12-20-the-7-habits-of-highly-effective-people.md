@@ -11,6 +11,9 @@ isbn: "9781633532168"
 rating: 4
 publishers: ["Mango Media"]
 pages: 23
+coverImage: "../../images/catalogueBook/2012-12-20-the-7-habits-of-highly-effective-people.png"
 ---
+
+
 
 

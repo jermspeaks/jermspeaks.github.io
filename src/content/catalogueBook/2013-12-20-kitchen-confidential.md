@@ -10,6 +10,9 @@ reviewDate: "2013-12-20T00:00:00.000Z"
 isbn: "9781408820858"
 rating: 4
 publishers: ["Bloomsbury Publishing Plc"]
+coverImage: "../../images/catalogueBook/2013-12-20-kitchen-confidential.png"
 ---
+
+
 
 

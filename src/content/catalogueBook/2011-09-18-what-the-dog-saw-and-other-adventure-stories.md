@@ -10,6 +10,9 @@ reviewDate: "2011-09-18T00:00:00.000Z"
 isbn: "9781846142765"
 rating: 4
 publishers: ["Penguin Books, Limited"]
+coverImage: "../../images/catalogueBook/2011-09-18-what-the-dog-saw-and-other-adventure-stories.png"
 ---
+
+
 
 

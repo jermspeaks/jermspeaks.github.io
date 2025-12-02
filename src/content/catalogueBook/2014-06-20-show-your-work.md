@@ -11,6 +11,9 @@ isbn: "9781974052264"
 rating: 4
 publishers: ["CreateSpace Independent Publishing Platform"]
 pages: 220
+coverImage: "../../images/catalogueBook/2014-06-20-show-your-work.png"
 ---
+
+
 
 

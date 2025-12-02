@@ -10,6 +10,9 @@ reviewDate: "2013-09-20T00:00:00.000Z"
 isbn: "9781455528042"
 rating: 4
 publishers: ["Little, Brown Book Group Limited"]
+coverImage: "../../images/catalogueBook/2013-09-20-so-good-they-cant-ignore-you.png"
 ---
+
+
 
 

@@ -10,6 +10,9 @@ reviewDate: "2011-03-20T00:00:00.000Z"
 isbn: "9781786898562"
 rating: 4
 publishers: ["Canongate Books"]
+coverImage: "../../images/catalogueBook/2011-03-20-bird-by-bird.png"
 ---
+
+
 
 

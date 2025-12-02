@@ -10,6 +10,9 @@ reviewDate: "2010-09-19T00:00:00.000Z"
 isbn: "9780857054043"
 rating: 4
 publishers: ["Quercus"]
+coverImage: "../../images/catalogueBook/2010-09-19-the-girl-who-played-with-fire.png"
 ---
+
+
 
 

@@ -10,6 +10,9 @@ reviewDate: "2014-03-19T00:00:00.000Z"
 isbn: "9780141978956"
 rating: 4
 publishers: ["Penguin Export"]
+coverImage: "../../images/catalogueBook/2014-03-19-david-and-goliath.png"
 ---
+
+
 
 

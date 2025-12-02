@@ -11,6 +11,9 @@ isbn: "9781610660242"
 rating: 4
 publishers: ["Writers Of The Round Table Press", "Writers of the Round Table Press"]
 pages: 80
+coverImage: "../../images/catalogueBook/2011-09-18-delivering-happiness.png"
 ---
+
+
 
 

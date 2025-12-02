@@ -10,6 +10,9 @@ reviewDate: "2011-03-20T00:00:00.000Z"
 isbn: "9781417698103"
 rating: 4
 publishers: ["Tandem Library"]
+coverImage: "../../images/catalogueBook/2011-03-20-y-the-last-man-vol-1.png"
 ---
+
+
 
 

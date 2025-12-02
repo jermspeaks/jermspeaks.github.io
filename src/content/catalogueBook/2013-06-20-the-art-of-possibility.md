@@ -11,6 +11,9 @@ isbn: "9780142001103"
 rating: 4
 publishers: ["Penguin Books", "Penguin Group"]
 pages: 210
+coverImage: "../../images/catalogueBook/2013-06-20-the-art-of-possibility.png"
 ---
+
+
 
 

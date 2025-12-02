@@ -11,6 +11,9 @@ isbn: "1587243938"
 rating: 4
 publishers: ["Wheeler Pub."]
 pages: 365
+coverImage: "../../images/catalogueBook/2010-12-14-the-tipping-point.png"
 ---
+
+
 
 

@@ -11,6 +11,9 @@ isbn: "9780316013260"
 rating: 4
 publishers: ["Little, Brown and Co."]
 pages: 309
+coverImage: "../../images/catalogueBook/2014-03-19-julie-and-julia.png"
 ---
+
+
 
 

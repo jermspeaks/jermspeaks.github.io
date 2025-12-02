@@ -11,6 +11,9 @@ isbn: "9781500602062"
 rating: 4
 publishers: ["CreateSpace Independent Publishing Platform", "Createspace Independent Publishing Platform"]
 pages: 254
+coverImage: "../../images/catalogueBook/2014-09-22-52-cups-of-coffee.png"
 ---
+
+
 
 

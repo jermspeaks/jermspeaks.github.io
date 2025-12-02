@@ -11,6 +11,9 @@ isbn: "9781444762556"
 rating: 4
 publishers: ["Hodder & Stoughton"]
 pages: 272
+coverImage: "../../images/catalogueBook/2013-03-19-the-one-world-schoolhouse.png"
 ---
+
+
 
 

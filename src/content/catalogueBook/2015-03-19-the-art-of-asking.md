@@ -10,6 +10,9 @@ reviewDate: "2015-03-19T00:00:00.000Z"
 isbn: "9781455581078"
 rating: 4
 publishers: ["Grand Central Publishing"]
+coverImage: "../../images/catalogueBook/2015-03-19-the-art-of-asking.png"
 ---
+
+
 
 

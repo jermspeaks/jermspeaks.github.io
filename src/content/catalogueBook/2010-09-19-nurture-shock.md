@@ -10,6 +10,9 @@ reviewDate: "2010-09-19T00:00:00.000Z"
 isbn: "9788981102760"
 rating: 4
 publishers: ["Mulpurae"]
+coverImage: "../../images/catalogueBook/2010-09-19-nurture-shock.png"
 ---
+
+
 
 

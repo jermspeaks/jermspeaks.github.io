@@ -10,6 +10,9 @@ reviewDate: "2012-06-18T00:00:00.000Z"
 isbn: "9781466804784"
 rating: 4
 publishers: ["St. Martin's Press"]
+coverImage: "../../images/catalogueBook/2012-06-18-how-to-win-at-losing.png"
 ---
+
+
 
 

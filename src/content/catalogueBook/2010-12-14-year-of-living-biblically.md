@@ -11,6 +11,9 @@ isbn: "9781448135813"
 rating: 4
 publishers: ["Penguin Random House"]
 pages: 400
+coverImage: "../../images/catalogueBook/2010-12-14-year-of-living-biblically.png"
 ---
+
+
 
 

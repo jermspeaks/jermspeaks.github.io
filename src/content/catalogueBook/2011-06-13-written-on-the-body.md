@@ -11,6 +11,9 @@ isbn: "0394223047"
 rating: 4
 publishers: ["Alfred A. Knopf Canada"]
 pages: 190
+coverImage: "../../images/catalogueBook/2011-06-13-written-on-the-body.png"
 ---
+
+
 
 

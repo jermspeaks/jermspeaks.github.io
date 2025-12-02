@@ -11,6 +11,9 @@ isbn: "9780393066234"
 rating: 4
 publishers: ["Norton & Company, Incorporated, W. W."]
 pages: 320
+coverImage: "../../images/catalogueBook/2015-06-20-moneyball.png"
 ---
+
+
 
 

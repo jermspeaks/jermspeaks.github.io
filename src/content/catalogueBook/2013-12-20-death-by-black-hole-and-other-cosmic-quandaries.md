@@ -11,6 +11,9 @@ isbn: "9780393113785"
 rating: 4
 publishers: ["Norton & Company, Incorporated, W. W."]
 pages: 384
+coverImage: "../../images/catalogueBook/2013-12-20-death-by-black-hole-and-other-cosmic-quandaries.png"
 ---
+
+
 
 

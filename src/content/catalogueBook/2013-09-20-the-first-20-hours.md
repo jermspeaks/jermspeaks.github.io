@@ -10,6 +10,9 @@ reviewDate: "2013-09-20T00:00:00.000Z"
 isbn: "9780670921911"
 rating: 4
 publishers: ["Penguin Publishing Group"]
+coverImage: "../../images/catalogueBook/2013-09-20-the-first-20-hours.png"
 ---
+
+
 
 

@@ -11,6 +11,9 @@ isbn: "0330300172"
 rating: 4
 publishers: ["Pan"]
 pages: 248
+coverImage: "../../images/catalogueBook/2016-01-31-the-inner-game-of-music.png"
 ---
+
+
 
 

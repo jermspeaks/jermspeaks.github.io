@@ -10,6 +10,9 @@ reviewDate: "2012-06-18T00:00:00.000Z"
 isbn: "9780241973486"
 rating: 4
 publishers: ["Penguin Books, Limited"]
+coverImage: "../../images/catalogueBook/2012-06-18-we-are-all-weird.png"
 ---
+
+
 
 

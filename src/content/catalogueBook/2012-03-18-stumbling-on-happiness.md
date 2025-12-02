@@ -10,6 +10,9 @@ reviewDate: "2012-03-18T00:00:00.000Z"
 isbn: "9780676978575"
 rating: 4
 publishers: ["Knopf Canada"]
+coverImage: "../../images/catalogueBook/2012-03-18-stumbling-on-happiness.png"
 ---
+
+
 
 

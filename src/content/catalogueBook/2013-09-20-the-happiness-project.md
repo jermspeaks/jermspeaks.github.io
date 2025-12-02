@@ -10,6 +10,9 @@ reviewDate: "2013-09-20T00:00:00.000Z"
 isbn: "9780062474247"
 rating: 4
 publishers: ["HarperCollins Publishers"]
+coverImage: "../../images/catalogueBook/2013-09-20-the-happiness-project.png"
 ---
+
+
 
 

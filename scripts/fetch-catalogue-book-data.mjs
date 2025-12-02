@@ -69,6 +69,170 @@ async function fetchBookData(isbn) {
   }
 }
 
+/**
+ * Get image dimensions from a URL without downloading the full image
+ */
+async function getImageDimensions(url) {
+  try {
+    // Try to download just enough bytes to read image metadata
+    // Most image formats store metadata at the beginning
+    const response = await fetch(url, {
+      headers: { Range: "bytes=0-32768" }, // First 32KB should contain metadata for most formats
+    });
+    
+    if (!response.ok) {
+      // If Range request fails, try full request (some servers don't support Range)
+      const fullResponse = await fetch(url);
+      if (!fullResponse.ok) {
+        return null;
+      }
+      const buffer = Buffer.from(await fullResponse.arrayBuffer());
+      const metadata = await sharp(buffer).metadata();
+      return { width: metadata.width, height: metadata.height };
+    }
+    
+    const buffer = Buffer.from(await response.arrayBuffer());
+    const metadata = await sharp(buffer).metadata();
+    return { width: metadata.width, height: metadata.height };
+  } catch (error) {
+    return null;
+  }
+}
+
+/**
+ * Get cover image URLs from multiple sources
+ */
+function getCoverImageSources(isbn) {
+  const sources = [];
+  
+  // OpenLibrary - Large size (best quality)
+  sources.push({
+    name: "OpenLibrary-L",
+    url: `https://covers.openlibrary.org/b/isbn/${isbn}-L.jpg`,
+    priority: 1,
+  });
+  
+  // OpenLibrary - Medium size (fallback)
+  sources.push({
+    name: "OpenLibrary-M",
+    url: `https://covers.openlibrary.org/b/isbn/${isbn}-M.jpg`,
+    priority: 2,
+  });
+  
+  // BookCover-API (Goodreads)
+  sources.push({
+    name: "BookCover-API",
+    url: `https://bookcover.longitood.com/bookcover/${isbn}`,
+    priority: 3,
+  });
+  
+  return sources;
+}
+
+/**
+ * Fetch Google Books cover URL
+ */
+async function getGoogleBooksCover(isbn) {
+  try {
+    const searchUrl = `https://www.googleapis.com/books/v1/volumes?q=isbn:${isbn}`;
+    const response = await fetch(searchUrl);
+    if (!response.ok) {
+      return null;
+    }
+    
+    const data = await response.json();
+    if (data.items && data.items.length > 0) {
+      const volumeInfo = data.items[0].volumeInfo;
+      if (volumeInfo.imageLinks) {
+        // Try thumbnail, small, medium, large, extraLarge in order of preference
+        return (
+          volumeInfo.imageLinks.extraLarge ||
+          volumeInfo.imageLinks.large ||
+          volumeInfo.imageLinks.medium ||
+          volumeInfo.imageLinks.small ||
+          volumeInfo.imageLinks.thumbnail
+        );
+      }
+    }
+    return null;
+  } catch (error) {
+    return null;
+  }
+}
+
+/**
+ * Find the best cover image from multiple sources
+ */
+async function findBestCover(isbn, minWidth = 200, fallbackMinWidth = 100) {
+  const sources = getCoverImageSources(isbn);
+  const preferredCandidates = []; // Images >= minWidth (200px)
+  const fallbackCandidates = []; // Images >= fallbackMinWidth (100px) but < minWidth
+  
+  // Handle Google Books separately since it requires a lookup
+  const googleBooksUrl = await getGoogleBooksCover(isbn);
+  if (googleBooksUrl) {
+    sources.push({
+      name: "GoogleBooks",
+      url: googleBooksUrl,
+      priority: 1.5, // High priority if available
+    });
+  }
+  
+  // Check each source
+  for (const source of sources) {
+    try {
+      logInfo(`  Checking ${source.name}...`);
+      const dimensions = await getImageDimensions(source.url);
+      
+      if (dimensions) {
+        const candidate = {
+          ...source,
+          width: dimensions.width,
+          height: dimensions.height,
+          score: dimensions.width * dimensions.height, // Area as quality score
+        };
+        
+        if (dimensions.width >= minWidth) {
+          preferredCandidates.push(candidate);
+          logInfo(`    ✓ Found ${dimensions.width}x${dimensions.height}px (meets ${minWidth}px requirement)`);
+        } else if (dimensions.width >= fallbackMinWidth) {
+          fallbackCandidates.push(candidate);
+          logInfo(`    ✓ Found ${dimensions.width}x${dimensions.height}px (fallback, meets ${fallbackMinWidth}px minimum)`);
+        } else {
+          logInfo(`    ✗ Too small: ${dimensions.width}x${dimensions.height}px (below ${fallbackMinWidth}px minimum)`);
+        }
+      } else {
+        logInfo(`    ✗ Not available`);
+      }
+      
+      // Small delay to avoid rate limiting
+      await new Promise((resolve) => setTimeout(resolve, 200));
+    } catch (error) {
+      logInfo(`    ✗ Error: ${error.message}`);
+    }
+  }
+  
+  // Use preferred candidates if available, otherwise fall back to fallback candidates
+  const candidates = preferredCandidates.length > 0 ? preferredCandidates : fallbackCandidates;
+  
+  if (candidates.length === 0) {
+    return null;
+  }
+  
+  // Sort by priority first, then by quality score
+  candidates.sort((a, b) => {
+    if (a.priority !== b.priority) {
+      return a.priority - b.priority;
+    }
+    return b.score - a.score; // Higher score (larger area) is better
+  });
+  
+  const best = candidates[0];
+  const qualityLevel = preferredCandidates.length > 0 ? "preferred" : "fallback";
+  logSuccess(`  Selected ${best.name} (${best.width}x${best.height}px) [${qualityLevel}]`);
+  return best;
+}
+
 async function downloadCover(coverURL, outputPath) {
   try {
     const response = await fetch(coverURL);
@@ -79,12 +243,8 @@ async function downloadCover(coverURL, outputPath) {
     const arrayBuffer = await response.arrayBuffer();
     const buffer = Buffer.from(arrayBuffer);
     
-    // Convert to PNG if not already PNG
-    if (coverURL.endsWith(".png")) {
-      await fs.writeFile(outputPath, buffer);
-    } else {
-      await sharp(buffer).png().toFile(outputPath);
-    }
+    // Always convert to PNG for consistency
+    await sharp(buffer).png().toFile(outputPath);
     
     return true;
   } catch (error) {
@@ -219,23 +379,25 @@ async function processBookFile(filePath) {
       return false;
     }
     
-    // Download cover image if available
+    // Find and download the best cover image from multiple sources
     let coverImagePath = null;
-    if (bookData.thumbnail_url) {
-      const coverURL = bookData.thumbnail_url.replace("-S", "-L");
+    logInfo(`Searching for cover image (preferred: 200px+, fallback: 100px+ minimum)...`);
+    const bestCover = await findBestCover(isbn, 200, 100);
+    
+    if (bestCover) {
       const coverFilename = `${slug}.png`;
       coverImagePath = path.join(imagesDir, coverFilename);
       
-      logInfo(`Downloading cover image...`);
-      const coverDownloaded = await downloadCover(coverURL, coverImagePath);
+      logInfo(`Downloading cover from ${bestCover.name}...`);
+      const coverDownloaded = await downloadCover(bestCover.url, coverImagePath);
       
       if (coverDownloaded) {
-        logSuccess(`Cover saved: ${coverFilename}`);
+        logSuccess(`Cover saved: ${coverFilename} (${bestCover.width}x${bestCover.height}px)`);
       } else {
         coverImagePath = null;
       }
     } else {
-      logWarn(`No cover image available for ${filename}`);
+      logWarn(`No suitable cover image found (minimum 100px width) for ${filename}`);
     }
     
     // Update frontmatter with fetched data

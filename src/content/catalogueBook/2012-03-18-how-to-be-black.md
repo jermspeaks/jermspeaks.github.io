@@ -10,6 +10,9 @@ reviewDate: "2012-03-18T00:00:00.000Z"
 isbn: "9780062647542"
 rating: 4
 publishers: ["Blackstone Audio, Incorporated"]
+coverImage: "../../images/catalogueBook/2012-03-18-how-to-be-black.png"
 ---
+
+
 
 

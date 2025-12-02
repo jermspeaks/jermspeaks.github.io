@@ -7,10 +7,11 @@ bookAuthor: "Ed Yong"
 pubDate: "2022-06-21T00:00:00.000Z"
 publishDate: "2022-06-21T00:00:00.000Z"
 reviewDate: "2025-04-07T00:00:00.000Z"
-rating: 4
+rating: 6
 authors: ["Ed Yong"]
 publishers: ["Random House"]
 coverImage: "../../images/catalogueBook/2025-04-07-an-immense-world.png"
 ---
+
 
 
