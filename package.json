@@ -21,15 +21,15 @@
     "@astrojs/rss": "^4.0.15",
     "@astrojs/sitemap": "^3.7.0",
     "@astrojs/svelte": "^7.2.5",
-    "@codemirror/commands": "^6.9.0",
+    "@codemirror/commands": "^6.10.2",
     "@codemirror/lang-json": "^6.0.2",
-    "@codemirror/language": "^6.11.3",
-    "@codemirror/state": "^6.5.2",
-    "@codemirror/view": "^6.38.6",
+    "@codemirror/language": "^6.12.1",
+    "@codemirror/state": "^6.5.4",
+    "@codemirror/view": "^6.39.14",
     "@observablehq/plot": "^0.6.17",
     "@tailwindcss/typography": "^0.5.19",
-    "@tailwindcss/vite": "^4.1.16",
-    "@types/codemirror": "^5.60.16",
+    "@tailwindcss/vite": "^4.1.18",
+    "@types/codemirror": "^5.60.17",
     "@types/html-escaper": "^3.0.4",
     "astro": "^5.17.2",
     "astro-auto-import": "^0.5.1",
@@ -47,17 +47,17 @@
     "rehype-external-links": "^3.0.0",
     "rehype-slug": "^6.0.0",
     "remark-directive": "^4.0.0",
-    "svelte": "^5.42.2",
-    "tailwind-merge": "^3.3.1",
+    "svelte": "^5.51.2",
+    "tailwind-merge": "^3.4.1",
     "tailwind-variants": "^1.0.0",
     "tailwindcss": "^4.1.14",
     "unist-util-remove": "^4.0.0",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.1.0"
   },
   "devDependencies": {
-    "@internationalized/date": "^3.10.0",
-    "@lucide/svelte": "^0.544.0",
-    "bits-ui": "^2.14.0",
-    "lucide-svelte": "^0.548.0"
+    "@internationalized/date": "^3.11.0",
+    "@lucide/svelte": "^0.564.0",
+    "bits-ui": "^2.15.5",
+    "lucide-svelte": "^0.564.0"
   }
 }
