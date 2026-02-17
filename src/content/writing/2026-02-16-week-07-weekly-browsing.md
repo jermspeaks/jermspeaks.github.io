@@ -46,8 +46,6 @@ I've changed my weekly workflow. I've set it up personally for the past few week
 - [Comfy Cloud \| Run ComfyUI online](https://www.comfy.org/cloud) (beta).
 - [March Mad CSS](https://madcss.com/).
 - [antirez/tgterm](https://github.com/antirez/tgterm) — control macOS terminals via Telegram.
-- [Feature/ENG-19426 sequencing reads verification](https://bitbucket.org/helmsdeep/gs-uploader/pull-requests/98/diff) (Bitbucket PR).
-- [Someday Programming Builds IDE](https://aistudio.google.com/prompts/1hSJDpNv74g6caQ9o4UJuDgbPEOLMk3fG) (Google AI Studio).
 - [health.md — Apple Health → Markdown](https://healthmd.isolated.tech/).
 - [CSS Zen Garden: All Designs](https://csszengarden.com/pages/alldesigns/).
 - [Quality Smashing eBooks on Front-End, Design, UX, Accessibility](https://www.smashingmagazine.com/ebooks/accessible-ux-research-ebook/) (Smashing Magazine).
