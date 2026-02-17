@@ -1,0 +1,62 @@
+---
+draft: false
+pubDate: "2026-02-17T01:50:51.318Z"
+tags: []
+title: "Gradual AI Adoption"
+---
+
+import LinkPreview from "../../components/LinkPreview.astro";
+
+I reviewed through Mitchell Hashimoto's article, [My AI Adoption Journey](https://mitchellh.com/writing/my-ai-adoption-journey), and here are my takeaways.
+
+<LinkPreview
+  url="https://mitchellh.com/writing/my-ai-adoption-journey"
+  title="My AI Adoption Journey"
+  description="Mitchell Hashimoto's gradual AI adoption. Don't skip the steps for AI to handle the automation."
+  image="https://pbs.twimg.com/profile_images/1141762999838842880/64_Y4_XB_400x400.jpg"
+  size="md"
+/>
+
+## Chatbots don't work well with coding workflow
+
+The chatbot is a jarring experience with a coding workflow. You have to copy in code from brownfield projects, the output might miss context, and requires much editing back and forth.
+
+> To find value, you must use an agent. An agent is the industry-adopted term for an LLM that can chat and invoke external behavior in a loop1 At a bare minimum, the agent must have the ability to: read files, execute programs, and make HTTP requests.
+
+## Understanding effective agents require human attention first
+
+The thing that resonated with me the most is the ==Automation Loop==. In any automation, you need a clear understanding of how a task can be repetitive. Hashimoto talks about this in his step 2, where you have to have a clear output. It doesn't make sense to automate something you have no understanding of. If you're using AI this way, this is called a one-off, not an automation. Agents aren't great at vague activity because that needs more hand holding.
+
+> I forced myself to reproduce all my manual commits with agentic ones.
+
+Step 4 further extends this idea by giving agents the work you know it can handle. Let them kick off, turn off the notifications, and come back later to their PRs. For Hashimoto, this means still working on coding tasks you know the agent isn't good at, or doesn't have clear answers for. This helps counteract Anthropic's paper on [How AI assistance impacts the formation of coding skills](https://www.anthropic.com/research/AI-assistance-coding-skills).
+
+Step 5 is about taking all of the bad mistakes, and re-writing prompts in the `AGENTS.md` file to stop the agent from doing that again. Then have a way to validate itself, like unit tests, screenshots, etc., to make sure that it's able to find its own mistakes.
+
+<LinkPreview
+  url="https://www.anthropic.com/research/AI-assistance-coding-skills"
+  title="How AI assistance impacts the formation of coding skills"
+  description="Anthropic analyzes how their coding tools have affected developer skill."
+  image="https://www-cdn.anthropic.com/images/4zrzovbb/website/f06ca06f9d08ca4a85f26357eb896c3730274507-1000x1000.svg"
+  size="sm"
+/>
+
+## End-of-day Agent Kick-offs
+
+Another thing that took by surprise is this habit.
+
+> block out the last 30 minutes of every day to kick off one or more agents
+
+This is a huge revelation, because it tells me agents actually have utility when you don't have to babysit it for. This is what Hashimoto does:
+
+> - **Deep research sessions** where I'd ask agents to survey some field, such as finding all libraries in a specific language with a specific license type and producing multi-page summaries for each on their pros, cons, development activity, social sentiment, etc.
+> - **Parallel agents attempting different vague ideas I had but didn't have time to get started on.** I didn't expect them to produce something I'd ever ship here, but perhaps could illuminate some unknown unknowns when I got to the task the next day.
+> - **Issue and PR triage/review.** Agents are good at using gh (GitHub CLI), so I manually scripted a quick way to spin up a bunch in parallel to triage issues. I would NOT allow agents to respond, I just wanted reports the next day to try to guide me towards high value or low effort tasks.
+
+I think this is actually worth keeping a runbook for in that last 30 minute block to kick off the agent to do other things for me.
+
+Step 6 also talks about running agents when you can.
+
+> **I don't want to run agents for the sake of running agents.** I only want to run them when there is a task I think would be truly helpful to me. Part of the challenge of this goal is improving my own workflows and tools so that I can have a constant stream of high quality work to do that I can delegate. Which, even without AI, is important!
+
+This is the hard part of delegation. We can try our best to keep the orchestration going, but like in [Gas Town's Agent Patterns, Design Bottlenecks, and Vibecoding at Scale](/curation/stream/link/2026-02-02t183033634z), you would need another layer for this. Instead, work at the pace that makes sense with understanding the previous section first.
