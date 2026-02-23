@@ -57,7 +57,7 @@
   "devDependencies": {
     "@internationalized/date": "^3.11.0",
     "@lucide/svelte": "^0.564.0",
-    "bits-ui": "^2.15.5",
+    "bits-ui": "^2.16.2",
     "lucide-svelte": "^0.564.0"
   }
 }
