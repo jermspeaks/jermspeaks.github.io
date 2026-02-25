@@ -1,0 +1,80 @@
+---
+draft: false
+pubDate: "2026-02-25T17:30:24.894Z"
+tags: []
+title: "Processing layer of notetaking"
+---
+
+[Extract value from the "process" layer](https://www.eleanorkonik.com/p/extract-value-from-the-process-layer) describes the _what_ vs. the _how_.
+
+import LinkPreview from "../../components/LinkPreview.astro";
+
+export const title = "🌲 Extract Value From the \"Process\" Layer of Your Notes";
+export const description =
+  'Glean\'s "context graph" framework for corporate information handling has really got me thinking about how to level up my personal knowledge management game.';
+
+<LinkPreview
+  url="https://www.eleanorkonik.com/p/extract-value-from-the-process-layer"
+  title={title}
+  description={description}
+  image="https://substackcdn.com/image/fetch/$s_!iejp!,w_1272,h_665,c_fill,f_webp,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F8584b7de-9a3f-4e12-ab57-1154df04ae8f_1344x896.png"
+  size="md"
+/>
+
+- The _what_: Obsidian Vault: the notes, metadata, links, etc. (and also the _when_ something was written)
+- The _how_: The sequence of actions to get to the idea (or the final save). Specifically how change happens.
+  - Related: Thermodynamics has a concept of initial and final states are path independent. These are state functions and examples include internal energy, enthalpy, and entropy.
+    - What's relevant here is that there is path dependency in our minds of how things work
+  - Related? [Durable Execution Solutions | Temporal](https://temporal.io/)
+
+> Jain’s main point was that most of our tools model _what_ exists. Notes, highlights, documents, tags, folders, links between ideas. But they don’t model _how_ things actually happen. They don’t capture the sequence of actions, the patterns of your process, the temporal chain of "I read this, then I annotated that, then three weeks later I connected it to something I’d forgotten I knew."
+
+> Jain’s core argument is that we need to shift from modeling *what exists* to modeling *how change happens*.
+
+#### Knowledge Graphs and Context Graphs
+
+If we treat [[Obsidian]] as a Knowledge Graph, then here's the downside when thinking about the process layer.
+
+> But a knowledge graph is inherently *static*. My vault does have information about how I came to know things — I have git backups, and I link to sources, which is part of why the interlinking is so valuable. What I tend to do with the information is write articles, which end up in another folder. But the graph doesn’t capture the *process* that connects reading to writing, or tell me where that process breaks down.
+
+The process is the key to unlocking a whole sleuth of automation. It's the same in the [[The Origins of Efficiency]] when they are talking about **learning curves**.
+
+Context Graphs, alternatively, model the _process_ and temporal sequence of how ideas evolve into work
+
+> Your notes capture decisions — what you decided was worth keeping — but the real *learning* happens in the spaces between. The re-reads, the connections you make at 11pm while brushing your teeth, how you find the good stuff, why you ignored the bad stuff, the slow accumulation of related highlights that eventually tips over into an article idea. Most of that doesn’t get recorded anywhere
+
+I call this the **Liminal Space**. The spaces in-between. Many questions start to emerge from this:
+
+- How do we accumulate this information? Log Collection? - How are logs created?
+  In terms of the path, I really like the idea of [[Historical Trails]].
+
+> Context graphs won’t solve this problem entirely — you still need to leave breadcrumbs about *why* you did something, not just *what* you did. Tags, annotations, metadata, and (of course) [folders](https://www.eleanorkonik.com/yet-another-hot-take-on-folders-versus-tags) will continue to matter.
+
+It's not a panacea, but a pathway to get to that place of understanding. At least that's the goal that I want to get to, and recover ideas that are latent.
+
+#### Building the context graph
+
+> Working from actual traces — a log of “she highlighted this passage, then wrote this annotation, then three days later searched for this term, then created this note” — would let it understand what I was actually trying to do.
+> But none of these are connected to each other. The reading traces live in one database. The writing traces live in git. The search traces live in your browser or your filesystem. The thinking traces — if they exist at all — live in diaries and annotations, scattered across different sources.
+
+ A log that tells us the trace? I keep thinking back to tools like Grafana and Datadog that collect all of these logs in enterprise software systems. I know there's a common link between that and your own personal lived experiences.
+ - Log collector? Like Grafana, for all of these different systems that can pool together? That's what the daily dashboard I want to build is
+
+Then, there's where AI can help. Eleanor writes this.
+
+> AI that can read your files, and tools like MCP that let different programs actually talk to each other — the pieces exist. As far as I know, nobody’s assembled them yet.
+
+Note: Every practice is going to have this. I remember for project management and creation, there was AI use like Devin, but more in how a product or project manager operators. Like [ChatPRD - The #1 AI Platform for Product Managers](https://www.chatprd.ai/) or [Cosine](https://cosine.sh/product)
+
+> The same principle should apply to personal workflows — when you try a new process and it works, capture that fact somewhere explicit. When something fails, capture that too. Right now, most of us rely on meatspace memory and a vague sense of what works for us, even when we manage a strong daily log or diary habit.
+> What I’ve been trying to do instead is build a habit of saying “go look at what I changed, compare it to before, and gain some insight from how I did that” — because it’s easy, even if it’s manual. I don’t trust an automated flywheel, however much everyone raves about Clawdbot.
+
+On the progress on the _how_, this is a really strong case on how to blueprint my own process. This has been upgraded to my own notes, and a bunch of them are in [[Tutorials]]. But of course, my process has been documented at length multiple times, like ACE, the [[Efforts]] pipeline, etc.
+
+> I prefer manual command invocations, coupled with a regular report about what’s happening. I keep hoping someone will figure out the tooling — or that I’ll have some extra time on a weekend to try hacking something together — but for now it’s still a gap.
+
+Background items vs. manual invocation feels are quite the same for me. I think there's good guidelines for this to happen. And I think since it's a singular thing (and not scaled across multiple users), I'm likely to agree. When it's a system update across the network for things that aren't in my control, I do prefer a background item.
+
+> But there’s a third layer that I think matters even more: *intent*. Why did you do what you did? What were you trying to accomplish?
+
+**Intentionality** is really important. It's part of the reflection pipeline.
