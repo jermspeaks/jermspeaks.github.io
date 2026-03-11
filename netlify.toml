@@ -3,7 +3,7 @@
   publish = "dist"
 
 [build.environment]
-  NODE_VERSION = "18" 
+  NODE_VERSION = "24" 
   ## as of 2.3.3, Astro uses Node v18
   ## Set the Timezone as PST
   TZ = "UTC-8:00"
