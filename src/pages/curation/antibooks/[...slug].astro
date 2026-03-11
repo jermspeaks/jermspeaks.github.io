@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
@@ -7,7 +7,7 @@ import ProseArticle from "../../../components/ProseArticle.astro";
 export async function getStaticPaths() {
   const posts = await getCollection("antiLibrary");
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: post,
   }));
 }
@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 type Props = CollectionEntry<"antiLibrary">;
 
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 ---
 
 <CollectionDetailsPage

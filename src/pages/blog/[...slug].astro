@@ -1,5 +1,5 @@
 ---
-import { getCollection, getEntry } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import BlogPost from "../../layouts/BlogPost.astro";
 import type { CollectionEntry } from "astro:content";
 import { generateWritingPieceSchema } from '../../utils/schemas';
@@ -9,17 +9,17 @@ type Props = CollectionEntry<"writing">;
 export async function getStaticPaths() {
   const posts = await getCollection("writing");
   return posts.map((post: Props) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: post,
   }));
 }
 
 const post = Astro.props;
-const { Content } = await post.render();
+const { Content } = await render(post);
 const schema = post ? generateWritingPieceSchema(post) : null;
 
-const blogPost = await getEntry("writing", post.slug);
-const { remarkPluginFrontmatter } = await blogPost.render();
+const blogPost = await getEntry("writing", post.id);
+const { remarkPluginFrontmatter } = (await render(blogPost)) ?? {};
 const { minutesRead } = remarkPluginFrontmatter ?? {};
 ---
 

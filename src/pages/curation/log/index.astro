@@ -30,7 +30,7 @@ const { heroImage, heroImageAlt } = entry.data;
       {
         logs.map((log) => (
           <li>
-            <a href={`/curation/log/${log.slug}/`} title={log.data.title}>
+            <a href={`/curation/log/${log.id}/`} title={log.data.title}>
               {log.data.title}
             </a>
           </li>

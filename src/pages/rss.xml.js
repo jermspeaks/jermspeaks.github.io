@@ -13,32 +13,32 @@ export async function GET(context) {
   // Recent items first
   const postCollection = posts.map((item) => ({
     ...item.data,
-    link: `/blog/${item.slug}/`,
+    link: `/blog/${item.id}/`,
   }));
   const bookCollection = books.map((item) => ({
     ...item.data,
     description: item.data.blurb,
-    link: `/curation/books/${item.slug}/`,
+    link: `/curation/books/${item.id}/`,
   }));
   const filmCollection = films.map((item) => ({
     ...item.data,
     description: item.data.blurb,
-    link: `/curation/films/${item.slug}/`,
+    link: `/curation/films/${item.id}/`,
   }));
   const antiLibraryCollection = antiLibrary.map((item) => ({
     ...item.data,
     description: item.data.blurb,
-    link: `/curation/antibooks/${item.slug}`,
+    link: `/curation/antibooks/${item.id}`,
   }));
   const creatorCollection = creator.map((item) => ({
     ...item.data,
     description: item.data.blurb,
-    link: `/curation/creators/${item.slug}`,
+    link: `/curation/creators/${item.id}`,
   }));
   const lindyCollection = lindy.map((item) => ({
     ...item.data,
     description: item.data.blurb,
-    link: `/curation/lindy/${item.slug}`,
+    link: `/curation/lindy/${item.id}`,
   }));
   const items = [
     ...antiLibraryCollection,

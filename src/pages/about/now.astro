@@ -22,6 +22,6 @@ const sortedNowItems = nowItems.sort((a, b) => {
       Things that I am thinking about now. Sporatic updates about life, things
       I'm thinking about and exploring.
     </p>
-    {sortedNowItems.map((resume) => <NowContent {...resume} />)}
+    {sortedNowItems.map((resume) => <NowContent item={resume} />)}
   </ProseArticle>
 </AboutLayout>

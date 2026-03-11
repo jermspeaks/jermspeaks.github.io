@@ -14,7 +14,7 @@ const { item } = Astro.props;
   <div class="col-span-3 sm:col-span-2">
     <a
       class="visited:text-amber-600 hover:grayscale"
-      href={`/curation/${item.data.kind}/${item.slug}`}
+      href={`/curation/${item.data.kind}/${item.id}`}
     >
       <img
         src={item.data.heroImage}
@@ -27,7 +27,7 @@ const { item } = Astro.props;
     <div class="font-bold mb-2">
       <a
         class="hover:underline hover:text-purple-500 visited:text-amber-600"
-        href={`/curation/${item.data.kind}/${item.slug}`}
+        href={`/curation/${item.data.kind}/${item.id}`}
       >
         {item.data.title}
       </a>

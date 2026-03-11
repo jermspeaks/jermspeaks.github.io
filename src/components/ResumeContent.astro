@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
 
 type Props = {
   item: CollectionEntry<"resume">;
@@ -7,8 +8,8 @@ type Props = {
 };
 
 const { item, headingLevel = 2 } = Astro.props;
-const { data, render } = item;
-const { Content } = await render();
+const { data } = item;
+const { Content } = await render(item);
 ---
 
 <section>

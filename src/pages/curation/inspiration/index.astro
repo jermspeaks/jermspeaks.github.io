@@ -1,12 +1,13 @@
 ---
-import { getCollection, getEntry } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import CurationDetailsPage from "../../../layouts/CurationDetailsPage.astro";
 import InspirationItem from "../../../components/InspirationItem.astro";
 import ProseArticle from "../../../components/ProseArticle.astro";
 
 const entry = await getEntry("curation", "inspiration");
+if (!entry) return Astro.redirect("/404");
 const { heroImage, heroImageAlt } = entry.data;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 
 const inspirations = (await getCollection("inspiration")).sort((a, b) =>
   a.data.title.localeCompare(b.data.title)

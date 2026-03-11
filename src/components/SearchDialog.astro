@@ -1,5 +1,5 @@
 ---
-import SearchDialogSvelte from "./SearchDialogSvelte.svelte";
+import SearchDialogClientOnly from "./SearchDialogClientOnly.svelte";
 
 type Props = {
   searchId?: string;
@@ -8,4 +8,4 @@ type Props = {
 const { searchId = "search" } = Astro.props;
 ---
 
-<SearchDialogSvelte searchId={searchId} client:load />
+<SearchDialogClientOnly searchId={searchId} client:only="svelte" />

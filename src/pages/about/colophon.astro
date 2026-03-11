@@ -1,13 +1,16 @@
 ---
-import { getEntry } from "astro:content";
+import { getEntry, render } from "astro:content";
 import AboutLayout from "../../layouts/About.astro";
 import aboutLinks from "../../utils/aboutLinks";
 import NavigationLinks from "../../components/NavigationLinks.astro";
 import ProseArticle from "../../components/ProseArticle.astro";
 
 const entry = await getEntry("about", "about-3-colophon");
+if (!entry) {
+  return Astro.redirect("/404");
+}
 const { title, lastUpdated } = entry.data;
-const { Content } = await entry.render();
+const { Content } = await render(entry);
 ---
 
 <AboutLayout

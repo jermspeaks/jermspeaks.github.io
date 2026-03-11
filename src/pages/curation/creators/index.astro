@@ -18,7 +18,7 @@ const { heroImage, heroImageAlt } = entry.data;
             <div class="col-span-4 sm:col-span-1">
               <a
                 class="visited:text-amber-600 hover:grayscale"
-                href={`/curation/creators/${entry.slug}`}
+                href={`/curation/creators/${entry.id}`}
               >
                 <img
                   alt={entry.data.heroImageAlt}
@@ -31,7 +31,7 @@ const { heroImage, heroImageAlt } = entry.data;
               <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700">
                 <a
                   class="hover:underline hover:text-purple-500 visited:text-amber-600"
-                  href={`/curation/creators/${entry.slug}`}
+                  href={`/curation/creators/${entry.id}`}
                 >
                   {entry.data.title}
                 </a>

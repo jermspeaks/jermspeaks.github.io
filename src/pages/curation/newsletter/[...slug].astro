@@ -1,5 +1,5 @@
 ---
-import { getCollection } from "astro:content";
+import { getCollection, render } from "astro:content";
 import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
 import FormattedDate from "../../../components/FormattedDate.astro";
 import SeriesPage from "../../../layouts/SeriesPage.astro";
@@ -8,7 +8,7 @@ import type { CollectionEntry } from "astro:content";
 export async function getStaticPaths() {
   const series = await getCollection("series");
   return series.map((s) => ({
-    params: { slug: s.slug },
+    params: { slug: s.id },
     props: s,
   }));
 }
@@ -21,7 +21,7 @@ const posts = (await getCollection("writing")).filter(
     Array.isArray(post.data.tags) && post.data.tags.includes(series.data.tag)
 );
 
-const { Content } = await series.render();
+const { Content } = await render(series);
 ---
 
 <CollectionDetailsPage
@@ -45,7 +45,7 @@ const { Content } = await series.render();
               class="mt-0 lg:mt-0 shrink-0 grow-0 flex-[130px] italic text-slate-600"
               date={post.data.pubDate}
             />
-            <a class="visited:text-amber-600" href={`/blog/${post.slug}/`}>
+            <a class="visited:text-amber-600" href={`/blog/${post.id}/`}>
               {post.data.title}
             </a>
           </li>

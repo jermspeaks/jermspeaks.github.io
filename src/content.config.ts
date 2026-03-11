@@ -1,7 +1,10 @@
-import { defineCollection, reference, z } from "astro:content";
+import { defineCollection, reference } from "astro:content";
+import { z } from "astro/zod";
+import { glob } from "astro/loaders";
 // import { rssSchema } from "@astrojs/rss";
 
 const writing = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/writing" }),
   // Type-check frontmatter using a schema
   schema: ({ image }) =>
     z.object({
@@ -28,6 +31,7 @@ const writing = defineCollection({
 });
 
 const log = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/log" }),
   // Type-check frontmatter using a schema
   schema: z.object({
     previousEntry: reference("log").optional(),
@@ -63,6 +67,7 @@ const log = defineCollection({
 });
 
 const project = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/project" }),
   schema: ({ image }) =>
     z.object({
       // Transform string to Date object
@@ -88,6 +93,7 @@ const project = defineCollection({
 });
 
 const series = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/series" }),
   schema: ({ image }) =>
     z.object({
       // Transform string to Date object
@@ -112,6 +118,7 @@ const series = defineCollection({
 });
 
 const book = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/book" }),
   schema: z.object({
     author: z.string().default("Jeremy Wong"),
     creator: z.string().default("Anonymous"),
@@ -142,6 +149,7 @@ const book = defineCollection({
 });
 
 const antiLibrary = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/antiLibrary" }),
   schema: z.object({
     author: z.string().default("Jeremy Wong"),
     creator: z.string().default("Anonymous"),
@@ -172,6 +180,7 @@ const antiLibrary = defineCollection({
 });
 
 const filmLibrary = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/filmLibrary" }),
   schema: z.object({
     blurb: z.string().optional(),
     country: z.string().optional(),
@@ -205,6 +214,7 @@ const filmLibrary = defineCollection({
 });
 
 const lindy = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/lindy" }),
   schema: z.object({
     creator: z.string().default("Anonymous"),
     author: z.string(),
@@ -230,6 +240,7 @@ const lindy = defineCollection({
 });
 
 const creator = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/creator" }),
   schema: z.object({
     blurb: z.string().optional(),
     creator: z.string(),
@@ -250,6 +261,7 @@ const creator = defineCollection({
 });
 
 const about = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/about" }),
   schema: z.object({
     order: z.number(),
     title: z.string(),
@@ -262,6 +274,7 @@ const about = defineCollection({
 });
 
 const resume = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/resume" }),
   schema: z.object({
     order: z.number(),
     title: z.string(),
@@ -271,6 +284,7 @@ const resume = defineCollection({
 });
 
 const now = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/now" }),
   schema: z.object({
     title: z.string(),
     pubDate: z
@@ -283,6 +297,7 @@ const now = defineCollection({
 });
 
 const curation = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/curation" }),
   schema: z.object({
     draft: z.boolean().optional(),
     heroImage: z.string().optional(),
@@ -295,6 +310,7 @@ const curation = defineCollection({
 });
 
 const classified = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/classified" }),
   schema: z.object({
     draft: z.boolean().optional(),
     expired: z.boolean().optional(),
@@ -312,6 +328,7 @@ const classified = defineCollection({
 });
 
 const inspiration = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/inspiration" }),
   schema: z.object({
     draft: z.boolean().optional(),
     pubDate: z
@@ -329,6 +346,7 @@ const inspiration = defineCollection({
 });
 
 const stream = defineCollection({
+  loader: glob({ pattern: "**/*.(md|mdx)", base: "./src/content/stream" }),
   schema: z.object({
     draft: z.boolean().optional(),
     title: z.string(),
