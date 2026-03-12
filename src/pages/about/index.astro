@@ -27,6 +27,6 @@ const aboutItems = (await getCollection("about")).sort(
   />
   <NavigationLinks slot="navigation" items={aboutLinks} />
   <ProseArticle>
-    {aboutItems.map((about) => <AboutContent {...about} />)}
+    {aboutItems.map((about) => <AboutContent item={about} />)}
   </ProseArticle>
 </AboutLayout>

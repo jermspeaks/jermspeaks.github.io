@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
 import FormattedDate from "./FormattedDate.astro";
 import ProseArticle from "./ProseArticle.astro";
 
@@ -8,15 +9,15 @@ export interface Props {
 }
 
 const { item } = Astro.props;
-const { data, slug } = item;
+const { data, id } = item;
 const { description, pubDate, tags, title } = data;
-const { Content } = await item.render();
+const { Content } = await render(item);
 ---
 
 <div class="prose dark:prose-invert !max-w-none prose-p:m-0">
   <a
     class="my-4 bold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-    href={`/blog/${slug}/`}
+    href={`/blog/${id}/`}
   >
     {title}
   </a>
@@ -40,7 +41,7 @@ const { Content } = await item.render();
   <div>
     <a
       class="my-4 bold text-yellow-800 dark:text-yellow-500 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-      href={`/blog/${slug}/`}
+      href={`/blog/${id}/`}
     >
       Read More
     </a>

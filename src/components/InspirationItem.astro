@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
 import ProseArticle from "./ProseArticle.astro";
 import FormattedDate from "./FormattedDate.astro";
 
@@ -9,13 +10,13 @@ export interface Props {
 
 const { item } = Astro.props;
 const { title, pubDate, updatedDate } = item.data;
-const { Content } = await item.render();
+const { Content } = await render(item);
 ---
 
 <li class="rounded-lg px-0 py-2 sm:px-6 sm:py-4">
   <ProseArticle>
     <div class="p-0 text-slate-700 dark:text-slate-100">
-      <h2><a href={`/curation/inspiration/${item.slug}`}>{title}</a></h2>
+      <h2><a href={`/curation/inspiration/${item.id}`}>{title}</a></h2>
       {
         updatedDate ? (
           <FormattedDate

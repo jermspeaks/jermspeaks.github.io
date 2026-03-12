@@ -1,5 +1,5 @@
 ---
-import { getCollection, getEntry } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import CollectionDetailsPage from "../../../layouts/CollectionDetailsPage.astro";
 import LogPost from "../../../layouts/LogPost.astro";
 import type { CollectionEntry } from "astro:content";
@@ -7,7 +7,7 @@ import type { CollectionEntry } from "astro:content";
 export async function getStaticPaths() {
   const posts = await getCollection("log");
   return posts.map((post) => ({
-    params: { slug: post.slug },
+    params: { slug: post.id },
     props: post,
   }));
 }
@@ -17,14 +17,21 @@ const post = Astro.props;
 let previousEntry: Props | null = null;
 let nextEntry: Props | null = null;
 
-if (post.data.previousEntry) {
-  previousEntry = await getEntry(post.data.previousEntry);
-}
-if (post.data.nextEntry) {
-  nextEntry = await getEntry(post.data.nextEntry);
+function entryId(ref: string | { collection: string; id: string } | undefined): string | undefined {
+  if (ref == null) return undefined;
+  return typeof ref === "string" ? ref : ref.id;
 }
 
-const { Content } = await post.render();
+const prevId = entryId(post.data.previousEntry);
+const nextId = entryId(post.data.nextEntry);
+if (prevId) {
+  previousEntry = await getEntry("log", prevId) ?? null;
+}
+if (nextId) {
+  nextEntry = await getEntry("log", nextId) ?? null;
+}
+
+const { Content } = await render(post);
 ---
 
 <CollectionDetailsPage
@@ -41,14 +48,14 @@ const { Content } = await post.render();
     <div class="flex justify-between">
       {
         previousEntry && (
-          <a href={`/curation/log/${previousEntry.slug}`}>
+          <a href={`/curation/log/${previousEntry.id}`}>
             ⬅️ Previous: {previousEntry.data.title}
           </a>
         )
       }
       {
         nextEntry && (
-          <a href={`/curation/log/${nextEntry.slug}`}>Next: {nextEntry.data.title} ➡️</a>
+          <a href={`/curation/log/${nextEntry.id}`}>Next: {nextEntry.data.title} ➡️</a>
         )
       }
     </div>

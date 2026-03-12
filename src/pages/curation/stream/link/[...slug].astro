@@ -1,25 +1,25 @@
 ---
-import { getCollection, getEntry } from "astro:content";
+import { getCollection, getEntry, render } from "astro:content";
 import CurationDetailsPage from "../../../../layouts/CurationDetailsPage.astro";
 import FormattedDate from "../../../../components/FormattedDate.astro";
 import ProseArticle from "../../../../components/ProseArticle.astro";
 import type { CollectionEntry } from "astro:content";
 
-// Grab the curation entry for streams
 const entry = await getEntry("curation", "stream");
+if (!entry) return Astro.redirect("/404");
 const { heroImage, heroImageAlt } = entry.data;
 
 export async function getStaticPaths() {
   const stream = await getCollection("stream");
   return stream.map((s) => ({
-    params: { slug: s.slug },
+    params: { slug: s.id },
     props: s,
   }));
 }
 type Props = CollectionEntry<"stream">;
 
 const stream = Astro.props;
-const { Content } = await stream.render();
+const { Content } = await render(stream);
 ---
 
 <CurationDetailsPage
@@ -33,7 +33,7 @@ const { Content } = await stream.render();
 >
   <ProseArticle class="prose-headings:mt-0">
     <div class="mb-8 text-slate-700 dark:text-slate-100">
-      <h2 id={stream.slug}>{stream.data.title}</h2>
+      <h2 id={stream.id}>{stream.data.title}</h2>
       <div class="col-span-2 italic">
         Published <FormattedDate
           date={stream.data.pubDate}

@@ -33,6 +33,12 @@ export default defineConfig({
   },
   vite: {
     plugins: [tailwindcss()],
+    ssr: {
+      noExternal: ["bits-ui", "@lucide/svelte", "lucide-svelte", "svelte-toolbelt"],
+    },
+    resolve: {
+      noExternal: ["bits-ui", "@lucide/svelte", "lucide-svelte", "svelte-toolbelt"],
+    },
   },
   integrations: [
     AutoImport({

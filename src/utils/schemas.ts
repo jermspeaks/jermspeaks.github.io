@@ -16,11 +16,11 @@ export function generateWritingPieceSchema(post: WritingPiece) {
     datePublished: post.data.pubDate,
     dateModified: post.data.updatedDate || post.data.pubDate,
     keywords: post.data.tags?.join(", "),
-    url: `https://craftbyzen.com/blog/${post.slug}`,
+    url: `https://craftbyzen.com/blog/${post.id}`,
     image: post.data.heroImage || "",
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://craftbyzen.com/blog/${post.slug}`,
+      "@id": `https://craftbyzen.com/blog/${post.id}`,
     },
   };
 }
@@ -44,7 +44,7 @@ export function generateWritingListSchema(posts: any[]) {
             "url": "https://craftbyzen.com/"
           },
           "datePublished": post.data.pubDate,
-          "url": `https://craftbyzen.com/blog/${post.slug}`
+          "url": `https://craftbyzen.com/blog/${post.id}`
         }
       }))
     }

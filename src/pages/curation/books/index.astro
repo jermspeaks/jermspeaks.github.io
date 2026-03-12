@@ -18,7 +18,7 @@ const { heroImage, heroImageAlt } = entry?.data ?? {};
             <div class="shrink-0 grow-0 flex-initial sm:w-32">
               <a
                 class="visited:text-amber-600 hover:grayscale"
-                href={`/curation/books/${book.slug}`}
+                href={`/curation/books/${book.id}`}
               >
                 <img
                   alt={book.data.heroImageAlt}
@@ -31,7 +31,7 @@ const { heroImage, heroImageAlt } = entry?.data ?? {};
               <div class="mb-2 border-b-2 border-gray-300 dark:border-gray-700">
                 <a
                   class="visited:text-amber-600 hover:text-purple-500"
-                  href={`/curation/books/${book.slug}`}
+                  href={`/curation/books/${book.id}`}
                 >
                   {book.data.title}
                 </a>

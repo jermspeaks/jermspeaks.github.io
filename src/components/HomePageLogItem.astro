@@ -1,5 +1,6 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
 import FormattedDate from "./FormattedDate.astro";
 import ProseArticle from "./ProseArticle.astro";
 
@@ -8,10 +9,10 @@ export interface Props {
 }
 
 const { item } = Astro.props;
-const { data, slug } = item;
+const { data, id } = item;
 const { pubDate, updatedDate, title, description, heroImage, heroImageAlt } =
   data;
-const { Content } = await item.render();
+const { Content } = await render(item);
 ---
 
 <div
@@ -23,7 +24,7 @@ const { Content } = await item.render();
     >
       <a
         class="my-4 bold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-        href={`/curation/log/${slug}`}
+        href={`/curation/log/${id}`}
       >
         {title}
       </a>
@@ -71,7 +72,7 @@ const { Content } = await item.render();
   <div class="col-span-3 sm:col-span-2">
     <a
       class="visited:text-amber-600 hover:grayscale"
-      href={`/curation/log/${slug}`}
+      href={`/curation/log/${id}`}
     >
       <img src={heroImage} class="aspect-auto w-full" alt={heroImageAlt} />
     </a>

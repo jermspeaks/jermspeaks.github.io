@@ -1,10 +1,14 @@
 ---
 import type { CollectionEntry } from "astro:content";
+import { render } from "astro:content";
 
-type Props = CollectionEntry<"about">;
+type Props = {
+  item: CollectionEntry<"about">;
+};
 
-const { data, render } = Astro.props;
-const { Content } = await render();
+const { item } = Astro.props;
+const { data } = item;
+const { Content } = await render(item);
 ---
 
 <section>
