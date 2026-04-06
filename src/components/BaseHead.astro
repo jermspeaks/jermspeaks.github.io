@@ -30,6 +30,7 @@ const {
 } = Astro.props;
 
 const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
+const base = import.meta.env.BASE_URL;
 ---
 
 <!-- Global Metadata -->
@@ -37,10 +38,11 @@ const umamiTrackingCode = import.meta.env.PUBLIC_UMAMI_TRACKING_CODE;
 <meta name="viewport" content="width=device-width,initial-scale=1" />
 <link
   rel="icon"
-  href="/favicon.ico"
+  href={`${base}favicon.ico`}
   sizes="48x48"
+  type="image/x-icon"
 /><!-- REVISED (Aug 11, 2023)! -->
-<link rel="icon" href="/favicon.svg" type="image/svg+xml" sizes="any" />
+<link rel="icon" href={`${base}favicon.svg`} type="image/svg+xml" sizes="any" />
 <meta name="generator" content={Astro.generator} />
 <link rel="sitemap" href="/sitemap-index.xml" />
 
