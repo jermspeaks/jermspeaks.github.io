@@ -36,49 +36,51 @@ const { titles, title, description, image, srcImage, imageAlt } = Astro.props;
   </head>
   <BaseBody>
     <Header />
-    <main class="max-w-[120ch] mx-auto">
-      <TitleHeading>
-        <span
-          class="text-slate-700 hover:underline hover:text-purple-500 dark:text-slate-300 dark:hover:text-slate-500"
-        >
-          <a href="/curation">Curation</a>
-        </span>
-        {
-          titles ? (
-            titles.map((t) => {
-              if (t.link) {
+    <main>
+      <div class="mx-auto max-w-xl md:max-w-2xl">
+        <TitleHeading>
+          <span
+            class="text-slate-700 hover:underline hover:text-purple-500 dark:text-slate-300 dark:hover:text-slate-500"
+          >
+            <a href="/curation">Curation</a>
+          </span>
+          {
+            titles ? (
+              titles.map((t) => {
+                if (t.link) {
+                  return (
+                    <>
+                      <span class="text-slate-800 dark:text-slate-300">
+                        &nbsp;/&nbsp;
+                      </span>
+                      <span class="text-slate-700 hover:underline hover:text-purple-500 dark:text-slate-300 dark:hover:text-slate-500">
+                        <a href={t.link}>{t.title}</a>
+                      </span>
+                    </>
+                  );
+                }
                 return (
                   <>
                     <span class="text-slate-800 dark:text-slate-300">
                       &nbsp;/&nbsp;
                     </span>
-                    <span class="text-slate-700 hover:underline hover:text-purple-500 dark:text-slate-300 dark:hover:text-slate-500">
-                      <a href={t.link}>{t.title}</a>
-                    </span>
+                    <span>{t.title}</span>
                   </>
                 );
-              }
-              return (
-                <>
-                  <span class="text-slate-800 dark:text-slate-300">
-                    &nbsp;/&nbsp;
-                  </span>
-                  <span>{t.title}</span>
-                </>
-              );
-            })
-          ) : (
-            <>
-              <span class="text-slate-800 dark:text-slate-300">
-                &nbsp;/&nbsp;
-              </span>
-              <span>{title}</span>
-            </>
-          )
-        }
-      </TitleHeading>
+              })
+            ) : (
+              <>
+                <span class="text-slate-800 dark:text-slate-300">
+                  &nbsp;/&nbsp;
+                </span>
+                <span>{title}</span>
+              </>
+            )
+          }
+        </TitleHeading>
+      </div>
       <slot />
-      <Footer />
     </main>
+    <Footer />
   </BaseBody>
 </html>

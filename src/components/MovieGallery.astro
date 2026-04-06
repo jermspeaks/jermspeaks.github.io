@@ -24,12 +24,12 @@ const { movies = [] } = Astro.props;
               class="w-full h-auto object-cover"
             />
           ) : (
-            <div class="not-prose bg-gray-300 w-full h-0 pb-[150%] flex items-center justify-center">
+            <div class="bg-gray-300 w-full h-0 pb-[150%] flex items-center justify-center">
               <span class="text-gray-600">No Poster Available</span>
             </div>
           )}
           <div class="absolute inset-0 bg-black/0 group-hover:bg-black/60 transition-opacity duration-300 flex items-end justify-center">
-            <h3 class="not-prose text-white md:text-lg font-semibold p-0.5 md:p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+            <h3 class="text-white md:text-lg font-semibold p-0.5 md:p-4 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
               {movie.title}
             </h3>
           </div>

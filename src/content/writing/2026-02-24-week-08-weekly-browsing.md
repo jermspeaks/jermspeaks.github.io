@@ -10,37 +10,30 @@ title: "2026 Week 08 - Weekly Browsing"
 
 Here's the top few items that I wanted to share from this past week's finds.
 
-[OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw)
+- [OpenClaw, OpenAI and the future](https://steipete.me/posts/2026/openclaw)
+  - Peter Steinberger, creator of OpenClaw, joined OpenAI. See the [tweet](https://x.com/steipete/status/2023154018714100102).
 
-Peter Steinberger, creator of OpenClaw, joined OpenAI. See the [tweet](https://x.com/steipete/status/2023154018714100102).
+- [OpenCode | The open source AI coding agent](https://opencode.ai/)
+  - I'm finally trying this out this week. I'll report back if I like it.
 
-[OpenCode | The open source AI coding agent](https://opencode.ai/)
+- [An AI Agent Published a Hit Piece on Me – The Shamblog](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
+  - I knew I read this one recently. Absolutely fascinating that it happened, and absolutely terrifying of where we're going next.
 
-I'm finally trying this out this week. I'll report back if I like it.
+- Steve Yegge talking about [The AI Vampire](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163). The Agentic Anxiety is real.
 
-[An AI Agent Published a Hit Piece on Me – The Shamblog](https://theshamblog.com/an-ai-agent-published-a-hit-piece-on-me/)
+- [Radix UI vs Base UI - Detailed Guide](https://shadcnspace.com/blog/radix-ui-vs-base-ui)
+  - Also something for me to explore. Headless UI components are all the rave.
 
-I knew I read this one recently. Absolutely fascinating that it happened, and absolutely terrifying of where we're going next.
+- [Why Designers Can No Longer Trust the Design Process - YouTube](https://youtube.com/watch?v=4u94juYwLLM)
+  - A re-watch for me where Jenny Wen talks about breaking away from the common knowledge design process.
 
-Steve Yegge talking about [The AI Vampire](https://steve-yegge.medium.com/the-ai-vampire-eda6e4f07163). The Agentic Anxiety is real.
+- [Extract Value From the "Process" Layer of Your Notes](https://www.eleanoroohkonik.com/p/extract-value-from-the-process-layer)
+  - I've got more to say about this one. I'm currently working through making my own process layer.
 
-[Radix UI vs Base UI - Detailed Guide](https://shadcnspace.com/blog/radix-ui-vs-base-ui)
+- [Why Is My Smart Home So Fucking Dumb? - Gizmodo](https://gizmodo.com/why-is-my-smart-home-so-fucking-dumb-1684949715)
+  - An oldie, but still a goodie.
 
-Also something for me to explore. Headless UI components are all the rave.
-
-[Why Designers Can No Longer Trust the Design Process - YouTube](https://youtube.com/watch?v=4u94juYwLLM)
-
-A re-watch for me where Jenny Wen talks about breaking away from the common knowledge design process.
-
-[Extract Value From the "Process" Layer of Your Notes](https://www.eleanoroohkonik.com/p/extract-value-from-the-process-layer)
-
-I've got more to say about this one. I'm currently working through making my own process layer.
-
-[Why Is My Smart Home So Fucking Dumb? - Gizmodo](https://gizmodo.com/why-is-my-smart-home-so-fucking-dumb-1684949715)
-
-An oldie, but still a goodie.
-
-[sceneitsf.com - film locations SF](https://sceneitsf.com/)
+- [sceneitsf.com - film locations SF](https://sceneitsf.com/)
 
 Obits:
 

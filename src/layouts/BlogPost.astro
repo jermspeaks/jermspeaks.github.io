@@ -13,7 +13,7 @@ type Props = CollectionEntry<"writing">["data"];
 
 const series = (await getCollection("series")).sort(
   (a: CollectionEntry<"series">, b: CollectionEntry<"series">) =>
-    b.data.createdDate.valueOf() - a.data.createdDate.valueOf()
+    b.data.createdDate.valueOf() - a.data.createdDate.valueOf(),
 );
 
 const {
@@ -32,11 +32,11 @@ const {
 const hasUpdatedDate = updatedDate && updatedDate !== pubDate;
 const isNewsletter = tags.includes("newsletter");
 const newsletterSeriesTag = tags.filter((tag: string) =>
-  tag.startsWith("season_")
+  tag.startsWith("season_"),
 )?.[0];
 const newsletterSeries =
   series.find(
-    (s: CollectionEntry<"series">) => s.data.tag === newsletterSeriesTag
+    (s: CollectionEntry<"series">) => s.data.tag === newsletterSeriesTag,
   ) ?? null;
 const { slug: newsletterSeriesSlug, data: newsletterSeriesData } =
   newsletterSeries ?? {};
@@ -93,10 +93,10 @@ const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
             </figure>
           )
         }
-        <div class="md:flex md:gap-4">
-          <p>📖 {minutesRead}</p>
-          <p class="hidden md:block">•</p>
-          <p>
+        <div class="prose-measure mt-2 md:flex md:gap-4 md:items-baseline">
+          <p class="mt-0 mb-0">📖 {minutesRead}</p>
+          <p class="mt-0 mb-0 hidden md:block">•</p>
+          <p class="mt-0 mb-0">
             🔖{
               tags.map((tag: string, index: number) =>
                 // if last item, don't add a space
@@ -119,14 +119,14 @@ const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
                     </a>
                     &nbsp;
                   </>
-                )
+                ),
               )
             }
           </p>
         </div>
         <slot />
         <hr />
-        <div class="italic dark:text-slate-300">
+        <div class="prose-measure italic dark:text-slate-300">
           {
             hasUpdatedDate ? (
               <p>
@@ -168,7 +168,7 @@ const newsletterSeriesTitle = newsletterSeriesData?.title ?? "";
                 method="post"
                 target="popupwindow"
                 onsubmit="window.open('https://buttondown.email/craftbyzen', 'popupwindow')"
-                class="embeddable-buttondown-form flex flex-col gap-2 sm:w-[50%]"
+                class="embeddable-buttondown-form prose-measure flex max-w-full flex-col gap-2"
               >
                 <label
                   class="text-slate-800 dark:text-slate-200 text-sm"

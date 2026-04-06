@@ -12,12 +12,12 @@ const { pubDate, title, heroImage, heroImageAlt, blurb, author } = data;
 ---
 
 <div
-  class="prose dark:prose-invert !max-w-none prose-p:m-0 grid grid-cols-8 gap-2 mb-6 md:mb-0 rounded-xs box-border dark:text-white"
+  class="max-w-none grid grid-cols-8 gap-2 mb-6 md:mb-0 rounded-xs box-border dark:text-white"
 >
   <div class="col-span-5 sm:col-span-6 md:py-0 md:px-0 md:mt-0">
     <div class="mb-2">
       <a
-        class="my-4 bold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+        class="text-lg md:text-xl font-semibold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
         href={`/curation/antibooks/${slug}`}
       >
         {title}
@@ -35,7 +35,7 @@ const { pubDate, title, heroImage, heroImageAlt, blurb, author } = data;
     </div>
     <div class="mt-2 dark:text-slate-100">
       {blurb}
-      <div class="prose dark:prose-invert !max-w-none">
+      <div class="max-w-none mt-2 dark:text-white">
         <span
           >Filed: 📖 <a
             class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"

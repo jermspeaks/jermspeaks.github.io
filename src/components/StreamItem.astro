@@ -15,14 +15,14 @@ const { Content } = await render(item);
 ---
 
 <li class="px-0 py-4">
-  <ProseArticle class="prose-headings:mt-0">
+  <ProseArticle class="prose--headings-mt-0">
     <div
       class="grid grid-cols-1 md:grid-cols-8 gap-2 mb-8 text-slate-700 dark:text-slate-100"
     >
       <div class="col-span-8">
-        <div id={id} class="text-md md:text-lg">
+        <div id={id}>
           <a
-            class="no-underline hover:underline hover:text-purple-500"
+            class="text-lg md:text-xl font-semibold no-underline hover:underline hover:text-purple-500"
             href={`/curation/stream/link/${id}`}>{title}</a
           >
         </div>
