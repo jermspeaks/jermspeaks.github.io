@@ -27,3 +27,35 @@ I love using Futura when I have time to go to the letterpress shop at [San Franc
 ### Timestamps
 
 All timestamps are in `America/Los_Angeles` timezone. This is because I am predominantly U.S. West coast-based, so PST/PDT is where all of my posts are central to. There are some exceptions when it comes to content I've written in other parts of the world. I've been flip-flopping, deciding whether or not showcasing the time things were posted are important, but for now, we will leave this as a footnote.
+
+### Design system
+
+This section documents the tokens and layout conventions used on the site. Long-form markdown is styled with the `.prose` classes in [`src/styles/global.css`](https://github.com/jermspeaks/jermspeaks.github.io/blob/main/src/styles/global.css) instead of the Tailwind Typography plugin.
+
+**Type.** Body copy uses Brother 1816 (see above). A modular scale is defined as CSS custom properties on `:root`:
+
+| Token | Default (mobile) | Wide (≥800px) |
+| ----- | ---------------- | ------------- |
+| `--font-size-1` | 1rem | 1rem |
+| `--font-size-2` | 1.2rem | 1.333rem |
+| `--font-size-3` | 1.44rem | 1.777rem |
+| `--font-size-4` | 1.728rem | 2.369rem |
+| `--font-size-5` | 2.074rem | 3.157rem |
+| `--font-size-6` | 2.488rem | 4.209rem |
+
+The ratio is **1.2** by default and **1.33** from 800px up. Article headings inside `.prose` map to these steps where it makes sense; feed titles on the homepage use explicit Tailwind sizes so they stay larger than excerpts.
+
+**Color.** Base palette variables (also in `:root`):
+
+- `--color-page-bg` — page background (`#f9f4ef` light; dark mode uses `#1C1B1A`)
+- `--color-content` — primary text on the older variable-based flow (`#444`)
+- `--color-header` — `#222`
+- `--color-link` — `#3273dc`
+- `--color-code-bg` — `#f2f2f2`
+- `--color-blockquote-border` / `--color-blockquote-content` — blockquote chrome
+
+Many screens also use Tailwind’s slate/gray scales and **interaction** accents that are not yet variables: hover links often shift to purple (`text-purple-500` / `dark:text-purple-400`), visited links to amber/purple depending on context.
+
+**Layout.** The main feed column is `max-w-xl` with `md:max-w-2xl`, centered (`mx-auto`), matching [`HomePagePosts.astro`](https://github.com/jermspeaks/jermspeaks.github.io/blob/main/src/components/HomePagePosts.astro).
+
+**Source of truth.** Global font faces, page background, and the type scale live in `global.css`. Shared UI colors and radii extend the Tailwind theme in `tailwind.config.js`. The colophon is the human-readable contract for those files; if they drift, update this section.

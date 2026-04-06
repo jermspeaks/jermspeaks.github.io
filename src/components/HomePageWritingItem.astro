@@ -10,13 +10,13 @@ export interface Props {
 
 const { item } = Astro.props;
 const { data, id } = item;
-const { description, pubDate, tags, title } = data;
+const { pubDate, tags, title } = data;
 const { Content } = await render(item);
 ---
 
-<div class="prose dark:prose-invert !max-w-none prose-p:m-0">
+<div class="max-w-none dark:text-white">
   <a
-    class="my-4 bold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+    class="text-lg md:text-xl font-semibold my-4 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300 inline-block"
     href={`/blog/${id}/`}
   >
     {title}
@@ -28,34 +28,23 @@ const { Content } = await render(item);
       options={{ hour: "numeric", minute: "numeric" }}
     />
   </div>
-  <!-- <p class="text-slate-800 dark:text-slate-300">
-    <i>{description}</i>
-  </p> -->
 </div>
-<ProseArticle
-  class="lg:prose !max-w-none prose-p:m-0 line-clamp-8 md:line-clamp-10"
->
+<ProseArticle class="prose--compact line-clamp-8 md:line-clamp-10">
   <Content />
 </ProseArticle>
-<div class="prose dark:prose-invert flex gap-4">
+<div class="flex gap-4 dark:text-white">
   <div>
     <a
-      class="my-4 bold text-yellow-800 dark:text-yellow-500 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+      class="my-4 font-semibold text-yellow-800 dark:text-yellow-500 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
       href={`/blog/${id}/`}
     >
       Read More
     </a>
-    <!-- <span
-      >Filed: ✍🏼 <a
-        class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-        href="/blog">Writing</a
-      ></span
-    > -->
   </div>
   <div class="flex gap-2">
     {
       Array.isArray(tags) &&
-        tags.map((tag: string, index: number) => (
+        tags.map((tag: string) => (
           <a
             class="text-slate-600 dark:text-slate-400 italic font-light hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
             href={`/blog/tag/${tag}`}

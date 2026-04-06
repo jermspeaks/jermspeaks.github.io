@@ -14,9 +14,9 @@ const { title, tags } = data;
 const { Content } = await render(item);
 ---
 
-<div class="prose dark:prose-invert !max-w-none">
+<div class="max-w-none dark:text-white">
   <a
-    class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+    class="text-lg md:text-xl font-semibold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
     href={`/curation/stream/link/${id}`}>{title}</a
   >
   <div class="text-xs italic mb-2 text-slate-600 dark:text-slate-400">
@@ -29,19 +29,11 @@ const { Content } = await render(item);
 <ProseArticle>
   <Content />
 </ProseArticle>
-<div class="prose dark:prose-invert">
-  <!-- <div class="col-span-8 md:col-span-4 lg:col-span-2">
-    <span
-      >Filed: 🚰 <a
-        class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-        href="/curation/stream">Stream</a
-      ></span
-    >
-  </div> -->
+<div class="dark:text-white">
   <div class="pt-2 flex gap-2">
     {
       Array.isArray(tags) &&
-        tags.map((tag: string, index: number) => (
+        tags.map((tag: string) => (
           <a
             class="text-slate-600 dark:text-slate-400 italic font-light hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
             href={`/blog/tag/${tag}`}

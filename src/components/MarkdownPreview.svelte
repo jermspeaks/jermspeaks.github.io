@@ -132,7 +132,7 @@
 
   {#if isPreviewMode}
     <div
-      class="preview not-prose w-full h-[500px] p-4 border border-gray-200 rounded-sm overflow-auto"
+      class="preview w-full h-[500px] p-4 border border-gray-200 rounded-sm overflow-auto"
     >
       {@html renderedOutput}
     </div>

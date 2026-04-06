@@ -25,7 +25,7 @@ const resumeItems = (await getCollection("resume"))
   updatedDate={new Date("June 14, 2024")}
 >
   <NavigationLinks slot="navigation" items={aboutLinks} />
-  <ProseArticle class="prose-headings:mt-4 prose-headings:mb-0 prose-p:m-0">
+  <ProseArticle class="prose--headings-mt-4-mb-0 prose--compact">
     <h1><strong>Jeremy Wong</strong></h1>
     {resumeItems.slice(0, 6).map((resume) => <ResumeContent headingLevel={2} item={resume} />)}
 

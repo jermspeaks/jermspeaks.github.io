@@ -5,7 +5,7 @@ import FormattedDate from "./FormattedDate.astro";
 import ProseArticle from "./ProseArticle.astro";
 
 export interface Props {
-  item: CollectionEntry<"writing">;
+  item: CollectionEntry<"log">;
 }
 
 const { item } = Astro.props;
@@ -20,10 +20,10 @@ const { Content } = await render(item);
 >
   <div class="col-span-5 sm:col-span-6">
     <div
-      class="prose dark:prose-invert !max-w-none prose-p:m-0 line-clamp-4 md:line-clamp-5"
+      class="max-w-none line-clamp-4 md:line-clamp-5"
     >
       <a
-        class="my-4 bold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+        class="text-lg md:text-xl font-semibold my-4 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300 inline-block"
         href={`/curation/log/${id}`}
       >
         {title}
@@ -50,15 +50,13 @@ const { Content } = await render(item);
         }
       </div>
     </div>
-    <ProseArticle class="lg:prose !max-w-none line-clamp-4 md:line-clamp-5">
-      {description}
+    <ProseArticle class="prose--compact line-clamp-4 md:line-clamp-5">
+      <p>{description}</p>
     </ProseArticle>
-    <ProseArticle class="lg:prose !max-w-none line-clamp-4 md:line-clamp-5">
+    <ProseArticle class="prose--compact line-clamp-4 md:line-clamp-5">
       <Content />
     </ProseArticle>
-    <div
-      class="grid grid-cols-8 gap-0 md:gap-4 prose dark:prose-invert !max-w-none"
-    >
+    <div class="grid grid-cols-8 gap-0 md:gap-4 max-w-none dark:text-white">
       <div class="col-span-8 md:col-span-4 lg:col-span-2">
         <span
           >Filed: 🪵 <a

@@ -57,36 +57,9 @@ const config = {
       fontFamily: {
         sans: [...fontFamily.sans],
       },
-      typography: {
-        quoteless: {
-          css: {
-            blockquote: {
-              borderLeft: "none",
-              paddingLeft: "0",
-              position: "relative",
-            },
-            "blockquote p:first-of-type::before": {
-              content: "'\"'",
-              fontSize: "3rem",
-              color: "#dc2626",
-              fontWeight: "bold",
-              position: "absolute",
-              top: "-0.5rem",
-              left: "-0.5rem",
-              lineHeight: "1",
-              fontFamily: "\"Brother 1816\", Verdana, sans-serif",
-            },
-            "blockquote p:first-of-type::after": { content: "none" },
-            "blockquote p:first-of-type": {
-              paddingLeft: "2rem",
-              marginTop: "1rem",
-            },
-          },
-        },
-      },
     },
   },
-  plugins: [require("@tailwindcss/typography")],
+  plugins: [],
 };
 
 export default config;

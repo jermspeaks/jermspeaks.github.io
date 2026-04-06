@@ -5,58 +5,32 @@ import FormattedDate from "./FormattedDate.astro";
 import ProseArticle from "./ProseArticle.astro";
 
 export interface Props {
-  item: CollectionEntry<"writing">;
+  item: CollectionEntry<"now">;
 }
 
 const { item } = Astro.props;
 const { data, id } = item;
-const { pubDate, updatedDate, title } = data;
+const { pubDate, title } = data;
 const { Content } = await render(item);
 ---
 
-<div
-  class="prose dark:prose-invert !max-w-none prose-p:m-0 line-clamp-4 md:line-clamp-5"
->
+<div class="max-w-none dark:text-white line-clamp-4 md:line-clamp-5">
   <a
-    class="my-4 bold hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
+    class="text-lg md:text-xl font-semibold my-4 hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300 inline-block"
     href={`/about/now#${id}`}
   >
     {title}
   </a>
   <div class="text-xs italic mb-2 text-slate-600 dark:text-slate-400">
-    {
-      updatedDate ? (
-        <FormattedDate
-          class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
-          date={updatedDate}
-          options={{ hour: "numeric", minute: "numeric" }}
-        >
-          <span slot="prepend">Last Updated:&nbsp;</span>
-        </FormattedDate>
-      ) : (
-        <FormattedDate
-          class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
-          date={pubDate}
-          options={{ hour: "numeric", minute: "numeric" }}
-        >
-          <span slot="prepend">Published:&nbsp;</span>
-        </FormattedDate>
-      )
-    }
+    <FormattedDate
+      class="col-span-8 md:col-span-3 lg:col-span-2 italic text-slate-600 dark:text-slate-300"
+      date={pubDate}
+      options={{ hour: "numeric", minute: "numeric" }}
+    >
+      <span slot="prepend">Published:&nbsp;</span>
+    </FormattedDate>
   </div>
 </div>
-<ProseArticle class="lg:prose !max-w-none line-clamp-8 md:line-clamp-10">
+<ProseArticle class="prose--compact line-clamp-8 md:line-clamp-10">
   <Content />
 </ProseArticle>
-<!-- <div
-  class="grid grid-cols-8 gap-0 md:gap-4 prose dark:prose-invert !max-w-none"
->
-  <div class="col-span-8 md:col-span-4 lg:col-span-2">
-    <span
-      >Filed: ⌚ <a
-        class="hover:underline hover:text-purple-500 visited:text-amber-600 dark:visited:text-purple-300"
-        href="/about/now">Now</a
-      ></span
-    >
-  </div>
-</div> -->

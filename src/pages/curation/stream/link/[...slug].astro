@@ -31,8 +31,8 @@ const { Content } = await render(stream);
     { title: stream.data.title },
   ]}
 >
-  <ProseArticle class="prose-headings:mt-0">
-    <div class="mb-8 text-slate-700 dark:text-slate-100">
+  <ProseArticle class="prose--headings-mt-0">
+    <div class="mx-auto max-w-xl md:max-w-2xl mb-8 text-slate-700 dark:text-slate-100">
       <h2 id={stream.id}>{stream.data.title}</h2>
       <div class="col-span-2 italic">
         Published <FormattedDate

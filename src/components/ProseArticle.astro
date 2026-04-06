@@ -4,15 +4,15 @@ import type { HTMLAttributes } from "astro/types";
 type Props = HTMLAttributes<"article">;
 
 const { class: className } = Astro.props;
+const cn = typeof className === "string" ? className : "";
+const useLg = !cn.includes("prose--base");
 ---
 
 <article
   class:list={[
-    "prose prose-quoteless dark:prose-invert prose-img:mt-0 prose-img:mb-0 prose-figcaption:mt-0 prose-a:hover:text-purple-500",
-    {
-      ["mx-auto"]: !className?.includes("mx-0"),
-      ["lg:prose"]: !className?.includes("lg:prose"), 
-    },
+    "prose",
+    { "prose--lg": useLg },
+    { "max-w-xl md:max-w-2xl mx-auto": !cn.includes("mx-0") },
     className,
   ]}
 >
